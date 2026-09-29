@@ -1,0 +1,27 @@
+---
+pagetitle: "Lesson 1 — Random variables"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_define-the-variable.qmd >}}
+
+{{< include lesson-1/_two-types.qmd >}}
+
+{{< include lesson-1/_example-3-1.qmd >}}
+
+{{< include lesson-1/_precision.qmd >}}
+
+{{< include lesson-1/_classification-check.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_example-3-2.qmd >}}
+
+{{< include lesson-1/_four-coins.qmd >}}
+
+{{< include lesson-1/_example-3-3.qmd >}}
+
+{{< include lesson-1/_recap.qmd >}}
+
+{{< include lesson-1/_homework.qmd >}}

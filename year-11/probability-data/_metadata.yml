@@ -1,0 +1,27 @@
+format:
+  revealjs:
+    theme: simple
+    css: ../../assets/lesson.css
+    include-after-body:
+      text: |
+        <script src="../../assets/lesson.js"></script>
+    width: 1280
+    height: 800
+    margin: 0.09
+    center: false
+    transition: none
+    background-transition: none
+    controls: false
+    touch: false
+    hash: true
+    history: true
+    slide-number: c/t
+    progress: true
+    menu: false
+    overview: true
+    title-slide: false
+    embed-resources: true
+    self-contained-math: true
+    html-math-method: katex
+    navigation-mode: linear
+    slide-level: 2

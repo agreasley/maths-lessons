@@ -1,0 +1,14 @@
+## Example 3.14 · Fifty rolls of a die {#l3-example-3-14-table .compact}
+
+```{=html}
+<div data-module="table" data-set="dice" data-columns="rf"></div>
+```
+
+
+a) Calculate the relative frequency of each outcome.
+b) Estimate $P(X=4)$ and $P(X>3)$.
+<p class="booklet-cue">Booklet p. 50 · Example 3.14 · Complete the working in your booklet.</p>
+
+::: notes
+Frequencies7,5,6,7,8,17 total50. rf=.14,.10,.12,.14,.16,.34. (b)P(X=4)≈7/50=.14; P(X>3)≈(7+8+17)/50=.64. These are experimental estimates; the theoretical fair-die probabilities would be1/6 and1/2.
+:::

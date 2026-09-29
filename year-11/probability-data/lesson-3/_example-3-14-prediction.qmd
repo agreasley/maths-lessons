@@ -1,0 +1,13 @@
+## Example 3.14 · Predict and evaluate {#l3-example-3-14-prediction }
+
+| Outcome, $x$ | 1 | 2 | 3 | 4 | 5 | 6 |
+|:---|---:|---:|---:|---:|---:|---:|
+| Frequency | 7 | 5 | 6 | 7 | 8 | 17 |
+
+c) Use the results to estimate the number of sixes in **800 rolls**.
+d) Compare the experimental distribution with the theoretical distribution of a fair die. Is 50 rolls sufficient to conclude that the die is unfair? Explain.
+<p class="booklet-cue">Booklet p. 50 · Example 3.14 · Complete the working in your booklet.</p>
+
+::: notes
+(c)800×17/50=272, an estimate rather than a guarantee. (d)A fair model gives1/6 for every outcome; observed6-frequency.34 is noticeably higher. This is evidence worth investigating, not logical proof of unfairness. Sample size alone does not decide: check the experimental method, consider chance variation and seek further evidence or an appropriate statistical test. Do not assert that50 observations are automatically too few to be informative. Formal testing is outside this lesson.
+:::

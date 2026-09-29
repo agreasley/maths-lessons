@@ -1,0 +1,17 @@
+## Four columns, four questions {#l2-four-columns }
+
+| Column | Question it answers |
+|:---|:---|
+| Frequency, $f$ | How many have this value? |
+| Relative frequency, $f/n$ | What proportion have this value? |
+| Cumulative frequency, $cf$ | How many are at or below this value? |
+| Cumulative relative frequency, $cf/n$ | What proportion are at or below this value? |
+
+::: {.takeaway}
+Order the values first. The final cumulative frequency is $n$; the final cumulative relative frequency is $1$.
+:::
+<p class="booklet-cue">Booklet p. 38 · Complete the working in your booklet.</p>
+
+::: notes
+For grouped intervals the running total at an upper boundary means values below that boundary under the stated a ≤ x < b convention. Avoid changing < into ≤ for a genuinely continuous boundary.
+:::

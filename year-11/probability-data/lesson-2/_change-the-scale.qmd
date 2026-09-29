@@ -1,0 +1,15 @@
+## Same shape, different vertical scale {#l2-change-the-scale }
+
+```{=html}
+<div data-module="chart" data-set="sheets" data-modes="frequency,relative"></div>
+```
+
+
+
+::: {.takeaway}
+Every height is divided by the same total, $n=32$.
+:::
+
+::: notes
+Switch frequency to relative frequency and keep the polygon selected. Proportions are .125,.25,.375,.1875,.0625. Explain why positive uniform vertical rescaling preserves the shape. The graph axes rescale as well.
+:::

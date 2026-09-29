@@ -1,0 +1,16 @@
+## Example 3.9 · Quiz results {#l2-example-3-9-table }
+
+The table shows quiz results for **40 students**.
+
+| Score, $x$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Frequency, $f$ | 2 | 4 | 2 | 1 | 6 | 8 | 7 | 6 | 2 | 2 |
+| Cumulative frequency | | | | | | | | | | |
+
+a) Complete the cumulative frequency row.
+b) Draw a cumulative frequency histogram and polygon.
+<p class="booklet-cue">Booklet p. 45 · Example 3.9 · Complete the working in your booklet.</p>
+
+::: notes
+Cumulative frequencies2,6,8,9,15,23,30,36,38,40. Unit-width score bins start0.5 and finish10.5. Polygon coordinates:(0.5,0),(1.5,2),(2.5,6),(3.5,8),(4.5,9),(5.5,15),(6.5,23),(7.5,30),(8.5,36),(9.5,38),(10.5,40). Do the table in OneNote before moving to the graph.
+:::

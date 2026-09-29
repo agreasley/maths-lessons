@@ -1,0 +1,15 @@
+## Sixteen outcomes. Five values. {#l1-four-coins }
+
+```{=html}
+<div data-module="outcomes" ></div>
+```
+
+
+
+::: {.takeaway}
+A random variable summarises the outcome.
+:::
+
+::: notes
+The counts for X = 0,1,2,3,4 are 1,4,6,4,1. These are not five equally likely values. Highlight X=2 and count the six strings. Fair independent coins make the 16 strings equally likely.
+:::

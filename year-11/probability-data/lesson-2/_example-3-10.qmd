@@ -1,0 +1,20 @@
+## Example 3.10 · The two middle observations {#l2-example-3-10 .compact}
+
+Consider the dataset **1, 2, 2, 2, 3, 3, 3, 3**.
+
+a) Find the median and mode directly from the ordered list.
+b) Complete the table.
+
+| Value, $x$ | Frequency, $f$ | Cumulative frequency, $cf$ |
+|:---:|:---:|:---:|
+| 1 | 1 | |
+| 2 | 3 | |
+| 3 | 4 | |
+
+c) Explain how the table identifies the fourth and fifth observations.
+d) Draw a frequency histogram and a cumulative frequency polygon, and identify the mode and median on the appropriate graphs.
+<p class="booklet-cue">Booklet p. 46 · Example 3.10 · Complete the working in your booklet.</p>
+
+::: notes
+cf1,4,8. Median(2+3)/2=2.5; mode3. cf4 atx2 means the4th observation is2; the5th is3. Unit-width cumulative polygon points(.5,0),(1.5,1),(2.5,4),(3.5,8). Here the graph at cf4 coincides with2.5; this coincidence does not replace locating both middle observations.
+:::

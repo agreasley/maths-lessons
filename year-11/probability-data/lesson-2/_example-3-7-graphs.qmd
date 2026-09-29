@@ -1,0 +1,19 @@
+## Example 3.7 · Create and compare {#l2-example-3-7-graphs .compact}
+
+**Part 2: Creating the graphs**
+
+a) Select **Score, Frequency (Bar), Frequency (Line)**.
+b) Insert a **Combo Chart**: columns for the histogram and a line for the polygon.
+c) Select **Score** and both **Relative Freq** columns (Ctrl, or Cmd on Mac, for non-adjacent columns).
+d) Insert a second **Combo Chart**.
+
+**Part 3: Analysis**
+
+a) What do you notice about the shapes of the two graphs?
+b) How do their vertical-axis scales differ?
+c) Explain mathematically why the shapes remain identical.
+<p class="booklet-cue">Booklet p. 43 · Example 3.7 · Complete the working in your booklet.</p>
+
+::: notes
+Retains all Part2 and Part3 tasks. Spreadsheet menus differ by app/version. Format columns to touch (zero gap width where supported); otherwise identify the result as a column-chart approximation to a histogram. The prescribed polygon convention also requires zero-frequency endpoints one class beyond each end: here x=0 and x=6. Add these helper rows when the charting app needs explicit endpoints. The booklet dataset itself is unchanged. Total32 means rf=f/32, a uniform rescaling.
+:::

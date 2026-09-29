@@ -1,0 +1,9 @@
+## Try the distinction {#l1-classification-check }
+
+```{=html}
+<div data-module="classifier" ></div>
+```
+
+::: notes
+Use the buttons on each card. Ask students to give the reason before tapping. Winnings are a counterexample to the claim that discrete values must be integers.
+:::

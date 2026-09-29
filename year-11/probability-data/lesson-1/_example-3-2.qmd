@@ -1,0 +1,12 @@
+## Example 3.2 · Outcomes and values {#l1-example-3-2 }
+
+Let $X$ be the number of heads obtained when four fair coins are tossed.
+
+a) List the possible values of $X$.
+b) Explain why $X$ is discrete.
+c) Is the set of values of $X$ the same as the full sample space of the four-coin experiment? Explain.
+<p class="booklet-cue">Booklet p. 36 · Example 3.2 · Complete the working in your booklet.</p>
+
+::: notes
+(a) ${0,1,2,3,4}$. (b) These are separate countable values. (c) No: the sample space has 16 ordered H/T strings. The mapping from outcomes to X is many-to-one. The next slide visualises this without requiring binomial-distribution notation.
+:::

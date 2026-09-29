@@ -1,0 +1,28 @@
+## Example 3.10 · Check both graphs {#l2-median-graphs .compact}
+
+::: {.split }
+::: {.column-block}
+```{=html}
+<div data-module="chart" data-set="median" data-modes="frequency"></div>
+```
+
+
+:::
+
+::: {.column-block}
+```{=html}
+<div data-module="chart" data-set="median" data-modes="cumulative"></div>
+```
+
+
+:::
+:::
+
+
+::: {.takeaway}
+Mode: ordinary frequency. Median: ordered positions or cumulative counts.
+:::
+
+::: notes
+Both panels contain the same eight observations. Add the polygon to each. On the cumulative panel the line at cf4 meetsx2.5. Check this against the exact median already calculated.
+:::

@@ -1,0 +1,7 @@
+## One dataset. Several views. {#l2-opening .cover}
+
+<div class="eyebrow">Year 11 · Probability and data · Lesson 2</div><div class="cover-title">One dataset.<br>Several views.</div><div class="cover-subtitle">Connect frequency tables, histograms and polygons. Locate the mode and the median.</div><div class="cover-bars" aria-hidden="true"><span style="height:30%"></span><span style="height:55%"></span><span style="height:100%"></span><span style="height:75%"></span><span style="height:40%"></span></div><div class="cover-foot">Sections 3.2–3.3 · Examples 3.4–3.11 · Homework 15B</div>
+
+::: notes
+Use the Previous and Next buttons below the slide. Swipe navigation is off. S opens presenter notes on a computer. Worked examples are intended for the booklet and OneNote.
+:::

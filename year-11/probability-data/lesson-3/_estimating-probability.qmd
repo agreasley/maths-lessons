@@ -1,0 +1,35 @@
+## Modelled probability and observed proportion {#l3-estimating-probability }
+
+::: {.split }
+::: {.column-block}
+
+<h3>Theoretical</h3>
+
+Based on a model of the outcomes.
+
+For a fair coin:
+
+$$P(H)=\frac12.$$
+
+:::
+
+::: {.column-block}
+
+<h3>Experimental</h3>
+
+Based on observations.
+
+$$\widehat{P}(H)=\frac{\text{number of heads}}{\text{number of tosses}}.$$
+
+:::
+:::
+
+
+::: {.takeaway}
+Relative frequency is a practical estimate when no simple theoretical model is available.
+:::
+<p class="booklet-cue">Booklet p. 49 · Complete the working in your booklet.</p>
+
+::: notes
+A hat indicates an estimate, not an exact theoretical probability. Coins in the simulator are modelled as fair and independent. Real trials also require stable conditions and a suitable sampling method.
+:::

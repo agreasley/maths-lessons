@@ -1,0 +1,16 @@
+## Example 3.7 · Set up the spreadsheet {#l2-example-3-7-setup .compact}
+
+**Part 1: Setting up the data**
+
+a) Open a new Google Sheet or Excel workbook.
+b) Create three headers: **Score (x)**, **Frequency (Bar)**, **Frequency (Line)**.
+c) Enter scores **1, 2, 3, 4, 5** and frequencies **4, 8, 12, 6, 2**.
+d) Copy the same frequencies into the **Frequency (Line)** column.
+e) Calculate the total frequency below the data.
+f) Add **Relative Freq (Bar)** and **Relative Freq (Line)** columns.
+g) Divide each frequency by the total; fill both new columns. Use an absolute reference such as `$B$7` for the total.
+<p class="booklet-cue">Booklet p. 43 · Example 3.7 · Complete the working in your booklet.</p>
+
+::: notes
+With headers in row1 and data rows2–6, B7=SUM(B2:B6)=32; C2=B2, fill down; D2=B2/$B$7; E2=D2, fill down. Use the original frequency columns and two identical relative-frequency columns. These are the complete Part1 instructions, condensed only in wording.
+:::

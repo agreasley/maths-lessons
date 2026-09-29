@@ -1,0 +1,20 @@
+## Start by defining the quantity {#l1-define-the-variable }
+
+A random variable assigns a **numerical value** to the outcome of a random experiment.
+
+::: {.takeaway}
+Let $X$ be the number of heads obtained when four coins are tossed.
+:::
+
+| Experiment outcome | Value of $X$ |
+|:---|:---:|
+| HHTT | 2 |
+| HTHT | 2 |
+| TTTT | 0 |
+
+Different outcomes can produce the **same value** of the random variable.
+<p class="booklet-cue">Booklet p. 35 · Complete the working in your booklet.</p>
+
+::: notes
+Random variables use capital letters; an observed value uses a lower-case letter. The random variable is a rule on outcomes, not the outcome string itself.
+:::

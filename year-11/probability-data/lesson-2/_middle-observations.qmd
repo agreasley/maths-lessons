@@ -1,0 +1,15 @@
+## Example 3.10 · Locate before calculating {#l2-middle-observations }
+
+```{=html}
+<div data-module="median" ></div>
+```
+
+
+
+::: {.takeaway}
+The median need not be an observed value.
+:::
+
+::: notes
+Use Locate the middle and then Locate the mode. The exact median is2.5 even though the only observed values are1,2,3. Keep the words position and value separate.
+:::

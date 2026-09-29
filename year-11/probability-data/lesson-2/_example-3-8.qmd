@@ -1,0 +1,17 @@
+## Example 3.8 · Lions at the zoo {#l2-example-3-8 .compact}
+
+A student records the number of visible lions on **25 zoo visits**.
+
+| Visible lions, $x$ | 1 | 2 | 3 | 4 | 5 | 6 |
+|:---|---:|---:|---:|---:|---:|---:|
+| Relative frequency | 0.40 | 0 | 0.16 | 0 | 0.12 | 0.32 |
+
+a) Draw a relative frequency histogram and polygon.
+b) Identify the mode.
+c) Estimate $P(X\geq5)$.
+d) Suggest a possible explanation for the pattern and describe what further information would be needed to test it.
+<p class="booklet-cue">Booklet p. 44 · Example 3.8 · Complete the working in your booklet.</p>
+
+::: notes
+Mode1. P(X≥5)=.12+.32=.44. Frequencies10,0,4,0,3,8 sum25. A possible hypothesis is that some lions move or rest together, or visit times affect visibility; the graph does not establish a cause. Further information: times, conditions, identities/locations and more visits. Preserve zero-frequency values on the axis.
+:::

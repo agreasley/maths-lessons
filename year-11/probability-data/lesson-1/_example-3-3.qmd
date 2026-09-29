@@ -1,0 +1,16 @@
+## Example 3.3 · The amount charged {#l1-example-3-3 .compact}
+
+```{=html}
+<div data-module="quiz" data-correct="A" class="quiz">
+<p class="hinge-question">A petrol station records the amount charged to each customer, rounded to the nearest cent. Which statement best describes this random variable?</p>
+<div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>Discrete, because the charge is rounded and can only take a countable set of values.</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>Discrete, because the amount charged depends on the number of litres purchased.</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>Continuous, because the volume of petrol dispensed can take any value within a range.</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>Continuous, because the amount charged varies between customers.</span></button></div>
+<div class="hinge-bottom"><p>Choose an answer and justify it before revealing.</p><button class="reveal-answer primary">Reveal answer</button><button class="reset-question">Reset</button></div>
+<div class="hinge-explanation" hidden>A is the best answer for the final charge recorded in cents. C describes the volume dispensed, a different variable. Be precise about whether you mean an underlying measurement or the recorded, payable amount.</div>
+</div>
+```
+
+<p class="booklet-cue">Booklet p. 37 · Example 3.3 · Complete the working in your booklet.</p>
+
+::: notes
+Original source label: Mathematics Advanced – HSC Question Bank. Wording retained. The variable as stated is the recorded amount charged in cents, so A is the intended reading. If the intended variable were an unrounded cost calculated from a continuous volume, it could be modelled continuously. Acknowledge this modelling distinction rather than using the question to contradict the running-time example. B does not establish countability and D is true for both types.
+:::

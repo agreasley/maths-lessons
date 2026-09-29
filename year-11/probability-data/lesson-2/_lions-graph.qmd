@@ -1,0 +1,15 @@
+## Example 3.8 · Check the display {#l2-lions-graph }
+
+```{=html}
+<div data-module="chart" data-set="lions" data-modes="relative" data-reveal="true"></div>
+```
+
+
+
+::: {.takeaway}
+Zero frequency is still information. Keep 2 and 4 on the axis.
+:::
+
+::: notes
+Check that the line goes through (2,0) and (4,0), not directly across these x-values. The polygon returns to zero at x=0 and x=7. This is the same dataset and example continued.
+:::

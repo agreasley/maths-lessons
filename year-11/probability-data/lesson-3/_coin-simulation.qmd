@@ -1,0 +1,9 @@
+## Watch the estimate develop {#l3-coin-simulation }
+
+```{=html}
+<div data-module="coin" ></div>
+```
+
+::: notes
+Begin with five tosses and compare with the class experiment. Add50, then500. Ask for a prediction before each batch. New run changes the random sequence. The dashed line remains.5. A seeded pseudo-random generator makes the first run reproducible; later runs continue with a new seed. No student data are collected or transmitted.
+:::

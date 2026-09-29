@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - year-11/probability-data/lesson-1.qmd
+    - year-11/probability-data/lesson-2.qmd
+    - year-11/probability-data/lesson-3.qmd
+
+website:
+  title: "Maths lessons"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Lessons
+  search: false
+
+lang: en-AU
+editor: source

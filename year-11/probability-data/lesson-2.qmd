@@ -1,0 +1,51 @@
+---
+pagetitle: "Lesson 2 — Organising and displaying data"
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_four-columns.qmd >}}
+
+{{< include lesson-2/_example-3-4-table.qmd >}}
+
+{{< include lesson-2/_example-3-4-events.qmd >}}
+
+{{< include lesson-2/_example-3-5.qmd >}}
+
+{{< include lesson-2/_events.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_histogram-rules.qmd >}}
+
+{{< include lesson-2/_example-3-6.qmd >}}
+
+{{< include lesson-2/_change-the-scale.qmd >}}
+
+{{< include lesson-2/_example-3-7-setup.qmd >}}
+
+{{< include lesson-2/_example-3-7-graphs.qmd >}}
+
+{{< include lesson-2/_example-3-8.qmd >}}
+
+{{< include lesson-2/_lions-graph.qmd >}}
+
+{{< include lesson-2/_cumulative-graphs.qmd >}}
+
+{{< include lesson-2/_example-3-9-table.qmd >}}
+
+{{< include lesson-2/_example-3-9-graph.qmd >}}
+
+{{< include lesson-2/_median-mode.qmd >}}
+
+{{< include lesson-2/_example-3-10.qmd >}}
+
+{{< include lesson-2/_middle-observations.qmd >}}
+
+{{< include lesson-2/_median-graphs.qmd >}}
+
+{{< include lesson-2/_example-3-11.qmd >}}
+
+{{< include lesson-2/_recap.qmd >}}
+
+{{< include lesson-2/_homework.qmd >}}

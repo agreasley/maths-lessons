@@ -1,0 +1,16 @@
+## Example 3.4 · A survey of 50 households {#l2-example-3-4-table .compact}
+
+```{=html}
+<div data-module="table" data-set="pets" data-columns="rf,cf,crf"></div>
+```
+
+
+a) Complete the table and check using a spreadsheet.
+b) Verify that the final cumulative relative frequency is exactly 1.
+
+[Open the booklet's checking spreadsheet](https://docs.google.com/spreadsheets/d/1VBbTnIJjVialn3sXzY5x87HhaYomC_e_0ZsG4u2eU6s/edit?usp=sharing){target="_blank"}
+<p class="booklet-cue">Booklet p. 39 · Example 3.4 · Complete the working in your booklet.</p>
+
+::: notes
+The dataset is number of pets, x = 0,1,2,3,4 with f = 15,20,10,4,1. Reveal columns only after students complete them. rf = .30,.40,.20,.08,.02; cf = 15,35,45,49,50; crf = .30,.70,.90,.98,1. Spreadsheet example with header row 1: C2 = B2/SUM($B$2:$B$6), D2 = SUM($B$2:B2), E2 = D2/SUM($B$2:$B$6); fill down. The linked sheet is from the booklet and requires internet; native slide interactions work without it.
+:::

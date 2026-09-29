@@ -1,0 +1,17 @@
+## Measurement or a fixed scale? {#l1-precision }
+
+**Define the variable before deciding.**
+
+| Variable | What matters? |
+|:---|:---|
+| Actual running time, reported to 0.1 s | The underlying time is continuous. |
+| An awarded ATAR on a 0.05 scale | The allowed ranks form a discrete set. |
+| The final amount billed in whole cents | The payable amounts form a discrete set. |
+
+::: {.takeaway}
+Rounding a measurement does not change the underlying physical quantity.
+:::
+
+::: notes
+Use precise language: if the variable is explicitly the rounded recorded number, its stored values lie on a discrete grid. If the variable is the actual physical measurement, model it as continuous. This distinction prepares students for the wording of Example 3.3; do not teach that every rounded measurement is inherently discrete.
+:::

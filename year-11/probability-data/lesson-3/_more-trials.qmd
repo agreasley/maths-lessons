@@ -1,0 +1,13 @@
+## More trials: a tendency, not a promise {#l3-more-trials }
+
+For many repeated trials under stable conditions, relative frequency is expected to settle near the probability.
+
+::: {.takeaway}
+More trials generally give a more stable estimate. They do not guarantee an exact match or a closer value after every batch.
+:::
+
+**Discuss:** after 100 fair-coin tosses, the proportion of heads is 0.52. Must it be closer to 0.5 after another 20 tosses?
+
+::: notes
+No. An unusually head-heavy next 20 can move the proportion away. Do not suggest that tails are now due or that the coin compensates for earlier results. Independence means previous outcomes do not alter the next-toss probability.
+:::

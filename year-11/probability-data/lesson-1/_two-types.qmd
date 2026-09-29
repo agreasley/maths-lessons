@@ -1,0 +1,38 @@
+## Discrete or continuous? {#l1-two-types }
+
+::: {.split }
+::: {.column-block}
+
+<h3>Discrete</h3>
+
+Separate, countable possible values.
+
+- Number of customers: $0,1,2,\ldots$
+- Winnings: $\$0$, $\$2.50$ or $\$10$
+
+The values **need not be integers**.
+
+:::
+
+::: {.column-block}
+
+<h3>Continuous</h3>
+
+Any real value within an interval.
+
+- A runner's finishing time
+- The distance of a long jump
+
+Usually a quantity obtained by **measurement**.
+
+:::
+:::
+
+
+::: {.takeaway}
+Ask what values the defined variable can take.
+:::
+
+::: notes
+A discrete variable may have finitely or infinitely many values. Measurement precision and the underlying quantity must be distinguished.
+:::

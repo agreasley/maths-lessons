@@ -1,0 +1,32 @@
+## Mode and median answer different questions {#l2-median-mode }
+
+::: {.split }
+::: {.column-block}
+
+<h3>Mode</h3>
+
+The value with the greatest frequency.
+
+Read it from the tallest ordinary-frequency bar or the highest frequency-polygon point.
+
+:::
+
+::: {.column-block}
+
+<h3>Median</h3>
+
+The middle value in ordered data.
+
+For an even total, average the values at positions $n/2$ and $n/2+1$.
+
+:::
+:::
+
+
+::: {.takeaway}
+Use cumulative counts to locate the middle positions.
+:::
+
+::: notes
+A cumulative histogram has its tallest bar at the end; that does not identify the mode. If the graph uses equal-width classes, a modal class is the tallest ordinary-frequency bar. Median is an exact data calculation unless using grouped/interpolated estimates.
+:::

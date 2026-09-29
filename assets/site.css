@@ -1,0 +1,10 @@
+:root{--ink:#152e3b;--teal:#007f78;--paper:#f7f5ef}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink)}
+.navbar{background:var(--ink);padding:14px 0}.navbar a,.navbar .navbar-brand{color:white!important}
+main{max-width:1080px;margin:35px auto}h1,h2,h3{color:var(--ink);font-weight:700}
+.course-label{color:var(--teal);font-size:15px;letter-spacing:.08em;font-weight:700;text-transform:uppercase}
+.lead{max-width:760px;font-size:22px;line-height:1.6}
+.lesson-list{margin:35px 0;display:grid;gap:20px}.lesson-card{background:white;border-top:4px solid var(--teal);padding:24px 30px}
+.lesson-card h2{font-size:27px;margin:0 0 14px}.lesson-card p{font-size:18px;margin:12px 0}.lesson-card a{display:inline-block;padding:11px 20px;color:white;background:var(--teal);border-radius:5px;text-decoration:none;font-weight:700}
+.lesson-card a:hover{background:#005e59}.lesson-card a:focus-visible{outline:3px solid #b55224;outline-offset:4px}
+.booklet-map{font-size:16px;color:#607078}

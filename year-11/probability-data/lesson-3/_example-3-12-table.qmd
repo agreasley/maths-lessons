@@ -1,0 +1,14 @@
+## Example 3.12 · Haemoglobin measurements {#l3-example-3-12-table .compact}
+
+```{=html}
+<div data-module="table" data-set="haemoglobin" data-columns="centre,cf"></div>
+```
+
+
+a) Complete the class-centre and cumulative-frequency columns.
+b) Draw a frequency histogram and polygon using a class width of 1.
+<p class="booklet-cue">Booklet p. 48 · Example 3.12 · Complete the working in your booklet.</p>
+
+::: notes
+Centres9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5; cf1,3,8,10,17,22,24,25. n25. Both the modal class and the class containing the median (13th observation) are13≤x<14. The actual median cannot be determined exactly from this grouped table. No units were supplied in the booklet; do not invent them.
+:::

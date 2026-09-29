@@ -1,0 +1,15 @@
+## Example 3.9 · Read and regroup {#l2-example-3-9-graph .compact}
+
+```{=html}
+<div data-module="chart" data-set="quiz" data-modes="cumulative" data-group="true" data-reveal="true"></div>
+```
+
+
+c) Use the table to find the median.
+d) Use the graph to identify the median and compare with part (c).
+e) Group the scores into five classes of width 2. Comment on any loss of precision.
+<p class="booklet-cue">Booklet p. 45 · Example 3.9 · Complete the working in your booklet.</p>
+
+::: notes
+Exact median6: both the20th and21st observations lie among the sixes (cf15 before6; cf23 at6). Straight-line interpolation on an upper-boundary polygon gives only an estimate (about6.1 here), not an exact replacement for the ordered-data calculation. Width2 groups scores1–2,3–4,5–6,7–8,9–10, with edges0.5,2.5,...,10.5; f6,3,14,13,4; cf6,9,23,36,40. The median lies in the5–6 group; grouping loses the exact within-class values. Use this to discuss why the graph and table can differ slightly.
+:::

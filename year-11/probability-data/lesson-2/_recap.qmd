@@ -1,0 +1,16 @@
+## Choose the representation for the question {#l2-recap }
+
+| Need to find… | Use… |
+|:---|:---|
+| The proportion with one value | Relative frequency |
+| The proportion at or below a value | Cumulative relative frequency |
+| The most frequent value | Ordinary-frequency table or graph |
+| The middle observation(s) | Ordered data or cumulative counts |
+
+::: {.takeaway}
+State the event or statistic before choosing a column or graph.
+:::
+
+::: notes
+Final check: Why is the tallest cumulative bar not a way to identify the mode? Answer: cumulative bars are running totals; the last bar normally reaches the full sample size.
+:::

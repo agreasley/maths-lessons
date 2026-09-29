@@ -1,0 +1,29 @@
+---
+pagetitle: "Lesson 3 — Grouping and estimating probability"
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_class-boundaries.qmd >}}
+
+{{< include lesson-3/_example-3-12-table.qmd >}}
+
+{{< include lesson-3/_example-3-12-grouping.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_estimating-probability.qmd >}}
+
+{{< include lesson-3/_example-3-13.qmd >}}
+
+{{< include lesson-3/_coin-simulation.qmd >}}
+
+{{< include lesson-3/_more-trials.qmd >}}
+
+{{< include lesson-3/_example-3-14-table.qmd >}}
+
+{{< include lesson-3/_example-3-14-prediction.qmd >}}
+
+{{< include lesson-3/_recap.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

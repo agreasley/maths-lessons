@@ -1,0 +1,14 @@
+## Example 3.4 · Which households count? {#l2-example-3-4-events }
+
+| Pets, $x$ | 0 | 1 | 2 | 3 | 4 |
+|:---|---:|---:|---:|---:|---:|
+| Frequency, $f$ | 15 | 20 | 10 | 4 | 1 |
+
+c) What proportion of households own exactly 2 pets?
+d) What proportion of households own 2 or fewer pets?
+e) If a household is chosen at random, use the table to estimate the probability that they own at most 3 pets, $P(X\leq3)$.
+<p class="booklet-cue">Booklet p. 39 · Example 3.4 · Complete the working in your booklet.</p>
+
+::: notes
+(c) 10/50 = .20. (d) (15+20+10)/50 = .90. (e) 49/50 = .98. Identify the event before selecting the table column. Use relative frequency as the empirical estimate; no claim about every household outside the surveyed group is warranted.
+:::

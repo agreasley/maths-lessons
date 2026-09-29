@@ -1,0 +1,15 @@
+## Homework 15C {#l3-homework }
+
+<div class="eyebrow">Cambridge Year 11 Extension 1 · Exercise 15C</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1–4</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1–6</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q1–6, Q8</span></div>
+
+::: {.takeaway}
+Before you leave: explain why more coin tosses need not move the estimate closer to 0.5 every time.
+:::
+
+::: notes
+Homework is copied from the three homework blocks in the supplied booklet. Select the appropriate level for each student.
+:::

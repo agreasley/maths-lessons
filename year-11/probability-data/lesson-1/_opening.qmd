@@ -1,0 +1,7 @@
+## What can the value be? {#l1-opening .cover}
+
+<div class="eyebrow">Year 11 · Probability and data · Lesson 1</div><div class="cover-title">What can<br>the value be?</div><div class="cover-subtitle">Define a random variable. Distinguish counts, fixed scales and continuous measurements.</div><div class="cover-bars" aria-hidden="true"><span style="height:30%"></span><span style="height:55%"></span><span style="height:100%"></span><span style="height:75%"></span><span style="height:40%"></span></div><div class="cover-foot">Section 3.1 · Examples 3.1–3.3 · Homework 15A</div>
+
+::: notes
+Use the Previous and Next buttons below the slide. Swipe navigation is off. S opens presenter notes on a computer. Worked examples are intended for the booklet and OneNote.
+:::

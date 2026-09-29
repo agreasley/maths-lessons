@@ -1,0 +1,27 @@
+## Example 3.1 · Define and classify {#l1-example-3-1 .compact}
+
+For each experiment, define a suitable random variable and state whether it is discrete or continuous.
+
+
+::: {.split }
+::: {.column-block}
+
+a) Record the number of students present in a mathematics class.
+b) Measure the distance jumped by a randomly selected long-jump competitor.
+c) Toss four coins and record the number of heads.
+
+:::
+
+::: {.column-block}
+
+d) Select a light bulb and record the time until it burns out.
+e) Record a student's ATAR, reported to the nearest 0.05.
+f) Record the number of customers arriving at a bank between 10:00 am and 10:15 am.
+
+:::
+:::
+<p class="booklet-cue">Booklet p. 35–36 · Example 3.1 · Complete the working in your booklet.</p>
+
+::: notes
+Suggested definitions and types: (a) N = number present, discrete; (b) D = jump distance, continuous; (c) X = number of heads, discrete; (d) T = lifetime, continuous; (e) A = reported ATAR, discrete because ATAR is awarded on a fixed 0.05 scale; (f) N = arrivals during the specified interval, discrete. Ask students to include units for measurements. ATAR is a rank on a prescribed scale, not an underlying continuous measurement merely rounded by an instrument.
+:::

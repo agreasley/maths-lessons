@@ -1,0 +1,15 @@
+## Homework 15A {#l1-homework }
+
+<div class="eyebrow">Cambridge Year 11 Extension 1 · Exercise 15A</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1–6</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1–8, Q10, Q13</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q1–8, Q10, Q13–15</span></div>
+
+::: {.takeaway}
+Before you leave: give a discrete variable whose values are not all integers.
+:::
+
+::: notes
+Homework is copied from the three homework blocks in the supplied booklet. Select the appropriate level for each student.
+:::

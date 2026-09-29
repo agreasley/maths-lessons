@@ -1,0 +1,14 @@
+## Hinge question · What is being measured? {#l1-hinge }
+
+```{=html}
+<div data-module="hinge" data-correct="B" class="hinge">
+<p class="hinge-question">T is a runner’s actual finishing time, recorded to the nearest 0.1 second. Which statement is best?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>Discrete: the displayed times are rounded.</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>Continuous: the underlying time varies continuously.</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>Discrete: time must be a positive number.</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>Neither: the time is unknown before the race.</span></button></div>
+<div class="hinge-bottom"><p>Think independently. Show A, B, C or D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>B. The variable is the actual finishing time. Rounding affects recording precision. A confuses the recorded grid with the underlying quantity; C and D do not distinguish the types.</div>
+</div>
+```
+
+::: notes
+Set 45–60 seconds. Have everyone commit to A–D before revealing. If A is common, contrast actual time T with an explicitly defined rounded-record variable R. Do not use the petrol example as the hinge because its wording needs discussion.
+:::

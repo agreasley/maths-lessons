@@ -1,0 +1,14 @@
+## A useful definition does three things {#l1-recap }
+
+1. Names the variable: $X$, $T$, $H$, …
+2. States exactly what it represents, including units where needed.
+3. Identifies its possible values well enough to classify it.
+
+
+::: {.takeaway}
+“Discrete” does not mean “integer”, and “continuous” does not mean “we know every possible value”.
+:::
+
+::: notes
+Exit prompt: Give a discrete variable with non-integer values, then a continuous variable that is recorded to limited precision.
+:::

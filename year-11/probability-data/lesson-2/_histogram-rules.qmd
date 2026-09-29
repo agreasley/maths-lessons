@@ -1,0 +1,29 @@
+## From a table to a graph {#l2-histogram-rules }
+
+::: {.split }
+::: {.column-block}
+
+<h3>Histogram</h3>
+
+- Numerical values on the horizontal axis.
+- Adjoining rectangles.
+- Discrete values at the centres of their bars.
+- Frequency determines each height.
+
+:::
+
+::: {.column-block}
+
+<h3>Frequency polygon</h3>
+
+- Plot at each value or class centre.
+- Join neighbouring points with straight segments.
+- Return to zero one class before and one class after.
+
+:::
+:::
+<p class="booklet-cue">Booklet p. 41 · Complete the working in your booklet.</p>
+
+::: notes
+Equal-width classes are used throughout these lessons. No frequency-density interpretation for unequal-width classes is required here. Adjoining columns matter: a default spreadsheet column chart with gaps needs formatting.
+:::

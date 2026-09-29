@@ -1,0 +1,15 @@
+## Example 3.5 · Number of siblings {#l2-example-3-5 .compact}
+
+```{=html}
+<div data-module="table" data-set="siblings" data-columns="rf,cf,crf" data-hide-total="true"></div>
+```
+
+
+a) How many students were surveyed?
+b) What proportion have at most two siblings?
+c) Estimate the probability that a randomly selected student from this group has more than three siblings.
+<p class="booklet-cue">Booklet p. 40 · Example 3.5 · Complete the working in your booklet.</p>
+
+::: notes
+Original instruction: Copy and complete the table. n=25; rf=.12,.24,.32,.20,.08,.04; cf=3,9,17,22,24,25; crf=.12,.36,.68,.88,.96,1. (a)25, (b)17/25=.68, (c)(2+1)/25=.12. A reveal also displays the total. Ask students to distinguish 'at most' from 'more than'.
+:::

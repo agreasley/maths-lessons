@@ -1,0 +1,15 @@
+## Keep the claim as precise as the evidence {#l3-recap }
+
+- A grouped table identifies a **median class**, not every individual value.
+- An observed relative frequency provides an **estimate** of probability.
+- A prediction for future trials is an **expected count**, not a guarantee.
+- More data help when the conditions and sampling method are appropriate.
+
+
+::: {.takeaway}
+Say what you know, what you estimate, and what the data cannot establish.
+:::
+
+::: notes
+Invite one example of each distinction. Avoid suggesting that a bigger biased sample automatically provides a good estimate.
+:::

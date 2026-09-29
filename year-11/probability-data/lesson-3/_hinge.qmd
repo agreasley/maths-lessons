@@ -1,0 +1,14 @@
+## Hinge question · A value on the boundary {#l3-hinge }
+
+```{=html}
+<div data-module="hinge" data-correct="B" class="hinge">
+<p class="hinge-question">The classes are 11 ≤ x &lt; 12, 12 ≤ x &lt; 13 and 13 ≤ x &lt; 14. Where does x = 13 belong?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>12 ≤ x &lt; 13 only</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>13 ≤ x &lt; 14 only</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>Both of the last two classes</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>Neither class</span></button></div>
+<div class="hinge-bottom"><p>Think independently. Show A, B, C or D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>B. The symbol ≤ includes the lower boundary and &lt; excludes the upper boundary. A chooses the wrong side; C double-counts; D creates a gap.</div>
+</div>
+```
+
+::: notes
+Use30–45seconds. If C or D is common, revisit the interactive boundary slide before moving on.
+:::

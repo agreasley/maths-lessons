@@ -1,0 +1,15 @@
+## Homework 15B {#l2-homework }
+
+<div class="eyebrow">Cambridge Year 11 Extension 1 · Exercise 15B</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1–6</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1–9, Q11</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q1–9, Q11–13, Q15</span></div>
+
+::: {.takeaway}
+Before you leave: explain why the tallest cumulative bar does not identify the mode.
+:::
+
+::: notes
+Homework is copied from the three homework blocks in the supplied booklet. Select the appropriate level for each student.
+:::

@@ -1,0 +1,17 @@
+## Example 3.13 · Five coin tosses {#l3-example-3-13 .compact}
+
+Toss a fair coin **five times** and record the result after each toss.
+
+a) Use your results to estimate the probability of obtaining a head.
+b) Compare your estimate with the theoretical probability.
+c) Combine the class results and calculate a new estimate.
+d) Which estimate is closer to the theoretical probability? Explain why this is reasonable.
+```{=html}
+<div data-module="class-estimate" ></div>
+```
+
+<p class="booklet-cue">Booklet p. 49 · Example 3.13 · Complete the working in your booklet.</p>
+
+::: notes
+Answers depend on observations. Five tosses give possible estimates0,.2,.4,.6,.8,1; no five-toss estimate is exactly.5. Add actual class heads and actual class tosses, then divide. Use a weighted total rather than an unweighted average if pupils complete different numbers of trials. For(d), the combined result may be closer or farther in this class; increased sample size generally stabilises estimates but never guarantees a closer result in every realised sequence.
+:::

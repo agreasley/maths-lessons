@@ -1,0 +1,16 @@
+## Every value belongs to exactly one class {#l3-class-boundaries }
+
+The booklet notation $a\text{–}<b$ means $a\leq x<b$.
+```{=html}
+<div data-module="boundary" ></div>
+```
+
+
+
+::: {.takeaway}
+No gaps. No overlaps. A clear boundary convention.
+:::
+
+::: notes
+A value at13 belongs to13≤x<14, not12≤x<13. These are mathematical intervals; rounding at a physical measurement boundary introduces a separate recording issue. This example focuses on the stated numerical convention.
+:::

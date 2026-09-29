@@ -1,0 +1,7 @@
+## Group the data. Estimate the chance. {#l3-opening .cover}
+
+<div class="eyebrow">Year 11 · Probability and data · Lesson 3</div><div class="cover-title">Group the data.<br>Estimate the chance.</div><div class="cover-subtitle">Choose class intervals carefully. Use observed relative frequencies to estimate probabilities.</div><div class="cover-bars" aria-hidden="true"><span style="height:30%"></span><span style="height:55%"></span><span style="height:100%"></span><span style="height:75%"></span><span style="height:40%"></span></div><div class="cover-foot">Sections 3.4–3.5 · Examples 3.12–3.14 · Homework 15C</div>
+
+::: notes
+Use the Previous and Next buttons below the slide. Swipe navigation is off. S opens presenter notes on a computer. Worked examples are intended for the booklet and OneNote.
+:::

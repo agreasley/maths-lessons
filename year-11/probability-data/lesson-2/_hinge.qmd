@@ -1,0 +1,17 @@
+## Hinge question · Select the right total {#l2-hinge .compact}
+
+| Pets, $x$ | 0 | 1 | 2 | 3 | 4 |
+|:---|---:|---:|---:|---:|---:|
+| Frequency | 15 | 20 | 10 | 4 | 1 |
+```{=html}
+<div data-module="hinge" data-correct="C" class="hinge">
+<p class="hinge-question">A household is selected from these 50. What is the estimated probability that it owns at most 2 pets?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>0.20</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>0.70</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>0.90</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>0.10</span></button></div>
+<div class="hinge-bottom"><p>Think independently. Show A, B, C or D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>C. Include 0, 1 and 2 pets: (15 + 20 + 10)/50 = 0.90. A uses exactly 2; B omits 2; D uses the complementary event.</div>
+</div>
+```
+
+::: notes
+Ask for A–D after 45–60 seconds. If A or B is common, return to the event-highlighting slide. Students who understand can explain why C and D sum to 1.
+:::

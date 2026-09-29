@@ -1,0 +1,15 @@
+## Exactly, at most, more than {#l2-events }
+
+```{=html}
+<div data-module="subset" ></div>
+```
+
+
+
+::: {.takeaway}
+Build the event first. Then add its frequencies.
+:::
+
+::: notes
+This uses the pets dataset. Exactly 2 ->10/50=.20; at most 2 ->45/50=.90; more than 2 ->5/50=.10. The complementary events ≤2 and >2 sum to 1.
+:::

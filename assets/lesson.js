@@ -181,7 +181,8 @@
     const wait=()=>{
       if(!window.Reveal?.isReady()){setTimeout(wait,50);return;}
       const nav=document.createElement('nav');nav.id='lesson-navigation';nav.setAttribute('aria-label','Lesson navigation');
-      nav.innerHTML='<div class="nav-group"><a href="../../index.html">All lessons</a><button class="overview">Slide map</button></div><div class="nav-group"><button class="prev">← Previous</button><button class="next">Next →</button></div>';
+      nav.innerHTML='<div class="nav-group"><a class="topic-link" href="index.html">Topic lessons</a><button class="overview">Slide map</button></div><div class="nav-group"><button class="prev">← Previous</button><button class="next">Next →</button></div>';
+      $(nav,'.topic-link').setAttribute('href',document.querySelector('meta[name="lesson-topic-url"]')?.content || 'index.html');
       document.body.append(nav);$(nav,'.prev').onclick=()=>Reveal.prev();$(nav,'.next').onclick=()=>Reveal.next();$(nav,'.overview').onclick=()=>Reveal.toggleOverview();
       const refresh=()=>{$(nav,'.prev').disabled=Reveal.isFirstSlide();$(nav,'.next').disabled=Reveal.isLastSlide();timers.forEach(t=>{if(!Reveal.getCurrentSlide().contains(t.element))t.pause();});};
       Reveal.on('slidechanged',refresh);refresh();

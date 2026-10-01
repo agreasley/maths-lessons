@@ -1,0 +1,29 @@
+---
+title: "Year 9"
+description: "Topics and lessons for Year 9."
+metadata-files: [../../_site-page.yml]
+course-year: 9
+course-name: "Mathematics"
+course-group: "Years 7–10"
+course-order: 3
+availability: coming-soon
+listing:
+  id: topics
+  contents: "*/index.qmd"
+  sort: topic-order
+  template: ../../assets/templates/topics.ejs.md
+  fields: [title, path, description]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../index.html">All courses</a></li><li><span aria-current="page">Year 9</span></li></ol></nav>
+<header class="page-intro">
+  <p class="eyebrow">Year 9 · Your course</p>
+  <h1>Mathematics</h1>
+  <p class="intro-copy">Choose a topic to find your lessons.</p>
+</header>
+<div class="section-heading"><h2>Topics</h2><span>Explore your course</span></div>
+```
+
+::: {#topics}
+:::

@@ -2,6 +2,9 @@ format:
   revealjs:
     theme: simple
     css: ../../assets/lesson.css
+    include-in-header:
+      text: |
+        <meta name="lesson-topic-url" content="../../courses/year-11-mathematics-advanced/probability-data/index.html">
     include-after-body:
       text: |
         <script src="../../assets/lesson.js"></script>

@@ -3,17 +3,22 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - year-11/probability-data/lesson-1.qmd
-    - year-11/probability-data/lesson-2.qmd
-    - year-11/probability-data/lesson-3.qmd
+    - "courses/**/index.qmd"
+    - "courses/**/lesson-*.qmd"
+    - "year-11/probability-data/lesson-*.qmd"
 
 website:
   title: "Maths lessons"
   navbar:
+    background: "#152e3b"
+    foreground: "#ffffff"
     left:
       - href: index.qmd
-        text: Lessons
+        text: All courses
   search: false
+  page-footer:
+    left: "Maths lessons · Years 7–12"
+    right: "Choose a course. Explore a topic. Open a lesson."
 
 lang: en-AU
 editor: source

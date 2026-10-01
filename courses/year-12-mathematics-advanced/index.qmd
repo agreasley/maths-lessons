@@ -1,0 +1,29 @@
+---
+title: "Year 12 Mathematics Advanced"
+description: "Topics and lessons for Year 12 Mathematics Advanced."
+metadata-files: [../../_site-page.yml]
+course-year: 12
+course-name: "Mathematics Advanced"
+course-group: "Year 12"
+course-order: 7
+availability: coming-soon
+listing:
+  id: topics
+  contents: "*/index.qmd"
+  sort: topic-order
+  template: ../../assets/templates/topics.ejs.md
+  fields: [title, path, description]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../index.html">All courses</a></li><li><span aria-current="page">Year 12 Mathematics Advanced</span></li></ol></nav>
+<header class="page-intro">
+  <p class="eyebrow">Year 12 · Your course</p>
+  <h1>Mathematics Advanced</h1>
+  <p class="intro-copy">Choose a topic to find your lessons.</p>
+</header>
+<div class="section-heading"><h2>Topics</h2><span>Explore your course</span></div>
+```
+
+::: {#topics}
+:::

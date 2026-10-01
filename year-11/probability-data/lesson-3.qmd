@@ -1,5 +1,10 @@
 ---
 pagetitle: "Lesson 3 — Grouping and estimating probability"
+lesson-title: "Grouping and estimating probability"
+description: "Explore class width and grouped data, then use repeated trials to estimate probabilities."
+lesson-order: 3
+booklet: "Sections 3.4–3.5 · Examples 3.12–3.14"
+homework: 15C
 ---
 
 {{< include lesson-3/_opening.qmd >}}

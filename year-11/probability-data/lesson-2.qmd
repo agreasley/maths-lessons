@@ -1,5 +1,10 @@
 ---
 pagetitle: "Lesson 2 — Organising and displaying data"
+lesson-title: "Organising and displaying data"
+description: "Connect frequency tables, histograms and polygons. Use cumulative frequency to locate the median."
+lesson-order: 2
+booklet: "Sections 3.2–3.3 · Examples 3.4–3.11"
+homework: 15B
 ---
 
 {{< include lesson-2/_opening.qmd >}}

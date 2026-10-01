@@ -1,0 +1,9 @@
+format:
+  html:
+    theme: cosmo
+    html-math-method: plain
+    css: /assets/site.css
+    toc: false
+    anchor-sections: false
+    title-block-style: none
+    page-layout: full

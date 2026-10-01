@@ -1,47 +1,25 @@
 ---
-title: "Maths lessons"
-format:
-  html:
-    theme: cosmo
-    css: assets/site.css
-    toc: false
-    anchor-sections: false
+title: "Courses"
+metadata-files: [_site-page.yml]
+description: "Mathematics lessons for Years 7–12. Choose your course, then a topic and a lesson."
+listing:
+  id: courses
+  contents: "courses/*/index.qmd"
+  sort: course-order
+  template: assets/templates/courses.ejs.md
+  fields: [title, path, course-year, course-name, course-group, availability]
 ---
 
-<p class="course-label">Year 11 · Probability and data</p>
+```{=html}
+<header class="page-intro home-intro">
+  <p class="eyebrow">Mathematics · Years 7–12</p>
+  <h1>Choose your course.</h1>
+  <p class="intro-copy">Find your topics, open a lesson and work through the examples.</p>
+  <ol class="journey" aria-label="How to find a lesson">
+    <li class="current"><span>1</span> Course</li><li><span>2</span> Topic</li><li><span>3</span> Lesson</li>
+  </ol>
+</header>
+```
 
-<p class="lead">Three lessons to accompany Section 3 of the booklet. Open a lesson, explore the diagrams, then complete the examples in your booklet.</p>
-
-::: {.lesson-list}
-::: {.lesson-card}
-## 1. Random variables
-
-Define the quantity being recorded. Distinguish discrete values from continuous measurements.
-
-<p class="booklet-map">Section 3.1 · Examples 3.1–3.3 · Homework 15A</p>
-
-[Open Lesson 1](year-11/probability-data/lesson-1.qmd)
+::: {#courses}
 :::
-
-::: {.lesson-card}
-## 2. Organising and displaying data
-
-Connect frequency tables, histograms and polygons. Use cumulative frequency to locate the median.
-
-<p class="booklet-map">Sections 3.2–3.3 · Examples 3.4–3.11 · Homework 15B</p>
-
-[Open Lesson 2](year-11/probability-data/lesson-2.qmd)
-:::
-
-::: {.lesson-card}
-## 3. Grouping and estimating
-
-Explore how class width changes a graph, then use repeated trials to estimate probabilities.
-
-<p class="booklet-map">Sections 3.4–3.5 · Examples 3.12–3.14 · Homework 15C</p>
-
-[Open Lesson 3](year-11/probability-data/lesson-3.qmd)
-:::
-:::
-
-Use the **Previous** and **Next** buttons beneath the slides. Interactive answers are revealed by the teacher; worked examples can be completed in the booklet alongside the lesson.

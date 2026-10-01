@@ -1,0 +1,33 @@
+---
+title: "Probability and Data"
+description: "Explore random variables, organise data and estimate probabilities. Section 3: Data is available now."
+metadata-files: [../../../_site-page.yml]
+topic-order: 1
+listing:
+  id: lessons
+  contents: "../../../year-11/probability-data/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 11 Mathematics Advanced</a></li><li><span aria-current="page">Probability and Data</span></li></ol></nav>
+<header class="page-intro topic-intro">
+  <p class="eyebrow">Year 11 Mathematics Advanced</p>
+  <h1>Probability and Data</h1>
+  <p class="intro-copy">Explore random variables, organise data and use repeated trials to estimate probabilities.</p>
+  <div class="topic-tags"><span>Section 3 · Data</span><span>3 lessons</span><span>Homework 15A–15C</span></div>
+</header>
+<div class="section-heading"><h2>Your lessons</h2><span>Work through them in order</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons">
+  <div class="note-mark" aria-hidden="true">i</div>
+  <div><h2>Keep your booklet alongside you.</h2><p>These lessons accompany Section 3 of the Probability and Data booklet. Complete the examples as you go, then use the homework at the end of each lesson to practise.</p></div>
+</div>
+```

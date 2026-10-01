@@ -1,13 +1,13 @@
 format:
   revealjs:
     theme: simple
-    css: ../../assets/lesson.css
+    css: ../../../../assets/lesson.css
     include-in-header:
       text: |
-        <meta name="lesson-topic-url" content="../../courses/year-11-mathematics-advanced/probability-data/index.html">
+        <meta name="lesson-topic-url" content="../index.html">
     include-after-body:
       text: |
-        <script src="../../assets/lesson.js"></script>
+        <script src="../../../../assets/lesson.js"></script>
     width: 1280
     height: 800
     margin: 0.09

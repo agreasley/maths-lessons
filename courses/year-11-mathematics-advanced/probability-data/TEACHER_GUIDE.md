@@ -2,6 +2,23 @@
 
 These are three lessons, following the homework breaks in the supplied booklet. Slide count reflects separate reveal and checking stages, not additional lessons. The source questions, datasets and all 14 numbered examples are retained; long examples are split across slides. Worked answers and pacing suggestions are in presenter notes.
 
+## Booklet and lesson map
+
+| Lesson | Booklet | Examples | Homework |
+|---|---|---|---|
+| 1. Random variables | Section 3.1, pp. 35–37 | 3.1–3.3 | Cambridge 15A |
+| 2. Organising and displaying data | Sections 3.2–3.3, pp. 38–47 | 3.4–3.11 | Cambridge 15B |
+| 3. Grouping and estimating probability | Sections 3.4–3.5, pp. 48–51 | 3.12–3.14 | Cambridge 15C |
+
+## Topic files
+
+- `index.qmd`: topic page and automatic lesson listing.
+- `lessons/_metadata.yml`: shared presentation settings for this topic.
+- `lessons/lesson-1.qmd`, `lesson-2.qmd`, `lesson-3.qmd`: lesson metadata and slide order.
+- `lessons/lesson-1/`, `lesson-2/`, `lesson-3/`: individual slide files and presenter notes.
+
+The lesson masters contain aliases for their former URLs under `year-11/probability-data/`. Quarto creates the redirect pages during rendering; there are no duplicate lesson sources.
+
 ## Lesson 1 — Exercise 15A
 
 Define a random variable, classify possible values, complete Example 3.1, then use the classification cards and timed hinge. Example 3.2 is followed by a 16-outcome coin display. Finish with the wording discussion in Example 3.3 and the homework.

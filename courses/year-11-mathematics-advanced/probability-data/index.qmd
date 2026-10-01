@@ -5,7 +5,7 @@ metadata-files: [../../../_site-page.yml]
 topic-order: 1
 listing:
   id: lessons
-  contents: "../../../year-11/probability-data/lesson-*.qmd"
+  contents: "lessons/lesson-*.qmd"
   sort: lesson-order
   template: ../../../assets/templates/lessons.ejs.md
   fields: [lesson-title, path, description, lesson-order, homework, booklet]

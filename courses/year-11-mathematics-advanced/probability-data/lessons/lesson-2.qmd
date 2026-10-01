@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/year-11/probability-data/lesson-2.html"
 pagetitle: "Lesson 2 — Organising and displaying data"
 lesson-title: "Organising and displaying data"
 description: "Connect frequency tables, histograms and polygons. Use cumulative frequency to locate the median."

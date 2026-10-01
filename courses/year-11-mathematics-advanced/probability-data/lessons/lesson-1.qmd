@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/year-11/probability-data/lesson-1.html"
 pagetitle: "Lesson 1 — Random variables"
 lesson-title: "Random variables"
 description: "Define the quantity being recorded and distinguish discrete values from continuous measurements."

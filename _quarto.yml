@@ -5,7 +5,6 @@ project:
     - index.qmd
     - "courses/**/index.qmd"
     - "courses/**/lesson-*.qmd"
-    - "year-11/probability-data/lesson-*.qmd"
 
 website:
   title: "Maths lessons"

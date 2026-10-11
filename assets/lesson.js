@@ -276,6 +276,87 @@
     m.innerHTML='<div class="toolbar"><label>Class heads <input class="class-heads" type="number" min="0" step="1" value="0" aria-label="Total heads for the class"></label><label>Class tosses <input class="class-n" type="number" min="1" step="1" value="0" aria-label="Total coin tosses for the class"></label><button class="calculate primary">Calculate class estimate</button></div><div class="class-result" aria-live="polite"></div>';
     $(m,'.calculate').addEventListener('click',()=>{const h=Number($(m,'.class-heads').value),n=Number($(m,'.class-n').value);$(m,'.class-result').textContent=Number.isInteger(h)&&Number.isInteger(n)&&n>0&&h>=0&&h<=n?`Class estimate: ${h}/${n} = ${fmt(h/n)}. Compare this with 0.5.`:'Enter whole-number totals with 0 ≤ heads ≤ tosses and tosses > 0.';});
   }
+  function slideMap(trigger){
+    const dialog=document.createElement('dialog');
+    dialog.id='lesson-slide-map';
+    dialog.setAttribute('aria-labelledby','slide-map-title');
+    dialog.setAttribute('aria-describedby','slide-map-help');
+    dialog.innerHTML='<header class="slide-map-header"><div><h2 id="slide-map-title">Slide map</h2><p id="slide-map-help">Tap a slide to jump to it.</p></div><button class="slide-map-close" type="button" autofocus>Back to lesson</button></header><div class="slide-map-grid"></div>';
+    document.body.append(dialog);
+    trigger.setAttribute('aria-haspopup','dialog');
+    trigger.setAttribute('aria-controls',dialog.id);
+    trigger.setAttribute('aria-expanded','false');
+    const grid=$(dialog,'.slide-map-grid');
+    const sizePreviews=()=>{
+      if(!dialog.open)return;
+      const {width,height}=Reveal.getComputedSlideSize();
+      $$(grid,'.slide-map-preview').forEach(preview=>{
+        preview.style.aspectRatio=`${width} / ${height}`;
+        const canvas=$(preview,'.slides');
+        canvas.style.setProperty('width',`${width}px`,'important');
+        canvas.style.height=`${height}px`;
+        canvas.style.transform=`scale(${preview.clientWidth/width})`;
+      });
+    };
+    new ResizeObserver(sizePreviews).observe(grid);
+    const close=()=>dialog.close();
+    $(dialog,'.slide-map-close').addEventListener('click',close);
+    dialog.addEventListener('close',()=>{
+      trigger.setAttribute('aria-expanded','false');
+      grid.replaceChildren();
+      trigger.focus({preventScroll:true});
+    });
+    // Keep keyboard navigation inside the modal; Escape retains native dialog behaviour.
+    dialog.addEventListener('keydown',e=>{
+      e.stopPropagation();
+      if(e.key.toLowerCase()==='o'&&!e.ctrlKey&&!e.metaKey&&!e.altKey){e.preventDefault();close();}
+    });
+    const open=()=>{
+      if(dialog.open)return;
+      timers.forEach(t=>t.pause());
+      const slides=Reveal.getSlides(),current=Reveal.getCurrentSlide();
+      $(dialog,'#slide-map-help').textContent=`${slides.length} slides · Tap a slide to jump to it.`;
+      slides.forEach((slide,index)=>{
+        const heading=($(slide,'.cover-title')||$(slide,'h1,h2,h3'))?.cloneNode(true);
+        if(heading){
+          $$(heading,'.katex-mathml').forEach(el=>el.remove());
+          $$(heading,'br').forEach(el=>el.replaceWith(' '));
+        }
+        const title=heading?.textContent.replace(/\s+/g,' ').trim()||`Slide ${index+1}`;
+        const card=document.createElement('article');card.className='slide-map-card';
+        const preview=document.createElement('div');preview.className='slide-map-preview reveal';
+        preview.setAttribute('aria-hidden','true');preview.inert=true;
+        const canvas=document.createElement('div');canvas.className='slides';
+        const snapshot=slide.cloneNode(true);
+        snapshot.dataset.previewOf=slide.id;
+        snapshot.removeAttribute('hidden');snapshot.removeAttribute('aria-hidden');
+        snapshot.classList.remove('past','future');snapshot.classList.add('present');
+        // Snapshots have no live controls or speaker notes. Hidden answers stay hidden.
+        $$(snapshot,'aside.notes,script,iframe,video,audio').forEach(el=>el.remove());
+        [snapshot,...$$(snapshot,'[id]')].forEach(el=>el.removeAttribute('id'));
+        canvas.append(snapshot);preview.append(canvas);card.append(preview);
+        const jump=document.createElement('button');jump.type='button';jump.className='slide-map-jump';
+        jump.innerHTML=`<span class="slide-map-caption"><span class="slide-map-number">${index+1}</span><span>${esc(title)}</span></span>`;
+        jump.setAttribute('aria-label',`Slide ${index+1}: ${title}${slide===current?' (current slide)':''}`);
+        if(slide===current){card.classList.add('is-current');jump.setAttribute('aria-current','step');}
+        jump.addEventListener('click',()=>{
+          const {h,v}=Reveal.getIndices(slide);
+          close();Reveal.slide(h,v);
+        });
+        card.append(jump);grid.append(card);
+      });
+      dialog.showModal();trigger.setAttribute('aria-expanded','true');sizePreviews();
+      $(grid,'.is-current')?.scrollIntoView({block:'nearest'});
+    };
+    trigger.addEventListener('click',open);
+    trigger.addEventListener('keydown',e=>{
+      if((e.key==='Escape'||e.key.toLowerCase()==='o')&&!e.ctrlKey&&!e.metaKey&&!e.altKey){
+        e.preventDefault();e.stopPropagation();open();
+      }
+    });
+    // The standard O / Escape shortcuts open the same map as the touch button.
+    Reveal.on('overviewshown',()=>{Reveal.toggleOverview(false);open();});
+  }
   function init(){
     const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
@@ -287,7 +368,7 @@
       const nav=document.createElement('nav');nav.id='lesson-navigation';nav.setAttribute('aria-label','Lesson navigation');
       nav.innerHTML='<div class="nav-group"><a class="topic-link" href="index.html">Topic lessons</a><button class="overview">Slide map</button></div><div class="nav-group"><button class="prev">← Previous</button><button class="next">Next →</button></div>';
       $(nav,'.topic-link').setAttribute('href',document.querySelector('meta[name="lesson-topic-url"]')?.content || 'index.html');
-      document.body.append(nav);$(nav,'.prev').onclick=()=>Reveal.prev();$(nav,'.next').onclick=()=>Reveal.next();$(nav,'.overview').onclick=()=>Reveal.toggleOverview();
+      document.body.append(nav);$(nav,'.prev').onclick=()=>Reveal.prev();$(nav,'.next').onclick=()=>Reveal.next();slideMap($(nav,'.overview'));
       const refresh=()=>{$(nav,'.prev').disabled=Reveal.isFirstSlide();$(nav,'.next').disabled=Reveal.isLastSlide();timers.forEach(t=>{if(!Reveal.getCurrentSlide().contains(t.element))t.pause();});};
       Reveal.on('slidechanged',refresh);refresh();
     };wait();

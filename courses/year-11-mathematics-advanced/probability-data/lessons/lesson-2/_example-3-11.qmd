@@ -1,18 +1,20 @@
 ## Example 3.11 · Compare the histograms {#l2-example-3-11 .compact .histogram-quiz}
 
 ```{=html}
-<div class="paired-charts"><div><h3>X</h3><div data-module="chart" data-set="histX" data-modes="frequency" data-static="true"></div></div><div><h3>Y</h3><div data-module="chart" data-set="histY" data-modes="frequency" data-static="true"></div></div></div>
+<div class="paired-charts"><div><h3><span data-math="X">X</span></h3><div data-module="chart" data-set="histX" data-modes="frequency" data-static="true"></div></div><div><h3><span data-math="Y">Y</span></h3><div data-module="chart" data-set="histY" data-modes="frequency" data-static="true"></div></div></div>
 ```
 
 ```{=html}
-<div data-module="quiz" data-correct="B" class="quiz">
-<p class="hinge-question">The sets of data X and Y are displayed in the histograms. Which statement is true?</p>
-<div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>X has a larger mode and has a larger range.</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>X has a larger mode and the ranges are the same.</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>The modes are the same and Y has a larger range.</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>The modes are the same and the ranges are the same.</span></button></div>
-<div class="hinge-bottom"><p>Choose an answer and justify it before revealing.</p><button class="reveal-answer primary">Reveal answer</button><button class="reset-question">Reset</button></div>
-<div class="hinge-explanation" hidden>B. Mode(X) = 9 and mode(Y) = 8. Range(X) = 9 − 3 = 6; range(Y) = 11 − 5 = 6.</div>
+<div data-module="quiz" data-correct="2" class="quiz">
+<p class="hinge-question">The sets of data <span data-math="X">X</span> and <span data-math="Y">Y</span> are displayed in the histograms. Which statement is true?</p>
+<div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span><span data-math="X">X</span> has a larger mode and has a larger range.</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span><span data-math="X">X</span> has a larger mode and the ranges are the same.</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>The modes are the same and <span data-math="Y">Y</span> has a larger range.</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>The modes are the same and the ranges are the same.</span></button></div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button><button class="reset-question">Reset</button></div>
+<div class="hinge-explanation" hidden>2. Mode(<span data-math="X">X</span>) = 9 and mode(<span data-math="Y">Y</span>) = 8. Range(<span data-math="X">X</span>) = 9 − 3 = 6; range(<span data-math="Y">Y</span>) = 11 − 5 = 6.</div>
 </div>
 ```
 
 ::: notes
+Use the same fist-on-chest, simultaneous 1–4 finger response routine as the timed hinges. Screen choices 1–4 correspond to the booklet’s A–D in the same order; question wording and option order are unchanged. Collect responses before using Reveal answer.
+
 Source: HSC Standard Mathematics2011Q11, as reproduced in the supplied booklet p47. Histograms redrawn from the supplied figure: X scores3–9 frequencies4,4,3,2,3,4,5; Y scores5–11 frequencies2,3,4,5,4,3,2. The original datasets and answer options are preserved. Note that shifting horizontal position alone does not change the range.
 :::

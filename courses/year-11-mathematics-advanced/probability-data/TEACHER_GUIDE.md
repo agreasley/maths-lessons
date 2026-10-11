@@ -19,6 +19,23 @@ These are three lessons, following the homework breaks in the supplied booklet. 
 
 The lesson masters contain aliases for their former URLs under `year-11/probability-data/`. Quarto creates the redirect pages during rendering; there are no duplicate lesson sources.
 
+## Multiple-choice response routine
+
+Use numbered options **1–4** for all timed hinges and other multiple-choice checks. Students make a **fist on their chest** and think independently. On the teacher’s verbal **“show”** cue, everyone simultaneously extends **1, 2, 3 or 4 fingers at chest level** to match their chosen option. Keep the fist closed until the cue. The prompt on each slide is: **Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.**
+
+Matching cartoon hand icons sit alongside the printed numbers. Timer expiry does not reveal the answer or issue the “show” cue. Scan all responses and decide whether to proceed, discuss or reteach before using the separate answer reveal. For Examples 3.3 and 3.11, numbered screen choices 1–4 correspond to the booklet’s A–D respectively; wording, order and source attribution are preserved.
+
+| Check | Correct screen choice |
+|---|---|
+| Lesson 1: fixed unknown versus random variable | 4 |
+| Lesson 1: actual finishing time | 2 |
+| Example 3.3: amount charged | 1 (booklet A) |
+| Lesson 2: at most 2 pets | 3 |
+| Example 3.11: histograms | 2 (booklet B) |
+| Lesson 3: class boundary | 2 |
+
+Use proper maths typography for variables in slides and applets. The repository-wide conventions are recorded in `AGENTS.md` and `README.md`.
+
 ## Lesson 1 — Exercise 15A
 
 This lesson is being taught to an Extension 1 mathematics class meeting random variables for the first time. Begin with the objective and success criteria, with no prerequisite recap. Keep the existing course/topic location and URLs for the shared Advanced content.
@@ -27,7 +44,7 @@ Use the side-by-side pen and four-coin applet before the formal definition. Allo
 
 Each toss generates four independent fair-coin outcomes. Looking inside only reveals the value; it does not generate another outcome. New purchases and tosses close the corresponding box. The histories retain the last three revealed results, and Reset both clears them. A repeated head count is valid and is never artificially prevented. The initial coin display waits for the teacher's first toss.
 
-The first timed hinge checks fixed unit price versus total cost, unknown versus random, and the misconception that a random value must change every time. Its answer is D; the slide notes include responses for ready, divided and not-yet-ready students. Both the applet and this hinge are additional teaching material, not new numbered booklet examples.
+The first timed hinge checks fixed unit price versus total cost, unknown versus random, and the misconception that a random value must change every time. Its answer is 4; the slide notes include responses for ready, divided and not-yet-ready students. Both the applet and this hinge are additional teaching material, not new numbered booklet examples.
 
 Then classify possible values, complete Example 3.1, and use the existing classification cards and measurement hinge. The latter targets confusion between measurement precision and the underlying variable. Choose a duration that leaves time to obtain every student's response before revealing. Example 3.2 is followed by the existing 16-outcome coin display. Finish with the wording discussion in Example 3.3, revisit the success criteria and set the unchanged homework.
 
@@ -36,7 +53,7 @@ Then classify possible values, complete Example 3.1, and use the existing classi
 - Actual running time remains a continuous physical quantity even when measured to 0.1 seconds.
 - An explicitly defined *rounded recorded value* lies on a discrete grid. Always state which variable is intended.
 - ATAR is awarded on a prescribed 0.05 scale; the recorded rank is discrete.
-- In Example 3.3, **A** is the best reading of the *final amount charged in cents*. The underlying volume or an unrounded mathematical cost could instead be continuous. Keep that distinction explicit; do not use this potentially ambiguous item as the timed hinge.
+- In Example 3.3, **screen choice 1 (booklet A)** is the best reading of the *final amount charged in cents*. The underlying volume or an unrounded mathematical cost could instead be continuous. Keep that distinction explicit; do not use this potentially ambiguous item as the timed hinge.
 
 ## Lesson 2 — Exercise 15B
 
@@ -67,7 +84,7 @@ For Example 3.14(d), a sample of 50 is not automatically incapable of providing 
 |---|---|
 | 3.1 | a discrete; b continuous; c discrete; d continuous; e discrete on the ATAR scale; f discrete. Define each variable explicitly. |
 | 3.2 | Values 0–4; 16 ordered outcomes. Counts for 0,1,2,3,4 heads are 1,4,6,4,1. |
-| 3.3 | A for the final recorded monetary charge; discuss the variable definition. |
+| 3.3 | Screen choice 1 (booklet A) for the final recorded monetary charge; discuss the variable definition. |
 | 3.4 | rf .30,.40,.20,.08,.02; cf 15,35,45,49,50; crf .30,.70,.90,.98,1. Parts c–e: .20,.90,.98. |
 | 3.5 | n=25; rf .12,.24,.32,.20,.08,.04; cf 3,9,17,22,24,25; crf .12,.36,.68,.88,.96,1. Parts b–c: .68,.12. |
 | 3.6 | n=16; mode 9. Polygon zero endpoints at x=4 and x=11. |
@@ -75,7 +92,7 @@ For Example 3.14(d), a sample of 50 is not automatically incapable of providing 
 | 3.8 | Frequencies 10,0,4,0,3,8; mode 1; P(X≥5)≈.44. Explanation of the pattern is a hypothesis to investigate. |
 | 3.9 | cf 2,6,8,9,15,23,30,36,38,40. Exact median 6. Width-2 grouped frequencies 6,3,14,13,4. |
 | 3.10 | cf 1,4,8; median 2.5; mode 3. Middle positions 4 and 5 contain 2 and 3. |
-| 3.11 | B: modes 9 and 8; both ranges 6. Histograms redrawn from the supplied figure. |
+| 3.11 | Screen choice 2 (booklet B): modes 9 and 8; both ranges 6. Histograms redrawn from the supplied figure. |
 | 3.12 | n=25; centres 9.5–16.5 by 1; cf 1,3,8,10,17,22,24,25. Width 1 modal and median class 13≤x<14. Width 2 frequencies 3,7,12,3; cf 3,10,22,25; modal and median class 13≤x<15. |
 | 3.13 | Experimental answers vary; fair-coin probability .5. Class estimate = total heads / total tosses. |
 | 3.14 | rf .14,.10,.12,.14,.16,.34; P(X=4)≈.14; P(X>3)≈.64; predicted sixes 272 in 800 rolls. |

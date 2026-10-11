@@ -1,30 +1,30 @@
 ## Hinge question · What can change? {#l1-variable-hinge}
 
 ```{=html}
-<div data-module="hinge" data-correct="D" class="hinge">
+<div data-module="hinge" data-correct="4" class="hinge">
 <p class="hinge-question">The pen price stays unchanged. We make another purchase and toss the four coins again. Which statement is correct?</p>
 <div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
 <div class="choices">
-<button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span><var>x</var> must change because the total cost changes.</span></button>
-<button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>Both <var>x</var> and <var>X</var> are random variables because their values are hidden.</span></button>
-<button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span><var>X</var> must have a different value after every toss.</span></button>
-<button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span><var>x</var> remains the same price, while the value of <var>X</var> depends on the coin outcomes.</span></button>
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span><span data-math="x">x</span> must change because the total cost changes.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>Both <span data-math="x">x</span> and <span data-math="X">X</span> are random variables because their values are hidden.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span><span data-math="X">X</span> must have a different value after every toss.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span><span data-math="x">x</span> remains the same price, while the value of <span data-math="X">X</span> depends on the coin outcomes.</span></button>
 </div>
-<div class="hinge-bottom"><p>Think independently. Everyone show A–D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
-<div class="hinge-explanation" hidden>D. The unit price stays fixed. The head count depends on the outcome of each trial; it can repeat. Being unknown does not make a quantity random.</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>4. The unit price stays fixed. The head count depends on the outcome of each trial; it can repeat. Being unknown does not make a quantity random.</div>
 </div>
 ```
 
 ::: notes
-Additional diagnostic question. Default to 60 seconds, adjustable using the shared controls. Everyone commits by showing A–D or using mini-whiteboards. The answer remains hidden when time runs out; reveal it separately after discussing responses.
+Additional diagnostic question. Default to 60 seconds, adjustable using the shared controls. Everyone makes a fist on their chest while thinking. On the teacher’s “show” cue, everyone extends 1, 2, 3 or 4 fingers at chest level simultaneously. The answer remains hidden when time runs out; reveal it separately after discussing responses.
 
-Correct answer: D. x represents the unchanged unit price in this problem; X assigns a head count to each random four-coin outcome.
+Correct answer: 4. x represents the unchanged unit price in this problem; X assigns a head count to each random four-coin outcome.
 
-- A: confuses the unit price with the total purchase cost.
-- B: confuses an unknown or hidden quantity with a random variable.
-- C: assumes randomness guarantees a change on every trial.
+- 1: confuses the unit price with the total purchase cost.
+- 2: confuses an unknown or hidden quantity with a random variable.
+- 3: assumes randomness guarantees a change on every trial.
 
-If students are ready: ask one student to justify D, then proceed to discrete and continuous variables.
+If students are ready: ask one student to justify option 4, then proceed to discrete and continuous variables.
 
 If responses are divided: allow a short paired explanation using the two applet situations, then collect everyone's response again before revealing.
 

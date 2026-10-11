@@ -1,0 +1,11 @@
+# Classroom response hand icons
+
+`finger-responses.png` is a transparent four-cell horizontal sprite sheet, ordered 1, 2, 3, 4 from left to right. Each cell shows the corresponding number of raised fingers with the thumb folded. The source is 2172 × 724 pixels; each cell is 543 × 724. Use a 3:4 display ratio per cell and the `.finger-icon` / `.fingers-1` to `.fingers-4` classes from `assets/lesson.css`.
+
+Keep a visible number alongside each icon. The images are decorative for screen readers; the numbered choices provide the accessible response labels. The teacher gives the simultaneous “show” cue; no gesture recognition or student response collection is involved.
+
+Created with the built-in image-generation tool for this project. The image was inspected to verify one, two, three and four raised fingers, respectively.
+
+## Generation prompt
+
+Create ONE reusable transparent sprite sheet for classroom multiple-choice answer icons: a single horizontal strip with FOUR equally sized square cells arranged left to right. Each cell contains exactly one friendly cartoon human hand, palm facing viewer, upright fingers, wrist at the bottom. Consistent flat vector-like illustration style: warm cream/light golden glove fill, thick dark navy rounded outlines (#152e3b), subtle pale shading only, tiny teal wrist cuff (#007f78), suitable for mature secondary-school maths slides. Keep hands large, simple, recognisable at 48 pixels. Cell 1: exactly ONE raised finger, the index finger; middle, ring and little fingers folded; thumb folded across palm. Cell 2: exactly TWO raised fingers, index and middle (palm outward V); ring/little folded, thumb folded. Cell 3: exactly THREE raised fingers, index, middle and ring; little finger folded and thumb folded across palm. Cell 4: exactly FOUR raised fingers, index, middle, ring, little; thumb folded across palm. Four anatomically clear five-digit hands in total, no extra fingers, no missing thumbs. All four icons have the same outline, hand size, wrist baseline and upright orientation, centred within their own equal quarter of the strip with 10% transparent padding. Use transparent background throughout, no text, no numerals, no frame, no panel dividers, no decoration, no shadows outside the hand. Intended sheet aspect ratio 4:1. Each icon must remain entirely within its quarter, with clean separation.

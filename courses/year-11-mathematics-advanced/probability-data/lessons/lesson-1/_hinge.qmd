@@ -1,14 +1,24 @@
 ## Hinge question · What is being measured? {#l1-hinge }
 
 ```{=html}
-<div data-module="hinge" data-correct="B" class="hinge">
-<p class="hinge-question">T is a runner’s actual finishing time, recorded to the nearest 0.1 second. Which statement is best?</p>
-<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span>Discrete: the displayed times are rounded.</span></button><button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>Continuous: the underlying time varies continuously.</span></button><button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span>Discrete: time must be a positive number.</span></button><button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span>Neither: the time is unknown before the race.</span></button></div>
-<div class="hinge-bottom"><p>Think independently. Show A, B, C or D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
-<div class="hinge-explanation" hidden>B. The variable is the actual finishing time. Rounding affects recording precision. A confuses the recorded grid with the underlying quantity; C and D do not distinguish the types.</div>
+<div data-module="hinge" data-correct="2" class="hinge">
+<p class="hinge-question"><span data-math="T">T</span> is a runner’s actual finishing time, recorded to the nearest 0.1 second. Which statement is best?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>Discrete: the displayed times are rounded.</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>Continuous: the underlying time varies continuously.</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>Discrete: time must be a positive number.</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>Neither: the time is unknown before the race.</span></button></div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>2. The variable is the actual finishing time. Rounding affects recording precision. Option 1 confuses the recorded grid with the underlying quantity; options 3 and 4 do not distinguish the types.</div>
 </div>
 ```
 
 ::: notes
-Set 45–60 seconds. Have everyone commit to A–D before revealing. If A is common, contrast actual time T with an explicitly defined rounded-record variable R. Do not use the petrol example as the hinge because its wording needs discussion.
+Set 45–60 seconds. Everyone starts with a fist on their chest and thinks independently. On your “show” cue, everyone holds up 1–4 fingers simultaneously. Collect responses before revealing.
+
+Correct answer: 2. The actual finishing time is continuous.
+
+- 1: confuses the rounded recorded grid with the underlying time.
+- 3: treats positivity as a test for discreteness.
+- 4: confuses an unknown value with an inability to classify the variable.
+
+Ready: ask a student to explain how actual time differs from a rounded recorded time, then proceed.
+Divided: ask pairs to identify exactly what the variable represents, then re-poll on “show”.
+Further explanation needed: contrast actual time $T$ with a rounded-record variable $R$, then re-poll. Do not use the petrol example as the hinge because its wording needs discussion.
 :::

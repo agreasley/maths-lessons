@@ -6,6 +6,14 @@
   const sum = a => a.reduce((x, y) => x + y, 0);
   const fmt = n => Number(n.toFixed(4)).toString();
   const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const math = tex => `<span class="math-token" data-math="${esc(tex)}">${window.katex ? window.katex.renderToString(tex, {throwOnError:false}) : esc(tex)}</span>`;
+  const typeset = root => {
+    if (!window.katex) return;
+    $$(root, '[data-math]').forEach(el => {
+      el.classList.add('math-token');
+      window.katex.render(el.dataset.math, el, {throwOnError:false});
+    });
+  };
   const text = (x, y, value, extras = '') => `<text x="${x}" y="${y}" ${extras}>${esc(value)}</text>`;
   const datasets = {
     pets: {values:[0,1,2,3,4], f:[15,20,10,4,1], label:'Number of pets'},
@@ -96,12 +104,17 @@
   const timers=[];
   function hinge(m) {
     const answer=m.dataset.correct;
+    $$(m, '.choice').forEach(choice => {
+      const label = $(choice, 'b');
+      label.classList.add('finger-choice-label');
+      label.insertAdjacentHTML('beforeend', `<span class="finger-icon fingers-${choice.dataset.answer}" aria-hidden="true"></span>`);
+    });
     let selected=null,revealed=false,remaining=60000,deadline=0,interval=null;
     const timer=$(m,'.time'), start=$(m,'.timer-start'), duration=$(m,'.timer-duration');
     if(duration)remaining=Number(duration.value)*1000;
     const showTime=()=>{if(!timer)return;const s=Math.ceil(remaining/1000);timer.textContent=s?`${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`:'Time up';timer.classList.toggle('up',!s);m.dataset.remaining=String(s);};
     const pause=()=>{if(interval!==null){remaining=Math.max(0,deadline-performance.now());clearInterval(interval);interval=null;if(start)start.textContent=remaining?'Resume':'Start';showTime();}};
-    const clearAnswers=()=>{selected=null;revealed=false;$$(m,'.choice').forEach(b=>{b.classList.remove('selected','correct','incorrect');b.setAttribute('aria-pressed','false');});$(m,'.hinge-explanation').hidden=true;$(m,'.reveal-answer').disabled=false;};
+    const clearAnswers=()=>{selected=null;revealed=false;$$(m,'.choice').forEach(b=>{b.classList.remove('selected','correct','incorrect','unselected');b.setAttribute('aria-pressed','false');});$(m,'.hinge-explanation').hidden=true;$(m,'.reveal-answer').disabled=false;};
     const reset=()=>{pause();remaining=Number(duration?.value||60)*1000;if(start)start.textContent='Start';showTime();clearAnswers();};
     start?.addEventListener('click',()=>{
       if(interval!==null){pause();return;}if(remaining<=0)remaining=Number(duration.value)*1000;
@@ -124,20 +137,20 @@
     m.innerHTML = `<div class="variable-panels">
       <div class="variable-panel pen-panel" role="group" aria-label="Algebra: buying pens">
         <div class="variable-kicker">Algebra · a fixed unknown</div><h3>Buying pens</h3>
-        <p class="variable-definition">Let <var>x</var> be the cost of one pen, in dollars.</p>
+        <p class="variable-definition">Let ${math('x')} be the cost of one pen, in dollars.</p>
         <p class="variable-context">Same shop. Same pens. Unchanged price.</p>
         <div class="variable-situation"><span class="purchase-description"></span><strong class="purchase-equation"></strong></div>
-        <div class="variable-box" role="status" aria-live="polite" aria-label="Pen price"><var>x</var><span class="box-value">?</span></div>
-        <div class="variable-actions"><button class="pen-reveal primary" aria-expanded="false">Look inside <var>x</var></button><button class="new-purchase">New purchase</button></div>
+        <div class="variable-box" role="status" aria-live="polite" aria-label="Pen price">${math('x')}<span class="box-value">?</span></div>
+        <div class="variable-actions"><button class="pen-reveal primary" aria-expanded="false">Look inside ${math('x')}</button><button class="new-purchase">New purchase</button></div>
         <div class="variable-history"><div class="history-heading">Last revealed purchases</div><ol class="pen-history"></ol></div>
       </div>
       <div class="variable-panel coin-panel" role="group" aria-label="Probability: tossing coins">
         <div class="variable-kicker">Probability · a random variable</div><h3>Tossing four coins</h3>
-        <p class="variable-definition">Let <var>X</var> be the number of heads when four coins are tossed.</p>
+        <p class="variable-definition">Let ${math('X')} be the number of heads when four coins are tossed.</p>
         <p class="variable-context">Four fair, independent coins on each trial.</p>
         <div class="variable-situation"><span class="trial-label">Toss to begin</span><div class="comparison-coins" role="img" aria-label="Four coins, not yet tossed"></div></div>
-        <div class="variable-box" role="status" aria-live="polite" aria-label="Head count for this trial"><var>X</var><span class="box-value">?</span></div>
-        <div class="variable-actions"><button class="coin-reveal primary" aria-expanded="false" disabled>Look inside <var>X</var></button><button class="toss-four">Toss four coins</button></div>
+        <div class="variable-box" role="status" aria-live="polite" aria-label="Head count for this trial">${math('X')}<span class="box-value">?</span></div>
+        <div class="variable-actions"><button class="coin-reveal primary" aria-expanded="false" disabled>Look inside ${math('X')}</button><button class="toss-four">Toss four coins</button></div>
         <div class="variable-history"><div class="history-heading">Last revealed trials</div><ol class="coin-history"></ol></div>
       </div>
     </div><div class="variable-footer"><p>Predict before we look: what could be inside each box?</p><button class="reset-variables ghost">Reset both</button></div>`;
@@ -147,17 +160,17 @@
       box.classList.toggle('is-open', open);
       $(box, '.box-value').textContent = open ? value : '?';
       button.setAttribute('aria-expanded', String(open));
-      button.innerHTML = open ? 'Close box' : `Look inside <var>${symbol}</var>`;
+      button.innerHTML = open ? 'Close box' : `Look inside ${math(symbol)}`;
     };
     const drawHistory = (panel, history) => {
       $(panel, 'ol').innerHTML = history.length
-        ? history.slice(-3).map(row => `<li>${esc(row)}</li>`).join('')
+        ? history.slice(-3).map(row => `<li>${esc(row.label)} ${math(row.tex)}</li>`).join('')
         : '<li class="history-empty">Reveal a value to record it here.</li>';
     };
     const showPurchase = () => {
       const n = purchases[purchaseIndex];
       $(m, '.purchase-description').textContent = `${n} pens cost $${n * price}`;
-      $(m, '.purchase-equation').innerHTML = `${n}<var>x</var> = ${n * price}`;
+      $(m, '.purchase-equation').innerHTML = math(`${n}x = ${n * price}`);
       setBox(penPanel, false, price, 'x');
       purchaseRecorded = false;
     };
@@ -175,7 +188,7 @@
       setBox(penPanel, open, price, 'x');
       if (open && !purchaseRecorded) {
         const n = purchases[purchaseIndex];
-        penHistory.push(`${n} pens · $${n * price} → x = ${price}`);
+        penHistory.push({label:`${n} pens · $${n * price} →`, tex:`x = ${price}`});
         penHistory = penHistory.slice(-3); purchaseRecorded = true;
         drawHistory(penPanel, penHistory);
       }
@@ -193,7 +206,7 @@
       const heads = coins.filter(c => c === 'H').length;
       setBox(coinPanel, open, heads, 'X');
       if (open && !coinRecorded) {
-        coinHistory.push(`${trial}. ${coins.join('')} → X = ${heads}`);
+        coinHistory.push({label:`${trial}. ${coins.join('')} →`, tex:`X = ${heads}`});
         coinHistory = coinHistory.slice(-3); coinRecorded = true;
         drawHistory(coinPanel, coinHistory);
       }
@@ -266,6 +279,8 @@
   function init(){
     const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
+    typeset(document);
+    if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});
     document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,textarea'))e.stopPropagation();});
     const wait=()=>{
       if(!window.Reveal?.isReady()){setTimeout(wait,50);return;}

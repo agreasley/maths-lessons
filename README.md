@@ -71,6 +71,8 @@ Quarto writes the website to `_site/`. Edit the source files, rather than the ge
 
 ## Edit a lesson
 
+Read [AGENTS.md](AGENTS.md) for the current lesson-authoring conventions, including numbered finger responses and mathematical typography.
+
 Each lesson master contains its card information and an ordered list of slide includes:
 
 ````markdown
@@ -137,7 +139,11 @@ If copying an existing lesson as a starting point, remove its `aliases` entry: t
 
 Open a lesson in Safari on the iPad, preferably in landscape orientation. Use **Previous**, **Next**, **Slide map** and **Topic lessons**. Swipe navigation is disabled so interactive controls remain comfortable to use.
 
-On a computer, press **S** for presenter notes. Where included, hinge questions offer a selectable timer and separate answer reveal; moving away from the slide pauses the timer. Answer choices are classroom presentation controls, not a student-response collection system.
+On a computer, press **S** for presenter notes. Multiple-choice questions use **1–4**, with matching cartoon hand icons. Students begin with a **fist on their chest**, think independently, then simultaneously extend **1, 2, 3 or 4 fingers at chest level** on the teacher's **“show”** cue. The slide prompt is: **Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.**
+
+Where included, hinge questions offer a selectable timer and separate answer reveal; moving away from the slide pauses the timer. Timer expiry does not reveal the answer or replace the teacher's “show” cue. Collect and discuss responses before revealing. For source questions labelled A–D, screen choices 1–4 retain the same order; the teacher notes record this mapping. Answer choices are classroom presentation controls, not a student-response collection system.
+
+Typeset variables such as `$x$` and `$X$` with the embedded maths renderer, including dynamic applet equations, button labels and histories. See [AGENTS.md](AGENTS.md) for the raw HTML and JavaScript conventions.
 
 Lessons can accompany printed booklets, with worked examples completed in OneNote. Embedded external applets and linked resources may require internet access. The current presentations embed their local assets and mathematics; keeping the complete `_site/` folder preserves the site structure for offline use on a computer. For iPad delivery, use the hosted site in Safari.
 

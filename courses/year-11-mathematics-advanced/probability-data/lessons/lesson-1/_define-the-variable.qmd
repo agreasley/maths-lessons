@@ -12,9 +12,9 @@ Let $X$ be the number of heads obtained when four coins are tossed.
 | HTHT | 2 |
 | TTTT | 0 |
 
-Different outcomes can produce the **same value** of the random variable.
+The rule stays the same: **count the heads**. Different outcomes can produce the **same value** of $X$.
 <p class="booklet-cue">Booklet p. 35 · Complete the working in your booklet.</p>
 
 ::: notes
-Random variables use capital letters; an observed value uses a lower-case letter. The random variable is a rule on outcomes, not the outcome string itself.
+Connect this table to the applet: x represented one unchanged pen price in the algebra problem; X assigns a numerical head count to each possible random outcome. HHTT and HTHT are different outcomes with the same head count. The variable is the rule, not the outcome string or the most recent number alone. Random variables are conventionally named with capital letters; a lower-case letter can denote a particular observed value. The letter case itself does not make a variable random.
 :::

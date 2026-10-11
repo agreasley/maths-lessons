@@ -1,0 +1,32 @@
+## Hinge question · What can change? {#l1-variable-hinge}
+
+```{=html}
+<div data-module="hinge" data-correct="D" class="hinge">
+<p class="hinge-question">The pen price stays unchanged. We make another purchase and toss the four coins again. Which statement is correct?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="A" aria-pressed="false"><b>A</b><span><var>x</var> must change because the total cost changes.</span></button>
+<button class="choice" data-answer="B" aria-pressed="false"><b>B</b><span>Both <var>x</var> and <var>X</var> are random variables because their values are hidden.</span></button>
+<button class="choice" data-answer="C" aria-pressed="false"><b>C</b><span><var>X</var> must have a different value after every toss.</span></button>
+<button class="choice" data-answer="D" aria-pressed="false"><b>D</b><span><var>x</var> remains the same price, while the value of <var>X</var> depends on the coin outcomes.</span></button>
+</div>
+<div class="hinge-bottom"><p>Think independently. Everyone show A–D when time is up.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>D. The unit price stays fixed. The head count depends on the outcome of each trial; it can repeat. Being unknown does not make a quantity random.</div>
+</div>
+```
+
+::: notes
+Additional diagnostic question. Default to 60 seconds, adjustable using the shared controls. Everyone commits by showing A–D or using mini-whiteboards. The answer remains hidden when time runs out; reveal it separately after discussing responses.
+
+Correct answer: D. x represents the unchanged unit price in this problem; X assigns a head count to each random four-coin outcome.
+
+- A: confuses the unit price with the total purchase cost.
+- B: confuses an unknown or hidden quantity with a random variable.
+- C: assumes randomness guarantees a change on every trial.
+
+If students are ready: ask one student to justify D, then proceed to discrete and continuous variables.
+
+If responses are divided: allow a short paired explanation using the two applet situations, then collect everyone's response again before revealing.
+
+If further explanation is needed: return to the applet and compare 3x = 12 with 5x = 20. Use HHTT and HTHT to show that two different outcomes can both give X = 2. Re-poll before proceeding.
+:::

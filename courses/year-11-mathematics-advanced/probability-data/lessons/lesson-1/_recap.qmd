@@ -6,9 +6,9 @@
 
 
 ::: {.takeaway}
-“Discrete” does not mean “integer”, and “continuous” does not mean “we know every possible value”.
+The meaning of $X$ stays fixed; its observed value depends on the random outcome.
 :::
 
 ::: notes
-Exit prompt: Give a discrete variable with non-integer values, then a continuous variable that is recorded to limited precision.
+Revisit the success criteria: “I can explain what a random variable represents and whether it is discrete or continuous.” Ask a student to define X for the four-coin experiment and justify why it is discrete. Contrast it with the fixed pen price. Remind students that “discrete” does not mean “integer”. Exit prompt: Give a discrete variable with non-integer values, then a continuous variable that is recorded to limited precision.
 :::

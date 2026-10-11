@@ -21,9 +21,15 @@ The lesson masters contain aliases for their former URLs under `year-11/probabil
 
 ## Lesson 1 — Exercise 15A
 
-Define a random variable, classify possible values, complete Example 3.1, then use the classification cards and timed hinge. Example 3.2 is followed by a 16-outcome coin display. Finish with the wording discussion in Example 3.3 and the homework.
+This lesson is being taught to an Extension 1 mathematics class meeting random variables for the first time. Begin with the objective and success criteria, with no prerequisite recap. Keep the existing course/topic location and URLs for the shared Advanced content.
 
-The hinge targets confusion between measurement precision and the underlying variable. Choose a duration that leaves time to obtain every student's response before revealing.
+Use the side-by-side pen and four-coin applet before the formal definition. Allow approximately 6–8 minutes for the new introduction, definition and conceptual hinge. Let x be the pen price in dollars: purchases change, but the unit price is fixed at $4. Let X be the number of heads: its definition stays fixed, while its value depends on the random outcome. Ask students to predict, reveal and explain what can change. This contrasts a fixed unknown in this algebra problem with a random variable; it does not imply that every algebraic variable is fixed.
+
+Each toss generates four independent fair-coin outcomes. Looking inside only reveals the value; it does not generate another outcome. New purchases and tosses close the corresponding box. The histories retain the last three revealed results, and Reset both clears them. A repeated head count is valid and is never artificially prevented. The initial coin display waits for the teacher's first toss.
+
+The first timed hinge checks fixed unit price versus total cost, unknown versus random, and the misconception that a random value must change every time. Its answer is D; the slide notes include responses for ready, divided and not-yet-ready students. Both the applet and this hinge are additional teaching material, not new numbered booklet examples.
+
+Then classify possible values, complete Example 3.1, and use the existing classification cards and measurement hinge. The latter targets confusion between measurement precision and the underlying variable. Choose a duration that leaves time to obtain every student's response before revealing. Example 3.2 is followed by the existing 16-outcome coin display. Finish with the wording discussion in Example 3.3, revisit the success criteria and set the unchanged homework.
 
 ### Classification precision
 

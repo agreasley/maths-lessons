@@ -1,0 +1,13 @@
+## Today's learning {#l1-learning-goal}
+
+### Lesson objective
+
+We are learning to define random variables and classify their possible values.
+
+### Success criteria
+
+I can explain what a random variable represents and whether it is discrete or continuous.
+
+::: notes
+This is an Extension 1 mathematics class meeting random variables for the first time. Move directly into the comparison applet; a prerequisite algebra recap is not needed.
+:::

@@ -116,6 +116,95 @@
     });
     timers.push({element:m,pause});showTime();
   }
+  function variableComparison(m) {
+    const purchases = [3, 5, 7, 2, 6, 4, 8];
+    const price = 4;
+    let purchaseIndex = 0, purchaseRecorded = false, coins = null, trial = 0, coinRecorded = false;
+    let penHistory = [], coinHistory = [];
+    m.innerHTML = `<div class="variable-panels">
+      <div class="variable-panel pen-panel" role="group" aria-label="Algebra: buying pens">
+        <div class="variable-kicker">Algebra · a fixed unknown</div><h3>Buying pens</h3>
+        <p class="variable-definition">Let <var>x</var> be the cost of one pen, in dollars.</p>
+        <p class="variable-context">Same shop. Same pens. Unchanged price.</p>
+        <div class="variable-situation"><span class="purchase-description"></span><strong class="purchase-equation"></strong></div>
+        <div class="variable-box" role="status" aria-live="polite" aria-label="Pen price"><var>x</var><span class="box-value">?</span></div>
+        <div class="variable-actions"><button class="pen-reveal primary" aria-expanded="false">Look inside <var>x</var></button><button class="new-purchase">New purchase</button></div>
+        <div class="variable-history"><div class="history-heading">Last revealed purchases</div><ol class="pen-history"></ol></div>
+      </div>
+      <div class="variable-panel coin-panel" role="group" aria-label="Probability: tossing coins">
+        <div class="variable-kicker">Probability · a random variable</div><h3>Tossing four coins</h3>
+        <p class="variable-definition">Let <var>X</var> be the number of heads when four coins are tossed.</p>
+        <p class="variable-context">Four fair, independent coins on each trial.</p>
+        <div class="variable-situation"><span class="trial-label">Toss to begin</span><div class="comparison-coins" role="img" aria-label="Four coins, not yet tossed"></div></div>
+        <div class="variable-box" role="status" aria-live="polite" aria-label="Head count for this trial"><var>X</var><span class="box-value">?</span></div>
+        <div class="variable-actions"><button class="coin-reveal primary" aria-expanded="false" disabled>Look inside <var>X</var></button><button class="toss-four">Toss four coins</button></div>
+        <div class="variable-history"><div class="history-heading">Last revealed trials</div><ol class="coin-history"></ol></div>
+      </div>
+    </div><div class="variable-footer"><p>Predict before we look: what could be inside each box?</p><button class="reset-variables ghost">Reset both</button></div>`;
+    const penPanel = $(m, '.pen-panel'), coinPanel = $(m, '.coin-panel');
+    const setBox = (panel, open, value, symbol) => {
+      const box = $(panel, '.variable-box'), button = $(panel, '.primary');
+      box.classList.toggle('is-open', open);
+      $(box, '.box-value').textContent = open ? value : '?';
+      button.setAttribute('aria-expanded', String(open));
+      button.innerHTML = open ? 'Close box' : `Look inside <var>${symbol}</var>`;
+    };
+    const drawHistory = (panel, history) => {
+      $(panel, 'ol').innerHTML = history.length
+        ? history.slice(-3).map(row => `<li>${esc(row)}</li>`).join('')
+        : '<li class="history-empty">Reveal a value to record it here.</li>';
+    };
+    const showPurchase = () => {
+      const n = purchases[purchaseIndex];
+      $(m, '.purchase-description').textContent = `${n} pens cost $${n * price}`;
+      $(m, '.purchase-equation').innerHTML = `${n}<var>x</var> = ${n * price}`;
+      setBox(penPanel, false, price, 'x');
+      purchaseRecorded = false;
+    };
+    const showCoins = () => {
+      $(m, '.trial-label').textContent = coins ? `Trial ${trial}` : 'Toss to begin';
+      const display = $(m, '.comparison-coins');
+      display.innerHTML = (coins || ['?', '?', '?', '?']).map(c => `<span class="comparison-coin ${c === 'H' ? 'head' : c === 'T' ? 'tail' : 'untossed'}">${c}</span>`).join('');
+      display.setAttribute('aria-label', coins ? `Coin outcomes: ${coins.map(c => c === 'H' ? 'heads' : 'tails').join(', ')}` : 'Four coins, not yet tossed');
+      $(m, '.coin-reveal').disabled = !coins;
+      setBox(coinPanel, false, '', 'X');
+      coinRecorded = false;
+    };
+    $(m, '.pen-reveal').addEventListener('click', () => {
+      const open = $(m, '.pen-reveal').getAttribute('aria-expanded') !== 'true';
+      setBox(penPanel, open, price, 'x');
+      if (open && !purchaseRecorded) {
+        const n = purchases[purchaseIndex];
+        penHistory.push(`${n} pens · $${n * price} → x = ${price}`);
+        penHistory = penHistory.slice(-3); purchaseRecorded = true;
+        drawHistory(penPanel, penHistory);
+      }
+    });
+    $(m, '.new-purchase').addEventListener('click', () => {
+      purchaseIndex = (purchaseIndex + 1) % purchases.length; showPurchase();
+    });
+    $(m, '.toss-four').addEventListener('click', () => {
+      coins = Array.from({length: 4}, () => Math.random() < .5 ? 'H' : 'T');
+      trial++; showCoins();
+    });
+    $(m, '.coin-reveal').addEventListener('click', () => {
+      if (!coins) return;
+      const open = $(m, '.coin-reveal').getAttribute('aria-expanded') !== 'true';
+      const heads = coins.filter(c => c === 'H').length;
+      setBox(coinPanel, open, heads, 'X');
+      if (open && !coinRecorded) {
+        coinHistory.push(`${trial}. ${coins.join('')} → X = ${heads}`);
+        coinHistory = coinHistory.slice(-3); coinRecorded = true;
+        drawHistory(coinPanel, coinHistory);
+      }
+    });
+    const reset = () => {
+      purchaseIndex = 0; coins = null; trial = 0; penHistory = []; coinHistory = [];
+      showPurchase(); showCoins(); drawHistory(penPanel, penHistory); drawHistory(coinPanel, coinHistory);
+    };
+    $(m, '.reset-variables').addEventListener('click', reset);
+    reset();
+  }
   function outcomes(m){
     const all=Array.from({length:16},(_,i)=>i.toString(2).padStart(4,'0').replace(/0/g,'T').replace(/1/g,'H'));
     m.innerHTML='<div class="outcomes">'+all.map(s=>`<div class="outcome" data-heads="${[...s].filter(x=>x==='H').length}">${s}</div>`).join('')+'</div><div class="toolbar"><span class="small">Highlight X =</span>'+[0,1,2,3,4].map(n=>`<button data-k="${n}" aria-pressed="false">${n}</button>`).join('')+'<button data-k="all">All outcomes</button></div><div class="feedback" aria-live="polite">16 ordered outcomes. Five possible values of X.</div>';
@@ -175,7 +264,7 @@
     $(m,'.calculate').addEventListener('click',()=>{const h=Number($(m,'.class-heads').value),n=Number($(m,'.class-n').value);$(m,'.class-result').textContent=Number.isInteger(h)&&Number.isInteger(n)&&n>0&&h>=0&&h<=n?`Class estimate: ${h}/${n} = ${fmt(h/n)}. Compare this with 0.5.`:'Enter whole-number totals with 0 ≤ heads ≤ tosses and tosses > 0.';});
   }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     document.addEventListener('keydown',e=>{if(e.target.closest('button,input,select,textarea'))e.stopPropagation();});
     const wait=()=>{

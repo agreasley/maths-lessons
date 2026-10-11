@@ -1,0 +1,19 @@
+## What is inside the variable? {#l1-variable-comparison}
+
+```{=html}
+<div data-module="variable-comparison"></div>
+```
+
+::: notes
+Additional teaching example, not a numbered booklet example. Allow about 3–4 minutes for this applet.
+
+Start with the pen panel. Let x be the cost of one pen, in dollars. The shop, type of pen and unit price remain unchanged. Ask: “Predict before we look: what could be inside x?” Reveal, generate a new purchase and predict again. The purchase quantities cycle through different values; every equation has the solution x = 4. Keep the pace brisk for this Extension 1 class.
+
+Then define X as the number of heads when four fair, independent coins are tossed. Before tossing, ask: “What could be inside X?” Toss the four coins, then reveal the head count. Repeat a few times. Ask: “After another purchase or another toss, what might change? Explain why.”
+
+Use the last three revealed results to compare. Each press of Toss four coins generates four independent outcomes; no result is forced to differ from the preceding result. Looking inside or closing a box does not change the purchase or toss. Generating a new purchase or toss closes that box. Reset both clears the histories and starts again.
+
+Follow-up: “The meaning of X stays the same: count the heads. What determines its value on this trial?” Connect the four-coin outcome to its numerical head count. A repeated value is useful evidence: random does not mean different every time. If no repeated value happens to occur, use HHTT and HTHT on the next slide.
+
+The contrast is between a fixed unknown in this algebra problem and a numerical value determined by a random outcome. Do not claim that all algebraic variables are fixed. Being hidden or unknown is not what makes X a random variable. Each realised value is fixed once that trial's outcome is known; the rule defining X remains unchanged across trials. Capital letters are the usual notation for random variables, not a test for randomness.
+:::

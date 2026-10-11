@@ -2,6 +2,10 @@
 
 Follow the repository structure and publishing guidance in README.md. For a new lesson or a substantial redesign, propose the slide sequence before building and wait for approval. Once approved, complete implementation and checks; explicitly requested small edits can be made directly.
 
+## Consistent lesson appearance
+
+Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, coloured bar motif and booklet/homework footer. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; place the opening activity after the cover.
+
 ## Multiple-choice response routine
 
 - Use four numbered choices: **1, 2, 3, 4**, with one unambiguously correct answer. Use the same convention for timed hinges and other classroom multiple-choice checks.

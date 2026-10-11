@@ -11,6 +11,8 @@ homework: 15B
 
 {{< include lesson-2/_opening.qmd >}}
 
+{{< include lesson-2/_opening-table.qmd >}}
+
 {{< include lesson-2/_learning-goal.qmd >}}
 
 {{< include lesson-2/_statistics-reminder.qmd >}}

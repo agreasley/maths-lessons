@@ -1,20 +1,7 @@
-## What does this table tell us? {#l2-opening}
+## One dataset. Several views. {#l2-opening .cover}
 
-A survey records the number of pets in **50 households**.
-
-| Number of pets, $x$ | Frequency, $f$ |
-|:---:|:---:|
-| 0 | 15 |
-| 1 | 20 |
-| 2 | 10 |
-| 3 | 4 |
-| 4 | 1 |
-
-::: {.takeaway}
-What does the 20 represent? How many households have **at most one pet**?
-:::
-<p class="booklet-cue">Example 3.4 dataset · Booklet p. 39</p>
+<div class="eyebrow">Year 11 · Probability and data · Lesson 2</div><div class="cover-title">One dataset.<br>Several views.</div><div class="cover-subtitle">Read frequency tables. Calculate summary statistics. Connect cumulative frequency to the median.</div><div class="cover-bars" aria-hidden="true"><span style="height:30%"></span><span style="height:55%"></span><span style="height:100%"></span><span style="height:75%"></span><span style="height:40%"></span></div><div class="cover-foot">Sections 3.2–3.3 · Examples 3.4–3.6, 3.8–3.11 · Homework 15B</div>
 
 ::: notes
-Start directly with the familiar two-column frequency table. Students have met frequency tables and histograms in Years 9–10. The 20 is the number of households with exactly one pet. At most one includes zero and one: 15+20=35. Collect reasoning without adding columns yet; this motivates cumulative frequency. Keep the distinction between number of pets and number of households explicit.
+Use the shared lesson cover style, matching Lessons 1 and 3. The next slide opens the teaching with the Example 3.4 two-column frequency table. Use Previous, Next and Slide map below; S opens presenter notes on a computer.
 :::

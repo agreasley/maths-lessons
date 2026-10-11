@@ -446,7 +446,7 @@
   }
   function ogiveIntro(m){
     const bounds=[.5,1.5,2.5,3.5,4.5],counts=[0,2,7,11,12];
-    const L=110,R=835,T=48,B=365,sx=x=>L+(x-.5)/4*(R-L),sy=y=>B-y/12*(B-T);
+    const L=110,R=835,T=48,B=365,xmin=bounds[0]-.5,xmax=bounds.at(-1)+.5,sx=x=>L+(x-xmin)/(xmax-xmin)*(R-L),sy=y=>B-y/12*(B-T);
     let g='';
     for(let y=0;y<=12;y+=2)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-20,sy(y)+8,y,'text-anchor="end" font-size="25"');
     bounds.slice(0,-1).forEach((left,i)=>{
@@ -457,9 +457,10 @@
     g+=`<polyline points="${bounds.map((x,i)=>`${sx(x)},${sy(counts[i])}`).join(' ')}" stroke="#007f78" stroke-width="5" fill="none"/>`;
     bounds.forEach((x,i)=>g+=`<circle cx="${sx(x)}" cy="${sy(counts[i])}" r="7" fill="#007f78"/>`);
     g+=text(sx(2.5)+20,sy(7)+4,'cf = 7','font-size="28" fill="#007f78"');
+    g+=`<path class="cumulative-leading-gap" d="M${L} 416v10H${sx(bounds[0])}v-10" fill="none" stroke="#b55224" stroke-width="3"/>`+text(L,452,'½-column gap','font-size="22" fill="#b55224"');
     g+=text((L+R)/2,452,'Upper class boundary','text-anchor="middle" font-size="29"');
     g+=text(32,(T+B)/2,'Cumulative frequency',`transform="rotate(-90 32 ${(T+B)/2})" text-anchor="middle" font-size="28"`);
-    m.innerHTML=makeSvg(g,'Cumulative frequency histogram with heights 2, 7, 11 and 12; an ogive joins the initial zero point and the top-right corner of each bar, at upper boundaries 1.5, 2.5, 3.5 and 4.5',485);
+    m.innerHTML=makeSvg(g,'Cumulative frequency histogram with a half-column leading gap and heights 2, 7, 11 and 12; an ogive joins the initial zero point and the top-right corner of each bar, at upper boundaries 1.5, 2.5, 3.5 and 4.5',485);
   }
   function ogive(m){
     const d=datasets[m.dataset.set],n=sum(d.f);let width=1,built=0,points=false,joined=false,median=false,selected=-1;
@@ -470,7 +471,7 @@
       let h='<table><thead><tr><th>'+(width===1?'Score':'Scores')+'</th><th>'+math('f')+'</th><th>'+math('cf')+'</th></tr></thead><tbody>';
       bins.forEach((b,i)=>h+=`<tr class="${i===selected?'ogive-selected':''} ${median&&middleRows.includes(i)?'median-row':''}"><td><button class="ogive-row" data-row="${i}" aria-pressed="${i===selected}">${width===1?d.values[i]:`${b.left+.5}–${b.right-.5}`}</button></td><td>${b.f}</td><td>${cf[i]}</td></tr>`);
       $(m,'.ogive-table').innerHTML=h+'</tbody></table>';
-      const L=83,R=835,T=28,B=350,sx=x=>L+(x-.5)/10*(R-L),sy=y=>B-y/n*(B-T);
+      const L=83,R=835,T=28,B=350,xmin=bins[0].left-width/2,xmax=bins.at(-1).right+width/2,sx=x=>L+(x-xmin)/(xmax-xmin)*(R-L),sy=y=>B-y/n*(B-T);
       let g='';for(let y=0;y<=n;y+=10)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-14,sy(y)+7,y,'text-anchor="end"');
       bins.slice(0,built).forEach((b,i)=>{g+=`<rect class="ogive-bar" data-row="${i}" x="${sx(b.left)}" y="${sy(cf[i])}" width="${sx(b.right)-sx(b.left)}" height="${B-sy(cf[i])}" fill="${median&&middleRows.includes(i)?'#b55224':i===selected?'#3b66a8':'#007f78'}" fill-opacity=".48" stroke="white" stroke-width="2"><title>${cf[i]} observations up to ${b.right-.5}</title></rect>`;});
       g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="2" fill="none"/>`;
@@ -487,7 +488,7 @@
         g+=`<circle cx="${sx(estimate)}" cy="${sy(n/2)}" r="6" fill="#b55224"/>`;
         reading=width===1?`<strong>Exact median:</strong> observations 20 and 21 are both 6 (positions 16–23). ${math('\\mathrm{Median}=6')}. <strong>Ogive estimate:</strong> ${math('\\approx 6.1')}.`:`<strong>Grouped table:</strong> observations 20 and 21 lie in the 5–6 group. The exact median cannot be recovered from these groups alone. <strong>Ogive estimate:</strong> ${math('\\approx 6.07')}.`;
       }
-      $(m,'.ogive-plot').innerHTML=makeSvg(g,'Cumulative frequency histogram and optional upper-boundary ogive for 40 quiz scores',440);
+      $(m,'.ogive-plot').innerHTML=makeSvg(g,'Cumulative frequency histogram with a half-column leading gap and optional upper-boundary ogive for 40 quiz scores',440);
       $(m,'.ogive-reading').innerHTML=reading;
       $(m,'.ogive-next').disabled=built===bins.length;$(m,'.ogive-all').disabled=built===bins.length;
       [['points',points],['join',joined],['median',median]].forEach(([name,on])=>$(m,`.ogive-${name}`).setAttribute('aria-pressed',String(on)));

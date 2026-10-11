@@ -4,6 +4,7 @@
 - The final height is the total number of observations.
 - Each bar shows the total counted **up to that value or class**.
 - Use **cumulative frequency** on the vertical axis.
+- Keep a **half-column gap before the first bar**, as for the ordinary histogram.
 
 
 ::: {.takeaway}
@@ -12,5 +13,7 @@ Ordinary frequency asks “how many here?” Cumulative frequency asks “how ma
 <p class="booklet-cue">Booklet p. 45 · Complete the working in your booklet.</p>
 
 ::: notes
+CambridgeMATHS NSW Stage 6 Mathematics Extension 1 Year 11 (second edition), p. 615, uses the same bar positioning for cumulative and ordinary histograms. Keep the leading half-column gap; adjacent bars still touch.
+
 For intervals a≤x<b, a cumulative point at b records the count below b. The booklet wording 'up to and including' should be treated with this boundary convention in mind. Integer scores in unit-width bins have half-integer boundaries.
 :::

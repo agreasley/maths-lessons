@@ -10,6 +10,8 @@
 ```
 
 ::: notes
+Keep the half-column gap before the first bar at both class widths. The gap scales with the selected class width; it does not shift class boundaries or cumulative counts. The ogive starts at zero at the bottom-left corner of the first bar and connects the top-right corners, following CambridgeMATHS Extension 1 Year 11 (second edition), p. 615.
+
 Use Next bar to build running totals, then Show all bars. Tap any bar (or choose its row) to link the count to the highlighted table entries. Show points places cumulative counts at upper boundaries with a zero starting point at the first lower boundary. Join ogive adds straight segments. Median guides marks cf20 and the two middle observation positions20 and21 in the table.
 
 Exact median6: both the20th and21st observations are6 because cf15 before6 and cf23 at6. The upper-boundary ogive at cf20 gives5.5+(20−15)/8=6.125, approximately6.1. This is an interpolated estimate, not a replacement for the exact discrete median. The50% guide is half the cumulative total; for an exact even-sample median still check both middle observations.

@@ -2,8 +2,8 @@
 
 | Need to find… | Use… |
 |:---|:---|
-| Total number of observations | $n=\sum f$ |
-| Mean | $\bar{x}=\dfrac{\sum fx}{\sum f}$ |
+| Total number of observations | $n=\sum f$: sum of the $f$ values |
+| Mean | $\bar{x}=\dfrac{\sum fx}{\sum f}$: sum of $fx$ values ÷ sum of $f$ values |
 | Mode; range | Largest $f$; maximum observed $x$ minus minimum observed $x$ |
 | Median | $cf$ to locate the middle observation(s), then read their $x$-values |
 | Proportion with exactly one value | $rf=f/n$ |

@@ -1,0 +1,27 @@
+## Cumulative frequency polygon · an ogive {#l2-ogive-definition .compact}
+
+A **cumulative frequency polygon** is also called an **ogive**.
+
+::: {.split .ogive-intro-layout}
+::: {.column-block}
+```{=html}
+<div data-module="ogive-intro"></div>
+```
+:::
+::: {.column-block}
+
+- Plot each **cumulative frequency** at its **upper class boundary**.
+- Start at **zero cumulative frequency**, at the first lower boundary.
+- Join neighbouring points with **straight line segments**.
+- The final height is the **total number of observations**.
+
+:::
+:::
+
+::: {.takeaway}
+An ogive displays the running total. A horizontal guide at half the total helps estimate the median.
+:::
+
+::: notes
+The illustrative integer scores 1,2,3,4 have frequencies 2,5,4,1. Their unit-width bins have boundaries 0.5–4.5, giving ogive points (0.5,0),(1.5,2),(2.5,7),(3.5,11),(4.5,12). In particular cf=7 at boundary 2.5 means seven observations have integer scores at most 2. For continuous classes a≤x<b, the count at b is below b. Join with straight segments, not a smoothed curve. Example 3.9 will distinguish the ogive estimate from the exact discrete median obtained from ordered positions.
+:::

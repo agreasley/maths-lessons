@@ -1,0 +1,19 @@
+## Why is $fx$ useful for the mean? {#l2-why-fx}
+
+The frequency tells us **how many times a value occurs**. The product $fx$ just means $f\times x$.
+
+Four households have three pets each:
+
+$$3+3+3+3=4\times3=12.$$
+
+Adding all the $fx$ values gives the **sum of all the individual data values**—the numerator when calculating the mean.
+
+$$\bar{x}=\frac{\text{sum of }fx\text{ values}}{\text{sum of }f\text{ values}}.$$
+
+::: {.notation-key}
+$\sum fx$ means **sum of the $fx$ values**; $\sum f$ means **sum of the $f$ values**.
+:::
+
+::: notes
+Connect multiplication to repeated addition before adding the new column. Here fx counts the pets contributed by each group of households; adding the products gives 56 pets. Adding the frequencies gives 50 households. Sigma is new notation: say 'sum of' each time it appears. Do not average the distinct x-values without using their frequencies.
+:::

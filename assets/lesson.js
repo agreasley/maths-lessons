@@ -375,24 +375,24 @@
       const header=c=>`${math(c)}<small>${names[c]}</small>`;
       let h=`<table><thead><tr><th>${math('x')}<small>Number of pets</small></th><th>${math('f')}<small>Frequency</small></th>${columns.map(c=>`<th>${header(c)}</th>`).join('')}</tr></thead><tbody>`;
       d.values.forEach((x,i)=>{
-        const prefix=(active==='cf'||active==='crf')&&i<=ri,one=(active==='rf'||active==='fx')&&i===ri;
+        const prefix=active==='crf'&&i<=ri,one=(active==='cf'||active==='rf'||active==='fx')&&i===ri;
         const values={fx:x*d.f[i],cf:cf[i],rf:(d.f[i]/n).toFixed(2),crf:(cf[i]/n).toFixed(2)};
-        h+=`<tr><td class="${i===ri?'current-value':''}">${x}</td><td class="${prefix||one?'input-highlight':''}">${d.f[i]}</td>${columns.map(c=>`<td data-column="${c}" class="${i===ri&&c===active?'current-cell':''}">${i<count[c]?values[c]:'…'}</td>`).join('')}</tr>`;
+        h+=`<tr><td class="${i===ri?'current-value':''}">${x}</td><td class="${prefix||one?'input-highlight':''}">${d.f[i]}</td>${columns.map(c=>`<td data-column="${c}" class="${i===ri&&c===active?'current-cell':active==='cf'&&c==='cf'&&i===ri-1?'input-highlight':''}">${i<count[c]?values[c]:'…'}</td>`).join('')}</tr>`;
       });
       h+=`</tbody><tfoot><tr><td>Total</td><td>${n}</td>${columns.map(c=>`<td>${c==='fx'?(count.fx===rows?sum(d.values.map((x,i)=>x*d.f[i])):'…'):c==='rf'?(count.rf===rows?'1.00':'…'):'—'}</td>`).join('')}</tr></tfoot></table>`;
       $(m,'.table-wrap').innerHTML=h;
-      $(m,'.step-status').textContent=active?`${names[active]} · entry ${ri+1} of ${rows}`:'Start with the value and its frequency';
+      $(m,'.step-status').textContent=active?`${names[active]} · entry ${ri+1} of ${rows}`:complete.length?'Add the product column after frequency':'Start with the value and its frequency';
       let explanation='Predict the next entry, then reveal its calculation.';
       if(active){
         const x=d.values[ri],f=d.f[ri],c=cf[ri];let equation,meaning;
-        if(active==='cf'){equation=`${d.f.slice(0,ri+1).join('+')}=${c}`;meaning=`${c} of the ${n} households have at most ${x} ${x===1?'pet':'pets'}.`;}
+        if(active==='cf'){equation=`${ri?cf[ri-1]:0}+${f}=${c}`;meaning=`${c} of the ${n} households have at most ${x} ${x===1?'pet':'pets'}.`;}
         if(active==='rf'){equation=`\\frac{${f}}{${n}}=${(f/n).toFixed(2)}`;meaning=`${Math.round(f/n*100)}% of households have exactly ${x} ${x===1?'pet':'pets'}.`;}
         if(active==='crf'){equation=`\\frac{${c}}{${n}}=${(c/n).toFixed(2)}`;meaning=`${Math.round(c/n*100)}% of households have at most ${x} ${x===1?'pet':'pets'}.`;}
         if(active==='fx'){equation=`${f}\\times ${x}=${f*x}`;meaning=`${f} ${f===1?'household':'households'} with ${x} ${x===1?'pet':'pets'} each ${f===1?'contributes':'contribute'} ${f*x} pets in total.`;}
         explanation=`<div>${math(equation)}</div><p>${meaning}</p>`;
       }
       $(m,'.step-explanation').innerHTML=explanation;
-      $(m,'.table-mean').innerHTML=stages.includes('fx')&&step===last?math('\\bar{x}=\\frac{\\sum fx}{\\sum f}=\\frac{56}{50}=1.12')+' pets per household':'';
+      $(m,'.table-mean').innerHTML=stages.includes('fx')&&step===last?math('\\bar{x}=\\frac{\\sum fx}{\\sum f}=\\frac{56}{50}=1.12')+' pets per household<div class=\"sigma-key\">'+math('\\sum fx')+' = sum of '+math('fx')+' values; '+math('\\sum f')+' = sum of '+math('f')+' values.</div>':'';
       $(m,'.build-back').disabled=step===0;$(m,'.build-next').disabled=step===last;$(m,'.build-column').disabled=step===last;
       $(m,'.build-next').innerHTML=step===last?'Table complete':step%rows===0?`Build ${math(stages[Math.floor(step/rows)])}`:'Next entry';
       m.dataset.step=step;typeset(m);
@@ -421,26 +421,42 @@
     let continuous=false;
     m.innerHTML='<div class="toolbar"><button data-kind="discrete" aria-pressed="true">Discrete integer data</button><button data-kind="continuous" aria-pressed="false">Continuous data</button></div><div class="feature-plot"></div><div class="feature-caption" aria-live="polite"></div>';
     const draw=()=>{
-      const f=[2,5,4,1],L=100,R=850,T=32,B=305,xmax=continuous?4.5:5,sx=x=>L+x/xmax*(R-L),sy=y=>B-y/6*(B-T);
+      const f=[2,5,4,1],L=100,R=850,T=32,B=305,xmin=continuous?-.5:0,xmax=continuous?4.5:5,sx=x=>L+(x-xmin)/(xmax-xmin)*(R-L),sy=y=>B-y/6*(B-T);
       let g='';for(let y=0;y<=6;y++)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-18,sy(y)+7,y,'text-anchor="end"');
       f.forEach((v,i)=>{const left=continuous?i:i+.5,right=left+1;g+=`<rect x="${sx(left)}" y="${sy(v)}" width="${sx(right)-sx(left)}" height="${B-sy(v)}" fill="#007f78" fill-opacity=".7" stroke="white" stroke-width="2"/>`;});
       g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="2" fill="none"/>`;
       for(let x=0;x<=4;x++)g+=`<line x1="${sx(x)}" y1="${B}" x2="${sx(x)}" y2="${B+7}" stroke="#152e3b"/>`+text(sx(x),B+30,x,'text-anchor="middle"');
       g+=text(27,(T+B)/2,'Frequency',`transform="rotate(-90 27 ${(T+B)/2})" text-anchor="middle" font-size="26"`);
       g+=text((L+R)/2,392,continuous?'Time (seconds)':'Number of items','text-anchor="middle" font-size="26"');
+      const firstEdge=continuous?0:.5;
+      g+=`<path class="leading-gap" d="M${L} 348v12H${sx(firstEdge)}v-12" fill="none" stroke="#b55224" stroke-width="3"/>`+text(L,390,'½-column gap','font-size="20" fill="#b55224"');
+      if(continuous){const mid=(L+sx(0))/2;g+=`<path class="axis-break" d="M${mid-9} ${B+5}l7 -10m1 10l7 -10" stroke="#152e3b" stroke-width="2" fill="none"/>`;}
       if(!continuous){
-        g+=`<path d="M${sx(0)} 348v12H${sx(.5)}v-12" fill="none" stroke="#b55224" stroke-width="3"/>`+text(sx(0),390,'½-column gap','font-size="20" fill="#b55224"');
         g+=text(sx(2),28,'Values at bar centres','text-anchor="middle" font-size="23" fill="#3b66a8"');
         g+=`<line x1="${sx(2)}" y1="40" x2="${sx(2)}" y2="${B}" stroke="#3b66a8" stroke-dasharray="7 5" stroke-width="2"/>`;
       }else{
         [1,2].forEach(x=>g+=`<line x1="${sx(x)}" y1="38" x2="${sx(x)}" y2="${B}" stroke="#3b66a8" stroke-dasharray="7 5" stroke-width="2"/>`);
         g+=text(sx(1.5),27,'Class: 1 ≤ t < 2','text-anchor="middle" font-size="23" fill="#3b66a8"');
       }
-      $(m,'.feature-plot').innerHTML=makeSvg(g,continuous?'Continuous histogram with values at the class boundaries':'Discrete histogram with centred integer values and half-column leading gap',420);
-      $(m,'.feature-caption').innerHTML=continuous?'The labels mark <strong>lower and upper class boundaries</strong>. Here the first class starts at 0.':'The integer labels sit at <strong>bar centres</strong>. The half-column gap is before the first bar; adjacent bars touch.';
+      $(m,'.feature-plot').innerHTML=makeSvg(g,continuous?'Continuous histogram with a half-column leading gap before boundary zero; class labels at the boundaries':'Discrete histogram with centred integer values and half-column leading gap',420);
+      $(m,'.feature-caption').innerHTML=continuous?'Keep a <strong>half-column gap before 0</strong>. The labels still mark the correct <strong>lower and upper class boundaries</strong>.':'The integer labels sit at <strong>bar centres</strong>. The half-column gap is before the first bar; adjacent bars touch.';
       $$(m,'[data-kind]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.kind==='continuous')===continuous)));
     };
     $$(m,'[data-kind]').forEach(b=>b.onclick=()=>{continuous=b.dataset.kind==='continuous';draw();});draw();
+  }
+  function ogiveIntro(m){
+    const bounds=[.5,1.5,2.5,3.5,4.5],counts=[0,2,7,11,12];
+    const L=110,R=835,T=48,B=365,sx=x=>L+(x-.5)/4*(R-L),sy=y=>B-y/12*(B-T);
+    let g='';
+    for(let y=0;y<=12;y+=2)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-20,sy(y)+8,y,'text-anchor="end" font-size="25"');
+    g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="3" fill="none"/>`;
+    bounds.forEach(x=>g+=text(sx(x),B+38,fmt(x),'text-anchor="middle" font-size="26"'));
+    g+=`<polyline points="${bounds.map((x,i)=>`${sx(x)},${sy(counts[i])}`).join(' ')}" stroke="#007f78" stroke-width="5" fill="none"/>`;
+    bounds.forEach((x,i)=>g+=`<circle cx="${sx(x)}" cy="${sy(counts[i])}" r="7" fill="#007f78"/>`);
+    g+=text(sx(2.5)+20,sy(7)+4,'cf = 7','font-size="28" fill="#007f78"');
+    g+=text((L+R)/2,452,'Upper class boundary','text-anchor="middle" font-size="29"');
+    g+=text(32,(T+B)/2,'Cumulative frequency',`transform="rotate(-90 32 ${(T+B)/2})" text-anchor="middle" font-size="28"`);
+    m.innerHTML=makeSvg(g,'Ogive joining upper-boundary cumulative counts: (0.5,0), (1.5,2), (2.5,7), (3.5,11), (4.5,12)',485);
   }
   function ogive(m){
     const d=datasets[m.dataset.set],n=sum(d.f);let width=1,built=0,points=false,joined=false,median=false,selected=-1;
@@ -484,7 +500,7 @@
     $(m,'.ogive-reset').onclick=()=>{width=1;built=0;points=false;joined=false;median=false;selected=-1;$(m,'.ogive-width').value='1';draw();};draw();
   }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,ogive};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

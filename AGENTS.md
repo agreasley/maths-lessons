@@ -4,7 +4,7 @@ Follow the repository structure and publishing guidance in README.md. For a new 
 
 ## Consistent lesson appearance
 
-Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, coloured bar motif and booklet/homework footer. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; place the opening activity after the cover.
+Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, coloured bar motif and booklet/homework footer. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; put the lesson objective and success criterion immediately after the cover, followed by the opening activity.
 
 ## Multiple-choice response routine
 

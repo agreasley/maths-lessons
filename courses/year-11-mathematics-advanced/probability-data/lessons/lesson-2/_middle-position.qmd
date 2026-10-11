@@ -1,0 +1,34 @@
+## Which observations are in the middle? {#l2-middle-position}
+
+First **order the data**. Let $n$ be the number of observations.
+
+::: {.split}
+::: {.column-block}
+<h3>Odd <span data-math="n">n</span>: one middle value</h3>
+
+Use position
+
+$$\frac{n+1}{2}.$$
+
+For $n=9$: position $\frac{9+1}{2}=5$.
+
+The median is the **5th value**.
+:::
+::: {.column-block}
+<h3>Even <span data-math="n">n</span>: two middle values</h3>
+
+Use positions
+
+$$\frac{n}{2}\quad\text{and}\quad\frac{n}{2}+1.$$
+
+For $n=10$: positions **5 and 6**.
+
+The median is the **average of those two values**.
+:::
+:::
+
+<p class="small-note">For 10 observations, <span data-math="(n+1)/2=5.5">(n + 1)/2 = 5.5</span> lies between positions 5 and 6. It is a position, not the median value.</p>
+
+::: notes
+Make the parentheses explicit: (n+1)/2, not n+1/2. The position tells us where to look in ordered data; it is not the data value. Apply this next to n=50 in the pet table: positions 25 and 26. For even n, average the two data values after locating them. This new explanation replaces the later 'Locate before calculating' demonstration slide, which is removed from the active sequence.
+:::

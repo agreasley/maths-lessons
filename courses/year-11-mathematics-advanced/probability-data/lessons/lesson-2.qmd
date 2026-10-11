@@ -11,17 +11,35 @@ homework: 15B
 
 {{< include lesson-2/_opening.qmd >}}
 
-{{< include lesson-2/_opening-table.qmd >}}
-
 {{< include lesson-2/_learning-goal.qmd >}}
+
+{{< include lesson-2/_opening-table.qmd >}}
 
 {{< include lesson-2/_statistics-reminder.qmd >}}
 
+{{< include lesson-2/_stat-median.qmd >}}
+
+{{< include lesson-2/_stat-mode.qmd >}}
+
+{{< include lesson-2/_stat-range.qmd >}}
+
+{{< include lesson-2/_stat-q1.qmd >}}
+
+{{< include lesson-2/_stat-q3.qmd >}}
+
+{{< include lesson-2/_stat-iqr.qmd >}}
+
+{{< include lesson-2/_cumulative-definition.qmd >}}
+
 {{< include lesson-2/_example-3-4-table.qmd >}}
+
+{{< include lesson-2/_why-fx.qmd >}}
 
 {{< include lesson-2/_mean-from-table.qmd >}}
 
 {{< include lesson-2/_four-columns.qmd >}}
+
+{{< include lesson-2/_middle-position.qmd >}}
 
 {{< include lesson-2/_statistics-from-table.qmd >}}
 
@@ -32,6 +50,8 @@ homework: 15B
 {{< include lesson-2/_example-3-5.qmd >}}
 
 {{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_mean-hinge.qmd >}}
 
 {{< include lesson-2/_histogram-rules.qmd >}}
 
@@ -45,13 +65,13 @@ homework: 15B
 
 {{< include lesson-2/_cumulative-graphs.qmd >}}
 
+{{< include lesson-2/_ogive-definition.qmd >}}
+
 {{< include lesson-2/_example-3-9-table.qmd >}}
 
 {{< include lesson-2/_example-3-9-graph.qmd >}}
 
 {{< include lesson-2/_example-3-10.qmd >}}
-
-{{< include lesson-2/_middle-observations.qmd >}}
 
 {{< include lesson-2/_median-graphs.qmd >}}
 

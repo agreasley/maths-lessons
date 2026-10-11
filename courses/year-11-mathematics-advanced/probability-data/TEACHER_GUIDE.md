@@ -31,6 +31,7 @@ Matching cartoon hand icons sit alongside the printed numbers. Timer expiry does
 | Lesson 1: infinitely many reciprocal values | 3 |
 | Example 3.3: amount charged | 1 (booklet A) |
 | Lesson 2: median from a complete frequency table | 2 |
+| Lesson 2: mean from the same complete frequency table | 3 |
 | Example 3.11: histograms | 2 (booklet B) |
 | Lesson 3: class boundary | 2 |
 
@@ -57,13 +58,17 @@ Then classify possible values, complete Example 3.1, and use the existing classi
 
 ## Lesson 2 — Exercise 15B
 
-The class has already met frequency tables, histograms, mean, median, mode, range, quartiles and IQR in Years 9–10. Keep the shared title-slide style used in Lessons 1 and 3, then begin the teaching with the two-column Example 3.4 table and use only a brief definition reminder. The objective is to read and extend frequency tables, interpret cumulative frequency, and calculate/check summary statistics using tables and a calculator.
+The class has already met frequency tables, histograms, mean, median, mode, range, quartiles and IQR in Years 9–10. Keep the shared title-slide style used in Lessons 1 and 3, with the learning objective and success criterion immediately after the title. Then display the two-column Example 3.4 table: the highlighted frequency 20 means 20 households have exactly one pet. The objective is to read and extend frequency tables, interpret cumulative frequency, and calculate/check summary statistics using tables and a calculator.
 
-Sequence: shared title slide → two-column table → learning goal and quick definitions → cumulative frequency, relative frequency and cumulative relative frequency → insert fx and calculate the mean → summary statistics from ordered positions → calculator demonstration → Examples 3.4(c–e) and 3.5 → median hinge → histogram conventions → Examples 3.6 and 3.8 → Example 3.9 cumulative histogram/ogive → Examples 3.10–3.11 → recap and unchanged homework. Example 3.7's source files remain available but are not included in the lesson master.
+Sequence: shared title slide → learning goal → two-column table → seven quick statistics examples → cumulative-frequency definition → build cf, rf and crf → explain fx, insert it and calculate the mean → explain odd/even middle positions → find statistics from the table → calculator demonstration → Examples 3.4(c–e) and 3.5 → median hinge → mean hinge → histogram conventions → Examples 3.6 and 3.8 → cumulative histogram and dedicated polygon/ogive introduction → Example 3.9 interactive → Example 3.10 → timed Example 3.11 hinge → recap and unchanged homework. Example 3.7 and the former “Locate before calculating” slide remain in the repository but are omitted from the active sequence.
 
-The table builder begins with x and f only. Next entry reveals one calculation and highlights its inputs. Complete column finishes the current column; Back and Reset let you revisit the reasoning. Build cf first, then rf, then crf. Interpret each entry in context: at x=1, cf=35 means 35 households have at most one pet, rf=.40 means 40% have exactly one, and crf=.70 means 70% have at most one. The separate mean slide begins with these completed columns and inserts fx immediately after f. Products are 0,20,20,12,4; Σfx=56 and Σf=50, so the mean is 1.12 pets per household.
+Each familiar-statistics slide shows the same ordered list: 1, 2, 2, 4, 5, 6, 6, 6, 8, 10. Show one definition and calculation at a time: mean 50/10=5; median (5+6)/2=5.5; mode 6; range 10−1=9; Q1=2; Q3=6; IQR=6−2=4. These quick worked calculations are visible immediately. Use the medians of the lower and upper halves for quartiles.
 
-Use the statistic locator to connect rows to ordered positions. For Example 3.4, median=1 because both positions 25 and 26 lie in positions 16–35 (x=1). Mode=1, range=4, Q1=0, Q3=2 and IQR=2. For the quartiles, use the medians of the lower and upper halves; here the relevant positions are 13 and 38. The brief reminder's example values are hidden until requested.
+Define cumulative frequency first as the total number of outcomes less than or equal to a given outcome: a running total. Then begin the table builder with x and f only. Next entry reveals one calculation and highlights its inputs: the previous cf and current f. For example, after cf=35, add the next frequency 10 to get 45. Complete column finishes the current column; Back and Reset let you revisit the reasoning. Build cf first, then rf, then crf. Interpret each entry in context: at x=1, cf=35 means 35 households have at most one pet, rf=.40 means 40% have exactly one, and crf=.70 means 70% have at most one.
+
+Before inserting fx, explain that it means f×x and replaces repeated addition: four households with three pets contribute 3+3+3+3=4×3=12 pets. Adding all fx values gives the numerator of the mean; adding frequencies gives the number of observations. The separate mean slide starts with the completed columns and inserts fx immediately after f. Products are 0,20,20,12,4; Σfx=56 and Σf=50, so the mean is 1.12 pets per household. Sigma is new notation: the slides pair Σfx with “sum of the fx values” and Σf with “sum of the f values”. Say these phrases aloud.
+
+Before using the statistic locator, explain middle positions in ordered data. For odd n use (n+1)/2; for even n use positions n/2 and n/2+1, then average their values. A position is not itself the median value. For Example 3.4, median=1 because both positions 25 and 26 lie in positions 16–35 (x=1). Mode=1, range=4, Q1=0, Q3=2 and IQR=2. For the quartiles, the relevant positions are 13 and 38.
 
 ### Calculator practice
 
@@ -71,13 +76,17 @@ The calculator slide opens https://classpad.net/note/#/tools/math in a new tab f
 
 Menu labels and the warning that changing Frequency clears data were checked against the official Casio fx-8200 AU manual: https://support.casio.com/global/en/calc/manual/fx-8200AU_en/using_calculator_apps/statistical_calculations.html . Other models may differ. Students should follow on their own calculators. Do not extend this lesson into variance/standard deviation.
 
-### Median hinge
+### Median and mean hinges
 
 Display the complete six-column table in the order x, f, fx, cf, rf, crf. Values are 2,4,7,9,12 with frequencies 3,7,6,3,1. Thus n=20, fx=6,28,42,27,12, cf=3,10,16,19,20, rf=.15,.35,.30,.15,.05 and crf=.15,.50,.80,.95,1. Totals: Σf=20, Σfx=115 and Σrf=1; cumulative columns are not summed.
 
 Correct choice 2 gives median 5.5: observation 10 is 4 and observation 11 is 7. The complete table deliberately requires students to select the relevant columns. Choices 1 and 3 use only one middle value (or confuse the mode/middle distinct value with the median); choice 4 gives the middle position 10.5. The crf=.50 entry at x=4 does not eliminate the need to check the next observation. Keep the 60-second default, simultaneous 1–4 finger response and separate answer reveal. Teacher notes include ready/divided/reteach responses.
 
+Immediately follow with the mean hinge using the same complete table. Correct choice 3 is 115/20=5.75. Choice 1 repeats the median 5.5; choice 2 averages the five distinct values (34/5=6.8); choice 4 divides the weighted total by five table rows (115/5=23). It uses the same 60-second default and separate reveal. Ask which total counts observations and which total adds their values before re-polling a divided class.
+
 ### Cumulative graph interactive
+
+Introduce cumulative frequency histograms, then use the dedicated cumulative frequency polygon slide to name an **ogive**. Plot cumulative counts at upper class boundaries, include zero at the first lower boundary, and join successive points with straight segments. The final height is n. The small introductory example uses frequencies 2,5,4,1 at integer scores 1–4, with cumulative counts 2,7,11,12.
 
 In Example 3.9, Next bar builds running totals and Show all bars completes the histogram. Select a row or bar to interpret its count and ordered positions. Show points places points at upper class boundaries plus the initial zero point; Join ogive connects them. Median guides adds the half-total line and highlights the rows containing observations 20 and 21. Both are 6, giving exact median 6. Interpolation on the joined upper-boundary graph gives 6.125 (about 6.1).
 
@@ -85,12 +94,14 @@ Class width 2 rebuilds the table using groups 1–2,3–4,5–6,7–8,9–10. Th
 
 ### Graph conventions
 
-- All classes here have equal widths. Adjoining bars represent a histogram. In the discrete integer demonstration, leave a half-column lead-in before the first bar and centre each integer below its bar. This is not a gap between adjacent bars. For continuous data, labels mark class boundaries; do not shift them to force a leading gap. Label the vertical axis frequency, relative frequency or cumulative frequency as appropriate.
+- All classes here have equal widths and adjoining bars touch. Leave a half-column lead-in before the first bar. In the discrete integer demonstration, centre each integer below its bar. In the continuous demonstration, keep that lead-in even when the first class starts at 0: place the 0 boundary at the first bar's left edge, with a small horizontal-axis break in the display gap. Class boundaries and widths are unchanged; the gap is before the data, not between bars. Label the vertical axis frequency, relative frequency or cumulative frequency as appropriate.
 - Ordinary-frequency polygons use value/class centres, with zero endpoints one class outside the data.
 - Cumulative polygons use upper class boundaries and begin at zero at the first lower boundary.
 - Under an interval convention `a ≤ x < b`, the cumulative count at the upper boundary is the count *below b*. Keep strict/inclusive boundary language consistent.
 - A straight-line cumulative polygon gives an interpolated estimate. For discrete data, use cumulative counts to locate the middle observation(s) exactly. Example 3.9 has exact median **6**, while reading the upper-boundary polygon at cumulative frequency 20 gives about **6.1**.
 - If using the omitted Example 3.7 later, helper zero-frequency endpoints at scores 0 and 6 may be required to complete the polygon convention. This does not change the observed dataset.
+
+Treat Example 3.11 as a timed hinge with the original histograms, wording and option order. Use the 60-second default and separate reveal. Choice 2 (booklet B) is correct: modes 9 and 8, but both ranges are 6. Notes give a response for each distractor and ready/divided/reteach guidance.
 
 ## Lesson 3 — Exercise 15C
 

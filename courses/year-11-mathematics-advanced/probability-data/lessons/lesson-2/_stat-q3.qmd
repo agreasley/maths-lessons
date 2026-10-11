@@ -1,0 +1,18 @@
+## Familiar statistics · Upper quartile {#l2-stat-q3 .quick-stat}
+
+The upper quartile is the median of the upper half of the ordered data.
+
+```{=html}
+<p class="number-list-label">The same 10 numbers, in order:</p>
+<div class="number-strip" aria-label="1, 2, 2, 4, 5, 6, 6, 6, 8, 10"><span class="stat-number">1</span><span class="stat-number">2</span><span class="stat-number">2</span><span class="stat-number">4</span><span class="stat-number">5</span><span class="stat-number stat-half">6</span><span class="stat-number stat-half">6</span><span class="stat-number stat-half stat-focus">6</span><span class="stat-number stat-half">8</span><span class="stat-number stat-half">10</span></div>
+```
+
+Find the median of the upper half: 6, 6, 6, 8, 10.
+
+$$
+Q_3=6
+$$
+
+::: notes
+Keep this familiar-statistics reminder quick: one statistic and one worked calculation per slide. Use the same ordered dataset throughout. Its sum is 50, n=10, mean=5, median=5.5, mode=6, range=9, Q1=2, Q3=6 and IQR=4. For odd samples, use the school convention of excluding the overall median when taking medians of the two halves.
+:::

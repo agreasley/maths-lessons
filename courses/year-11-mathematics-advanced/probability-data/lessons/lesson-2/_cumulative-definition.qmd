@@ -1,0 +1,21 @@
+## What is cumulative frequency? {#l2-cumulative-definition}
+
+::: {.takeaway}
+The **cumulative frequency** is the total number of outcomes **less than or equal to a given outcome**.
+:::
+
+It is sometimes called a **running total**.
+
+For the pet table, the cumulative frequency at $x=1$ counts the households with **0 or 1 pets**:
+
+$$15+20=35.$$
+
+To build each new entry:
+
+$$\text{new }cf=\text{previous }cf+\text{current }f.$$
+
+The next entry is therefore $35+10=45$.
+
+::: notes
+Use the teacher's definition before introducing the extra table column. Outcomes here means observed outcomes, including repetitions: count households, not the number of distinct pet-count values. At x=1, 35 households have at most one pet. At x=2, reuse the previous total 35 and add the current frequency 10. Start the first row from a cumulative total of 0. Keep integer values in ascending order.
+:::

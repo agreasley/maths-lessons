@@ -1,0 +1,35 @@
+## Hinge question · What is the mean? {#l2-mean-hinge .compact .median-table-hinge}
+
+| $x$ | $f$ | $fx$ | $cf$ | $rf$ | $crf$ |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2 | 3 | 6 | 3 | 0.15 | 0.15 |
+| 4 | 7 | 28 | 10 | 0.35 | 0.50 |
+| 7 | 6 | 42 | 16 | 0.30 | 0.80 |
+| 9 | 3 | 27 | 19 | 0.15 | 0.95 |
+| 12 | 1 | 12 | 20 | 0.05 | 1.00 |
+| **Total** | **20** | **115** | — | **1.00** | — |
+
+<p class="column-key"><span data-math="cf">cf</span>: cumulative frequency · <span data-math="rf">rf</span>: relative frequency · <span data-math="crf">crf</span>: cumulative relative frequency</p>
+
+```{=html}
+<div data-module="hinge" data-correct="3" class="hinge numeric-choices">
+<p class="hinge-question">What is the mean? Choose the relevant totals from the table.</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>5.5</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>6.8</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>5.75</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>23</span></button></div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden>3. Sum of <span data-math="fx">fx</span> values = 115; sum of <span data-math="f">f</span> values = 20. Mean = <span data-math="\frac{115}{20}=5.75">115/20 = 5.75</span>.</div>
+</div>
+```
+
+::: notes
+Use the same complete x, f, fx, cf, rf, crf table as the median hinge, immediately after discussing its answer. Allow 60 seconds, with simultaneous 1–4 finger responses and a separate teacher-controlled reveal. Correct answer 3: sum of fx values=115 and sum of f values=20, so mean=5.75.
+
+- Choice 1 (5.5): gives the median from the preceding question.
+- Choice 2 (6.8): averages the five distinct x-values, ignoring their frequencies: 34/5.
+- Choice 3 (5.75): divides the weighted total 115 by the 20 observations.
+- Choice 4 (23): divides115 by the five rows instead of the 20 observations.
+
+Ready: ask why both the numerator and denominator must account for repeated observations.
+Divided: ask which column counts observations and which totals their values, then re-poll.
+Reteach: expand the three observations with x=2 into 2+2+2, connect this to fx=6, then return to the column totals and re-poll.
+:::

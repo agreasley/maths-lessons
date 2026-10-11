@@ -1,9 +1,9 @@
-## A graph of a running total {#l2-cumulative-graphs }
+## Cumulative frequency histogram {#l2-cumulative-graphs }
 
 - Cumulative frequencies never decrease.
 - The final height is the total number of observations.
-- A cumulative polygon uses **upper class boundaries**.
-- Start at zero at the first lower boundary.
+- Each bar shows the total counted **up to that value or class**.
+- Use **cumulative frequency** on the vertical axis.
 
 
 ::: {.takeaway}

@@ -12,7 +12,7 @@
 ::: notes
 Initially show only x and f. Build cumulative frequency first, then relative frequency, then cumulative relative frequency. Next entry reveals one row and its calculation; Complete column moves to the end of the current column; Back and Reset support revisiting a step. Ask for predictions before each click.
 
-The active inputs are highlighted. Emphasise: cf counts households with at most x pets; rf is the proportion with exactly x pets; crf is the proportion with at most x pets. At x=1: cf=15+20=35, rf=20/50=.40, crf=35/50=.70. The last cf is 50 and last crf is 1. Relative frequencies sum to 1; do not add the cumulative column entries.
+For cf, highlight the previous cf and current f, then add them:0+15=15,15+20=35,35+10=45,45+4=49,49+1=50. The active inputs are highlighted. Emphasise: cf counts households with at most x pets; rf is the proportion with exactly x pets; crf is the proportion with at most x pets. At x=1: cf=15+20=35, rf=20/50=.40, crf=35/50=.70. The last cf is 50 and last crf is 1. Relative frequencies sum to 1; do not add the cumulative column entries.
 
 Original booklet parts (a)–(b) and spreadsheet link are retained. Model the calculator check later in class as requested. f=15,20,10,4,1; cf=15,35,45,49,50; rf=.30,.40,.20,.08,.02; crf=.30,.70,.90,.98,1.
 :::

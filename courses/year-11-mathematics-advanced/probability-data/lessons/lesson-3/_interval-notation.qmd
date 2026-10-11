@@ -3,7 +3,7 @@
 :::: {.split}
 ::: {.column-block}
 
-### Include the lower endpoint
+<h3>Include the lower endpoint</h3>
 
 $$10\text{–}<20 \quad\Longleftrightarrow\quad 10\le x<20$$
 
@@ -19,7 +19,7 @@ Include **10**. Exclude **20**.
 :::
 ::: {.column-block}
 
-### Include the upper endpoint
+<h3>Include the upper endpoint</h3>
 
 $$10>\text{–}20 \quad\Longleftrightarrow\quad 10<x\le20$$
 

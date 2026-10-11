@@ -6,6 +6,8 @@ Follow the repository structure and publishing guidance in README.md. For a new 
 
 Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, coloured bar motif and booklet/homework footer. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; put the lesson objective and success criterion immediately after the cover, followed by the opening activity.
 
+Inside a layout div such as `.column-block`, use raw HTML `<h3>...</h3>` for a panel heading. A Markdown heading at the start of a div can make Pandoc emit a nested `<section>`, which Reveal mistakes for another slide and can break navigation. After rendering, check the slide count and navigate through the full sequence using Next and Previous.
+
 ## Multiple-choice response routine
 
 - Use four numbered choices: **1, 2, 3, 4**, with one unambiguously correct answer. Use the same convention for timed hinges and other classroom multiple-choice checks.

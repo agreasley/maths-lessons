@@ -33,8 +33,6 @@ homework: "1 · Exercise 1A"
 
 {{< include lesson-1/_example-1-4.qmd >}}
 
-{{< include lesson-1/_staircase.qmd >}}
-
 {{< include lesson-1/_recursive-rules.qmd >}}
 
 {{< include lesson-1/_example-1-5.qmd >}}

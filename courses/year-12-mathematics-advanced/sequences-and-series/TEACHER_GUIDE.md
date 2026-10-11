@@ -2,7 +2,7 @@
 
 ## Lesson 1: What is a sequence?
 
-Year 12 Mathematics Advanced. Section 1 of the supplied booklet, Examples 1.1–1.7, printed pages 1–4, with Key Ideas and Homework 1 on page 5. Allow approximately 60 minutes. This lesson has 20 slides. Students complete working in their booklets and OneNote; full example solutions stay in presenter notes.
+Year 12 Mathematics Advanced. Section 1 of the supplied booklet, Examples 1.1–1.7, printed pages 1–4, with Key Ideas and Homework 1 on page 5. Allow approximately 60 minutes. This lesson has 19 slides. Students complete working in their booklets and OneNote; full example solutions stay in presenter notes.
 
 The class is comfortable with functions and inputs/outputs. There is no Previously slide. The cover is followed by a one-sentence objective and success criterion, then the OEIS exploration.
 
@@ -11,37 +11,36 @@ The class is comfortable with functions and inputs/outputs. There is no Previous
 | Slides | Content | Approximate time |
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
-| 3–5 | OEIS: Fibonacci, a familiar sequence, a birthday A-number | 6–8 minutes |
+| 3–5 | OEIS: discover a rule, a familiar sequence, a birthday A-number | 6–8 minutes |
 | 6–8 | Notation, finite/infinite sequences, rule representations | 6 minutes |
 | 9–10 | Examples 1.1–1.2 | 6 minutes |
 | 11 | Hinge, response and discussion | 3 minutes |
 | 12–13 | Examples 1.3–1.4 | 9 minutes |
-| 14–15 | Scaffolded staircase and recursive rules | 5 minutes |
-| 16–18 | Examples 1.5–1.7 | 14 minutes |
-| 19–20 | Key ideas and Homework 1 | 3 minutes |
+| 14 | Recursive rules and colour-coded working | 3 minutes |
+| 15–17 | Examples 1.5–1.7 | 14 minutes |
+| 18–19 | Key ideas and Homework 1 | 3 minutes |
 
-Use remaining time for transitions or extra discussion. If time is tight, omit the optional five-step prediction and limit the Fibonacci builder to two reveals, preserving all booklet examples.
+Use remaining time for transitions or extra discussion. If time is tight, limit the Fibonacci builder to two reveals, preserving all booklet examples.
 
 ### OEIS exploration
 
-1. Search `1,1,2,3,5,8,13` at https://oeis.org/ and find A000045. Locate more terms and the rule.
+1. Search `1,1,2,3,5,8,13` at https://oeis.org/. Find a matching entry, locate more terms and explain the rule. Do not name Fibonacci or supply the A-number before students search. The intended entry is A000045.
 2. Search about six consecutive terms of another familiar integer sequence. Let students choose; offer square numbers, powers of two or primes if needed. Discuss unexpected or multiple matches.
 3. Use `A` followed by a birthday in `DDMMYY` format, retaining leading zeros. A memorable date is also suitable. Record the A-number and first few terms, then share one observation or question. A complete explanation of advanced terminology is not expected. If no entry is found, use the teacher example or a partner's entry.
 
 Teacher example: https://oeis.org/A131284 begins 5, 80, 86, 613668, 6384425704. Its terms are indices n where the prime factors of the nth semiprime differ by n. The fifth semiprime is 14=2×7 and 7−2=5. This explanation is optional. Do not treat the number of terms displayed on a page as proof that a sequence is finite.
 
-External links open in a new tab, with direct links on slides. The mathematical lesson and interactive activities work without OEIS; the browsing exploration requires internet access. No OEIS iframe or API is required.
+External links open in a new tab. Slide 3 links to the OEIS homepage without giving away the intended entry. The mathematical lesson and interactive activities work without OEIS; the browsing exploration requires internet access. No OEIS iframe or API is required.
 
-### Three-minute staircase scaffold
+### Progressive reveals
 
-The app starts with the complete two-step and three-step cases already shown:
+Slide 7 opens with the finite example. Next reveals the infinite example alongside it and the comparison underneath. Slide 8 opens with the list of terms. Next reveals the explicit rule and its explanation; the next click adds the recursive rule and its explanation. Previous reverses these reveals. These are Reveal fragments on the same slides, so the slide count is unchanged by the reveals.
 
-- Two steps: 1+1 and 2, giving 2 routes.
-- Three steps: 1+1+1, 1+2 and 2+1, giving 3 routes.
+### Recursive rules
 
-Ask for a quick prediction for four steps. Reveal routes grouped by final move: 3 routes from step 3 with a final single step, and 2 routes from step 2 with a final double step. Every route has exactly one of those final moves, so the total is 3+2=5. Colours connect the final jump in each diagram with the last move in each ordered list. Select five steps only as an optional transfer check: 5+3=8. Changing height hides the answer. Reset restores the four-step prediction.
+Slide 14 returns to the sequence found during the OEIS investigation. Start with a_1=a_2=1 and use a_n=a_{n-1}+a_{n-2} for n≥3. Next term reveals one value at a time, with four aligned lines: the general recurrence, substitution of the index, substitution of values, then the result. Two clicks reach the worked example a_4=a_3+a_2, a_4=2+1, a_4=3.
 
-For staircase counts, a_1=1 and a_2=2, followed by a_n=a_{n-1}+a_{n-2} for n≥3. The next slide explicitly switches to the familiar Fibonacci sequence with a_1=a_2=1. These have the same recurrence with different starting values. Next term reveals one Fibonacci value at a time, highlighting the terms used; Reset restores the starting pair.
+Blue marks the previous term and orange marks the term before it in the general rule, substituted working and term strip. The new term has a teal border. These roles update for each new term. Ask for a prediction before each reveal. Reset restores only the starting pair.
 
 ### Hinge
 

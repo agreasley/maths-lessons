@@ -11,7 +11,7 @@ Stops at a final term.
 Here $a_{10}=20$, with $1\le n\le10$.
 
 :::
-::: {.column-block}
+::: {.column-block .fragment data-fragment-index="0"}
 <h3>Infinite</h3>
 
 $$2,4,6,8,\ldots$$
@@ -23,12 +23,14 @@ There is no final index.
 :::
 :::
 
-::: {.takeaway}
+::: {.takeaway .fragment data-fragment-index="0"}
 An ellipsis can appear inside a finite sequence. Check whether a final term is specified.
 :::
 
 <p class="booklet-cue">Booklet p. 1 · Section 1.1</p>
 
 ::: notes
+Initially show only the finite example. Next reveals the infinite example and the comparison underneath, keeping the finite example visible. Previous reverses this reveal.
+
 Use the intended even-number rule in both examples. A screen showing only a few terms of an OEIS entry does not establish that the sequence is finite. Distinguish the definition's domain from how much of a list is displayed.
 :::

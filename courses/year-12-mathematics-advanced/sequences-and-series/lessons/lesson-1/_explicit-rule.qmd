@@ -2,18 +2,27 @@
 
 For the sequence $2,4,6,8,\ldots$:
 
-| Representation | Description |
-|---|---|
-| List of terms | $2,4,6,8,\ldots$ |
-| Explicit rule | $a_n=2n,\quad n\ge1$ |
-| Recursive rule | $a_1=2,\quad a_n=a_{n-1}+2,\quad n\ge2$ |
+<table class="sequence-representations">
+<thead><tr><th scope="col">Representation</th><th scope="col">Description</th></tr></thead>
+<tbody>
+<tr><td>List of terms</td><td><span data-math="2,4,6,8,\ldots">2, 4, 6, 8, …</span></td></tr>
+<tr class="fragment" data-fragment-index="0"><td>Explicit rule</td><td><span data-math="a_n=2n,\quad n\ge1">a_n = 2n, n ≥ 1</span></td></tr>
+<tr class="fragment" data-fragment-index="1"><td>Recursive rule</td><td><span data-math="a_1=2,\quad a_n=a_{n-1}+2,\quad n\ge2">a_1 = 2, a_n = a_{n-1} + 2, n ≥ 2</span></td></tr>
+</tbody>
+</table>
 
+::: {.fragment data-fragment-index="0"}
 An **explicit rule** uses the position to calculate a term directly.
+:::
 
+::: {.fragment data-fragment-index="1"}
 A **recursive rule** uses earlier terms, together with starting values.
+:::
 
 <p class="booklet-cue">Booklet p. 1 · Section 1.1</p>
 
 ::: notes
+The list of terms is visible initially. The first Next reveals the explicit rule and its explanation. The second Next adds the recursive rule and its explanation. Earlier representations stay visible. The following Next moves to Example 1.1.
+
 Preview the recursive representation only; explore it after Example 1.4. Emphasise that the rule and allowed indices together determine a sequence. In the recursive formula, a_{n-1} denotes the preceding term.
 :::

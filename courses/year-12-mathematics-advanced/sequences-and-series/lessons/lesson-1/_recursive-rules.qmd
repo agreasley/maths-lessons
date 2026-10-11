@@ -1,19 +1,19 @@
-## Recursive rules · Fibonacci {#ss1-recursive-rules}
+## Recursive rules · Fibonacci {#ss1-recursive-rules .recursive-rules}
 
 A recursive definition needs **starting values** and a rule using earlier terms.
 
-For the familiar Fibonacci sequence:
-
-$$a_1=1,\qquad a_2=1,\qquad a_n=a_{n-1}+a_{n-2}\quad(n\ge3).$$
+For the sequence we found in OEIS, start with $a_1=1$ and $a_2=1$.
 
 <div data-module="fibonacci" class="fibonacci-builder" aria-label="Build the Fibonacci sequence one term at a time"></div>
 
 <p class="booklet-cue">Booklet p. 1 · Recursive rules · Next: Example 1.5</p>
 
 ::: notes
-This is the familiar sequence 1,1,2,3,5,8,…, while the staircase counts began 1,2,3,5,8,… . Both obey the same recurrence, but their starting values differ.
+Return to the sequence students found in the opening OEIS investigation: 1,1,2,3,5,8,… . We use a_1=a_2=1 and the recurrence for n≥3.
 
-Use Next term to reveal a term only after a prediction. The two terms used are highlighted and the calculation is displayed. Two or three reveals are sufficient. Reset restores only the starting values. Ask why both starting values are needed and what a_{n-1} and a_{n-2} mean.
+Use Next term to reveal a term only after a prediction. Each calculation has four aligned lines: the general recurrence, substitution of the index, substitution of the two values, then the result. For a_4 these are a_n=a_{n-1}+a_{n-2}, a_4=a_3+a_2, a_4=2+1, a_4=3. Blue identifies the previous term throughout the working and term strip; orange identifies the term before it. The new term has a teal border. These roles update with each reveal.
+
+Two or three reveals are sufficient. Reset restores only the starting values. Ask why both starting values are needed and what a_{n-1} and a_{n-2} mean.
 
 In Example 1.5 only the immediately preceding term is used, with a multiplier depending on n. Source: https://oeis.org/A000045.
 :::

@@ -449,6 +449,9 @@
     const L=110,R=835,T=48,B=365,sx=x=>L+(x-.5)/4*(R-L),sy=y=>B-y/12*(B-T);
     let g='';
     for(let y=0;y<=12;y+=2)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-20,sy(y)+8,y,'text-anchor="end" font-size="25"');
+    bounds.slice(0,-1).forEach((left,i)=>{
+      g+=`<rect class="ogive-intro-bar" x="${sx(left)}" y="${sy(counts[i+1])}" width="${sx(bounds[i+1])-sx(left)}" height="${B-sy(counts[i+1])}" fill="#007f78" fill-opacity=".16" stroke="#007f78" stroke-opacity=".3" stroke-width="2"><title>Cumulative frequency ${counts[i+1]} at upper boundary ${bounds[i+1]}</title></rect>`;
+    });
     g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="3" fill="none"/>`;
     bounds.forEach(x=>g+=text(sx(x),B+38,fmt(x),'text-anchor="middle" font-size="26"'));
     g+=`<polyline points="${bounds.map((x,i)=>`${sx(x)},${sy(counts[i])}`).join(' ')}" stroke="#007f78" stroke-width="5" fill="none"/>`;
@@ -456,7 +459,7 @@
     g+=text(sx(2.5)+20,sy(7)+4,'cf = 7','font-size="28" fill="#007f78"');
     g+=text((L+R)/2,452,'Upper class boundary','text-anchor="middle" font-size="29"');
     g+=text(32,(T+B)/2,'Cumulative frequency',`transform="rotate(-90 32 ${(T+B)/2})" text-anchor="middle" font-size="28"`);
-    m.innerHTML=makeSvg(g,'Ogive joining upper-boundary cumulative counts: (0.5,0), (1.5,2), (2.5,7), (3.5,11), (4.5,12)',485);
+    m.innerHTML=makeSvg(g,'Cumulative frequency histogram with heights 2, 7, 11 and 12; an ogive joins the initial zero point and the top-right corner of each bar, at upper boundaries 1.5, 2.5, 3.5 and 4.5',485);
   }
   function ogive(m){
     const d=datasets[m.dataset.set],n=sum(d.f);let width=1,built=0,points=false,joined=false,median=false,selected=-1;

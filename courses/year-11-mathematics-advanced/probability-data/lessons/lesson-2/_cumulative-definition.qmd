@@ -1,21 +1,40 @@
-## What is cumulative frequency? {#l2-cumulative-definition}
+## What is cumulative frequency? {#l2-cumulative-definition .compact .cumulative-definition}
 
 ::: {.takeaway}
-The **cumulative frequency** is the total number of outcomes **less than or equal to a given outcome**.
+The **cumulative frequency** is the total number of outcomes **less than or equal to a given outcome**. It is a **running total**.
 :::
 
-It is sometimes called a **running total**.
+::: {.split .cf-example-layout}
+::: {.column-block}
 
-For the pet table, the cumulative frequency at $x=1$ counts the households with **0 or 1 pets**:
+A survey of **50 households**:
 
-$$15+20=35.$$
+| Number of pets, $x$ | Frequency, $f$ |
+|:---:|:---:|
+| 0 | 15 |
+| 1 | 20 |
+| 2 | 10 |
+| 3 | 4 |
+| 4 | 1 |
 
-To build each new entry:
+:::
+::: {.column-block}
 
-$$\text{new }cf=\text{previous }cf+\text{current }f.$$
+At $x=2$, include every household with **0, 1 or 2 pets**.
 
-The next entry is therefore $35+10=45$.
+$$cf=15+20+10=45.$$
+
+**45 households have at most 2 pets.**
+
+We can also take the previous cumulative frequency and add the current frequency:
+
+$$cf=35+10=45.$$
+
+:::
+:::
+
+<p class="small-note">Each new entry: <span data-math="\text{new }cf=\text{previous }cf+\text{current }f">new cf = previous cf + current f</span>.</p>
 
 ::: notes
-Use the teacher's definition before introducing the extra table column. Outcomes here means observed outcomes, including repetitions: count households, not the number of distinct pet-count values. At x=1, 35 households have at most one pet. At x=2, reuse the previous total 35 and add the current frequency 10. Start the first row from a cumulative total of 0. Keep integer values in ascending order.
+Use the teacher's definition before introducing the extra table column. Outcomes here means observed outcomes, including repetitions: count households, not the number of distinct pet-count values. The three highlighted rows show x≤2: 15+20+10=45 households have at most two pets. Compare this with the ordinary frequency of 10, which counts exactly two pets. Reuse the previous cumulative total at x=1, namely 35, then add the current frequency 10. The next row will use 45+4=49. Start the first row from a cumulative total of 0. Keep integer values in ascending order.
 :::

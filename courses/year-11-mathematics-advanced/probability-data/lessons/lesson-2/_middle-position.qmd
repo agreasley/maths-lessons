@@ -1,34 +1,36 @@
-## Which observations are in the middle? {#l2-middle-position}
+## Which observations are in the middle? {#l2-middle-position .middle-position}
 
-First **order the data**. Let $n$ be the number of observations.
+First **order the data**. For $n$ observations, calculate
+
+$$\text{middle position}=\frac{n+1}{2}.$$
 
 ::: {.split}
 ::: {.column-block}
-<h3>Odd <span data-math="n">n</span>: one middle value</h3>
+<h3>If the result is an integer</h3>
 
-Use position
+The median is the **value at that position**.
 
-$$\frac{n+1}{2}.$$
+For $n=9$:
 
-For $n=9$: position $\frac{9+1}{2}=5$.
+$$\frac{9+1}{2}=5.$$
 
-The median is the **5th value**.
+Use the **5th value**.
 :::
 ::: {.column-block}
-<h3>Even <span data-math="n">n</span>: two middle values</h3>
+<h3>If the result ends in .5</h3>
 
-Use positions
+Average the **values at the positions immediately below and above**.
 
-$$\frac{n}{2}\quad\text{and}\quad\frac{n}{2}+1.$$
+For $n=10$:
 
-For $n=10$: positions **5 and 6**.
+$$\frac{10+1}{2}=5.5.$$
 
-The median is the **average of those two values**.
+Average the **5th and 6th values**.
 :::
 :::
 
-<p class="small-note">For 10 observations, <span data-math="(n+1)/2=5.5">(n + 1)/2 = 5.5</span> lies between positions 5 and 6. It is a position, not the median value.</p>
+<p class="small-note">An integer result occurs when <span data-math="n">n</span> is odd; a .5 result occurs when <span data-math="n">n</span> is even. The calculation locates the middle—it does not give the median value.</p>
 
 ::: notes
-Make the parentheses explicit: (n+1)/2, not n+1/2. The position tells us where to look in ordered data; it is not the data value. Apply this next to n=50 in the pet table: positions 25 and 26. For even n, average the two data values after locating them. This new explanation replaces the later 'Locate before calculating' demonstration slide, which is removed from the active sequence.
+Use (n+1)/2 as the single locating rule, with the parentheses explicit. An integer result identifies one position; a result ending in .5 lies halfway between two positions. Average the two data values at those positions, not the position numbers themselves. Apply this next to n=50 in the pet table: (50+1)/2=25.5, so read positions 25 and 26. Both contain the value 1. This explanation replaces the former 'Locate before calculating' slide.
 :::

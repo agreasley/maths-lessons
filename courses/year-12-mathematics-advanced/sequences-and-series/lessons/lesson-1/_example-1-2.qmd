@@ -1,0 +1,15 @@
+## Example 1.2 {#ss1-example-1-2}
+
+Consider the finite sequence $7,12,17,22,\ldots,97$, defined by $a_n=5n+2$.
+
+a) State the first term $a_1$:
+
+b) Solve $a_m=97$ to find the final index $m$:
+
+c) Write the final term using subscript notation: $a_{\underline{\hspace{0.6cm}}}=97$
+
+<p class="booklet-cue">Booklet p. 2 · Example 1.2 · Complete the working in your booklet.</p>
+
+::: notes
+(a) a_1=7. (b) 5m+2=97 gives m=19. (c) a_19=97. Ask what 19 and 97 each describe, without returning to a full inputs/outputs recap.
+:::

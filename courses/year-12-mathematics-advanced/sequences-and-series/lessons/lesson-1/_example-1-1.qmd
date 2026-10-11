@@ -1,0 +1,22 @@
+## Example 1.1 {#ss1-example-1-1}
+
+Classify each sequence as finite or infinite. For each, find the 20th term, $a_{20}$:
+
+a) $100,90,80,70,\ldots$ &nbsp; (where $a_n=110-10n$)
+
+   - Classification: □ Finite &nbsp; □ Infinite
+   - $a_{20}=$
+
+b) $100,90,80,\ldots,-20$ &nbsp; (where $a_n=110-10n$)
+
+   - Classification: □ Finite &nbsp; □ Infinite
+   - $a_{20}=$
+
+<p class="booklet-cue">Booklet p. 1 · Example 1.1 · Complete the working in your booklet.</p>
+
+::: notes
+Preserve the wording, including the request for a twentieth term in (b).
+
+(a) Infinite; a_20=110−200=−90.
+(b) Finite; solve 110−10m=−20 to obtain m=13. The specified sequence has only 13 terms, so a_20 does not exist. A formula can produce an output at n=20 without that index belonging to this finite sequence.
+:::

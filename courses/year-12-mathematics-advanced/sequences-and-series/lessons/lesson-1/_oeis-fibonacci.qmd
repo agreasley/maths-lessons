@@ -1,0 +1,25 @@
+## Explore OEIS · Find Fibonacci {#ss1-oeis-fibonacci}
+
+<div class="eyebrow">The On-Line Encyclopedia of Integer Sequences · 1 of 3</div>
+
+Open **[oeis.org](https://oeis.org/){target="_blank" rel="noopener"}** and search:
+
+::: {.sequence-search}
+`1,1,2,3,5,8,13`
+:::
+
+1. Find the Fibonacci entry.
+2. Locate the next few terms.
+3. Find a rule that explains how the sequence continues.
+
+<p class="small-note">Look for entry A000045. There may be several search results.</p>
+
+[Open the Fibonacci entry](https://oeis.org/A000045){target="_blank" rel="noopener"}
+
+::: notes
+About 2 minutes. Ask students to notice the sequence data and its definition. They do not need to understand the full page.
+
+Fibonacci begins 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 in OEIS, with F(0)=0 and F(1)=1. Later in class we use a_1=a_2=1; the same positive-index terms appear. Ask students to explain the addition rule in words, saving formal recursion for later.
+
+OEIS accepts consecutive terms separated by commas; approximately six terms are a useful starting point. If students have no internet access, use the displayed sequence and discuss its continuation. Source: https://oeis.org/A000045 and https://oeis.org/hints.html (checked 11 October 2026).
+:::

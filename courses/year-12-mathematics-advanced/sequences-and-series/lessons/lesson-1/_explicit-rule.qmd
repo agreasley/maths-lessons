@@ -1,0 +1,19 @@
+## Describing a sequence {#ss1-explicit-rule}
+
+For the sequence $2,4,6,8,\ldots$:
+
+| Representation | Description |
+|---|---|
+| List of terms | $2,4,6,8,\ldots$ |
+| Explicit rule | $a_n=2n,\quad n\ge1$ |
+| Recursive rule | $a_1=2,\quad a_n=a_{n-1}+2,\quad n\ge2$ |
+
+An **explicit rule** uses the position to calculate a term directly.
+
+A **recursive rule** uses earlier terms, together with starting values.
+
+<p class="booklet-cue">Booklet p. 1 · Section 1.1</p>
+
+::: notes
+Preview the recursive representation only; explore it after Example 1.4. Emphasise that the rule and allowed indices together determine a sequence. In the recursive formula, a_{n-1} denotes the preceding term.
+:::

@@ -1,0 +1,13 @@
+## Example 1.6 {#ss1-example-1-6}
+
+A sequence is defined such that the $n$th term is given by $a_n=n^2-30$.
+
+a) Is 411 a member of this sequence?
+
+b) If it is, which term of the sequence is it?
+
+<p class="booklet-cue">Booklet p. 4 · Example 1.6 · Complete the working in your booklet.</p>
+
+::: notes
+Students attempt this independently before discussion. n²−30=411 gives n²=441 and n=±21. Only n=21 is a positive integer, so 411 is the 21st term. Reject −21 because it is outside the index domain. Check a_21=441−30=411.
+:::

@@ -1,0 +1,18 @@
+## One step or two? {#ss1-staircase}
+
+<p class="staircase-intro">Start at the bottom. Each move goes up <strong>one or two steps</strong>.<br>Different orders count as different routes.</p>
+
+<div data-module="staircase" class="staircase" aria-label="Scaffolded staircase investigation"></div>
+
+::: notes
+Additional activity, approximately 3 minutes. The two-step and three-step routes are already supplied, so students only make one short prediction before the reveal.
+
+0:00–0:40: Read the two worked cases. Two steps: 1+1 or 2. Three steps: 1+1+1, 1+2 or 2+1. Order matters because these are routes. Students do not need to generate these from scratch.
+0:40–1:15: Ask students to predict the number of routes for four steps. Give 20–30 seconds to think and briefly compare.
+1:15–2:15: Reveal the two groups. A final one-step move extends each of the 3 routes to step 3. A final two-step move extends each of the 2 routes to step 2. Hence 3+2=5. Every route has exactly one of these final moves, so there is no overlap or omission.
+2:15–3:00: Select 5 steps as a quick transfer check if useful. Predict 5+3=8 and reveal. Ask: "Why do we add the previous two counts?" Move straight to the recursive rule slide. The five-step case is optional if time is tight.
+
+Each group shows a miniature staircase with the last jump coloured, and a list of ordered jumps with that last jump highlighted in the same colour. All solutions stay hidden until Reveal routes is pressed. Reset returns to the four-step prediction. Changing height hides the routes again.
+
+If a_n counts routes for n steps, a_1=1, a_2=2 and a_n=a_{n-1}+a_{n-2} for n≥3. These are shifted Fibonacci numbers. The next slide uses the familiar a_1=a_2=1 convention, so explicitly name the new sequence. Mathematical connection: https://oeis.org/A000045.
+:::

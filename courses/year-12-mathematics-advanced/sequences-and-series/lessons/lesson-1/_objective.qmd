@@ -1,0 +1,13 @@
+## Today's learning {#ss1-objective}
+
+### Lesson objective
+
+We are learning to describe sequences using notation and rules.
+
+### Success criteria
+
+I can use a sequence's rule and allowed indices to find and identify its terms.
+
+::: notes
+Keep this short and move directly into OEIS. The three syllabus points beside Section 1 cover ordered lists, positive-integer indices and finite/infinite sequences. Explicit and recursive rules support the booklet examples. Do not introduce arithmetic/geometric formulas or series yet.
+:::

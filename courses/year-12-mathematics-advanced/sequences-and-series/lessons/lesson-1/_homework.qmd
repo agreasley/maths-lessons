@@ -1,0 +1,13 @@
+## Homework 1 {#ss1-homework}
+
+<div class="eyebrow">Cambridge Year 12 · Exercise 1A</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1–4 (alternate parts), Q8</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1–4 (alternate parts), Q8–10</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q1–4 (alternate parts), Q8–12</span></div>
+
+<p class="booklet-cue">Booklet p. 5 · Homework 1</p>
+
+::: notes
+Copied exactly from Homework 1 in the supplied booklet. The textbook edition was not supplied for independent verification. The supplied PDF cover says Year 12 Mathematics Extension 1, while the user explicitly requested this lesson in the Year 12 Mathematics Advanced course; use the requested course label. Do not change the homework references without the teacher's direction.
+:::

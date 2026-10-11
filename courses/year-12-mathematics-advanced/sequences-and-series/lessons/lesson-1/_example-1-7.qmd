@@ -1,0 +1,15 @@
+## Example 1.7 {#ss1-example-1-7}
+
+Consider the sequence defined by $a_n=12n-100$.
+
+a) How many negative terms are there in this sequence?
+
+b) How many terms in the sequence are less than 200 but positive?
+
+<p class="booklet-cue">Booklet p. 4 · Example 1.7 · Complete the working in your booklet.</p>
+
+::: notes
+(a) 12n−100<0 gives n<25/3. Valid positive integer indices are 1,…,8, so there are 8 negative terms. Check a_8=−4 and a_9=8.
+
+(b) 0<12n−100<200 gives 25/3<n<25. Valid indices are 9,…,24, so there are 24−9+1=16 terms. Check a_24=188 and a_25=200, which is excluded by "less than 200". Highlight allowed integer indices in OneNote. Common errors: counting 24−9 rather than 24−9+1, including n=25, or including n=0.
+:::

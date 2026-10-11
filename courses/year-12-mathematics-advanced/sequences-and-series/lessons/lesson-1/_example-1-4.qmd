@@ -1,0 +1,13 @@
+## Example 1.4 {#ss1-example-1-4}
+
+a) Confirm that the formula $a_n=4n-3$ will give the terms of the sequence $1,5,9,13\ldots$.
+
+b) Hence, write down the twentieth term of this sequence.
+
+c) Is 539 a term in this sequence? Why or why not?
+
+<p class="booklet-cue">Booklet p. 3 · Example 1.4 · Complete the working in your booklet.</p>
+
+::: notes
+(a) Substitute n=1,2,3,4 to give 1,5,9,13. (b) a_20=77. (c) 4n−3=539 gives n=135.5, which is not an integer. Therefore 539 is not a term. The neighbouring terms are a_135=537 and a_136=541.
+:::

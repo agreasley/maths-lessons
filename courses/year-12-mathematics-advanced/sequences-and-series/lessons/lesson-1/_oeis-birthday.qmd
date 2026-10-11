@@ -1,0 +1,26 @@
+## Explore OEIS · Your birthday sequence {#ss1-oeis-birthday}
+
+<div class="eyebrow">A different sequence for everyone · 3 of 3</div>
+
+Write your birthday as **DDMMYY**, keeping leading zeros. Put **A** in front and search that A-number.
+
+::: {.birthday-example}
+13 / 12 / 84 &nbsp; → &nbsp; **[A131284](https://oeis.org/A131284){target="_blank" rel="noopener"}**
+:::
+
+Record your **A-number** and its **first few terms**.
+
+Tell a partner:
+
+- What can you understand about its description?
+- What surprises you, or what would you like to investigate?
+
+<p class="small-note">Choose a memorable date if you prefer. An unfamiliar description is an invitation to be curious.</p>
+
+::: notes
+About 2–4 minutes. The date is a playful way to select a catalogue entry. Do not require a full explanation of advanced terminology. If an entry cannot be found, use A131284 or a partner's entry. Use a direct URL of the form https://oeis.org/A131284 or the main search box.
+
+Teacher example: A131284 begins 5, 80, 86, 613668, 6384425704. These are indices n for which the two prime factors of the nth semiprime differ by n. A semiprime is a product of two primes, allowing repeated factors. The semiprimes start 4,6,9,10,14. The fifth is 14=2×7 and 7−2=5, so 5 qualifies. Keep this optional; the exploration matters more than explaining this particular entry. Do not infer that a list is finite merely because only a few terms are displayed or known.
+
+Source: https://oeis.org/A131284 (checked 11 October 2026). Return to the presentation after students share one discovery.
+:::

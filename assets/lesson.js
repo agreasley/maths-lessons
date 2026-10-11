@@ -649,8 +649,62 @@
     $(m,'.ogive-width').onchange=e=>{width=Number(e.target.value);built=0;points=false;joined=false;median=false;selected=-1;draw();};
     $(m,'.ogive-reset').onclick=()=>{width=1;built=0;points=false;joined=false;median=false;selected=-1;$(m,'.ogive-width').value='1';draw();};draw();
   }
+  function staircase(m){
+    // Ordered compositions of a staircase height using one- and two-step moves.
+    const routes = n => n === 0 ? [[]] : n < 0 ? [] :
+      [...routes(n-1).map(r=>[...r,1]), ...routes(n-2).map(r=>[...r,2])];
+    let height=4, revealed=false;
+    const diagram=(n,last=0)=>{
+      const dx=40,dy=20,x0=20,y0=130,colour=last===2?'#b55224':'#007f78';
+      let path=`M${x0} ${y0}`,labels='';
+      for(let k=1;k<=n;k++){
+        path+=`v-${dy}h${dx}`;
+        labels+=text(x0+(k-.5)*dx,y0-k*dy+18,k,'font-size="17" text-anchor="middle"');
+      }
+      let jump='';
+      if(last){
+        const x1=x0+(n-last-.5)*dx,y1=y0-(n-last)*dy-5;
+        const x2=x0+(n-.5)*dx,y2=y0-n*dy-5;
+        jump=`<path d="M${x1} ${y1}Q${x1+8} ${y2-42} ${x2} ${y2}" fill="none" stroke="${colour}" stroke-width="4"/><path d="M${x2-12} ${y2-4}L${x2} ${y2}L${x2-3} ${y2-12}" fill="none" stroke="${colour}" stroke-width="4"/>`;
+      }
+      return `<svg class="staircase-svg" viewBox="0 0 240 155" role="img" aria-label="${n} steps${last?`; the final move goes up ${last} step${last===2?'s':''}`:''}" xmlns="http://www.w3.org/2000/svg"><g font-family="Arial,sans-serif" fill="#152e3b"><path d="${path}" fill="none" stroke="#607078" stroke-width="3"/>${labels}${jump}</g></svg>`;
+    };
+    const routeList=(rs,last)=>'<ul class="staircase-routes" aria-label="Ordered moves">'+rs.map(r=>
+      `<li>${r.slice(0,-1).map(x=>math(String(x))).join(' + ')} + <span class="final-jump">${math(String(last))}</span></li>`).join('')+'</ul>';
+    m.innerHTML=`<div class="staircase-scaffold"><div><h3>2 steps · 2 routes</h3><p>${math('1+1')} &nbsp; or &nbsp; ${math('2')}</p></div><div><h3>3 steps · 3 routes</h3><p>${math('1+1+1')}, &nbsp; ${math('1+2')}, &nbsp; ${math('2+1')}</p></div></div><div class="toolbar staircase-controls"><span class="staircase-prompt">How many routes for</span><label><select class="staircase-height" aria-label="Number of staircase steps"><option value="4">4 steps?</option><option value="5">5 steps?</option></select></label><button class="staircase-reveal primary" aria-expanded="false">Reveal routes</button><button class="staircase-reset">Reset</button></div><div class="staircase-result" aria-live="polite"></div>`;
+    const draw=()=>{
+      $(m,'.staircase-height').value=String(height);
+      $(m,'.staircase-reveal').textContent=revealed?'Hide routes':'Reveal routes';
+      $(m,'.staircase-reveal').setAttribute('aria-expanded',String(revealed));
+      if(!revealed){
+        $(m,'.staircase-result').innerHTML=`<div class="staircase-prediction">${diagram(height)}<p>Predict the total.<br>What could the <strong>final move</strong> have been?</p></div>`;
+      }else{
+        const groups=[1,2].map(last=>({last,rs:routes(height-last).map(r=>[...r,last])}));
+        $(m,'.staircase-result').innerHTML='<div class="staircase-groups">'+groups.map(({last,rs})=>
+          `<div class="staircase-group finish-${last===1?'one':'two'}"><h3>Finish with ${last===1?'one step':'two steps'}</h3><p class="group-count">From step ${height-last} · ${rs.length} routes</p><div class="staircase-group-body">${diagram(height,last)}${routeList(rs,last)}</div></div>`).join('')+`</div><div class="staircase-summary">${math(`${groups[0].rs.length}+${groups[1].rs.length}=${routes(height).length}`)} routes. Every route ends with exactly one of these moves.</div>`;
+      }
+      m.dataset.height=String(height);m.dataset.revealed=String(revealed);typeset(m);
+    };
+    $(m,'.staircase-height').addEventListener('change',e=>{height=Number(e.target.value);revealed=false;draw();});
+    $(m,'.staircase-reveal').addEventListener('click',()=>{revealed=!revealed;draw();});
+    $(m,'.staircase-reset').addEventListener('click',()=>{height=4;revealed=false;draw();});draw();
+  }
+  function fibonacci(m){
+    const values=[1,1,2,3,5,8,13,21];let shown=2;
+    m.innerHTML='<div class="fibonacci-terms"></div><div class="toolbar"><button class="fibonacci-next primary">Next term</button><button class="fibonacci-reset">Reset</button></div><div class="fibonacci-working" aria-live="polite"></div>';
+    const draw=()=>{
+      $(m,'.fibonacci-terms').innerHTML=values.map((v,i)=>{
+        const used=shown>2&&i>=shown-3&&i<shown-1,newest=shown>2&&i===shown-1;
+        return `<div class="fibonacci-term${used?' used':''}${newest?' newest':''}"><span class="term-index">${math(`a_{${i+1}}`)}</span><span class="term-value">${i<shown?math(String(v)):'?'}</span></div>`;
+      }).join('');
+      $(m,'.fibonacci-working').innerHTML=shown===2?'Predict the next term from the two starting values.':math(`a_{${shown}}=a_{${shown-1}}+a_{${shown-2}}=${values[shown-2]}+${values[shown-3]}=${values[shown-1]}`);
+      $(m,'.fibonacci-next').disabled=shown===values.length;m.dataset.shown=String(shown);typeset(m);
+    };
+    $(m,'.fibonacci-next').addEventListener('click',()=>{if(shown<values.length)shown++;draw();});
+    $(m,'.fibonacci-reset').addEventListener('click',()=>{shown=2;draw();});draw();
+  }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,staircase,fibonacci};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

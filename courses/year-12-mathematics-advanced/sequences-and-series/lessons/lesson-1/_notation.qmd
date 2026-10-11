@@ -1,0 +1,19 @@
+## Sequence notation {#ss1-notation}
+
+A **sequence** is an ordered list of terms.
+
+For the numerical sequences in this booklet:
+
+| Position, $n$ | 1 | 2 | 3 | 4 | $\cdots$ |
+|---|---|---|---|---|---|
+| Term, $a_n$ | 3 | 5 | 7 | 9 | $\cdots$ |
+
+$$a_1=3,\qquad a_2=5,\qquad a_4=9$$
+
+The index $n$ is a **positive integer**. A term's value can be negative, zero or fractional.
+
+<p class="booklet-cue">Booklet p. 1 · Section 1.1</p>
+
+::: notes
+Keep this brief: students are already comfortable with inputs and outputs. Focus on subscript notation and the domain convention used in this booklet. An ordered list need not have an obvious pattern. Some OEIS entries use index 0; here start at 1 unless a definition explicitly says otherwise.
+:::

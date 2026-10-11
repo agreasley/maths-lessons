@@ -1,0 +1,17 @@
+## Key ideas {#ss1-key-ideas}
+
+- A sequence is an **ordered list** of terms.
+- Check the **allowed indices**, including any final index.
+- Explicit and recursive rules give different ways to generate terms.
+
+::: {.takeaway}
+What must you check before concluding that a number belongs to a sequence?
+:::
+
+**I can use a sequence's rule and allowed indices to find and identify its terms.**
+
+<p class="booklet-cue">Booklet p. 5 · Complete your Key Ideas box.</p>
+
+::: notes
+Exit response: the number must equal a_n for an allowed index n. For this booklet n is a positive integer, and a finite sequence also has an upper bound on n. Check the rule and domain together. Invite one sentence connecting the OEIS exploration to the need for a clear definition. The student booklet's Key Ideas box remains for students to complete.
+:::

@@ -1,0 +1,32 @@
+## Explore OEIS · A sequence you know {#ss1-oeis-familiar}
+
+<div class="eyebrow">Your choice · 2 of 3</div>
+
+Choose a familiar **integer sequence**. Enter about six consecutive terms, separated by commas.
+
+::: {.split}
+::: {.column-block}
+<h3>Some starting points</h3>
+
+- Square numbers
+- Powers of two
+- Prime numbers
+
+:::
+::: {.column-block}
+<h3>Compare with a partner</h3>
+
+- Did your expected sequence appear?
+- Were there other matches?
+- What else did you discover?
+
+:::
+:::
+
+<p class="booklet-cue">Additional exploration · <a href="https://oeis.org/" target="_blank" rel="noopener">Open OEIS</a></p>
+
+::: notes
+About 2 minutes. Let students choose their own sequence before offering the three suggestions. Possible searches: 1,4,9,16,25,36; 1,2,4,8,16,32; 2,3,5,7,11,13. Ask for one interesting result rather than an explanation of every match.
+
+A short run of terms can occur in more than one sequence. Finding a match suggests a connection; its definition determines the whole sequence. This also prepares students for the intended simple rules in Example 1.3. Source: https://oeis.org/hints.html.
+:::

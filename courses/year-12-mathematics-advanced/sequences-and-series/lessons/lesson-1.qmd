@@ -1,0 +1,48 @@
+---
+pagetitle: "Lesson 1 — What is a sequence?"
+lesson-title: "What is a sequence?"
+description: "Explore OEIS, describe finite and infinite sequences, and use explicit and recursive rules."
+lesson-order: 1
+booklet: "Section 1 · Examples 1.1–1.7 · pp. 1–5"
+homework: "1 · Exercise 1A"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_objective.qmd >}}
+
+{{< include lesson-1/_oeis-fibonacci.qmd >}}
+
+{{< include lesson-1/_oeis-familiar.qmd >}}
+
+{{< include lesson-1/_oeis-birthday.qmd >}}
+
+{{< include lesson-1/_notation.qmd >}}
+
+{{< include lesson-1/_finite-infinite.qmd >}}
+
+{{< include lesson-1/_explicit-rule.qmd >}}
+
+{{< include lesson-1/_example-1-1.qmd >}}
+
+{{< include lesson-1/_example-1-2.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_example-1-3.qmd >}}
+
+{{< include lesson-1/_example-1-4.qmd >}}
+
+{{< include lesson-1/_staircase.qmd >}}
+
+{{< include lesson-1/_recursive-rules.qmd >}}
+
+{{< include lesson-1/_example-1-5.qmd >}}
+
+{{< include lesson-1/_example-1-6.qmd >}}
+
+{{< include lesson-1/_example-1-7.qmd >}}
+
+{{< include lesson-1/_key-ideas.qmd >}}
+
+{{< include lesson-1/_homework.qmd >}}

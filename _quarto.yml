@@ -1,10 +1,12 @@
 project:
   type: website
   output-dir: _site
+  # Render children before their listing pages so a fresh build resolves HTML links.
   render:
-    - index.qmd
-    - "courses/**/index.qmd"
     - "courses/**/lesson-*.qmd"
+    - "courses/*/*/index.qmd"
+    - "courses/*/index.qmd"
+    - index.qmd
 
 website:
   title: "Maths lessons"

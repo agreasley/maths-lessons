@@ -1,0 +1,33 @@
+---
+title: "Sequences and Series"
+description: "Describe sequences, discover their rules and explore sums. Begin with sequence notation and an OEIS investigation."
+metadata-files: [../../../_site-page.yml]
+topic-order: 1
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Advanced</a></li><li><span aria-current="page">Sequences and Series</span></li></ol></nav>
+<header class="page-intro topic-intro">
+  <p class="eyebrow">Year 12 Mathematics Advanced</p>
+  <h1>Sequences and Series</h1>
+  <p class="intro-copy">Explore ordered lists, describe their rules and use them to solve problems.</p>
+  <div class="topic-tags"><span>Section 1 available</span><span>1 lesson</span><span>Homework 1 · Exercise 1A</span></div>
+</header>
+<div class="section-heading"><h2>Your lessons</h2><span>Work through them in order</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons">
+  <div class="note-mark" aria-hidden="true">i</div>
+  <div><h2>Keep your booklet alongside you.</h2><p>These lessons accompany the Sequences and Series booklet. Lesson 1 covers Section 1 and Examples 1.1–1.7. Complete the examples as you go, then use Homework 1 to practise.</p></div>
+</div>
+```

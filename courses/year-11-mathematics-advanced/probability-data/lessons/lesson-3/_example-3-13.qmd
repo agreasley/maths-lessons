@@ -6,9 +6,6 @@ a) Use your results to estimate the probability of obtaining a head.
 b) Compare your estimate with the theoretical probability.
 c) Combine the class results and calculate a new estimate.
 d) Which estimate is closer to the theoretical probability? Explain why this is reasonable.
-```{=html}
-<div data-module="class-estimate" ></div>
-```
 
 <p class="booklet-cue">Booklet p. 49 · Example 3.13 · Complete the working in your booklet.</p>
 

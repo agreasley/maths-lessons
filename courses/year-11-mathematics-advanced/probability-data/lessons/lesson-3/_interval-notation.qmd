@@ -1,0 +1,46 @@
+## Read the endpoints carefully {#l3-interval-notation .interval-notation}
+
+:::: {.split}
+::: {.column-block}
+
+### Include the lower endpoint
+
+$$10\text{–}<20 \quad\Longleftrightarrow\quad 10\le x<20$$
+
+Include **10**. Exclude **20**.
+
+```{=html}
+<svg class="interval-line" viewBox="0 0 480 125" role="img" aria-label="From 10 included to 20 excluded">
+<path d="M35 45H445" stroke="#81938f" stroke-width="2"/><path d="M85 45H395" stroke="#007f78" stroke-width="7"/>
+<circle cx="85" cy="45" r="10" fill="#007f78"/><circle cx="395" cy="45" r="10" fill="#f7f5ef" stroke="#007f78" stroke-width="4"/>
+<g font-family="Arial,sans-serif" font-size="27" fill="#152e3b" text-anchor="middle"><text x="85" y="97">10</text><text x="395" y="97">20</text></g></svg>
+```
+
+:::
+::: {.column-block}
+
+### Include the upper endpoint
+
+$$10>\text{–}20 \quad\Longleftrightarrow\quad 10<x\le20$$
+
+Exclude **10**. Include **20**.
+
+```{=html}
+<svg class="interval-line" viewBox="0 0 480 125" role="img" aria-label="From 10 excluded to 20 included">
+<path d="M35 45H445" stroke="#81938f" stroke-width="2"/><path d="M85 45H395" stroke="#3b66a8" stroke-width="7"/>
+<circle cx="85" cy="45" r="10" fill="#f7f5ef" stroke="#3b66a8" stroke-width="4"/><circle cx="395" cy="45" r="10" fill="#3b66a8"/>
+<g font-family="Arial,sans-serif" font-size="27" fill="#152e3b" text-anchor="middle"><text x="85" y="97">10</text><text x="395" y="97">20</text></g></svg>
+```
+
+:::
+::::
+
+::: {.takeaway}
+A filled endpoint is included. An open endpoint is excluded.
+:::
+
+::: notes
+These are class-interval shorthands, not chained inequalities. Read the complete interval: $a\text{–}<b$ means $a\le x<b$; $a>\text{–}b$ means $a<x\le b$. In particular, the second form does not mean that the smaller endpoint is greater than the larger endpoint.
+
+Ask students where 10, 15 and 20 belong under each convention. Example 3.12 retains the booklet's lower-inclusive notation. The hinge later asks students to reclassify the same observations under the other convention.
+:::

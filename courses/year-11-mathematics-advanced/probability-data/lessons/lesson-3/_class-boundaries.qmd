@@ -1,16 +1,16 @@
-## Every value belongs to exactly one class {#l3-class-boundaries }
+## Every value belongs to exactly one class {#l3-class-boundaries}
 
-The booklet notation $a\text{–}<b$ means $a\leq x<b$.
+Keep $x=13$. Change which endpoint is included.
 ```{=html}
-<div data-module="boundary" ></div>
+<div data-module="boundary"></div>
 ```
-
-
 
 ::: {.takeaway}
 No gaps. No overlaps. A clear boundary convention.
 :::
 
 ::: notes
-A value at13 belongs to13≤x<14, not12≤x<13. These are mathematical intervals; rounding at a physical measurement boundary introduces a separate recording issue. This example focuses on the stated numerical convention.
+Start at $x=13$. With lower endpoints included, it belongs to $13\text{–}<14$. Switch to upper endpoints included: it belongs to $12>\text{–}13$. A value such as 13.1 stays between 13 and 14 in either convention.
+
+The slider ranges from 11.1 to 14.9 so every available value belongs to one of the four displayed classes under either convention. These are exact numerical intervals; rounding physical measurements is a separate recording issue.
 :::

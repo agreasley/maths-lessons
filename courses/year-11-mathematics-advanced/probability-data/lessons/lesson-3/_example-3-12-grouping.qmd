@@ -1,7 +1,7 @@
 ## Example 3.12 · What does class width change? {#l3-example-3-12-grouping .compact}
 
 ```{=html}
-<div data-module="chart" data-set="haemoglobin" data-modes="frequency,cumulative" data-group="true"></div>
+<div data-module="chart" data-set="haemoglobin" data-modes="frequency,cumulative" data-group="true" data-interval-notation="lower"></div>
 ```
 
 
@@ -11,5 +11,5 @@ e) Explain how changing the class width changes what can be seen.
 <p class="booklet-cue">Booklet p. 48 · Example 3.12 · Complete the working in your booklet.</p>
 
 ::: notes
-Width1: modal and median class13–<14. Width2 groups9–<11,11–<13,13–<15,15–<17 have f3,7,12,3 and cf3,10,22,25. Both modal and median class become13–<15. Exact values within either grouping are unknown. Wider classes smooth detail; apparent features depend partly on the chosen class boundaries.
+Width 1: modal and median class $13\text{–}<14$. Width 2 groups $9\text{–}<11$, $11\text{–}<13$, $13\text{–}<15$, $15\text{–}<17$ have frequencies 3, 7, 12, 3 and cumulative frequencies 3, 10, 22, 25. Both modal and median class become $13\text{–}<15$. Exact values within either grouping are unknown. Wider classes smooth detail; apparent features depend partly on the chosen class boundaries.
 :::

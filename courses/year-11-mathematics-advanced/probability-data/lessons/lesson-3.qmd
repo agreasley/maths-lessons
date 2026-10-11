@@ -11,6 +11,10 @@ homework: 15C
 
 {{< include lesson-3/_opening.qmd >}}
 
+{{< include lesson-3/_objective.qmd >}}
+
+{{< include lesson-3/_interval-notation.qmd >}}
+
 {{< include lesson-3/_class-boundaries.qmd >}}
 
 {{< include lesson-3/_example-3-12-table.qmd >}}
@@ -22,6 +26,8 @@ homework: 15C
 {{< include lesson-3/_estimating-probability.qmd >}}
 
 {{< include lesson-3/_example-3-13.qmd >}}
+
+{{< include lesson-3/_class-experiment.qmd >}}
 
 {{< include lesson-3/_coin-simulation.qmd >}}
 

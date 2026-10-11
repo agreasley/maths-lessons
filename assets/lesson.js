@@ -1,4 +1,4 @@
-/* Shared classroom interactions. No network calls, accounts or student data storage. */
+/* Shared classroom interactions. No network calls or accounts; class records stay in page memory. */
 (() => {
   'use strict';
   const $ = (root, selector) => root.querySelector(selector);
@@ -62,7 +62,7 @@
       body+=text((L+R)/2,380,d.label,'text-anchor="middle" font-size="24"');
       body+=text(25,(T+B)/2,labels[mode],`transform="rotate(-90 25 ${(T+B)/2})" text-anchor="middle" font-size="23"`);
       if(visible){
-        bins.forEach((b,i)=>{body+=`<rect x="${sx(b.left)}" y="${sy(yvalues[i])}" width="${sx(b.right)-sx(b.left)}" height="${B-sy(yvalues[i])}" fill="#007f78" fill-opacity=".72" stroke="#f7f5ef" stroke-width="1.4"><title>${esc(d.grouped||width>1?`${fmt(b.left)} ≤ x < ${fmt(b.right)}`:fmt(b.centre))}: ${fmt(yvalues[i])}</title></rect>`;});
+        bins.forEach((b,i)=>{body+=`<rect x="${sx(b.left)}" y="${sy(yvalues[i])}" width="${sx(b.right)-sx(b.left)}" height="${B-sy(yvalues[i])}" fill="#007f78" fill-opacity=".72" stroke="#f7f5ef" stroke-width="1.4"><title>${esc(d.grouped||width>1?(m.dataset.intervalNotation?`${fmt(b.left)}${m.dataset.intervalNotation==='upper'?'>–':'–<'}${fmt(b.right)}`:`${fmt(b.left)} ≤ x < ${fmt(b.right)}`):fmt(b.centre))}: ${fmt(yvalues[i])}</title></rect>`;});
         if(polygon){
           const pts=mode==='cumulative'?[[bins[0].left,0],...bins.map((b,i)=>[b.right,yvalues[i]])]:[[bins[0].centre-width,0],...bins.map((b,i)=>[b.centre,yvalues[i]]),[bins.at(-1).centre+width,0]];
           body+=`<polyline points="${pts.map(([x,y])=>`${sx(x)},${sy(y)}`).join(' ')}" stroke="#b55224" fill="none" stroke-width="4"/>`;
@@ -71,6 +71,11 @@
       }
       $(m,'.plot').innerHTML=makeSvg(body,`${labels[mode]} histogram of ${d.label}; ${n} observations. ${polygon?'Polygon shown.':''}`);
       $(m,'.chart-caption').textContent = isStatic ? `n = ${n}` : visible ? `n = ${n}. ${mode==='cumulative'?'Polygon points use upper class boundaries.':mode==='relative'?'Heights are proportions; the distribution has the same shape.':'Polygon points use value or class centres.'}` : 'Draw your graph in the booklet, then reveal to compare.';
+      if(m.dataset.intervalNotation&&visible){
+        const b=bins[0],upper=m.dataset.intervalNotation==='upper';
+        $(m,'.chart-caption').insertAdjacentHTML('beforeend',' First class: '+math(intervalTex(b.left,b.right,upper))+'.');
+        typeset(m);
+      }
       m.dataset.mode=mode;m.dataset.width=width;m.dataset.n=n;
     };
     if(!isStatic){
@@ -91,10 +96,10 @@
       let h=`<table class="${d.values.length>6?'small-table':''}"><thead><tr><th>${d.grouped?'Class interval':`Value, ${math('x')}`}</th><th>Frequency, ${math('f')}</th>${columns.map(c=>`<th>${names[c]}</th>`).join('')}</tr></thead><tbody>`;
       d.values.forEach((x,i)=>{
         const values={centre:x,rf:d.f[i]/n,cf:cf[i],crf:cf[i]/n};
-        h+=`<tr><td>${d.grouped?`${fmt(x-.5)} ≤ x < ${fmt(x+.5)}`:x}</td><td>${d.f[i]}</td>${columns.map(c=>`<td class="${revealed.has(c)?'revealed':'blank'}">${revealed.has(c)?fmt(values[c]):'…'}</td>`).join('')}</tr>`;
+        h+=`<tr><td>${d.grouped?(m.dataset.intervalNotation?math(intervalTex(x-.5,x+.5,m.dataset.intervalNotation==='upper')):`${fmt(x-.5)} ≤ x < ${fmt(x+.5)}`):x}</td><td>${d.f[i]}</td>${columns.map(c=>`<td class="${revealed.has(c)?'revealed':'blank'}">${revealed.has(c)?fmt(values[c]):'…'}</td>`).join('')}</tr>`;
       });
       h+=`</tbody><tfoot><tr><td>Total</td><td>${m.dataset.hideTotal==='true'&&!revealed.size?'…':n}</td>${columns.map(c=>`<td>${c==='rf'?(revealed.has(c)?'1':'…'):'—'}</td>`).join('')}</tr></tfoot></table>`;
-      $(m,'.table-wrap').innerHTML=h;
+      $(m,'.table-wrap').innerHTML=h;typeset(m);
     };
     $$(m,'button').forEach(b=>b.addEventListener('click',()=>{
       const c=b.dataset.column;if(revealed.has(c))revealed.delete(c);else revealed.add(c);
@@ -248,10 +253,32 @@
     $(m,'.modal').addEventListener('click',()=>{clear();$$(m,'.dot-value').forEach(x=>x.classList.toggle('modal',values[Number(x.dataset.i)]===3));$(m,'.feedback').textContent='Mode = 3. It occurs four times; the mode is a value, not its frequency.';});
     $(m,'.clear').addEventListener('click',()=>{clear();$(m,'.feedback').textContent='Eight observations: which two positions are in the middle?';});
   }
+  // Explicit interval shorthands are opt-in for the Lesson 3 examples.
+  const intervalTex = (a,b,upper=false) => upper
+    ? `${fmt(a)}>\\text{–}${fmt(b)}`
+    : `${fmt(a)}\\text{–}<${fmt(b)}`;
   function boundary(m){
-    m.innerHTML='<label class="small" for="boundary-value">Measured value: <strong class="boundary-value">13.0</strong></label><input id="boundary-value" type="range" min="11" max="14.9" step="0.1" value="13" aria-label="Measured value"><div class="boundary-bins">'+[11,12,13,14].map(x=>`<div class="boundary-bin" data-left="${x}">${x} ≤ x &lt; ${x+1}</div>`).join('')+'</div><div class="toolbar"><button class="exact-boundary">Set x = 13</button></div><div class="feedback" aria-live="polite"></div>';
-    const draw=()=>{const value=Number($(m,'input').value),lower=Math.floor(value);$(m,'.boundary-value').textContent=value.toFixed(1);$$(m,'.boundary-bin').forEach(x=>x.classList.toggle('active',Number(x.dataset.left)===lower));$(m,'.feedback').textContent=`${value.toFixed(1)} belongs to ${lower} ≤ x < ${lower+1}. Include the lower boundary; exclude the upper boundary.`;};
-    $(m,'input').addEventListener('input',draw);$(m,'button').addEventListener('click',()=>{$(m,'input').value=13;draw();});draw();
+    let upper=false;
+    m.innerHTML='<div class="toolbar boundary-conventions"><button data-convention="lower" aria-pressed="true">Include lower endpoint</button><button data-convention="upper" aria-pressed="false">Include upper endpoint</button></div><p class="boundary-rule"></p><label class="small">Measured value: <strong class="boundary-value"></strong><input class="boundary-slider" type="range" min="11.1" max="14.9" step="0.1" value="13" aria-label="Measured value"></label><div class="boundary-bins">'+[11,12,13,14].map(x=>`<div class="boundary-bin" data-left="${x}"></div>`).join('')+'</div><div class="toolbar"><button class="exact-boundary">Set '+math('x=13')+'</button></div><div class="feedback" aria-live="polite"></div>';
+    const draw=()=>{
+      const value=Number($(m,'.boundary-slider').value),lower=upper?Math.ceil(value)-1:Math.floor(value);
+      $(m,'.boundary-value').innerHTML=math('x='+value.toFixed(1));
+      $(m,'.boundary-rule').innerHTML=upper
+        ? math('a>\\text{–}b\\quad\\Longleftrightarrow\\quad a<x\\le b')
+        : math('a\\text{–}<b\\quad\\Longleftrightarrow\\quad a\\le x<b');
+      $$(m,'.boundary-bin').forEach(bin=>{
+        const left=Number(bin.dataset.left),active=left===lower;
+        bin.classList.toggle('active',active);
+        bin.innerHTML=math(intervalTex(left,left+1,upper));
+        bin.setAttribute('aria-label',`${left} ${upper?'less than':'less than or equal to'} x ${upper?'less than or equal to':'less than'} ${left+1}${active?'; contains the measured value':''}`);
+      });
+      $(m,'.feedback').innerHTML=math('x='+value.toFixed(1))+' belongs to '+math(intervalTex(lower,lower+1,upper))+'. '+(upper?'Exclude the lower endpoint; include the upper endpoint.':'Include the lower endpoint; exclude the upper endpoint.');
+      $$(m,'[data-convention]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.convention==='upper')===upper)));
+      typeset(m);
+    };
+    $$(m,'[data-convention]').forEach(b=>b.addEventListener('click',()=>{upper=b.dataset.convention==='upper';draw();}));
+    $(m,'.boundary-slider').addEventListener('input',draw);
+    $(m,'.exact-boundary').addEventListener('click',()=>{$(m,'.boundary-slider').value='13';draw();});draw();
   }
   function coin(m){
     let seed=31337,n=0,heads=0,history=[],last=[];
@@ -272,9 +299,121 @@
     $$(m,'[data-trials]').forEach(b=>b.addEventListener('click',()=>{const count=Math.min(Number(b.dataset.trials),5000-n);for(let i=0;i<count;i++){const h=random()<.5;n++;heads+=Number(h);history.push(heads/n);last.push(h);if(last.length>10)last.shift();}draw();}));
     $(m,'.new-run').addEventListener('click',()=>{n=0;heads=0;history=[];last=[];seed=(seed+137)>>>0;draw();});draw();
   }
+  // Exactly five tosses per student in Example 3.13. Data stays in page memory.
+  function classCoinSummary(records){
+    let heads=0;
+    const history=records.map((row,i)=>{heads+=row.heads;return {students:i+1,heads,tosses:5*(i+1),probability:heads/(5*(i+1))};});
+    return {students:records.length,heads,tosses:records.length*5,probability:records.length?heads/(records.length*5):null,history};
+  }
+  function classCoinModel(){
+    let records=[],nextId=1,classVisible=false;
+    const undoStack=[],copy=()=>records.map(row=>({...row}));
+    const checkpoint=()=>undoStack.push({records:copy(),nextId});
+    return {
+      state:()=>({records:copy(),...classCoinSummary(records),classVisible,canUndo:undoStack.length>0}),
+      save(heads,label='',id=null){
+        if(!Number.isInteger(heads)||heads<0||heads>5)throw new RangeError('Choose a whole number of heads from 0 to 5.');
+        const index=id===null?-1:records.findIndex(row=>row.id===id);
+        if(id!==null&&index<0)throw new RangeError('Choose an existing student to edit.');
+        label=String(label).trim().slice(0,40);checkpoint();
+        if(id===null)records.push({id:nextId++,label,heads,revealed:false});
+        else records[index]={...records[index],label,heads,revealed:false};
+        classVisible=false;
+      },
+      toggleIndividual(id){const row=records.find(row=>row.id===id);if(row)row.revealed=!row.revealed;},
+      toggleClass(){if(records.length)classVisible=!classVisible;},
+      undo(){const previous=undoStack.pop();if(!previous)return;records=previous.records;nextId=previous.nextId;classVisible=false;},
+      reset(){if(!records.length)return;checkpoint();records=[];nextId=1;classVisible=false;}
+    };
+  }
   function classEstimate(m){
-    m.innerHTML='<div class="toolbar"><label>Class heads <input class="class-heads" type="number" min="0" step="1" value="0" aria-label="Total heads for the class"></label><label>Class tosses <input class="class-n" type="number" min="1" step="1" value="0" aria-label="Total coin tosses for the class"></label><button class="calculate primary">Calculate class estimate</button></div><div class="class-result" aria-live="polite"></div>';
-    $(m,'.calculate').addEventListener('click',()=>{const h=Number($(m,'.class-heads').value),n=Number($(m,'.class-n').value);$(m,'.class-result').textContent=Number.isInteger(h)&&Number.isInteger(n)&&n>0&&h>=0&&h<=n?`Class estimate: ${h}/${n} = ${fmt(h/n)}. Compare this with 0.5.`:'Enter whole-number totals with 0 ≤ heads ≤ tosses and tosses > 0.';});
+    const model=classCoinModel();
+    let selectedHeads=null,editingId=null,graphVisible=true;
+    m.innerHTML=`<p class="class-instruction">Five tosses each. Choose the number of heads, then add the student.</p>
+      <form class="class-entry">
+        <label class="class-name-label">Label (optional)<input class="class-label" type="text" maxlength="40" autocomplete="off" placeholder="Student 1"></label>
+        <fieldset class="class-heads-picker"><legend>Heads out of 5</legend><div>${[0,1,2,3,4,5].map(h=>`<button type="button" data-heads="${h}" aria-pressed="false" aria-label="${h} heads out of 5 tosses">${h}</button>`).join('')}</div></fieldset>
+        <button type="submit" class="class-add primary" disabled>Add student</button>
+        <button type="button" class="class-cancel" hidden>Cancel edit</button>
+      </form>
+      <div class="class-totals" aria-label="Running class totals"><span>Students<strong class="class-students">0</strong></span><span>Heads<strong class="class-heads">0</strong></span><span>Tosses<strong class="class-tosses">0</strong></span><div class="class-combined"><button type="button" class="class-reveal primary" aria-expanded="false" disabled>Reveal class probability</button><div class="class-result" aria-live="polite"></div></div></div>
+      <div class="class-tracker-grid">
+        <div><h3>Student record</h3><div class="class-history" tabindex="0" role="region" aria-label="All recorded students; scroll for earlier results"><table><thead><tr><th scope="col">Student</th><th scope="col">Heads</th><th scope="col">Tosses</th><th scope="col">Estimate</th><th scope="col"><span class="class-sr-only">Correction</span></th></tr></thead><tbody class="class-records"></tbody></table></div></div>
+        <div class="class-graph-panel"><div class="class-graph-heading"><h3>Class estimate after each student</h3><button type="button" class="class-graph-toggle" aria-pressed="true">Hide graph</button></div><div class="class-plot"></div><p class="class-graph-key">Teal: combined class estimate · Dashed orange: fair coin, 0.5</p></div>
+      </div>
+      <div class="class-footer"><div class="toolbar"><button type="button" class="class-undo" disabled>Undo</button><button type="button" class="class-reset" disabled>Reset class</button></div><p class="class-status" role="status">Ready for Student 1.</p></div>`;
+    const label=$(m,'.class-label'),historyPane=$(m,'.class-history');
+    const name=row=>row.label||`Student ${row.id}`;
+    const estimate=(h,n)=>math(`\\frac{${h}}{${n}}${Number(fmt(h/n))===h/n?'=':'\\approx'}${fmt(h/n)}`);
+    const announce=message=>{$(m,'.class-status').textContent=message;};
+    const drawEntry=()=>{
+      $$(m,'[data-heads]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.heads)===selectedHeads)));
+      $(m,'.class-add').disabled=selectedHeads===null;
+      $(m,'.class-add').textContent=editingId===null?'Add student':'Save changes';
+      $(m,'.class-cancel').hidden=editingId===null;
+      label.placeholder=editingId===null?`Student ${model.state().records.length+1}`:`Student ${editingId}`;
+    };
+    const clearEntry=()=>{selectedHeads=null;editingId=null;label.value='';drawEntry();};
+    const drawGraph=state=>{
+      const plot=$(m,'.class-plot');
+      $(m,'.class-graph-toggle').textContent=graphVisible?'Hide graph':'Show graph';
+      $(m,'.class-graph-toggle').setAttribute('aria-pressed',String(graphVisible));
+      $(m,'.class-graph-key').hidden=!graphVisible;
+      if(!graphVisible){plot.innerHTML='<p class="class-graph-empty">Graph hidden. Predict how the next result will change the class estimate.</p>';return;}
+      if(!state.students){plot.innerHTML='<p class="class-graph-empty">Add the first student to begin the graph.</p>';return;}
+      const L=102,R=855,T=26,B=325,maxN=Math.max(5,state.students),sx=x=>L+x/maxN*(R-L),sy=y=>B-y*(B-T);
+      let body='';
+      for(const y of [0,.25,.5,.75,1])body+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-16,sy(y)+9,fmt(y),'text-anchor="end" font-size="27"');
+      body+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" fill="none" stroke-width="2"/><line x1="${L}" y1="${sy(.5)}" x2="${R}" y2="${sy(.5)}" stroke="#b55224" stroke-width="3" stroke-dasharray="10 7"/>`;
+      const ticks=maxN<=10?Array.from({length:maxN+1},(_,i)=>i):[0,Math.round(maxN/4),Math.round(maxN/2),Math.round(3*maxN/4),maxN];
+      ticks.forEach(x=>body+=text(sx(x),B+36,x,'text-anchor="middle" font-size="27"'));
+      body+=text((L+R)/2,405,'Number of students','text-anchor="middle" font-size="29"');
+      body+=text(26,(T+B)/2,'Experimental probability',`transform="rotate(-90 26 ${(T+B)/2})" text-anchor="middle" font-size="28"`);
+      if(state.history.length>1)body+=`<polyline points="${state.history.map(p=>`${sx(p.students)},${sy(p.probability)}`).join(' ')}" fill="none" stroke="#007f78" stroke-width="4"/>`;
+      state.history.forEach(p=>body+=`<circle cx="${sx(p.students)}" cy="${sy(p.probability)}" r="6" fill="#007f78"><title>${p.students} student${p.students===1?'':'s'}: ${p.heads}/${p.tosses} ${Number(fmt(p.probability))===p.probability?'=':'≈'} ${fmt(p.probability)}</title></circle>`);
+      plot.innerHTML=makeSvg(body,`Combined experimental probability after each student; ${state.students} students and ${state.tosses} tosses. The dashed line marks theoretical probability 0.5.`,430);
+    };
+    const draw=()=>{
+      const state=model.state(),scrollTop=historyPane.scrollTop;
+      $(m,'.class-students').textContent=state.students;
+      $(m,'.class-heads').textContent=state.heads;
+      $(m,'.class-tosses').textContent=state.tosses;
+      $(m,'.class-reveal').disabled=!state.students;
+      $(m,'.class-reveal').textContent=state.classVisible?'Hide class probability':'Reveal class probability';
+      $(m,'.class-reveal').setAttribute('aria-expanded',String(state.classVisible));
+      $(m,'.class-result').innerHTML=state.classVisible?estimate(state.heads,state.tosses):state.students?'Predict from the totals.':'Awaiting results.';
+      $(m,'.class-records').innerHTML=state.records.length?state.records.map(row=>`<tr class="${row.id===editingId?'class-editing':''}"><th scope="row">${esc(name(row))}</th><td>${row.heads}</td><td>5</td><td><div class="student-estimate">${row.revealed?estimate(row.heads,5):'<span class="class-hidden-estimate">?</span>'}</div><button type="button" data-reveal-student="${row.id}" aria-expanded="${row.revealed}" aria-label="${row.revealed?'Hide':'Reveal'} probability for ${esc(name(row))}">${row.revealed?'Hide':'Reveal'}</button></td><td><button type="button" data-edit-student="${row.id}" aria-label="Edit ${esc(name(row))}">Edit</button></td></tr>`).join(''):'<tr><td colspan="5" class="class-empty">No results yet.</td></tr>';
+      historyPane.scrollTop=scrollTop;
+      $(m,'.class-undo').disabled=!state.canUndo;
+      $(m,'.class-reset').disabled=!state.students;
+      drawEntry();drawGraph(state);typeset(m);
+    };
+    $$(m,'[data-heads]').forEach(b=>b.addEventListener('click',()=>{selectedHeads=Number(b.dataset.heads);drawEntry();}));
+    $(m,'.class-entry').addEventListener('submit',event=>{
+      event.preventDefault();
+      if(selectedHeads===null){announce('Choose the number of heads from 0 to 5.');return;}
+      const editing=editingId!==null,who=label.value.trim()||`Student ${editingId??model.state().records.length+1}`;
+      model.save(selectedHeads,label.value,editingId);clearEntry();draw();
+      if(!editing)historyPane.scrollTop=historyPane.scrollHeight;
+      announce(`${editing?'Updated':'Added'} ${who}. Class probability is ready to reveal.`);
+    });
+    $(m,'.class-cancel').addEventListener('click',()=>{clearEntry();draw();announce('Edit cancelled.');});
+    $(m,'.class-records').addEventListener('click',event=>{
+      const reveal=event.target.closest('[data-reveal-student]'),edit=event.target.closest('[data-edit-student]');
+      if(reveal){
+        const id=Number(reveal.dataset.revealStudent);model.toggleIndividual(id);draw();
+        $(m,`[data-reveal-student="${id}"]`)?.focus({preventScroll:true});
+      }else if(edit){
+        const row=model.state().records.find(r=>r.id===Number(edit.dataset.editStudent));if(!row)return;
+        editingId=row.id;selectedHeads=row.heads;label.value=row.label;draw();
+        label.focus({preventScroll:true});announce(`Editing ${name(row)}. Choose heads, then save changes.`);
+      }
+    });
+    $(m,'.class-reveal').addEventListener('click',()=>{model.toggleClass();draw();});
+    $(m,'.class-graph-toggle').addEventListener('click',()=>{graphVisible=!graphVisible;drawGraph(model.state());});
+    $(m,'.class-undo').addEventListener('click',()=>{model.undo();clearEntry();draw();announce('Last data change undone.');});
+    $(m,'.class-reset').addEventListener('click',()=>{model.reset();clearEntry();draw();announce('Class cleared. Undo restores the previous records.');});
+    draw();
   }
   function slideMap(trigger){
     const dialog=document.createElement('dialog');

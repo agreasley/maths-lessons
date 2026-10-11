@@ -1,0 +1,13 @@
+## Our goal today {#l3-objective}
+
+### Lesson objective
+
+Interpret class intervals and use observed relative frequencies to estimate probabilities.
+
+### Success criterion
+
+I can place boundary values in the correct class, interpret grouped data and explain how a class probability estimate changes as results are added.
+
+::: notes
+Keep this immediately after the shared cover. Students already know frequency tables and relative frequency from Lesson 2. Today extends that knowledge to boundary conventions, grouping and experimental probability.
+:::

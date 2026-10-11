@@ -33,7 +33,7 @@ Matching cartoon hand icons sit alongside the printed numbers. Timer expiry does
 | Lesson 2: median from a complete frequency table | 2 |
 | Lesson 2: mean from the same complete frequency table | 3 |
 | Example 3.11: histograms | 2 (booklet B) |
-| Lesson 3: class boundary | 2 |
+| Lesson 3: reclassifying boundary observations | 4 |
 
 Use proper maths typography for variables in slides and applets. The repository-wide conventions are recorded in `AGENTS.md` and `README.md`.
 
@@ -105,7 +105,19 @@ Treat Example 3.11 as a timed hinge with the original histograms, wording and op
 
 ## Lesson 3 — Exercise 15C
 
-Explore class boundaries, complete Example 3.12 and change class width. Use the hinge before moving to experimental probability. Collect five real coin tosses per student for Example 3.13; enter the class totals on the slide. Use the simulator to extend the discussion, then finish Example 3.14.
+Keep the shared cover, followed immediately by the lesson objective and success criterion. The 16-slide sequence then introduces both interval shorthands with open/filled endpoints: $a\text{–}<b$ means $a\le x<b$, while $a>\text{–}b$ means $a<x\le b$. These are class labels, not chained inequalities. Hold the boundary interactive at $x=13$ and switch conventions: it moves from $13\text{–}<14$ to $12>\text{–}13$. Example 3.12 retains the booklet's lower-inclusive convention, including the table and the graph's class labels when regrouping.
+
+Complete Example 3.12 and change class width, then use the harder hinge before experimental probability. Original classes $10\text{–}<20$, $20\text{–}<30$, $30\text{–}<40$ have frequencies 4, 8, 8. No value equals 10; exactly two equal 20 and three equal 30. Switching to upper-inclusive classes moves the two 20s left and the three 30s left, giving **6, 9, 5: choice 4**. Choice 1 ignores the change, choice 2 moves only the 20s, and choice 3 moves both boundary counts the wrong way. The default timer is 60 seconds with an independent reveal. Ready: discuss the outer endpoints. Divided: track the two transfers separately and re-poll. Reteach: return to the exact-boundary interactive.
+
+### Example 3.13 class experiment
+
+Keep all four original question parts on their own slide. On the next slide, collect **five real coin tosses per student**. Choose 0–5 heads, optionally enter a short label, then select **Add student**. Anonymous Student 1, Student 2, … labels are automatic. Each history row retains the heads and five tosses; its **Reveal** button independently displays that student's fraction and decimal. The history scrolls as the class grows.
+
+The student count, heads and tosses update immediately. **Reveal class probability** separately displays total heads / total tosses, with a decimal rounded to four places where needed. Adding or editing data hides this numeric result again. The graph plots the combined proportion after each student, against the number of students, with a dashed theoretical reference at 0.5. It is initially visible; **Hide graph** lets students predict without seeing the plot. A visible graph can hint at the class value even while its numerical reveal is closed.
+
+**Edit** corrects a student's record and recomputes all later graph points; the edited student's estimate is hidden again. **Undo** reverses the last data change, including **Reset class**. Reset clears the current records. Individual reveals and graph visibility do not alter the data history. Records persist while navigating slides or opening the slide map, but a page refresh clears them. Nothing is sent or stored externally.
+
+The tracker assumes exactly five tosses per student, as in the question. Use the simulator after collecting real results to extend the discussion, then finish Example 3.14.
 
 The coin simulator models fair independent tosses. More trials tend to stabilise a proportion but do not guarantee it moves closer to 0.5 after every batch. Use the actual class outcome when answering Example 3.13(d), even if the pooled estimate happens to be farther from 0.5.
 
@@ -126,7 +138,7 @@ For Example 3.14(d), a sample of 50 is not automatically incapable of providing 
 | 3.9 | cf 2,6,8,9,15,23,30,36,38,40. Exact median 6. Width-2 grouped frequencies 6,3,14,13,4. |
 | 3.10 | cf 1,4,8; median 2.5; mode 3. Middle positions 4 and 5 contain 2 and 3. |
 | 3.11 | Screen choice 2 (booklet B): modes 9 and 8; both ranges 6. Histograms redrawn from the supplied figure. |
-| 3.12 | n=25; centres 9.5–16.5 by 1; cf 1,3,8,10,17,22,24,25. Width 1 modal and median class 13≤x<14. Width 2 frequencies 3,7,12,3; cf 3,10,22,25; modal and median class 13≤x<15. |
+| 3.12 | n=25; centres 9.5–16.5 by 1; cf 1,3,8,10,17,22,24,25. Width 1 modal and median class $13\text{–}<14$. Width 2 frequencies 3,7,12,3; cf 3,10,22,25; modal and median class $13\text{–}<15$. |
 | 3.13 | Experimental answers vary; fair-coin probability .5. Class estimate = total heads / total tosses. |
 | 3.14 | rf .14,.10,.12,.14,.16,.34; P(X=4)≈.14; P(X>3)≈.64; predicted sixes 272 in 800 rolls. |
 

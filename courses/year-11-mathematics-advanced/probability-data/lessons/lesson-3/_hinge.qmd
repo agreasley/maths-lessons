@@ -1,24 +1,41 @@
-## Hinge question · A value on the boundary {#l3-hinge }
+## Hinge question · Change the endpoint convention {#l3-hinge .grouping-hinge}
 
 ```{=html}
-<div data-module="hinge" data-correct="2" class="hinge">
-<p class="hinge-question">The classes are 11 ≤ <span data-math="x">x</span> &lt; 12, 12 ≤ <span data-math="x">x</span> &lt; 13 and 13 ≤ <span data-math="x">x</span> &lt; 14. Where does <span data-math="x">x</span> = 13 belong?</p>
-<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>12 ≤ <span data-math="x">x</span> &lt; 13 only</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>13 ≤ <span data-math="x">x</span> &lt; 14 only</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>Both of the last two classes</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>Neither class</span></button></div>
+<div data-module="hinge" data-correct="4" class="hinge numeric-choices">
+<div class="boundary-hinge-data">
+<table aria-label="Original lower-inclusive classes and frequencies"><thead><tr><th>Original class</th><th>Frequency</th></tr></thead><tbody>
+<tr><td><span data-math="10\text{–}<20">10–&lt;20</span></td><td>4</td></tr>
+<tr><td><span data-math="20\text{–}<30">20–&lt;30</span></td><td>8</td></tr>
+<tr><td><span data-math="30\text{–}<40">30–&lt;40</span></td><td>8</td></tr>
+</tbody></table>
+<p>Of these 20 observations:<br>none equal <strong>10</strong>,<br>exactly <strong>two equal 20</strong>,<br>exactly <strong>three equal 30</strong>.</p>
+</div>
+<p class="hinge-question">Reclassify the same data as <span data-math="10>\text{–}20,\quad20>\text{–}30,\quad30>\text{–}40">10&gt;–20, 20&gt;–30, 30&gt;–40</span>.<br>What are the new frequencies, in order?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>4, 8, 8</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>6, 6, 8</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>2, 7, 11</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>6, 9, 5</span></button>
+</div>
 <div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
-<div class="hinge-explanation" hidden>2. The symbol ≤ includes the lower boundary and &lt; excludes the upper boundary. Option 1 chooses the wrong side; option 3 double-counts; option 4 creates a gap.</div>
+<div class="hinge-explanation" hidden><strong>4.</strong> Move the two 20s and the three 30s into the class on their left:<br><span data-math="4+2=6,\quad8-2+3=9,\quad8-3=5">4 + 2 = 6, 8 − 2 + 3 = 9, 8 − 3 = 5</span>.</div>
 </div>
 ```
 
 ::: notes
-Use 30–45 seconds. Everyone starts with a fist on their chest, then holds up 1–4 fingers together on your “show” cue. Collect responses before revealing.
+Default to 60 seconds; extend to 90 or 120 if needed. Students think with a fist on their chest, then show 1–4 fingers together on your verbal cue. Timer expiry does not reveal the answer.
 
-Correct answer: 2. $13$ belongs to $13 \le x < 14$: include the lower boundary and exclude the upper boundary.
+Correct answer: **4**, giving **6, 9, 5**. The two 20s move from the second class to the first. The three 30s move from the third class to the second. No observation is lost at 10 (none equals 10), and the original table contains no 40s. The total remains 20.
 
-- 1: includes an excluded upper boundary.
-- 3: assigns the value to both classes and double-counts it.
-- 4: excludes the value from both classes and creates a gap.
+- **1: 4, 8, 8.** Treats the notation change as cosmetic.
+- **2: 6, 6, 8.** Moves the two 20s but overlooks the three 30s.
+- **3: 2, 7, 11.** Transfers both boundary counts in the wrong direction.
+- **4: 6, 9, 5.** Transfers both counts to the left, with the middle class both losing and gaining observations.
 
-Ready: ask where $x=12$ belongs, then proceed.
-Divided: ask pairs to translate each inequality into words, then re-poll on “show”.
-Further explanation needed: revisit the interactive boundary slide, set the value to 13, and re-poll before moving on.
+Ready: ask why the condition about 10 is needed and why no extra condition about 40 is needed.
+Divided: have pairs track the 20s and 30s separately, then re-poll before revealing.
+Reteach: return to the boundary interactive at an exact endpoint. Translate both conventions into inequalities, then revisit which class gains each observation.
+
+This is additional diagnostic material, not a replacement for a numbered booklet question.
 :::

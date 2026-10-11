@@ -35,10 +35,6 @@ Exclude **10**. Include **20**.
 :::
 ::::
 
-::: {.takeaway}
-A filled endpoint is included. An open endpoint is excluded.
-:::
-
 ::: notes
 These are class-interval shorthands, not chained inequalities. Read the complete interval: $a\text{–}<b$ means $a\le x<b$; $a>\text{–}b$ means $a<x\le b$. In particular, the second form does not mean that the smaller endpoint is greater than the larger endpoint.
 

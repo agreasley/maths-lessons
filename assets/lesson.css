@@ -150,30 +150,32 @@ body{background:var(--paper)}
 .reveal .class-combined button{font-size:20px;min-width:227px}
 .reveal .class-result{font-size:24px;line-height:1.25}
 .reveal .class-result .math-token{font-size:28px;color:var(--teal)}
-.reveal .class-tracker-grid{display:grid;grid-template-columns:1fr 1.12fr;gap:22px;align-items:start}
+.reveal .class-tracker-grid{display:grid;grid-template-columns:2fr 1fr;gap:22px;align-items:start}
 .reveal .class-tracker-grid h3{font-size:24px;margin:0 0 8px;line-height:1.2}
-.reveal .class-history{height:292px;overflow:auto;overscroll-behavior:contain;border:1px solid var(--rule);border-radius:6px;background:white}
+.reveal .class-record-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:49px;margin-bottom:8px}
+.reveal .class-record-heading h3{margin:0 0 4px}
+.reveal .class-record-help{font-size:18px;line-height:1.2;margin:0;color:var(--muted)}
+.reveal .class-edit-record{font-size:18px;white-space:nowrap;min-height:49px;padding:9px 12px}
+.reveal .class-edit-record[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:white}
+.reveal .class-history{height:386px;overflow:auto;overscroll-behavior:contain;padding:2px;box-sizing:border-box}
 .reveal .class-history:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
-.reveal .class-history table{margin:0;font-size:22px;table-layout:fixed}
-.reveal .class-history thead{position:sticky;top:0;z-index:1;background:var(--paper)}
-.reveal .class-history th,.reveal .class-history td{padding:6px 4px;font-size:20px;vertical-align:middle;overflow-wrap:anywhere}
-.reveal .class-history thead th{font-size:18px;white-space:nowrap}
-.reveal .class-history th:first-child{width:26%;text-align:left;padding-left:9px}
-.reveal .class-history th:nth-child(2),.reveal .class-history th:nth-child(3){width:14%}
-.reveal .class-history th:nth-child(4){width:28%}
-.reveal .class-history th:last-child{width:18%}
-.reveal .class-history tbody th{font-size:20px;font-weight:400;border-bottom:1px solid var(--rule)}
-.reveal .class-history button{min-height:46px;font-size:18px;padding:7px 10px}
-.reveal .student-estimate{min-height:33px;font-size:21px;line-height:1.55}
-.reveal .student-estimate .math-token{font-size:21px;color:var(--teal)}
-.reveal .class-hidden-estimate{color:var(--muted)}
-.reveal .class-editing{background:#e6edf5}
-.reveal .class-history .class-empty{padding:30px 15px;text-align:center;color:var(--muted)}
-.reveal .class-graph-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:3px}
+.reveal .class-records{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));grid-auto-rows:70px;gap:8px}
+.reveal .student-card{display:flex;flex-direction:column;justify-content:space-between;min-width:0;min-height:70px;padding:6px 8px;border:1px solid #a7b7b0;border-radius:6px;background:white;text-align:left}
+.reveal .student-card-top{display:flex;align-items:center;justify-content:space-between;gap:6px;font-size:18px;line-height:1.2;min-width:0;width:100%}
+.reveal .student-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.reveal .student-heads{flex-shrink:0;font-weight:700;color:var(--muted);white-space:nowrap}
+.reveal .student-estimate{display:flex;align-items:center;justify-content:center;min-height:28px;font-size:20px;line-height:1.1;width:100%}
+.reveal .student-estimate .math-token{font-size:20px;color:var(--teal)}
+.reveal .class-hidden-estimate{color:var(--teal);font-size:18px}
+.reveal .student-revealed{background:#eef5ef;border-color:var(--teal)}
+.reveal .class-selecting .student-card{border:2px solid var(--blue)}
+.reveal .student-card.class-editing{background:#e6edf5;border:2px solid var(--blue)}
+.reveal .class-history .class-empty{grid-column:1/-1;display:flex;align-items:center;justify-content:center;height:382px;font-size:24px;margin:0;border:1px dashed #81938f;border-radius:6px;color:var(--muted)}
+.reveal .class-graph-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:49px;margin-bottom:8px}
 .reveal .class-graph-heading h3{font-size:23px;margin:0}
 .reveal .class-graph-toggle{white-space:nowrap;font-size:18px;min-height:46px;padding:7px 10px}
-.reveal .class-plot .chart-svg{height:266px;width:100%}
-.reveal .class-graph-empty{height:266px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;border:1px dashed #81938f;border-radius:6px;box-sizing:border-box;font-size:24px;line-height:1.4;margin:0;color:var(--muted)}
+.reveal .class-plot .chart-svg{height:316px;width:100%}
+.reveal .class-graph-empty{height:316px;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;border:1px dashed #81938f;border-radius:6px;box-sizing:border-box;font-size:24px;line-height:1.4;margin:0;color:var(--muted)}
 .reveal .class-graph-key{font-size:17px;line-height:1.3;margin:2px 0 0;color:var(--muted)}
 .reveal .class-footer{display:flex;align-items:center;gap:16px;margin-top:7px}
 .reveal .class-footer .toolbar{flex-shrink:0;margin:0}

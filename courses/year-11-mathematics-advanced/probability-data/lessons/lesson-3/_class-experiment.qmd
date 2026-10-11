@@ -7,13 +7,13 @@
 ::: notes
 Each student contributes exactly five real coin tosses. Choose their head count (0–5), optionally enter a short label, then select Add student. Anonymous Student 1, Student 2, … labels are supplied automatically.
 
-Ask the class to predict that student's estimate, then use Reveal in their row. Individual estimates remain independently controlled. The history keeps every student entered, with five tosses per row. Scroll the history for earlier records.
+Ask the class to predict that student's estimate, then tap their card to reveal it; tap again to hide it. Individual estimates remain independently controlled. The five-by-five grid shows up to 25 students at once, alongside the totals and graph. Each card shows the student's label and head count (H); every student has five tosses. If more than 25 records are entered, the record area scrolls without discarding any results.
 
 The graph is shown initially and plots total heads divided by total tosses after each student, not the latest student's own estimate. Hide graph while students predict; show it again to inspect the updated trend. The orange dashed line is the fair-coin probability 0.5. The graph may hint at the combined value even while the numerical class estimate is hidden.
 
 Use Reveal class probability after collecting results. It shows the fraction from the running totals and its decimal (rounded to four decimal places where necessary). Adding or editing data hides this numeric result again so it can be predicted afresh.
 
-Edit corrects a row and recomputes all later graph points. Undo reverses the most recent data change, including Reset class. Reset clears the current records. Changes to individual reveal states and graph visibility do not count as data changes.
+To correct a result, choose Edit a record, tap the student's card, change the head count or label, and Save changes. Selecting a card in edit mode does not reveal its answer. Cancel selection returns the cards to their usual reveal/hide behaviour. Editing recomputes all later graph points. Undo reverses the most recent data change, including Reset class. Reset clears the current records. Changes to individual reveal states and graph visibility do not count as data changes.
 
 Records survive moving between slides and opening the slide map in this page. They are held only in page memory: a page refresh clears them. No student information is sent or saved externally.
 

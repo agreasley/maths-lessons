@@ -38,7 +38,7 @@
     }
     return bins;
   };
-  const makeSvg = (body, label, height = 390) => `<svg class="chart-svg" viewBox="0 0 900 ${height}" role="img" aria-label="${esc(label)}" xmlns="http://www.w3.org/2000/svg"><g font-family="Arial,sans-serif" font-size="22" fill="#152e3b">${body}</g></svg>`;
+  const makeSvg = (body, label, height = 390, width = 900) => `<svg class="chart-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${esc(label)}" xmlns="http://www.w3.org/2000/svg"><g font-family="Arial,sans-serif" font-size="22" fill="#152e3b">${body}</g></svg>`;
   function chart(m) {
     const d = datasets[m.dataset.set];
     const modes = (m.dataset.modes || 'frequency,relative,cumulative').split(',');
@@ -328,7 +328,7 @@
   }
   function classEstimate(m){
     const model=classCoinModel();
-    let selectedHeads=null,editingId=null,graphVisible=true;
+    let selectedHeads=null,editingId=null,graphVisible=true,choosingEdit=false;
     m.innerHTML=`<p class="class-instruction">Five tosses each. Choose the number of heads, then add the student.</p>
       <form class="class-entry">
         <label class="class-name-label">Label (optional)<input class="class-label" type="text" maxlength="40" autocomplete="off" placeholder="Student 1"></label>
@@ -338,8 +338,8 @@
       </form>
       <div class="class-totals" aria-label="Running class totals"><span>Students<strong class="class-students">0</strong></span><span>Heads<strong class="class-heads">0</strong></span><span>Tosses<strong class="class-tosses">0</strong></span><div class="class-combined"><button type="button" class="class-reveal primary" aria-expanded="false" disabled>Reveal class probability</button><div class="class-result" aria-live="polite"></div></div></div>
       <div class="class-tracker-grid">
-        <div><h3>Student record</h3><div class="class-history" tabindex="0" role="region" aria-label="All recorded students; scroll for earlier results"><table><thead><tr><th scope="col">Student</th><th scope="col">Heads</th><th scope="col">Tosses</th><th scope="col">Estimate</th><th scope="col"><span class="class-sr-only">Correction</span></th></tr></thead><tbody class="class-records"></tbody></table></div></div>
-        <div class="class-graph-panel"><div class="class-graph-heading"><h3>Class estimate after each student</h3><button type="button" class="class-graph-toggle" aria-pressed="true">Hide graph</button></div><div class="class-plot"></div><p class="class-graph-key">Teal: combined class estimate · Dashed orange: fair coin, 0.5</p></div>
+        <div><div class="class-record-heading"><div><h3>Student record</h3><p class="class-record-help">H = heads · Tap a student to reveal or hide.</p></div><button type="button" class="class-edit-record" aria-pressed="false" disabled>Edit a record</button></div><div class="class-history" tabindex="0" role="region" aria-label="Student records; five tosses each"><div class="class-records"></div></div></div>
+        <div class="class-graph-panel"><div class="class-graph-heading"><h3>Class estimate</h3><button type="button" class="class-graph-toggle" aria-pressed="true">Hide graph</button></div><div class="class-plot"></div><p class="class-graph-key">Teal: combined class estimate<br>Dashed orange: fair coin, 0.5</p></div>
       </div>
       <div class="class-footer"><div class="toolbar"><button type="button" class="class-undo" disabled>Undo</button><button type="button" class="class-reset" disabled>Reset class</button></div><p class="class-status" role="status">Ready for Student 1.</p></div>`;
     const label=$(m,'.class-label'),historyPane=$(m,'.class-history');
@@ -353,7 +353,7 @@
       $(m,'.class-cancel').hidden=editingId===null;
       label.placeholder=editingId===null?`Student ${model.state().records.length+1}`:`Student ${editingId}`;
     };
-    const clearEntry=()=>{selectedHeads=null;editingId=null;label.value='';drawEntry();};
+    const clearEntry=()=>{selectedHeads=null;editingId=null;choosingEdit=false;label.value='';drawEntry();};
     const drawGraph=state=>{
       const plot=$(m,'.class-plot');
       $(m,'.class-graph-toggle').textContent=graphVisible?'Hide graph':'Show graph';
@@ -361,7 +361,7 @@
       $(m,'.class-graph-key').hidden=!graphVisible;
       if(!graphVisible){plot.innerHTML='<p class="class-graph-empty">Graph hidden. Predict how the next result will change the class estimate.</p>';return;}
       if(!state.students){plot.innerHTML='<p class="class-graph-empty">Add the first student to begin the graph.</p>';return;}
-      const L=102,R=855,T=26,B=325,maxN=Math.max(5,state.students),sx=x=>L+x/maxN*(R-L),sy=y=>B-y*(B-T);
+      const L=94,R=574,T=26,B=325,maxN=Math.max(5,state.students),sx=x=>L+x/maxN*(R-L),sy=y=>B-y*(B-T);
       let body='';
       for(const y of [0,.25,.5,.75,1])body+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-16,sy(y)+9,fmt(y),'text-anchor="end" font-size="27"');
       body+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" fill="none" stroke-width="2"/><line x1="${L}" y1="${sy(.5)}" x2="${R}" y2="${sy(.5)}" stroke="#b55224" stroke-width="3" stroke-dasharray="10 7"/>`;
@@ -371,7 +371,7 @@
       body+=text(26,(T+B)/2,'Experimental probability',`transform="rotate(-90 26 ${(T+B)/2})" text-anchor="middle" font-size="28"`);
       if(state.history.length>1)body+=`<polyline points="${state.history.map(p=>`${sx(p.students)},${sy(p.probability)}`).join(' ')}" fill="none" stroke="#007f78" stroke-width="4"/>`;
       state.history.forEach(p=>body+=`<circle cx="${sx(p.students)}" cy="${sy(p.probability)}" r="6" fill="#007f78"><title>${p.students} student${p.students===1?'':'s'}: ${p.heads}/${p.tosses} ${Number(fmt(p.probability))===p.probability?'=':'≈'} ${fmt(p.probability)}</title></circle>`);
-      plot.innerHTML=makeSvg(body,`Combined experimental probability after each student; ${state.students} students and ${state.tosses} tosses. The dashed line marks theoretical probability 0.5.`,430);
+      plot.innerHTML=makeSvg(body,`Combined experimental probability after each student; ${state.students} students and ${state.tosses} tosses. The dashed line marks theoretical probability 0.5.`,430,600);
     };
     const draw=()=>{
       const state=model.state(),scrollTop=historyPane.scrollTop;
@@ -382,7 +382,12 @@
       $(m,'.class-reveal').textContent=state.classVisible?'Hide class probability':'Reveal class probability';
       $(m,'.class-reveal').setAttribute('aria-expanded',String(state.classVisible));
       $(m,'.class-result').innerHTML=state.classVisible?estimate(state.heads,state.tosses):state.students?'Predict from the totals.':'Awaiting results.';
-      $(m,'.class-records').innerHTML=state.records.length?state.records.map(row=>`<tr class="${row.id===editingId?'class-editing':''}"><th scope="row">${esc(name(row))}</th><td>${row.heads}</td><td>5</td><td><div class="student-estimate">${row.revealed?estimate(row.heads,5):'<span class="class-hidden-estimate">?</span>'}</div><button type="button" data-reveal-student="${row.id}" aria-expanded="${row.revealed}" aria-label="${row.revealed?'Hide':'Reveal'} probability for ${esc(name(row))}">${row.revealed?'Hide':'Reveal'}</button></td><td><button type="button" data-edit-student="${row.id}" aria-label="Edit ${esc(name(row))}">Edit</button></td></tr>`).join(''):'<tr><td colspan="5" class="class-empty">No results yet.</td></tr>';
+      $(m,'.class-edit-record').disabled=!state.students;
+      $(m,'.class-edit-record').textContent=choosingEdit?'Cancel selection':'Edit a record';
+      $(m,'.class-edit-record').setAttribute('aria-pressed',String(choosingEdit));
+      $(m,'.class-record-help').textContent=choosingEdit?'Choose a student to correct their result.':'H = heads · Tap a student to reveal or hide.';
+      $(m,'.class-records').classList.toggle('class-selecting',choosingEdit);
+      $(m,'.class-records').innerHTML=state.records.length?state.records.map(row=>`<button type="button" class="student-card ${row.id===editingId?'class-editing':''} ${row.revealed?'student-revealed':''}" data-reveal-student="${row.id}" aria-expanded="${row.revealed}" aria-label="${choosingEdit?'Edit':row.revealed?'Hide probability for':'Reveal probability for'} ${esc(name(row))}; ${row.heads} heads from 5 tosses"><span class="student-card-top"><span class="student-name" title="${esc(name(row))}">${esc(name(row))}</span><span class="student-heads">${row.heads} H</span></span><span class="student-estimate">${row.revealed?estimate(row.heads,5):'<span class="class-hidden-estimate">Reveal</span>'}</span></button>`).join(''):'<p class="class-empty">No results yet.</p>';
       historyPane.scrollTop=scrollTop;
       $(m,'.class-undo').disabled=!state.canUndo;
       $(m,'.class-reset').disabled=!state.students;
@@ -398,15 +403,17 @@
       announce(`${editing?'Updated':'Added'} ${who}. Class probability is ready to reveal.`);
     });
     $(m,'.class-cancel').addEventListener('click',()=>{clearEntry();draw();announce('Edit cancelled.');});
+    $(m,'.class-edit-record').addEventListener('click',()=>{choosingEdit=!choosingEdit;draw();announce(choosingEdit?'Choose a student card to edit.':'Selection cancelled. Tap a student to reveal their estimate.');});
     $(m,'.class-records').addEventListener('click',event=>{
-      const reveal=event.target.closest('[data-reveal-student]'),edit=event.target.closest('[data-edit-student]');
-      if(reveal){
-        const id=Number(reveal.dataset.revealStudent);model.toggleIndividual(id);draw();
-        $(m,`[data-reveal-student="${id}"]`)?.focus({preventScroll:true});
-      }else if(edit){
-        const row=model.state().records.find(r=>r.id===Number(edit.dataset.editStudent));if(!row)return;
-        editingId=row.id;selectedHeads=row.heads;label.value=row.label;draw();
+      const card=event.target.closest('[data-reveal-student]');if(!card)return;
+      const id=Number(card.dataset.revealStudent);
+      if(choosingEdit){
+        const row=model.state().records.find(r=>r.id===id);if(!row)return;
+        choosingEdit=false;editingId=row.id;selectedHeads=row.heads;label.value=row.label;draw();
         label.focus({preventScroll:true});announce(`Editing ${name(row)}. Choose heads, then save changes.`);
+      }else{
+        model.toggleIndividual(id);draw();
+        $(m,`[data-reveal-student="${id}"]`)?.focus({preventScroll:true});
       }
     });
     $(m,'.class-reveal').addEventListener('click',()=>{model.toggleClass();draw();});

@@ -28,7 +28,7 @@ Matching cartoon hand icons sit alongside the printed numbers. Timer expiry does
 | Check | Correct screen choice |
 |---|---|
 | Lesson 1: fixed unknown versus random variable | 4 |
-| Lesson 1: actual finishing time | 2 |
+| Lesson 1: infinitely many reciprocal values | 3 |
 | Example 3.3: amount charged | 1 (booklet A) |
 | Lesson 2: at most 2 pets | 3 |
 | Example 3.11: histograms | 2 (booklet B) |
@@ -46,7 +46,7 @@ Each toss generates four independent fair-coin outcomes. Looking inside only rev
 
 The first timed hinge checks fixed unit price versus total cost, unknown versus random, and the misconception that a random value must change every time. Its answer is 4; the slide notes include responses for ready, divided and not-yet-ready students. Both the applet and this hinge are additional teaching material, not new numbered booklet examples.
 
-Then classify possible values, complete Example 3.1, and use the existing classification cards and measurement hinge. The latter targets confusion between measurement precision and the underlying variable. Choose a duration that leaves time to obtain every student's response before revealing. Example 3.2 is followed by the existing 16-outcome coin display. Finish with the wording discussion in Example 3.3, revisit the success criteria and set the unchanged homework.
+Then classify possible values, complete Example 3.1, and use the existing classification cards. The second hinge provides a different, more challenging application: for a completed coin-toss trial ending at the first head, let $N$ be the number of tosses and $X=1/N$. It tests whether students recognise infinitely many, non-integer values as discrete, distinguish a list from an interval, and exclude the unattainable value zero. Default to 90 seconds; the correct choice is 3. Ask “Could $X=0.4$?” as a follow-up: it would require 2.5 tosses. The slide notes include the misconception behind each distractor and responses for ready, divided and not-yet-ready students. Example 3.2 is followed by the existing 16-outcome coin display. Finish with the wording discussion in Example 3.3, revisit the success criteria and set the unchanged homework.
 
 ### Classification precision
 

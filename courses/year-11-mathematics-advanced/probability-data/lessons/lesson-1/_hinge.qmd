@@ -1,24 +1,32 @@
-## Hinge question · What is being measured? {#l1-hinge }
+## Hinge question · Infinitely many values {#l1-hinge}
 
 ```{=html}
-<div data-module="hinge" data-correct="2" class="hinge">
-<p class="hinge-question"><span data-math="T">T</span> is a runner’s actual finishing time, recorded to the nearest 0.1 second. Which statement is best?</p>
-<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>Discrete: the displayed times are rounded.</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>Continuous: the underlying time varies continuously.</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>Discrete: time must be a positive number.</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>Neither: the time is unknown before the race.</span></button></div>
+<div data-module="hinge" data-correct="3" class="hinge reciprocal-hinge">
+<p class="hinge-question">A coin is tossed until the first head appears. For a completed trial, let <span data-math="N">N</span> be the number of tosses, and define <span data-math="X=\dfrac{1}{N}">X = 1/N</span>. Which statement is correct?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:30</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option>60</option><option selected>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span><span data-math="X">X</span> is continuous because infinitely many values are possible.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span><span data-math="X">X</span> is continuous because it can take any real value between <span data-math="0">0</span> and <span data-math="1">1</span>.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span><span data-math="X">X</span> is discrete, with possible values <span data-math="1,\dfrac12,\dfrac13,\dfrac14,\ldots">1, 1/2, 1/3, 1/4, …</span>.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span><span data-math="X">X</span> is discrete, with possible values <span data-math="0,1,\dfrac12,\dfrac13,\dfrac14,\ldots">0, 1, 1/2, 1/3, 1/4, …</span>.</span></button>
+</div>
 <div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
-<div class="hinge-explanation" hidden>2. The variable is the actual finishing time. Rounding affects recording precision. Option 1 confuses the recorded grid with the underlying quantity; options 3 and 4 do not distinguish the types.</div>
+<div class="hinge-explanation" hidden>3. The values can be listed using the positive integers. They do not fill an interval, and no completed trial gives <span data-math="X=0">X = 0</span>.</div>
 </div>
 ```
 
 ::: notes
-Set 45–60 seconds. Everyone starts with a fist on their chest and thinks independently. On your “show” cue, everyone holds up 1–4 fingers simultaneously. Collect responses before revealing.
+Additional challenge for the Extension 1 class. This replaces the repeated running-time hinge; keep the “Try the distinction” activities unchanged. Allow 90 seconds by default, using the adjustable timer. Everyone starts with a fist on their chest and thinks independently. On your “show” cue, everyone holds up 1–4 fingers simultaneously. Collect responses before revealing; timer expiry must not reveal the answer.
 
-Correct answer: 2. The actual finishing time is continuous.
+Correct answer: 3. For completed trials, $N$ is a positive integer. Hence $X$ takes the values $1,\frac12,\frac13,\frac14,\ldots$. There are infinitely many possible values, including non-integers, but they can be listed using the positive integers and do not fill an interval. Every value is positive: approaching zero does not make zero an attainable value. “Completed trial” makes clear that the question concerns a finite number of tosses ending in a head; no discussion of non-terminating trials or formal probability distributions is required.
 
-- 1: confuses the rounded recorded grid with the underlying time.
-- 3: treats positivity as a test for discreteness.
-- 4: confuses an unknown value with an inability to classify the variable.
+- 1: confuses infinitely many possible values with continuous variation.
+- 2: assumes that every real value between the extremes is possible.
+- 4: confuses getting arbitrarily close to zero with actually reaching zero.
 
-Ready: ask a student to explain how actual time differs from a rounded recorded time, then proceed.
-Divided: ask pairs to identify exactly what the variable represents, then re-poll on “show”.
-Further explanation needed: contrast actual time $T$ with a rounded-record variable $R$, then re-poll. Do not use the petrol example as the hinge because its wording needs discussion.
+Ready: ask “Could $X=0.4$? Explain.” It would require $N=2.5$ tosses, so it is impossible. Then proceed to Example 3.2.
+
+Divided: have pairs list the first six values, then reconsider whether they include every real number between 0 and 1, or include 0. Re-poll on “show”.
+
+Further explanation needed: connect each positive integer $N$ to its single reciprocal. Ask whether 0 or 0.4 appears in this list, then re-poll. Emphasise that discrete values need not be integers or form a finite set.
 :::

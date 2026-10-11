@@ -1,0 +1,19 @@
+## Familiar statistics · a quick reference {#l2-statistics-reminder .compact}
+
+```{=html}
+<div data-module="reveal-panel" class="stats-reminder">
+<table><thead><tr><th>Statistic</th><th>Meaning</th><th>Example 3.4 <span class="small-note">(pets)</span></th></tr></thead><tbody>
+<tr><td>Mean</td><td>Total of the values ÷ number of observations</td><td><span class="panel-answer" hidden>1.12</span></td></tr>
+<tr><td>Median</td><td>Middle value of ordered data; average the two middle values if needed</td><td><span class="panel-answer" hidden>1</span></td></tr>
+<tr><td>Mode</td><td>Value with the greatest frequency</td><td><span class="panel-answer" hidden>1</span></td></tr>
+<tr><td>Range</td><td>Maximum − minimum</td><td><span class="panel-answer" hidden>4 − 0 = 4</span></td></tr>
+<tr><td>Lower quartile, <span data-math="Q_1">Q₁</span></td><td>Median of the lower half of the ordered data</td><td><span class="panel-answer" hidden>0</span></td></tr>
+<tr><td>Upper quartile, <span data-math="Q_3">Q₃</span></td><td>Median of the upper half of the ordered data</td><td><span class="panel-answer" hidden>2</span></td></tr>
+<tr><td>Interquartile range</td><td><span data-math="\mathrm{IQR}=Q_3-Q_1">IQR = Q₃ − Q₁</span></td><td><span class="panel-answer" hidden>2 − 0 = 2</span></td></tr>
+</tbody></table><button class="toggle-panel" aria-pressed="false">Show example values</button>
+</div>
+```
+
+::: notes
+Use as a short reminder, not a lengthy prerequisite recap. Ask for a definition before revealing the example values. All examples refer to the same 50-household table. For an odd number of observations, use the median-of-halves convention excluding the overall median; align calculator quartile settings with the school convention if needed. Here n=50, and the 13th and 38th ordered observations are 0 and 2, so Q1=0, Q3=2 and IQR=2. We will justify the mean and median using the table shortly.
+:::

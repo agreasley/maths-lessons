@@ -1,29 +1,15 @@
-## From a table to a graph {#l2-histogram-rules }
+## Histogram features · centres and boundaries {#l2-histogram-rules .compact}
 
-::: {.split }
-::: {.column-block}
+```{=html}
+<div data-module="histogram-features" class="histogram-features"></div>
+```
 
-<h3>Histogram</h3>
-
-- Numerical values on the horizontal axis.
-- Adjoining rectangles.
-- Discrete values at the centres of their bars.
-- Frequency determines each height.
-
-:::
-
-::: {.column-block}
-
-<h3>Frequency polygon</h3>
-
-- Plot at each value or class centre.
-- Join neighbouring points with straight segments.
-- Return to zero one class before and one class after.
-
-:::
-:::
-<p class="booklet-cue">Booklet p. 41 · Complete the working in your booklet.</p>
+<p class="small-note">Equal-width bars touch. Label both axes and use a consistent scale. A relative frequency histogram uses <strong>relative frequency</strong> on the vertical axis.</p>
 
 ::: notes
-Equal-width classes are used throughout these lessons. No frequency-density interpretation for unequal-width classes is required here. Adjoining columns matter: a default spreadsheet column chart with gaps needs formatting.
+Use the discrete/continuous buttons to compare where numbers belong. Discrete example x=1,2,3,4 with frequencies2,5,4,1: unit-width bars have boundaries0.5,1.5,…,4.5, with numbers1,2,3,4 centred below the bars. Annotate the half-column lead-in between the vertical axis at0 and first boundary0.5. This is a leading space, not a gap between adjacent bars.
+
+Continuous example uses equal-width intervals0≤t<1,1≤t<2,2≤t<3,3≤t<4. Labels0,1,2,3,4 mark boundaries. The first class starts at0, so no leading half-column gap is needed in this continuous example. Do not move class boundaries to create a gap. Frequency is on the vertical axis; relative frequency is used for Example3.8.
+
+For an ordinary-frequency polygon, plot at each value or class centre and join adjacent points, returning to zero one class before and after. Cumulative polygons will instead use upper class boundaries. No unequal-width frequency-density treatment is needed here.
 :::

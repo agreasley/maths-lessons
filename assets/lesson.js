@@ -88,7 +88,7 @@
     const revealed=new Set();
     m.innerHTML='<div class="table-wrap"></div><div class="toolbar">'+columns.map(c=>`<button data-column="${c}" aria-pressed="false">Reveal ${names[c].toLowerCase()}</button>`).join('')+'</div>';
     const draw=()=>{
-      let h=`<table class="${d.values.length>6?'small-table':''}"><thead><tr><th>${d.grouped?'Class interval':'Value, x'}</th><th>Frequency, f</th>${columns.map(c=>`<th>${names[c]}</th>`).join('')}</tr></thead><tbody>`;
+      let h=`<table class="${d.values.length>6?'small-table':''}"><thead><tr><th>${d.grouped?'Class interval':`Value, ${math('x')}`}</th><th>Frequency, ${math('f')}</th>${columns.map(c=>`<th>${names[c]}</th>`).join('')}</tr></thead><tbody>`;
       d.values.forEach((x,i)=>{
         const values={centre:x,rf:d.f[i]/n,cf:cf[i],crf:cf[i]/n};
         h+=`<tr><td>${d.grouped?`${fmt(x-.5)} ≤ x < ${fmt(x+.5)}`:x}</td><td>${d.f[i]}</td>${columns.map(c=>`<td class="${revealed.has(c)?'revealed':'blank'}">${revealed.has(c)?fmt(values[c]):'…'}</td>`).join('')}</tr>`;
@@ -357,8 +357,134 @@
     // The standard O / Escape shortcuts open the same map as the touch button.
     Reveal.on('overviewshown',()=>{Reveal.toggleOverview(false);open();});
   }
+  function revealPanel(m){
+    const button=$(m,'.toggle-panel'),label=button.textContent;let shown=false;
+    button.addEventListener('click',()=>{shown=!shown;$$(m,'.panel-answer').forEach(el=>el.hidden=!shown);button.setAttribute('aria-pressed',String(shown));button.textContent=shown?label.replace('Show','Hide'):label;});
+  }
+  function tableBuilder(m){
+    const d=datasets[m.dataset.set],n=sum(d.f),cf=cumulative(d.f),rows=d.values.length;
+    const stages=m.dataset.stages.split(','),complete=(m.dataset.complete||'').split(',').filter(Boolean);
+    const names={cf:'Cumulative frequency',rf:'Relative frequency',crf:'Cumulative relative frequency',fx:'Product'};
+    let step=0;const last=stages.length*rows;
+    m.innerHTML='<div class="step-status"></div><div class="table-wrap"></div><div class="builder-controls toolbar"><button class="build-back">← Back</button><button class="build-next primary">Next entry</button><button class="build-column">Complete column</button><button class="build-reset">Reset</button></div><div class="step-explanation" aria-live="polite"></div><div class="table-mean"></div>';
+    const draw=()=>{
+      const count=Object.fromEntries(complete.map(c=>[c,rows]));
+      stages.forEach((c,i)=>count[c]=Math.max(0,Math.min(rows,step-i*rows)));
+      const active=step?stages[Math.floor((step-1)/rows)]:null,ri=step?(step-1)%rows:-1;
+      const columns=['fx','cf','rf','crf'].filter(c=>count[c]>0);
+      const header=c=>`${math(c)}<small>${names[c]}</small>`;
+      let h=`<table><thead><tr><th>${math('x')}<small>Number of pets</small></th><th>${math('f')}<small>Frequency</small></th>${columns.map(c=>`<th>${header(c)}</th>`).join('')}</tr></thead><tbody>`;
+      d.values.forEach((x,i)=>{
+        const prefix=(active==='cf'||active==='crf')&&i<=ri,one=(active==='rf'||active==='fx')&&i===ri;
+        const values={fx:x*d.f[i],cf:cf[i],rf:(d.f[i]/n).toFixed(2),crf:(cf[i]/n).toFixed(2)};
+        h+=`<tr><td class="${i===ri?'current-value':''}">${x}</td><td class="${prefix||one?'input-highlight':''}">${d.f[i]}</td>${columns.map(c=>`<td data-column="${c}" class="${i===ri&&c===active?'current-cell':''}">${i<count[c]?values[c]:'…'}</td>`).join('')}</tr>`;
+      });
+      h+=`</tbody><tfoot><tr><td>Total</td><td>${n}</td>${columns.map(c=>`<td>${c==='fx'?(count.fx===rows?sum(d.values.map((x,i)=>x*d.f[i])):'…'):c==='rf'?(count.rf===rows?'1.00':'…'):'—'}</td>`).join('')}</tr></tfoot></table>`;
+      $(m,'.table-wrap').innerHTML=h;
+      $(m,'.step-status').textContent=active?`${names[active]} · entry ${ri+1} of ${rows}`:'Start with the value and its frequency';
+      let explanation='Predict the next entry, then reveal its calculation.';
+      if(active){
+        const x=d.values[ri],f=d.f[ri],c=cf[ri];let equation,meaning;
+        if(active==='cf'){equation=`${d.f.slice(0,ri+1).join('+')}=${c}`;meaning=`${c} of the ${n} households have at most ${x} ${x===1?'pet':'pets'}.`;}
+        if(active==='rf'){equation=`\\frac{${f}}{${n}}=${(f/n).toFixed(2)}`;meaning=`${Math.round(f/n*100)}% of households have exactly ${x} ${x===1?'pet':'pets'}.`;}
+        if(active==='crf'){equation=`\\frac{${c}}{${n}}=${(c/n).toFixed(2)}`;meaning=`${Math.round(c/n*100)}% of households have at most ${x} ${x===1?'pet':'pets'}.`;}
+        if(active==='fx'){equation=`${f}\\times ${x}=${f*x}`;meaning=`${f} ${f===1?'household':'households'} with ${x} ${x===1?'pet':'pets'} each ${f===1?'contributes':'contribute'} ${f*x} pets in total.`;}
+        explanation=`<div>${math(equation)}</div><p>${meaning}</p>`;
+      }
+      $(m,'.step-explanation').innerHTML=explanation;
+      $(m,'.table-mean').innerHTML=stages.includes('fx')&&step===last?math('\\bar{x}=\\frac{\\sum fx}{\\sum f}=\\frac{56}{50}=1.12')+' pets per household':'';
+      $(m,'.build-back').disabled=step===0;$(m,'.build-next').disabled=step===last;$(m,'.build-column').disabled=step===last;
+      $(m,'.build-next').innerHTML=step===last?'Table complete':step%rows===0?`Build ${math(stages[Math.floor(step/rows)])}`:'Next entry';
+      m.dataset.step=step;typeset(m);
+    };
+    $(m,'.build-next').onclick=()=>{step=Math.min(last,step+1);draw();};
+    $(m,'.build-back').onclick=()=>{step=Math.max(0,step-1);draw();};
+    $(m,'.build-column').onclick=()=>{step=Math.min(last,(Math.floor(step/rows)+1)*rows);draw();};
+    $(m,'.build-reset').onclick=()=>{step=0;draw();};draw();
+  }
+  function statLocator(m){
+    const d=datasets[m.dataset.set],cf=cumulative(d.f),n=sum(d.f);let chosen='';
+    m.innerHTML='<div class="table-wrap"></div><div class="toolbar"><button data-stat="mode">Mode</button><button data-stat="range">Range</button><button data-stat="median">Median</button><button data-stat="quartiles">Quartiles and IQR</button><button class="stat-reset">Reset</button></div><div class="stat-working" aria-live="polite"></div>';
+    const rowFor=p=>cf.findIndex(c=>c>=p);
+    const draw=()=>{
+      let selected=[],working='Choose a statistic. Which rows or ordered positions matter?';
+      if(chosen==='mode'){selected=[d.f.indexOf(Math.max(...d.f))];working=`The greatest frequency is 20, belonging to ${math('x=1')}. <strong>Mode = 1 pet.</strong>`;}
+      if(chosen==='range'){selected=[0,d.values.length-1];working=`Maximum − minimum: ${math('4-0=4')}. <strong>Range = 4 pets.</strong>`;}
+      if(chosen==='median'){selected=[rowFor(n/2),rowFor(n/2+1)];working=`${math('n=50')}: locate observations <strong>25 and 26</strong>. Both are in positions 16–35, where ${math('x=1')}.<br>${math('\\mathrm{Median}=\\frac{1+1}{2}=1')}`;}
+      if(chosen==='quartiles'){selected=[rowFor(13),rowFor(38)];working=`The lower half has median at position <strong>13</strong>; the upper half at position <strong>38</strong>.<br>${math('Q_1=0,\\quad Q_3=2,\\quad \\mathrm{IQR}=2-0=2')}`;}
+      $(m,'.table-wrap').innerHTML='<table><thead><tr><th>'+math('x')+'</th><th>'+math('f')+'</th><th>'+math('cf')+'</th><th>Positions in the ordered data</th></tr></thead><tbody>'+d.values.map((x,i)=>`<tr class="${selected.includes(i)?'stat-active':''}"><td>${x}</td><td>${d.f[i]}</td><td>${cf[i]}</td><td>${(cf[i]-d.f[i]+1)===cf[i]?cf[i]:`${cf[i]-d.f[i]+1}–${cf[i]}`}</td></tr>`).join('')+'</tbody></table>';
+      $(m,'.stat-working').innerHTML=working;$$(m,'[data-stat]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.stat===chosen)));typeset(m);
+    };
+    $$(m,'[data-stat]').forEach(b=>b.onclick=()=>{chosen=b.dataset.stat;draw();});$(m,'.stat-reset').onclick=()=>{chosen='';draw();};draw();
+  }
+  function histogramFeatures(m){
+    let continuous=false;
+    m.innerHTML='<div class="toolbar"><button data-kind="discrete" aria-pressed="true">Discrete integer data</button><button data-kind="continuous" aria-pressed="false">Continuous data</button></div><div class="feature-plot"></div><div class="feature-caption" aria-live="polite"></div>';
+    const draw=()=>{
+      const f=[2,5,4,1],L=100,R=850,T=32,B=305,xmax=continuous?4.5:5,sx=x=>L+x/xmax*(R-L),sy=y=>B-y/6*(B-T);
+      let g='';for(let y=0;y<=6;y++)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-18,sy(y)+7,y,'text-anchor="end"');
+      f.forEach((v,i)=>{const left=continuous?i:i+.5,right=left+1;g+=`<rect x="${sx(left)}" y="${sy(v)}" width="${sx(right)-sx(left)}" height="${B-sy(v)}" fill="#007f78" fill-opacity=".7" stroke="white" stroke-width="2"/>`;});
+      g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="2" fill="none"/>`;
+      for(let x=0;x<=4;x++)g+=`<line x1="${sx(x)}" y1="${B}" x2="${sx(x)}" y2="${B+7}" stroke="#152e3b"/>`+text(sx(x),B+30,x,'text-anchor="middle"');
+      g+=text(27,(T+B)/2,'Frequency',`transform="rotate(-90 27 ${(T+B)/2})" text-anchor="middle" font-size="26"`);
+      g+=text((L+R)/2,392,continuous?'Time (seconds)':'Number of items','text-anchor="middle" font-size="26"');
+      if(!continuous){
+        g+=`<path d="M${sx(0)} 348v12H${sx(.5)}v-12" fill="none" stroke="#b55224" stroke-width="3"/>`+text(sx(0),390,'½-column gap','font-size="20" fill="#b55224"');
+        g+=text(sx(2),28,'Values at bar centres','text-anchor="middle" font-size="23" fill="#3b66a8"');
+        g+=`<line x1="${sx(2)}" y1="40" x2="${sx(2)}" y2="${B}" stroke="#3b66a8" stroke-dasharray="7 5" stroke-width="2"/>`;
+      }else{
+        [1,2].forEach(x=>g+=`<line x1="${sx(x)}" y1="38" x2="${sx(x)}" y2="${B}" stroke="#3b66a8" stroke-dasharray="7 5" stroke-width="2"/>`);
+        g+=text(sx(1.5),27,'Class: 1 ≤ t < 2','text-anchor="middle" font-size="23" fill="#3b66a8"');
+      }
+      $(m,'.feature-plot').innerHTML=makeSvg(g,continuous?'Continuous histogram with values at the class boundaries':'Discrete histogram with centred integer values and half-column leading gap',420);
+      $(m,'.feature-caption').innerHTML=continuous?'The labels mark <strong>lower and upper class boundaries</strong>. Here the first class starts at 0.':'The integer labels sit at <strong>bar centres</strong>. The half-column gap is before the first bar; adjacent bars touch.';
+      $$(m,'[data-kind]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.kind==='continuous')===continuous)));
+    };
+    $$(m,'[data-kind]').forEach(b=>b.onclick=()=>{continuous=b.dataset.kind==='continuous';draw();});draw();
+  }
+  function ogive(m){
+    const d=datasets[m.dataset.set],n=sum(d.f);let width=1,built=0,points=false,joined=false,median=false,selected=-1;
+    m.innerHTML='<div class="ogive-controls toolbar"><button class="ogive-next primary">Next bar</button><button class="ogive-all">Show all bars</button><button class="ogive-points" aria-pressed="false">Show points</button><button class="ogive-join" aria-pressed="false">Join ogive</button><button class="ogive-median" aria-pressed="false">Median guides</button><label>Class width <select class="ogive-width"><option value="1">1</option><option value="2">2</option></select></label><button class="ogive-reset">Reset</button></div><div class="ogive-layout"><div class="ogive-table"></div><div class="ogive-plot"></div></div><div class="ogive-reading" aria-live="polite"></div>';
+    const draw=()=>{
+      const bins=binData(d,width),cf=cumulative(bins.map(b=>b.f));built=Math.min(built,bins.length);
+      const middle=[n/2,n/2+1],middleRows=middle.map(p=>cf.findIndex(c=>c>=p));
+      let h='<table><thead><tr><th>'+(width===1?'Score':'Scores')+'</th><th>'+math('f')+'</th><th>'+math('cf')+'</th></tr></thead><tbody>';
+      bins.forEach((b,i)=>h+=`<tr class="${i===selected?'ogive-selected':''} ${median&&middleRows.includes(i)?'median-row':''}"><td><button class="ogive-row" data-row="${i}" aria-pressed="${i===selected}">${width===1?d.values[i]:`${b.left+.5}–${b.right-.5}`}</button></td><td>${b.f}</td><td>${cf[i]}</td></tr>`);
+      $(m,'.ogive-table').innerHTML=h+'</tbody></table>';
+      const L=83,R=835,T=28,B=350,sx=x=>L+(x-.5)/10*(R-L),sy=y=>B-y/n*(B-T);
+      let g='';for(let y=0;y<=n;y+=10)g+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-14,sy(y)+7,y,'text-anchor="end"');
+      bins.slice(0,built).forEach((b,i)=>{g+=`<rect class="ogive-bar" data-row="${i}" x="${sx(b.left)}" y="${sy(cf[i])}" width="${sx(b.right)-sx(b.left)}" height="${B-sy(cf[i])}" fill="${median&&middleRows.includes(i)?'#b55224':i===selected?'#3b66a8':'#007f78'}" fill-opacity=".48" stroke="white" stroke-width="2"><title>${cf[i]} observations up to ${b.right-.5}</title></rect>`;});
+      g+=`<path d="M${L} ${T}V${B}H${R}" stroke="#152e3b" stroke-width="2" fill="none"/>`;
+      const edges=[bins[0].left,...bins.map(b=>b.right)];edges.forEach(x=>g+=text(sx(x),B+29,fmt(x),'text-anchor="middle" font-size="20"'));
+      g+=text((L+R)/2,417,'Score (class boundaries)','text-anchor="middle" font-size="25"')+text(22,(T+B)/2,'Cumulative frequency',`transform="rotate(-90 22 ${(T+B)/2})" text-anchor="middle" font-size="23"`);
+      const coords=[[bins[0].left,0],...bins.map((b,i)=>[b.right,cf[i]])];
+      if(joined)g+=`<polyline points="${coords.map(([x,y])=>`${sx(x)},${sy(y)}`).join(' ')}" stroke="#3b66a8" stroke-width="3" fill="none"/>`;
+      if(points)coords.forEach(([x,y])=>g+=`<circle cx="${sx(x)}" cy="${sy(y)}" r="5" fill="#3b66a8"/>`);
+      let reading='Build the running totals. Select a table row or bar to interpret it.';
+      if(selected>=0){const b=bins[selected],prior=selected?cf[selected-1]:0;reading=`${cf[selected]} students scored at most ${b.right-.5}. This row contains observations ${prior+1}–${cf[selected]}.`;}
+      if(median){
+        const i=cf.findIndex(c=>c>=n/2),prior=i?cf[i-1]:0,estimate=bins[i].left+(n/2-prior)/bins[i].f*width;
+        g+=`<path d="M${L} ${sy(n/2)}H${sx(estimate)}V${B}" stroke="#b55224" stroke-width="3" stroke-dasharray="8 5" fill="none"/>`+text(L+8,sy(n/2)-12,'20 = 50% of 40','font-size="22" fill="#b55224"');
+        g+=`<circle cx="${sx(estimate)}" cy="${sy(n/2)}" r="6" fill="#b55224"/>`;
+        reading=width===1?`<strong>Exact median:</strong> observations 20 and 21 are both 6 (positions 16–23). ${math('\\mathrm{Median}=6')}. <strong>Ogive estimate:</strong> ${math('\\approx 6.1')}.`:`<strong>Grouped table:</strong> observations 20 and 21 lie in the 5–6 group. The exact median cannot be recovered from these groups alone. <strong>Ogive estimate:</strong> ${math('\\approx 6.07')}.`;
+      }
+      $(m,'.ogive-plot').innerHTML=makeSvg(g,'Cumulative frequency histogram and optional upper-boundary ogive for 40 quiz scores',440);
+      $(m,'.ogive-reading').innerHTML=reading;
+      $(m,'.ogive-next').disabled=built===bins.length;$(m,'.ogive-all').disabled=built===bins.length;
+      [['points',points],['join',joined],['median',median]].forEach(([name,on])=>$(m,`.ogive-${name}`).setAttribute('aria-pressed',String(on)));
+      m.dataset.built=built;m.dataset.width=width;m.dataset.median=String(median);
+      $$(m,'[data-row]').forEach(el=>el.onclick=()=>{selected=Number(el.dataset.row);built=Math.max(built,selected+1);draw();});typeset(m);
+    };
+    $(m,'.ogive-next').onclick=()=>{selected=built;built++;draw();};
+    $(m,'.ogive-all').onclick=()=>{built=binData(d,width).length;selected=-1;draw();};
+    $(m,'.ogive-points').onclick=()=>{points=!points;if(!points){joined=false;median=false;}else built=binData(d,width).length;draw();};
+    $(m,'.ogive-join').onclick=()=>{joined=!joined;if(joined){points=true;built=binData(d,width).length;}else median=false;draw();};
+    $(m,'.ogive-median').onclick=()=>{median=!median;if(median){points=true;joined=true;built=binData(d,width).length;selected=-1;}draw();};
+    $(m,'.ogive-width').onchange=e=>{width=Number(e.target.value);built=0;points=false;joined=false;median=false;selected=-1;draw();};
+    $(m,'.ogive-reset').onclick=()=>{width=1;built=0;points=false;joined=false;median=false;selected=-1;$(m,'.ogive-width').value='1';draw();};draw();
+  }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,ogive};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

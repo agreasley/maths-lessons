@@ -1,16 +1,19 @@
-## Choose the representation for the question {#l2-recap }
+## Choose the column that answers the question {#l2-recap .compact}
 
 | Need to find… | Use… |
 |:---|:---|
-| The proportion with one value | Relative frequency |
-| The proportion at or below a value | Cumulative relative frequency |
-| The most frequent value | Ordinary-frequency table or graph |
-| The middle observation(s) | Ordered data or cumulative counts |
+| Total number of observations | $n=\sum f$ |
+| Mean | $\bar{x}=\dfrac{\sum fx}{\sum f}$ |
+| Mode; range | Largest $f$; maximum observed $x$ minus minimum observed $x$ |
+| Median | $cf$ to locate the middle observation(s), then read their $x$-values |
+| Proportion with exactly one value | $rf=f/n$ |
+| Count; proportion at or below a value | $cf$; $crf=cf/n$ |
+| Quartiles; IQR | Ordered positions or calculator; $Q_3-Q_1$ |
 
 ::: {.takeaway}
-State the event or statistic before choosing a column or graph.
+Cumulative means **counted so far**. Check calculator entries using $n$.
 :::
 
 ::: notes
-Final check: Why is the tallest cumulative bar not a way to identify the mode? Answer: cumulative bars are running totals; the last bar normally reaches the full sample size.
+Return to the success criterion: explain the columns and find/check statistics. Exit prompts: What does a cumulative frequency of35 atx=1 mean? Why can we not use the tallest cumulative bar to identify the mode? Why might an ogive estimate differ from the exact median in a discrete table? Answers:35 observations at or below1; cumulative bars are running totals; joining upper-boundary points interpolates within a bin.
 :::

@@ -3,23 +3,31 @@ aliases:
   - "/year-11/probability-data/lesson-2.html"
 pagetitle: "Lesson 2 — Organising and displaying data"
 lesson-title: "Organising and displaying data"
-description: "Connect frequency tables, histograms and polygons. Use cumulative frequency to locate the median."
+description: "Build and interpret frequency tables, calculate summary statistics and use calculator statistics. Connect cumulative frequency to the median and ogive."
 lesson-order: 2
-booklet: "Sections 3.2–3.3 · Examples 3.4–3.11"
+booklet: "Sections 3.2–3.3 · Examples 3.4–3.6, 3.8–3.11"
 homework: 15B
 ---
 
 {{< include lesson-2/_opening.qmd >}}
 
-{{< include lesson-2/_four-columns.qmd >}}
+{{< include lesson-2/_learning-goal.qmd >}}
+
+{{< include lesson-2/_statistics-reminder.qmd >}}
 
 {{< include lesson-2/_example-3-4-table.qmd >}}
+
+{{< include lesson-2/_mean-from-table.qmd >}}
+
+{{< include lesson-2/_four-columns.qmd >}}
+
+{{< include lesson-2/_statistics-from-table.qmd >}}
+
+{{< include lesson-2/_calculator.qmd >}}
 
 {{< include lesson-2/_example-3-4-events.qmd >}}
 
 {{< include lesson-2/_example-3-5.qmd >}}
-
-{{< include lesson-2/_events.qmd >}}
 
 {{< include lesson-2/_hinge.qmd >}}
 
@@ -28,10 +36,6 @@ homework: 15B
 {{< include lesson-2/_example-3-6.qmd >}}
 
 {{< include lesson-2/_change-the-scale.qmd >}}
-
-{{< include lesson-2/_example-3-7-setup.qmd >}}
-
-{{< include lesson-2/_example-3-7-graphs.qmd >}}
 
 {{< include lesson-2/_example-3-8.qmd >}}
 
@@ -42,8 +46,6 @@ homework: 15B
 {{< include lesson-2/_example-3-9-table.qmd >}}
 
 {{< include lesson-2/_example-3-9-graph.qmd >}}
-
-{{< include lesson-2/_median-mode.qmd >}}
 
 {{< include lesson-2/_example-3-10.qmd >}}
 

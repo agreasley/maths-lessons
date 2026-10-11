@@ -1,0 +1,11 @@
+## Add a column · calculate the mean {#l2-mean-from-table .compact .table-builder-slide}
+
+```{=html}
+<div data-module="table-builder" data-set="pets" data-stages="fx" data-complete="cf,rf,crf" class="progressive-table"></div>
+```
+
+<p class="small-note">The frequency counts households. The product <span data-math="fx">fx</span> counts their pets.</p>
+
+::: notes
+Insert fx immediately after f. Build the products 0,20,20,12,4 one row at a time, then reveal the mean using the totals. Four households with three pets contribute 4×3=12 pets. Total pets=56; total households=50; mean=56/50=1.12 pets per household. An average need not be a possible value of the discrete variable. Do not average the five x-values without weighting them by frequency. Previously completed cf, rf and crf remain visible.
+:::

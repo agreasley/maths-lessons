@@ -1,4 +1,4 @@
-## Example 3.5 · Number of siblings {#l2-example-3-5 .compact}
+## Example 3.5 · Number of siblings {#l2-example-3-5 .compact .frequency-practice}
 
 ```{=html}
 <div data-module="table" data-set="siblings" data-columns="rf,cf,crf" data-hide-total="true"></div>

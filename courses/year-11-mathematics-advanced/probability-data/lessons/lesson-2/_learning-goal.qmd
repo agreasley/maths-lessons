@@ -1,0 +1,15 @@
+## Today’s learning {#l2-learning-goal}
+
+### Lesson objective
+Read and extend frequency tables, interpret cumulative frequency, and calculate summary statistics using tables and a calculator.
+
+### Success criterion
+I can explain what each column represents and use the table and calculator to find and check summary statistics.
+
+::: {.takeaway}
+Cumulative frequency tells us **how many observations we have counted so far**.
+:::
+
+::: notes
+This is an Extension 1 class revisiting familiar summary statistics. Keep the reminder brief and focus teaching time on meaning, efficient calculation, calculator use and interpreting cumulative graphs.
+:::

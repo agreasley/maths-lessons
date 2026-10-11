@@ -1,15 +1,18 @@
-## Example 3.9 · Read and regroup {#l2-example-3-9-graph .compact}
+## Example 3.9 · Read and regroup {#l2-example-3-9-graph .compact .ogive-slide}
 
 ```{=html}
-<div data-module="chart" data-set="quiz" data-modes="cumulative" data-group="true" data-reveal="true"></div>
+<div data-module="ogive" data-set="quiz" class="ogive-explorer"></div>
 ```
 
-
-c) Use the table to find the median.
-d) Use the graph to identify the median and compare with part (c).
-e) Group the scores into five classes of width 2. Comment on any loss of precision.
-<p class="booklet-cue">Booklet p. 45 · Example 3.9 · Complete the working in your booklet.</p>
+```{=html}
+<p class="source-task">c) Use the table to find the median.<br>d) Use the graph to identify the median and compare with part (c).<br>e) Group the scores into five classes of width 2. Comment on any loss of precision.</p>
+<p class="booklet-cue">Booklet p. 45 · Example 3.9</p>
+```
 
 ::: notes
-Exact median6: both the20th and21st observations lie among the sixes (cf15 before6; cf23 at6). Straight-line interpolation on an upper-boundary polygon gives only an estimate (about6.1 here), not an exact replacement for the ordered-data calculation. Width2 groups scores1–2,3–4,5–6,7–8,9–10, with edges0.5,2.5,...,10.5; f6,3,14,13,4; cf6,9,23,36,40. The median lies in the5–6 group; grouping loses the exact within-class values. Use this to discuss why the graph and table can differ slightly.
+Use Next bar to build running totals, then Show all bars. Tap any bar (or choose its row) to link the count to the highlighted table entries. Show points places cumulative counts at upper boundaries with a zero starting point at the first lower boundary. Join ogive adds straight segments. Median guides marks cf20 and the two middle observation positions20 and21 in the table.
+
+Exact median6: both the20th and21st observations are6 because cf15 before6 and cf23 at6. The upper-boundary ogive at cf20 gives5.5+(20−15)/8=6.125, approximately6.1. This is an interpolated estimate, not a replacement for the exact discrete median. The50% guide is half the cumulative total; for an exact even-sample median still check both middle observations.
+
+Select class width2 for boundaries0.5,2.5,4.5,6.5,8.5,10.5. Grouped frequencies6,3,14,13,4; cumulative6,9,23,36,40. The middle observations lie in the5–6 group. From the grouped table alone the exact median cannot be recovered; do not use class centre5.5 as an exact median. Linear interpolation gives approximately6.07. Regrouping clears the guides and rebuilds the graph from the new table. Reset returns to width1 with answers, points and guides hidden.
 :::

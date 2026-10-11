@@ -1,0 +1,9 @@
+## Find the statistic without expanding the data {#l2-statistics-from-table .compact}
+
+```{=html}
+<div data-module="stat-locator" data-set="pets" class="stat-locator"></div>
+```
+
+::: notes
+Use the controls to link each statistic to the relevant rows. Mode=1, not its frequency20. Range=4−0=4. For the median, n=50 so the middle positions are25 and26; both occur in the row x=1, whose positions are16–35. Median=1. For quartiles, the lower-half median is position13 and the upper-half median position38, giving Q1=0 and Q3=2. IQR=2. Cumulative frequency tells us the position of the last observation in each row. Ordinal position and data value are different quantities.
+:::

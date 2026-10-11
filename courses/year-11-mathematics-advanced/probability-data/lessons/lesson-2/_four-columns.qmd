@@ -1,17 +1,18 @@
-## Four columns, four questions {#l2-four-columns }
+## Six columns, six meanings {#l2-four-columns .compact}
 
-| Column | Question it answers |
+| Column | What it represents |
 |:---|:---|
-| Frequency, $f$ | How many have this value? |
-| Relative frequency, $f/n$ | What proportion have this value? |
-| Cumulative frequency, $cf$ | How many are at or below this value? |
-| Cumulative relative frequency, $cf/n$ | What proportion are at or below this value? |
+| Value, $x$ | The number of pets in a household |
+| Frequency, $f$ | How many households have exactly this value |
+| Product, $fx$ | The total number of pets contributed by those households |
+| Cumulative frequency, $cf$ | How many households have this value or a smaller one |
+| Relative frequency, $rf=f/n$ | The proportion with exactly this value |
+| Cumulative relative frequency, $crf=cf/n$ | The proportion with this value or a smaller one |
 
 ::: {.takeaway}
-Order the values first. The final cumulative frequency is $n$; the final cumulative relative frequency is $1$.
+Order the values first. The final $cf$ is $n$; the final $crf$ is $1$.
 :::
-<p class="booklet-cue">Booklet p. 38 · Complete the working in your booklet.</p>
 
 ::: notes
-For grouped intervals the running total at an upper boundary means values below that boundary under the stated a ≤ x < b convention. Avoid changing < into ≤ for a genuinely continuous boundary.
+Use the shared Example3.4 dataset to connect every symbol to a meaning. Atx=1, f=20, fx=20, cf=35, rf=.40 and crf=.70. Equal-looking entries need not count the same thing: f counts households, while fx counts pets. For grouped intervals the running total at an upper boundary means values below that boundary under the stated a≤x<b convention.
 :::

@@ -1,4 +1,4 @@
-## Measurement or a fixed scale? {#l1-precision }
+## Rounding - Discrete or Continuous {#l1-precision }
 
 **Define the variable before deciding.**
 

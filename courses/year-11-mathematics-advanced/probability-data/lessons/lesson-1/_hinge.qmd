@@ -3,7 +3,7 @@
 ```{=html}
 <div data-module="hinge" data-correct="3" class="hinge reciprocal-hinge">
 <p class="hinge-question">A coin is tossed until the first head appears. For a completed trial, let <span data-math="N">N</span> be the number of tosses, and define <span data-math="X=\dfrac{1}{N}">X = 1/N</span>. Which statement is correct?</p>
-<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:30</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option>60</option><option selected>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:30</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option selected>30</option><option>45</option><option>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
 <div class="choices">
 <button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span><span data-math="X">X</span> is continuous because infinitely many values are possible.</span></button>
 <button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span><span data-math="X">X</span> is continuous because it can take any real value between <span data-math="0">0</span> and <span data-math="1">1</span>.</span></button>

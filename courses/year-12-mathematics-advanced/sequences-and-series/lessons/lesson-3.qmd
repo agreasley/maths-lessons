@@ -1,0 +1,52 @@
+---
+pagetitle: "Lesson 3 — Arithmetic sequences and the general term"
+lesson-title: "Arithmetic sequences and the general term"
+description: "Connect constant differences with recursive rules, general terms and linear graphs, then solve arithmetic-sequence problems."
+lesson-order: 3
+booklet: "Section 3 · Examples 3.1–3.10 · pp. 10–18"
+homework: "3 · Exercises 1B and 1D"
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_objective.qmd >}}
+
+{{< include lesson-3/_patterns.qmd >}}
+
+{{< include lesson-3/_definition.qmd >}}
+
+{{< include lesson-3/_example-3-1.qmd >}}
+
+{{< include lesson-3/_example-3-2.qmd >}}
+
+{{< include lesson-3/_example-3-3.qmd >}}
+
+{{< include lesson-3/_general-term.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_example-3-4-a.qmd >}}
+
+{{< include lesson-3/_graph.qmd >}}
+
+{{< include lesson-3/_example-3-4-b.qmd >}}
+
+{{< include lesson-3/_example-3-4-c.qmd >}}
+
+{{< include lesson-3/_example-3-5.qmd >}}
+
+{{< include lesson-3/_example-3-6.qmd >}}
+
+{{< include lesson-3/_example-3-7.qmd >}}
+
+{{< include lesson-3/_example-3-8.qmd >}}
+
+{{< include lesson-3/_example-3-9-a.qmd >}}
+
+{{< include lesson-3/_example-3-9-b.qmd >}}
+
+{{< include lesson-3/_example-3-10.qmd >}}
+
+{{< include lesson-3/_key-ideas.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

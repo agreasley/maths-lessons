@@ -1,0 +1,18 @@
+## Example 3.9 · (a) {#ss3-example-3-9-a .ap-lesson}
+
+The third term of an arithmetic series is $23$ and the eighth term is $63$.
+
+a\) Find the first term and the common difference of this series.
+
+::: {.fragment data-fragment-index="0"}
+$$a+2d=23\qquad a+7d=63$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 17 · Example 3.9(a)</p>
+
+::: notes
+
+Preserve source wording. Invite students to translate both term statements before Next reveals the simultaneous equations. Subtract to obtain 5d=40, hence d=8 and a=7. Equivalently, there are 8−3=5 increments between known terms, so d=(63−23)/(8−3)=8. This connects with the hinge. The values 23 and 63 are term values, not partial sums.
+
+:::

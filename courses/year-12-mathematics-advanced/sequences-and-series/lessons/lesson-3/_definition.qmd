@@ -1,0 +1,31 @@
+## Arithmetic sequences {#ss3-definition .ap-lesson}
+
+An **arithmetic sequence**, or **arithmetic progression (AP)**, has the same difference between every pair of consecutive terms.
+
+$$a_n-a_{n-1}=d\qquad(n\ge2)$$
+
+::: {.split}
+::: {.column-block}
+<h3>First term</h3>
+
+$$a_1=a$$
+
+:::
+::: {.column-block}
+<h3>Recursive rule</h3>
+
+$$a_n=a_{n-1}+d\quad(n\ge2)$$
+
+:::
+
+:::
+
+$$d>0:\ \text{increasing}\qquad d<0:\ \text{decreasing}\qquad d=0:\ \text{constant}$$
+
+<p class="booklet-cue">Booklet pp. 10–11 · Arithmetic progression and common difference</p>
+
+::: notes
+
+Use later term minus earlier term consistently. The common difference d is any real constant, including zero or a negative value. The formula applies for every permitted n≥2; for a finite AP it stops at the final index.
+
+:::

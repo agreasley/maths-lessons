@@ -1,0 +1,20 @@
+## Example 3.4 · (b)(iii–iv) {#ss3-example-3-4-c .ap-lesson}
+
+b\) Now consider an arithmetic sequence with $a=20$ and $d=-3$:
+
+<div class="ap-subparts"><p><span class="ap-part-label">iii)</span> Identify the gradient <span data-math="m">m</span> of <span data-math="y=f(x)">y = f(x)</span>. How does the gradient of the line relate to the common difference <span data-math="d">d</span>?</p><p><span class="ap-part-label">iv)</span> How would the graph differ for a constant sequence where <span data-math="d=0">d = 0</span> (e.g., <span data-math="a_n=7">aₙ = 7</span>)?</p></div>
+
+::: {.takeaway .fragment data-fragment-index="0"}
+$$a_n=dn+(a-d)\qquad f(x)=dx+(a-d)\qquad m=d$$
+
+:::
+
+<p class="booklet-cue">Booklet pp. 13–14 · Example 3.4(b)(iii–iv)</p>
+
+::: notes
+
+\(iii) m=−3=d. An increase of 1 in the index changes the term by d.
+\(iv) The sequence consists of discrete points (n,7) for positive integer n. The generating line is horizontal, y=7, with gradient 0. Return to the graph’s Constant preset if useful. Next reveals the general linear connection after discussion. The first term a=f(1) and the line intercept a−d=f(0) differ unless d=0.
+Natural stopping point if teaching over two periods. Resume with Example 3.5 and a quick verbal reminder of a_n=a+(n−1)d.
+
+:::

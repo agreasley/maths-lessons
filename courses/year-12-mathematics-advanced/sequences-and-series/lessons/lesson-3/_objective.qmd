@@ -1,0 +1,15 @@
+## Today's learning {#ss3-objective .ap-lesson}
+
+### Lesson objective
+
+Understand how a constant difference connects an arithmetic sequence's recursive rule, general term and graph.
+
+### Success criteria
+
+I can identify arithmetic sequences and use their general term to find terms, test membership and solve problems.
+
+::: notes
+
+Students already know sequence notation, recursive rules and partial sums. The opening revisits these ideas through differences; no additional function-notation recap is needed.
+
+:::

@@ -1,0 +1,16 @@
+## Example 3.4 · (b)(i–ii) {#ss3-example-3-4-b .ap-lesson}
+
+b\) Now consider an arithmetic sequence with $a=20$ and $d=-3$:
+
+<div class="ap-subparts"><p><span class="ap-part-label">i)</span> Write out the first five terms and deduce an expression for the general term <span data-math="a_n">aₙ</span>.</p><p><span class="ap-part-label">ii)</span> Complete the table below for <span data-math="(n,a_n)">(n, aₙ)</span> and sketch the corresponding continuous linear function <span data-math="y=f(x)">y = f(x)</span>:</p></div>
+
+<table class="ap-blank-table"><tbody><tr><th><span data-math="n">n</span></th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><th><span data-math="a_n">aₙ</span></th><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table>
+
+<p class="booklet-cue">Booklet pp. 13–14 · Example 3.4(b)(i–ii)</p>
+
+::: notes
+
+\(i) 20,17,14,11,8. a_n=20−3(n−1)=23−3n.
+\(ii) The table entries are 20,17,14,11,8. Draw y=23−3x with intercept 23 and gradient −3. Show the sequence as discrete points at n=1,2,…, and the corresponding continuous generating function as the line requested by the booklet. Leave screen table blank while students work; the decreasing preset on the graph slide provides a check.
+
+:::

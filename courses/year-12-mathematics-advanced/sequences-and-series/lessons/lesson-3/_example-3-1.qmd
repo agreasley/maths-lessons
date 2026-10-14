@@ -1,0 +1,16 @@
+## Example 3.1 {#ss3-example-3-1 .ap-lesson}
+
+a\) Write down the first term $a$ and the common difference $d$ for each of the following arithmetic progressions:
+
+<div class="ap-subparts"><p><span class="ap-part-label">i)</span> <span data-math="4,6,8,10,\ldots">4, 6, 8, 10, …</span></p><p><span class="ap-part-label">ii)</span> <span data-math="21,18,15,12,\ldots">21, 18, 15, 12, …</span></p><p><span class="ap-part-label">iii)</span> <span data-math="\sqrt3,\sqrt{12},\sqrt{27},\ldots">√3, √12, √27, …</span></p></div>
+
+b\) Suggest how the common difference could be found when given any two successive terms.
+
+<p class="booklet-cue">Booklet p. 10 · Example 3.1</p>
+
+::: notes
+
+\(a)(i) a=4,d=2. (ii) a=21,d=−3. (iii) Simplify √12=2√3 and √27=3√3, so a=√3,d=√3. A common difference need not be an integer.
+\(b) Subtract the earlier term from the later term: d=a_n−a_(n−1). Keep the source wording and numbering. Students record working in the booklet.
+
+:::

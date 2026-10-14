@@ -716,8 +716,52 @@
     $(m,'.sigma-count').onclick=()=>{revealed=!revealed;draw();};
     $(m,'.sigma-reset').onclick=()=>{first=3;last=7;revealed=false;draw();};draw();
   }
+  function arithmeticGraph(m){
+    let first=2,difference=5,lineVisible=false;
+    m.innerHTML=`<div class="ap-controls"><label>First term ${math('a')} <output class="ap-first-value"></output><input class="ap-first" type="range" min="-10" max="30" step="1" value="2" aria-label="First term a"></label><label>Common difference ${math('d')} <output class="ap-difference-value"></output><input class="ap-difference" type="range" min="-6" max="6" step="1" value="5" aria-label="Common difference d"></label><button class="ap-line-toggle primary" aria-pressed="false">Show generating line</button><button class="ap-reset">Reset</button></div><div class="ap-presets"><span>Try:</span><button data-ap-preset="increasing">Increasing</button><button data-ap-preset="decreasing">Decreasing</button><button data-ap-preset="constant">Constant</button></div><div class="ap-graph-layout"><div class="ap-plot-wrap"><div class="ap-plot"></div><span class="ap-axis-horizontal"></span><span class="ap-axis-vertical"></span><p class="ap-plot-caption">Eight sequence terms shown; the first term is blue.</p></div><div class="ap-graph-summary" aria-live="polite"><div class="ap-sequence-rule"></div><div class="ap-first-term"></div><div class="ap-line-summary" hidden></div></div></div>`;
+    const linear=(variable)=>{
+      const intercept=first-difference;
+      if(difference===0)return String(first);
+      const coefficient=difference===1?'':difference===-1?'-':String(difference);
+      return coefficient+variable+(intercept===0?'':(intercept>0?'+':'-')+Math.abs(intercept));
+    };
+    const draw=()=>{
+      $(m,'.ap-first').value=String(first);$(m,'.ap-difference').value=String(difference);
+      $(m,'.ap-first-value').innerHTML=math(String(first));$(m,'.ap-difference-value').innerHTML=math(String(difference));
+      const rule=difference===0?String(first):`${first}${difference<0?'-':'+'}${Math.abs(difference)}(n-1)`;
+      $(m,'.ap-sequence-rule').innerHTML='<h3>Sequence rule</h3>'+math(`a_n=${rule}`);
+      $(m,'.ap-first-term').innerHTML='<h3>First term</h3>'+math(`a_1=${first}`);
+      $(m,'.ap-line-summary').hidden=!lineVisible;
+      $(m,'.ap-line-summary').innerHTML='<h3>Generating line</h3>'+math(`y=${linear('x')}`)+'<p>'+math(`m=d=${difference}`)+'</p><h3>Line intercept</h3>'+math(`f(0)=a-d=${first-difference}`);
+      $(m,'.ap-line-toggle').textContent=lineVisible?'Hide generating line':'Show generating line';
+      $(m,'.ap-line-toggle').setAttribute('aria-pressed',String(lineVisible));
+      $(m,'.ap-axis-horizontal').innerHTML=math(lineVisible?'x':'n');
+      $(m,'.ap-axis-vertical').innerHTML=math(lineVisible?'y':'a_n');
+      const L=70,R=780,T=25,B=330,sx=x=>L+x/8.5*(R-L),sy=y=>B-(y+60)/140*(B-T);
+      let body='';
+      for(let y=-60;y<=80;y+=20)body+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-12,sy(y)+7,String(y),'text-anchor="end" font-size="21"');
+      for(let n=1;n<=8;n++)body+=`<line x1="${sx(n)}" y1="${T}" x2="${sx(n)}" y2="${B}" stroke="#e8e7df"/>`+text(sx(n),B+29,String(n),'text-anchor="middle" font-size="21"');
+      body+=text(L,B+29,'0','text-anchor="middle" font-size="21"');
+      body+=`<path d="M${L} ${T}V${B}M${L} ${sy(0)}H${R}" fill="none" stroke="#152e3b" stroke-width="2"/>`;
+      if(lineVisible){
+        body+=`<line class="ap-generating-line" x1="${sx(0)}" y1="${sy(first-difference)}" x2="${sx(8.5)}" y2="${sy(first+7.5*difference)}" stroke="#b55224" stroke-width="3"/><circle class="ap-intercept" cx="${sx(0)}" cy="${sy(first-difference)}" r="6" fill="#f7f5ef" stroke="#b55224" stroke-width="3"><title>Line intercept: (0, ${first-difference}); not a sequence term</title></circle>`;
+      }
+      const values=Array.from({length:8},(_,i)=>first+i*difference);
+      values.forEach((value,i)=>{body+=`<circle class="ap-term-point" data-index="${i+1}" data-value="${value}" cx="${sx(i+1)}" cy="${sy(value)}" r="${i===0?7:6}" fill="${i===0?'#3b66a8':'#007f78'}" stroke="#f7f5ef" stroke-width="2"><title>Term ${i+1}: ${value}</title></circle>`;});
+      $(m,'.ap-plot').innerHTML=makeSvg(body,`First eight terms: ${values.join(', ')}. Common difference ${difference}. ${lineVisible?'Generating line and its intercept shown.':'Generating line hidden.'}`,390,820);
+      m.dataset.first=String(first);m.dataset.difference=String(difference);m.dataset.lineVisible=String(lineVisible);m.dataset.intercept=String(first-difference);
+      typeset(m);
+    };
+    $(m,'.ap-first').addEventListener('input',e=>{first=Number(e.target.value);draw();});
+    $(m,'.ap-difference').addEventListener('input',e=>{difference=Number(e.target.value);draw();});
+    $(m,'.ap-line-toggle').onclick=()=>{lineVisible=!lineVisible;draw();};
+    $(m,'.ap-reset').onclick=()=>{first=2;difference=5;lineVisible=false;draw();};
+    $$(m,'[data-ap-preset]').forEach(button=>button.onclick=()=>{
+      [first,difference]=({increasing:[2,5],decreasing:[20,-3],constant:[7,0]})[button.dataset.apPreset];draw();
+    });draw();
+  }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

@@ -1,0 +1,13 @@
+## Example 3.8 {#ss3-example-3-8 .ap-lesson}
+
+<div class="eyebrow">Advanced HSC 2023 Q11 · 2 marks</div>
+
+The first three terms of an arithmetic sequence are $3$, $7$ and $11$. Find the 15th term.
+
+<p class="booklet-cue">Booklet p. 16 · Example 3.8</p>
+
+::: notes
+
+Source attribution is reproduced from the supplied booklet; the examination paper has not been independently checked. a=3,d=4, so a_15=3+14(4)=59. Use as a short independent attempt; a clear substitution and result show the method.
+
+:::

@@ -98,3 +98,35 @@
 .reveal .unrolling-step{border-top:1px solid var(--rule);margin-top:22px;padding-top:14px}
 .reveal .unrolling-step h3{font-size:25px;margin:0 0 10px;color:var(--teal)}
 .reveal .unrolling-step .small-note{font-size:24px;margin:18px 0 0}
+/* Lesson 3: arithmetic sequences, constant differences and linear graphs. */
+.reveal .ap-cover .cover-title{font-size:70px;max-width:1110px}
+.reveal .ap-lesson .ap-subparts{margin:22px 0 22px 28px}
+.reveal .ap-lesson .ap-subparts p{font-size:29px;margin:23px 0}
+.reveal .ap-pattern-table{font-size:31px;margin:26px 0}
+.reveal .ap-pattern-table td{padding:18px 12px}
+.reveal .ap-pattern-table th{font-size:23px}
+.reveal .ap-derivation{font-size:30px;margin:16px 0}
+.reveal .ap-derivation td{text-align:left;padding:14px 20px;width:50%}
+.reveal .ap-proof-note{border-left:5px solid var(--teal);padding:14px 20px;font-size:25px;line-height:1.5;margin:16px 0 28px}
+.reveal .ap-blank-table{font-size:28px;margin:30px 0}
+.reveal .ap-blank-table td,.reveal .ap-blank-table th{height:48px}
+.reveal .ap-key-ideas .series-summary-row .katex-display{font-size:28px}
+.reveal .ap-key-ideas>p:not(.booklet-cue){font-size:25px;margin-top:24px}
+.reveal .ap-hinge .choice{min-height:92px;font-size:32px}
+.reveal .ap-graph-slide>p{font-size:27px;margin:12px 0 17px}
+.reveal .ap-controls{display:flex;gap:14px;align-items:center;margin:12px 0}
+.reveal .ap-controls label{display:grid;grid-template-columns:auto auto 1fr;column-gap:8px;align-items:center;font-size:21px;width:310px}
+.reveal .ap-controls output{text-align:right;min-width:35px}
+.reveal .ap-controls input[type=range]{grid-column:1/-1;min-height:56px;margin:0;width:100%;box-sizing:border-box}
+.reveal .arithmetic-graph button{min-height:56px;white-space:nowrap}
+.reveal .ap-presets{display:flex;align-items:center;gap:12px;margin:5px 0 18px;font-size:23px}
+.reveal .ap-graph-layout{display:grid;grid-template-columns:minmax(0,820px) minmax(0,1fr);gap:24px}
+.reveal .ap-plot-wrap{position:relative}
+.reveal .ap-plot .chart-svg{width:100%;height:390px;overflow:visible}
+.reveal .ap-axis-horizontal{position:absolute;right:14px;top:337px;font-size:25px}
+.reveal .ap-axis-vertical{position:absolute;left:-8px;top:0;font-size:24px}
+.reveal .ap-plot-caption{font-size:21px;color:var(--muted);margin:0 0 6px}
+.reveal .ap-graph-summary{font-size:27px;padding:0 0 0 10px}
+.reveal .ap-graph-summary h3{font-size:23px;color:var(--teal);margin:7px 0 11px}
+.reveal .ap-first-term,.reveal .ap-line-summary{margin-top:24px}
+.reveal .ap-line-summary p{font-size:24px;margin:14px 0 22px}

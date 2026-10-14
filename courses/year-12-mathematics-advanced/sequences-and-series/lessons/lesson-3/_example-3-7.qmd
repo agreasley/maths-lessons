@@ -1,0 +1,11 @@
+## Example 3.7 {#ss3-example-3-7 .ap-lesson}
+
+Is $-18$ a term in the series $26+23+20+\ldots$?
+
+<p class="booklet-cue">Booklet p. 16 · Example 3.7</p>
+
+::: notes
+
+Preserve the source wording. a_n=26−3(n−1)=29−3n. Solving 29−3n=−18 gives n=47/3, not a positive integer. Therefore −18 is not a term. Nearby terms a_15=−16 and a_16=−19 reinforce that the continuous generating line passes through −18 between allowed inputs. Do not round n to make a value a term.
+
+:::

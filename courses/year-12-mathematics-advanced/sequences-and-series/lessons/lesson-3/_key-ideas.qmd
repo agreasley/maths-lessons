@@ -1,0 +1,32 @@
+## Key ideas {#ss3-key-ideas .ap-lesson .ap-key-ideas}
+
+::: {.series-summary-row}
+<h3>Constant difference and recursive rule</h3>
+
+$$a_n-a_{n-1}=d\qquad a_1=a,\quad a_n=a_{n-1}+d\quad(n\ge2)$$
+
+:::
+
+::: {.series-summary-row}
+<h3>General term</h3>
+
+$$a_n=a+(n-1)d\qquad n\in\{1,2,3,\ldots\}$$
+
+:::
+
+::: {.series-summary-row}
+<h3>Generating line</h3>
+
+$$f(x)=dx+(a-d)\qquad m=d\qquad f(1)=a$$
+
+:::
+
+For a finite sequence, restrict $n$ to its stated domain.
+
+<p class="booklet-cue">Booklet p. 18 · Complete your Key Ideas box</p>
+
+::: notes
+
+Use these equations to complete the booklet’s Key Ideas box. Point out that the first term is f(1), while the generating line’s intercept is f(0)=a−d. A membership calculation must produce an integer within the allowed domain. The arithmetic partial-sum formula is not introduced in this lesson.
+
+:::

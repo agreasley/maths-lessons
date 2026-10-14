@@ -1,0 +1,15 @@
+## Example 3.5 {#ss3-example-3-5 .ap-lesson}
+
+Consider the sequence $200,193,186,\ldots$.
+
+<div class="ap-subparts"><p><span class="ap-part-label">a)</span> Show that the sequence is arithmetic.</p><p><span class="ap-part-label">b)</span> Find an expression for the <span data-math="n">n</span>th term.</p><p><span class="ap-part-label">c)</span> Which term is the first negative term of the sequence?</p></div>
+
+<p class="booklet-cue">Booklet p. 15 · Example 3.5</p>
+
+::: notes
+
+\(a) The displayed differences are −7. The intended continuation is arithmetic with a=200,d=−7; as in Example 3.2, finite-prefix checks alone do not establish an unspecified infinite rule.
+\(b) a_n=200−7(n−1)=207−7n.
+\(c) 207−7n<0 gives n>207/7=29 4/7. The smallest permitted integer is n=30. Check a_29=4≥0 and a_30=−3<0. It is the 30th term; −3 is the value. Do not round to a nearby term without applying the strict inequality.
+
+:::

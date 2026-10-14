@@ -1,0 +1,18 @@
+## Example 3.10 {#ss3-example-3-10 .ap-lesson}
+
+How many multiples of $7$ lie between $1000$ and $10\,000$?
+
+::: {.fragment data-fragment-index="0"}
+$$1000<7k<10\,000\qquad k\in\mathbb{Z}$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 18 · Example 3.10</p>
+
+::: notes
+
+Let students choose a method before revealing the integer-index inequality.
+Method 1: 142 6/7<k<1428 4/7, so k=143,144,…,1428. Count 1428−143+1=1286, recalling Lesson 2.
+Method 2: First multiple 1001=7(143), last 9996=7(1428), difference 7. Solve 9996=1001+(n−1)7: n−1=1285, n=1286. Neither endpoint is a multiple of 7, so the answer is the same for inclusive or strict interpretations of “between”. Emphasise selecting integer endpoints before counting.
+
+:::

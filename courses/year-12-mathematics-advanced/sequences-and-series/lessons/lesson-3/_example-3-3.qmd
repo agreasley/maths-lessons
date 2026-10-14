@@ -1,0 +1,22 @@
+## Example 3.3 {#ss3-example-3-3 .ap-lesson}
+
+Consider an arithmetic sequence with first term equal to $a$ and common difference equal to $d$.
+
+a\) Write an expression for the:
+
+<table class="ap-derivation"><tbody>
+<tr><td><span>i)</span> first term;</td><td><span class="fragment" data-fragment-index="0" data-math="a_1=\textcolor{#3b66a8}{a}">a₁ = a</span></td></tr>
+<tr><td><span>ii)</span> second term;</td><td><span class="fragment" data-fragment-index="1" data-math="a_2=\textcolor{#3b66a8}{a}+\textcolor{#b55224}{d}">a₂ = a + d</span></td></tr>
+<tr><td><span>iii)</span> third term;</td><td><span class="fragment" data-fragment-index="2" data-math="a_3=\textcolor{#3b66a8}{a}+\textcolor{#b55224}{2d}">a₃ = a + 2d</span></td></tr>
+<tr><td><span>iv)</span> fourth term;</td><td><span class="fragment" data-fragment-index="3" data-math="a_4=\textcolor{#3b66a8}{a}+\textcolor{#b55224}{3d}">a₄ = a + 3d</span></td></tr>
+</tbody></table>
+
+b\) Deduce an expression for the $n$th term of this arithmetic sequence.
+
+<p class="booklet-cue">Booklet p. 12 · Example 3.3</p>
+
+::: notes
+
+Keep all question text visible. Reveal each expression separately after students contribute. Blue is the starting term and orange is the accumulated change. Ask how many additions are needed to reach term n. The next slide formalises part (b).
+
+:::

@@ -1,0 +1,15 @@
+## Homework 3 {#ss3-homework .ap-lesson}
+
+<div class="eyebrow">Cambridge Year 12</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Exercise 1B Q1–4 (alternate parts)</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Exercise 1B Q1–6 (alternate parts)</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Exercise 1B Q1–6 (alternate parts);<br>Exercise 1D Q1, Q5, Q7(a,b)</span></div>
+
+<p class="booklet-cue">Booklet p. 18 · Homework 3</p>
+
+::: notes
+
+Copied from Homework 3 in the supplied booklet and its front summary. Keep allocations unchanged. The textbook edition has not been independently checked. If teaching across two periods, retain this homework endpoint after all of Section 3.
+
+:::

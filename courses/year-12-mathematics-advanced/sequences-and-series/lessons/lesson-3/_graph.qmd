@@ -1,0 +1,13 @@
+## Arithmetic sequences and their graphs {#ss3-graph .ap-lesson .ap-graph-slide}
+
+What changes when we change the first term or the common difference?
+
+<div data-module="arithmetic-graph" class="arithmetic-graph" aria-label="Explore an arithmetic sequence and its generating line"></div>
+
+::: notes
+
+Default a=2,d=5, matching Example 3.4(a). The first eight terms appear as separate points. The blue point is the first term at n=1. Change a while holding d fixed, then change d while holding a fixed. Keep the vertical scale fixed so changes in gradient are comparable.
+Show generating line reveals the orange continuous line, its equation, gradient and an open marker at the y-intercept (0,a−d). The intercept marker is not a sequence term. The view shows a segment of the generating line, which continues beyond the window. Presets: Increasing (2,5), Decreasing (20,−3), Constant (7,0). Presets and sliders preserve line visibility; Reset returns to (2,5) and hides the line. Values range a=−10…30,d=−6…6, with eight displayed positive integer inputs.
+Use the decreasing and constant presets as previews, then let students complete the following booklet subparts. Students can revisit this slide with Previous or the slide map; activity state is preserved.
+
+:::

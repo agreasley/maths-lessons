@@ -181,3 +181,76 @@ Cambridge Year 12 Exercise 1E, copied from the booklet's front summary and page 
 ### Sources and scope
 
 The source booklet is `12MA__2026____Sequences_and_Series.pdf`, Section 2. The reference deck is `Series and Sigma Notation.pptx`: old Examples 1.6–1.9 correspond exactly to booklet Examples 2.1–2.4. Keep the current booklet's numbering, wording, subparts, bounds and values. Unlike the old deck's broad “finite series” wording, explicitly distinguish the nth partial sum from the corresponding infinite series, following the supplied syllabus notes. Formal arithmetic/geometric sum formulas and limiting sums belong to later lessons.
+
+## Lesson 3: Arithmetic sequences and the general term
+
+Section 3, printed pages 10–18, Examples 3.1–3.10 and Homework 3. Twenty-two slides. Allow approximately 75–90 minutes including booklet working, or use two periods with a natural pause after slide 13 (Example 3.4). The objective is to understand how a constant difference connects the recursive rule, general term and graph. The success criterion is to identify APs and use their general term to find terms, test membership and solve problems.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–3 | Cover, learning goal and constant-difference opening | 4 minutes |
+| 4–6 | Definition and Examples 3.1–3.2 | 12 minutes |
+| 7–8 | Example 3.3 and the general term | 7 minutes |
+| 9 | Hinge, response and discussion | 4 minutes |
+| 10–13 | Example 3.4 and interactive graph | 16 minutes |
+| 14 | Example 3.5, first negative term | 7 minutes |
+| 15–17 | Examples 3.6–3.8, terms and membership | 10 minutes |
+| 18–19 | Example 3.9, two known terms | 8 minutes |
+| 20 | Example 3.10, multiples and inclusive counting | 6 minutes |
+| 21–22 | Key ideas and homework | 3 minutes |
+
+Keep the worked examples in the booklet/OneNote. Source questions retain their wording, values, example numbers and subparts. In particular, retain “series” in Examples 3.6, 3.7 and 3.9, while explaining verbally that these questions concern terms of the underlying sequence. Do not introduce the arithmetic partial-sum formulas yet.
+
+### Interactions and reveals
+
+- **Opening:** Brief think–pair discussion of four finite lists. Next reveals their consecutive differences together; Next then highlights that a constant difference may be positive, negative or zero. A visible prefix alone does not determine a unique infinite continuation.
+- **Example 3.3:** Four clicks reveal a, a+d, a+2d, a+3d. Blue identifies the first term and orange the accumulated change. Keep the question text visible throughout.
+- **General term:** Collect a proposed rule, then reveal a_n=a+(n−1)d; reveal checks at n=1 and n=4; finally state the index domain. There are n−1 increments from term 1 to term n.
+- **Graph:** Starts at a=2,d=5 with eight discrete points, n=1,…,8. The first point is blue. Sliders change a (−10 to 30) and d (−6 to 6), in integer steps. A fixed vertical scale from −60 to 80 keeps gradient changes comparable. “Show generating line” reveals the continuous orange line, y=dx+(a−d), gradient d and an open marker at the line intercept. That marker is not a sequence term. The visible segment represents a line continuing beyond the plot window. Presets are Increasing (2,5), Decreasing (20,−3), Constant (7,0). Sliders/presets preserve the current reveal state; Reset returns to (2,5) and hides the line. Navigation and the slide map preserve the activity state.
+- **Example 3.4(b)(iii–iv):** Reveal the general linear relationship after students discuss the gradient and constant sequence. Pause here if using two periods.
+- **Example 3.9(a):** Reveal a+2d=23 and a+7d=63 only after students translate the known terms.
+- **Example 3.10:** Optionally reveal 1000<7k<10000, k integer, after students propose a counting method. Connect the inclusive index count with Lesson 2.
+
+### Hinge and response routine
+
+Given a_4=11 and common difference 3, find a_10. Default timer 60 seconds. Fist on chest, think quietly, then show 1–4 fingers together on the teacher’s verbal cue. The answer is revealed separately; expiry does not reveal it.
+
+1. 26: adds five increments instead of six.
+2. **29: correct.** a_10=a_4+(10−4)d=11+6(3)=29.
+3. 38: treats the fourth term as the first term and adds nine increments.
+4. 41: adds ten increments, ignoring the given term’s index.
+
+Ready: request a second method using a=2. Divided: list indices 4 through 10, count the six transitions, and re-poll. Reteach: advance one term at a time before compressing the repeated addition.
+
+### Worked checks
+
+| Example | Working and answer |
+|---|---|
+| 3.1(a) | (i) a=4,d=2; (ii) a=21,d=−3; (iii) √12=2√3, √27=3√3, hence a=d=√3. |
+| 3.1(b) | d=a_n−a_(n−1): later term minus earlier term. |
+| 3.2 | Displayed differences are −1/3; intended next term is −1/2. See proof qualification below. |
+| 3.3 | a, a+d, a+2d, a+3d; general term a_n=a+(n−1)d. |
+| 3.4(a) | 2,7,12,17,22; a_20=97; f(x)=5x−3, m=5. |
+| 3.4(b) | 20,17,14,11,8; a_n=23−3n, f(x)=23−3x; m=d=−3. For d=0,a_n=7, discrete points lie on y=7, with m=0. |
+| 3.5 | a=200,d=−7; a_n=207−7n. Negativity requires n>207/7, so first negative term is a_30=−3; check a_29=4. |
+| 3.6 | a_17=11+16(5)=91. |
+| 3.7 | a_n=29−3n. Setting equal to −18 gives n=47/3, so −18 is not a term. Adjacent terms: a_15=−16, a_16=−19. |
+| 3.8 | a_15=3+14(4)=59. |
+| 3.9 | a+2d=23, a+7d=63 gives d=8,a=7. a_30=7+29(8)=239. |
+| 3.10 | First and last multiples are 1001 and 9996, indexed by 143 and 1428. Count 1428−143+1=1286. Equivalently 9996=1001+(n−1)7 gives n=1286. |
+
+**Proof qualification:** The booklet correctly distinguishes an all-terms proof from checking a finite prefix. Examples 3.2 and 3.5 nevertheless ask whether a sequence specified only by initial terms and an ellipsis is arithmetic. Preserve their wording and explain the intended constant-difference continuation. A full proof needs a defined rule: for 3.2, a_n=1/2−(n−1)/3 gives a_n−a_(n−1)=−1/3 for every n≥2. Do not repeat the old presentation’s claim that two matching differences prove any unspecified infinite sequence is arithmetic.
+
+### Homework 3
+
+- Mild: Cambridge Year 12 Exercise 1B Q1–4 (alternate parts).
+- Medium: Cambridge Year 12 Exercise 1B Q1–6 (alternate parts).
+- Spicy: Cambridge Year 12 Exercise 1B Q1–6 (alternate parts); Exercise 1D Q1, Q5, Q7(a,b).
+
+These are the supplied booklet’s references, unchanged. The textbook edition was not independently verified.
+
+### Source mapping
+
+The source is `12MA__2026____Sequences_and_Series.pdf`, Section 3. `Arithmetic Progression.pptx` supplies the introductory ideas and old Examples 2.1, 2.3, 2.4, 2.5 corresponding to current Examples 3.1, 3.3, 3.4 and 3.5. `Further Arithmetic Progression.pptx` supplies old Examples 2.6–2.9 corresponding to current Examples 3.6, 3.7, 3.9 and 3.10. Use the current booklet’s expanded graph subparts in 3.4 and its additional Examples 3.2 and 3.8. The “Advanced HSC 2023 Q11 – 2 marks” attribution for 3.8 comes from the supplied booklet; the original paper has not been independently checked.

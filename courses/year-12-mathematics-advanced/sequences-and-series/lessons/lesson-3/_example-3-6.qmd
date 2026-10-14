@@ -1,0 +1,11 @@
+## Example 3.6 {#ss3-example-3-6 .ap-lesson}
+
+Find the seventeenth term in the series $11+16+21+\ldots$
+
+<p class="booklet-cue">Booklet p. 15 · Example 3.6</p>
+
+::: notes
+
+Preserve the booklet’s use of “series”. The question asks for a term of its underlying sequence, not a partial sum. a=11,d=5 gives a_17=11+16(5)=91. Ask which quantity is being requested before substituting.
+
+:::

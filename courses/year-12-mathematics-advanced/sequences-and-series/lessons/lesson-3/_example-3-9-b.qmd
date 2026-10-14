@@ -1,0 +1,13 @@
+## Example 3.9 · (b) {#ss3-example-3-9-b .ap-lesson}
+
+The third term of an arithmetic series is $23$ and the eighth term is $63$.
+
+b\) Deduce the thirtieth term of this series.
+
+<p class="booklet-cue">Booklet p. 17 · Example 3.9(b)</p>
+
+::: notes
+
+Using a=7,d=8 from part (a), a_30=7+29(8)=239. Alternatively a_30=a_8+(30−8)d=63+22(8)=239. Retain all source information so the slide is self-contained.
+
+:::

@@ -1,0 +1,21 @@
+## What stays the same? {#ss3-patterns .ap-lesson}
+
+Which lists have equal differences between consecutive terms?
+
+<table class="ap-pattern-table"><thead><tr><th>Displayed terms</th><th>Consecutive differences</th></tr></thead><tbody>
+<tr><td><span data-math="5,8,11,14">5, 8, 11, 14</span></td><td><span class="fragment" data-fragment-index="0" data-math="+3,\ +3,\ +3">+3, +3, +3</span></td></tr>
+<tr><td><span data-math="20,17,14,11">20, 17, 14, 11</span></td><td><span class="fragment" data-fragment-index="0" data-math="-3,\ -3,\ -3">−3, −3, −3</span></td></tr>
+<tr><td><span data-math="7,7,7,7">7, 7, 7, 7</span></td><td><span class="fragment" data-fragment-index="0" data-math="0,\ 0,\ 0">0, 0, 0</span></td></tr>
+<tr><td><span data-math="2,4,8,16">2, 4, 8, 16</span></td><td><span class="fragment" data-fragment-index="0" data-math="2,\ 4,\ 8">2, 4, 8</span></td></tr>
+</tbody></table>
+
+::: {.takeaway .fragment data-fragment-index="1"}
+The constant difference can be positive, negative or zero.
+
+:::
+
+::: notes
+
+Think quietly, then compare with a partner: what is the same within each row, and what differs between rows? Next reveals all difference lists. Next reveals the observation. For the finite lists shown, the first three are arithmetic and the fourth is not. Continuing the first three using the displayed constant differences defines corresponding infinite APs. The fourth has a different kind of pattern; do not describe every patterned sequence as arithmetic.
+
+:::

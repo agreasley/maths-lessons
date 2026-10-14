@@ -5,7 +5,7 @@ Starting at term $1$, reaching term $n$ takes $n-1$ additions of $d$.
 ::: {.split .ap-formula-layout}
 ::: {.column-block}
 ::: {.takeaway .fragment data-fragment-index="0"}
-$$a_n=\textcolor{#3b66a8}{a}+\textcolor{#b55224}{(n-1)d}\qquad(n\ge1)$$
+$$a_n=\textcolor{#3b66a8}{a}+(n-1)\textcolor{#b55224}{d}\qquad(n\ge1)$$
 
 :::
 

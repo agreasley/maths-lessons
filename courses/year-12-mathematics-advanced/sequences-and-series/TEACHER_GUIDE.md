@@ -184,30 +184,33 @@ The source booklet is `12MA__2026____Sequences_and_Series.pdf`, Section 2. The r
 
 ## Lesson 3: Arithmetic sequences and the general term
 
-Section 3, printed pages 10–18, Examples 3.1–3.10 and Homework 3. Twenty-two slides. Allow approximately 75–90 minutes including booklet working, or use two periods with a natural pause after slide 13 (Example 3.4). The objective is to understand how a constant difference connects the recursive rule, general term and graph. The success criterion is to identify APs and use their general term to find terms, test membership and solve problems.
+Section 3, printed pages 10–18, Examples 3.1–3.10 and Homework 3. Twenty-three slides. Allow approximately 75–90 minutes including booklet working, or use two periods with a natural pause after slide 14 (Example 3.4). The objective is to understand how a constant difference connects the recursive rule, general term and graph. The success criterion is to identify APs and use their general term to find terms, test membership and solve problems.
 
 ### Sequence and pacing
 
 | Slides | Content | Approximate time |
 |---|---|---|
-| 1–3 | Cover, learning goal and constant-difference opening | 4 minutes |
-| 4–6 | Definition and Examples 3.1–3.2 | 12 minutes |
-| 7–8 | Example 3.3 and the general term | 7 minutes |
-| 9 | Hinge, response and discussion | 4 minutes |
-| 10–13 | Example 3.4 and interactive graph | 16 minutes |
-| 14 | Example 3.5, first negative term | 7 minutes |
-| 15–17 | Examples 3.6–3.8, terms and membership | 10 minutes |
-| 18–19 | Example 3.9, two known terms | 8 minutes |
-| 20 | Example 3.10, multiples and inclusive counting | 6 minutes |
-| 21–22 | Key ideas and homework | 3 minutes |
+| 1–3 | Cover, learning goal and Claim–Support–Question | 5 minutes |
+| 4–5 | Plain-language definition, examples/non-examples and Example 3.1 | 6 minutes |
+| 6–7 | Recursive rule, proof test and Example 3.2 | 7 minutes |
+| 8–9 | Example 3.3, general term and HSC reference-sheet excerpt | 7 minutes |
+| 10 | Hinge, response and discussion | 4 minutes |
+| 11–14 | Example 3.4 and interactive graph | 16 minutes |
+| 15 | Example 3.5, first negative term | 7 minutes |
+| 16–18 | Examples 3.6–3.8, terms and membership | 10 minutes |
+| 19–20 | Example 3.9, two known terms | 8 minutes |
+| 21 | Example 3.10, multiples and inclusive counting | 6 minutes |
+| 22–23 | Key ideas and homework | 3 minutes |
 
 Keep the worked examples in the booklet/OneNote. Source questions retain their wording, values, example numbers and subparts. In particular, retain “series” in Examples 3.6, 3.7 and 3.9, while explaining verbally that these questions concern terms of the underlying sequence. Do not introduce the arithmetic partial-sum formulas yet.
 
 ### Interactions and reveals
 
-- **Opening:** Brief think–pair discussion of four finite lists. Next reveals their consecutive differences together; Next then highlights that a constant difference may be positive, negative or zero. A visible prefix alone does not determine a unique infinite continuation.
+- **Opening:** Use Claim–Support–Question with the four finite lists. Students choose an odd one out and support their choice with mathematical evidence. Accept multiple justified choices: 1 increases by a constant amount, 2 decreases, 3 is constant, and 4 has unequal consecutive differences. First click introduces Question so partners can question one another's claims or evidence. For example, ask whether zero counts as a constant difference. Second click asks what 1, 2 and 3 share that 4 does not. This is an open reasoning routine, not a single-answer multiple-choice check. Allow about 3 minutes.
+- **Examples and non-examples:** Introduce the plain-language AP definition and the name common difference. Compare the three arithmetic lists with doubling, squares and alternating signs. First click reveals all consecutive differences; second click states that the common difference may be positive, negative or zero. Follow with Example 3.1.
+- **Recursive rule and proof:** Initially show only a_1=a and a_n=a_(n−1)+d for n≥2. First click introduces the all-terms proof test a_n−a_(n−1)=d. Second click specialises to three terms, a_3−a_2=a_2−a_1. Follow immediately with Example 3.2. A check of three displayed terms alone does not establish an unspecified infinite continuation.
 - **Example 3.3:** Four clicks reveal a, a+d, a+2d, a+3d. Blue identifies the first term and orange the accumulated change. Keep the question text visible throughout.
-- **General term:** Collect a proposed rule, then reveal a_n=a+(n−1)d; reveal checks at n=1 and n=4; finally state the index domain. There are n−1 increments from term 1 to term n.
+- **General term:** Collect a proposed rule, then reveal a_n=a+(n−1)d alongside the teacher-supplied HSC reference-sheet excerpt. The red box marks the first formula under Sequences and series. Next reveal checks at n=1 and n=4; finally state the index domain. There are n−1 increments from term 1 to term n. The original slide 8 is now slide 9. The other formulas in the excerpt will be studied in later lessons.
 - **Graph:** Starts at a=2,d=5 with eight discrete points, n=1,…,8. The first point is blue. Sliders change a (−10 to 30) and d (−6 to 6), in integer steps. A fixed vertical scale from −60 to 80 keeps gradient changes comparable. “Show generating line” reveals the continuous orange line, y=dx+(a−d), gradient d and an open marker at the line intercept. That marker is not a sequence term. The visible segment represents a line continuing beyond the plot window. Presets are Increasing (2,5), Decreasing (20,−3), Constant (7,0). Sliders/presets preserve the current reveal state; Reset returns to (2,5) and hides the line. Navigation and the slide map preserve the activity state.
 - **Example 3.4(b)(iii–iv):** Reveal the general linear relationship after students discuss the gradient and constant sequence. Pause here if using two periods.
 - **Example 3.9(a):** Reveal a+2d=23 and a+7d=63 only after students translate the known terms.
@@ -254,3 +257,5 @@ These are the supplied booklet’s references, unchanged. The textbook edition w
 ### Source mapping
 
 The source is `12MA__2026____Sequences_and_Series.pdf`, Section 3. `Arithmetic Progression.pptx` supplies the introductory ideas and old Examples 2.1, 2.3, 2.4, 2.5 corresponding to current Examples 3.1, 3.3, 3.4 and 3.5. `Further Arithmetic Progression.pptx` supplies old Examples 2.6–2.9 corresponding to current Examples 3.6, 3.7, 3.9 and 3.10. Use the current booklet’s expanded graph subparts in 3.4 and its additional Examples 3.2 and 3.8. The “Advanced HSC 2023 Q11 – 2 marks” attribution for 3.8 comes from the supplied booklet; the original paper has not been independently checked.
+
+The opening adapts [Claim, Support, Question](https://www.pz.harvard.edu/resources/claim-support-question), developed by Project Zero, Harvard Graduate School of Education. The reference-sheet excerpt is the teacher's supplied screenshot, preserved unchanged as `media/hsc-reference-sheet-sequences.png`. [NESA's Mathematics Advanced 11–12 (2024) teaching and learning support page](https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/teaching-and-learning) lists the HSC reference sheet.

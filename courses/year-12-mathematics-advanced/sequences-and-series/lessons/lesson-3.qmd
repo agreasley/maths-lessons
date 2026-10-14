@@ -13,9 +13,11 @@ homework: "3 · Exercises 1B and 1D"
 
 {{< include lesson-3/_patterns.qmd >}}
 
-{{< include lesson-3/_definition.qmd >}}
+{{< include lesson-3/_examples-non-examples.qmd >}}
 
 {{< include lesson-3/_example-3-1.qmd >}}
+
+{{< include lesson-3/_definition.qmd >}}
 
 {{< include lesson-3/_example-3-2.qmd >}}
 

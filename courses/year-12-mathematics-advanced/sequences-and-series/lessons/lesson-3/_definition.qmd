@@ -1,31 +1,33 @@
-## Arithmetic sequences {#ss3-definition .ap-lesson}
+## Recursive rule and proof test {#ss3-definition .ap-lesson .ap-proof}
 
-An **arithmetic sequence**, or **arithmetic progression (AP)**, has the same difference between every pair of consecutive terms.
+For first term $a$ and common difference $d$, the **recursive rule** is
 
-$$a_n-a_{n-1}=d\qquad(n\ge2)$$
+$$a_1=a,\qquad a_n=a_{n-1}+d\quad(n\ge2).$$
 
-::: {.split}
-::: {.column-block}
-<h3>First term</h3>
+::: {.ap-proof-step .fragment data-fragment-index="0"}
+<h3>Proving a sequence is arithmetic</h3>
 
-$$a_1=a$$
+Show that the difference is the same constant for **every term after the first**:
 
-:::
-::: {.column-block}
-<h3>Recursive rule</h3>
-
-$$a_n=a_{n-1}+d\quad(n\ge2)$$
+$$a_n-a_{n-1}=d\qquad\text{for every }n\ge2\text{ in the sequence}.$$
 
 :::
 
+::: {.ap-proof-step .fragment data-fragment-index="1"}
+<h3>For three terms</h3>
+
+$$a_3-a_2=a_2-a_1$$
+
+The two consecutive differences must be equal.
+
 :::
 
-$$d>0:\ \text{increasing}\qquad d<0:\ \text{decreasing}\qquad d=0:\ \text{constant}$$
-
-<p class="booklet-cue">Booklet pp. 10–11 · Arithmetic progression and common difference</p>
+<p class="booklet-cue">Booklet p. 11 · Recursive rule and proof</p>
 
 ::: notes
 
-Use later term minus earlier term consistently. The common difference d is any real constant, including zero or a negative value. The formula applies for every permitted n≥2; for a finite AP it stops at the final index.
+Initially show only the recursive rule and its starting value. The same constant d applies at every step. First click introduces the proof test. Use later term minus earlier term consistently. For a finite sequence, test every index from 2 up to its final index. For an infinite sequence, establish the equality for arbitrary n≥2.
+
+Second click specialises the test to a sequence of exactly three terms: a_3−a_2=a_2−a_1. Checking this equality for the first three terms of a longer sequence establishes only that those three terms are in AP. The remaining differences must also be constant. Proceed immediately to Example 3.2.
 
 :::

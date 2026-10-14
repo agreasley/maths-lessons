@@ -1,7 +1,9 @@
-## The general term {#ss3-general-term .ap-lesson}
+## The general term {#ss3-general-term .ap-lesson .ap-formula-sheet}
 
 Starting at term $1$, reaching term $n$ takes $n-1$ additions of $d$.
 
+::: {.split .ap-formula-layout}
+::: {.column-block}
 ::: {.takeaway .fragment data-fragment-index="0"}
 $$a_n=\textcolor{#3b66a8}{a}+\textcolor{#b55224}{(n-1)d}\qquad(n\ge1)$$
 
@@ -21,10 +23,24 @@ For a finite sequence, stop at its final index.
 
 :::
 
+:::
+::: {.column-block .ap-reference-excerpt .fragment data-fragment-index="0"}
+<h3>HSC formula sheet</h3>
+
+<img src="../media/hsc-reference-sheet-sequences.png" alt="Sequences and series section of the HSC reference sheet. The first formula, a subscript n equals a plus n minus one times d, is outlined in red.">
+
+<p class="small-note">Sequences and series: the first formula.</p>
+
+:::
+
+:::
+
 <p class="booklet-cue">Booklet p. 12 · Complete the general-term result</p>
 
 ::: notes
 
 Collect the proposed formula before the first click. Emphasise n−1 as the number of increments, not merely a formula detail. The first-term check detects the incorrect a+nd. The next graph investigation connects the rule with a linear function, without extending the sequence domain to non-integers.
+
+The first click reveals the formula and the supplied HSC reference-sheet excerpt together. Point to the red box around the first formula under Sequences and series. The other formulas in the excerpt will be studied later. The image is the teacher-supplied screenshot, preserved unchanged. NESA's Mathematics Advanced 11–12 (2024) teaching and learning support page lists the HSC reference sheet: https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/teaching-and-learning
 
 :::

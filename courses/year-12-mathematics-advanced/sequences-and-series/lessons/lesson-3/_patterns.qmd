@@ -1,21 +1,33 @@
-## What stays the same? {#ss3-patterns .ap-lesson}
+## Which one doesn't belong? {#ss3-patterns .ap-lesson .ap-thinking}
 
-Which lists have equal differences between consecutive terms?
+<div class="ap-sequence-grid">
+<div><strong class="ap-choice-number">1</strong><span data-math="5,8,11,14">5, 8, 11, 14</span></div>
+<div><strong class="ap-choice-number">2</strong><span data-math="20,17,14,11">20, 17, 14, 11</span></div>
+<div><strong class="ap-choice-number">3</strong><span data-math="7,7,7,7">7, 7, 7, 7</span></div>
+<div><strong class="ap-choice-number">4</strong><span data-math="2,4,8,16">2, 4, 8, 16</span></div>
+</div>
 
-<table class="ap-pattern-table"><thead><tr><th>Displayed terms</th><th>Consecutive differences</th></tr></thead><tbody>
-<tr><td><span data-math="5,8,11,14">5, 8, 11, 14</span></td><td><span class="fragment" data-fragment-index="0" data-math="+3,\ +3,\ +3">+3, +3, +3</span></td></tr>
-<tr><td><span data-math="20,17,14,11">20, 17, 14, 11</span></td><td><span class="fragment" data-fragment-index="0" data-math="-3,\ -3,\ -3">−3, −3, −3</span></td></tr>
-<tr><td><span data-math="7,7,7,7">7, 7, 7, 7</span></td><td><span class="fragment" data-fragment-index="0" data-math="0,\ 0,\ 0">0, 0, 0</span></td></tr>
-<tr><td><span data-math="2,4,8,16">2, 4, 8, 16</span></td><td><span class="fragment" data-fragment-index="0" data-math="2,\ 4,\ 8">2, 4, 8</span></td></tr>
-</tbody></table>
+<div class="ap-thinking-prompts">
+<div><h3>Claim</h3><p>Choose a sequence that does not belong.</p></div>
+<div><h3>Support</h3><p>Give mathematical evidence for your choice.</p></div>
+<div class="fragment" data-fragment-index="0"><h3>Question</h3><p>What question could you ask about someone else's claim?</p></div>
+</div>
 
 ::: {.takeaway .fragment data-fragment-index="1"}
-The constant difference can be positive, negative or zero.
+What property do 1, 2 and 3 share that 4 does not?
 
 :::
 
 ::: notes
 
-Think quietly, then compare with a partner: what is the same within each row, and what differs between rows? Next reveals all difference lists. Next reveals the observation. For the finite lists shown, the first three are arithmetic and the fourth is not. Continuing the first three using the displayed constant differences defines corresponding infinite APs. The fourth has a different kind of pattern; do not describe every patterned sequence as arithmetic.
+Allow about 3 minutes. Give students 20–30 seconds to choose and prepare evidence, then invite several claims. This is an open discussion, not a single-answer quiz. Accept different mathematically supported criteria.
+
+Possible claims: 1 is the only list increasing by a constant amount. 2 is the only decreasing list. 3 is the only list with identical terms. 4 is the only list without a constant difference. Keep these possibilities in the notes so students produce their own arguments.
+
+First click introduces Question. Ask partners to question a claim or its evidence. For example, if someone excludes 3 because it does not change, ask whether zero can still be a constant difference. Avoid announcing the arithmetic definition until the discussion has occurred.
+
+Second click focuses the discussion on the shared property of 1, 2 and 3. Their consecutive differences are +3, −3 and 0 respectively. In 4 the differences are 2, 4 and 8. A finite prefix alone does not determine an infinite continuation.
+
+Routine adapted from Project Zero, Harvard Graduate School of Education, Claim, Support, Question: https://www.pz.harvard.edu/resources/claim-support-question
 
 :::

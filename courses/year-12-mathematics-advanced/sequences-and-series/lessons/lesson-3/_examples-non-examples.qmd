@@ -1,0 +1,33 @@
+## Arithmetic progressions {#ss3-examples-non-examples .ap-lesson .ap-classification}
+
+An **arithmetic sequence**, or **arithmetic progression (AP)**, has the same difference between every pair of consecutive terms.
+
+This constant difference is called the **common difference**.
+
+<div class="split ap-classification-columns">
+<div class="column-block">
+<h3>Examples</h3>
+<div class="ap-classification-row"><span data-math="5,8,11,14">5, 8, 11, 14</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="3,3,3">3, 3, 3</span></p></div>
+<div class="ap-classification-row"><span data-math="20,17,14,11">20, 17, 14, 11</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="-3,-3,-3">−3, −3, −3</span></p></div>
+<div class="ap-classification-row"><span data-math="7,7,7,7">7, 7, 7, 7</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="0,0,0">0, 0, 0</span></p></div>
+</div>
+<div class="column-block">
+<h3>Non-examples</h3>
+<div class="ap-classification-row"><span data-math="2,4,8,16">2, 4, 8, 16</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="2,4,8">2, 4, 8</span></p></div>
+<div class="ap-classification-row"><span data-math="1,4,9,16">1, 4, 9, 16</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="3,5,7">3, 5, 7</span></p></div>
+<div class="ap-classification-row"><span data-math="1,-1,1,-1">1, −1, 1, −1</span><p class="fragment" data-fragment-index="0">Differences: <span data-math="-2,2,-2">−2, 2, −2</span></p></div>
+</div>
+</div>
+
+::: {.takeaway .fragment data-fragment-index="1"}
+The common difference can be positive, negative or zero.
+
+:::
+
+::: notes
+
+Read the plain-language definition before introducing a symbolic rule. These are finite sequences. Ask students to explain each classification, then reveal the consecutive differences together. Always subtract the earlier term from the later term. The final click emphasises that decreasing and constant sequences can both be arithmetic.
+
+Each non-example still has a recognisable pattern. A repeated ratio, square numbers and alternating terms do not give a constant difference. Continue with Example 3.1 to identify the first term and common difference before formalising the recursive rule and proof test.
+
+:::

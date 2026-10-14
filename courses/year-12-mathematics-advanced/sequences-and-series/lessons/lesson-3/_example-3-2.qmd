@@ -1,7 +1,5 @@
 ## Example 3.2 · Checking differences {#ss3-example-3-2 .ap-lesson}
 
-<div class="ap-proof-note">For an entire sequence: <span data-math="a_n-a_{n-1}=d">a_n − a_(n−1) = d</span> must be constant for every <span data-math="n\ge2">n ≥ 2</span> in its domain.</div>
-
 Consider the sequence $\displaystyle\frac12,\frac16,-\frac16,\ldots$
 
 <div class="ap-subparts"><p><span class="ap-part-label">a)</span> Show that this sequence is arithmetic.</p><p><span class="ap-part-label">b)</span> Hence, state the common difference of this arithmetic sequence.</p><p><span class="ap-part-label">c)</span> Find the next term of this sequence.</p></div>

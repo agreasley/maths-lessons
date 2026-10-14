@@ -1,0 +1,15 @@
+## Why does reversing the sum help? {#ss4-pairing .ar-lesson .ar-pairing-slide}
+
+Predict the total in each column before revealing it.
+
+<div class="ar-pairing" data-module="gauss-pairing"></div>
+
+<p class="ar-thinking-question">Does the argument still work for an odd number of terms?</p>
+
+<p class="booklet-cue">Booklet p. 19 · Example 4.1</p>
+
+::: notes
+
+Default is n=100, with selected terms and an ellipsis rather than 100 crowded columns. Next step reveals the reversed sum, then the equal column totals, then 2S=n(n+1) and S=n(n+1)/2. Use Previous step to revisit the argument. Reset restores n=100 and hides all working. Choosing a new n also hides the working. Try 5 or 9 terms after students predict whether the proof requires an even number. The doubling method gives n complete columns even when n is odd. There is no need to split a middle term. This is a predict–explain discussion, with the teacher controlling each reveal.
+
+:::

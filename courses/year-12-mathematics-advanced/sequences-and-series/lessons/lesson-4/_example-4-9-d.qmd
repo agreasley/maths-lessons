@@ -1,0 +1,34 @@
+## Example 4.9 · What does the sum mean? {#ss4-example-4-9-d .ar-lesson .ar-snapshot-slide}
+
+d\) Explain why evaluating $\displaystyle S_{10}=\sum\limits_{k=1}^{10}V_k$ does not give the volume remaining or total water pumped out. What does $S_{10}$ physically represent?
+
+::: {.split .ar-tank-totals .fragment data-fragment-index="0"}
+::: {.column-block}
+<h3>Water remaining at 10 hours</h3>
+
+$$V_{10}=900\text{ L}$$
+
+:::
+::: {.column-block}
+<h3>Water pumped out in 10 hours</h3>
+
+$$1500-900=600\text{ L}$$
+
+:::
+
+:::
+
+::: {.ar-snapshot-sum .fragment data-fragment-index="1"}
+$$\sum\limits_{k=1}^{10}V_k=1440+1380+\cdots+900=11700\text{ L}$$
+
+This adds ten hourly readings of the same tank.
+
+:::
+
+<p class="booklet-cue">Booklet p. 26 · Example 4.9(d)</p>
+
+::: notes
+
+The sum combines V_1 through V_10, not V_0 through V_10. The readings form an AP with first term 1440, last term 900 and count 10, so their sum is 11700 L. This is a sum of sampled volumes; water present at multiple observation times is counted repeatedly. It is not a single volume held in the tank, nor the cumulative amount removed. A useful interpretation is 10 times the mean of those readings (1170 L). A time-weighted sum could approximate a volume–time integral, but S_10 itself has no time-width factor and should not be labelled litre-hours. No integration is needed in this lesson.
+
+:::

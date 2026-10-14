@@ -1,0 +1,23 @@
+## Example 4.6 · Counting the terms {#ss4-example-4-6-b .ar-lesson .ar-summation-slide}
+
+Evaluate the following expressions:
+
+<div class="ar-summation-task"><span>b)</span><span data-math="\displaystyle\sum\limits_{k=4}^{15}5k">sum from k equals 4 to 15 of 5k</span></div>
+
+::: {.fragment data-fragment-index="0"}
+$$20+25+30+\cdots+75$$
+
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+$$\text{Number of terms}=15-4+1=12$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 23 · Example 4.6(b)</p>
+
+::: notes
+
+First included term is 5(4)=20; last is 5(15)=75. There are 12 terms, not 15 or 11. Sum=12(20+75)/2=570. First click reveals the expansion; second reveals the inclusive count. The alternative S_15−S_3 also gives 600−30=570. Use a fresh first term 20 if applying the AP sum directly to the included block. This is the suggested pause if the lesson spans two periods.
+
+:::

@@ -155,3 +155,90 @@
 .reveal .ap-graph-summary h3{font-size:23px;color:var(--teal);margin:7px 0 11px}
 .reveal .ap-first-term,.reveal .ap-line-summary{margin-top:24px}
 .reveal .ap-line-summary p{font-size:24px;margin:14px 0 22px}
+
+/* Lesson 4: pairing, partial sums and linear models. */
+.reveal .ar-cover .cover-title{font-size:72px;max-width:1130px}
+.reveal .ar-lesson .ar-subparts{margin:24px 0 24px 24px}
+.reveal .ar-lesson .ar-subparts p{font-size:29px;margin:23px 0;line-height:1.4}
+.reveal .ar-recap-columns{margin-top:36px}
+.reveal .ar-recap-columns h3{color:var(--teal)}
+.reveal .ar-recap-columns .katex-display{font-size:30px}
+.reveal .ar-recap-columns p{font-size:27px}
+.reveal .ar-gauss-question>.katex-display{font-size:35px;margin:36px 0}
+.reveal .ar-pairing-slide>p:not(.booklet-cue){font-size:27px;margin:14px 0}
+.reveal .ar-pair-toolbar{display:flex;align-items:center;gap:13px;margin:18px 0 22px}
+.reveal .ar-pair-toolbar label{display:flex;align-items:center;gap:10px;font-size:23px;margin-right:10px}
+.reveal .ar-pair-toolbar button,.reveal .ar-pair-toolbar select{min-height:56px}
+.reveal .ar-pair-next{min-width:222px}
+.reveal .ar-pair-rows{min-height:234px}
+.reveal .ar-pair-row{display:grid;align-items:center;min-height:76px;font-size:34px}
+.reveal .ar-pair-label{text-align:left}
+.reveal .ar-pair-cell{position:relative;text-align:center;padding:10px 5px}
+.reveal .ar-pair-plus::before{content:'+';position:absolute;left:0;color:var(--muted);font-size:25px;top:50%;transform:translate(-50%,-50%)}
+.reveal .ar-pair-total{border-top:2px solid var(--teal)}
+.reveal .ar-pair-explanation{font-size:25px;min-height:39px;margin:15px 0;color:var(--muted)}
+.reveal .ar-pair-result{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center;font-size:32px;min-height:78px;border-left:5px solid var(--teal);padding-left:22px;margin:12px 0}
+.reveal .ar-pairing-slide .ar-thinking-question{font-size:27px;margin:18px 0 0}
+.reveal .ar-pairing-slide .booklet-cue{margin-top:16px;padding-top:10px}
+.reveal .ar-proof-table{table-layout:auto;font-size:30px;margin:35px 0 12px}
+.reveal .ar-proof-table td,.reveal .ar-proof-table th{height:68px;border:0;padding:8px 4px;white-space:nowrap}
+.reveal .ar-proof-table th{text-align:left;font-size:30px;padding-right:12px}
+.reveal .ar-proof-table .ar-proof-total td,.reveal .ar-proof-table .ar-proof-total th{border-top:2px solid var(--teal)}
+.reveal .ar-proof-slide .ar-pair-count{font-size:26px;color:var(--muted);margin:17px 0}
+.reveal .ar-proof-slide .takeaway{margin:18px 0;padding-block:8px}
+.reveal .ar-proof-slide .katex-display{font-size:32px;margin:17px 0}
+.reveal .ar-formulas-slide>.katex-display{font-size:32px;margin:20px 0}
+.reveal .ar-formula-columns{margin:22px 0 10px;gap:30px}
+.reveal .ar-formula-columns h3{font-size:26px;color:var(--teal);margin:0 0 15px}
+.reveal .ar-formula-columns .katex-display{font-size:30px;margin:15px 0}
+.reveal .ar-mean-interpretation{font-size:27px;margin:17px 0 25px}
+.reveal .ar-reference{border-top:1px solid var(--rule);padding-top:18px}
+.reveal .ar-reference h3{font-size:25px;margin:0 0 14px}
+.reveal .ar-reference-crop{position:relative;width:900px;height:130px;overflow:hidden;background:white}
+.reveal .ar-reference-crop img{position:absolute;left:0;top:-242px;width:900px;height:auto;max-width:none;max-height:none;margin:0}
+.reveal .ar-formulas-slide .booklet-cue{margin-top:18px;padding-top:10px}
+.reveal .ar-hinge .hinge-question{font-size:28px;line-height:1.5;min-height:112px;margin:10px 0 12px}
+.reveal .ar-hinge-sum{display:inline-block;font-size:37px;vertical-align:middle;margin:0 12px}
+.reveal .ar-hinge .choice{min-height:88px;font-size:32px}
+.reveal .ar-hinge .hinge-explanation{font-size:27px;line-height:1.5;margin-top:10px;padding:10px 17px}
+.reveal .ar-equation-prompt{margin-top:44px;gap:24px}
+.reveal .ar-equation-prompt .katex-display{font-size:32px}
+.reveal .ar-summation-task{display:flex;align-items:center;gap:30px;font-size:43px;min-height:150px;margin:22px 0}
+.reveal .ar-summation-task>span:first-child{font-size:30px}
+.reveal .ar-summation-slide .fragment>.katex-display{font-size:34px;margin:28px 0}
+.reveal .ar-summation-slide .takeaway .katex-display{font-size:30px;margin:12px 0}
+.reveal .ar-cans-slide>p:not(.booklet-cue){font-size:28px}
+.reveal .ar-cans-layout{grid-template-columns:1fr 1fr;gap:38px;margin:24px 0 0}
+.reveal .ar-cans-layout .column-block>p{font-size:29px;margin:21px 0}
+.reveal .ar-cans-layout .takeaway{font-size:27px;margin:35px 0 0}
+.reveal .ar-cans-diagram{display:block;width:100%;height:370px;max-width:none;max-height:none;margin:0}
+.reveal .ar-model-columns{margin:30px 0}
+.reveal .ar-model-columns h3{font-size:28px;color:var(--teal)}
+.reveal .ar-model-columns .katex-display{font-size:30px}
+.reveal .ar-interest-slide .ar-assumption{font-size:24px;color:var(--teal);margin:16px 0 20px}
+.reveal .ar-interest-slide .ar-subparts p{margin:16px 0}
+.reveal .ar-interest-slide .fragment>.katex-display{font-size:29px;margin:22px 0}
+.reveal .ar-tank-slide>p:not(.booklet-cue){font-size:25px;line-height:1.45;margin:16px 0}
+.reveal .ar-tank-layout{grid-template-columns:1.05fr 1fr;gap:30px;margin-top:20px}
+.reveal .ar-tank-layout .ar-subparts{margin:0 0 0 18px}
+.reveal .ar-tank-layout .ar-subparts p{font-size:27px;margin:17px 0 27px}
+.reveal .ar-water-time{display:flex;gap:11px;align-items:center;margin:0 0 12px}
+.reveal .ar-water-time label{display:grid;grid-template-columns:1fr auto;column-gap:8px;align-items:center;font-size:23px;flex:1;min-width:0}
+.reveal .ar-water-time input{grid-column:1/-1;min-height:56px;margin:0;width:100%}
+.reveal .ar-water-tank button{min-height:56px;white-space:nowrap;font-size:19px}
+.reveal .ar-water-display{display:grid;grid-template-columns:180px 1fr;gap:20px;align-items:center;min-height:255px}
+.reveal .ar-water-picture svg{display:block;width:180px;height:255px;max-width:none;max-height:none;margin:0}
+.reveal .ar-water-readings{font-size:27px;align-self:stretch;display:flex;flex-direction:column;justify-content:space-evenly}
+.reveal .ar-water-readings h3{font-size:24px;color:var(--teal);margin:0 0 12px}
+.reveal .ar-water-hidden{font-size:30px;color:var(--muted)}
+.reveal .ar-water-reveals{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:17px}
+.reveal .ar-tank-totals{margin-top:34px;gap:28px}
+.reveal .ar-tank-totals h3{font-size:27px;color:var(--teal)}
+.reveal .ar-tank-totals .katex-display{font-size:31px}
+.reveal .ar-snapshot-slide>p:not(.booklet-cue){font-size:28px;line-height:1.5}
+.reveal .ar-snapshot-sum{border-left:5px solid var(--teal);padding:5px 0 5px 22px;margin-top:28px}
+.reveal .ar-snapshot-sum .katex-display{font-size:29px;margin:18px 0}
+.reveal .ar-snapshot-sum p{font-size:27px;margin:14px 0}
+.reveal .ar-key-ideas .series-summary-row .katex-display{font-size:29px;margin:16px 0}
+.reveal .ar-key-ideas .series-summary-row{padding:10px 0 19px}
+.reveal .ar-key-ideas>p:not(.booklet-cue){font-size:25px;margin-top:22px}

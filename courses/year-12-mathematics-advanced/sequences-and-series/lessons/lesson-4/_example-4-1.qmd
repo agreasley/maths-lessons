@@ -1,0 +1,20 @@
+## Example 4.1 · The Gauss challenge {#ss4-example-4-1 .ar-lesson .ar-gauss-question}
+
+Define $S$ as
+
+$$S=1+2+3+4+\cdots+97+98+99+100.$$
+
+a\) How many terms are in this series?
+
+::: {.fragment data-fragment-index="0"}
+b\) By writing $S$ in reverse order, evaluate the sum of integers from $1$ to $100$.
+
+:::
+
+<p class="booklet-cue">Booklet p. 19 · Example 4.1</p>
+
+::: notes
+
+Give students a short opportunity to propose a strategy before revealing part (b). The booklet presents the familiar story about Gauss as an anecdote. Avoid presenting the punishment or his age as established historical facts. There are 100 terms. Reversing and adding gives 2S=100×101, so S=5050. Continue to the interactive without revealing the final total orally.
+
+:::

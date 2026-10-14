@@ -1,0 +1,35 @@
+## A term or a partial sum? {#ss4-recap .ar-lesson }
+
+For the arithmetic sequence
+
+$$3,\ 7,\ 11,\ldots$$
+
+what is the difference between finding $a_{10}$ and $S_{10}$?
+
+::: {.split .ar-recap-columns}
+::: {.column-block .fragment data-fragment-index="0"}
+<h3>One term</h3>
+
+$$a_{10}=3+9(4)=39$$
+
+The value at position $10$.
+
+:::
+::: {.column-block .fragment data-fragment-index="1"}
+<h3>A partial sum</h3>
+
+$$S_{10}=\sum\limits_{k=1}^{10}a_k$$
+
+$$=3+7+11+\cdots+39$$
+
+The total of the first $10$ terms.
+
+:::
+
+:::
+
+::: notes
+
+Ask for meanings before any calculation. First click reveals the tenth term, then the second click reveals the partial sum. Do not introduce the sum formula yet. The total is 210 if students choose to add; the next activity develops an efficient general method.
+
+:::

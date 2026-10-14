@@ -1,0 +1,22 @@
+## Example 4.9 · A draining tank {#ss4-example-4-9-abc .ar-lesson .ar-tank-slide}
+
+A water storage tank originally holds $1500$ L of water at $t=0$. Water is pumped out at a constant rate of $60$ L/hr. Let $V_n$ be the volume remaining after $n$ hours.
+
+::: {.split .ar-tank-layout}
+::: {.column-block}
+<div class="ar-subparts"><p><span>a)</span> Write down a formula for <span data-math="V_n">Vₙ</span> in terms of <span data-math="n">n</span>.</p><p><span>b)</span> State the practical domain of <span data-math="n">n</span> for which <span data-math="V_n\ge0">Vₙ ≥ 0</span>.</p><p><span>c)</span> Find the volume remaining in the tank after <span data-math="10">10</span> hours.</p></div>
+:::
+::: {.column-block}
+<div class="ar-water-tank" data-module="water-tank"></div>
+
+:::
+
+:::
+
+<p class="booklet-cue">Booklet p. 26 · Example 4.9(a–c)</p>
+
+::: notes
+
+Derive V_n=1500−60n. For the hourly sequence the domain is n∈{0,1,…,25}. A continuous model V(t)=1500−60t has 0≤t≤25. The tank is empty after 25 hours; the pump model stops there. V_10=900 L and 600 L has been pumped out. Use the slider or 10 hours button after students predict. Remaining and pumped quantities have separate reveal controls, both initially hidden. Slider changes preserve reveal choices. Reset returns to n=0 and hides both values. Do not sum the remaining volumes to find water pumped out.
+
+:::

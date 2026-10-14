@@ -760,8 +760,53 @@
       [first,difference]=({increasing:[2,5],decreasing:[20,-3],constant:[7,0]})[button.dataset.apPreset];draw();
     });draw();
   }
+  function gaussPairing(m){
+    m.addEventListener('keydown',e=>{if(e.target.closest('button,input,select'))e.stopPropagation();});
+    let n=100,stage=0;
+    const choices=[5,6,9,10,100];
+    m.innerHTML=`<div class="ar-pair-toolbar"><label>Number of terms ${math('n')} <select class="ar-pair-n" aria-label="Number of terms">${choices.map(v=>`<option value="${v}"${v===100?' selected':''}>${v}</option>`).join('')}</select></label><button class="ar-pair-prev">Previous step</button><button class="ar-pair-next primary">Show reversed sum</button><button class="ar-pair-reset">Reset</button></div><div class="ar-pair-rows"></div><div class="ar-pair-explanation" aria-live="polite"></div><div class="ar-pair-result" hidden></div>`;
+    const draw=()=>{
+      const indices=n<=6?Array.from({length:n},(_,i)=>i+1):[1,2,3,null,n-1,n];
+      const color=k=>k===null?'#607078':Math.min(k-1,n-k)===0?'#3b66a8':Math.min(k-1,n-k)===1?'#007f78':'#b55224';
+      const row=(label,reverse,total,visible)=>`<div class="ar-pair-row${total?' ar-pair-total':''}" style="grid-template-columns:110px repeat(${indices.length},minmax(0,1fr))"${visible?'':' hidden'}><span class="ar-pair-label">${math(label)}</span>${indices.map((k,i)=>`<span class="ar-pair-cell${i?' ar-pair-plus':''}"${k===null?'':` data-column="${k}" data-value="${total?n+1:reverse?n+1-k:k}"`}>${math(k===null?'\\cdots':`\\textcolor{${color(k)}}{${total?n+1:reverse?n+1-k:k}}`)}</span>`).join('')}</div>`;
+      $(m,'.ar-pair-rows').innerHTML=row('S=',false,false,true)+row('S=',true,false,stage>=1)+row('2S=',false,true,stage>=2);
+      const explain=[`One copy of ${math('S')}. Predict what changes when we reverse the order.`,`Both rows have the same total ${math('S')}. What will each column add to?`,`All ${math(String(n))} columns total ${math(String(n+1))}.`,`We have two copies of ${math('S')}, so divide by ${math('2')}.`];
+      $(m,'.ar-pair-explanation').innerHTML=explain[stage];
+      const result=$(m,'.ar-pair-result');result.hidden=stage<3;
+      result.innerHTML=`<div>${math(`2S=${n}\\times${n+1}=${n*(n+1)}`)}</div><div>${math(`S=\\frac{${n}\\times${n+1}}{2}=${n*(n+1)/2}`)}</div>`;
+      $(m,'.ar-pair-n').value=String(n);$(m,'.ar-pair-prev').disabled=stage===0;$(m,'.ar-pair-next').disabled=stage===3;
+      $(m,'.ar-pair-next').textContent=['Show reversed sum','Show column totals','Show sum','Complete'][stage];
+      m.dataset.n=String(n);m.dataset.stage=String(stage);m.dataset.sum=String(n*(n+1)/2);typeset(m);
+    };
+    $(m,'.ar-pair-n').onchange=e=>{n=Number(e.target.value);stage=0;draw();};
+    $(m,'.ar-pair-prev').onclick=()=>{stage=Math.max(0,stage-1);draw();};
+    $(m,'.ar-pair-next').onclick=()=>{stage=Math.min(3,stage+1);draw();};
+    $(m,'.ar-pair-reset').onclick=()=>{n=100;stage=0;draw();};draw();
+  }
+  function waterTank(m){
+    m.addEventListener('keydown',e=>{if(e.target.closest('button,input,select'))e.stopPropagation();});
+    let hours=0,remainingVisible=false,pumpedVisible=false;
+    m.innerHTML=`<div class="ar-water-time"><label>Hours <output class="ar-water-hours"></output><input class="ar-water-slider" type="range" min="0" max="25" step="1" value="0" aria-label="Hours since pumping began"></label><button class="ar-water-ten">10 hours</button><button class="ar-water-reset">Reset</button></div><div class="ar-water-display"><div class="ar-water-picture"></div><div class="ar-water-readings" aria-live="polite"><div><h3>Remaining</h3><div class="ar-water-remaining"></div></div><div><h3>Pumped out</h3><div class="ar-water-pumped"></div></div></div></div><div class="ar-water-reveals"><button class="ar-water-show-remaining" aria-expanded="false">Reveal remaining</button><button class="ar-water-show-pumped" aria-expanded="false">Reveal pumped out</button></div>`;
+    const draw=()=>{
+      const remaining=1500-60*hours,pumped=60*hours,height=200*remaining/1500;
+      $(m,'.ar-water-slider').value=String(hours);$(m,'.ar-water-hours').innerHTML=math(`n=${hours}`);
+      $(m,'.ar-water-picture').innerHTML=`<svg viewBox="0 0 190 255" role="img" aria-label="Water level after ${hours} hours${hours===25?'; tank empty':''}" xmlns="http://www.w3.org/2000/svg"><text x="90" y="18" text-anchor="middle" fill="#607078" font-family="Arial,sans-serif" font-size="19">1500 L</text><rect class="ar-water-fill" x="30" y="${224-height}" width="120" height="${height}" fill="#3b66a8" fill-opacity=".72"/><path d="M30 24V224H150V24" fill="none" stroke="#152e3b" stroke-width="4"/><line x1="24" y1="24" x2="156" y2="24" stroke="#607078" stroke-dasharray="4 5"/><text x="90" y="249" text-anchor="middle" fill="#607078" font-family="Arial,sans-serif" font-size="19">0 L</text></svg>`;
+      $(m,'.ar-water-remaining').innerHTML=remainingVisible?math(`V_{${hours}}=${remaining}\\text{ L}`):'<span class="ar-water-hidden">?</span>';
+      $(m,'.ar-water-pumped').innerHTML=pumpedVisible?math(`${pumped}\\text{ L}`):'<span class="ar-water-hidden">?</span>';
+      $(m,'.ar-water-show-remaining').textContent=remainingVisible?'Hide remaining':'Reveal remaining';
+      $(m,'.ar-water-show-pumped').textContent=pumpedVisible?'Hide pumped out':'Reveal pumped out';
+      $(m,'.ar-water-show-remaining').setAttribute('aria-expanded',String(remainingVisible));
+      $(m,'.ar-water-show-pumped').setAttribute('aria-expanded',String(pumpedVisible));
+      m.dataset.hours=String(hours);m.dataset.remaining=String(remaining);m.dataset.pumped=String(pumped);m.dataset.remainingVisible=String(remainingVisible);m.dataset.pumpedVisible=String(pumpedVisible);typeset(m);
+    };
+    $(m,'.ar-water-slider').addEventListener('input',e=>{hours=Number(e.target.value);draw();});
+    $(m,'.ar-water-ten').onclick=()=>{hours=10;draw();};
+    $(m,'.ar-water-reset').onclick=()=>{hours=0;remainingVisible=false;pumpedVisible=false;draw();};
+    $(m,'.ar-water-show-remaining').onclick=()=>{remainingVisible=!remainingVisible;draw();};
+    $(m,'.ar-water-show-pumped').onclick=()=>{pumpedVisible=!pumpedVisible;draw();};draw();
+  }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph,'gauss-pairing':gaussPairing,'water-tank':waterTank};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

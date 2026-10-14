@@ -1,0 +1,11 @@
+## Example 4.3 {#ss4-example-4-3 .ar-lesson }
+
+Find the sum of the first fifty positive even numbers.
+
+<p class="booklet-cue">Booklet p. 21 · Example 4.3</p>
+
+::: notes
+
+First term 2, last term 100, n=50. S_50=50(2+100)/2=2550. The first fifty even numbers do not stop at 50. Ask students how they identify the last term before substituting.
+
+:::

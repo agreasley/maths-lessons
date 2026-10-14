@@ -1,0 +1,9 @@
+## Arithmetic series and linear models {#ss4-opening .ar-lesson .cover .sequence-cover .ar-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 4</div><div class="cover-title">Arithmetic series<br>and linear models</div><div class="cover-subtitle">Use equal differences to calculate sums and model change.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 4 · Examples 4.1–4.9 · Homework 4</div>
+
+::: notes
+
+Section 4, printed pages 19–27. Allow about 75–90 minutes including booklet working. A natural pause across two periods follows Example 4.6, slide 15. Worked examples retain their booklet wording, notation and numbering. Use the presenter notes and teacher guide for answers.
+
+:::

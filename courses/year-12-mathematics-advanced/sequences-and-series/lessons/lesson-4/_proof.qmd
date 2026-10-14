@@ -1,0 +1,27 @@
+## The sum of an arithmetic progression {#ss4-proof .ar-lesson .ar-proof-slide}
+
+<table class="ar-proof-table"><tbody>
+<tr><th><span data-math="S_n=">Sₙ =</span></th><td><span data-math="\textcolor{#3b66a8}{a}">a</span></td><td>+</td><td><span data-math="\textcolor{#007f78}{(a+d)}">(a+d)</span></td><td>+</td><td><span data-math="\cdots">…</span></td><td>+</td><td><span data-math="\textcolor{#007f78}{(l-d)}">(l−d)</span></td><td>+</td><td><span data-math="\textcolor{#3b66a8}{l}">l</span></td></tr>
+<tr class="fragment" data-fragment-index="0"><th><span data-math="S_n=">Sₙ =</span></th><td><span data-math="\textcolor{#3b66a8}{l}">l</span></td><td>+</td><td><span data-math="\textcolor{#007f78}{(l-d)}">(l−d)</span></td><td>+</td><td><span data-math="\cdots">…</span></td><td>+</td><td><span data-math="\textcolor{#007f78}{(a+d)}">(a+d)</span></td><td>+</td><td><span data-math="\textcolor{#3b66a8}{a}">a</span></td></tr>
+<tr class="fragment ar-proof-total" data-fragment-index="1"><th><span data-math="2S_n=">2Sₙ =</span></th><td><span data-math="a+l">a+l</span></td><td>+</td><td><span data-math="a+l">a+l</span></td><td>+</td><td><span data-math="\cdots">…</span></td><td>+</td><td><span data-math="a+l">a+l</span></td><td>+</td><td><span data-math="a+l">a+l</span></td></tr>
+</tbody></table>
+
+<p class="fragment ar-pair-count" data-fragment-index="1">There are <span data-math="n">n</span> equal column totals.</p>
+
+::: {.fragment data-fragment-index="2"}
+$$2S_n=n(a+l)$$
+
+::: {.takeaway}
+$$S_n=\frac{n}{2}(a+l)$$
+
+:::
+
+:::
+
+<p class="booklet-cue">Booklet p. 20 · Example 4.2(b)</p>
+
+::: notes
+
+Collect an explanation of why each column sums to a+l. Reversing preserves the same total S_n; adding gives two copies of the original sum. All n columns have the same total. Divide by 2 only after recognising that the left side is 2S_n. The displayed ellipsis represents omitted columns, and the identity holds for every positive integer n, including 1. The argument also works for decreasing APs and negative terms.
+
+:::

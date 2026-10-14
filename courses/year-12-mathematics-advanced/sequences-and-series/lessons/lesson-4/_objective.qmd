@@ -1,0 +1,15 @@
+## Today's learning {#ss4-objective .ar-lesson }
+
+### Lesson objective
+
+Understand how constant differences lead to arithmetic-series formulas and models of linear growth and decay.
+
+### Success criteria
+
+I can calculate arithmetic partial sums and distinguish a quantity at a particular time from an accumulated total.
+
+::: notes
+
+Assume students are comfortable with function notation, sequence notation, recursive rules, the arithmetic general term and summation notation. Connect to Lessons 2 and 3 without repeating input/output instruction.
+
+:::

@@ -1,0 +1,39 @@
+## Linear growth and decay {#ss4-linear-models .ar-lesson }
+
+Choose the time unit first. Let $n$ count elapsed periods.
+
+::: {.split .ar-model-columns}
+::: {.column-block}
+<h3>At the start</h3>
+
+$$n=0,\qquad A_0$$
+
+:::
+::: {.column-block}
+<h3>After one period</h3>
+
+$$A_1=A_0+d$$
+
+:::
+
+:::
+
+::: {.takeaway .fragment data-fragment-index="0"}
+$$A_n=A_0+nd$$
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+$$d>0:\ \text{growth}\qquad d<0:\ \text{decay}$$
+
+Use the practical context to restrict the domain.
+
+:::
+
+<p class="booklet-cue">Booklet p. 25 · Linear growth and decay</p>
+
+::: notes
+
+Compare with a_n=a+(n−1)d: a_1 is a value at index 1, but A_0 is a value at time zero. From time 0 to time n there are n changes. For a sequence, n counts whole periods; choose monthly, hourly or another appropriate sampling unit. A continuous linear model can also use real time t. Non-negative quantities impose a domain until a model empties or otherwise ceases to apply. A_n is a quantity at one time; adding A_1,…,A_n needs a separate interpretation.
+
+:::

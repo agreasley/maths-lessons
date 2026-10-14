@@ -1,0 +1,31 @@
+## Arithmetic partial sums {#ss4-formulas .ar-lesson .ar-formulas-slide}
+
+$$S_n=\sum\limits_{k=1}^{n}a_k$$
+
+::: {.split .ar-formula-columns}
+::: {.column-block}
+<h3>First and last terms known</h3>
+
+$$S_n=\frac{n}{2}(a+a_n)$$
+
+:::
+::: {.column-block}
+<h3>First term and difference known</h3>
+
+$$S_n=\frac{n}{2}[2a+(n-1)d]$$
+
+:::
+
+:::
+
+<p class="ar-mean-interpretation">Number of terms × average of the first and last terms.</p>
+
+<div class="ar-reference"><h3>HSC formula sheet · Sequences and series</h3><div class="ar-reference-crop"><img src="../media/hsc-reference-sheet-sequences.png" alt="The arithmetic partial-sum line from the HSC reference sheet: S n equals n over two times 2a plus n minus one times d, or n over two times a plus a n."></div></div>
+
+<p class="booklet-cue">Booklet p. 20 · Complete the partial-sum result</p>
+
+::: notes
+
+Here a is the first term and a_n=l is the last term included in S_n. The number of terms is n when the sum starts at index 1. Choose either form according to the information supplied. Do not use the last index as the count when a sum starts later. The image uses the teacher-updated reference-sheet file already in the repository, displayed through a crop of its second formula line without changing the image. Reference-sheet resource page: https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/teaching-and-learning
+
+:::

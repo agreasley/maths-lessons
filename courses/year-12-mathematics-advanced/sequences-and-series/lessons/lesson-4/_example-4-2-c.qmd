@@ -1,0 +1,21 @@
+## Example 4.2 · An alternative formula {#ss4-example-4-2-c .ar-lesson }
+
+c\) Note that $l=a_n=a+(n-1)d$ if the series has $n$ terms. Write down an alternative formula for the sum of the first $n$ terms of an arithmetic series.
+
+::: {.fragment data-fragment-index="0"}
+$$S_n=\frac{n}{2}\left[a+\underbrace{a+(n-1)d}_{l}\right]$$
+
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+$$S_n=\frac{n}{2}\left[2a+(n-1)d\right]$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 20 · Example 4.2(c)</p>
+
+::: notes
+
+Let students substitute before revealing. First click identifies the expression replacing the last term. Second click combines the two a terms. The n outside the bracket counts terms; n−1 inside the bracket counts increments from the first to the last term.
+
+:::

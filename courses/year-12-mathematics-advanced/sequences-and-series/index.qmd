@@ -1,6 +1,6 @@
 ---
 title: "Sequences and Series"
-description: "Describe sequences, discover their rules and explore sums. Explore sequence notation, partial sums, summation notation and arithmetic sequences."
+description: "Describe sequences, discover their rules and explore sums. Explore sequence notation, partial sums, summation notation, arithmetic sequences and arithmetic series."
 metadata-files: [../../../_site-page.yml]
 topic-order: 1
 listing:
@@ -17,7 +17,7 @@ listing:
   <p class="eyebrow">Year 12 Mathematics Advanced</p>
   <h1>Sequences and Series</h1>
   <p class="intro-copy">Explore ordered lists, describe their rules and use them to solve problems.</p>
-  <div class="topic-tags"><span>Sections 1–3 available</span><span>3 lessons</span><span>Homework 1–3 · Exercises 1A, 1B, 1D and 1E</span></div>
+  <div class="topic-tags"><span>Sections 1–4 available</span><span>4 lessons</span><span>Homework 1–4 · Exercises 1A, 1B, 1D, 1E and 1F</span></div>
 </header>
 <div class="section-heading"><h2>Your lessons</h2><span>Work through them in order</span></div>
 ```
@@ -28,6 +28,6 @@ listing:
 ```{=html}
 <div role="note" class="study-note" aria-label="Using these lessons">
   <div class="note-mark" aria-hidden="true">i</div>
-  <div><h2>Keep your booklet alongside you.</h2><p>These lessons accompany the Sequences and Series booklet. Lesson 1 covers Section 1 and Examples 1.1–1.7. Lesson 2 covers Section 2 and Examples 2.1–2.4. Lesson 3 covers Section 3 and Examples 3.1–3.10. Complete the examples as you go, then use the matching homework to practise.</p></div>
+  <div><h2>Keep your booklet alongside you.</h2><p>These lessons accompany the Sequences and Series booklet. Lesson 1 covers Section 1 and Examples 1.1–1.7. Lesson 2 covers Section 2 and Examples 2.1–2.4. Lesson 3 covers Section 3 and Examples 3.1–3.10. Lesson 4 covers Section 4 and Examples 4.1–4.9. Complete the examples as you go, then use the matching homework to practise.</p></div>
 </div>
 ```

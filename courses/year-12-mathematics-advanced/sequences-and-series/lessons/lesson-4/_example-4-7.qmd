@@ -1,0 +1,30 @@
+## Example 4.7 {#ss4-example-4-7 .ar-lesson .ar-cans-slide}
+
+A supermarket displays cans of fruit in the form of a ‘pyramid’. There are $5$ cans in the top row, $7$ in the next, $9$ in the one after that and so on. Given there are $15$ rows on display, find:
+
+::: {.split .ar-cans-layout}
+::: {.column-block}
+a\) the number of cans in the bottom row;
+
+b\) the total number of cans in the display.
+
+::: {.takeaway .fragment data-fragment-index="0"}
+One row gives a term.<br>The whole display gives a sum.
+
+:::
+
+:::
+::: {.column-block}
+<img class="ar-cans-diagram" src="../media/arithmetic-can-display.svg" alt="Fifteen centred rows of cans, starting with 5, then 7, then 9, and increasing by 2 per row. The bottom row is highlighted.">
+
+:::
+
+:::
+
+<p class="booklet-cue">Booklet p. 24 · Example 4.7</p>
+
+::: notes
+
+The exact diagram contains 15 rows with 5+2(r−1) cans in row r, a total of 285. The bottom row is highlighted to connect with part (a), while the full diagram relates to part (b). a=5,d=2,n=15. Bottom row a_15=5+14(2)=33. Total S_15=15(5+33)/2=285. Do not count the bottom row as the total. Reveal the term/sum distinction after students identify which formula each part requires.
+
+:::

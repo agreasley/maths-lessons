@@ -1,0 +1,52 @@
+---
+pagetitle: "Lesson 4 — Arithmetic series and linear models"
+lesson-title: "Arithmetic series and linear models"
+description: "Derive arithmetic partial-sum formulas, use summation notation and model linear growth and decay."
+lesson-order: 4
+booklet: "Section 4 · Examples 4.1–4.9 · pp. 19–27"
+homework: "4 · Exercises 1F and 1B"
+---
+
+{{< include lesson-4/_opening.qmd >}}
+
+{{< include lesson-4/_objective.qmd >}}
+
+{{< include lesson-4/_recap.qmd >}}
+
+{{< include lesson-4/_example-4-1.qmd >}}
+
+{{< include lesson-4/_pairing.qmd >}}
+
+{{< include lesson-4/_example-4-2-ab.qmd >}}
+
+{{< include lesson-4/_proof.qmd >}}
+
+{{< include lesson-4/_example-4-2-c.qmd >}}
+
+{{< include lesson-4/_formulas.qmd >}}
+
+{{< include lesson-4/_example-4-3.qmd >}}
+
+{{< include lesson-4/_example-4-4.qmd >}}
+
+{{< include lesson-4/_hinge.qmd >}}
+
+{{< include lesson-4/_example-4-5.qmd >}}
+
+{{< include lesson-4/_example-4-6-a.qmd >}}
+
+{{< include lesson-4/_example-4-6-b.qmd >}}
+
+{{< include lesson-4/_example-4-7.qmd >}}
+
+{{< include lesson-4/_linear-models.qmd >}}
+
+{{< include lesson-4/_example-4-8.qmd >}}
+
+{{< include lesson-4/_example-4-9-abc.qmd >}}
+
+{{< include lesson-4/_example-4-9-d.qmd >}}
+
+{{< include lesson-4/_key-ideas.qmd >}}
+
+{{< include lesson-4/_homework.qmd >}}

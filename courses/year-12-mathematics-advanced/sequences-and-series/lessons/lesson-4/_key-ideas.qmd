@@ -1,0 +1,32 @@
+## Key ideas {#ss4-key-ideas .ar-lesson .ar-key-ideas}
+
+::: {.series-summary-row}
+<h3>Arithmetic partial sums</h3>
+
+$$S_n=\sum\limits_{k=1}^{n}a_k=\frac{n}{2}(a+a_n)=\frac{n}{2}[2a+(n-1)d]$$
+
+:::
+
+::: {.series-summary-row}
+<h3>A sum that starts later</h3>
+
+$$\sum\limits_{k=p}^{q}a_k=\frac{q-p+1}{2}(a_p+a_q)$$
+
+:::
+
+::: {.series-summary-row}
+<h3>Linear models from time zero</h3>
+
+$$A_n=A_0+nd$$
+
+:::
+
+Interpret each term and each sum in its context. Check the time unit and practical domain.
+
+<p class="booklet-cue">Booklet p. 27 · Key Ideas</p>
+
+::: notes
+
+The middle formula applies to consecutive terms of an AP, with integer p≤q within its domain. It restates the endpoint method using the inclusive term count from Lesson 2 and Example 4.6(b). A sum is not automatically a cumulative physical quantity: decide what each term measures. The time-zero convention uses n increments, whereas the first-term convention a_n=a+(n−1)d uses n−1. Complete the booklet’s Key Ideas box.
+
+:::

@@ -1,0 +1,11 @@
+## Example 4.4 {#ss4-example-4-4 .ar-lesson }
+
+The $n$th term of an arithmetic sequence is given by $a_n=4n+5$. Find the sum of the first $16$ terms of this sequence.
+
+<p class="booklet-cue">Booklet p. 21 · Example 4.4</p>
+
+::: notes
+
+a_1=9, a_16=69 and d=4. S_16=16(9+69)/2=624. Alternatively 16[2(9)+15(4)]/2=624. The constant 5 in 4n+5 is not the first term. Connect this with the line-intercept distinction from Lesson 3.
+
+:::

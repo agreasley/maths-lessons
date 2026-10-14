@@ -1,0 +1,13 @@
+## Example 4.2 · A general argument {#ss4-example-4-2-ab .ar-lesson }
+
+Consider an arithmetic series of $n$ terms with first term equal to $a$ and last term equal to $l$.
+
+<div class="ar-subparts"><p><span>a)</span> Write down an expression for the sum of this series.</p><p><span>b)</span> By writing this expression in reverse order, deduce a formula for the sum of the first <span data-math="n">n</span> terms of an arithmetic series.</p></div>
+
+<p class="booklet-cue">Booklet p. 20 · Example 4.2(a–b)</p>
+
+::: notes
+
+Students set up the two expressions in their booklet before the staged proof on the next slide. Use l as in the supplied question, then identify l=a_n later. The endpoint notation keeps the first formula independent of a separately known common difference.
+
+:::

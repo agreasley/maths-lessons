@@ -259,3 +259,84 @@ These are the supplied booklet’s references, unchanged. The textbook edition w
 The source is `12MA__2026____Sequences_and_Series.pdf`, Section 3. `Arithmetic Progression.pptx` supplies the introductory ideas and old Examples 2.1, 2.3, 2.4, 2.5 corresponding to current Examples 3.1, 3.3, 3.4 and 3.5. `Further Arithmetic Progression.pptx` supplies old Examples 2.6–2.9 corresponding to current Examples 3.6, 3.7, 3.9 and 3.10. Use the current booklet’s expanded graph subparts in 3.4 and its additional Examples 3.2 and 3.8. The “Advanced HSC 2023 Q11 – 2 marks” attribution for 3.8 comes from the supplied booklet; the original paper has not been independently checked.
 
 The opening adapts [Claim, Support, Question](https://www.pz.harvard.edu/resources/claim-support-question), developed by Project Zero, Harvard Graduate School of Education. The reference-sheet excerpt is the teacher's supplied screenshot, preserved unchanged as `media/hsc-reference-sheet-sequences.png`. [NESA's Mathematics Advanced 11–12 (2024) teaching and learning support page](https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/teaching-and-learning) lists the HSC reference sheet.
+
+## Lesson 4: Arithmetic series and linear models
+
+Section 4, printed pages 19–27, Examples 4.1–4.9 and Homework 4. Twenty-two slides. Allow approximately 75–90 minutes including booklet working, or use two periods with a natural pause after slide 15 (Example 4.6). The objective is to understand how constant differences lead to arithmetic-series formulas and models of linear growth and decay. The success criterion is to calculate arithmetic partial sums and distinguish a quantity at a particular time from an accumulated total.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–3 | Cover, learning goal and term-versus-sum recap | 4 minutes |
+| 4–5 | Example 4.1 and reversing/pairing activity | 7 minutes |
+| 6–9 | Example 4.2, staged proof and both formulas | 12 minutes |
+| 10–11 | Examples 4.3–4.4 | 8 minutes |
+| 12 | Hinge, simultaneous response and discussion | 4 minutes |
+| 13 | Example 4.5, two partial sums | 7 minutes |
+| 14–15 | Example 4.6(a–b), including a lower bound other than 1 | 8 minutes |
+| 16 | Example 4.7, pyramid of cans | 6 minutes |
+| 17–18 | Linear models and Example 4.8, simple interest | 8 minutes |
+| 19–20 | Example 4.9, draining tank and interpretation of a sum | 10 minutes |
+| 21–22 | Key ideas and Homework 4 | 3 minutes |
+
+Allow remaining time for transitions, discussion and independent working. Full worked answers are in presenter notes. Students complete the booklet examples in their booklets/OneNote. Question wording, values, numbering and subparts follow the booklet; scaffolding and model assumptions are separated from the source questions.
+
+### Interactions and reveals
+
+- **Recap:** For 3,7,11,… distinguish a_10 from S_10 before revealing a_10=39 and S_10=3+7+…+39. The sum is 210, but calculating it is not required at this point.
+- **Reversing and pairing:** Start with n=100. The activity buttons reveal the reversed row, then equal column totals, then the doubled sum and final sum. Previous step reverses each stage. Change n to 5 or 9 to test an odd number of terms; 6 and 10 are also available. Both rows always contain n terms, so there are n columns even when n is odd. For large n, the ellipsis represents omitted columns. Changing n hides the working; Reset restores n=100 with one row. Navigation and the slide map preserve the activity state.
+- **General proof:** Next reveals the reversed row, then the column totals, then S_n=n(a+l)/2. Each pair totals a+l. The two rows total 2S_n, which explains dividing by 2. The argument also works for negative or zero common differences and for odd n. Example 4.2(c) substitutes l=a+(n−1)d to obtain the second form.
+- **Reference sheet:** Show the arithmetic-series row from the teacher's sharper HSC reference-sheet screenshot. The display crops the existing image without modifying the original file used in Lesson 3. The formulas are also typeset above it. Relate “number of terms × mean of the endpoint values” to either formula.
+- **Summation examples:** In Example 4.6(a), identify a_1=5, a_40=83 and 40 terms. In part (b), reveal 15−4+1=12 terms, followed by the endpoint calculation. The first included term is 20, not 5; 15 is the upper index, not the term count. Connect with Lesson 2.
+- **Cans:** The diagram contains all 15 rows, with 5,7,9,…,33 cans and 285 circles in total. It is a schematic front view. Ask for the bottom row before summing.
+- **Linear models:** Distinguish a sequence beginning at index 1, a_n=a_1+(n−1)d, from a time-zero model, Q_n=Q_0+nd. Equal time intervals and a constant absolute change are essential.
+- **Simple interest:** The source question gives a rate without explicitly naming the interest model. State the simple-interest assumption before solving. Interpret 18 months as 1.5 annual periods. For a discrete monthly model, use n=0,…,18 and A_n=8000+n[8000(0.04)/12]. Keep the monthly increment exact until the final calculation; the requested interest is $480, not the $8480 final balance.
+- **Tank:** The slider selects integer hours from 0 through 25. Both numerical readings are initially hidden; Remaining and Pumped out have independent reveal/hide buttons. The 10 hours shortcut changes time while retaining the reveal state. Reset restores time 0 and hides both readings. The tank empties at 25 hours, so the model does not continue to negative volumes. Navigation and the slide map preserve the state. For the hourly sequence, n∈{0,1,…,25}; the continuous model has t∈[0,25].
+- **Sum of tank readings:** First compare the remaining 900 L with the pumped 600 L after 10 hours. Then reveal the sum of the ten hourly remaining-volume readings, 11700 L. The same water can be counted repeatedly across readings, so this is neither the water remaining at hour 10 nor the water pumped out. It is ten times the mean reading of 1170 L. Do not label the unweighted sum “litre-hours”; no time-width factor has been introduced.
+
+### Hinge and response routine
+
+An arithmetic sequence has a_1=2 and a_2=5. Evaluate the summation from k=1 to 10 of a_k. Keep the question in summation notation, with the bounds above and below the symbol.
+
+1. 29: calculates a_10 instead of the sum.
+2. **155: correct.** d=5−2=3, so the sum is 10[2(2)+9(3)]/2=155.
+3. 170: uses n increments in the sum formula instead of n−1.
+4. 245: treats the second term, 5, as the common difference.
+
+Default timer: 60 seconds, adjustable. Fist on chest, think quietly, then show 1–4 fingers together on the teacher's verbal “show” cue. Timer expiry does not reveal the answer. Use the separate Reveal answer button after discussion; Reset clears the answer and selected choice as well as resetting the timer. Leaving the slide pauses the timer.
+
+Ready: ask for the endpoint method, a_10=29 and 10(2+29)/2. Divided: identify what the summation asks for, then find a, d and n before re-polling. Reteach: write 2,5,8,…,29 and distinguish the tenth term from the sum of all ten terms.
+
+### Worked checks
+
+| Example | Working and answer |
+|---|---|
+| 4.1 | (a) 100 terms. (b) 2S=100×101, hence S=5050. |
+| 4.2 | (a) S_n=a+(a+d)+…+(l−d)+l. (b) Reverse the terms and add the two rows: 2S_n=n(a+l). (c) Substitute l=a+(n−1)d to give S_n=n[2a+(n−1)d]/2. |
+| 4.3 | First 50 positive even numbers: a=2,l=100,n=50; S_50=2550. |
+| 4.4 | a_n=4n+5 gives a_1=9,d=4,a_16=69; S_16=624. |
+| 4.5 | S_6=45 gives 2a+5d=15. S_12=−18 gives 2a+11d=−3. Therefore d=−3,a=15 and a_10=−12. |
+| 4.6(a) | 40 terms from 5 to 83: sum=40(5+83)/2=1760. |
+| 4.6(b) | Indices 4,…,15 give 12 terms from 20 to 75: sum=12(20+75)/2=570. Alternative: S_15−S_3=600−30=570. |
+| 4.7 | Row 15 has 5+14(2)=33 cans; total=15(5+33)/2=285 cans. |
+| 4.8 | (a) Principal $8000. (b) Annual rate 0.04. (c) 1.5 annual periods, or 18 monthly periods at rate 0.04/12. (d) Simple interest=8000(0.04)(1.5)=$480. |
+| 4.9 | (a) V_n=1500−60n. (b) n∈{0,1,…,25} for the hourly sequence. (c) V_10=900 L. (d) S_10=1440+1380+…+900=11700 L; this is the sum of ten remaining-volume readings, not a single remaining or pumped volume. Pumped water after 10 hours is 600 L. |
+
+Key ideas include the block-sum formula: sum from k=p to q of a_k equals (q−p+1)(a_p+a_q)/2 for an arithmetic sequence and integer indices 1≤p≤q. It uses the first and last included terms, not necessarily the sequence's first term.
+
+### Homework 4
+
+Cambridge Year 12, copied from the booklet:
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 1F Q1–4 (alternate parts); Exercise 1B Q16 |
+| Medium | Exercise 1F Q1–6 (alternate parts); Exercise 1B Q16–17 |
+| Spicy | Exercise 1F Q1–8 (alternate parts); Exercise 1B Q16–17; Exercise 1F Q10, Q15 |
+
+### Sources and scope
+
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 4, printed pages 19–27. Teaching reference: `Arithmetic Series.pptx`; use the booklet's current Examples 4.1–4.9 and their values, wording and subparts. The old presentation informed the reversing-and-pairing explanation. Treat the Gauss classroom story as an anecdote, without asserting a particular age or punishment as an established historical fact. The HSC excerpt is the teacher-supplied `media/hsc-reference-sheet-sequences.png` already used in Lesson 3.
+
+This lesson covers finite arithmetic sums and constant-rate models. Geometric sums and compound interest belong to later lessons. No additional syllabus code or independently verified textbook edition is asserted. The lesson and its activities work offline after rendering. Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-4.qmd`; publish with the repository's manual workflow when ready.

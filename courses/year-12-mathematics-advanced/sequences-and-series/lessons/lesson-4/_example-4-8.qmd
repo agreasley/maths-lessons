@@ -1,0 +1,20 @@
+## Example 4.8 {#ss4-example-4-8 .ar-lesson .ar-interest-slide}
+
+<p class="ar-assumption">Assume simple interest.</p>
+
+Shirley invests \$8000 at $4\%$ per annum for $18$ months. Find:
+
+<div class="ar-subparts"><p><span>a)</span> the principal amount;</p><p><span>b)</span> the rate of interest;</p><p><span>c)</span> the number of periods;</p><p><span>d)</span> the amount of interest paid.</p></div>
+
+::: {.fragment data-fragment-index="0"}
+$$18\text{ months}=1.5\text{ years}$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 25 · Example 4.8</p>
+
+::: notes
+
+The source question does not explicitly state simple interest; the visible assumption makes its linear-growth context clear. Preserve all source values and subparts. a) P=$8000. b) r=0.04 per annum. c) 1.5 annual periods; equivalently 18 monthly periods at rate 0.04/12 per month. d) I=8000(0.04)(1.5)=$480. The balance is $8480, although only interest is requested. Connect to the discrete model using months: A_n=8000+n[8000(0.04)/12], n=0,…,18. Do not round the monthly increment before multiplying by 18. Annual interest is $320, not 4% of the evolving balance.
+
+:::

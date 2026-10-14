@@ -80,7 +80,14 @@
 .reveal .square-border .column-block p{font-size:27px;margin:23px 0}
 .reveal .square-border .takeaway{padding-left:16px;font-size:29px}
 .reveal .square-border .takeaway .katex-display{font-size:28px;margin:10px 0}
-.reveal .series-key-ideas li{font-size:28px;margin:15px 0}
-.reveal .series-key-ideas .takeaway{font-size:29px;margin:24px 0}
-.reveal .series-key-ideas .fragment .katex-display{font-size:32px;margin:15px 0}
-.reveal .series-key-ideas .fragment p{font-size:26px;margin:12px 0}
+.reveal .term-count-rule>p{font-size:28px;margin:20px 0}
+.reveal .term-count-rule>.katex-display{font-size:35px;margin:24px 0}
+.reveal .term-count-rule .takeaway{margin:24px 0;padding:15px 20px}
+.reveal .term-count-rule .takeaway .katex-display{font-size:25px;margin:8px 0}
+.reveal .term-count-rule .fragment>p{font-size:27px;margin:20px 0}
+.reveal .term-count-rule .fragment>.katex-display{font-size:26px;margin:24px 0}
+.reveal .series-summary-row{padding:10px 0 14px;border-bottom:1px solid var(--rule)}
+.reveal .series-summary-row h3{font-size:25px;color:var(--teal);margin:4px 0 10px}
+.reveal .series-summary-row .katex-display{font-size:31px;margin:10px 0}
+.reveal .series-summary-row:last-of-type{border-bottom:0}
+.reveal .series-key-ideas .booklet-cue{margin-top:18px;padding-top:12px}

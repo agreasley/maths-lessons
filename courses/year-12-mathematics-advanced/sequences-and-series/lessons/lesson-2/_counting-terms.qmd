@@ -7,7 +7,7 @@ Count the included indices before evaluating a sum.
 <p class="booklet-cue">Booklet p. 6 · Both endpoints are included.</p>
 
 ::: notes
-Start at k=3 and finish at k=7. Students count 3,4,5,6,7 and predict the number of terms before Reveal count. Develop upper limit − lower limit + 1. Change the bounds for a transfer check, for example 2 to 5. Selecting new bounds hides the count again. The controls keep the first index no greater than the last; equal bounds illustrate the one-term case. Reset returns to 3 through 7 with the count hidden.
+Start at k=3 and finish at k=7. Students count 3,4,5,6,7 and predict the number of terms before Reveal count. Notice upper bound − lower bound + 1, then establish the general rule on the following slide. Change the bounds for a transfer check, for example 2 to 5. Selecting new bounds hides the count again. The controls keep the first index no greater than the last; equal bounds illustrate the one-term case. Reset returns to 3 through 7 with the count hidden.
 
-The expanded a_k terms correspond exactly to the displayed indices. The general result is b−a+1, and does not depend on the formula for the values being added.
+The expanded a_k terms correspond exactly to the displayed indices. The general result on the following slide is q−p+1, and does not depend on the formula for the values being added.
 :::

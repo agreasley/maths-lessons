@@ -1,6 +1,6 @@
 ---
 title: "Sequences and Series"
-description: "Describe sequences, discover their rules and explore sums. Explore sequence notation, partial sums and sigma notation."
+description: "Describe sequences, discover their rules and explore sums. Explore sequence notation, partial sums and summation notation."
 metadata-files: [../../../_site-page.yml]
 topic-order: 1
 listing:

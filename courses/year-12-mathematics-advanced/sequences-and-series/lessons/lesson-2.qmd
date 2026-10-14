@@ -1,7 +1,7 @@
 ---
-pagetitle: "Lesson 2 — Partial sums and sigma notation"
-lesson-title: "Partial sums and sigma notation"
-description: "Build partial sums, interpret and write sigma notation, and recover terms from consecutive totals."
+pagetitle: "Lesson 2 — Partial sums and summation notation"
+lesson-title: "Partial sums and summation notation"
+description: "Build partial sums, interpret and write summation notation, and recover terms from consecutive totals."
 lesson-order: 2
 booklet: "Section 2 · Examples 2.1–2.4 · pp. 5–9"
 homework: "2 · Exercise 1E"
@@ -18,6 +18,8 @@ homework: "2 · Exercise 1E"
 {{< include lesson-2/_reading-sigma.qmd >}}
 
 {{< include lesson-2/_counting-terms.qmd >}}
+
+{{< include lesson-2/_term-count-rule.qmd >}}
 
 {{< include lesson-2/_example-2-1-ab.qmd >}}
 

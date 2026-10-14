@@ -1,0 +1,27 @@
+## Number of terms: a general rule {#ss2-term-count-rule .term-count-rule}
+
+For integer indices with $1\le p\le q$,
+
+$$\sum\limits_{n=p}^{q}a_n=a_p+a_{p+1}+\cdots+a_q$$
+
+How many terms are included?
+
+::: {.fragment data-fragment-index="0"}
+::: {.takeaway}
+$$\text{Number of terms}=\text{upper bound}-\text{lower bound}+1=q-p+1$$
+:::
+
+There are $q-p$ steps from $p$ to $q$. Add $1$ to include the starting term.
+:::
+
+::: {.fragment data-fragment-index="1"}
+$$p=1:\quad q-1+1=q\text{ terms}\qquad p=q:\quad q-q+1=1\text{ term}$$
+:::
+
+<p class="booklet-cue">Booklet p. 6 · Count both endpoints.</p>
+
+::: notes
+Connect to the previous slide: indices 3,4,5,6,7 give 7−3+1=5 terms. Use p and q for the lower and upper bounds so n can be the index in a_n. Ask for a rule before revealing it. The expression being added changes the values, but not how many indices are included.
+
+Next reveals q−p+1 and the explanation: q−p counts the steps between consecutive integer indices, while +1 includes the starting index. Next then shows the special cases. Starting at 1 gives q terms; equal bounds give exactly one term, a_p. The expanded ellipsis is shorthand for the inclusive list and collapses to that single term when p=q. The rule here assumes integer indices increasing by 1 and 1≤p≤q, consistent with the booklet's sequence indexing.
+:::

@@ -100,9 +100,9 @@ quarto render
 
 The course and topic listings discover the new lesson automatically. Publish using the repository's manual **Publish Quarto lessons** GitHub Actions workflow after source changes are on `main`.
 
-## Lesson 2: Partial sums and sigma notation
+## Lesson 2: Partial sums and summation notation
 
-Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Sixteen slides, approximately 55–60 minutes. The objective is to understand the connections between sequence terms, partial sums and summation notation. The success criterion is to evaluate and write sums using sigma notation and recover sequence terms from partial sums.
+Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Seventeen slides, approximately 55–60 minutes. The objective is to understand the connections between sequence terms, partial sums and summation notation. The success criterion is to evaluate and write sums using summation notation and recover sequence terms from partial sums.
 
 ### Sequence and pacing
 
@@ -110,15 +110,15 @@ Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Sixteen slide
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
 | 3 | Growing-square investigation | 3 minutes |
-| 4–6 | Terms, partial sums, series and sigma notation | 10 minutes |
-| 7–8 | Example 2.1(a–d) | 9 minutes |
-| 9 | Hinge, response and discussion | 3 minutes |
-| 10 | Example 2.2 and equivalent sigma expressions | 6 minutes |
-| 11–12 | Recovering terms and Example 2.3 | 8 minutes |
-| 13–14 | Square border and algebraic proof, Example 2.4 | 10 minutes |
-| 15–16 | Key ideas, exit response and homework | 3 minutes |
+| 4–7 | Terms, partial sums, series, summation notation and the term-count rule | 10 minutes |
+| 8–9 | Example 2.1(a–d) | 9 minutes |
+| 10 | Hinge, response and discussion | 3 minutes |
+| 11 | Example 2.2 and equivalent summation expressions | 6 minutes |
+| 12–13 | Recovering terms and Example 2.3 | 8 minutes |
+| 14–15 | Square border and algebraic proof, Example 2.4 | 10 minutes |
+| 16–17 | Key ideas and homework | 3 minutes |
 
-Allow remaining time for transitions and discussion. If needed, stop the opening after the fourth square and use only one change of sigma bounds. Retain all four booklet examples.
+Allow remaining time for transitions and discussion. If needed, stop the opening after the fourth square and use only one change of summation bounds. Retain all four booklet examples.
 
 ### Unit cover graphic
 
@@ -128,12 +128,13 @@ Both lesson covers use `media/sequence-cover.svg`, with successive 1-, 4-, 9- an
 
 - **Growing square:** Next layer adds the orange border but hides its new counts. Reveal counts records the number added and the total. Earlier recorded counts remain visible. Previous layer revisits earlier stages, and Reset restores the single dot and clears subsequent records. Stages 1–6 add 1,3,5,7,9,11 dots, with totals 1,4,9,16,25,36. The opening is about distinguishing a new term from a running total, not memorising a sum formula.
 - **Representations:** Next adds the partial sum, then the infinite series. Keep a_n distinct from S_n. A finite partial sum does not imply a finite limiting sum.
-- **Reading sigma:** Reveal the three substitutions at k=2,3,4 separately, then their sum. The introductory example is sum (2k+1) = 5+7+9 = 21, with bounds 2 through 4.
+- **Reading summation (sigma) notation:** Establish that the names mean the same thing. Place the upper and lower bounds above and below the summation symbol. Reveal the three substitutions at k=2,3,4 separately, then their sum. The introductory example is sum (2k+1) = 5+7+9 = 21, with bounds 2 through 4.
 - **Counting terms:** The starting bounds are 3 through 7. Change either selector to update the included integer indices and corresponding a_k terms. Reveal count displays upper−lower+1. Changes to bounds hide the count; bounds remain valid, including the single-term case. Reset restores the starting bounds with the count hidden.
+- **General term-count rule:** After the interactive count, write sum from n=p to q of a_n and expand it as a_p+a_(p+1)+…+a_q. Ask for the count before Next reveals q−p+1 and the explanation that q−p counts steps, while +1 includes the starting term. Next shows the cases p=1 and p=q. Use positive integer bounds with p≤q.
 - **Example 2.2:** Show two valid forms only after students attempt the question. The button hides the forms again if needed.
 - **Recovering terms:** Reveal cancellation of the shared total, then a_n=S_n−S_{n−1} for n≥2 and a_1=S_1.
 - **Square border:** Reveal the row of n dots and the column of n−1 dots, then their total 2n−1. The corner belongs to the row and is counted only once. The diagram uses n=5 as a schematic example of the general structure.
-- **Exit check:** Reveal a_10=120−101=19 only after collecting responses.
+- **Key ideas:** Display the partial-sum equation, the general summation with q−p+1 terms labelled beneath the expansion, and the equations for recovering a term. There is no additional exit question.
 
 All slide fragments use the standard Next and Previous controls. Interactive states remain in page memory when navigating or opening the slide map. No external applet, account or network access is needed by the two activities.
 

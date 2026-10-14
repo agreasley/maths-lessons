@@ -1,21 +1,25 @@
 ## Key ideas {#ss2-key-ideas .series-key-ideas}
 
-- $a_n$ is a **term**; $S_n$ is the **sum of the first $n$ terms**.
-- Sigma notation specifies the expression and the **included indices**.
-- Recover terms using $a_1=S_1$ and $a_n=S_n-S_{n-1}$ for $n\ge2$.
+::: {.series-summary-row}
+<h3>Partial sum</h3>
 
-::: {.takeaway}
-If $S_{10}=120$ and $S_9=101$, what does their difference represent?
+$$S_n=\sum\limits_{k=1}^{n}a_k=a_1+a_2+\cdots+a_n$$
 :::
 
-::: {.fragment}
-$$S_{10}-S_9=19=a_{10}$$
+::: {.series-summary-row}
+<h3>Summation (sigma) notation</h3>
 
-It is the tenth **term**, not the sum of ten terms.
+$$\sum\limits_{n=p}^{q}a_n=\underbrace{a_p+a_{p+1}+\cdots+a_q}_{q-p+1\text{ terms}}\qquad(1\le p\le q)$$
+:::
+
+::: {.series-summary-row}
+<h3>Recovering a term</h3>
+
+$$a_1=S_1\qquad a_n=S_n-S_{n-1}\quad(n\ge2)$$
 :::
 
 <p class="booklet-cue">Booklet p. 9 · Complete your Key Ideas box.</p>
 
 ::: notes
-Collect the exit response before Next reveals it. Expected: the difference is a_10=19. If students answer S_10=19, revisit the shared-term cancellation. Invite them to explain why changing the lower bound of a sum changes which terms are included. The student booklet's Key Ideas box remains for students to complete.
+Use the equations to summarise the lesson. In the first line n is the number of terms and k is the summation index. In the second line n is the summation index and p,q are positive integer bounds. Summation notation and sigma notation name the same notation. Both bounds are included, so the number of terms is q−p+1. If p=q, the sum contains only a_p. The final line connects consecutive partial sums to individual terms, with a_1=S_1 as the starting case. The student booklet's Key Ideas box remains for students to complete.
 :::

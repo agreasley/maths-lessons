@@ -99,3 +99,81 @@ quarto render
 ```
 
 The course and topic listings discover the new lesson automatically. Publish using the repository's manual **Publish Quarto lessons** GitHub Actions workflow after source changes are on `main`.
+
+## Lesson 2: Partial sums and sigma notation
+
+Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Sixteen slides, approximately 55–60 minutes. The objective is to understand the connections between sequence terms, partial sums and summation notation. The success criterion is to evaluate and write sums using sigma notation and recover sequence terms from partial sums.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–2 | Cover and learning goal | 1 minute |
+| 3 | Growing-square investigation | 3 minutes |
+| 4–6 | Terms, partial sums, series and sigma notation | 10 minutes |
+| 7–8 | Example 2.1(a–d) | 9 minutes |
+| 9 | Hinge, response and discussion | 3 minutes |
+| 10 | Example 2.2 and equivalent sigma expressions | 6 minutes |
+| 11–12 | Recovering terms and Example 2.3 | 8 minutes |
+| 13–14 | Square border and algebraic proof, Example 2.4 | 10 minutes |
+| 15–16 | Key ideas, exit response and homework | 3 minutes |
+
+Allow remaining time for transitions and discussion. If needed, stop the opening after the fourth square and use only one change of sigma bounds. Retain all four booklet examples.
+
+### Unit cover graphic
+
+Both lesson covers use `media/sequence-cover.svg`, with successive 1-, 4-, 9- and 16-dot squares and odd-numbered new layers. Use this graphic for later Sequences and Series lessons in place of the statistical bar motif. The topic's AGENTS.md records the teacher's preference.
+
+### Interactions and reveals
+
+- **Growing square:** Next layer adds the orange border but hides its new counts. Reveal counts records the number added and the total. Earlier recorded counts remain visible. Previous layer revisits earlier stages, and Reset restores the single dot and clears subsequent records. Stages 1–6 add 1,3,5,7,9,11 dots, with totals 1,4,9,16,25,36. The opening is about distinguishing a new term from a running total, not memorising a sum formula.
+- **Representations:** Next adds the partial sum, then the infinite series. Keep a_n distinct from S_n. A finite partial sum does not imply a finite limiting sum.
+- **Reading sigma:** Reveal the three substitutions at k=2,3,4 separately, then their sum. The introductory example is sum (2k+1) = 5+7+9 = 21, with bounds 2 through 4.
+- **Counting terms:** The starting bounds are 3 through 7. Change either selector to update the included integer indices and corresponding a_k terms. Reveal count displays upper−lower+1. Changes to bounds hide the count; bounds remain valid, including the single-term case. Reset restores the starting bounds with the count hidden.
+- **Example 2.2:** Show two valid forms only after students attempt the question. The button hides the forms again if needed.
+- **Recovering terms:** Reveal cancellation of the shared total, then a_n=S_n−S_{n−1} for n≥2 and a_1=S_1.
+- **Square border:** Reveal the row of n dots and the column of n−1 dots, then their total 2n−1. The corner belongs to the row and is counted only once. The diagram uses n=5 as a schematic example of the general structure.
+- **Exit check:** Reveal a_10=120−101=19 only after collecting responses.
+
+All slide fragments use the standard Next and Previous controls. Interactive states remain in page memory when navigating or opening the slide map. No external applet, account or network access is needed by the two activities.
+
+### Hinge and response routine
+
+For sum from k=2 to 5 of (2k−1), which statement is correct?
+
+1. Five terms, sum 25: starts incorrectly at k=1.
+2. **Four terms, sum 24: correct.** Indices 2,3,4,5 yield 3,5,7,9.
+3. Three terms, sum 15: excludes the upper endpoint.
+4. Four terms, sum 9: confuses the final term with the total.
+
+Use the shared default 60-second timer and numbered finger choices. Fist on chest, quiet thinking, then 1–4 fingers together on the teacher's verbal “show” cue. Timer expiry does not reveal correctness; the teacher uses the separate answer reveal. Reset clears the choice, answer and timer.
+
+Ready: justify the effect of the lower bound and proceed. Divided: compare lists of indices in pairs and re-poll. Reteach: align an index row with its term-value row, then count and add separately.
+
+### Worked checks
+
+| Example | Result and reasoning |
+|---|---|
+| 2.1(a) | 1+4+9+16+25+36+49+64=204. Eight terms. |
+| 2.1(b) | 14+19+24+29+34=120. Five terms, indices 3–7. |
+| 2.1(c) | 12−24+48−96=−60. Four terms, indices 2–5. |
+| 2.1(d) | Eight copies of 2 sum to 16. The constant expression is included once per index. |
+| 2.2 | Sum from k=2 to 6 of 1/(2k), or from k=1 to 5 of 1/(2k+2). Both reproduce 1/4+1/6+1/8+1/10+1/12. |
+| 2.3 | a_7=S_7−S_6=70−51=19. |
+| 2.4 | a_1=S_1=1. For n≥2, a_n=n²−(n−1)²=2n−1. Thus the sequence is 1,3,5,7,… . |
+
+Use explicit expansion for Example 2.1, without requiring arithmetic-series or sum-of-squares formulas. Full example solutions are in presenter notes. The graphical border argument supports, but does not replace, the requested algebraic proof in Example 2.4.
+
+### Homework 2
+
+Cambridge Year 12 Exercise 1E, copied from the booklet's front summary and page 9:
+
+| Level | Questions |
+|---|---|
+| Mild | Q1–5 (alternate parts), Q8 (a–f) |
+| Medium | Q3–6 (alternate parts), Q8–9 |
+| Spicy | Q5–10 |
+
+### Sources and scope
+
+The source booklet is `12MA__2026____Sequences_and_Series.pdf`, Section 2. The reference deck is `Series and Sigma Notation.pptx`: old Examples 1.6–1.9 correspond exactly to booklet Examples 2.1–2.4. Keep the current booklet's numbering, wording, subparts, bounds and values. Unlike the old deck's broad “finite series” wording, explicitly distinguish the nth partial sum from the corresponding infinite series, following the supplied syllabus notes. Formal arithmetic/geometric sum formulas and limiting sums belong to later lessons.

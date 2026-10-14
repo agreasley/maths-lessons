@@ -1,0 +1,28 @@
+## Reading sigma notation {#ss2-reading-sigma .reading-sigma}
+
+<div class="sigma-definition"><span data-math="\sum_{\textcolor{#3b66a8}{k=2}}^{\textcolor{#3b66a8}{4}}\textcolor{#b55224}{(2k+1)}">Sum from k = 2 to 4 of (2k + 1)</span><div><p class="sigma-index-key">Use every integer index from 2 to 4.</p><p class="sigma-rule-key">Substitute each index into the expression.</p><p>Add the resulting values.</p></div></div>
+
+::: {.sigma-substitutions}
+::: {.fragment data-fragment-index="0"}
+
+$$k=2:\quad 2(2)+1=5$$
+:::
+::: {.fragment data-fragment-index="1"}
+
+$$k=3:\quad 2(3)+1=7$$
+:::
+::: {.fragment data-fragment-index="2"}
+
+$$k=4:\quad 2(4)+1=9$$
+:::
+:::
+
+::: {.takeaway .fragment data-fragment-index="3"}
+$$\sum_{k=2}^{4}(2k+1)=5+7+9=21$$
+:::
+
+<p class="booklet-cue">Booklet p. 6 · Summation notation</p>
+
+::: notes
+Read aloud: the sum, from k equals 2 to 4, of 2k plus 1. Blue identifies the limits and index; orange identifies the expression. Reveal each substitution separately with Next, then the complete sum. Both endpoints are included. The index is a counter: replacing k consistently by another index letter does not change the sum. Do not use the upper limit as the number of terms unless the lower limit is 1.
+:::

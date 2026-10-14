@@ -1,0 +1,13 @@
+## Today's learning {#ss2-objective}
+
+### Lesson objective
+
+Understand the connections between sequence terms, partial sums and summation notation.
+
+### Success criteria
+
+I can evaluate and write sums using sigma notation and recover sequence terms from partial sums.
+
+::: notes
+This follows Section 2 of the booklet, printed pages 5–9. Students already know sequence notation and rules. Use the opening task as the connection to Lesson 1 rather than adding a separate prerequisite recap.
+:::

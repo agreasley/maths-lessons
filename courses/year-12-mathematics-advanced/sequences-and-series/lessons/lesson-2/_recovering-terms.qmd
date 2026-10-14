@@ -1,0 +1,26 @@
+## Recovering a term from partial sums {#ss2-recovering-terms .recovering-terms}
+
+$$\begin{aligned}
+S_4&=\textcolor{#3b66a8}{a_1+a_2+a_3}+\textcolor{#b55224}{a_4}\\
+S_3&=\textcolor{#3b66a8}{a_1+a_2+a_3}
+\end{aligned}$$
+
+What remains when we subtract $S_3$ from $S_4$?
+
+::: {.fragment data-fragment-index="0"}
+$$S_4-S_3=\textcolor{#3b66a8}{\cancel{(a_1+a_2+a_3)}}+\textcolor{#b55224}{a_4}-\textcolor{#3b66a8}{\cancel{(a_1+a_2+a_3)}}=\textcolor{#b55224}{a_4}$$
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+$$S_n=S_{n-1}+a_n\quad\Longrightarrow\quad a_n=S_n-S_{n-1}\quad(n\ge2)$$
+
+The first term is $a_1=S_1$.
+:::
+
+<p class="booklet-cue">Booklet p. 7 · Recovering the sequence from the partial sums</p>
+
+::: notes
+Use colour to identify the same shared total in both rows. Next reveals the cancellation; the next click gives the general relationship. The nth partial sum is the previous partial sum plus one new term. Reverse this relationship by subtraction.
+
+Use n≥2 for the difference formula as stated in the booklet, and handle a_1=S_1 separately. Defining S_0=0 is possible, but unnecessary for this lesson. Do not mistake S_n−S_{n−1} for S_n itself.
+:::

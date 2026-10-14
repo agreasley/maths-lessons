@@ -1,0 +1,14 @@
+## Example 2.1 · (c–d) {#ss2-example-2-1-cd .sigma-example}
+
+Evaluate the following expressions:
+
+<div class="sigma-example-part"><span>c)</span><span data-math="\displaystyle\sum_{k=2}^{5}\left(3\times(-2)^k\right)">Sum from k = 2 to 5 of 3 times (−2) to the power k</span></div>
+
+<div class="sigma-example-part"><span>d)</span><span data-math="\displaystyle\sum_{k=1}^{8}2">Sum from k = 1 to 8 of 2</span></div>
+
+<p class="booklet-cue">Booklet p. 6 · Example 2.1(c–d) · Complete the working in your booklet.</p>
+
+::: notes
+(c) 12−24+48−96=−60. Four terms. Keep brackets around the negative base and apply the exponent before multiplying by 3.
+(d) 2+2+2+2+2+2+2+2=16. The expression does not depend on k, but it is still included once for each of the eight indices. Ask why the answer is neither 2 nor 2 to the power 8.
+:::

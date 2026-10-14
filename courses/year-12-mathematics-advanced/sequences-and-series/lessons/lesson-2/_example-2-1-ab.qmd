@@ -1,0 +1,18 @@
+## Example 2.1 · (a–b) {#ss2-example-2-1-ab .sigma-example}
+
+Evaluate the following expressions:
+
+<div class="sigma-example-part"><span>a)</span><span data-math="\displaystyle\sum_{k=1}^{8}k^2">Sum from k = 1 to 8 of k squared</span></div>
+
+<div class="sigma-example-part"><span>b)</span><span data-math="\displaystyle\sum_{k=3}^{7}(5k-1)">Sum from k = 3 to 7 of (5k − 1)</span></div>
+
+<p class="booklet-cue">Booklet p. 6 · Example 2.1(a–b) · Complete the working in your booklet.</p>
+
+::: notes
+Preserve the booklet wording, bounds and expressions. Ask students to write the first and last substituted terms and count the terms before adding.
+
+(a) 1+4+9+16+25+36+49+64=204. Eight terms.
+(b) 14+19+24+29+34=120. Five terms, starting with k=3.
+
+No arithmetic-series or sum-of-squares formula is required here. Calculator arithmetic can follow a correct expansion.
+:::

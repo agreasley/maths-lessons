@@ -1,0 +1,7 @@
+## Partial sums and sigma notation {#ss2-opening .cover .sequence-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 2</div><div class="cover-title">Partial sums<br>and sigma notation</div><div class="cover-subtitle">Connect individual terms with running totals, and describe sums concisely.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 2 · Examples 2.1–2.4 · Homework 2</div>
+
+::: notes
+Allow 55–60 minutes. The growing-square activity revisits terms while introducing totals. Keep this opening to about 3 minutes and return to its geometry before Example 2.4. Preserve the distinction between one term and a partial sum throughout. Complete booklet example working in OneNote or the booklet. Presenter notes contain full worked checks.
+:::

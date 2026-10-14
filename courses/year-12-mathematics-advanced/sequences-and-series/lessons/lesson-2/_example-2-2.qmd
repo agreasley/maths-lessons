@@ -1,0 +1,13 @@
+## Example 2.2 {#ss2-example-2-2 .sigma-writing}
+
+Express $\displaystyle\frac14+\frac16+\frac18+\frac1{10}+\frac1{12}$ using summation notation.
+
+<div data-module="reveal-panel" class="sigma-alternatives"><button class="toggle-panel primary" aria-pressed="false">Show two valid forms</button><div class="panel-answer" hidden><div class="split"><div><span data-math="\displaystyle\sum_{k=2}^{6}\frac1{2k}">Sum from k = 2 to 6 of 1/(2k)</span><p>Start the index at 2.</p></div><div><span data-math="\displaystyle\sum_{k=1}^{5}\frac1{2k+2}">Sum from k = 1 to 5 of 1/(2k + 2)</span><p>Start the index at 1.</p></div></div><p class="small-note">Check the first term, last term and number of terms.</p></div></div>
+
+<p class="booklet-cue">Booklet p. 7 · Example 2.2 · Complete the working in your booklet.</p>
+
+::: notes
+Let students attempt the booklet example before showing either form. Preserve the original fraction list. First describe a rule for the terms, then choose bounds that reproduce the exact five fractions.
+
+Both displayed forms are valid: sum from k=2 to 6 of 1/(2k), or sum from k=1 to 5 of 1/(2k+2). The index can also be renamed consistently. A common incorrect answer starts 1/(2k) at k=1 and adds 1/2. Check first term, last term and count instead of insisting on one particular starting index.
+:::

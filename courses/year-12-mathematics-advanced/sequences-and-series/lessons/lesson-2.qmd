@@ -1,0 +1,40 @@
+---
+pagetitle: "Lesson 2 — Partial sums and sigma notation"
+lesson-title: "Partial sums and sigma notation"
+description: "Build partial sums, interpret and write sigma notation, and recover terms from consecutive totals."
+lesson-order: 2
+booklet: "Section 2 · Examples 2.1–2.4 · pp. 5–9"
+homework: "2 · Exercise 1E"
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_objective.qmd >}}
+
+{{< include lesson-2/_square-investigation.qmd >}}
+
+{{< include lesson-2/_terms-totals-series.qmd >}}
+
+{{< include lesson-2/_reading-sigma.qmd >}}
+
+{{< include lesson-2/_counting-terms.qmd >}}
+
+{{< include lesson-2/_example-2-1-ab.qmd >}}
+
+{{< include lesson-2/_example-2-1-cd.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_example-2-2.qmd >}}
+
+{{< include lesson-2/_recovering-terms.qmd >}}
+
+{{< include lesson-2/_example-2-3.qmd >}}
+
+{{< include lesson-2/_square-border.qmd >}}
+
+{{< include lesson-2/_example-2-4.qmd >}}
+
+{{< include lesson-2/_key-ideas.qmd >}}
+
+{{< include lesson-2/_homework.qmd >}}

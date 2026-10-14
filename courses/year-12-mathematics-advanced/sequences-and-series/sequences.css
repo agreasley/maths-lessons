@@ -24,3 +24,63 @@
 .reveal .fibonacci-explanation .previous{color:var(--blue);font-weight:700}
 .reveal .fibonacci-explanation .before{color:var(--orange);font-weight:700}
 .reveal .recursive-rules .booklet-cue{margin-top:13px;padding-top:9px}
+/* A unit-specific cover motif connects terms with growing partial sums. */
+.reveal .sequence-cover .cover-title{margin-top:42px;margin-bottom:22px}
+.reveal .sequence-cover .cover-subtitle{max-width:1060px;font-size:29px;line-height:1.4}
+.reveal .sequence-cover-art{display:block;width:670px;height:174px;max-width:none;max-height:none;margin:20px 0 0;object-fit:contain;object-position:left}
+/* Lesson 2: distinguish each new term from the accumulating total. */
+.reveal .odd-square button,.reveal .sigma-indices button,.reveal .sigma-indices select,.reveal .sigma-alternatives button{min-height:56px}
+.reveal .square-investigation>p{font-size:29px;margin:14px 0}
+.reveal .square-build-layout{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}
+.reveal .square-build-svg{display:block;width:100%;height:342px;max-width:none;max-height:none;margin:0}
+.reveal .square-record table{font-size:26px;margin:0}
+.reveal .square-record table th,.reveal .square-record table td{padding:8px 10px}
+.reveal .square-record tbody th{font-weight:400;font-size:25px}
+.reveal .square-current{background:#f7e8df;font-weight:700}
+.reveal .square-future{color:#879395}
+.reveal .square-legend{display:flex;gap:27px;justify-content:center;font-size:21px;margin:0}
+.reveal .square-legend span::before{content:"";display:inline-block;width:14px;height:14px;margin-right:8px;border-radius:50%;background:var(--teal)}
+.reveal .square-legend .new-layer-key::before{background:var(--orange)}
+.reveal .square-total{min-height:50px;font-size:30px;margin-top:18px;padding:12px 20px;border-left:5px solid var(--teal)}
+.reveal .series-representation{padding:12px 0;border-bottom:1px solid var(--rule)}
+.reveal .series-label{font-size:23px;color:var(--teal);font-weight:700}
+.reveal .series-representation .katex-display{font-size:28px;margin:12px 0}
+.reveal .series-representation p{font-size:25px;margin:8px 0}
+.reveal .terms-totals .booklet-cue{margin-top:16px;padding-top:10px}
+.reveal .sigma-definition{display:grid;grid-template-columns:390px 1fr;gap:35px;align-items:center;margin:24px 0}
+.reveal .sigma-definition>.math-token{font-size:47px;text-align:center}
+.reveal .sigma-definition p{font-size:25px;margin:10px 0}
+.reveal .sigma-index-key{color:var(--blue)}
+.reveal .sigma-rule-key{color:var(--orange)}
+.reveal .sigma-substitutions{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:24px 0}
+.reveal .sigma-substitutions .katex-display{font-size:26px;margin:18px 0}
+.reveal .reading-sigma .takeaway .katex-display{font-size:32px;margin:12px 0}
+.reveal .sigma-live-expression{font-size:48px;min-height:123px;margin:20px 0 22px}
+.reveal .sigma-index-strip{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}
+.reveal .sigma-index{display:inline-flex;justify-content:center;align-items:center;min-width:85px;height:65px;padding:0 10px;background:#e6edf5;border-bottom:3px solid var(--blue);font-size:25px;color:var(--blue);box-sizing:border-box}
+.reveal .sigma-expanded{font-size:31px;min-height:48px;margin:22px 0}
+.reveal .sigma-count-result{min-height:82px;font-size:30px;border-left:5px solid var(--teal);padding:12px 20px}
+.reveal .sigma-count-result p{font-size:22px;margin:8px 0 0;color:var(--muted)}
+.reveal .sigma-example-part{display:flex;align-items:center;gap:30px;font-size:37px;min-height:150px;margin:16px 0}
+.reveal .sigma-example-part>span:first-child{font-size:30px}
+.reveal .sigma-hinge .hinge-question{display:flex;align-items:center;gap:17px;font-size:29px;min-height:100px;margin:0 0 13px}
+.reveal .sigma-hinge .hinge-question>.math-token{font-size:36px}
+.reveal .sigma-alternatives{margin:45px 0 20px}
+.reveal .sigma-alternatives .panel-answer{margin-top:35px}
+.reveal .sigma-alternatives .split{min-height:160px;align-items:center}
+.reveal .sigma-alternatives .split .math-token{font-size:42px}
+.reveal .sigma-alternatives .split p{font-size:25px;margin-top:32px}
+.reveal .recovering-terms>.katex-display{font-size:33px;margin:28px 0}
+.reveal .recovering-terms .fragment>.katex-display{font-size:27px;margin:20px 0}
+.reveal .recovering-terms .takeaway{font-size:27px;padding:12px 20px;margin:20px 0}
+.reveal .recovering-terms .takeaway p{font-size:26px;margin:13px 0}
+.reveal .border-layout{grid-template-columns:460px 1fr;gap:38px;align-items:center}
+.reveal .square-border-svg{display:block;width:100%;height:405px;max-width:none;max-height:none;margin:0}
+.reveal .square-border .column-block h3{font-size:29px}
+.reveal .square-border .column-block p{font-size:27px;margin:23px 0}
+.reveal .square-border .takeaway{padding-left:16px;font-size:29px}
+.reveal .square-border .takeaway .katex-display{font-size:28px;margin:10px 0}
+.reveal .series-key-ideas li{font-size:28px;margin:15px 0}
+.reveal .series-key-ideas .takeaway{font-size:29px;margin:24px 0}
+.reveal .series-key-ideas .fragment .katex-display{font-size:32px;margin:15px 0}
+.reveal .series-key-ideas .fragment p{font-size:26px;margin:12px 0}

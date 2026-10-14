@@ -1,0 +1,13 @@
+## Homework 2 {#ss2-homework}
+
+<div class="eyebrow">Cambridge Year 12 · Exercise 1E</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1–5 (alternate parts), Q8 (a–f)</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q3–6 (alternate parts), Q8–9</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q5–10</span></div>
+
+<p class="booklet-cue">Booklet p. 9 · Homework 2</p>
+
+::: notes
+Copied exactly from Homework 2 in the supplied booklet and its front summary. Keep these references unchanged. The textbook edition was not supplied for independent verification.
+:::

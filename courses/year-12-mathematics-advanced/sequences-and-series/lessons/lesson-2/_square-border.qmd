@@ -1,0 +1,29 @@
+## What does the new layer add? {#ss2-square-border .square-border}
+
+::: {.split .border-layout}
+<div><svg class="square-border-svg" viewBox="0 0 430 390" role="img" aria-label="A square grows by a top row of n dots and a right column of n minus one dots, without counting the corner twice" xmlns="http://www.w3.org/2000/svg"><circle cx="68" cy="320" r="13" fill="#a6b7b3"/><circle cx="118" cy="320" r="13" fill="#a6b7b3"/><circle cx="168" cy="320" r="13" fill="#a6b7b3"/><circle cx="218" cy="320" r="13" fill="#a6b7b3"/><circle cx="268" cy="320" r="13" fill="#3b66a8"/><circle cx="68" cy="270" r="13" fill="#a6b7b3"/><circle cx="118" cy="270" r="13" fill="#a6b7b3"/><circle cx="168" cy="270" r="13" fill="#a6b7b3"/><circle cx="218" cy="270" r="13" fill="#a6b7b3"/><circle cx="268" cy="270" r="13" fill="#3b66a8"/><circle cx="68" cy="220" r="13" fill="#a6b7b3"/><circle cx="118" cy="220" r="13" fill="#a6b7b3"/><circle cx="168" cy="220" r="13" fill="#a6b7b3"/><circle cx="218" cy="220" r="13" fill="#a6b7b3"/><circle cx="268" cy="220" r="13" fill="#3b66a8"/><circle cx="68" cy="170" r="13" fill="#a6b7b3"/><circle cx="118" cy="170" r="13" fill="#a6b7b3"/><circle cx="168" cy="170" r="13" fill="#a6b7b3"/><circle cx="218" cy="170" r="13" fill="#a6b7b3"/><circle cx="268" cy="170" r="13" fill="#3b66a8"/><circle cx="68" cy="120" r="13" fill="#b55224"/><circle cx="118" cy="120" r="13" fill="#b55224"/><circle cx="168" cy="120" r="13" fill="#b55224"/><circle cx="218" cy="120" r="13" fill="#b55224"/><circle cx="268" cy="120" r="13" fill="#b55224"/><path d="M48 82V70H288V82" fill="none" stroke="#b55224" stroke-width="3"/><path d="M310 148H324V340H310" fill="none" stroke="#3b66a8" stroke-width="3"/><text x="168" y="51" text-anchor="middle" fill="#b55224" font-family="Arial,sans-serif" font-size="24">new row</text><text x="346" y="220" fill="#3b66a8" font-family="Arial,sans-serif" font-size="22"><tspan x="346">new</tspan><tspan x="346" dy="26">column</tspan></text><path d="M44 345H245V145H44Z" fill="none" stroke="#607078" stroke-width="2" stroke-dasharray="5 5"/></svg></div>
+::: {.column-block}
+<h3>From one square to the next</h3>
+
+The total grows from $(n-1)^2$ to $n^2$.
+
+::: {.fragment data-fragment-index="0"}
+
+The new row has $\textcolor{#b55224}{n}$ dots.
+
+The new column below it has $\textcolor{#3b66a8}{n-1}$ dots.
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+$$\textcolor{#b55224}{n}+\textcolor{#3b66a8}{(n-1)}=2n-1$$
+:::
+:::
+:::
+
+<p class="booklet-cue">Connect the opening pattern to Example 2.4.</p>
+
+::: notes
+The diagram illustrates the structure with a 5×5 square, but the labels describe any n≥2. The grey region is the previous (n−1)×(n−1) square. Count the whole orange top row, including the top-right corner, then the blue right column below it. That corner is counted once, so the new layer has n+(n−1)=2n−1 dots.
+
+First Next reveals the two counts. Second Next reveals their sum. The first square is a separate starting case of one dot. Ask students to translate this visual explanation into algebra in Example 2.4.
+:::

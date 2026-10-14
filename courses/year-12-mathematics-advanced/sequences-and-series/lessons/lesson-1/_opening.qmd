@@ -1,6 +1,6 @@
-## What is a sequence? {#ss1-opening .cover}
+## What is a sequence? {#ss1-opening .cover .sequence-cover}
 
-<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 1</div><div class="cover-title">What is<br>a sequence?</div><div class="cover-subtitle">Explore familiar patterns, discover unexpected sequences and describe their rules.</div><div class="cover-bars" aria-hidden="true"><span style="height:20%"></span><span style="height:30%"></span><span style="height:50%"></span><span style="height:75%"></span><span style="height:100%"></span></div><div class="cover-foot">Section 1 · Examples 1.1–1.7 · Homework 1</div>
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 1</div><div class="cover-title">What is<br>a sequence?</div><div class="cover-subtitle">Explore familiar patterns, discover unexpected sequences and describe their rules.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 1 · Examples 1.1–1.7 · Homework 1</div>
 
 ::: notes
 Allow about 60 minutes. Keep OEIS to 6–8 minutes. The class is comfortable with function notation, substitution and inputs/outputs, so there is no prerequisite recap. Complete the booklet examples in OneNote. Press S for presenter notes on a computer.

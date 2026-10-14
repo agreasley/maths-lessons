@@ -1,0 +1,11 @@
+## Building a square {#ss2-square-investigation .square-investigation}
+
+How many dots were **added**? How many are there **altogether**?
+
+<div data-module="odd-square" class="odd-square" aria-label="Build square dot patterns by adding odd-numbered layers"></div>
+
+::: notes
+About 3 minutes. Start with the single dot, then ask students to predict the effect of the next layer. Next layer adds the dots but keeps the new counts hidden. Reveal counts records the added number and total. Build as far as the fourth square, with the fifth or sixth optional. Previous layer revisits a smaller square; Reset restores the single dot and clears the recorded counts.
+
+The new orange layer contains 3, then 5, then 7 dots. Totals are 4, 9 and 16. Ask students to distinguish the amount added from the running total. Invite a quick observation and prediction. Do not state the general formula yet; return to the diagram before the algebraic proof in Example 2.4.
+:::

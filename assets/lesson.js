@@ -672,8 +672,52 @@
     $(m,'.fibonacci-next').addEventListener('click',()=>{if(shown<values.length)shown++;draw();});
     $(m,'.fibonacci-reset').addEventListener('click',()=>{shown=2;draw();});draw();
   }
+  function oddSquare(m){
+    const limit=6;let n=1;const revealed=new Set([1]);
+    m.innerHTML='<div class="toolbar"><button class="square-back">Previous layer</button><button class="square-next primary">Next layer</button><button class="square-reveal">Reveal counts</button><button class="square-reset">Reset</button></div><div class="square-build-layout"><div><div class="square-plot"></div><p class="square-legend"><span class="old-layer-key">Earlier dots</span><span class="new-layer-key">New layer</span></p></div><div class="square-record"></div></div><div class="square-total" aria-live="polite"></div>';
+    const draw=()=>{
+      const step=44,x0=210-(n-1)*step/2,y0=171+(n-1)*step/2;let dots='';
+      for(let row=0;row<n;row++)for(let col=0;col<n;col++){
+        const isNew=row===n-1||col===n-1;
+        dots+=`<circle cx="${x0+col*step}" cy="${y0-row*step}" r="14" fill="${isNew?'#b55224':'#007f78'}" data-new="${isNew}"/>`;
+      }
+      $(m,'.square-plot').innerHTML=`<svg class="square-build-svg" viewBox="0 0 420 342" role="img" aria-label="Square pattern at stage ${n}; the newly added top row and right column are orange" xmlns="http://www.w3.org/2000/svg">${dots}</svg>`;
+      const rows=Array.from({length:limit},(_,i)=>{
+        const k=i+1,known=k<=n&&revealed.has(k),pending=k===n&&!known;
+        return `<tr class="${k===n?'square-current':k>n?'square-future':''}"><th scope="row">${k}</th><td>${known?2*k-1:pending?'?':'—'}</td><td>${known?k*k:pending?'?':'—'}</td></tr>`;
+      }).join('');
+      $(m,'.square-record').innerHTML=`<table><thead><tr><th scope="col">Stage</th><th scope="col">Added</th><th scope="col">Total</th></tr></thead><tbody>${rows}</tbody></table><p class="small-note">What changes? What stays the same?</p>`;
+      $(m,'.square-total').innerHTML=revealed.has(n)?math(Array.from({length:n},(_,i)=>2*i+1).join('+')+'='+n*n):'Count the new layer and the total, then reveal.';
+      $(m,'.square-back').disabled=n===1;$(m,'.square-next').disabled=n===limit;
+      $(m,'.square-reveal').disabled=revealed.has(n);$(m,'.square-reveal').textContent=revealed.has(n)?'Counts shown':'Reveal counts';
+      m.dataset.stage=String(n);m.dataset.countsVisible=String(revealed.has(n));typeset(m);
+    };
+    $(m,'.square-next').onclick=()=>{if(n<limit)n++;draw();};
+    $(m,'.square-back').onclick=()=>{if(n>1)n--;draw();};
+    $(m,'.square-reveal').onclick=()=>{revealed.add(n);draw();};
+    $(m,'.square-reset').onclick=()=>{n=1;revealed.clear();revealed.add(1);draw();};draw();
+  }
+  function sigmaIndices(m){
+    let first=3,last=7,revealed=false;
+    const options=Array.from({length:10},(_,i)=>`<option value="${i+1}">${i+1}</option>`).join('');
+    m.innerHTML=`<div class="toolbar"><label>First index <select class="sigma-first" aria-label="First index">${options}</select></label><label>Last index <select class="sigma-last" aria-label="Last index">${options}</select></label><button class="sigma-count primary" aria-expanded="false">Reveal count</button><button class="sigma-reset">Reset</button></div><div class="sigma-live-expression"></div><div class="sigma-index-strip" aria-label="Included indices"></div><div class="sigma-expanded"></div><div class="sigma-count-result" aria-live="polite"></div>`;
+    const draw=()=>{
+      const indices=Array.from({length:last-first+1},(_,i)=>first+i);
+      $(m,'.sigma-first').value=String(first);$(m,'.sigma-last').value=String(last);
+      $(m,'.sigma-live-expression').innerHTML=math(`\\displaystyle\\sum_{\\textcolor{#3b66a8}{k=${first}}}^{\\textcolor{#3b66a8}{${last}}}a_k`);
+      $(m,'.sigma-index-strip').innerHTML=indices.map(k=>`<span class="sigma-index">${math(`k=${k}`)}</span>`).join('');
+      $(m,'.sigma-expanded').innerHTML=math(indices.map(k=>`a_{${k}}`).join('+'));
+      $(m,'.sigma-count-result').innerHTML=revealed?math(`${last}-${first}+1=${indices.length}`)+' term'+(indices.length===1?'':'s')+'<p>Upper limit − lower limit + 1</p>':'How many terms are included?';
+      $(m,'.sigma-count').textContent=revealed?'Hide count':'Reveal count';$(m,'.sigma-count').setAttribute('aria-expanded',String(revealed));
+      m.dataset.first=String(first);m.dataset.last=String(last);m.dataset.count=String(indices.length);m.dataset.revealed=String(revealed);typeset(m);
+    };
+    $(m,'.sigma-first').onchange=e=>{first=Number(e.target.value);last=Math.max(first,last);revealed=false;draw();};
+    $(m,'.sigma-last').onchange=e=>{last=Number(e.target.value);first=Math.min(first,last);revealed=false;draw();};
+    $(m,'.sigma-count').onclick=()=>{revealed=!revealed;draw();};
+    $(m,'.sigma-reset').onclick=()=>{first=3;last=7;revealed=false;draw();};draw();
+  }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

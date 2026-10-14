@@ -1,0 +1,9 @@
+## Example 2.3 {#ss2-example-2-3}
+
+Given that $S_n$ denotes the $n$th partial sum of a sequence, and that $S_5=35$, $S_6=51$, $S_7=70$, $S_8=92$ Find the value of the 7th term of the sequence.
+
+<p class="booklet-cue">Booklet p. 8 · Example 2.3 · Complete the working in your booklet.</p>
+
+::: notes
+Retain the source wording and values. a_7=S_7−S_6=70−51=19. Ask which two partial sums contain the information required, and why S_8−S_7 would instead find a_8. The other differences are a_6=16 and a_8=22, but they are not needed to answer the question.
+:::

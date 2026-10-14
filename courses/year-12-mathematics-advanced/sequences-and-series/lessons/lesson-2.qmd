@@ -39,4 +39,6 @@ homework: "2 · Exercise 1E"
 
 {{< include lesson-2/_key-ideas.qmd >}}
 
+{{< include lesson-2/_unrolling-sums.qmd >}}
+
 {{< include lesson-2/_homework.qmd >}}

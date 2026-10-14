@@ -102,7 +102,7 @@ The course and topic listings discover the new lesson automatically. Publish usi
 
 ## Lesson 2: Partial sums and summation notation
 
-Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Seventeen slides, approximately 55–60 minutes. The objective is to understand the connections between sequence terms, partial sums and summation notation. The success criterion is to evaluate and write sums using summation notation and recover sequence terms from partial sums.
+Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Eighteen slides, approximately 55–60 minutes plus an optional 2-minute extension. The objective is to understand the connections between sequence terms, partial sums and summation notation. The success criterion is to evaluate and write sums using summation notation and recover sequence terms from partial sums.
 
 ### Sequence and pacing
 
@@ -116,7 +116,9 @@ Section 2, printed pages 5–9, Examples 2.1–2.4 and Homework 2. Seventeen sli
 | 11 | Example 2.2 and equivalent summation expressions | 6 minutes |
 | 12–13 | Recovering terms and Example 2.3 | 8 minutes |
 | 14–15 | Square border and algebraic proof, Example 2.4 | 10 minutes |
-| 16–17 | Key ideas and homework | 3 minutes |
+| 16 | Key ideas | 2 minutes |
+| 17 | Optional extension: unrolling a sum | 2 minutes |
+| 18 | Homework | 1 minute |
 
 Allow remaining time for transitions and discussion. If needed, stop the opening after the fourth square and use only one change of summation bounds. Retain all four booklet examples.
 
@@ -135,6 +137,7 @@ Both lesson covers use `media/sequence-cover.svg`, with successive 1-, 4-, 9- an
 - **Recovering terms:** Reveal cancellation of the shared total, then a_n=S_n−S_{n−1} for n≥2 and a_1=S_1.
 - **Square border:** Reveal the row of n dots and the column of n−1 dots, then their total 2n−1. The corner belongs to the row and is counted only once. The diagram uses n=5 as a schematic example of the general structure.
 - **Key ideas:** Display the partial-sum equation, the general summation with q−p+1 terms labelled beneath the expansion, and the equations for recovering a term. There is no additional exit question.
+- **Optional extension:** After Key Ideas, expand the sum from n=p to q of a_n. Next separates a_p and raises the lower bound to p+1. Next separates a_q and lowers the upper bound to q−1. Blue and orange link each separated term to its changed bound. Both identities preserve the total. Use integer bounds 1≤p<q so the remaining sum is nonempty. For a concrete check, set p=2 and q=5. Taking p=1 in the last-term form recovers the earlier partial-sum relationship.
 
 All slide fragments use the standard Next and Previous controls. Interactive states remain in page memory when navigating or opening the slide map. No external applet, account or network access is needed by the two activities.
 

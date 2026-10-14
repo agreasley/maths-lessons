@@ -1,0 +1,27 @@
+## Extension · Unrolling a sum {#ss2-unrolling-sums .unrolling-sums}
+
+For integer bounds $1\le p<q$,
+
+$$\sum\limits_{n=p}^{q}a_n=\textcolor{#3b66a8}{a_p}+a_{p+1}+\cdots+a_{q-1}+\textcolor{#b55224}{a_q}$$
+
+::: {.unrolling-step .fragment data-fragment-index="0"}
+<h3>Separate the first term</h3>
+
+$$\sum\limits_{n=p}^{q}a_n=\textcolor{#3b66a8}{a_p}+\sum\limits_{n=\textcolor{#3b66a8}{p+1}}^{q}a_n$$
+:::
+
+::: {.unrolling-step .fragment data-fragment-index="1"}
+<h3>Separate the last term</h3>
+
+$$\sum\limits_{n=p}^{q}a_n=\sum\limits_{n=p}^{\textcolor{#b55224}{q-1}}a_n+\textcolor{#b55224}{a_q}$$
+
+<p class="small-note">The separated term stays outside the summation. The total is unchanged.</p>
+:::
+
+::: notes
+Optional 2-minute extension after Key Ideas. Start with the expanded sum. Ask which lower bound leaves out the first term, then use Next to show a_p outside the sum and p+1 as the new lower bound. Ask which upper bound leaves out the last term, then use Next to show q−1 as the new upper bound with a_q outside the sum. Blue links the first term to the changed lower bound; orange links the last term to the changed upper bound.
+
+If students need a concrete check, use p=2 and q=5: a_2+a_3+a_4+a_5 can be written as a_2 plus the sum from n=3 to 5, or the sum from n=2 to 4 plus a_5. No term disappears from the total, and the expression a_n inside the remaining sum is unchanged. We are adjusting a bound, not renaming or shifting the summation index.
+
+The condition p<q ensures at least two terms, so the remaining sum is nonempty. The displayed expansion is shorthand for the inclusive list; for two terms it is simply a_p+a_q. Taking p=1 in the last-term identity gives S_q=S_(q−1)+a_q, connecting with the earlier partial-sum relationship. If time is short, move straight from Key Ideas to Homework using the slide map.
+:::

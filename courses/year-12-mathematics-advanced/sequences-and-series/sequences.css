@@ -91,3 +91,10 @@
 .reveal .series-summary-row .katex-display{font-size:31px;margin:10px 0}
 .reveal .series-summary-row:last-of-type{border-bottom:0}
 .reveal .series-key-ideas .booklet-cue{margin-top:18px;padding-top:12px}
+
+/* Optional extension: separate an endpoint while preserving the total. */
+.reveal .unrolling-sums>p{font-size:27px;margin:16px 0}
+.reveal .unrolling-sums .katex-display{font-size:31px;margin:12px 0}
+.reveal .unrolling-step{border-top:1px solid var(--rule);margin-top:22px;padding-top:14px}
+.reveal .unrolling-step h3{font-size:25px;margin:0 0 10px;color:var(--teal)}
+.reveal .unrolling-step .small-note{font-size:24px;margin:18px 0 0}

@@ -6,7 +6,7 @@ Keep $x=13$. Change which endpoint is included.
 ```
 
 ::: {.takeaway}
-No gaps. No overlaps. A clear boundary convention.
+Every data point should only belong to one bin (bucket)
 :::
 
 ::: notes

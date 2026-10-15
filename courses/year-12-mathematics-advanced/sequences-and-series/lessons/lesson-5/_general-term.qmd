@@ -5,20 +5,30 @@ Reaching term $n$ from term $1$ takes **$n-1$ multiplications** by $r$.
 ::: {.split .gp-formula-layout}
 ::: {.column-block}
 ::: {.takeaway .fragment data-fragment-index="0"}
+
 $$a_n=\textcolor{#3b66a8}{a}\,\textcolor{#b55224}{r^{n-1}}\qquad(n\ge1)$$
+
 :::
+
 ::: {.fragment data-fragment-index="1"}
+
 $$n=1:\quad a_1=ar^0=a$$
 
 $$n=4:\quad a_4=ar^3$$
 
 The index $n$ is a positive integer.
+
 :::
 :::
+
 ::: {.column-block .gp-reference-excerpt .fragment data-fragment-index="0"}
+
 <h3>HSC formula sheet</h3>
-<div class="gp-reference-image"><img src="../media/hsc-reference-sheet-arithmetic-sums.png" alt="Sequences and series reference-sheet excerpt. A teal outline marks the third formula, a subscript n equals a r to the power n minus one. The original red outline marks the arithmetic sum from Lesson 4."><span class="gp-reference-focus" aria-hidden="true"></span></div>
-<p class="small-note">Third formula, outlined in teal.</p>
+
+<div class="gp-reference-image">
+<img src="../media/hsc-reference-sheet-geometric.png" alt="Sequences and series section of the HSC reference sheet.">
+</div>
+
 :::
 :::
 
@@ -26,6 +36,13 @@ The index $n$ is a positive integer.
 
 ::: notes
 
-First click reveals the general term and reference-sheet excerpt. Second click checks n=1 and n=4. For a finite GP, stop at its final index. The screenshot is the teacher-supplied high-resolution image from Lesson 4, unchanged. A separate HTML annotation outlines the third formula in teal; its original red outline refers to the arithmetic sum studied previously. This avoids altering or recreating the printed mathematical text. Other sum formulas remain for later lessons. Source: teacher-supplied HSC reference-sheet screenshot, 15 October 2026. The formula agrees with the current Section 5 booklet.
+First click reveals the general term and reference-sheet excerpt.
+Second click checks n=1 and n=4.
+
+For a finite GP, stop at its final index. Point students to the
+geometric general-term formula on the reference sheet.
+Other sum formulas will be studied in later lessons.
+
+Source: teacher-supplied HSC reference-sheet image.
 
 :::

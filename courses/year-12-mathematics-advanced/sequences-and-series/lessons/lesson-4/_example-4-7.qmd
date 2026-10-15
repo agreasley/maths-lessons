@@ -15,7 +15,7 @@ One row gives a term.<br>The whole display gives a sum.
 
 :::
 ::: {.column-block}
-<img class="ar-cans-diagram" src="../media/arithmetic-can-display.svg" alt="Fifteen centred rows of cans, starting with 5, then 7, then 9, and increasing by 2 per row. The bottom row is highlighted.">
+<img class="ar-cans-diagram" src="../media/arithmetic-can-display.svg" alt="Fifteen centred rows of cans, starting with 5, then 7, then 9, and increasing by 2 per row. The first four rows are labelled with their row number and 5, 7, 9 and 11 cans. The bottom row is highlighted.">
 
 :::
 

@@ -1,0 +1,23 @@
+## Geometric sequences and exponential functions {#ss5-exponential .gp-lesson .gp-exponential}
+
+$$a_n=ar^{n-1}=\left(\frac ar\right)r^n$$
+
+::: {.fragment data-fragment-index="0"}
+For $r>0$, the sequence terms lie on
+
+$$f(x)=ar^{x-1}=\left(\frac ar\right)r^x\qquad\text{at }x=n\in\mathbb Z^+.$$
+
+When $r=1$, this becomes the constant function $f(x)=a$.
+:::
+
+::: {.fragment .takeaway data-fragment-index="1"}
+For $r<0$, the terms alternate in sign. There is **no ordinary real exponential curve** with this negative base over all real inputs.
+:::
+
+<p class="booklet-cue">Booklet p. 32 · Geometric sequences as exponential functions</p>
+
+::: notes
+
+The sequence domain remains the positive integers, even when a continuous function generates its values there. For r>0 and r≠1 the generating function is exponential; r=1 is the constant case. For positive a, r>1 gives increasing positive terms and 0<r<1 gives positive terms tending to zero. For negative a, use magnitude: r>1 moves away from zero and 0<r<1 approaches zero from below. For r<0, integer powers are defined and signs alternate, but the negative-base power expression is not a real-valued exponential function for all real inputs. For instance (−1)^(1/2) is not real. This does not mean no smooth function can pass through the same discrete points; the restriction is specifically to an ordinary real exponential curve. Do not say every non-integer power of a negative number is non-real: some rational exponents are real.
+
+:::

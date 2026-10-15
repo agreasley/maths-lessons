@@ -1,0 +1,24 @@
+## Carl Friedrich Gauss {#ss4-gauss-story .ar-lesson .ar-gauss-story}
+
+<p class="ar-gauss-bio"><strong>1777–1855</strong> · A German mathematician whose work shaped number theory, geometry and astronomy.</p>
+
+<p class="ar-story-label">A famous classroom story — the details are uncertain.</p>
+
+In one popular version, young Gauss is misbehaving. To keep him busy, his teacher tells him to add all the integers from $1$ to $100$.
+
+Almost immediately, Gauss gives his answer:
+
+::: {.fragment data-fragment-index="0"}
+$$5050$$
+
+<p class="ar-story-question">How did he do it?</p>
+
+:::
+
+::: notes
+
+Allow about one minute. Present this explicitly as a popular classroom story, not a verified account of Gauss being punished. The earliest known account, published by Sartorius von Waltershausen in 1856, describes Gauss quickly summing an arithmetic series but does not specify 1 to 100 or the pairing method. Later versions add details. “Apocryphal” here means historically uncertain, not proven fictional. Give students a moment to imagine a shortcut, then continue to Example 4.1 without explaining the pairing yet.
+
+Biography: MacTutor, University of St Andrews, https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/ . Historical discussion: Brian Hayes, “Gauss’s Day of Reckoning”, American Scientist 94 (2006), 200–205, https://eclass.uoa.gr/modules/document/file.php/MATH417/Bibliografia/HayesGaussDayofReckoning.pdf .
+
+:::

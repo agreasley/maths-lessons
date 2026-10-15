@@ -1,0 +1,9 @@
+## Geometric sequences and the general term {#ss5-opening .gp-lesson .cover .sequence-cover .gp-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 5</div><div class="cover-title">Geometric sequences<br>and the general term</div><div class="cover-subtitle">Use constant ratios to describe multiplicative change.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 5 · Examples 5.1–5.7 · Homework 5</div>
+
+::: notes
+
+Section 5, printed pages 28–34. Twenty-one slides. Allow approximately 70–80 minutes including booklet working, or split after Example 5.5 (slide 12). Preserve the current booklet's example numbering and values. Students work in the booklet and OneNote. Full solutions are in these notes and the teacher guide. Geometric partial sums are reserved for Lesson 6.
+
+:::

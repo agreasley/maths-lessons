@@ -1,9 +1,11 @@
-## Example 4.2 · An alternative formula {#ss4-example-4-2-c .ar-lesson }
+## Example 4.2 · An alternative formula {#ss4-example-4-2-c .ar-lesson .ar-alternative}
 
-c\) Note that $l=a_n=a+(n-1)d$ if the series has $n$ terms. Write down an alternative formula for the sum of the first $n$ terms of an arithmetic series.
+c\) Note that $\textcolor{#b55224}{l}=a_n=\textcolor{#b55224}{a+(n-1)d}$ if the series has $n$ terms. Write down an alternative formula for the sum of the first $n$ terms of an arithmetic series.
+
+$$S_n=\frac{n}{2}\left(a+\textcolor{#b55224}{l}\right)$$
 
 ::: {.fragment data-fragment-index="0"}
-$$S_n=\frac{n}{2}\left[a+\underbrace{a+(n-1)d}_{l}\right]$$
+$$S_n=\frac{n}{2}\left[a+\underbrace{\textcolor{#b55224}{a+(n-1)d}}_{\textcolor{#b55224}{l}}\right]$$
 
 :::
 
@@ -16,6 +18,6 @@ $$S_n=\frac{n}{2}\left[2a+(n-1)d\right]$$
 
 ::: notes
 
-Let students substitute before revealing. First click identifies the expression replacing the last term. Second click combines the two a terms. The n outside the bracket counts terms; n−1 inside the bracket counts increments from the first to the last term.
+Begin with S_n=n(a+l)/2. Orange links the last term l to its definition a+(n−1)d in the prompt. Ask students to substitute before the first click reveals the same expression in orange inside the sum formula. The second click combines the two a terms. The n outside the bracket counts terms; n−1 inside counts increments from the first to the last term. S_n denotes the sum of these n terms.
 
 :::

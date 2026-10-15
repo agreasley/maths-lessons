@@ -1,0 +1,26 @@
+## Geometric progressions {#ss5-examples-non-examples .gp-lesson .gp-classification}
+
+A **geometric progression (GP)** is a sequence in which each term is formed by multiplying the previous term by the same non-zero number, the **common ratio** $r$.
+
+::: {.split .gp-classification-columns}
+::: {.column-block}
+<h3>Examples</h3>
+<div class="gp-classification-row"><span data-math="1,\ 2,\ 4,\ 8,\ldots">1, 2, 4, 8, …</span><span class="fragment gp-ratio-tag" data-fragment-index="0" data-math="r=2">r = 2</span></div>
+<div class="gp-classification-row"><span data-math="27,\ 9,\ 3,\ 1,\ldots">27, 9, 3, 1, …</span><span class="fragment gp-ratio-tag" data-fragment-index="0" data-math="r=\frac13">r = 1/3</span></div>
+<div class="gp-classification-row"><span data-math="1,\ -4,\ 16,\ -64,\ldots">1, −4, 16, −64, …</span><span class="fragment gp-ratio-tag" data-fragment-index="0" data-math="r=-4">r = −4</span></div>
+<div class="gp-classification-row"><span data-math="5,\ 5,\ 5,\ 5,\ldots">5, 5, 5, 5, …</span><span class="fragment gp-ratio-tag" data-fragment-index="0" data-math="r=1">r = 1</span></div>
+:::
+::: {.column-block}
+<h3>Non-examples</h3>
+<div class="gp-classification-row"><span data-math="2,\ 4,\ 6,\ 8,\ldots">2, 4, 6, 8, …</span><p class="fragment" data-fragment-index="0">Ratios: <span data-math="2,\ \frac32,\ \frac43">2, 3/2, 4/3</span></p></div>
+<div class="gp-classification-row"><span data-math="1,\ 4,\ 9,\ 16,\ldots">1, 4, 9, 16, …</span><p class="fragment" data-fragment-index="0">Ratios: <span data-math="4,\ \frac94,\ \frac{16}{9}">4, 9/4, 16/9</span></p></div>
+:::
+:::
+
+<p class="booklet-cue">Booklet p. 28 · What is a geometric progression?</p>
+
+::: notes
+
+Ask what operation repeats before revealing all ratios together. The first three examples match the booklet's introductory lists. The constant example illustrates r=1 and is also arithmetic with d=0. All terms here are non-zero, so the ratio test is defined. The booklet's convention excludes r=0, but includes r=1 and r=−1. Do not describe every constant sequence as a ratio-test example: the all-zero sequence has undefined successive ratios. Finite lists alone do not uniquely determine an infinite continuation; take the stated rules as the intended continuation of these introductory examples.
+
+:::

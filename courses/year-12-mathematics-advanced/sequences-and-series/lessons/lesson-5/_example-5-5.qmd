@@ -1,0 +1,11 @@
+## Example 5.5 {#ss5-example-5-5 .gp-lesson}
+
+Find the ninth term of the geometric series $48-12+3-\ldots$
+
+<p class="booklet-cue">Booklet p. 32 · Example 5.5</p>
+
+::: notes
+
+Preserve the booklet's wording “series”, but explain verbally that the question asks for a term of its underlying sequence, not a sum. Here a=48 and r=−1/4. Therefore a_9=48(−1/4)^8=48/65536=3/4096≈0.000732421875. The ninth term is positive because the exponent is even. Use parentheses around the negative ratio. This is a natural pause if teaching the section over two periods.
+
+:::

@@ -1,0 +1,17 @@
+## Example 5.6 {#ss5-example-5-6 .gp-lesson}
+
+Find the first term $a$ and the common ratio $r$ of a geometric sequence in which the fourth term is $40$ and the sixth term is $480$.
+
+::: {.fragment .gp-equation-prompt data-fragment-index="0"}
+$$ar^3=40,\qquad ar^5=480$$
+
+How could you eliminate $a$?
+:::
+
+<p class="booklet-cue">Booklet p. 32 · Example 5.6</p>
+
+::: notes
+
+Let students translate the two known terms before revealing the equations. Divide ar^5=480 by ar^3=40 to obtain r²=12. Retain BOTH r=2√3 and r=−2√3. Substituting into a=40/r³ gives a=5√3/9 when r=2√3 and a=−5√3/9 when r=−2√3. These paired signs both produce a_4=40 and a_6=480. The next slide checks why the negative ratio is also possible rather than adding a new booklet question.
+
+:::

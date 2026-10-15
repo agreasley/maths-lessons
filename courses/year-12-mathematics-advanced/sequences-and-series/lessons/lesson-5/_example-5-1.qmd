@@ -1,0 +1,21 @@
+## Example 5.1 {#ss5-example-5-1 .gp-lesson}
+
+a) Write down the first term $a$ and the common ratio $r$ for each of the following geometric sequences:
+
+::: {.gp-subparts}
+i) $2,\ 4,\ 8,\ 16,\ldots$
+
+ii) $3,\ 1,\ \dfrac13,\ \dfrac19,\ldots$
+
+iii) $\sqrt3,\ \sqrt6,\ \sqrt{12},\ldots$
+:::
+
+b) Suggest how the common ratio could be found when given any two successive terms.
+
+<p class="booklet-cue">Booklet p. 28 · Example 5.1</p>
+
+::: notes
+
+(a)(i) a=2,r=2. (ii) a=3,r=1/3. (iii) a=√3,r=√2, since √6/√3=√2 and √12/√6=√2. (b) Divide the later term by the immediately preceding term: r=a_n/a_(n−1). Do not invert the ratio. Keep working in the booklet or OneNote.
+
+:::

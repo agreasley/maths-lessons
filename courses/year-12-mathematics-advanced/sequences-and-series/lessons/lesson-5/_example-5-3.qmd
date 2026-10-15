@@ -1,0 +1,24 @@
+## Example 5.3 {#ss5-example-5-3 .gp-lesson .gp-derivation-slide}
+
+Consider a geometric sequence with first term equal to $a$ and common ratio equal to $r$.
+
+a) Write an expression for the:
+
+```{=html}
+<table class="gp-derivation"><tbody>
+<tr><td>i) first term;</td><td><span class="fragment" data-fragment-index="0" data-math="\textcolor{#3b66a8}{a}">a</span></td></tr>
+<tr><td>ii) second term;</td><td><span class="fragment" data-fragment-index="1" data-math="\textcolor{#3b66a8}{a}\textcolor{#b55224}{r}">ar</span></td></tr>
+<tr><td>iii) third term;</td><td><span class="fragment" data-fragment-index="2" data-math="\textcolor{#3b66a8}{a}\textcolor{#b55224}{r^2}">ar²</span></td></tr>
+<tr><td>iv) fourth term;</td><td><span class="fragment" data-fragment-index="3" data-math="\textcolor{#3b66a8}{a}\textcolor{#b55224}{r^3}">ar³</span></td></tr>
+</tbody></table>
+```
+
+b) Deduce an expression for the $n$th term of this geometric sequence.
+
+<p class="booklet-cue">Booklet p. 30 · Example 5.3</p>
+
+::: notes
+
+Use four clicks to build a,ar,ar²,ar³. Blue identifies the first term; orange identifies the accumulated multiplier. Explain ar×r=ar² and ar²×r=ar³. Ask how many multiplications separate term 1 from term n before moving on. Part (b): a_n=ar^(n−1), n≥1 an integer. The next slide collects the result and locates it on the reference sheet.
+
+:::

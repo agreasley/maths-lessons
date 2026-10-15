@@ -1,0 +1,50 @@
+---
+pagetitle: "Lesson 5 — Geometric sequences and the general term"
+lesson-title: "Geometric sequences and the general term"
+description: "Recognise constant ratios, derive the geometric general term and connect sequences to exponential graphs."
+lesson-order: 5
+booklet: "Section 5 · Examples 5.1–5.7 · pp. 28–34"
+homework: "5 · Exercises 1C and 1D"
+---
+
+{{< include lesson-5/_opening.qmd >}}
+
+{{< include lesson-5/_objective.qmd >}}
+
+{{< include lesson-5/_pond.qmd >}}
+
+{{< include lesson-5/_examples-non-examples.qmd >}}
+
+{{< include lesson-5/_example-5-1.qmd >}}
+
+{{< include lesson-5/_definition.qmd >}}
+
+{{< include lesson-5/_example-5-2.qmd >}}
+
+{{< include lesson-5/_example-5-3.qmd >}}
+
+{{< include lesson-5/_general-term.qmd >}}
+
+{{< include lesson-5/_hinge.qmd >}}
+
+{{< include lesson-5/_example-5-4.qmd >}}
+
+{{< include lesson-5/_example-5-5.qmd >}}
+
+{{< include lesson-5/_example-5-6.qmd >}}
+
+{{< include lesson-5/_two-ratios.qmd >}}
+
+{{< include lesson-5/_exponential.qmd >}}
+
+{{< include lesson-5/_graph.qmd >}}
+
+{{< include lesson-5/_example-5-7-a.qmd >}}
+
+{{< include lesson-5/_example-5-7-b.qmd >}}
+
+{{< include lesson-5/_example-5-7-c.qmd >}}
+
+{{< include lesson-5/_key-ideas.qmd >}}
+
+{{< include lesson-5/_homework.qmd >}}

@@ -760,6 +760,71 @@
       [first,difference]=({increasing:[2,5],decreasing:[20,-3],constant:[7,0]})[button.dataset.apPreset];draw();
     });draw();
   }
+  function geometricGraph(m){
+    let first=3,ratio=2,curveVisible=false;
+    const firstChoices=[-12,-6,-3,-1,1,2,3,5,6,12,24,48];
+    const ratioChoices=[-2,-1,-.5,.25,.5,1,1.5,2,3];
+    const options=values=>values.map(value=>`<option value="${value}">${value}</option>`).join('');
+    const ratioTex=()=>({'-0.5':'-\\frac12','0.25':'\\frac14','0.5':'\\frac12','1.5':'\\frac32'})[String(ratio)]||String(ratio);
+    const rule=variable=>ratio===1?String(first):`${first}\\left(${ratioTex()}\\right)^{${variable}-1}`;
+    m.addEventListener('keydown',e=>{if(e.target.closest('button,select'))e.stopPropagation();});
+    m.innerHTML=`<div class="gp-controls"><label>First term ${math('a')} <select class="gp-first" aria-label="First term a">${options(firstChoices)}</select></label><label>Common ratio ${math('r')} <select class="gp-ratio" aria-label="Common ratio r">${options(ratioChoices)}</select></label><button class="gp-curve-toggle primary" aria-pressed="false">Show generating curve</button><button class="gp-reset">Reset</button></div><div class="gp-presets"><span>Try:</span><button data-gp-preset="growth">Growth</button><button data-gp-preset="decay">Decay</button><button data-gp-preset="constant">Constant</button><button data-gp-preset="alternating">Alternating</button></div><div class="gp-graph-layout"><div class="gp-plot-wrap"><div class="gp-plot"></div><span class="gp-axis-horizontal"></span><span class="gp-axis-vertical"></span><p class="gp-plot-caption">Eight terms shown. First term in blue. Vertical scale adjusts.</p></div><div class="gp-graph-summary" aria-live="polite"><h3>Sequence rule</h3><div class="gp-sequence-rule"></div><h3>First four terms</h3><div class="gp-four-terms"></div><p class="gp-behaviour"></p><div class="gp-curve-summary" hidden></div><p class="gp-negative-note" hidden>Negative ratio: alternating points, with no ordinary real exponential curve.</p></div></div>`;
+    const draw=()=>{
+      if(ratio<0)curveVisible=false;
+      const values=Array.from({length:8},(_,i)=>first*Math.pow(ratio,i));
+      $(m,'.gp-first').value=String(first);$(m,'.gp-ratio').value=String(ratio);
+      $(m,'.gp-sequence-rule').innerHTML=math(`a_n=${rule('n')}`);
+      $(m,'.gp-four-terms').innerHTML=math(values.slice(0,4).map(String).join(',\\ '));
+      $$(m,'[data-gp-preset]').forEach(button=>{
+        const pair=({growth:[3,2],decay:[48,.5],constant:[5,1],alternating:[5,-1]})[button.dataset.gpPreset];
+        button.setAttribute('aria-pressed',String(first===pair[0]&&ratio===pair[1]));
+      });
+      let behaviour;
+      if(ratio===1)behaviour='All terms are equal.';
+      else if(ratio===-1)behaviour='Signs alternate and magnitudes stay constant.';
+      else if(Math.abs(ratio)<1)behaviour=ratio<0?'Signs alternate and magnitudes approach zero.':`Terms approach zero from ${first>0?'above':'below'}.`;
+      else behaviour=ratio<0?'Signs alternate and magnitudes grow.':`Terms move away from zero ${first>0?'above':'below'} the axis.`;
+      $(m,'.gp-behaviour').textContent=behaviour;
+      const toggle=$(m,'.gp-curve-toggle');toggle.disabled=ratio<0;
+      toggle.textContent=ratio<0?'No real exponential curve':curveVisible?'Hide generating curve':'Show generating curve';
+      toggle.setAttribute('aria-pressed',String(curveVisible));
+      $(m,'.gp-negative-note').hidden=ratio>0;
+      $(m,'.gp-curve-summary').hidden=!curveVisible;
+      $(m,'.gp-curve-summary').innerHTML='<h3>Generating '+(ratio===1?'line':'curve')+'</h3>'+math(`f(x)=${rule('x')}`);
+      $(m,'.gp-axis-horizontal').innerHTML=math(curveVisible?'x':'n');
+      $(m,'.gp-axis-vertical').innerHTML=math(curveVisible?'y':'a_n');
+      // Stable numeric bounds for a given sequence, regardless of curve visibility.
+      const magnitude=Math.max(...values.map(Math.abs));
+      const rawStep=magnitude/4,power=10**Math.floor(Math.log10(rawStep));
+      const step=[1,2,2.5,5,10].find(v=>v>=rawStep/power)*power;
+      const bound=Math.ceil(magnitude/step)*step;
+      const ymin=Math.min(...values)<0?-bound:0,ymax=Math.max(...values)>0?bound:0;
+      const L=84,R=790,T=28,B=330,sx=x=>L+x/8.5*(R-L),sy=y=>B-(y-ymin)/(ymax-ymin)*(B-T);
+      let body='';
+      for(let y=ymin;y<=ymax+step/100;y+=step){
+        const label=fmt(Math.abs(y)<step/100?0:y);
+        body+=`<line x1="${L}" y1="${sy(y)}" x2="${R}" y2="${sy(y)}" stroke="#d7d8ce"/>`+text(L-12,sy(y)+7,label,'text-anchor="end" font-size="20"');
+      }
+      for(let n=1;n<=8;n++)body+=`<line x1="${sx(n)}" y1="${T}" x2="${sx(n)}" y2="${B}" stroke="#e8e7df"/>`+text(sx(n),B+29,String(n),'text-anchor="middle" font-size="21"');
+      body+=text(L,B+29,'0','text-anchor="middle" font-size="21"');
+      body+=`<path d="M${L} ${T}V${B}M${L} ${sy(0)}H${R}" fill="none" stroke="#152e3b" stroke-width="2"/>`;
+      if(curveVisible){
+        const path=Array.from({length:281},(_,i)=>{const x=1+i/40;return `${i?'L':'M'}${sx(x)} ${sy(first*Math.pow(ratio,x-1))}`;}).join(' ');
+        body+=`<path class="gp-generating-curve" d="${path}" fill="none" stroke="#b55224" stroke-width="3"/>`;
+      }
+      values.forEach((value,i)=>{body+=`<circle class="gp-term-point" data-index="${i+1}" data-value="${value}" cx="${sx(i+1)}" cy="${sy(value)}" r="${i===0?7:6}" fill="${i===0?'#3b66a8':'#007f78'}" stroke="#f7f5ef" stroke-width="2"><title>Term ${i+1}: ${value}</title></circle>`;});
+      $(m,'.gp-plot').innerHTML=makeSvg(body,`First eight terms: ${values.join(', ')}. Common ratio ${ratio}. ${curveVisible?'Continuous generating curve shown for inputs 1 through 8.':'Discrete points only.'}`,390,830);
+      m.dataset.first=String(first);m.dataset.ratio=String(ratio);m.dataset.curveVisible=String(curveVisible);
+      m.dataset.ymin=String(ymin);m.dataset.ymax=String(ymax);typeset(m);
+    };
+    $(m,'.gp-first').onchange=e=>{first=Number(e.target.value);draw();};
+    $(m,'.gp-ratio').onchange=e=>{ratio=Number(e.target.value);draw();};
+    $(m,'.gp-curve-toggle').onclick=()=>{if(ratio>0)curveVisible=!curveVisible;draw();};
+    $(m,'.gp-reset').onclick=()=>{first=3;ratio=2;curveVisible=false;draw();};
+    $$(m,'[data-gp-preset]').forEach(button=>button.onclick=()=>{
+      [first,ratio]=({growth:[3,2],decay:[48,.5],constant:[5,1],alternating:[5,-1]})[button.dataset.gpPreset];draw();
+    });draw();
+  }
   function gaussPairing(m){
     m.addEventListener('keydown',e=>{if(e.target.closest('button,input,select'))e.stopPropagation();});
     let n=100,stage=0;
@@ -806,7 +871,7 @@
     $(m,'.ar-water-show-pumped').onclick=()=>{pumpedVisible=!pumpedVisible;draw();};draw();
   }
   function init(){
-    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph,'gauss-pairing':gaussPairing,'water-tank':waterTank};
+    const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph,'geometric-graph':geometricGraph,'gauss-pairing':gaussPairing,'water-tank':waterTank};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});
     typeset(document);
     if (!window.katex) window.addEventListener('load', () => typeset(document), {once:true});

@@ -1,0 +1,19 @@
+## Example 5.2 {#ss5-example-5-2 .gp-lesson}
+
+Consider the sequence $\dfrac32,\ \dfrac12,\ \dfrac16,\ldots$
+
+::: {.gp-subparts}
+a) Show that this sequence is geometric.
+
+b) Hence, state the common ratio of this geometric sequence.
+
+c) Find the next term of this sequence.
+:::
+
+<p class="booklet-cue">Booklet p. 29 · Example 5.2</p>
+
+::: notes
+
+(a) (1/2)/(3/2)=1/3 and (1/6)/(1/2)=1/3. The three specified terms are in GP. As the booklet explains immediately above this example, two checked ratios do not establish an unspecified infinite continuation. Use the intended continuation with the same multiplier. (b) r=1/3. (c) a_4=(1/6)(1/3)=1/18. Preserve the current booklet wording, which corrects the old PowerPoint's accidental reference to an arithmetic sequence in part (b).
+
+:::

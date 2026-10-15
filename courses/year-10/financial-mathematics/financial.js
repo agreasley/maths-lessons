@@ -50,15 +50,19 @@
     m.innerHTML='<div class="toolbar fm-inputs"><label>Starting amount $ <input class="fm-principal" type="number" min="1" max="1000000" step="any" value="60"></label><label>First change % <input class="fm-first" type="number" min="-90" max="100" step="any" value="5"></label><label>Second change % <input class="fm-second" type="number" min="-90" max="100" step="any" value="-10"></label></div><div class="fm-percent-rows" aria-live="polite"></div><div class="toolbar"><button class="fm-next primary">Reveal first change</button><button class="fm-reset">Reset</button></div><p class="fm-explain"></p>';
     const draw=()=>{
       const values=[principal,principal*(1+first/100),principal*(1+first/100)*(1+second/100)];
-      const max=Math.max(...values)*1.06;
-      $(m,'.fm-percent-rows').innerHTML=values.map((value,i)=>'<div class="fm-percent-row"><div>'+['Original','First change: '+signed(first),'Second change: '+signed(second)][i]+'</div><div class="fm-percent-bar">'+(i<=stage?'<span style="width:'+(value/max*100)+'%;background:'+['#3b66a8','#007f78','#b55224'][i]+'"></span>':'')+'</div><strong>'+(i<=stage?money(value):'?')+'</strong></div>').join('');
-      $(m,'.fm-next').disabled=stage===2;
-      $(m,'.fm-next').textContent=['Reveal first change','Reveal second change','Both changes shown'][stage];
-      $(m,'.fm-explain').innerHTML=stage===0?'Predict the amount after the first change.':stage===1?'The second percentage uses <strong>'+money(values[1])+'</strong> as its base.':math(number(principal)+'\\times'+number(1+first/100)+'\\times'+number(1+second/100))+' = <strong>'+money(values[2])+'</strong>';
+      const net=values[2]-principal, netPercent=net/principal*100;
+      const noChange=Math.abs(netPercent)<1e-10;
+      $(m,'.fm-percent-rows').innerHTML=values.map((value,i)=>{
+        const calculation=i===0?'<strong>'+money(value)+'</strong>':i<=stage?math(number(values[i-1])+'\\times'+number(1+[first,second][i-1]/100))+' = <strong>'+money(value)+'</strong>':'<span class="fm-pending">Not yet revealed</span>';
+        return '<div class="fm-percent-row"><div>'+['Original','First change: '+signed(first),'Second change: '+signed(second)][i]+'</div><div class="fm-percent-calculation">'+calculation+'</div></div>';
+      }).join('');
+      $(m,'.fm-next').disabled=stage===3;
+      $(m,'.fm-next').textContent=['Reveal first change','Reveal second change','Reveal net impact','All changes shown'][stage];
+      $(m,'.fm-explain').innerHTML=stage===0?'Predict the amount after the first change.':stage===1?'The second percentage uses <strong>'+money(values[1])+'</strong> as its base.':stage===2?'Compare the final amount with the original. What is the net percentage change?':'<strong>Net impact: '+(noChange?'$0.00, no change.':(net<0?'−':'+')+money(Math.abs(net))+', a '+number(Math.abs(netPercent))+'% '+(net<0?'decrease':'increase')+'.')+'</strong><br>'+math('\\dfrac{'+number(values[2])+'-'+number(principal)+'}{'+number(principal)+'}\\times100='+number(noChange?0:netPercent)+'\\%');
       m.dataset.stage=String(stage); m.dataset.final=String(values[2]); typeset(m);
     };
     $$(m,'input').forEach(input=>input.onchange=()=>{principal=read($(m,'.fm-principal'),60);first=read($(m,'.fm-first'),5);second=read($(m,'.fm-second'),-10);stage=0;draw();});
-    $(m,'.fm-next').onclick=()=>{stage=Math.min(2,stage+1);draw();};
+    $(m,'.fm-next').onclick=()=>{stage=Math.min(3,stage+1);draw();};
     $(m,'.fm-reset').onclick=()=>{principal=60;first=5;second=-10;stage=0;$(m,'.fm-principal').value='60';$(m,'.fm-first').value='5';$(m,'.fm-second').value='-10';draw();};
     draw();
   }

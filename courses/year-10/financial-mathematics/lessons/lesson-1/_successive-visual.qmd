@@ -5,7 +5,9 @@
 ```
 
 ::: notes
-Additional representation of Example 1.4. Start with \$60, +5%, then −10%. Ask students to predict each new amount before pressing Next change. The second percentage uses the first changed amount. Controls allow a different starting amount and two signed percentage changes; changing an input hides the results again. Reset restores the example.
+Step-by-step calculations for Example 1.4. Start with \$60, +5%, then −10%. Ask students to predict each new amount before revealing its calculation: $60\times1.05=63$, then $63\times0.9=56.70$. The second percentage uses the first changed amount. After both calculations, ask students to compare the final amount with the original before revealing the net impact: a \$3.30 decrease, or $\frac{56.70-60}{60}\times100=-5.5\%$.
+
+Controls allow a different starting amount and two signed percentage changes. Changing an input hides all calculations and the net impact again. Reset restores the example.
 
 Follow-up: “Why is the second percentage calculated from a different amount?” After the worked example, optionally use +20% then −20% as consolidation. This is not the hinge and is not shown before teaching successive changes.
 :::

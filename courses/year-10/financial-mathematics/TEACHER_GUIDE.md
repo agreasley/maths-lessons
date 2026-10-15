@@ -56,7 +56,7 @@ All controls work by tap, click or keyboard, without accounts, data collection o
 
 | Representation | Starting model | Controls | Follow-up |
 |---|---|---|---|
-| Successive percentages | $60, +5%, −10% | Starting amount, signed changes, step reveal | Why does the second percentage use a different base? |
+| Successive percentages | $60, +5%, −10% | Starting amount, signed changes, reveal each calculation then the net dollar and percentage change | Why does the second percentage use a different base? |
 | Simple/compound table | $2000, 6% p.a., three years | Principal, rate, separate interest/balance reveals | Which base stays fixed and which changes? |
 | Compounding frequency | $8000, 5% p.a., four years | Frequency; reveal each balance | Why does more frequent compounding change the total? |
 | Investment comparison | Example 4.3 | Whole-year checkpoint and graph reveal | Why does the difference grow over time? |

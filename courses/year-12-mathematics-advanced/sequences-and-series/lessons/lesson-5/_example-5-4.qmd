@@ -1,0 +1,17 @@
+## Example 5.4 {#ss5-example-5-4 .gp-lesson}
+
+It is given that $x-3$, $x$ and $x+12$ form a geometric sequence. Find:
+
+::: {.gp-subparts}
+a) the value of $x$;
+
+b) the common ratio for this sequence
+:::
+
+<p class="booklet-cue">Booklet p. 31 · Example 5.4</p>
+
+::: notes
+
+With non-zero terms, x/(x−3)=(x+12)/x. Thus x²=(x−3)(x+12)=x²+9x−36, so x=4. This satisfies the required denominator restrictions x≠0,3. The terms are 1,4,16 and r=4. Encourage students to verify both ratios after solving. Do not insert the ratio equation on the student slide before they translate the question themselves.
+
+:::

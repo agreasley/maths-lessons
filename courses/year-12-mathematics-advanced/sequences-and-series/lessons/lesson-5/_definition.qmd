@@ -1,0 +1,27 @@
+## Recursive rule and proof test {#ss5-definition .gp-lesson .gp-proof}
+
+For first term $a$ and common ratio $r$, the **recursive rule** is
+
+$$a_1=a,\qquad a_n=\textcolor{#b55224}{r}\,a_{n-1}\quad(n\ge2).$$
+
+::: {.gp-proof-step .fragment data-fragment-index="0"}
+<h3>Proving a non-zero sequence is geometric</h3>
+
+Show that the ratio is the same constant at **every step**:
+
+$$\frac{a_n}{a_{n-1}}=r\qquad\text{for every }n\ge2\text{ in the sequence}.$$
+:::
+
+::: {.gp-proof-step .fragment data-fragment-index="1"}
+<h3>For three non-zero terms</h3>
+
+$$\frac{a_3}{a_2}=\frac{a_2}{a_1}$$
+:::
+
+<p class="booklet-cue">Booklet p. 29 · Recursive rule and proof</p>
+
+::: notes
+
+Initially show only the starting value and recursive rule. First click reveals the all-terms ratio test, consistently later term divided by earlier term. Here a≠0 and r≠0 ensure every term is non-zero. For finite sequences test each index up to the final term; for an infinite sequence establish the identity for arbitrary n≥2. Second click specialises to three terms. Checking two ratios proves that those three specified terms are in GP, not an unspecified infinite continuation. This qualification appears explicitly in the current booklet. Proceed immediately to Example 5.2.
+
+:::

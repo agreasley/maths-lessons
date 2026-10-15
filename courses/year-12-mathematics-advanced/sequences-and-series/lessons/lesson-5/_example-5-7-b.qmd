@@ -1,0 +1,17 @@
+## Example 5.7 · (b) Decay {#ss5-example-5-7-b .gp-lesson}
+
+b) For the GP $b_n=48\left(\dfrac12\right)^{n-1}$ $(0<r<1)$:
+
+::: {.gp-subparts}
+i) Evaluate the first four terms.
+
+ii) Describe what happens to the value of $b_n$ as $n\to\infty$.
+:::
+
+<p class="booklet-cue">Booklet p. 33 · Example 5.7(b)</p>
+
+::: notes
+
+(i) 48,24,12,6. (ii) b_n tends to 0 from above as n increases without bound, but no finite-index term is zero. A continuous generating function is f(x)=48(1/2)^(x−1)=96(1/2)^x. The question concerns a term limit, not an infinite series sum. Geometric series and their sums come later. The graph slide's Decay preset illustrates this sequence.
+
+:::

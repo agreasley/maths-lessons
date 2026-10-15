@@ -1,0 +1,26 @@
+## Example 5.6 · Two possible ratios {#ss5-two-ratios .gp-lesson .gp-two-ratios}
+
+There are **two multiplications** between the fourth and sixth terms.
+
+$$40\times r\times r=480\qquad\Longrightarrow\qquad r^2=12$$
+
+::: {.fragment data-fragment-index="0"}
+$$r=\pm2\sqrt3$$
+:::
+
+::: {.fragment data-fragment-index="1"}
+<table class="gp-solutions"><thead><tr><th scope="col">Common ratio</th><th scope="col">First term</th><th scope="col">Fourth, fifth and sixth terms</th></tr></thead><tbody>
+<tr><td><span data-math="2\sqrt3">2√3</span></td><td><span data-math="\frac{5\sqrt3}{9}">5√3/9</span></td><td><span data-math="40,\ 80\sqrt3,\ 480">40, 80√3, 480</span></td></tr>
+<tr><td><span data-math="-2\sqrt3">−2√3</span></td><td><span data-math="-\frac{5\sqrt3}{9}">−5√3/9</span></td><td><span data-math="40,\ -80\sqrt3,\ 480">40, −80√3, 480</span></td></tr>
+</tbody></table>
+
+Two positive given terms do not guarantee a positive common ratio.
+:::
+
+<p class="booklet-cue">Booklet p. 32 · Complete Example 5.6</p>
+
+::: notes
+
+First ask how many real values satisfy r²=12. The first click shows both signs. The second shows the paired first terms and the intervening fifth term. For r negative, two sign changes return to a positive sixth term. Verify a_4=(±5√3/9)(±2√3)^3=40 and a_6=a_4r²=40×12=480, using matching signs. The question gives no condition such as all terms being positive, so neither solution may be discarded.
+
+:::

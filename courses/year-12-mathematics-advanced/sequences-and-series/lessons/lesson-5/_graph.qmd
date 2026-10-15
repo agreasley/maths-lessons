@@ -1,0 +1,15 @@
+## Geometric sequences and their graphs {#ss5-graph .gp-lesson .gp-graph-slide}
+
+What changes when we change the first term or the common ratio?
+
+<div data-module="geometric-graph" class="geometric-graph" aria-label="Explore geometric sequence terms and an optional continuous generating curve"></div>
+
+::: notes
+
+The first eight terms appear as discrete points; the first point is blue. Default a=3,r=2. Presets match Example 5.7: Growth (3,2), Decay (48,1/2), Constant (5,1), Alternating (5,−1). The first-term and ratio selectors also allow negative first terms, r=−2 and r=−1/2. Both selectors exclude zero, preserving the non-zero ratio-test convention.
+
+Ask for predictions before changing controls. The vertical scale adapts to the displayed terms and is labelled accordingly; compare the numerical tick labels, not the apparent steepness across different scales. Show generating curve is optional for r>0. It draws the curve only over the displayed interval 1≤x≤8; the underlying function is defined for all real x. For r=1 it is a horizontal line. A negative ratio disables and hides the continuous curve. Returning to a positive ratio leaves the curve hidden until requested again. Otherwise selectors and presets preserve its reveal state. Reset returns to a=3,r=2 and hides the curve. State is preserved during navigation and the slide map.
+
+Use a negative first term to distinguish increasing magnitude from increasing value. Use r=−1/2 to show alternating signs while magnitudes shrink. Return to the growth preset before students complete Example 5.7, without requiring repeated arithmetic for all eight terms.
+
+:::

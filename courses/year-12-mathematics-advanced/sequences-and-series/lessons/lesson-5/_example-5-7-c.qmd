@@ -1,0 +1,17 @@
+## Example 5.7 · (c) Alternating signs {#ss5-example-5-7-c .gp-lesson}
+
+c) For the alternating GP $c_n=5\times(-1)^{n-1}$:
+
+::: {.gp-subparts}
+i) List the first four terms.
+
+ii) Explain why these points cannot be connected by a smooth continuous exponential curve $y=f(x)$ over all real numbers $x$.
+:::
+
+<p class="booklet-cue">Booklet p. 33 · Example 5.7(c)</p>
+
+::: notes
+
+(i) 5,−5,5,−5. (ii) Integer powers of −1 are defined, but 5(−1)^(x−1) is not real for every real x, for example x=3/2. An ordinary real exponential with positive base and non-zero coefficient also has a fixed sign, whereas these terms alternate. Therefore no ordinary continuous real exponential curve generates these terms over all real x. Do not claim no smooth interpolating function exists: 5cos(π(x−1)) is a smooth non-exponential function through the same points. That optional observation belongs in teacher discussion only. The sequence has no single term limit as n→∞. The graph slide's Alternating preset uses these values.
+
+:::

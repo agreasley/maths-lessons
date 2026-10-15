@@ -1,0 +1,15 @@
+## Today's learning {#ss5-objective .gp-lesson}
+
+### Lesson objective
+
+Understand how a constant ratio connects a geometric sequence's recursive rule, general term and graph.
+
+### Success criteria
+
+I can recognise geometric sequences and use their rules to find unknown terms and explain their behaviour.
+
+::: notes
+
+Assume fluency with function notation, sequence indices and the arithmetic general term. Contrast repeated multiplication with repeated addition without repeating input/output instruction.
+
+:::

@@ -344,3 +344,88 @@ Cambridge Year 12, copied from the booklet:
 Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 4, printed pages 19–27. Teaching reference: `Arithmetic Series.pptx`; use the booklet's current Examples 4.1–4.9 and their values, wording and subparts. The old presentation informed the reversing-and-pairing explanation. Treat the Gauss classroom story as an anecdote, without asserting a particular age or punishment as an established historical fact. The HSC excerpt is the teacher-supplied `media/hsc-reference-sheet-arithmetic-sums.png`; the Lesson 3 image is unchanged. Gauss biography: [MacTutor, University of St Andrews](https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/). Historical context: [Brian Hayes, ‘Gauss’s Day of Reckoning’, American Scientist 94 (2006), 200–205](https://eclass.uoa.gr/modules/document/file.php/MATH417/Bibliografia/HayesGaussDayofReckoning.pdf). The earliest known account specifies an arithmetic series but not 1–100, the pairing method or punishment for misbehaviour. Do not describe the popular version as verified history or as definitively disproven.
 
 This lesson covers finite arithmetic sums and constant-rate models. Geometric sums and compound interest belong to later lessons. No additional syllabus code or independently verified textbook edition is asserted. The lesson and its activities work offline after rendering. Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-4.qmd`; publish with the repository's manual workflow when ready.
+
+## Lesson 5: Geometric sequences and the general term
+
+Year 12 Mathematics Advanced. Section 5, printed pages 28–34, Examples 5.1–5.7 and Homework 5. Twenty-one slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after Example 5.5 (slide 12). The objective connects the constant ratio with the recursive rule, general term and graph. The success criterion is to recognise GPs, find unknown terms and explain their behaviour.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–2 | Cover and learning goal | 1 minute |
+| 3 | Doubling pond: predict and explain | 3 minutes |
+| 4–7 | Definition, examples/non-examples, Examples 5.1–5.2 and ratio proof | 12 minutes |
+| 8–9 | Example 5.3, general term and formula sheet | 6 minutes |
+| 10 | Timed hinge and discussion | 4 minutes |
+| 11–12 | Examples 5.4–5.5 | 11 minutes |
+| 13–14 | Example 5.6 and both possible ratios | 9 minutes |
+| 15–16 | Exponential connection and interactive graph | 8 minutes |
+| 17–19 | Example 5.7(a–c) | 12 minutes |
+| 20–21 | Key ideas and Homework 5 | 3 minutes |
+
+Leave the remaining time for transitions and discussion. Avoid turning the opening into a longer investigation. Geometric sums and compound interest remain for later lessons. No function input/output recap is needed.
+
+### Interactions and reveals
+
+- **Doubling pond:** A hypothetical plant's covered area doubles each day until full coverage on day 30. The initial question asks when it was half covered. First click shows day 29 and a half-length coverage bar, then asks when it was one-quarter covered. Second click shows day 28 and a quarter-length bar. All bars use the same whole. Day 15 is an additive-growth misconception. The model is not extrapolated beyond full coverage.
+- **Examples and non-examples:** Introduce the plain-language definition, then reveal all successive ratios together. Show positive, fractional, negative and unit ratios. A non-zero constant sequence is both AP and GP. The convention here requires non-zero terms and r≠0; r=1 and r=−1 are allowed.
+- **Proof:** Start with a_1=a and a_n=ra_(n−1). Next reveals a_n/a_(n−1)=r for every n≥2 in the sequence domain. Next specialises to a_3/a_2=a_2/a_1 for three non-zero terms. Two checked ratios establish only those three terms are in GP. The infinite continuation requires a rule or an arbitrary-index argument.
+- **Example 5.3:** Four clicks reveal a, ar, ar², ar³. Blue identifies a and orange the accumulated power of r. Ask for the nth term before moving on. There are n−1 multiplications from term 1 to term n.
+- **General term:** First click reveals a_n=ar^(n−1) and the teacher-supplied HSC screenshot. The third formula has a separate teal HTML outline. The original screenshot is unchanged, including its red arithmetic-sum outline from Lesson 4. Next checks n=1 and n=4. The positive-integer domain remains explicit.
+- **Example 5.6:** Students translate the known terms before a click reveals ar³=40 and ar⁵=480. Divide to eliminate a. On the follow-up slide, first click shows r=±2√3 and second click shows both paired values of a with the intervening fifth term. Do not discard the negative solution.
+- **Exponential connection:** Show a_n=ar^(n−1)=(a/r)r^n. First click introduces the positive-base generating function and r=1 constant case. Second click explains the negative-base limitation. Negative-base integer powers still define an alternating GP.
+- **Graph:** First eight terms at n=1,…,8, with the first term blue. Defaults a=3,r=2. Presets Growth (3,2), Decay (48,1/2), Constant (5,1) and Alternating (5,−1) align with Example 5.7. Selectors include negative first terms and negative ratios, but no zero. Ratio choices: −2,−1,−1/2,1/4,1/2,1,3/2,2,3. First-term choices: −12,−6,−3,−1,1,2,3,5,6,12,24,48. Numeric vertical tick labels update and a visible caption warns that the scale adjusts. Do not compare apparent steepness across different scales. Curve visibility never changes the numeric scale of the same sequence.
+- **Graph curve:** Optional for r>0 and shown over 1≤x≤8; the full generating function has real domain. For r=1 it is horizontal. Choosing r<0 immediately hides and disables the curve. Changing back to a positive ratio leaves it hidden until requested. Other changes preserve visibility. Reset restores (3,2) and hides the curve. Navigation and the slide map retain activity state.
+
+All lesson content, graph controls and mathematics work without an external applet or account after rendering. The native HTML/SVG graph keeps the mathematics precise and selectable through the controls. Existing lessons and shared response controls are unchanged.
+
+### Hinge and response routine
+
+A geometric sequence has a_1=2 and a_2=6. Find a_5.
+
+1. 18: applies an arithmetic rule with difference 4, giving 2+4(4).
+2. 81: omits the first-term multiplier and uses 3⁴.
+3. **162: correct**, r=6/2=3 and a_5=2×3⁴.
+4. 486: uses n instead of n−1, giving 2×3⁵.
+
+Default 60 seconds with adjustable duration, start/pause/reset and separate answer reveal. Fist on chest. Think quietly. On the teacher's verbal “show”, hold up 1–4 fingers simultaneously. Timer expiry never reveals the answer. Ready: justify the four multiplications. Divided: compare ratio and difference, then re-poll. Reteach: list 2,6,18,54,162 with indices 1–5 before returning to the formula.
+
+### Worked checks
+
+| Example | Working and result |
+|---|---|
+| 5.1(a) | (i) a=2,r=2. (ii) a=3,r=1/3. (iii) a=√3,r=√2. |
+| 5.1(b) | Divide the later term by its predecessor: r=a_n/a_(n−1). |
+| 5.2 | Ratios (1/2)/(3/2)=(1/6)/(1/2)=1/3. The displayed three terms are in GP. Under the intended continuation, r=1/3 and the next term is 1/18. |
+| 5.3 | a, ar, ar², ar³; a_n=ar^(n−1), n≥1 an integer. |
+| 5.4 | x/(x−3)=(x+12)/x with x≠0,3. Then x²=x²+9x−36, so x=4. Terms 1,4,16 give r=4. |
+| 5.5 | a=48,r=−1/4. a_9=48(−1/4)^8=3/4096≈0.000732421875, positive. |
+| 5.6 | ar³=40, ar⁵=480 imply r²=12. Both (a,r)=(5√3/9,2√3) and (−5√3/9,−2√3) work. Their fifth terms are respectively 80√3 and −80√3, with fourth and sixth terms 40 and 480 in both cases. |
+| 5.7(a) | f(x)=3×2^(x−1)=(3/2)2^x. First terms 3,6,12,24. Discrete points lie on an increasing exponential curve. |
+| 5.7(b) | First terms 48,24,12,6. b_n→0 from above; no finite-index term equals zero. This is a term limit, not a series sum. |
+| 5.7(c) | 5,−5,5,−5. The negative-base expression is not real for all real inputs, e.g. x=3/2. A positive-base exponential with non-zero coefficient has fixed sign and cannot generate these alternating points. |
+
+### Mathematical qualifications
+
+For positive a, r>1 increases the values, and 0<r<1 decreases them towards zero. For negative a, describe magnitude instead: r>1 moves farther below zero, while 0<r<1 approaches zero from below. For r<0, signs alternate and the magnitudes follow the positive ratio |r|. In particular r=−1 gives constant magnitude with no single limiting term value.
+
+The absence of an ordinary real exponential curve for r<0 does not mean no smooth curve can pass through the sequence points. For instance, 5cos(π(x−1)) passes through Example 5.7(c)'s points, but is not exponential. Also avoid saying every non-integer power of a negative number is non-real; some rational exponents are real. The issue is extending the negative-base expression to every real input.
+
+Preserve “series” in Example 5.5 because it is in the booklet, while clarifying verbally that it asks for the ninth term, not a sum. The all-zero sequence is outside the non-zero ratio-test convention used here, even though it can satisfy a multiplicative recurrence.
+
+### Homework 5
+
+Cambridge Year 12, copied from printed page 34 and the front summary:
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 1C Q1–4 (alternate parts) |
+| Medium | Exercise 1C Q1–6 (alternate parts) |
+| Spicy | Exercise 1C Q1–6 (alternate parts); Exercise 1D Q2, Q6, Q7(c) |
+
+### Sources and scope
+
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The new doubling-pond opener is a hypothetical multiplicative model, not a historical or scientific claim. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
+
+Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-5.qmd`. Publishing remains manual through the repository's existing workflow.

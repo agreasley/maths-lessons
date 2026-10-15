@@ -1,0 +1,21 @@
+## Key ideas {#ss5-key-ideas .gp-lesson .gp-key-ideas}
+
+<table class="gp-comparison"><thead><tr><th scope="col"></th><th scope="col">Arithmetic</th><th scope="col">Geometric</th></tr></thead><tbody>
+<tr><th scope="row">Test at every step</th><td><span data-math="a_n-a_{n-1}=d">aₙ − aₙ₋₁ = d</span></td><td><span data-math="\frac{a_n}{a_{n-1}}=r">aₙ/aₙ₋₁ = r</span></td></tr>
+<tr><th scope="row">Recursive rule</th><td><span data-math="a_n=a_{n-1}+d">aₙ = aₙ₋₁ + d</span></td><td><span data-math="a_n=ra_{n-1}">aₙ = raₙ₋₁</span></td></tr>
+<tr><th scope="row">General term</th><td><span data-math="a_n=a+(n-1)d">aₙ = a + (n−1)d</span></td><td><span data-math="a_n=ar^{n-1}">aₙ = arⁿ⁻¹</span></td></tr>
+</tbody></table>
+
+Both recursive rules start with $a_1=a$ and apply for $n\ge2$.
+
+For a GP, $a\ne0$ and $r\ne0$. Negative $r$ gives alternating signs.
+
+For $r>0$: $f(x)=ar^{x-1}$ generates the terms at positive integers.
+
+<p class="booklet-cue">Booklet p. 34 · Complete Key Ideas</p>
+
+::: notes
+
+Keep the equations visible while students fill the booklet's Key Ideas box. The ratio test requires non-zero terms, consistent with the convention used throughout Section 5. The all-zero recursive sequence is not included under this ratio-test definition. General terms use n≥1; the tests and recurrences apply for n≥2 in the sequence domain. Note that r=1 gives a constant sequence and horizontal generating line, and a non-zero constant sequence is both AP and GP. For negative r, the integer-index sequence remains valid but its negative-base expression does not extend to a real exponential over all real inputs.
+
+:::

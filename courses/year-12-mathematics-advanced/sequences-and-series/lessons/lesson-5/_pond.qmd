@@ -1,0 +1,25 @@
+## A doubling pond {#ss5-pond .gp-lesson .gp-pond}
+
+The area covered by a plant doubles each day. It completely covers a pond on **day 30**.
+
+On which day was the pond **half covered**? Explain your prediction.
+
+<div class="gp-coverage-row"><span>Day 30</span><div class="gp-coverage-track" role="img" aria-label="Full coverage"><div style="width:100%"></div></div><span>Full</span></div>
+
+::: {.fragment data-fragment-index="0"}
+<div class="gp-coverage-row"><span>Day 29</span><div class="gp-coverage-track" role="img" aria-label="One half coverage"><div style="width:50%"></div></div><span data-math="\frac12">1/2</span></div>
+
+Going back one day **halves** the covered area. When was it **one-quarter covered**?
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+<div class="gp-coverage-row"><span>Day 28</span><div class="gp-coverage-track" role="img" aria-label="One quarter coverage"><div style="width:25%"></div></div><span data-math="\frac14">1/4</span></div>
+
+:::
+
+::: notes
+
+Allow 2–3 minutes for a prediction, a partner explanation and two reveals. Day 29 is half covered, because one more doubling makes the whole pond. Day 28 is one-quarter covered. A response of day 15 treats the growth as additive. The bars represent fractions of the same total area, not the physical shape of the plant patch. This is a hypothetical model up to day 30; do not extrapolate past full coverage as a physical prediction. Connect the multiplier 2 to the upcoming common ratio. No summation is needed.
+
+:::

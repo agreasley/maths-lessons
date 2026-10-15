@@ -1,0 +1,19 @@
+## Hinge question {#fm1-hinge .fm-slide }
+
+```{=html}
+<div data-module="hinge" data-correct="4" class="hinge fm-hinge"><p class="hinge-question">Multiplying a quantity by <span data-math="0.82">0.82</span> results in:</p><div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>An 82% increase.</span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>An 18% increase.</span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>An 82% decrease.</span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>An 18% decrease.</span></button></div><div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div><div class="hinge-explanation" hidden>4. 82% of the original remains, so the decrease is <span data-math="100\%-82\%=18\%">100\%-82\%=18\%</span>.</div></div>
+```
+
+::: notes
+Additional diagnostic question. Default 60 seconds. Students begin with a fist on their chest, think independently, and show 1–4 fingers simultaneously on your verbal “show” cue. Collect responses before revealing. Timer expiry does not reveal the answer.
+
+Correct answer: 4. $0.82$ represents 82% retained and therefore an 18% decrease. This hinge checks a SINGLE multiplier and comes before successive percentage changes.
+
+1: treats 82% as an increase, despite a multiplier below 1.
+2: correctly finds the 18% difference but reverses its direction.
+3: confuses the percentage retained with the percentage removed.
+
+Ready: ask “What multiplier gives an 18% increase?” (1.18), then proceed.
+Divided: ask pairs to apply 0.82 to 100 and explain the change. Re-poll.
+Further explanation needed: show an original 100-unit bar and 82 units retained; label the 18-unit difference. Re-poll before successive changes.
+:::

@@ -1,0 +1,11 @@
+## Percentage recap {#fm1-previously .fm-slide }
+
+Write $8\%$ as a decimal.
+
+Find $8\%$ of $\$75$.
+
+Explain what $100\%$ of a quantity represents.
+
+::: notes
+Prerequisite recap, not a claim about what was taught in the preceding lesson. Allow 2–3 minutes. Answers: 0.08; $0.08\times75=6$, so \$6; the whole/original quantity. Check the percentage-to-decimal conversion before proceeding.
+:::

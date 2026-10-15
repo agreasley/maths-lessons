@@ -1,0 +1,13 @@
+## Example 1.1 · Percentage increase {#fm1-example-1-1 .fm-slide }
+
+Increase \$75 by 8% in two ways:
+
+a) Find 8% of \$75 and add it to the original amount.
+
+b) Multiply by the percentage increase factor.
+
+<p class="booklet-cue">Booklet p. 2 · Example 1.1 · Complete your working in the booklet.</p>
+
+::: notes
+Preserve both methods. (a) $75+0.08(75)=81$, so \$81. (b) $75(1.08)=81$. Ask what the 1 and the 0.08 represent. Generalise to $1+p/100$. Do not give the numerical answer before the OneNote working.
+:::

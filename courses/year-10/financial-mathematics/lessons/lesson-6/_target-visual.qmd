@@ -1,0 +1,9 @@
+## Trial and improvement {#fm6-target-visual .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="target"></div>
+```
+
+::: notes
+Use the fixed Example 4.5 model V=300000(0.85)^t with target \$180 000. Students suggest a time, then press Test estimate. The history records time, value and whether it is above/below the target. No root finder or logarithm button is provided. Reveal graph is a separate control. Suggested sequence: 3, 4, 3.1, 3.2, 3.14, 3.15. Keep the discrete-year interpretation separate from the smooth interpolated curve. Reset clears the history and hides the graph.
+:::

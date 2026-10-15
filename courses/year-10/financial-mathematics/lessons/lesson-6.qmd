@@ -1,0 +1,34 @@
+---
+pagetitle: "Lesson 6 — Exponential growth and decay"
+lesson-title: "Exponential growth and decay"
+description: "Form exponential models and use trial and improvement to estimate when a target is reached."
+lesson-order: 6
+booklet: "Section 4.3 · Examples 4.5–4.6 · pp. 14–15"
+homework: "4 · Year 10 Exercise 3G"
+---
+
+{{< include lesson-6/_opening.qmd >}}
+
+{{< include lesson-6/_objective.qmd >}}
+
+{{< include lesson-6/_previously.qmd >}}
+
+{{< include lesson-6/_growth-model.qmd >}}
+
+{{< include lesson-6/_example-4-5-a.qmd >}}
+
+{{< include lesson-6/_example-4-5-b.qmd >}}
+
+{{< include lesson-6/_target-visual.qmd >}}
+
+{{< include lesson-6/_hinge.qmd >}}
+
+{{< include lesson-6/_example-4-6-ab.qmd >}}
+
+{{< include lesson-6/_tank-visual.qmd >}}
+
+{{< include lesson-6/_example-4-6-c.qmd >}}
+
+{{< include lesson-6/_finish.qmd >}}
+
+{{< include lesson-6/_homework.qmd >}}

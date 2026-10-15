@@ -1,0 +1,11 @@
+## Successive percentage changes {#fm1-successive-visual .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="percentage"></div>
+```
+
+::: notes
+Additional representation of Example 1.4. Start with \$60, +5%, then −10%. Ask students to predict each new amount before pressing Next change. The second percentage uses the first changed amount. Controls allow a different starting amount and two signed percentage changes; changing an input hides the results again. Reset restores the example.
+
+Follow-up: “Why is the second percentage calculated from a different amount?” After the worked example, optionally use +20% then −20% as consolidation. This is not the hinge and is not shown before teaching successive changes.
+:::

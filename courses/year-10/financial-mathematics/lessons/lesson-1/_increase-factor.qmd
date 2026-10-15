@@ -1,0 +1,13 @@
+## The increase multiplier {#fm1-increase-factor .fm-slide }
+
+::: {.takeaway}
+$$\text{New amount}=\text{Original}\times\left(1+\frac{p}{100}\right)$$
+:::
+
+An 8% increase leaves **108% of the original**.
+
+$$100\%+8\%=108\%\qquad\longleftrightarrow\qquad1.08$$
+
+::: notes
+Booklet §1.1, p. 2. Connect this explicitly to Example 1.1. The multiplier contains both the original amount and the increase. Ask students to give the multiplier for a 12% increase (1.12).
+:::

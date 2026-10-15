@@ -1,0 +1,17 @@
+## Key ideas {#fm1-finish .fm-slide }
+
+A multiplier tells us the **proportion retained**.
+
+Successive changes multiply their factors.
+
+Reverse a percentage change by **dividing by its multiplier**.
+
+::: {.takeaway}
+I can choose and apply the correct multiplier to find an original or changed amount.
+:::
+
+<p class="small-note">No separate homework is allocated for this section.</p>
+
+::: notes
+Exit check: “A multiplier of 1.07 represents what change? What multiplier represents a 7% decrease?” Answers: 7% increase; 0.93. The booklet does not specify a separate homework allocation after Section 1.
+:::

@@ -1,0 +1,11 @@
+## Homework 4 {#fm6-homework .fm-slide }
+
+<div class="eyebrow">Cambridge Year 10 · Exercise 3G</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1, Q3</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q3–Q6</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q3–Q6, Q7, Q9, Q12</span></div>
+
+::: notes
+Use the differentiated allocations exactly as printed in the supplied booklet. Select the appropriate level for each student. The source textbook itself was not supplied.
+:::

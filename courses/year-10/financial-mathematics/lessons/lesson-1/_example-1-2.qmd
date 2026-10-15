@@ -1,0 +1,13 @@
+## Example 1.2 · Percentage decrease {#fm1-example-1-2 .fm-slide }
+
+Decrease \$75 by 8% in two ways:
+
+a) Find 8% of \$75 and subtract it from the original amount.
+
+b) Multiply by the percentage decrease factor.
+
+<p class="booklet-cue">Booklet p. 2–3 · Example 1.2 · Complete your working in the booklet.</p>
+
+::: notes
+(a) $75-0.08(75)=69$, so \$69. (b) $75(0.92)=69$. The amount retained is 92%, not 8%. Generalise to $1-p/100$.
+:::

@@ -1,0 +1,36 @@
+---
+pagetitle: "Lesson 1 — Percentage change"
+lesson-title: "Percentage change"
+description: "Interpret multipliers, apply successive changes and recover an original amount."
+lesson-order: 1
+booklet: "Sections 1.1–1.4 · Examples 1.1–1.5 · pp. 2–4"
+homework: "No separate allocation"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_objective.qmd >}}
+
+{{< include lesson-1/_previously.qmd >}}
+
+{{< include lesson-1/_example-1-1.qmd >}}
+
+{{< include lesson-1/_increase-factor.qmd >}}
+
+{{< include lesson-1/_example-1-2.qmd >}}
+
+{{< include lesson-1/_decrease-factor.qmd >}}
+
+{{< include lesson-1/_example-1-3.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_example-1-4.qmd >}}
+
+{{< include lesson-1/_successive-visual.qmd >}}
+
+{{< include lesson-1/_reverse.qmd >}}
+
+{{< include lesson-1/_example-1-5.qmd >}}
+
+{{< include lesson-1/_finish.qmd >}}

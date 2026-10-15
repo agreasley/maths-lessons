@@ -1,0 +1,11 @@
+## Example 4.5 · Estimating a time {#fm6-example-4-5-b .fm-slide }
+
+A share portfolio, initially worth \$300 000 is reduced by 15% p.a. over a number of years.
+
+b) Use trial and error to estimate when the portfolio will be valued at \$180 000
+
+<p class="booklet-cue">Booklet p. 14 · Example 4.5 · Complete your working in the booklet.</p>
+
+::: notes
+At n=3, value is \$184 237.50; at n=4, \$156 601.875. Therefore the target lies between years 3 and 4 in the interpolated exponential model. Trial and improvement gives approximately 3.14 years (3.143176...). Logarithms are not required. If the model only reports whole-year valuations, year 4 is the first valuation below \$180 000; no integer year gives exactly \$180 000. Discuss this distinction, as agreed in planning.
+:::

@@ -1,0 +1,13 @@
+## Example 3.2 · Compound growth comparison {#fm3-example-3-2-ii-iii .fm-slide }
+
+Compare simple and compound growth over 3 years for $P=\$1500$ at 5% p.a.
+
+(ii) Use repeated simple interest to find the compound amount after each year.
+
+(iii) How much extra is earned with compounding after 3 years?
+
+<p class="booklet-cue">Booklet p. 8 · Example 3.2 · Complete your working in the booklet.</p>
+
+::: notes
+(ii) $1500(1.05)=1575$; $1575(1.05)=1653.75$; $1653.75(1.05)=1736.4375\approx1736.44$. (iii) Extra interest = difference in final amounts, $1736.4375-1725=11.4375\approx\$11.44$. Do not compare compound total with simple interest alone. Round final money to cents.
+:::

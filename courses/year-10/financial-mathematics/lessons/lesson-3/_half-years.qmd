@@ -1,0 +1,15 @@
+## Half-year periods {#fm3-half-years .fm-slide }
+
+**8% p.a., compounded semi-annually** means:
+
+$$\text{Rate per half-year}=\frac{8\%}{2}=4\%$$
+
+$$18\text{ months}=3\text{ half-year periods}$$
+
+::: {.takeaway}
+Use **4% per period** for **3 periods**.
+:::
+
+::: notes
+Preparation for Example 3.3. The stated annual rate is divided between the two compounding periods each year. Use 0.04 in the one-period interest calculation. Both the rate and the period count must change together.
+:::

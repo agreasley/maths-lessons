@@ -1,0 +1,9 @@
+## Today's learning {#fm4-objective .fm-slide }
+
+### Lesson objective
+
+We are learning to calculate compound interest using a formula.
+
+### Success criteria
+
+I can match the rate and number of periods to calculate a final balance and interest earned.

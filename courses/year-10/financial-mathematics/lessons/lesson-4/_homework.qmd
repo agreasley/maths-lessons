@@ -1,0 +1,11 @@
+## Homework 2 {#fm4-homework .fm-slide }
+
+<div class="eyebrow">Cambridge Year 9 · Exercise 1L</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Q1, Q3–7</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1, Q3–7, Q8</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q3–7, Q8, Q11, Q15–16</span></div>
+
+::: notes
+Use the differentiated allocations exactly as printed in the supplied booklet. Select the appropriate level for each student. The source textbook itself was not supplied.
+:::

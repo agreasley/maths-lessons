@@ -1,0 +1,11 @@
+## Example 4.1 · Semi-annual compounding {#fm4-example-4-1-b .fm-slide }
+
+Find the total value of an investment if \$8000 is invested at
+
+b) 5% p.a. compounded semi-annually for 4 years
+
+<p class="booklet-cue">Booklet p. 10–11 · Example 4.1 · Complete your working in the booklet.</p>
+
+::: notes
+$r=5/2=2.5$, $n=8$. $A=8000(1+0.05/2)^8\approx\$9747.22$. Keep all calculator precision until the final amount.
+:::

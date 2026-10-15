@@ -1,0 +1,9 @@
+## Example 4.2 · Interest earned {#fm4-example-4-2 .fm-slide }
+
+Find the amount of interest earned on an investment of \$10 000 at 6% p.a. compounded monthly for 3 years.
+
+<p class="booklet-cue">Booklet p. 11 · Example 4.2 · Complete your working in the booklet.</p>
+
+::: notes
+$A=10000(1+0.06/12)^{36}\approx11966.805248$. Interest $I=A-10000\approx\$1966.81$. The question asks for interest, so a final amount of \$11966.81 alone does not answer it.
+:::

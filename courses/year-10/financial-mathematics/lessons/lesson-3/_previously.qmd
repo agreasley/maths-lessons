@@ -1,0 +1,13 @@
+## Previously {#fm3-previously .fm-slide }
+
+Simple interest uses the original principal each period.
+
+For $\$2000$ at 6% p.a., one year's interest is:
+
+$$2000(0.06)=\$120$$
+
+**Predict:** with simple interest, how much interest is earned in the second year?
+
+::: notes
+Answer: \$120 again. This recap establishes the fixed base before introducing a changing balance. Ask students to explain which quantity is fixed.
+:::

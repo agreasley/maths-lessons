@@ -1,0 +1,18 @@
+## The compound interest formula {#fm4-formula .fm-slide }
+
+::: {.takeaway}
+$$A=\textcolor{#3b66a8}{P}\left(1+\frac{\textcolor{#b55224}{r}}{100}\right)^{\textcolor{#007f78}{n}}$$
+:::
+
+| Symbol | Meaning |
+|---|---|
+| $P$ | Principal: the initial amount |
+| $r$ | **Percentage rate per compounding period** |
+| $n$ | Number of compounding periods |
+| $A$ | Amount after those periods |
+
+<p class="small-note">Interest earned: $I=A-P$.</p>
+
+::: notes
+Booklet p. 10, with the approved notation clarification: this displayed formula uses r as a percentage, so 5% is r=5, not r=0.05. In Lesson 2's simple-interest formula, uppercase R was a decimal. State this distinction explicitly. Equivalent decimal convention: A=P(1+i)^n with i=r/100, but avoid introducing another symbol on the student slide. The supplied syllabus box writes FV=PV(1+r)^n using decimal r; the underlying mathematics is the same.
+:::

@@ -1,0 +1,13 @@
+## Example 4.3 · Simple and compound interest {#fm5-example-4-3-bc .fm-slide }
+
+Jack invests \$16 000 at 12% p.a., with interest paid monthly for 11 years.
+
+b) Find the simple interest earned at the same rate, paid monthly over the same time period.
+
+c) By how much does the compound exceed the simple interest?
+
+<p class="booklet-cue">Booklet p. 12 · Example 4.3 · Complete your working in the booklet.</p>
+
+::: notes
+(b) $I=16000(0.12)(11)=21120$, equivalently $16000(0.01)(132)$. Simple interest paid monthly is not reinvested in this model. (c) $43503.33699-21120=22383.33699$, so the extra interest is \$22 383 to the nearest dollar, consistent with part (a), or \$22 383.34 if expressed to cents. Mention the rounding convention explicitly; do not compare compound balance against simple interest.
+:::

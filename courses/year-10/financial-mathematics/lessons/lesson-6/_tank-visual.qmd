@@ -1,0 +1,11 @@
+## A constant percentage loss {#fm6-tank-visual .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="tank"></div>
+```
+
+::: notes
+Representation of Example 4.6. Preset initial volume 15 000 L and percentage loss 6% per hour. Select 2 hours or 5 hours, predict the volume, then reveal the tank, exact model value and graph. Changing the time or percentage hides the representation again so students can predict. Reset restores the original model and hides outputs.
+
+Follow-up: “Why does the graph become less steep even though the percentage loss stays the same?” A smaller volume produces a smaller litre loss. The idealised model remains positive at every finite time; it does not hit zero at a finite hour.
+:::

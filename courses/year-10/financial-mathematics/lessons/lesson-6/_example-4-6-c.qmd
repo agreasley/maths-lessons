@@ -1,0 +1,11 @@
+## Example 4.6 · The general rule {#fm6-example-4-6-c .fm-slide }
+
+A water tank containing 15 000 L has a small hole that reduces the amount of water by 6% per hour.
+
+c) Hence, determine a rule for the volume of water $V$ after $t$ hours.
+
+<p class="booklet-cue">Booklet p. 15 · Example 4.6 · Complete your working in the booklet.</p>
+
+::: notes
+$V=15000(0.94)^t$ for $t\ge0$, with V in litres. Ask students to identify the initial amount, retained proportion and count of hours. Verify t=0, 2 and 5 against the earlier results. Interpret fractional t only under the exponential interpolation of the stated model.
+:::

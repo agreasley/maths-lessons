@@ -1,0 +1,9 @@
+## Example 1.4 · Successive changes {#fm1-example-1-4 .fm-slide }
+
+A phone plan goes up by 5% this year and down by 10% next year. If it currently costs \$60, find the cost after two years.
+
+<p class="booklet-cue">Booklet p. 3–4 · Example 1.4 · Complete your working in the booklet.</p>
+
+::: notes
+Now introduce successive changes, after the multiplier hinge. Year 1: $60(1.05)=63$. Year 2: $63(0.90)=56.70$. Combined: $60(1.05)(0.90)=56.70$. The overall multiplier is 0.945, corresponding to a 5.5% decrease. Both percentages refer to the balance at that stage, not the same original base.
+:::

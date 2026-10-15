@@ -1,0 +1,34 @@
+---
+pagetitle: "Lesson 5 — Interest and depreciation"
+lesson-title: "Interest and depreciation"
+description: "Compare simple and compound investments, then apply compound decrease to an asset."
+lesson-order: 5
+booklet: "Sections 4.1–4.2 · Examples 4.3–4.4 · pp. 12–13"
+homework: "3 · Year 9 Exercise 1M"
+---
+
+{{< include lesson-5/_opening.qmd >}}
+
+{{< include lesson-5/_objective.qmd >}}
+
+{{< include lesson-5/_previously.qmd >}}
+
+{{< include lesson-5/_example-4-3-a.qmd >}}
+
+{{< include lesson-5/_example-4-3-bc.qmd >}}
+
+{{< include lesson-5/_investment-graph.qmd >}}
+
+{{< include lesson-5/_depreciation.qmd >}}
+
+{{< include lesson-5/_hinge.qmd >}}
+
+{{< include lesson-5/_depreciation-formula.qmd >}}
+
+{{< include lesson-5/_example-4-4.qmd >}}
+
+{{< include lesson-5/_depreciation-visual.qmd >}}
+
+{{< include lesson-5/_finish.qmd >}}
+
+{{< include lesson-5/_homework.qmd >}}

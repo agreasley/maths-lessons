@@ -1,0 +1,36 @@
+---
+pagetitle: "Lesson 4 — The compound interest formula"
+lesson-title: "The compound interest formula"
+description: "Use the formula with annual, semi-annual, monthly and daily compounding."
+lesson-order: 4
+booklet: "Section 4.1 · Examples 4.1–4.2 · pp. 10–11"
+homework: "2 · Year 9 Exercise 1L"
+---
+
+{{< include lesson-4/_opening.qmd >}}
+
+{{< include lesson-4/_objective.qmd >}}
+
+{{< include lesson-4/_previously.qmd >}}
+
+{{< include lesson-4/_formula.qmd >}}
+
+{{< include lesson-4/_example-4-1-a.qmd >}}
+
+{{< include lesson-4/_matching-periods.qmd >}}
+
+{{< include lesson-4/_hinge.qmd >}}
+
+{{< include lesson-4/_example-4-1-b.qmd >}}
+
+{{< include lesson-4/_example-4-1-c.qmd >}}
+
+{{< include lesson-4/_example-4-1-d.qmd >}}
+
+{{< include lesson-4/_example-4-1-e.qmd >}}
+
+{{< include lesson-4/_example-4-2.qmd >}}
+
+{{< include lesson-4/_finish.qmd >}}
+
+{{< include lesson-4/_homework.qmd >}}

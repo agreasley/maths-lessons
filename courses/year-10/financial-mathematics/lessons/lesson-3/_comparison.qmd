@@ -1,0 +1,11 @@
+## Simple and compound growth {#fm3-comparison .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="compound" data-principal="2000" data-rate="6" data-max="3"></div>
+```
+
+::: notes
+Representation of Example 3.1 and the worked comparison on p. 7. Predict the next period's interest before Reveal interest. Then Reveal balances and move to the next period. Both accounts start at \$2000; simple interest stays \$120 per year and compound interest increases. Reset hides all future values. The principal and annual rate can be changed for a follow-up after completing the booklet example.
+
+Follow-up: “Which number remains fixed for simple interest, and which changes for compound interest?”
+:::

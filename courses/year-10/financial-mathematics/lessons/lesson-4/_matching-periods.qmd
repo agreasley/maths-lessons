@@ -1,0 +1,16 @@
+## Matching rates and periods {#fm4-matching-periods .fm-slide }
+
+For a quoted annual rate of 5% over 4 years:
+
+| Compounding | Percentage rate per period, $r$ | Period count, $n$ |
+|---|---:|---:|
+| Annual | $5$ | $4$ |
+| Semi-annual | $5/2$ | $4\times2$ |
+| Monthly | $5/12$ | $4\times12$ |
+| Daily | $5/365$ | $4\times365$ |
+
+<p class="small-note">Daily calculations assume 365 compounding periods per year.</p>
+
+::: notes
+Ask why both columns must change. Avoid rounding 5/12 or 5/365 before calculation. The source uses quoted annual rates split equally across compounding periods; do not treat these as effective annual rates.
+:::

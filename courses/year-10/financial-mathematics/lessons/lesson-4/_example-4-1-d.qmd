@@ -1,0 +1,11 @@
+## Example 4.1 · Daily compounding {#fm4-example-4-1-d .fm-slide }
+
+Find the total value of an investment if \$8000 is invested at
+
+d) 5% p.a. compounded daily for 4 years
+
+<p class="booklet-cue">Booklet p. 10–11 · Example 4.1 · Complete your working in the booklet.</p>
+
+::: notes
+Assume 365 compounding periods per year. $r=5/365$, $n=1460$. $A=8000(1+0.05/365)^{1460}\approx\$9771.09$. Use the calculator expression with full precision.
+:::

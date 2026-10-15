@@ -1,0 +1,15 @@
+## Previously {#fm4-previously .fm-slide }
+
+For $\$2000$ at 6% per year, three annual increases give:
+
+$$2000\times1.06\times1.06\times1.06$$
+
+**How can we write the repeated multiplication more compactly?**
+
+::: {.fragment .takeaway}
+$$2000(1.06)^3$$
+:::
+
+::: notes
+Give thinking time before advancing the fragment. The exponent counts the number of identical percentage multiplications, not the number of amounts in the list.
+:::

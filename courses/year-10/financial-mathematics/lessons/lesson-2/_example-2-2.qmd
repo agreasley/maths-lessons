@@ -1,0 +1,9 @@
+## Example 2.2 · Finding the investment time {#fm2-example-2-2 .fm-slide }
+
+Remy invests \$2500 at 8% p.a. simple interest for a period of time and receives \$50 interest. For how long (in months) did she invest the money?
+
+<p class="booklet-cue">Booklet p. 5 · Example 2.2 · Complete your working in the booklet.</p>
+
+::: notes
+$50=2500(0.08)N$, hence $N=50/200=0.25$ years, which is 3 months. Ask why 0.25 cannot be labelled months directly. Model rearrangement in OneNote.
+:::

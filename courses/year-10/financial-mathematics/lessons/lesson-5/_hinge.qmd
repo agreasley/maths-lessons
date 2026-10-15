@@ -1,0 +1,18 @@
+## Hinge question {#fm5-hinge .fm-slide }
+
+```{=html}
+<div data-module="hinge" data-correct="2" class="hinge fm-hinge"><p class="hinge-question">A car worth $20,000 depreciates by 15% of its current value each year. Which expression gives its value after two years?</p><div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div><div class="choices"><button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span><span data-math="20000(0.70)">20000(0.70)</span></span></button><button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span><span data-math="20000(0.85)^2">20000(0.85)^2</span></span></button><button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span><span data-math="20000(0.15)^2">20000(0.15)^2</span></span></button><button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span><span data-math="20000(1.15)^2">20000(1.15)^2</span></span></button></div><div class="hinge-bottom"><p>Fist on chest. Think quietly. On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div><div class="hinge-explanation" hidden>2. Each year retains 85% of the current value, so apply the multiplier 0.85 twice.</div></div>
+```
+
+::: notes
+Additional diagnostic question. Default 60 seconds. Students begin with a fist on their chest, think independently, and show 1–4 fingers simultaneously on your verbal “show” cue. Collect responses before revealing. Timer expiry does not reveal the answer.
+
+Correct answer: 2.
+1: adds two 15% decreases as if they were based on the original value.
+3: uses the fraction removed rather than the fraction retained.
+4: models a 15% increase.
+
+Ready: ask why the second dollar loss is smaller, then establish the formula.
+Divided: ask pairs to calculate the first retained value and the base for year 2; re-poll.
+Further explanation needed: compare a 15% loss from \$20 000 (\$3000) with a 15% loss from \$17 000 (\$2550). Re-poll before the car example.
+:::

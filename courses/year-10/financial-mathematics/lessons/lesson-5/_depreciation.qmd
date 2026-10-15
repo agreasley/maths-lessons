@@ -1,0 +1,13 @@
+## Depreciation {#fm5-depreciation .fm-slide }
+
+An asset loses a percentage of its **current value** each period.
+
+A 14% decrease retains:
+
+$$100\%-14\%=86\%\qquad\text{multiplier }0.86$$
+
+**Predict:** if the percentage loss stays the same, does the dollar loss stay the same?
+
+::: notes
+Booklet §4.2, p. 13. The dollar loss decreases as the value decreases. Use a single-period change first, then let the hinge check the repeated multiplier. Avoid introducing straight-line depreciation as if it were the booklet's model.
+:::

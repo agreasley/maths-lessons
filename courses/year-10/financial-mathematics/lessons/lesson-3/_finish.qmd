@@ -1,0 +1,15 @@
+## The changing balance {#fm3-finish .fm-slide }
+
+Simple interest adds the **same amount** each period.
+
+Compound interest multiplies the current balance by the **same factor** each period.
+
+::: {.takeaway}
+I can calculate compound growth over three periods and explain how it differs from simple interest.
+:::
+
+<p class="small-note">No new homework set at this point. Continue the existing simple-interest practice.</p>
+
+::: notes
+Exit check: “For an annual rate of 10%, compounded semi-annually, what rate do you use in each step?” Answer 5%. No separate homework allocation follows Section 3 in the booklet.
+:::

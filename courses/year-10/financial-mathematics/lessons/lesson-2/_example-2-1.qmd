@@ -1,0 +1,9 @@
+## Example 2.1 · Interest and total amount {#fm2-example-2-1 .fm-slide }
+
+Find the interest and total amount when \$6000 is invested at 6.5% p.a. simple interest for 18 months.
+
+<p class="booklet-cue">Booklet p. 5 · Example 2.1 · Complete your working in the booklet.</p>
+
+::: notes
+$P=6000$, $R=0.065$, $N=18/12=1.5$. $I=6000(0.065)(1.5)=585$. Interest is \$585; total amount $A=6000+585=\$6585$. Retain both requested outputs.
+:::

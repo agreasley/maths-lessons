@@ -1,0 +1,9 @@
+## Example 3.3 · Semi-annual compounding {#fm3-example-3-3 .fm-slide }
+
+An account pays 8% p.a. compounded semi-annually (every 6 months). Starting with $P=\$1200$, use repeated simple interest for three halfyear periods (i.e. 18 months) to find the balance after each period.
+
+<p class="booklet-cue">Booklet p. 8–9 · Example 3.3 · Complete your working in the booklet.</p>
+
+::: notes
+Retain the source wording “halfyear”. Rate per period = 4%. Balances: $1200(1.04)=1248$; $1248(1.04)=1297.92$; $1297.92(1.04)=1349.8368\approx\$1349.84$. Ask students to write the interest calculation at each step rather than jumping straight to a power. No rounding of intermediate calculator values is required.
+:::

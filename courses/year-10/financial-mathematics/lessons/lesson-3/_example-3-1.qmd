@@ -1,0 +1,9 @@
+## Example 3.1 · Three annual periods {#fm3-example-3-1 .fm-slide }
+
+Starting with $P=\$2000$ at 6% p.a., use repeated simple interest to find the balance after 1, 2 and 3 years (assume annual compounding). Show each step.
+
+<p class="booklet-cue">Booklet p. 7 · Example 3.1 · Complete your working in the booklet.</p>
+
+::: notes
+Year 1: $2000+0.06(2000)=2120$. Year 2: $2120+0.06(2120)=2247.20$. Year 3: $2247.20+0.06(2247.20)=2382.032\approx2382.03$. Interest payments are \$120, \$127.20 and \$134.832. Retain full calculator precision until the final answer; displayed money is rounded to cents. Contrast simple balances \$2120, \$2240, \$2360. The next slide is the staged version of the booklet's worked comparison, not a second independent example.
+:::

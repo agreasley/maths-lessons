@@ -1,0 +1,9 @@
+## Today's learning {#fm6-objective .fm-slide }
+
+### Lesson objective
+
+We are learning to model repeated percentage growth and decay.
+
+### Success criteria
+
+I can form an exponential rule and use it to calculate a quantity or estimate when it reaches a target.

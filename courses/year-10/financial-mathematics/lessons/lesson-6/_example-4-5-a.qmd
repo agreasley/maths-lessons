@@ -1,0 +1,11 @@
+## Example 4.5 · A falling portfolio {#fm6-example-4-5-a .fm-slide }
+
+A share portfolio, initially worth \$300 000 is reduced by 15% p.a. over a number of years.
+
+a) Find the value of the investment after 7 years?
+
+<p class="booklet-cue">Booklet p. 14 · Example 4.5 · Complete your working in the booklet.</p>
+
+::: notes
+Preserve source wording. $V=300000(0.85)^7=96173.126484375\approx\$96 173.13$. This is an assumed fixed-percentage model, not a forecast of actual investment returns.
+:::

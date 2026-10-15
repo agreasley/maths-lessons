@@ -1,0 +1,15 @@
+## Interest, total and time {#fm2-finish .fm-slide }
+
+Simple interest uses the **original principal** each period.
+
+The rate and time must use the **same unit**.
+
+::: {.takeaway}
+I can use the simple interest formula to find an unknown quantity and distinguish interest from the total amount.
+:::
+
+**Exit check:** if a question asks for the investment's total value, what must you add to the interest?
+
+::: notes
+Answer: the original principal. Ask one student to explain why a monthly duration cannot be used unchanged with an annual rate.
+:::

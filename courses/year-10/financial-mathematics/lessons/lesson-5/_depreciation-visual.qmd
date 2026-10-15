@@ -1,0 +1,9 @@
+## The changing dollar loss {#fm5-depreciation-visual .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="depreciation"></div>
+```
+
+::: notes
+Representation of Example 4.4. Begin with \$38 000 and 14% annual depreciation. Before revealing each year ask whether the new dollar loss will be greater, equal or smaller. Controls change initial value and percentage rate; a change resets the reveal sequence. Follow-up: “How can the percentage loss stay constant while the dollar loss changes?” Show the value and dollar loss together only after a prediction.
+:::

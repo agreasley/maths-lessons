@@ -1,0 +1,15 @@
+## A percentage of the current value {#fm5-finish .fm-slide }
+
+Growth uses a multiplier **greater than 1**.
+
+Depreciation uses a multiplier **between 0 and 1**.
+
+::: {.takeaway}
+I can choose a suitable model to calculate investment interest or an asset’s depreciated value.
+:::
+
+**Exit check:** explain why a 14% annual loss does not remove the same number of dollars each year.
+
+::: notes
+Expected explanation: the current value becomes smaller, so 14% of that value becomes smaller. Invite comparison with constant-dollar loss without changing the model of the source example.
+:::

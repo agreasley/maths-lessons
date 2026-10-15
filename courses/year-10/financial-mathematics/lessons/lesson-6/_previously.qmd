@@ -1,0 +1,11 @@
+## Previously {#fm6-previously .fm-slide }
+
+Classify each multiplier as **growth** or **decay**.
+
+$$1.06\qquad0.94\qquad1.15\qquad0.85$$
+
+For each one, state the percentage change.
+
+::: notes
+Answers: 6% increase; 6% decrease; 15% increase; 15% decrease. Ask pairs to explain their classification. This is an additional 1–2 minute retrieval activity, not a booklet example.
+:::

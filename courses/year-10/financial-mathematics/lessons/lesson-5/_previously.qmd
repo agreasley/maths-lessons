@@ -1,0 +1,9 @@
+## Previously {#fm5-previously .fm-slide }
+
+$$A=P\left(1+\frac{r}{100}\right)^n\qquad I=A-P$$
+
+**Quick check:** for 12% p.a., compounded monthly, what percentage rate and period count would you use over 11 years?
+
+::: notes
+Answer: r=1% per month and n=132 months. Remind students that r is entered as 1 in the displayed percentage-rate formula, so the multiplier is 1.01. Distinguish final amount from interest.
+:::

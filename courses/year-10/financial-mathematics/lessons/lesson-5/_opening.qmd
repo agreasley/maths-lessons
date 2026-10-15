@@ -1,0 +1,7 @@
+## Interest and depreciation {#fm5-opening .fm-slide .cover .fm-cover}
+
+<div class="eyebrow">Year 10 · Financial mathematics · Lesson 5</div><div class="cover-title">Interest and depreciation</div><div class="cover-subtitle">Compare investment growth and model a falling value.</div><div class="cover-bars" aria-hidden="true"><span style="height:30%"></span><span style="height:55%"></span><span style="height:100%"></span><span style="height:75%"></span><span style="height:40%"></span></div><div class="cover-foot">Sections 4.1–4.2 · Examples 4.3–4.4 · Homework 3</div>
+
+::: notes
+Allow approximately 50–60 minutes. Keep the booklet alongside the slides. Complete worked examples in OneNote. Use Previous and Next or the slide map; swipe navigation is disabled. Press S on a computer for these notes.
+:::

@@ -1,0 +1,24 @@
+## The interest base {#fm3-current-balance .fm-slide }
+
+::: {.split}
+::: {.column-block}
+<h3>Simple interest</h3>
+
+Calculate each period's interest on the **original principal**.
+
+$$\text{Interest}=P\times R$$
+:::
+::: {.column-block}
+<h3>Compound interest</h3>
+
+Calculate each period's interest on the **current balance**.
+
+$$\text{Interest}=\text{current balance}\times R$$
+:::
+:::
+
+<p class="booklet-cue">Booklet p. 7 · One period at a time</p>
+
+::: notes
+Booklet §3.1. Reuse the simple-interest calculation with N=1 in each period, but update the base for compound interest. Use the next example for the same numbers as the booklet's worked comparison.
+:::

@@ -1,0 +1,28 @@
+---
+pagetitle: "Lesson 2 — Simple interest"
+lesson-title: "Simple interest"
+description: "Match rate and time units, then find interest, total amount, time and rate."
+lesson-order: 2
+booklet: "Section 2.1 · Examples 2.1–2.3 · pp. 5–6"
+homework: "1 · Year 9 Exercise 1K"
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_objective.qmd >}}
+
+{{< include lesson-2/_previously.qmd >}}
+
+{{< include lesson-2/_formula.qmd >}}
+
+{{< include lesson-2/_example-2-1.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_example-2-2.qmd >}}
+
+{{< include lesson-2/_example-2-3.qmd >}}
+
+{{< include lesson-2/_finish.qmd >}}
+
+{{< include lesson-2/_homework.qmd >}}

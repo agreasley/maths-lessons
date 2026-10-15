@@ -1,0 +1,9 @@
+## Example 1.3 · A discount {#fm1-example-1-3 .fm-slide }
+
+A jacket priced at \$120 is discounted by 12%. Find the sale price.
+
+<p class="booklet-cue">Booklet p. 3 · Example 1.3 · Complete your working in the booklet.</p>
+
+::: notes
+$120(1-0.12)=120(0.88)=105.60$, so \$105.60. Ask students to identify the multiplier before using a calculator. \$14.40 is the discount, not the sale price.
+:::

@@ -870,6 +870,8 @@
     $(m,'.ar-water-show-remaining').onclick=()=>{remainingVisible=!remainingVisible;draw();};
     $(m,'.ar-water-show-pumped').onclick=()=>{pumpedVisible=!pumpedVisible;draw();};draw();
   }
+  // Topic-specific interactions use the same mathematical renderer and chart primitives.
+  window.MathsLesson = Object.freeze({math, typeset, makeSvg, text});
   function init(){
     const modules={chart,table:frequencyTable,hinge,quiz:hinge,outcomes,classifier,subset,median,boundary,coin,'class-estimate':classEstimate,'variable-comparison':variableComparison,'reveal-panel':revealPanel,'table-builder':tableBuilder,'stat-locator':statLocator,'histogram-features':histogramFeatures,'ogive-intro':ogiveIntro,ogive,fibonacci,'odd-square':oddSquare,'sigma-indices':sigmaIndices,'arithmetic-graph':arithmeticGraph,'geometric-graph':geometricGraph,'gauss-pairing':gaussPairing,'water-tank':waterTank};
     $$ (document,'[data-module]').forEach(m=>{const fn=modules[m.dataset.module];if(fn&&!m.dataset.ready){m.dataset.ready='true';fn(m);}});

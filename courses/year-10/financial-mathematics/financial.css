@@ -1,0 +1,58 @@
+/* Scoped additions to the shared classroom theme. */
+.reveal .slide-number{width:max-content;right:auto}
+.reveal .fm-cover .cover-title{max-width:1080px;font-size:72px;margin-top:44px}
+.reveal .fm-cover .cover-subtitle{max-width:1000px}
+.reveal .fm-slide>p{font-size:30px}
+.reveal .fm-slide .booklet-cue{font-size:20px;margin-top:34px}
+.reveal .fm-slide .small-note{font-size:22px}
+.reveal .fm-slide .homework-level{font-size:30px}
+.reveal .fm-hinge .hinge-question{font-size:30px;margin:12px 0 15px}
+.reveal .fm-hinge .choice{font-size:26px;min-height:100px}
+.reveal .fm-hinge .hinge-explanation{font-size:24px;margin-top:13px}
+.reveal .fm-hinge button,.reveal .fm-hinge select{min-height:64px}
+.reveal .fm-module{font-size:25px}
+.reveal .fm-module .toolbar{margin:12px 0 18px;gap:14px}
+.reveal .fm-module button,.reveal .fm-module select,.reveal .fm-module input[type=number]{min-height:64px;font-size:21px}
+.reveal .fm-module input[type=number]{width:125px}
+.reveal .fm-inputs{justify-content:flex-start}
+.reveal .fm-control-note{font-size:23px;color:var(--muted);margin:9px 0}
+.reveal .fm-module .fm-small{font-size:20px;line-height:1.35;color:var(--muted);margin:11px 0}
+.reveal .fm-module .fm-explain{font-size:27px;line-height:1.4;border-left:4px solid var(--teal);padding-left:18px;min-height:70px}
+.reveal .fm-module .fm-readout{font-size:25px;line-height:1.4;min-height:72px;margin:8px 0}
+.reveal .fm-module .fm-model{font-size:26px;margin:10px 0}
+.reveal .fm-module .fm-prediction{display:flex;align-items:center;justify-content:center;min-height:280px;border-block:1px solid var(--rule);font-size:26px;line-height:1.4;color:var(--muted);padding:18px;text-align:center}
+.reveal .fm-module .chart-svg{height:330px;width:100%;max-height:none;margin:0}
+.reveal .fm-simple{color:var(--blue)}
+.reveal .fm-compound{color:var(--teal)}
+.reveal .fm-compound-table table{font-size:23px}
+.reveal .fm-compound-table th{font-size:21px}
+.reveal .fm-compound-table td,.reveal .fm-compound-table th{padding:15px 7px}
+.reveal .fm-percent-row{display:grid;grid-template-columns:300px 1fr 175px;align-items:center;gap:25px;min-height:105px;font-size:26px}
+.reveal .fm-percent-row strong{text-align:right}
+.reveal .fm-percent-bar{height:49px;background:#e7e8df}
+.reveal .fm-percent-bar span{display:block;height:100%}
+.reveal .fm-frequency-table table{font-size:25px;margin:10px 0}
+.reveal .fm-frequency-table td,.reveal .fm-frequency-table th{padding:12px 8px}
+.reveal .fm-frequency-table .fm-current{background:#e5eee8}
+.reveal .fm-depreciation-table table{font-size:24px}
+.reveal .fm-depreciation-table td,.reveal .fm-depreciation-table th{padding:13px 9px}
+.reveal .fm-depreciation-table td:last-child{width:40%}
+.reveal .fm-value-bar{position:relative;height:38px;display:flex;align-items:center;justify-content:flex-end}
+.reveal .fm-value-bar span{position:absolute;left:0;height:100%;background:#d6e8e5}
+.reveal .fm-value-bar strong{position:relative;font-weight:400;padding-right:8px}
+.reveal .fm-target-layout{display:grid;grid-template-columns:.95fr 1.25fr;gap:28px}
+.reveal .fm-target-layout table{font-size:22px;margin:0}
+.reveal .fm-target-layout th{font-size:20px}
+.reveal .fm-target-layout td,.reveal .fm-target-layout th{padding:8px 6px}
+.reveal .fm-target-layout .chart-svg{height:295px}
+.reveal .fm-target-layout .fm-prediction{min-height:255px;font-size:24px}
+.reveal .fm-tank-controls{gap:10px!important}
+.reveal .fm-tank-controls label{font-size:21px}
+.reveal .fm-tank-controls input[type=range]{width:200px;min-height:64px}
+.reveal .fm-tank-controls input[type=number]{width:90px}
+.reveal .fm-tank-controls output{min-width:28px}
+.reveal .fm-tank-layout{display:grid;grid-template-columns:230px 1fr;gap:22px;align-items:center}
+.reveal .fm-tank-picture svg{height:310px;width:100%;max-height:none;margin:0;display:block}
+.reveal .fm-tank-layout .fm-prediction{min-height:310px}
+.reveal .fm-tank-layout .chart-svg{height:310px}
+.reveal .fm-tank-layout .fm-prediction{font-size:25px}

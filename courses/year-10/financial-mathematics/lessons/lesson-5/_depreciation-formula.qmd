@@ -1,0 +1,18 @@
+## The depreciation formula {#fm5-depreciation-formula .fm-slide }
+
+::: {.takeaway}
+$$S=\textcolor{#3b66a8}{V_0}\left(1-\frac{\textcolor{#b55224}{d}}{100}\right)^{\textcolor{#007f78}{n}}$$
+:::
+
+| Symbol | Meaning |
+|---|---|
+| $V_0$ | Initial value |
+| $d$ | Percentage depreciation rate per period |
+| $n$ | Number of periods |
+| $S$ | Value remaining after those periods |
+
+<p class="small-note">Repeated decrease uses a multiplier between 0 and 1.</p>
+
+::: notes
+Booklet §4.2, p. 13. Establish the formula by repeated multiplication by (1−d/100), using the same structure as compound growth. S is the remaining or salvage value, not the accumulated loss. For this model assume 0<d<100.
+:::

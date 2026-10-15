@@ -6,7 +6,7 @@ course-year: 10
 course-name: "Mathematics"
 course-group: "Years 7–10"
 course-order: 4
-availability: coming-soon
+availability: available
 listing:
   id: topics
   contents: "*/index.qmd"

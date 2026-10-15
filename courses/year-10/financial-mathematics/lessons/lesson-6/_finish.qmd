@@ -1,0 +1,15 @@
+## The exponential model {#fm6-finish .fm-slide }
+
+$$\text{Quantity}=\text{initial quantity}\times(\text{multiplier})^{\text{number of periods}}$$
+
+A constant percentage change gives a constant multiplier.
+
+::: {.takeaway}
+I can form an exponential rule and use it to calculate a quantity or estimate when it reaches a target.
+:::
+
+**Exit check:** what does the initial quantity tell you about the graph?
+
+::: notes
+The graph passes through the initial quantity when time is zero. In financial examples with periodic crediting, distinguish the discrete valuation points from a smooth curve used to interpolate. Ask students to explain how growth differs from decay using the multiplier.
+:::

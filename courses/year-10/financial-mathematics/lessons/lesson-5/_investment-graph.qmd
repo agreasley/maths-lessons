@@ -1,0 +1,9 @@
+## The two investment models {#fm5-investment-graph .fm-slide }
+
+```{=html}
+<div class="fm-module" data-finance="investment"></div>
+```
+
+::: notes
+Graphical comparison for Example 4.3. The plotted quantities are total account amounts, including the principal, for both models. Monthly compounding gives A(n)=16000(1.01)^(12n) at each whole-year checkpoint. Simple A(n)=16000(1+0.12n). Ask for a prediction before Reveal graph. The difference between total amounts equals the difference between interest earned because the principal is the same. The slider changes the displayed whole-year checkpoint; hide the result again before a new prediction.
+:::

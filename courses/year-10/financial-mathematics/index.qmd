@@ -1,0 +1,25 @@
+---
+title: "Financial Mathematics"
+description: "Use percentage multipliers to explore simple interest, compound interest, depreciation and exponential change."
+metadata-files: [../../../_site-page.yml]
+topic-order: 1
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 10</a></li><li><span aria-current="page">Financial Mathematics</span></li></ol></nav>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 10 Mathematics</p><h1>Financial Mathematics</h1><p class="intro-copy">Connect percentage changes to interest, depreciation and exponential models.</p><div class="topic-tags"><span>Sections 1–4</span><span>6 lessons</span><span>Homework 1–4</span></div></header>
+<div class="section-heading"><h2>Your lessons</h2><span>Work through them in order</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Keep your booklet alongside you.</h2><p>These lessons accompany the Year 10 Financial Mathematics booklet. Complete the examples in your booklet, then use the matching homework to practise. Homework 1 follows Lesson 2, Homework 2 follows Lesson 4, Homework 3 follows Lesson 5 and Homework 4 follows Lesson 6.</p></div></div>
+```

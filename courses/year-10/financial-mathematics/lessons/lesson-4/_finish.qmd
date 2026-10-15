@@ -1,0 +1,15 @@
+## Rate, periods and amount {#fm4-finish .fm-slide }
+
+Use the rate **per compounding period**.
+
+Count the **matching periods**.
+
+Subtract the principal when asked for **interest earned**.
+
+::: {.takeaway}
+I can match the rate and number of periods to calculate a final balance and interest earned.
+:::
+
+::: notes
+Exit check: “For 4 years of monthly compounding, what is n?” Answer 48. Ask one student to distinguish r=5/12 in the percentage-rate formula from the decimal 0.05/12.
+:::

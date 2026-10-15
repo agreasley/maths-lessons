@@ -1,0 +1,13 @@
+## The decrease multiplier {#fm1-decrease-factor .fm-slide }
+
+::: {.takeaway}
+$$\text{New amount}=\text{Original}\times\left(1-\frac{p}{100}\right)$$
+:::
+
+An 8% decrease leaves **92% of the original**.
+
+$$100\%-8\%=92\%\qquad\longleftrightarrow\qquad0.92$$
+
+::: notes
+Booklet §1.2, p. 2. Ask: “Does 0.92 describe the part removed or the part retained?” Follow with “What multiplier represents a 12% decrease?” Answer 0.88.
+:::

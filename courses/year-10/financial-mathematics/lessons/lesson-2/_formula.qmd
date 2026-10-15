@@ -1,0 +1,18 @@
+## Simple interest {#fm2-formula .fm-slide }
+
+::: {.takeaway}
+$$I=PRN\qquad A=P+I=P(1+RN)$$
+:::
+
+| Symbol | Meaning |
+|---|---|
+| $P$ | Principal: the original amount |
+| $R$ | Rate per time period, as a decimal |
+| $N$ | Number of those time periods |
+| $I$ and $A$ | Interest earned and total amount |
+
+<p class="small-note">The rate and time must use the same period.</p>
+
+::: notes
+Booklet §2.1, p. 5. Each period's simple interest is based on the original principal. Distinguish a payment of interest from reinvestment; no compound growth is assumed.
+:::

@@ -1,0 +1,13 @@
+## A growth model {#fm6-growth-model .fm-slide }
+
+**Additional example**
+
+A model population starts at 500 and increases by 10% each hour.
+
+1. What is the hourly multiplier?
+2. Write a rule for the model population $P$ after $t$ hours.
+3. What does the rule give when $t=0$?
+
+::: notes
+Additional example, clearly separate from the booklet. The model assumes a constant percentage growth rate with no limiting factors. Answers: 1.10; P=500(1.10)^t; P(0)=500. Counts predicted by this idealised model may need rounding for interpretation. Complete the rule in OneNote before moving to the decay examples.
+:::

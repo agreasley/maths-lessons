@@ -1,0 +1,15 @@
+## Finding the original amount {#fm1-reverse .fm-slide }
+
+The final amount includes the percentage change.
+
+$$\text{Final amount}=\text{Original amount}\times\text{multiplier}$$
+
+::: {.takeaway}
+$$\text{Original amount}=\frac{\text{Final amount}}{\text{multiplier}}$$
+:::
+
+A 10% discount leaves **90% of the original**.
+
+::: notes
+Booklet §1.4, p. 4. Use a forward multiplication arrow and reverse division arrow in OneNote. An increase of 10% on the sale price does not undo a 10% discount, because it uses a different base.
+:::

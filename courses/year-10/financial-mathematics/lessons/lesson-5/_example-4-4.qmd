@@ -1,0 +1,9 @@
+## Example 4.4 · The car’s value {#fm5-example-4-4 .fm-slide }
+
+A car costs \$38,000 and depreciates at 14% p.a. (compounded annually). Find its value after 5 years.
+
+<p class="booklet-cue">Booklet p. 13 · Example 4.4 · Complete your working in the booklet.</p>
+
+::: notes
+$S=38000(1-14/100)^5=38000(0.86)^5=17876.2266688\approx\$17 876.23$. Keep intermediate calculator precision. This is the value remaining. The loss in value would be \$20 123.77, but it is not requested.
+:::

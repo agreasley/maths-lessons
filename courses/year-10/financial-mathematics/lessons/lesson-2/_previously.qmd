@@ -1,0 +1,11 @@
+## Previously {#fm2-previously .fm-slide }
+
+An 8% increase uses a multiplier of $1.08$.
+
+A percentage rate of 8% is the decimal $0.08$.
+
+**Quick recap:** express 18 months and 9 months in years.
+
+::: notes
+Link to Lesson 1. Answers: 1.5 years and 0.75 years. Show that using an annual rate means counting time in years. Avoid treating 18 months as 18 annual periods.
+:::

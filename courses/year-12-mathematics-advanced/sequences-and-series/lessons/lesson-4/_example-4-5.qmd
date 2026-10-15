@@ -2,22 +2,10 @@
 
 The sum of the first six terms of an arithmetic sequence is $45$ and the sum of the first twelve terms is $-18$. Find the first term and the common difference. Hence find the $10$th term in the sequence.
 
-::: {.split .ar-equation-prompt .fragment data-fragment-index="0"}
-::: {.column-block}
-$$\frac{6}{2}(2a+5d)=45$$
-
-:::
-::: {.column-block}
-$$\frac{12}{2}(2a+11d)=-18$$
-
-:::
-
-:::
-
 <p class="booklet-cue">Booklet p. 22 · Example 4.5</p>
 
 ::: notes
 
-Reveal the simultaneous equations only after students translate the two sums. Simplify to 2a+5d=15 and 2a+11d=−3. Subtract: 6d=−18 so d=−3, a=15. Then a_10=15+9(−3)=−12. A negative sum is possible even though the first term is positive. Keep the final answers in the working rather than revealing them with the initial equations.
+Students form the simultaneous equations independently: 6(2a+5d)/2=45 and 12(2a+11d)/2=−18. Simplify to 2a+5d=15 and 2a+11d=−3. Subtract: 6d=−18 so d=−3, a=15. Then a_10=15+9(−3)=−12. A negative sum is possible even though the first term is positive. Keep the setup and full solution in the booklet/OneNote working; the slide shows only the question.
 
 :::

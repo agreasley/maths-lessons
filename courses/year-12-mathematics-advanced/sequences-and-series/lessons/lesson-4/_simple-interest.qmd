@@ -1,0 +1,29 @@
+## Simple interest {#ss4-simple-interest .ar-lesson .ar-simple-interest}
+
+Interest is calculated on the original principal each period.
+
+$$I=PRN$$
+
+<div class="ar-interest-symbols">
+<p><span data-math="I">I</span> = interest earned</p><p><span data-math="P">P</span> = original principal</p>
+<p><span data-math="R">R</span> = rate per period, as a decimal</p><p><span data-math="N">N</span> = number of periods</p>
+</div>
+
+<p class="ar-interest-units">Use the same period for <span data-math="R">R</span> and <span data-math="N">N</span>.</p>
+
+::: {.takeaway .fragment data-fragment-index="0"}
+$$A_N=P+I=P+N\left(\textcolor{#007f78}{PR}\right)$$
+
+Each period adds the same fixed amount $\textcolor{#007f78}{PR}$, so the total value grows linearly.
+
+:::
+
+<p class="booklet-cue">Booklet p. 25 · Before Example 4.8</p>
+
+::: notes
+
+Allow about two minutes. Ask students what each letter in I=PRN represents. R is a decimal rate per period: for 4% per annum use R=0.04 and N in years. N may be fractional when time is expressed in years; 18 months is 1.5 years. Alternatively choose months and use R=0.04/12 with N=18.
+
+On Next, connect the accumulated interest to the total value A_N=P+I=P+N(PR). For fixed principal and rate, every full period adds PR: A_(N+1)−A_N=PR. This matches the linear model A_n=A_0+nd with A_0=P and d=PR. Emphasise that I is the interest, while A_N is the total value. With a positive interest rate the total increases by a fixed amount each period; simple interest is not calculated on the changing balance.
+
+:::

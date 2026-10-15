@@ -13,6 +13,8 @@ homework: "4 · Exercises 1F and 1B"
 
 {{< include lesson-4/_recap.qmd >}}
 
+{{< include lesson-4/_gauss-story.qmd >}}
+
 {{< include lesson-4/_example-4-1.qmd >}}
 
 {{< include lesson-4/_pairing.qmd >}}
@@ -40,6 +42,8 @@ homework: "4 · Exercises 1F and 1B"
 {{< include lesson-4/_example-4-7.qmd >}}
 
 {{< include lesson-4/_linear-models.qmd >}}
+
+{{< include lesson-4/_simple-interest.qmd >}}
 
 {{< include lesson-4/_example-4-8.qmd >}}
 

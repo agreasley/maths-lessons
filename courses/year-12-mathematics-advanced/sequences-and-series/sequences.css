@@ -187,22 +187,12 @@
 .reveal .ar-proof-slide .ar-pair-count{font-size:26px;color:var(--muted);margin:17px 0}
 .reveal .ar-proof-slide .takeaway{margin:18px 0;padding-block:8px}
 .reveal .ar-proof-slide .katex-display{font-size:32px;margin:17px 0}
-.reveal .ar-formulas-slide>.katex-display{font-size:32px;margin:20px 0}
-.reveal .ar-formula-columns{margin:22px 0 10px;gap:30px}
-.reveal .ar-formula-columns h3{font-size:26px;color:var(--teal);margin:0 0 15px}
-.reveal .ar-formula-columns .katex-display{font-size:30px;margin:15px 0}
 .reveal .ar-mean-interpretation{font-size:27px;margin:17px 0 25px}
-.reveal .ar-reference{border-top:1px solid var(--rule);padding-top:18px}
-.reveal .ar-reference h3{font-size:25px;margin:0 0 14px}
-.reveal .ar-reference-crop{position:relative;width:900px;height:130px;overflow:hidden;background:white}
-.reveal .ar-reference-crop img{position:absolute;left:0;top:-242px;width:900px;height:auto;max-width:none;max-height:none;margin:0}
 .reveal .ar-formulas-slide .booklet-cue{margin-top:18px;padding-top:10px}
 .reveal .ar-hinge .hinge-question{font-size:28px;line-height:1.5;min-height:112px;margin:10px 0 12px}
 .reveal .ar-hinge-sum{display:inline-block;font-size:37px;vertical-align:middle;margin:0 12px}
 .reveal .ar-hinge .choice{min-height:88px;font-size:32px}
 .reveal .ar-hinge .hinge-explanation{font-size:27px;line-height:1.5;margin-top:10px;padding:10px 17px}
-.reveal .ar-equation-prompt{margin-top:44px;gap:24px}
-.reveal .ar-equation-prompt .katex-display{font-size:32px}
 .reveal .ar-summation-task{display:flex;align-items:center;gap:30px;font-size:43px;min-height:150px;margin:22px 0}
 .reveal .ar-summation-task>span:first-child{font-size:30px}
 .reveal .ar-summation-slide .fragment>.katex-display{font-size:34px;margin:28px 0}
@@ -242,3 +232,28 @@
 .reveal .ar-key-ideas .series-summary-row .katex-display{font-size:29px;margin:16px 0}
 .reveal .ar-key-ideas .series-summary-row{padding:10px 0 19px}
 .reveal .ar-key-ideas>p:not(.booklet-cue){font-size:25px;margin-top:22px}
+
+/* Lesson 4 refinements: context, substitution and simple-interest recap. */
+.reveal .ar-gauss-story .ar-gauss-bio{font-size:28px;margin:25px 0 28px;line-height:1.5}
+.reveal .ar-gauss-story .ar-story-label{font-size:24px;color:var(--teal);margin:20px 0}
+.reveal .ar-gauss-story>p{font-size:29px;line-height:1.5}
+.reveal .ar-gauss-story .katex-display{font-size:57px;margin:22px 0 15px}
+.reveal .ar-gauss-story .ar-story-question{font-size:34px;font-weight:600;margin:15px 0}
+.reveal .ar-alternative .katex-display{font-size:31px;margin:20px 0}
+.reveal .ar-alternative .takeaway{margin:20px 0;padding-block:6px}
+.reveal .ar-alternative .booklet-cue{margin-top:20px;padding-top:12px}
+.reveal .ar-formula-sheet-layout{grid-template-columns:1.15fr 1fr;gap:38px;margin-top:24px}
+.reveal .ar-formula-summary h3{font-size:27px;color:var(--teal);margin:26px 0 12px}
+.reveal .ar-formula-summary .katex-display{font-size:31px;margin:16px 0 23px}
+.reveal .ar-formula-summary .ar-mean-interpretation{font-size:27px;line-height:1.5;margin-top:30px;max-width:560px}
+.reveal .ar-reference-full h3{font-size:27px;margin:0 0 16px}
+.reveal .ar-reference-full img{display:block;width:100%;height:auto;max-width:none;max-height:none;margin:0}
+.reveal .ar-simple-interest>p:not(.booklet-cue){font-size:28px}
+.reveal .ar-simple-interest>.katex-display{font-size:41px;margin:24px 0}
+.reveal .ar-interest-symbols{display:grid;grid-template-columns:1.25fr 1fr;column-gap:30px;row-gap:12px;margin:24px 0 12px}
+.reveal .ar-interest-symbols p{font-size:27px;margin:0}
+.reveal .ar-simple-interest .ar-interest-units{font-size:24px;color:var(--muted);margin:18px 0 24px}
+.reveal .ar-simple-interest .takeaway{margin:24px 0 15px;padding-block:8px}
+.reveal .ar-simple-interest .takeaway .katex-display{font-size:32px;margin:14px 0}
+.reveal .ar-simple-interest .takeaway p{font-size:27px;line-height:1.5;margin:10px 0}
+.reveal .ar-simple-interest .booklet-cue{margin-top:18px;padding-top:12px}

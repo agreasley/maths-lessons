@@ -1,15 +1,44 @@
-## Previously {#fm4-previously .fm-slide }
+## Previously {#fm4-previously .fm-slide .fm-compound-recap }
 
-For $\$2000$ at 6% per year, three annual increases give:
+\$2000 is invested at **6% p.a., compounded annually**. Find the balance after **3 years**.
 
-$$2000\times1.06\times1.06\times1.06$$
-
-**How can we write the repeated multiplication more compactly?**
-
-::: {.fragment .takeaway}
-$$2000(1.06)^3$$
-:::
+```{=html}
+<div class="split fm-recap-layout">
+  <div class="column-block">
+    <h3>Interest, then balance</h3>
+    <p class="fm-recap-method"><span data-math="I=PRN,\quad R=0.06,\quad N=1"></span></p>
+    <div class="fm-recap-year fragment" data-fragment-index="0">
+      <strong>Year 1</strong>
+      <div><span data-math="I=2000\times0.06\times1=120"></span><br><span data-math="2000+120=2120"></span></div>
+    </div>
+    <div class="fm-recap-year fragment" data-fragment-index="1">
+      <strong>Year 2</strong>
+      <div><span data-math="I=2120\times0.06\times1=127.20"></span><br><span data-math="2120+127.20=2247.20"></span></div>
+    </div>
+    <div class="fm-recap-year fragment" data-fragment-index="2">
+      <strong>Year 3</strong>
+      <div><span data-math="I=2247.20\times0.06\times1=134.832"></span><br><span data-math="2247.20+134.832=2382.032"></span></div>
+    </div>
+  </div>
+  <div class="column-block fragment" data-fragment-index="3">
+    <h3>A 6% increase each period</h3>
+    <p class="fm-recap-method">Multiply by <span data-math="1+\frac{6}{100}=1.06"></span></p>
+    <div class="fm-recap-year"><strong>Year 1</strong><div><span data-math="2000\times1.06=2120"></span></div></div>
+    <div class="fm-recap-year"><strong>Year 2</strong><div><span data-math="2120\times1.06=2247.20"></span></div></div>
+    <div class="fm-recap-year"><strong>Year 3</strong><div><span data-math="2247.20\times1.06=2382.032"></span></div></div>
+  </div>
+</div>
+<div class="fragment takeaway fm-recap-summary" data-fragment-index="4">
+  <span data-math="A=2000\times1.06\times1.06\times1.06=2000(1.06)^3\approx\$2382.03"></span>
+</div>
+```
 
 ::: notes
-Give thinking time before advancing the fragment. The exponent counts the number of identical percentage multiplications, not the number of amounts in the list.
+Revisit the \$2000 at 6% example from Lesson 3. First ask students to use $I=PRN$ for one year at a time, adding that year's interest to the balance before moving on. Reveal Years 1, 2 and 3 separately. Each calculation uses $N=1$ and the current balance as $P$. Applying $I=2000(0.06)(3)$ once would calculate simple interest on the original principal for all three years instead.
+
+Keep full precision through the working, then round the final balance to \$2382.03. The third year's interest is $134.832$ before rounding, and the unrounded balance is $2382.032$.
+
+Next reveal the right-hand column. Ask how each interest-and-addition calculation can be written as one multiplication. Increasing the current balance by 6% is the same as multiplying it by 1.06. Compare corresponding years side by side.
+
+Before the final reveal, ask how to write the three multiplications more compactly. Three annual compounding periods give three factors of 1.06. Lead into the next slide: replace 2000 by $P$, the 6% rate by $r\%$, and three periods by $n$ periods. The exponent counts compounding periods.
 :::

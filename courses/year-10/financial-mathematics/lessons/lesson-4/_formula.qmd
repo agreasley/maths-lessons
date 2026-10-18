@@ -1,5 +1,7 @@
 ## The compound interest formula {#fm4-formula .fm-slide }
 
+An increase of $r\%$ each period means multiplying by $1+\frac{r}{100}$.
+
 ::: {.takeaway}
 $$A=\textcolor{#3b66a8}{P}\left(1+\frac{\textcolor{#b55224}{r}}{100}\right)^{\textcolor{#007f78}{n}}$$
 :::

@@ -31,6 +31,13 @@
 .reveal .fm-percent-calculation{font-size:32px}
 .reveal .fm-percent-row .fm-pending{font-size:25px;color:var(--muted)}
 .reveal [data-finance=percentage] .fm-explain{min-height:105px}
+.reveal .fm-compound-recap>p{font-size:28px;margin:14px 0 20px}
+.reveal .fm-recap-layout{grid-template-columns:1.2fr 1fr;gap:32px}
+.reveal .fm-recap-layout h3{font-size:28px;margin:8px 0 10px}
+.reveal .fm-recap-layout .fm-recap-method{font-size:24px;min-height:48px;margin:0 0 4px}
+.reveal .fm-recap-year{display:grid;grid-template-columns:95px 1fr;gap:10px;align-items:center;min-height:105px;font-size:24px;line-height:1.65}
+.reveal .fm-recap-year>strong{font-size:23px;white-space:nowrap}
+.reveal .fm-compound-recap .fm-recap-summary{font-size:29px;margin:16px 0 0;padding:13px 0 13px 20px}
 .reveal .fm-frequency-table table{font-size:25px;margin:10px 0}
 .reveal .fm-frequency-table td,.reveal .fm-frequency-table th{padding:12px 8px}
 .reveal .fm-frequency-table .fm-current{background:#e5eee8}

@@ -1,32 +1,26 @@
-## Growing and shrinking {#ss5-pond .gp-lesson .gp-scale-opener}
+## Growing and shrinking {#ss5-pond .gp-lesson .gp-video-opener}
 
-Imagine you start at the **Planck length**. Each second, your size multiplies by **$10$**.
-
-<p class="gp-scale-question">About how long will it take to reach the diameter of the <strong>observable universe</strong>?</p>
-
-<p class="gp-video-link"><a href="https://www.youtube.com/watch?v=9yGdvsASj5c&amp;t=220s" target="_blank" rel="noopener noreferrer">Watch The Scale Of The Universe from 3:40 ↗</a><br><span class="gp-video-credit">The Rest Is Science</span></p>
-
-::: {.gp-scale-estimates .fragment data-fragment-index="0"}
-<p>For an estimate, use these rounded lengths:</p>
-<div class="gp-scale-lengths"><div><span>Planck length</span><p data-math="10^{-35}\,\text{m}">10⁻³⁵ m</p></div><div><span>Observable universe diameter</span><p data-math="10^{27}\,\text{m}">10²⁷ m</p></div></div>
-:::
-
-::: {.takeaway .gp-scale-answer .fragment data-fragment-index="1"}
-$$10^{-35}\times 10^{62}=10^{27}$$
-
-**About 62 seconds**: one multiplication by $10$ each second.
-:::
+```{=html}
+<div class="gp-video-layout">
+  <div class="gp-video-prompt">
+    <p class="gp-video-intro">One person grows.<br>Their friend shrinks.</p>
+    <p class="takeaway">What mathematical pattern connects their journeys?</p>
+    <p class="gp-video-credit"><em>What's the smallest thing you can be?</em><br>The Rest Is Science · 1 min 38 sec</p>
+    <p class="gp-video-link"><a href="https://www.youtube.com/shorts/neBpfR1IswE" target="_blank" rel="noopener noreferrer">Open the Short on YouTube ↗</a></p>
+    <p class="gp-video-link gp-watch-later"><a href="https://www.youtube.com/watch?v=9yGdvsASj5c&amp;t=220s" target="_blank" rel="noopener noreferrer">Watch later: full video from 3:40 ↗</a></p>
+  </div>
+  <iframe class="gp-short-player" width="304" height="540" data-external="1" data-src="https://www.youtube.com/embed/neBpfR1IswE?enablejsapi=1&amp;playsinline=1&amp;rel=0&amp;autoplay=0" title="What's the smallest thing you can be? — The Rest Is Science" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+```
 
 ::: notes
 
-Ask for a prediction before opening the full video. The link opens a new tab at 3:40 (220 seconds). Watch the scale journey and stop when the two people meet at approximately the size of a human egg cell, then return to the lesson. The teacher's summary gives the meeting time as about 31 seconds into the thought experiment. These are model seconds, not playback timestamps. One person grows by a factor of 10 each second while the other shrinks by a factor of 10.
+Allow about 5 minutes for the Short and the next two slides together. Read the question, then tap Play. The Short runs for 1 minute 38 seconds. It uses a thought experiment with one person starting at the Planck scale and a friend starting at the scale of the observable universe. Each second, one size grows by a factor of 10 and the other shrinks by a factor of 10. Take a few observations before moving to the brief continuation summary and then the table.
 
-First click supplies the rounded starting and target lengths. Ask how many multiplications by 10 take the exponent from −35 to 27. Second click reveals 62 multiplications and about 62 seconds. Students can use 27−(−35)=62, without logarithms or the general-term formula. Connect back to the video: both people take about 31 factor-of-ten steps to meet, so one person needs about 31+31=62 steps for the whole journey. Their meeting point is halfway through the multiplicative steps.
+The Short remains the in-class video. “Watch later” opens the full episode at 3:40 (220 seconds) for students who want to watch afterwards; it is not an additional in-class viewing task. The next slide summarises the later milestones supplied by the teacher.
 
-These lengths are order-of-magnitude estimates. NIST gives the Planck length as approximately 1.616255×10^−35 m. NASA estimates the observable universe's diameter at about 92 billion light-years, approximately 8.7×10^26 m. The rounded powers of ten make the exponent count accessible. With the more precise estimates, a continuously interpolated size reaches the target after about 61.7 seconds, and the first whole-second size at least as large as the target occurs at 62 seconds. Time 0 is the first listed term, so this is term 63 if the first term has index 1. Treat the target diameter as fixed in this thought experiment.
+The player requires internet access. Use “Open the Short on YouTube” if the embedded player is unavailable, then return to the lesson. If the video cannot be played, describe the thought experiment and the two changes per second before continuing. Playback starts only when requested. Leaving this slide unloads the player.
 
-Use “Planck length” and “observable universe” in the prompt. If the video is unavailable, describe the two growth rules and use the slide's numerical estimates. Allow the chosen excerpt plus approximately two minutes for the question and follow-up table. The original slide anchor is retained for existing links.
-
-Sources: The Rest Is Science, “The Scale Of The Universe”, https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s (scenario and start time supplied by the teacher); NIST CODATA constants table, https://physics.nist.gov/cuu/Constants/Table/allascii.txt; NASA, “How Big is Space? We Asked a NASA Expert: Episode 61”, https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/.
+Sources: The Rest Is Science, “What's the smallest thing you can be?”, https://www.youtube.com/shorts/neBpfR1IswE; optional full episode, “The Scale Of The Universe”, https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s. The teacher supplied the scenario summary. The original slide anchor is retained for existing links.
 
 :::

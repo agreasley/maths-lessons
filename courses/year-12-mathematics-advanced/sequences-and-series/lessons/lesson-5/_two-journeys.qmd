@@ -35,6 +35,6 @@ Second click reveals the multipliers 10 and 0.1. Dividing by 10 is equivalent to
 
 Time 0 gives the first listed term. Later, when using a_n=ar^(n−1), term n corresponds to n−1 elapsed seconds. Connect this table to the preceding estimate: L≈10^−35 m and U≈10^27 m. After 31 seconds, both rounded models give 10^−4 m, or 0.1 mm, consistent with the video's approximate human-egg-cell comparison. The growing sequence reaches U after 62 seconds. The 31-second equality is exact for the rounded powers-of-ten model. More precise starting lengths need not produce equality at a whole-second sample.
 
-Context: the preceding full-video link and the teacher's scenario summary. The table is the mathematical model obtained by applying the stated scale factors.
+Context: the Short and the teacher-supplied continuation summary on the preceding slides. The full-video link is for optional viewing later. The table is the mathematical model obtained by applying the stated scale factors.
 
 :::

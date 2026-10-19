@@ -262,19 +262,27 @@
 .reveal .gp-cover .cover-title{font-size:70px;max-width:1130px}
 .reveal .gp-lesson .gp-subparts{margin:28px 0 30px 28px}
 .reveal .gp-lesson .gp-subparts p{font-size:29px;line-height:1.5;margin:25px 0}
-.reveal .gp-scale-opener>p{font-size:29px;line-height:1.4;margin:20px 0}
-.reveal .gp-scale-opener .gp-scale-question{font-size:33px;line-height:1.4;margin:22px 0 14px}
-.reveal .gp-video-credit{font-size:22px;color:var(--muted)}
-.reveal .gp-scale-opener .gp-video-link{font-size:25px;margin:12px 0 23px}
+.reveal .gp-video-layout{display:grid;grid-template-columns:minmax(0,1fr) 304px;gap:72px;align-items:center;margin:20px 0 0}
+.reveal .gp-video-intro{font-size:38px;line-height:1.4;margin:0 0 32px}
+.reveal .gp-video-prompt .takeaway{font-size:34px;line-height:1.4;margin:25px 0 35px}
+.reveal .gp-video-credit{font-size:23px;line-height:1.5;color:var(--muted);margin:24px 0 12px}
+.reveal .gp-video-link{font-size:25px;margin:12px 0}
+.reveal .gp-video-link.gp-watch-later{font-size:23px;margin:4px 0 0}
 .reveal .gp-video-link a{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box}
-.reveal .gp-scale-estimates>p{font-size:24px;color:var(--muted);margin:14px 0}
-.reveal .gp-scale-lengths{display:grid;grid-template-columns:1fr 1fr;gap:45px;font-size:25px}
-.reveal .gp-scale-lengths>div:first-child{color:var(--blue)}
-.reveal .gp-scale-lengths>div:last-child{color:var(--orange)}
-.reveal .gp-scale-lengths p{font-size:34px;margin:10px 0}
-.reveal .gp-scale-answer{font-size:28px;line-height:1.35;margin:22px 0 0;padding:8px 0 8px 23px}
-.reveal .gp-scale-answer .katex-display{font-size:34px;margin:10px 0 18px}
-.reveal .gp-scale-answer p{margin:12px 0}
+.reveal .gp-short-player{display:block;width:304px;height:540px;max-width:none;max-height:none;margin:0;border:0;background:#152e3b}
+.reveal .gp-continuation>p{font-size:27px;line-height:1.4;margin:22px 0}
+.reveal .gp-milestones-table{width:100%;font-size:27px;margin:26px 0;table-layout:fixed}
+.reveal .gp-milestones-table th,.reveal .gp-milestones-table td{padding:18px 16px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:middle}
+.reveal .gp-milestones-table th:first-child{width:23%}
+.reveal .gp-milestones-table tbody th{font-weight:400}
+.reveal .gp-milestones-table thead th:nth-child(2),.reveal .gp-milestones-table tbody tr:first-child td:nth-child(2){color:var(--blue)}
+.reveal .gp-milestones-table thead th:nth-child(3),.reveal .gp-milestones-table tbody tr:first-child td:nth-child(3){color:var(--orange)}
+.reveal .gp-milestones-table td[colspan]{color:var(--teal)}
+.reveal .gp-continuation .gp-scale-question{font-size:31px;line-height:1.45;margin:30px 0}
+.reveal .gp-scale-question p{margin:0}
+.reveal .gp-scale-answer{font-size:28px;line-height:1.4;margin:26px 0 0;padding:8px 0 8px 23px}
+.reveal .gp-scale-answer p{margin:10px 0}
+.reveal .gp-scale-answer p:last-child{font-size:25px}
 .reveal .gp-journeys>p{font-size:28px;line-height:1.35;margin:14px 0}
 .reveal .gp-journeys .gp-journeys-task{font-size:24px;color:var(--muted);margin:10px 0}
 .reveal .gp-journeys-table{width:100%;font-size:28px;margin:14px 0 18px;table-layout:fixed}

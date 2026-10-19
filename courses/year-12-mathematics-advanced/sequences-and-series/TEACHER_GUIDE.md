@@ -347,28 +347,29 @@ This lesson covers finite arithmetic sums and constant-rate models. Geometric su
 
 ## Lesson 5: Geometric sequences and the general term
 
-Year 12 Mathematics Advanced. Section 5, printed pages 28–34, Examples 5.1–5.7 and Homework 5. Twenty-two slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after Example 5.5 (slide 13). The objective connects the constant ratio with the recursive rule, general term and graph. The success criterion is to recognise GPs, find unknown terms and explain their behaviour.
+Year 12 Mathematics Advanced. Section 5, printed pages 28–34, Examples 5.1–5.7 and Homework 5. Twenty-three slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after Example 5.5 (slide 14). The objective connects the constant ratio with the recursive rule, general term and graph. The success criterion is to recognise GPs, find unknown terms and explain their behaviour.
 
 ### Sequence and pacing
 
 | Slides | Content | Approximate time |
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
-| 3–4 | Growing and shrinking: video, scale estimate and table | Selected excerpt + 2 minutes |
-| 5–8 | Definition, examples/non-examples, Examples 5.1–5.2 and ratio proof | 12 minutes |
-| 9–10 | Example 5.3, general term and formula sheet | 6 minutes |
-| 11 | Timed hinge and discussion | 4 minutes |
-| 12–13 | Examples 5.4–5.5 | 11 minutes |
-| 14–15 | Example 5.6 and both possible ratios | 9 minutes |
-| 16–17 | Exponential connection and interactive graph | 8 minutes |
-| 18–20 | Example 5.7(a–c) | 12 minutes |
-| 21–22 | Key ideas and Homework 5 | 3 minutes |
+| 3–5 | Short, continuation summary, scale question and table | 5 minutes |
+| 6–9 | Definition, examples/non-examples, Examples 5.1–5.2 and ratio proof | 12 minutes |
+| 10–11 | Example 5.3, general term and formula sheet | 6 minutes |
+| 12 | Timed hinge and discussion | 4 minutes |
+| 13–14 | Examples 5.4–5.5 | 11 minutes |
+| 15–16 | Example 5.6 and both possible ratios | 9 minutes |
+| 17–18 | Exponential connection and interactive graph | 8 minutes |
+| 19–21 | Example 5.7(a–c) | 12 minutes |
+| 22–23 | Key ideas and Homework 5 | 3 minutes |
 
 Leave the remaining time for transitions and discussion. Avoid turning the opening into a longer investigation. Geometric sums and compound interest remain for later lessons. No function input/output recap is needed.
 
 ### Interactions and reveals
 
-- **Growing and shrinking:** Ask students to predict how long it takes to grow from the Planck length to the diameter of the observable universe when size multiplies by 10 each second. The link opens the full episode “The Scale Of The Universe” from The Rest Is Science at 3:40 in a new tab. Watch the scale journey through the approximate 31-second meeting point, then return to the lesson. First click supplies rounded lengths 10^−35 m and 10^27 m. Second click reveals 10^−35×10^62=10^27 and about 62 seconds. Students can count 27−(−35)=62 exponent steps. Alternatively, connect the two approximately 31-step journeys to a full journey of about 62 steps. The answer and numerical hints remain hidden until requested. If video access is unavailable, describe the thought experiment and use the numerical estimates.
+- **Growing and shrinking:** Play the embedded 1-minute-38-second Short, “What's the smallest thing you can be?” from The Rest Is Science. Ask what mathematical pattern connects the two journeys. Use “Open the Short on YouTube” if the player is unavailable. Playback requires a tap and leaving the slide unloads the player. The separate “Watch later” link opens the full episode at 3:40 for optional viewing afterwards. If YouTube is unavailable, describe the two changes per second and continue.
+- **The journey continues:** Briefly summarise what the full video goes on to say. Initially show the reported 30-second sizes: white blood cell and grain of sand. First click reveals the approximate 31-second meeting point, both the size of a human egg cell. Second click asks how long it would take to grow from the Planck length to the size of the observable universe at a factor of 10 per second. Third click reveals about 62 seconds: each person covers about 31 multiplicative steps before meeting, so the whole journey takes about 31+31 steps. These are scenario seconds, not video playback timestamps. The teacher notes provide an optional numerical explanation using 10^−35 m and 10^27 m: 27−(−35)=62 exponent steps. Keep this summary brief; the full episode is for later viewing.
 - **Two journeys:** The table initially shows only L and U at time 0. Ask students to complete the next three rows. First click reveals 10L, 100L, 1000L and 0.1U, 0.01U, 0.001U. Ask for each column: “What is staying constant in this sequence?” Second click reveals the multipliers 10 and 0.1. Third click identifies both as geometric sequences. Time 0 is the first listed term, so term n corresponds to n−1 elapsed seconds. With the rounded starting lengths, both sequences reach 10^−4 m at 31 seconds. More precise physical estimates need not give equality at a whole-second sample.
 - **Examples and non-examples:** Introduce the plain-language definition, then reveal all successive ratios together. Show positive, fractional, negative and unit ratios. A non-zero constant sequence is both AP and GP. The convention here requires non-zero terms and r≠0; r=1 and r=−1 are allowed.
 - **Proof:** Start with a_1=a and a_n=ra_(n−1). Next reveals a_n/a_(n−1)=r for every n≥2 in the sequence domain. Next specialises to a_3/a_2=a_2/a_1 for three non-zero terms. Two checked ratios establish only those three terms are in GP. The infinite continuation requires a rule or an arbitrary-index argument.
@@ -427,6 +428,6 @@ Cambridge Year 12, copied from printed page 34 and the front summary:
 
 ### Sources and scope
 
-Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The opener links to [The Rest Is Science, “The Scale Of The Universe”, from 3:40](https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s). The teacher supplied the scenario and approximate 31-second meeting point. [NIST's CODATA constants table](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) gives the Planck length as approximately 1.616255×10^−35 m. [NASA's “How Big is Space?”](https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/) estimates the observable universe's diameter at about 92 billion light-years, approximately 8.7×10^26 m. The slide uses rounded powers of ten, 10^−35 m and 10^27 m. Its 62-second answer is a model estimate. The target is the observable universe's present diameter, treated as fixed during the thought experiment. The follow-up table retains symbolic starting lengths. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The opener embeds [The Rest Is Science, “What's the smallest thing you can be?”](https://www.youtube.com/shorts/neBpfR1IswE), with an optional [full-video link from 3:40](https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s) for later viewing. The teacher supplied the scenario and the continuation summary: at 30 seconds, a white blood cell and a grain of sand; at about 31 seconds, both the size of a human egg cell. These approximate comparisons are attributed to the video. [NIST's CODATA constants table](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) gives the Planck length as approximately 1.616255×10^−35 m. [NASA's “How Big is Space?”](https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/) estimates the observable universe's diameter at about 92 billion light-years, approximately 8.7×10^26 m. The teacher notes use rounded powers of ten, 10^−35 m and 10^27 m, to support the 62-second model estimate. The target is the observable universe's present diameter, treated as fixed during the thought experiment. The follow-up table retains symbolic starting lengths. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-5.qmd`. Publishing remains manual through the repository's existing workflow.

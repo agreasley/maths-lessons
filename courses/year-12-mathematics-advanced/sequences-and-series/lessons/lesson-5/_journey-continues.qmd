@@ -1,0 +1,37 @@
+## The journey continues {#ss5-journey-continues .gp-lesson .gp-continuation}
+
+Later in the full video, the approximate sizes are:
+
+```{=html}
+<table class="gp-milestones-table" aria-label="Later milestones in the video's thought experiment">
+  <thead><tr><th scope="col">Time elapsed</th><th scope="col">Your size</th><th scope="col">Your friend's size</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">30 seconds</th><td>White blood cell</td><td>Grain of sand</td></tr>
+    <tr class="fragment" data-fragment-index="0"><th scope="row">31 seconds</th><td colspan="2"><strong>You meet — both the size of a human egg cell.</strong></td></tr>
+  </tbody>
+</table>
+```
+
+::: {.gp-scale-question .fragment data-fragment-index="1"}
+Starting at the **Planck length** and growing by a factor of **$10$ each second**, about how long would it take to reach the size of the **observable universe**?
+:::
+
+::: {.takeaway .gp-scale-answer .fragment data-fragment-index="2"}
+**About 62 seconds:** $31+31$ factor-of-ten steps.
+
+Each person covers half of the multiplicative steps before they meet.
+:::
+
+::: notes
+
+This is a brief summary of what happens after the Short ends, not a request to play the full video in class. The teacher reports that at 30 seconds the growing person is approximately the size of a white blood cell and the shrinking friend is approximately the size of a grain of sand. First click reveals the approximate 31-second meeting point: both are the size of a human egg cell. These are elapsed seconds in the thought experiment, not playback timestamps. The size comparisons are attributed to the video's scenario rather than presented as independently verified measurements.
+
+Second click poses the question. Give students a moment to predict and justify. Each second, one person grows by a factor of 10 and the other shrinks by a factor of 10. Each takes about 31 factor-of-ten steps to reach the meeting point. The growing person would need roughly another 31 such steps to cover the remaining scales. Third click reveals about 31+31=62 seconds. The meeting point is halfway through the multiplicative steps, not halfway along a linear length scale.
+
+For an optional numerical explanation, use rounded lengths 10^−35 m and 10^27 m. Increasing the exponent by 1 each second takes 27−(−35)=62 seconds: 10^−35×10^62=10^27. After 31 seconds, both rounded models give 10^−4 m, or 0.1 mm. No logarithms or general-term formula are needed here.
+
+These lengths are order-of-magnitude estimates. NIST gives the Planck length as approximately 1.616255×10^−35 m. NASA estimates the observable universe's diameter at about 92 billion light-years, approximately 8.7×10^26 m. With these more precise estimates, a continuously interpolated size reaches the target after about 61.7 seconds, and the first whole-second size at least as large as the target occurs at 62 seconds. Time 0 is the first listed term, so this is term 63 if the first term has index 1. Interpret “size of the observable universe” as its diameter, treated as fixed in this thought experiment. Do not describe the Planck length as an established smallest possible physical size.
+
+Sources: teacher-supplied continuation summary of The Rest Is Science, “The Scale Of The Universe”, https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s; NIST CODATA constants table, https://physics.nist.gov/cuu/Constants/Table/allascii.txt; NASA, “How Big is Space? We Asked a NASA Expert: Episode 61”, https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/.
+
+:::

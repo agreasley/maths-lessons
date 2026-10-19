@@ -1,0 +1,32 @@
+## Example 6.10 · Advanced HSC – Bank Question {#ss6-example-6-10 .gs-lesson .sequence-hinge .gs-bank}
+
+```{=html}
+<div data-module="quiz" data-correct="4" class="hinge quiz numeric-choices">
+<div class="gs-bank-layout">
+<div class="gs-constant-plot"><span class="gs-axis-y" data-math="t_n">tₙ</span><span class="gs-axis-x" data-math="n">n</span>
+<svg viewBox="0 0 470 240" role="img" aria-label="The first six sequence terms are points at (1,1), (2,1), (3,1), (4,1), (5,1) and (6,1)." xmlns="http://www.w3.org/2000/svg">
+<path d="M45 25V190H435M39 33L45 25L51 33M427 184L435 190L427 196" stroke="#152e3b" stroke-width="2.5" fill="none"/>
+<g fill="#152e3b" font-family="Arial,sans-serif" font-size="22" text-anchor="middle"><text x="90" y="221">1</text><text x="150" y="221">2</text><text x="210" y="221">3</text><text x="270" y="221">4</text><text x="330" y="221">5</text><text x="390" y="221">6</text><text x="25" y="95">1</text></g>
+<g fill="#152e3b"><circle cx="90" cy="88" r="5"/><circle cx="150" cy="88" r="5"/><circle cx="210" cy="88" r="5"/><circle cx="270" cy="88" r="5"/><circle cx="330" cy="88" r="5"/><circle cx="390" cy="88" r="5"/></g>
+</svg></div>
+<div><p>The graph above shows the first six terms of a sequence.</p><p>This sequence could be</p></div>
+</div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>an arithmetic sequence that sums to one.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>an arithmetic sequence with a common difference of one.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>a geometric sequence with an infinite sum of one.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>a geometric sequence with a common ratio of one.</span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><div><button class="reset-question">Reset</button> <button class="reveal-answer primary">Reveal answer</button></div></div>
+<div class="hinge-explanation" hidden><strong>4 (D).</strong> <span data-math="r=1,\quad d=0,\quad S_n=n">r = 1, d = 0, Sₙ = n</span>.</div>
+</div>
+```
+
+<p class="booklet-cue">Booklet p. 41 · Example 6.10</p>
+
+::: notes
+
+
+The booklet attributes this to “Advanced HSC – Bank Question” without a year or question number. Do not invent an examination reference. The graph is redrawn as exact vector points with the original t_n label and six values equal to 1. On-screen choices 1–4 correspond to booklet A–D. Correct 4 (D): constant sequence 1,1,… has r=1. It is also arithmetic, but d=0, not 1. Its nth partial sum is n, so choices 1 and 3 do not describe its total. No limiting-sum formula is needed. Six observed points do not uniquely determine the continuation; the prompt correctly says “could be”. Use the normal simultaneous finger routine. Ready: explain why being both AP and GP does not make choice 2 correct. Divided: compare consecutive differences and ratios. Reteach: list S_1=1, S_2=2, S_3=3. Reset hides correctness. This untimed review is separate from the timed hinge.
+
+:::

@@ -1,0 +1,25 @@
+## Key ideas {#ss6-key-ideas .gs-lesson .gs-key-ideas}
+
+<div class="gs-key-row">
+<h3>Expansion and cancellation</h3>
+$$ (x-1)(1+x+\cdots+x^{n-1})=x^n-1 $$
+</div>
+
+<div class="gs-key-row">
+<h3>Finite geometric sum</h3>
+$$S_n=\sum_{k=1}^{n}ar^{k-1}=\begin{cases}\dfrac{a(1-r^n)}{1-r}=\dfrac{a(r^n-1)}{r-1},&r\ne1,\\[0.6em]na,&r=1.\end{cases}$$
+</div>
+
+<div class="gs-key-row">
+<h3>When the lower bound changes</h3>
+$$\sum_{k=p}^{q}ar^{k-1}:\qquad\text{first term}=ar^{p-1},\qquad N=q-p+1$$
+</div>
+
+<p class="booklet-cue">Booklet p. 42 · Key Ideas</p>
+
+::: notes
+
+
+Students record these results in the booklet. n is a positive integer, and p and q are positive integers with p≤q. In the final line N is the count of included terms, while a is the first term of the original sequence; substitute the first included term ar^(p−1) and N into the finite-sum formula. Count terms before selecting the formula. When r=1, use N times the first included term. The expansion identity itself is valid at x=1. Finite sums do not require |r|<1; that condition belongs to limiting sums in Lesson 7.
+
+:::

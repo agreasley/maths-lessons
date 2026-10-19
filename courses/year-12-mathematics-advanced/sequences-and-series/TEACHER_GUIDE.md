@@ -431,3 +431,84 @@ Cambridge Year 12, copied from printed page 34 and the front summary:
 Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The opener embeds [The Rest Is Science, “What's the smallest thing you can be?”](https://www.youtube.com/shorts/neBpfR1IswE), with an optional [full-video link from 3:40](https://www.youtube.com/watch?v=9yGdvsASj5c&t=220s) for later viewing. The teacher supplied the scenario and the continuation summary: at 30 seconds, a white blood cell and a grain of sand; at about 31 seconds, both the size of a human egg cell. These approximate comparisons are attributed to the video. [NIST's CODATA constants table](https://physics.nist.gov/cuu/Constants/Table/allascii.txt) gives the Planck length as approximately 1.616255×10^−35 m. [NASA's “How Big is Space?”](https://www.nasa.gov/science-research/astrophysics/how-big-is-space-we-asked-a-nasa-expert-episode-61/) estimates the observable universe's diameter at about 92 billion light-years, approximately 8.7×10^26 m. The teacher notes use rounded powers of ten, 10^−35 m and 10^27 m, to support the 62-second model estimate. The target is the observable universe's present diameter, treated as fixed during the thought experiment. The follow-up table retains symbolic starting lengths. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-5.qmd`. Publishing remains manual through the repository's existing workflow.
+
+## Lesson 6: Finite geometric series
+
+Year 12 Mathematics Advanced. Section 6, printed pages 35–42, Examples 6.1–6.10 and Homework 6. Twenty-one slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after the hinge (slide 12). The objective is to understand how cancellation gives a finite geometric-sum formula. The success criterion is to derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–2 | Cover and learning goal | 1 minute |
+| 3–4 | Doubling chessboard and partial-sum pattern | 4 minutes |
+| 5–6 | Example 6.1: expansion identity and sum formula | 10 minutes |
+| 7–9 | Example 6.2: aligned subtraction and equivalent formulas | 10 minutes |
+| 10–11 | Examples 6.3–6.4 | 7 minutes |
+| 12 | Timed hinge and discussion | 4 minutes |
+| 13–16 | Examples 6.5–6.8 | 20 minutes |
+| 17–19 | Ratio 1, Example 6.9 and Example 6.10 | 9 minutes |
+| 20–21 | Key ideas and Homework 6 | 3 minutes |
+
+Leave the remaining time for transitions and discussion. Keep the opener brief. The booklet includes both derivations, so preserve both. Limiting sums, compound interest and recurring decimals belong to later sections.
+
+### Interactions and reveals
+
+- **Doubling chessboard:** Number squares left to right, row by row. Ask for the grains on square 10 and the grains across the first ten squares. First click reveals a_10=512, second reveals S_10=1023. The exact SVG shows the first four counts and locates square 10. Present this as a mathematical puzzle without adding historical claims.
+- **Pattern in the totals:** Initially only square 1 is shown and totals are hidden. Next square adds one column up to 10. Reveal totals independently shows or hides S_n. First ten fills all columns. Reset returns to square 1 with totals hidden. The normal slide Next control reveals the conjecture S_n=2^n−1. Activity state persists through navigation. The expansion identity supplies the proof.
+- **Example 6.1(a–b):** First click checks n=1. Second click expands and cancels matching intermediate terms in blue. Third click records x^n−1. This is direct expansion, not induction. For n=2 the intermediate block is just x. The identity holds at x=1.
+- **Example 6.1(c):** Three clicks reveal substitution x=r, division by r−1, and multiplication by a. Division requires r≠1. Count n powers from r^0 to r^(n−1).
+- **Example 6.2:** Students first see the unchanged four-part task. On the next slide S_n is visible initially. Clicks reveal rS_n, subtraction/cancellation, factorisation, and division by 1−r. Keep a and −ar^n in orange. Multiplication by r changes each term but preserves the number of terms. For n=1 there are no common terms to cancel.
+- **Formula sheet:** The supplied screenshot is copied unchanged to `media/hsc-reference-sheet-geometric-sums.png`, including its red outline. First click reveals the equivalent r−1 form. Second click emphasises the first included term and term count. Both forms work for every permitted ratio.
+- **Ratio 1:** First click shows the undefined quotient 0/0. Second click adds n equal terms directly to obtain na. The finite sum still exists even though the quotient formula is unavailable.
+- **Example 6.10:** Exact vector reconstruction of six discrete points at height 1, with original t_n notation. On-screen choices 1–4 correspond to booklet A–D. Use the simultaneous finger routine, separate reveal and reset. Correct 4 (D). A constant sequence is also arithmetic, but its difference is 0. Its partial sums are n, so neither “sum of one” choice works. “Could be” avoids asserting that six points determine an infinite continuation.
+
+All mathematics and interactions work offline after rendering. The lesson-specific `geometric-sums.js` uses the shared mathematics renderer without changing other lessons' activities. Shared hinge, quiz, finger icons and navigation controls are reused.
+
+### Hinge and response routine
+
+Which expression correctly evaluates the sum from k=2 to 6 of 3·2^(k−1)?
+
+1. 3(2^5−1): uses coefficient 3 as the first included term; gives 93.
+2. 6(2^4−1): counts four terms rather than five; gives 90.
+3. **6(2^5−1): correct**, first included term 6, ratio 2, five terms; gives 186.
+4. 3(2^6−1): sums from k=1 rather than k=2; gives 189.
+
+Default 60 seconds, adjustable with start/pause/reset. Fist on chest. Think quietly. On the teacher's verbal “show”, hold up 1–4 fingers simultaneously. Timer expiry never reveals the answer. Ready: justify the first term and exponent. Divided: list indices 2,3,4,5,6, then re-poll. Reteach: substitute to obtain 6,12,24,48,96. Reset clears choice, correctness and timer.
+
+### Worked checks
+
+| Example | Working and result |
+|---|---|
+| 6.1 | At n=1, both sides equal x−1. Expansion for n≥2 cancels all intermediate powers, leaving x^n−1. Substitute r≠1 and multiply by a to obtain a(r^n−1)/(r−1). |
+| 6.2 | S_n−rS_n=a−ar^n; (1−r)S_n=a(1−r^n). Hence S_n=a(1−r^n)/(1−r)=a(r^n−1)/(r−1), r≠1. |
+| 6.3 | a=1, r=5, n=8. Sum=(5^8−1)/4=97656. |
+| 6.4 | a=2, r=−3, n=6. S_6=2[1−(−3)^6]/4=−364. |
+| 6.5 | r=1 would give S_12=126 and is excluded. S_12=(1+r^6)S_6, so r^6=64. Positivity gives r=2, then a=1. |
+| 6.6 | a=9, r=3, n=9. Sum=9(3^9−1)/2=88569. |
+| 6.7 | a=r=√2, n=8. Sum=15√2/(√2−1)=30+15√2. |
+| 6.8 | r=64/32=2. From 8(2^n−1)=8184 obtain 2^n=1024, n=10. The fourth term rules out the negative ratio allowed by the first and third terms alone. |
+| 6.9 | a,a,…,a; S_n=na; S_50=350 when a=7. |
+| 6.10 | D, shown as 4. Constant sequence at 1: r=1, d=0 and S_n=n. |
+
+### Mathematical qualifications
+
+The expansion identity is valid for every real x and integer n≥1, including x=1. The finite-sum quotient requires r≠1, while r=1 has the direct formula na. No restriction |r|<1 is required for finite sums. Continue the established non-zero ratio-test convention for geometric sequences.
+
+In a shifted sum from k=p to q of ar^(k−1), use first included term ar^(p−1) and count N=q−p+1, with positive integer bounds p≤q. Distinguish this count from the final index q. For an exponent starting at zero, count that term too. Formula-sheet notation uses n for the number of terms included.
+
+### Homework 6
+
+Cambridge Year 12, copied from printed page 42 and the front summary:
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 1G Q1–4 (alternate parts) |
+| Medium | Exercise 1G Q1–6 (alternate parts) |
+| Spicy | Exercise 1G Q1–8 (alternate parts) |
+
+### Sources and preview
+
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 6, pp. 35–42. Examples, values, subparts and homework follow the current booklet. Teaching reference: `Geometric partial sums.pptx`, whose Examples 3.13–3.15 correspond to current Examples 6.4–6.6; its multiply-and-subtract proof informs the staged derivation. Its older homework allocation is superseded by the current booklet. Formula-sheet image: teacher-supplied screenshot, 20 October 2026, unchanged. Example 6.10 is labelled “Advanced HSC – Bank Question” in the booklet; no year or question number was provided or independently verified. No additional syllabus code or textbook edition is asserted.
+
+Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-6.qmd`. The topic listing discovers the new lesson automatically. Publishing remains manual through the existing GitHub workflow.

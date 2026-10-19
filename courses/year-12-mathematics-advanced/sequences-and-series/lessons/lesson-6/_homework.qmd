@@ -1,0 +1,16 @@
+## Homework 6 {#ss6-homework .gs-lesson }
+
+<div class="eyebrow">Cambridge Year 12</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Exercise 1G Q1–4 (alternate parts)</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Exercise 1G Q1–6 (alternate parts)</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Exercise 1G Q1–8 (alternate parts)</span></div>
+
+<p class="booklet-cue">Booklet p. 42 · Homework 6</p>
+
+::: notes
+
+
+Copied unchanged from printed page 42 and Homework 6 in the booklet's front summary. The textbook edition has not been independently verified. The old PowerPoint's homework differs; use the current booklet allocation. Next lesson: limiting sums of geometric series.
+
+:::

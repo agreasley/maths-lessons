@@ -1,0 +1,23 @@
+## A pattern in the totals {#ss6-totals .gs-lesson .gs-totals-slide}
+
+Compare the number on each square with the total so far.
+
+```{=html}
+<div data-module="rice-totals" class="gs-rice-totals"></div>
+```
+
+What do you notice about the totals? Can you predict a rule?
+
+::: {.takeaway .fragment data-fragment-index="0"}
+
+$$S_n=1+2+4+\cdots+2^{n-1}=2^n-1$$
+
+:::
+
+
+::: notes
+
+
+Initially show the first square and keep totals hidden. Next square adds one column, up to square 10. Reveal totals displays the running totals independently; it remains active as more columns appear. “First ten” fills all ten columns. Reset restores square 1 with totals hidden. Students should notice 1,3,7,15,…, each one less than the next power of 2. The normal slide Next button reveals the conjectured formula, independently of the activity controls. Ask why the sum ends at exponent n−1 but the formula uses exponent n. The following algebra proves this pattern and generalises it. Allow 2 minutes.
+
+:::

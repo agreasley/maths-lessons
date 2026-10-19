@@ -1,0 +1,34 @@
+## Multiply, align and subtract {#ss6-proof .gs-lesson .gs-proof}
+
+```{=html}
+<table class="gs-proof-table" aria-label="Aligning a geometric sum with r times the sum">
+<colgroup><col style="width:17%"><col style="width:10%"><col style="width:12%"><col style="width:13%"><col style="width:33%"><col style="width:15%"></colgroup>
+<tbody>
+<tr><th scope="row"><span data-math="S_n=">Sₙ =</span></th><td><span class="gs-endpoint" data-math="a">a</span></td><td><span class="gs-cancel" data-math="+ar">+ ar</span></td><td><span class="gs-cancel" data-math="+ar^2">+ ar²</span></td><td><span class="gs-cancel" data-math="+\cdots+ar^{n-1}">+ … + arⁿ⁻¹</span></td><td></td></tr>
+<tr class="fragment" data-fragment-index="0"><th scope="row"><span data-math="rS_n=">rSₙ =</span></th><td></td><td><span class="gs-cancel" data-math="ar">ar</span></td><td><span class="gs-cancel" data-math="+ar^2">+ ar²</span></td><td><span class="gs-cancel" data-math="+\cdots+ar^{n-1}">+ … + arⁿ⁻¹</span></td><td><span class="gs-endpoint" data-math="+ar^n">+ arⁿ</span></td></tr>
+<tr class="gs-subtract fragment" data-fragment-index="1"><th scope="row"><span data-math="S_n-rS_n=">Sₙ − rSₙ =</span></th><td><span class="gs-endpoint" data-math="a">a</span></td><td colspan="3"></td><td><span class="gs-endpoint" data-math="-ar^n">− arⁿ</span></td></tr>
+</tbody></table>
+```
+
+::: {.fragment data-fragment-index="2"}
+
+$$(1-r)S_n=a(1-r^n)$$
+
+:::
+
+
+::: {.takeaway .fragment data-fragment-index="3"}
+
+$$S_n=\frac{a(1-r^n)}{1-r}\qquad(r\ne1)$$
+
+:::
+
+
+<p class="booklet-cue">Booklet p. 36 · Example 6.2(a–c)</p>
+
+::: notes
+
+
+Initially show S_n only. Click 1 reveals rS_n, aligned by powers of r. Ask which terms match. Click 2 subtracts the second row from the first and strikes through the shared blue terms. The surviving orange terms are a and −ar^n. Click 3 factors both sides. Click 4 divides by 1−r and reveals the formula. Count n terms in each original row. For n=1 simply use S_1=a and rS_1=ar; there are no shared terms. For small n, only the powers actually present are included in the displayed ellipsis. The formula is valid for positive, fractional or negative r, provided r≠1. The shared-term cancellation is the same mechanism as Example 6.1.
+
+:::

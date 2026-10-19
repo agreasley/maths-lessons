@@ -1,0 +1,12 @@
+## Example 6.7 {#ss6-example-6-7 .gs-lesson }
+
+Find the sum of the first eight terms of a geometric series if $a=r=\sqrt2$.
+
+<p class="booklet-cue">Booklet p. 39 · Example 6.7</p>
+
+::: notes
+
+
+a=√2, r=√2, n=8. Since (√2)^8=16, S_8=√2(16−1)/(√2−1)=15√2/(√2−1)=30+15√2. Rationalise using √2+1. Direct grouping checks √2+2+2√2+4+4√2+8+8√2+16=30+15√2. Keep the exact surd form.
+
+:::

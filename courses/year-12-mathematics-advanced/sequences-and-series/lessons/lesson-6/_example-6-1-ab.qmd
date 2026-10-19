@@ -1,0 +1,41 @@
+## Example 6.1(a–b) {#ss6-example-6-1-ab .gs-lesson .gs-identity}
+
+Consider the product $P(x)=(x-1)(x^{n-1}+x^{n-2}+\cdots+x+1)$ for integers $n\ge1$.
+
+<p><strong>a) Base Case ($n=1$):</strong> When $n=1$, the second factor simplifies to $x^0=1$.</p>
+
+::: {.fragment data-fragment-index="0"}
+
+$$\text{LHS}=(x-1)(1)=x-1=\text{RHS}$$
+
+:::
+
+
+<p><strong>b) General Case ($n\ge2$) – Proof by Expansion:</strong><br>Expand the product by distributing $(x-1)$:</p>
+
+::: {.gs-identity-expansion .fragment data-fragment-index="1"}
+
+$$\begin{aligned}
+P(x)&=x(x^{n-1}+\cdots+x+1)-(x^{n-1}+\cdots+x+1)\\[0.3em]
+&=\textcolor{#b55224}{x^n}+\textcolor{#3b66a8}{\cancel{x^{n-1}+\cdots+x}}
+-\textcolor{#3b66a8}{\cancel{(x^{n-1}+\cdots+x)}}-\textcolor{#b55224}{1}
+\end{aligned}$$
+
+:::
+
+
+::: {.takeaway .fragment data-fragment-index="2"}
+
+$$\boxed{(x-1)(x^{n-1}+x^{n-2}+\cdots+x+1)=x^n-1}$$
+
+:::
+
+
+<p class="booklet-cue">Booklet p. 35 · Example 6.1(a–b)</p>
+
+::: notes
+
+
+First click checks n=1. Second click distributes x and −1 and shows the identical intermediate terms cancelling in blue. The only survivors are x^n and −1 in orange. Third click records the identity. For n=2 the intermediate block is just x; omitted terms in the ellipsis are included only when their powers exist. This is a direct proof by expansion for every integer n≥2, together with a separate n=1 check, not mathematical induction. The identity holds for all real x, including x=1. The later division requires r≠1. The empty power sum does not arise because n≥1. Use the booklet's blanks for students' working.
+
+:::

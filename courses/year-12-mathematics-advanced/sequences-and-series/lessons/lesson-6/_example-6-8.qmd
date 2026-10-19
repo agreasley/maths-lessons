@@ -1,0 +1,12 @@
+## Example 6.8 {#ss6-example-6-8 .gs-lesson }
+
+Consider the geometric series with first term $8$, third term $32$ and fourth term $64$. Find the number of terms required for this series to have a sum of $8184$.
+
+<p class="booklet-cue">Booklet p. 40 · Example 6.8</p>
+
+::: notes
+
+
+Use the consecutive known terms to find r=64/32=2; this also agrees with a_3=8×2²=32. From the first and third terms alone, r²=4 permits ±2, so use the fourth term to fix the sign. S_n=8(2^n−1)=8184 gives 2^n=1024 and n=10. No logarithms are needed. Verify 8(1024−1)=8184. Do not confuse this with a term-index problem.
+
+:::

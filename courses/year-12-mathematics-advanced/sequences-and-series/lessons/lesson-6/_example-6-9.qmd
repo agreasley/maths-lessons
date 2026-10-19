@@ -1,0 +1,23 @@
+## Example 6.9 {#ss6-example-6-9 .gs-lesson }
+
+Consider a geometric sequence with first term $a$ and common ratio $r=1$.
+
+::: {.gs-subparts}
+
+a\) Write out the first $n$ terms of this geometric sequence.
+
+b\) By adding these $n$ terms together, derive a simplified formula for $S_n$ (the $n$th partial sum of the series)
+
+c\) Calculate the sum of the first $50$ terms of the sequence where $a=7$ and $r=1$.
+
+
+:::
+
+<p class="booklet-cue">Booklet p. 41 · Example 6.9</p>
+
+::: notes
+
+
+(a) a,a,…,a with n entries. (b) S_n=na. (c) S_50=50×7=350. This immediately consolidates the preceding derivation. Let students record the reasoning in the booklet. The constant ratio is 1 while the constant difference is 0.
+
+:::

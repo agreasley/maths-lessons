@@ -1,0 +1,12 @@
+## Example 6.3 {#ss6-example-6-3 .gs-lesson }
+
+Find the sum of all the powers of $5$ from $5^0$ to $5^7$
+
+<p class="booklet-cue">Booklet p. 37 · Example 6.3</p>
+
+::: notes
+
+
+Write 5^0+5^1+…+5^7 or sum from k=0 to 7 of 5^k. First included term a=1, ratio r=5, number of terms n=7−0+1=8. S_8=(5^8−1)/(5−1)=97656. The last exponent is 7 but there are 8 terms. Preserve the booklet question rather than supplying a setup on screen.
+
+:::

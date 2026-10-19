@@ -258,6 +258,87 @@
 .reveal .ar-simple-interest .takeaway p{font-size:27px;line-height:1.5;margin:10px 0}
 .reveal .ar-simple-interest .booklet-cue{margin-top:18px;padding-top:12px}
 
+/* Lesson 6: finite geometric sums. Scoped to the new lesson and its activities. */
+.reveal .gs-cover .cover-title{font-size:77px}
+.reveal .gs-lesson>p:not(.booklet-cue){font-size:29px;line-height:1.45;margin:22px 0}
+.reveal .gs-lesson .gs-subparts{margin:26px 0 26px 27px}
+.reveal .gs-subparts p{font-size:28px;line-height:1.45;margin:26px 0}
+.reveal .gs-chess-layout{display:grid;grid-template-columns:430px 1fr;gap:44px;align-items:start;margin-top:24px}
+.reveal .gs-board-wrap img{display:block;width:410px;height:410px;max-width:none;max-height:none;margin:0}
+.reveal .gs-board-wrap .small-note{font-size:19px;margin:10px 0 0;max-width:410px}
+.reveal .gs-chess-questions h3{font-size:27px;color:var(--teal);margin:5px 0 13px}
+.reveal .gs-chess-questions p{font-size:28px;margin:12px 0}
+.reveal .gs-chess-answer{font-size:27px;min-height:70px;padding:14px 0 20px;margin-bottom:22px;color:var(--blue)}
+.reveal .gs-chess-questions h3:nth-of-type(2){border-top:1px solid var(--rule);padding-top:22px}
+.reveal .gs-chess-questions .gs-chess-answer:last-child{font-size:23px;margin-bottom:0}
+.reveal .gs-rice-totals .toolbar{margin:28px 0 22px}
+.reveal .gs-rice-totals button{min-height:56px;font-size:22px}
+.reveal .gs-rice-table table{font-size:29px;table-layout:fixed;margin:0}
+.reveal .gs-rice-table th{font-size:24px}
+.reveal .gs-rice-table th,.reveal .gs-rice-table td{padding:20px 5px}
+.reveal .gs-rice-table tbody tr:first-child td{color:var(--blue)}
+.reveal .gs-rice-table tbody tr:last-child td{color:var(--teal)}
+.reveal .gs-rice-table .gs-current-square{background:#e6edf5}
+.reveal .gs-rice-table .gs-unknown{color:#879395;font-size:24px}
+.reveal .gs-rice-caption{font-size:23px;line-height:1.4;margin:18px 0 30px;color:var(--muted)}
+.reveal .gs-totals-slide .takeaway .katex-display{font-size:34px;margin:15px 0}
+.reveal .gs-identity>p:not(.booklet-cue){font-size:25px;margin:14px 0}
+.reveal .gs-identity .katex-display{font-size:27px;margin:18px 0}
+.reveal .gs-identity .gs-identity-expansion .katex-display{font-size:27px;margin:22px 0}
+.reveal .gs-identity .takeaway{margin:22px 0;padding-block:8px}
+.reveal .gs-identity .takeaway .katex-display{font-size:28px;margin:10px 0}
+.reveal .gs-identity .booklet-cue{margin-top:17px;padding-top:10px}
+.reveal .gs-derive>p:not(.booklet-cue){font-size:25px;margin:18px 0}
+.reveal .gs-derive .katex-display{font-size:29px;margin:20px 0}
+.reveal .gs-derive .takeaway{margin:20px 0;padding-block:6px}
+.reveal .gs-derive .takeaway .katex-display{font-size:28px;margin:12px 0}
+.reveal .gs-proof-table{font-size:31px;margin:35px 0 26px;table-layout:fixed}
+.reveal .gs-proof-table td,.reveal .gs-proof-table th{text-align:center;border:0;padding:26px 6px;font-size:31px;white-space:nowrap}
+.reveal .gs-proof-table th{text-align:left}
+.reveal .gs-proof-table .gs-subtract td,.reveal .gs-proof-table .gs-subtract th{border-top:2px solid var(--ink);padding-top:24px}
+.reveal .gs-proof-table .gs-subtract th{font-size:27px}
+.reveal .gs-endpoint{color:var(--orange)}
+.reveal .gs-cancel{position:relative;display:inline-block;color:var(--blue)}
+.reveal .gs-proof:has(.gs-subtract.visible) .gs-cancel::after{content:"";position:absolute;left:-3px;right:-3px;top:50%;border-top:3px solid var(--blue);transform:rotate(-14deg)}
+.reveal .gs-proof>.fragment>.katex-display{font-size:36px;margin:22px 0}
+.reveal .gs-proof .takeaway{margin:22px 0;padding-block:8px}
+.reveal .gs-proof .takeaway .katex-display{font-size:36px;margin:14px 0}
+.reveal .gs-formula-layout{grid-template-columns:1.25fr 1fr;gap:46px;align-items:start;margin-top:26px}
+.reveal .gs-formula-layout .katex-display{font-size:35px;margin:12px 0 30px}
+.reveal .gs-formula-layout .column-block p{font-size:26px;line-height:1.4;margin:20px 0}
+.reveal .gs-formula-layout .takeaway{font-size:27px;margin:28px 0 0;padding:8px 0 8px 20px}
+.reveal .gs-formula-layout .takeaway p{font-size:25px;margin:10px 0}
+.reveal .gs-reference{border-left:1px solid var(--rule);padding-left:28px}
+.reveal .gs-reference h3{font-size:28px;margin:0 0 20px}
+.reveal .gs-reference img{display:block;width:100%;height:auto;max-width:none;max-height:none;margin:0}
+.reveal .gs-hinge .hinge-question{font-size:27px;min-height:105px;display:flex;align-items:center;gap:18px;margin:0 0 12px}
+.reveal .gs-hinge .hinge-question>.math-token{font-size:34px}
+.reveal .gs-hinge .choice{font-size:30px;min-height:96px}
+.reveal .gs-hinge .hinge-explanation{font-size:23px;line-height:1.5;padding:8px 15px;margin-top:12px}
+.reveal .gs-sigma-example>p:not(.booklet-cue){font-size:37px;margin:50px 0 60px}
+.reveal .gs-ratio-one .katex-display{font-size:33px;margin:25px 0}
+.reveal .gs-ratio-one .fragment p{font-size:28px;margin:18px 0}
+.reveal .gs-ratio-one .takeaway{padding-block:7px;margin:25px 0}
+.reveal .gs-ratio-one .takeaway .katex-display{font-size:30px;margin:17px 0}
+.reveal .gs-bank h2{font-size:38px;margin-bottom:16px;padding-bottom:13px}
+.reveal .gs-bank-layout{display:grid;grid-template-columns:440px 1fr;gap:45px;align-items:center}
+.reveal .gs-bank-layout p{font-size:26px;line-height:1.4;margin:18px 0}
+.reveal .gs-constant-plot{position:relative}
+.reveal .gs-constant-plot svg{display:block;width:100%;height:218px;margin:0;max-width:none;max-height:none}
+.reveal .gs-axis-y{position:absolute;top:-4px;left:27px;font-size:24px}
+.reveal .gs-axis-x{position:absolute;top:161px;right:8px;font-size:24px}
+.reveal .gs-bank .choices{gap:12px;margin:12px 0 18px}
+.reveal .gs-bank .choice{font-size:24px;line-height:1.35;min-height:94px;padding:10px 15px}
+.reveal .gs-bank .hinge-bottom p{font-size:20px}
+.reveal .gs-bank .hinge-explanation{font-size:25px;padding:8px 15px;margin-top:10px}
+.reveal .gs-bank .booklet-cue{margin-top:13px;padding-top:8px}
+.reveal .gs-key-row{padding:15px 0 18px;border-bottom:1px solid var(--rule)}
+.reveal .gs-key-row h3{font-size:25px;color:var(--teal);margin:0 0 14px}
+.reveal .gs-key-row .katex-display{font-size:28px;margin:14px 0}
+.reveal .gs-key-row:nth-of-type(2) .katex-display{font-size:30px}
+.reveal .gs-key-row:last-of-type{border-bottom:0}
+.reveal .gs-key-ideas .booklet-cue{margin-top:12px;padding-top:10px}
+
 /* Lesson 5: constant ratios, powers and discrete exponential graphs. */
 .reveal .gp-cover .cover-title{font-size:70px;max-width:1130px}
 .reveal .gp-lesson .gp-subparts{margin:28px 0 30px 28px}

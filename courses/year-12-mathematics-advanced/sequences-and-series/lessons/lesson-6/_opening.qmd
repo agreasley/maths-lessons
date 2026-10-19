@@ -1,0 +1,10 @@
+## Finite geometric series {#ss6-opening .gs-lesson .cover .sequence-cover .gs-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 6</div><div class="cover-title">Finite geometric<br>series</div><div class="cover-subtitle">Use repeated multiplication to find an accumulated total.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 6 · Examples 6.1–6.10 · Homework 6</div>
+
+::: notes
+
+
+Section 6, printed pages 35–42. Twenty-one slides, approximately 70–80 minutes with booklet and OneNote working. For two periods, split after the hinge on slide 12. Preserve the booklet's example order, notation and values. The two derivations are required parts of this section. Limiting sums are reserved for Lesson 7. Sources: current Sequences and Series booklet, Section 6; Geometric partial sums.pptx; teacher-supplied HSC image, 20 October 2026.
+
+:::

@@ -1,0 +1,16 @@
+## Today's learning {#ss6-objective .gs-lesson }
+
+### Lesson objective
+
+Understand how cancellation gives a formula for the sum of a finite geometric series.
+
+### Success criteria
+
+I can derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
+
+::: notes
+
+
+Assume fluency with function and sequence notation, the geometric general term and summation notation. No input/output recap is needed.
+
+:::

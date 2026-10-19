@@ -1,0 +1,25 @@
+## Example 6.2 {#ss6-example-6-2 .gs-lesson }
+
+Consider a geometric series of $n$ terms with first term equal to $a$ and common ratio equal to $r$.
+
+::: {.gs-subparts}
+
+a\) Write down an expression for the $n$th partial sum, $S_n$ in terms of $a$ and $r$.
+
+b\) Find an alternative expression for $r\times S_n$ in terms of $a$ and $r$.
+
+c\) Hence, deduce an expression for the $n$th partial sum of this geometric series.
+
+d\) By multiplying the top and bottom of the expression by $-1$, suggest an alternative expression for this sum.
+
+
+:::
+
+<p class="booklet-cue">Booklet p. 36 · Example 6.2</p>
+
+::: notes
+
+
+Give students time to write the two sums and discuss how to eliminate their shared middle terms. The following slide reveals a column-aligned proof of parts (a)–(c). The formula-sheet slide completes part (d). The first sum ends at ar^(n−1); the multiplied sum ends at ar^n. Multiplying by r does not add an extra term. For the derivation assume r≠1; r=1 is revisited in Examples 6.9–6.10.
+
+:::

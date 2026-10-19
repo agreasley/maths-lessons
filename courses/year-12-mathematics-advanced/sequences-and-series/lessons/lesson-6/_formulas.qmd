@@ -1,0 +1,47 @@
+## The sum of a geometric series {#ss6-formulas .gs-lesson .gs-formulas}
+
+::: {.split .gs-formula-layout}
+
+::: {.column-block}
+
+$$S_n=\frac{a(1-r^n)}{1-r}\qquad(r\ne1)$$
+
+::: {.fragment data-fragment-index="0"}
+
+Multiply the numerator and denominator by $-1$:
+
+$$S_n=\frac{a(r^n-1)}{r-1}\qquad(r\ne1)$$
+
+:::
+
+
+::: {.takeaway .fragment data-fragment-index="1"}
+
+Both forms give the same sum.
+
+$a$: first term being added<br>
+$n$: number of terms being added
+
+:::
+
+:::
+
+
+::: {.column-block .gs-reference}
+
+<h3>HSC formula sheet</h3>
+<img src="../media/hsc-reference-sheet-geometric-sums.png" alt="Teacher-supplied HSC sequences and series formula-sheet excerpt, with the finite geometric-sum formula and r not equal to one outlined in red.">
+
+:::
+
+:::
+
+
+<p class="booklet-cue">Booklet p. 36 · Example 6.2(d) and result</p>
+
+::: notes
+
+
+This completes Example 6.2(d) and the result box. First click shows the equivalent form with r−1 in the denominator. Second click stresses the meaning of a and n. Either formula works for every permitted ratio; choosing by whether r is above or below 1 is a convenience, not a restriction. For a sum with a non-1 lower index, a means the first INCLUDED term and n counts the terms included. The image is the teacher-supplied screenshot from 20 October 2026, copied unchanged with its existing red outline. Do not teach its limiting-sum formula yet.
+
+:::

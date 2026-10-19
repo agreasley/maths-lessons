@@ -1,0 +1,12 @@
+## Example 6.5 {#ss6-example-6-5 .gs-lesson }
+
+The sum of the first six terms of a geometric series is $63$. The sum of the first twelve terms is $4095$. Find the first term and the common ratio given that these are both positive numbers.
+
+<p class="booklet-cue">Booklet p. 38 · Example 6.5</p>
+
+::: notes
+
+
+a>0, r>0. Handle r=1 separately: S_6=6a=63 would imply S_12=126, not 4095. Hence r≠1. The second block of six terms is r^6 times the first block, so S_12=S_6+r^6S_6. Thus 4095/63=65=1+r^6 and r^6=64. Since r>0, r=2. Then 63=a(2^6−1)/(2−1)=63a, giving a=1. Alternatively divide the two finite-sum formulas and factor 1−r^12=(1−r^6)(1+r^6); justify r^6≠1 from r>0 and r≠1. Check S_12=2^12−1=4095. Keep full solutions in the teacher notes for booklet/OneNote working.
+
+:::

@@ -1,0 +1,56 @@
+---
+pagetitle: "Lesson 6 — Finite geometric series"
+lesson-title: "Finite geometric series"
+description: "Derive the finite geometric-sum formula by cancellation and use it to solve problems, including the constant-ratio-one case."
+lesson-order: 6
+booklet: "Section 6 · Examples 6.1–6.10 · pp. 35–42"
+homework: "6 · Exercise 1G"
+format:
+  revealjs:
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../geometric-sums.js"></script>
+---
+
+{{< include lesson-6/_opening.qmd >}}
+
+{{< include lesson-6/_objective.qmd >}}
+
+{{< include lesson-6/_chessboard.qmd >}}
+
+{{< include lesson-6/_totals.qmd >}}
+
+{{< include lesson-6/_example-6-1-ab.qmd >}}
+
+{{< include lesson-6/_example-6-1-c.qmd >}}
+
+{{< include lesson-6/_example-6-2.qmd >}}
+
+{{< include lesson-6/_proof.qmd >}}
+
+{{< include lesson-6/_formulas.qmd >}}
+
+{{< include lesson-6/_example-6-3.qmd >}}
+
+{{< include lesson-6/_example-6-4.qmd >}}
+
+{{< include lesson-6/_hinge.qmd >}}
+
+{{< include lesson-6/_example-6-5.qmd >}}
+
+{{< include lesson-6/_example-6-6.qmd >}}
+
+{{< include lesson-6/_example-6-7.qmd >}}
+
+{{< include lesson-6/_example-6-8.qmd >}}
+
+{{< include lesson-6/_ratio-one.qmd >}}
+
+{{< include lesson-6/_example-6-9.qmd >}}
+
+{{< include lesson-6/_example-6-10.qmd >}}
+
+{{< include lesson-6/_key-ideas.qmd >}}
+
+{{< include lesson-6/_homework.qmd >}}

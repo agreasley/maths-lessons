@@ -1,0 +1,39 @@
+## Example 6.1(c) {#ss6-example-6-1-c .gs-lesson .gs-derive}
+
+**Deducing the GP Sum Formula:**
+
+<p>i) Substitute $x=r$ (where $r\ne1$) into the identity above:</p>
+
+::: {.fragment data-fragment-index="0"}
+
+$$(r-1)(r^{n-1}+r^{n-2}+\cdots+r+1)=r^n-1$$
+
+:::
+
+
+<p>ii) Divide both sides by $(r-1)$ to isolate the sum of powers of $r$:</p>
+
+::: {.fragment data-fragment-index="1"}
+
+$$1+r+r^2+\cdots+r^{n-1}=\frac{r^n-1}{r-1}$$
+
+:::
+
+
+<p>iii) Multiply both sides by the first term $a$ to get the $n$th partial sum $S_n$:</p>
+
+::: {.takeaway .fragment data-fragment-index="2"}
+
+$$S_n=a+ar+ar^2+\cdots+ar^{n-1}=\frac{a(r^n-1)}{r-1}$$
+
+:::
+
+
+<p class="booklet-cue">Booklet p. 35 · Example 6.1(c)</p>
+
+::: notes
+
+
+One click reveals each result. Reversing the order of the powers does not change the sum. Count powers r^0 through r^(n−1): there are n terms. The restriction r≠1 comes from dividing by r−1, not from the expansion identity. With a=1 and r=2 the formula becomes 2^n−1, proving the chessboard conjecture. Preserve the three booklet instructions and complete their blanks.
+
+:::

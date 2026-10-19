@@ -1,0 +1,21 @@
+## A doubling chessboard {#ss6-chessboard .gs-lesson .gs-chess-slide}
+
+Place one grain of rice on the first square, two on the second, four on the third, and keep doubling.
+
+```{=html}
+<div class="gs-chess-layout">
+<div class="gs-board-wrap"><img src="../media/doubling-chessboard.svg" alt="An eight-by-eight chessboard, with 1, 2, 4 and 8 grains indicated on its first four squares. Square 10 is outlined."><p class="small-note">Number the squares from left to right, row by row.</p></div>
+<div class="gs-chess-questions">
+<h3>On the tenth square</h3><p>How many grains are on the tenth square?</p>
+<div class="gs-chess-answer fragment" data-fragment-index="0"><span data-math="a_{10}=2^9=512">a₁₀ = 2⁹ = 512</span></div>
+<h3>Across the first ten squares</h3><p>How many grains are there altogether?</p>
+<div class="gs-chess-answer fragment" data-fragment-index="1"><span data-math="S_{10}=1+2+4+\cdots+512=1023">S₁₀ = 1 + 2 + 4 + … + 512 = 1023</span></div>
+</div></div>
+```
+
+::: notes
+
+
+Allow 2 minutes. Pose both questions before revealing either answer. First click reveals a_10=512. Second click reveals S_10=1023. Ask students to explain how the questions differ. Accept direct addition or a pattern-based explanation; the next slide investigates the pattern. This is a mathematical puzzle, with no historical claim about the origin of chess or a particular inventor. The small numbers on the board label square positions; the larger numbers on the first four squares are grain counts. The outline locates square 10.
+
+:::

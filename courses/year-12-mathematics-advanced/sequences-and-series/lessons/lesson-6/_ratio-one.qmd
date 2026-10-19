@@ -1,0 +1,34 @@
+## What happens when the ratio is 1? {#ss6-ratio-one .gs-lesson .gs-ratio-one}
+
+If $r=1$, every term equals $a$.
+
+$$a,\ a,\ a,\ \ldots,\ a$$
+
+::: {.fragment data-fragment-index="0"}
+
+The usual formula would give
+
+$$\frac{a(1-1^n)}{1-1}=\frac00,$$
+
+which is undefined.
+
+:::
+
+
+::: {.takeaway .fragment data-fragment-index="1"}
+
+Add $n$ equal terms directly:
+
+$$S_n=\underbrace{a+a+\cdots+a}_{n\text{ terms}}=na.$$
+
+:::
+
+
+<p class="booklet-cue">Booklet p. 40 · Special case</p>
+
+::: notes
+
+
+Ask students why r=1 was excluded. First click exposes the undefined quotient. The original finite sum still exists. Second click finds it directly as na. This is not assigning a value to 0/0. Every non-zero constant sequence is both an AP with d=0 and a GP with r=1. The class uses non-zero terms for its ratio-test convention.
+
+:::

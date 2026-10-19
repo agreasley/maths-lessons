@@ -33,8 +33,8 @@ Initially only the starting values L and U are visible. Both are positive length
 
 Second click reveals the multipliers 10 and 0.1. Dividing by 10 is equivalent to multiplying by 0.1. Third click reveals that both sequences are geometric. A geometric sequence can decrease as well as increase. The following slide develops the definition with examples and non-examples.
 
-Time 0 gives the first listed term. Later, when using a_n=ar^(n−1), term n corresponds to n−1 elapsed seconds. Optional curiosity question: “Will you ever be the same size?” Collect predictions and revisit with the general-term formula. Keep this as a prediction here, since no numerical starting lengths have been specified. Under continuous exponential interpolation, the sizes cross. Equality need not occur at a whole-second sample.
+Time 0 gives the first listed term. Later, when using a_n=ar^(n−1), term n corresponds to n−1 elapsed seconds. Connect this table to the preceding estimate: L≈10^−35 m and U≈10^27 m. After 31 seconds, both rounded models give 10^−4 m, or 0.1 mm, consistent with the video's approximate human-egg-cell comparison. The growing sequence reaches U after 62 seconds. The 31-second equality is exact for the rounded powers-of-ten model. More precise starting lengths need not produce equality at a whole-second sample.
 
-Context: the preceding Short and the teacher's scenario summary. The table is the mathematical model obtained by applying the stated scale factors.
+Context: the preceding full-video link and the teacher's scenario summary. The table is the mathematical model obtained by applying the stated scale factors.
 
 :::

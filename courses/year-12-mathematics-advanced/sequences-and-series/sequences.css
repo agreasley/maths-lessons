@@ -273,6 +273,10 @@
 .reveal .gs-rice-scale .gs-whole-board{margin:28px 0}
 .reveal .gs-rice-scale .gs-whole-board p{font-size:29px;margin:18px 0}
 .reveal .gs-rice-scale .gs-whole-board .katex-display{font-size:34px;color:var(--blue);margin:20px 0}
+.reveal .gs-video-slide>p:not(.booklet-cue){font-size:27px;margin:16px 0}
+.reveal .gs-rice-player{display:block;width:864px;height:486px;max-width:none;max-height:none;border:0;margin:16px auto 8px;background:#152e3b}
+.reveal .gs-video-slide .gs-video-link{font-size:22px;text-align:center;margin:0}
+.reveal .gs-video-link a{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box}
 .reveal .gs-chess-layout{display:grid;grid-template-columns:430px 1fr;gap:44px;align-items:start;margin-top:24px}
 .reveal .gs-board-wrap img{display:block;width:410px;height:410px;max-width:none;max-height:none;margin:0}
 .reveal .gs-board-wrap .small-note{font-size:19px;margin:10px 0 0;max-width:410px}

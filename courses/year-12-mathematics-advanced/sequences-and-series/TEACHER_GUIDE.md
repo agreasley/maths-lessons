@@ -434,21 +434,21 @@ Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-
 
 ## Lesson 6: Finite geometric series
 
-Year 12 Mathematics Advanced. Section 6, printed pages 35–42, Examples 6.1–6.10 and Homework 6. Twenty-three slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after the hinge (slide 14). The objective is to understand how cancellation gives a finite geometric-sum formula. The success criterion is to derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
+Year 12 Mathematics Advanced. Section 6, printed pages 35–42, Examples 6.1–6.10 and Homework 6. Twenty-four slides. Allow approximately 75–85 minutes including the video and booklet/OneNote working, or split after the hinge (slide 15). The objective is to understand how cancellation gives a finite geometric-sum formula. The success criterion is to derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
 
 ### Sequence and pacing
 
 | Slides | Content | Approximate time |
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
-| 3–6 | Sissa's legend, doubling chessboard, partial-sum pattern and total-reward reveal | 6 minutes |
-| 7–8 | Example 6.1: expansion identity and sum formula | 10 minutes |
-| 9–11 | Example 6.2: aligned subtraction and equivalent formulas | 10 minutes |
-| 12–13 | Examples 6.3–6.4 | 7 minutes |
-| 14 | Timed hinge and discussion | 4 minutes |
-| 15–18 | Examples 6.5–6.8 | 20 minutes |
-| 19–21 | Ratio 1, Example 6.9 and Example 6.10 | 9 minutes |
-| 22–23 | Key ideas and Homework 6 | 3 minutes |
+| 3–7 | Sissa's legend, doubling chessboard, partial-sum pattern, total-reward reveal and video model | 9 minutes |
+| 8–9 | Example 6.1: expansion identity and sum formula | 10 minutes |
+| 10–12 | Example 6.2: aligned subtraction and equivalent formulas | 10 minutes |
+| 13–14 | Examples 6.3–6.4 | 7 minutes |
+| 15 | Timed hinge and discussion | 4 minutes |
+| 16–19 | Examples 6.5–6.8 | 20 minutes |
+| 20–22 | Ratio 1, Example 6.9 and Example 6.10 | 9 minutes |
+| 23–24 | Key ideas and Homework 6 | 3 minutes |
 
 Leave the remaining time for transitions and discussion. Keep the opener brief. The booklet includes both derivations, so preserve both. Limiting sums, compound interest and recurring decimals belong to later sections.
 
@@ -458,6 +458,7 @@ Leave the remaining time for transitions and discussion. Keep the opener brief. 
 - **Doubling chessboard:** Number squares left to right, row by row. Ask for the grains on square 10 and the grains across the first ten squares. First click reveals a_10=512, second reveals S_10=1023. The exact SVG shows the first four counts and locates square 10.
 - **Pattern in the totals:** Initially only square 1 is shown and totals are hidden. Next square adds one column up to 10. Reveal totals independently shows or hides S_n. First ten fills all columns. Reset returns to square 1 with totals hidden. The normal slide Next control reveals the conjecture S_n=2^n−1. Activity state persists through navigation. The expansion identity supplies the proof.
 - **How large is the total reward?** The single-square count a_64=2^63≈9.22×10^18 is visible initially as a brief reference. First click focuses on the whole-board sum S_64=1+2+4+…+2^63=2^64−1=18,446,744,073,709,551,615 grains, about 18.45 quintillion. Second click reveals that counting the whole reward at one grain per second, continuously, would take about 585 billion years, or 42 times the universe's approximate age. Calculation: (2^64−1)/(60×60×24×365.25) ≈ 584,542,046,091 years; divide by 13.8 billion to obtain about 42.4. Do not claim these grain counts exceed the number of atoms in the observable universe. The sum rule remains a conjecture until the following derivation.
+- **Modelling the total reward:** The teacher-selected YouTube video (byk3pA1GPgU) follows the S_64 reveal on slide 7. Tap Play manually; leaving the slide unloads the player. A direct YouTube link is provided. Ask how the model helps students picture the total, keeping individual terms distinct from accumulated sums. Allow about 3 minutes including discussion. If playback is unavailable, return to the preceding comparison and proceed to Example 6.1.
 - **Example 6.1(a–b):** First click checks n=1. Second click expands and cancels matching intermediate terms in blue. Third click records x^n−1. This is direct expansion, not induction. For n=2 the intermediate block is just x. The identity holds at x=1.
 - **Example 6.1(c):** Three clicks reveal substitution x=r, division by r−1, and multiplication by a. Division requires r≠1. Count n powers from r^0 to r^(n−1).
 - **Example 6.2:** Students first see the unchanged four-part task. On the next slide S_n is visible initially. Clicks reveal rS_n, subtraction/cancellation, factorisation, and division by 1−r. Keep a and −ar^n in orange. Multiplication by r changes each term but preserves the number of terms. For n=1 there are no common terms to cancel.
@@ -465,7 +466,7 @@ Leave the remaining time for transitions and discussion. Keep the opener brief. 
 - **Ratio 1:** First click shows the undefined quotient 0/0. Second click adds n equal terms directly to obtain na. The finite sum still exists even though the quotient formula is unavailable.
 - **Example 6.10:** Exact vector reconstruction of six discrete points at height 1, with original t_n notation. On-screen choices 1–4 correspond to booklet A–D. Use the simultaneous finger routine, separate reveal and reset. Correct 4 (D). A constant sequence is also arithmetic, but its difference is 0. Its partial sums are n, so neither “sum of one” choice works. “Could be” avoids asserting that six points determine an infinite continuation.
 
-All mathematics and interactions work offline after rendering. The lesson-specific `geometric-sums.js` uses the shared mathematics renderer without changing other lessons' activities. Shared hinge, quiz, finger icons and navigation controls are reused.
+Mathematics and local activities work offline after rendering; the embedded YouTube video requires internet access. The lesson-specific `geometric-sums.js` uses the shared mathematics renderer without changing other lessons' activities. Shared hinge, quiz, finger icons and navigation controls are reused.
 
 ### Hinge and response routine
 
@@ -513,6 +514,6 @@ Cambridge Year 12, copied from printed page 42 and the front summary:
 
 Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 6, pp. 35–42. Examples, values, subparts and homework follow the current booklet. Teaching reference: `Geometric partial sums.pptx`, whose Examples 3.13–3.15 correspond to current Examples 6.4–6.6; its multiply-and-subtract proof informs the staged derivation. Its older homework allocation is superseded by the current booklet. Formula-sheet image: teacher-supplied screenshot, 20 October 2026, unchanged. Example 6.10 is labelled “Advanced HSC – Bank Question” in the booklet; no year or question number was provided or independently verified. No additional syllabus code or textbook edition is asserted.
 
-Opening sources: [Cambridge NRICH, Sissa's Reward](https://nrich.maths.org/problems/sissas-reward) for the legend; [University of Maryland, Population growth 1](https://www.physics.umd.edu/perg/abp/TPProbs/Problems/G/G30.htm) for the last-square and whole-board expressions; [NASA, Universe Overview](https://science.nasa.gov/universe/overview/) for the approximate age of 13.8 billion years. The counting-time comparison is calculated from these quantities, not quoted as a claim about rice production or the number of atoms.
+Opening sources: [Cambridge NRICH, Sissa's Reward](https://nrich.maths.org/problems/sissas-reward) for the legend; [University of Maryland, Population growth 1](https://www.physics.umd.edu/perg/abp/TPProbs/Problems/G/G30.htm) for the last-square and whole-board expressions; [NASA, Universe Overview](https://science.nasa.gov/universe/overview/) for the approximate age of 13.8 billion years. The counting-time comparison is calculated from these quantities, not quoted as a claim about rice production or the number of atoms. Teacher-selected video: [The Legend of the Chessboard (Teaser)](https://www.youtube.com/watch?v=byk3pA1GPgU), also listed in the South Australian Department for Education's [Real numbers: Year 10/10A](https://acleadersresource.sa.edu.au/wp-content/uploads/2018/05/DE_Maths_CN_Real_numbers_Year_10_10A_LR.pdf), p. 5.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-6.qmd`. The topic listing discovers the new lesson automatically. Publishing remains manual through the existing GitHub workflow.

@@ -5,6 +5,7 @@ description: "Derive the finite geometric-sum formula by cancellation and use it
 lesson-order: 6
 booklet: "Section 6 · Examples 6.1–6.10 · pp. 35–42"
 homework: "6 · Exercise 1G"
+auto-play-media: false
 format:
   revealjs:
     include-after-body:
@@ -24,6 +25,8 @@ format:
 {{< include lesson-6/_totals.qmd >}}
 
 {{< include lesson-6/_square-64.qmd >}}
+
+{{< include lesson-6/_rice-video.qmd >}}
 
 {{< include lesson-6/_example-6-1-ab.qmd >}}
 

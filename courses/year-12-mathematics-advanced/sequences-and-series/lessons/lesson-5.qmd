@@ -5,6 +5,9 @@ description: "Recognise constant ratios, derive the geometric general term and c
 lesson-order: 5
 booklet: "Section 5 · Examples 5.1–5.7 · pp. 28–34"
 homework: "5 · Exercises 1C and 1D"
+format:
+  revealjs:
+    auto-play-media: false
 ---
 
 {{< include lesson-5/_opening.qmd >}}
@@ -12,6 +15,8 @@ homework: "5 · Exercises 1C and 1D"
 {{< include lesson-5/_objective.qmd >}}
 
 {{< include lesson-5/_pond.qmd >}}
+
+{{< include lesson-5/_two-journeys.qmd >}}
 
 {{< include lesson-5/_examples-non-examples.qmd >}}
 

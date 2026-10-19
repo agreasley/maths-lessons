@@ -1,0 +1,40 @@
+## Two journeys {#ss5-two-journeys .gp-lesson .gp-journeys}
+
+Your starting size is $L$. Your friend's starting size is $U$.
+
+<p class="gp-journeys-task">Complete the next three rows.</p>
+
+```{=html}
+<table class="gp-journeys-table" aria-label="Sizes at one-second intervals">
+  <thead><tr><th scope="col">Time elapsed</th><th scope="col">Your size</th><th scope="col">Your friend's size</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">0 seconds</th><td><span data-math="L">L</span></td><td><span data-math="U">U</span></td></tr>
+    <tr><th scope="row">1 second</th><td><span class="fragment" data-fragment-index="0"><span data-math="10L">10L</span></span></td><td><span class="fragment" data-fragment-index="0"><span data-math="0.1U">0.1U</span></span></td></tr>
+    <tr><th scope="row">2 seconds</th><td><span class="fragment" data-fragment-index="0"><span data-math="100L">100L</span></span></td><td><span class="fragment" data-fragment-index="0"><span data-math="0.01U">0.01U</span></span></td></tr>
+    <tr><th scope="row">3 seconds</th><td><span class="fragment" data-fragment-index="0"><span data-math="1000L">1000L</span></span></td><td><span class="fragment" data-fragment-index="0"><span data-math="0.001U">0.001U</span></span></td></tr>
+  </tbody>
+</table>
+```
+
+<p class="gp-journeys-question">Consider each sequence: <strong>What is staying constant in this sequence?</strong></p>
+
+::: {.gp-journeys-multipliers .fragment data-fragment-index="1"}
+Your sequence: multiply by **$10$**.  
+Your friend's sequence: divide by $10$, or multiply by **$0.1$**.
+:::
+
+::: {.takeaway .fragment data-fragment-index="2"}
+Both are **geometric sequences**: multiply each term by a fixed number to get the next term.
+:::
+
+::: notes
+
+Initially only the starting values L and U are visible. Both are positive lengths measured in the same unit, with L much smaller than U. Ask students to supply the next three rows. First click reveals all six missing entries. Ask the open question for each column: “What is staying constant in this sequence?” Give students time to articulate the repeated multiplication themselves.
+
+Second click reveals the multipliers 10 and 0.1. Dividing by 10 is equivalent to multiplying by 0.1. Third click reveals that both sequences are geometric. A geometric sequence can decrease as well as increase. The following slide develops the definition with examples and non-examples.
+
+Time 0 gives the first listed term. Later, when using a_n=ar^(n−1), term n corresponds to n−1 elapsed seconds. Optional curiosity question: “Will you ever be the same size?” Collect predictions and revisit with the general-term formula. Keep this as a prediction here, since no numerical starting lengths have been specified. Under continuous exponential interpolation, the sizes cross. Equality need not occur at a whole-second sample.
+
+Context: the preceding Short and the teacher's scenario summary. The table is the mathematical model obtained by applying the stated scale factors.
+
+:::

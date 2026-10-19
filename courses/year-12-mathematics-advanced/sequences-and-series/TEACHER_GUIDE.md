@@ -347,28 +347,29 @@ This lesson covers finite arithmetic sums and constant-rate models. Geometric su
 
 ## Lesson 5: Geometric sequences and the general term
 
-Year 12 Mathematics Advanced. Section 5, printed pages 28–34, Examples 5.1–5.7 and Homework 5. Twenty-one slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after Example 5.5 (slide 12). The objective connects the constant ratio with the recursive rule, general term and graph. The success criterion is to recognise GPs, find unknown terms and explain their behaviour.
+Year 12 Mathematics Advanced. Section 5, printed pages 28–34, Examples 5.1–5.7 and Homework 5. Twenty-two slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after Example 5.5 (slide 13). The objective connects the constant ratio with the recursive rule, general term and graph. The success criterion is to recognise GPs, find unknown terms and explain their behaviour.
 
 ### Sequence and pacing
 
 | Slides | Content | Approximate time |
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
-| 3 | Doubling pond: predict and explain | 3 minutes |
-| 4–7 | Definition, examples/non-examples, Examples 5.1–5.2 and ratio proof | 12 minutes |
-| 8–9 | Example 5.3, general term and formula sheet | 6 minutes |
-| 10 | Timed hinge and discussion | 4 minutes |
-| 11–12 | Examples 5.4–5.5 | 11 minutes |
-| 13–14 | Example 5.6 and both possible ratios | 9 minutes |
-| 15–16 | Exponential connection and interactive graph | 8 minutes |
-| 17–19 | Example 5.7(a–c) | 12 minutes |
-| 20–21 | Key ideas and Homework 5 | 3 minutes |
+| 3–4 | Growing and shrinking: video, table and discussion | 3–4 minutes |
+| 5–8 | Definition, examples/non-examples, Examples 5.1–5.2 and ratio proof | 12 minutes |
+| 9–10 | Example 5.3, general term and formula sheet | 6 minutes |
+| 11 | Timed hinge and discussion | 4 minutes |
+| 12–13 | Examples 5.4–5.5 | 11 minutes |
+| 14–15 | Example 5.6 and both possible ratios | 9 minutes |
+| 16–17 | Exponential connection and interactive graph | 8 minutes |
+| 18–20 | Example 5.7(a–c) | 12 minutes |
+| 21–22 | Key ideas and Homework 5 | 3 minutes |
 
 Leave the remaining time for transitions and discussion. Avoid turning the opening into a longer investigation. Geometric sums and compound interest remain for later lessons. No function input/output recap is needed.
 
 ### Interactions and reveals
 
-- **Doubling pond:** A hypothetical plant's covered area doubles each day until full coverage on day 30. The initial question asks when it was half covered. First click shows day 29 and a half-length coverage bar, then asks when it was one-quarter covered. Second click shows day 28 and a quarter-length bar. All bars use the same whole. Day 15 is an additive-growth misconception. The model is not extrapolated beyond full coverage.
+- **Growing and shrinking:** Play the 1 min 38 sec Short “What's the smallest thing you can be?” from The Rest Is Science. Before playback, ask what mathematical pattern connects the two journeys. Playback is teacher-controlled. The player loads on entering the slide and unloads on leaving. “Open on YouTube” provides a fallback in a new tab. If the video is unavailable, describe the two starting scales and the growth/shrinkage by a factor of 10 each second.
+- **Two journeys:** The table initially shows only L and U at time 0. Ask students to complete the next three rows. First click reveals 10L, 100L, 1000L and 0.1U, 0.01U, 0.001U. Ask for each column: “What is staying constant in this sequence?” Second click reveals the multipliers 10 and 0.1. Third click identifies both as geometric sequences. Time 0 is the first listed term, so term n corresponds to n−1 elapsed seconds. Optional curiosity question: “Will you ever be the same size?” Revisit after the general term if useful. The continuously interpolated sizes cross, but equality need not occur at a whole-second sample.
 - **Examples and non-examples:** Introduce the plain-language definition, then reveal all successive ratios together. Show positive, fractional, negative and unit ratios. A non-zero constant sequence is both AP and GP. The convention here requires non-zero terms and r≠0; r=1 and r=−1 are allowed.
 - **Proof:** Start with a_1=a and a_n=ra_(n−1). Next reveals a_n/a_(n−1)=r for every n≥2 in the sequence domain. Next specialises to a_3/a_2=a_2/a_1 for three non-zero terms. Two checked ratios establish only those three terms are in GP. The infinite continuation requires a rule or an arbitrary-index argument.
 - **Example 5.3:** Four clicks reveal a, ar, ar², ar³. Blue identifies a and orange the accumulated power of r. Ask for the nth term before moving on. There are n−1 multiplications from term 1 to term n.
@@ -378,7 +379,7 @@ Leave the remaining time for transitions and discussion. Avoid turning the openi
 - **Graph:** First eight terms at n=1,…,8, with the first term blue. Defaults a=3,r=2. Presets Growth (3,2), Decay (48,1/2), Constant (5,1) and Alternating (5,−1) align with Example 5.7. Selectors include negative first terms and negative ratios, but no zero. Ratio choices: −2,−1,−1/2,1/4,1/2,1,3/2,2,3. First-term choices: −12,−6,−3,−1,1,2,3,5,6,12,24,48. Numeric vertical tick labels update and a visible caption warns that the scale adjusts. Do not compare apparent steepness across different scales. Curve visibility never changes the numeric scale of the same sequence.
 - **Graph curve:** Optional for r>0 and shown over 1≤x≤8; the full generating function has real domain. For r=1 it is horizontal. Choosing r<0 immediately hides and disables the curve. Changing back to a positive ratio leaves it hidden until requested. Other changes preserve visibility. Reset restores (3,2) and hides the curve. Navigation and the slide map retain activity state.
 
-All lesson content, graph controls and mathematics work without an external applet or account after rendering. The native HTML/SVG graph keeps the mathematics precise and selectable through the controls. Existing lessons and shared response controls are unchanged.
+The opening video needs internet access and may depend on the school's YouTube restrictions. The follow-up table, graph controls and mathematics work offline after rendering. The native HTML/SVG graph keeps the mathematics precise and selectable through the controls. Existing lessons and shared response controls are unchanged.
 
 ### Hinge and response routine
 
@@ -426,6 +427,6 @@ Cambridge Year 12, copied from printed page 34 and the front summary:
 
 ### Sources and scope
 
-Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The new doubling-pond opener is a hypothetical multiplicative model, not a historical or scientific claim. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 5, printed pages 28–34. Reference: `Geometric Progression.pptx`; its Examples 3.2–3.6 correspond to current Examples 5.2–5.6. Use the booklet's corrected wording, notation and current numbering. Examples 5.1 and 5.7 and the explicit infinite-sequence proof qualification come from the current booklet. The opener uses [The Rest Is Science, “What's the smallest thing you can be?”](https://www.youtube.com/shorts/neBpfR1IswE) and the teacher's scenario summary. The follow-up models the stated scale factors with symbolic starting lengths, without needing numerical physical-size estimates. The HSC excerpt reuses `media/hsc-reference-sheet-arithmetic-sums.png` with a separate teal annotation, leaving the supplied image and earlier lessons untouched. No independently verified textbook edition or additional syllabus code is asserted.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-5.qmd`. Publishing remains manual through the repository's existing workflow.

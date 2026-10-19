@@ -262,11 +262,24 @@
 .reveal .gp-cover .cover-title{font-size:70px;max-width:1130px}
 .reveal .gp-lesson .gp-subparts{margin:28px 0 30px 28px}
 .reveal .gp-lesson .gp-subparts p{font-size:29px;line-height:1.5;margin:25px 0}
-.reveal .gp-pond>p{font-size:30px;line-height:1.5;margin:24px 0}
-.reveal .gp-coverage-row{display:grid;grid-template-columns:150px 1fr 100px;gap:24px;align-items:center;font-size:31px;margin:22px 0}
-.reveal .gp-coverage-track{height:45px;background:#e5edf3;border:1px solid #c0d0d9}
-.reveal .gp-coverage-track>div{height:100%;background:var(--teal)}
-.reveal .gp-pond .fragment>p{font-size:29px;line-height:1.5;margin:25px 0}
+.reveal .gp-video-layout{display:grid;grid-template-columns:minmax(0,1fr) 304px;gap:72px;align-items:center;margin:20px 0 0}
+.reveal .gp-video-intro{font-size:38px;line-height:1.4;margin:0 0 32px}
+.reveal .gp-video-prompt .takeaway{font-size:34px;line-height:1.4;margin:25px 0 35px}
+.reveal .gp-video-credit{font-size:23px;line-height:1.5;color:var(--muted);margin:24px 0 12px}
+.reveal .gp-video-link{font-size:25px;margin:12px 0}
+.reveal .gp-video-link a{display:inline-block;padding:10px 0;min-height:44px;box-sizing:border-box}
+.reveal .gp-short-player{display:block;width:304px;height:540px;max-width:none;max-height:none;margin:0;border:0;background:#152e3b}
+.reveal .gp-journeys>p{font-size:28px;line-height:1.35;margin:14px 0}
+.reveal .gp-journeys .gp-journeys-task{font-size:24px;color:var(--muted);margin:10px 0}
+.reveal .gp-journeys-table{width:100%;font-size:28px;margin:14px 0 18px;table-layout:fixed}
+.reveal .gp-journeys-table th,.reveal .gp-journeys-table td{padding:10px 20px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:middle}
+.reveal .gp-journeys-table tbody th{font-weight:400}
+.reveal .gp-journeys-table th:nth-child(2),.reveal .gp-journeys-table td:nth-child(2){color:var(--blue)}
+.reveal .gp-journeys-table th:nth-child(3),.reveal .gp-journeys-table td:nth-child(3){color:var(--orange)}
+.reveal .gp-journeys .gp-journeys-question{font-size:28px;margin:20px 0 14px}
+.reveal .gp-journeys-multipliers p{font-size:27px;line-height:1.45;margin:12px 0}
+.reveal .gp-journeys .takeaway{font-size:28px;line-height:1.35;margin:18px 0 0;padding:10px 0 10px 20px}
+.reveal .gp-journeys .takeaway p{margin:0}
 .reveal .gp-classification>p:not(.booklet-cue){font-size:28px;line-height:1.4;margin:17px 0}
 .reveal .gp-classification-columns{grid-template-columns:1.2fr 1fr;gap:42px;margin-top:22px}
 .reveal .gp-classification-columns h3{font-size:28px;color:var(--teal);margin:0 0 10px}

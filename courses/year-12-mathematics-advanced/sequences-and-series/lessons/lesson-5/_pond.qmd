@@ -1,25 +1,23 @@
-## A doubling pond {#ss5-pond .gp-lesson .gp-pond}
+## Growing and shrinking {#ss5-pond .gp-lesson .gp-video-opener}
 
-The area covered by a plant doubles each day. It completely covers a pond on **day 30**.
-
-On which day was the pond **half covered**? Explain your prediction.
-
-<div class="gp-coverage-row"><span>Day 30</span><div class="gp-coverage-track" role="img" aria-label="Full coverage"><div style="width:100%"></div></div><span>Full</span></div>
-
-::: {.fragment data-fragment-index="0"}
-<div class="gp-coverage-row"><span>Day 29</span><div class="gp-coverage-track" role="img" aria-label="One half coverage"><div style="width:50%"></div></div><span data-math="\frac12">1/2</span></div>
-
-Going back one day **halves** the covered area. When was it **one-quarter covered**?
-
-:::
-
-::: {.fragment data-fragment-index="1"}
-<div class="gp-coverage-row"><span>Day 28</span><div class="gp-coverage-track" role="img" aria-label="One quarter coverage"><div style="width:25%"></div></div><span data-math="\frac14">1/4</span></div>
-
-:::
+```{=html}
+<div class="gp-video-layout">
+  <div class="gp-video-prompt">
+    <p class="gp-video-intro">One person grows.<br>Their friend shrinks.</p>
+    <p class="takeaway">What mathematical pattern connects their journeys?</p>
+    <p class="gp-video-credit"><em>What's the smallest thing you can be?</em><br>The Rest Is Science · 1 min 38 sec</p>
+    <p class="gp-video-link"><a href="https://www.youtube.com/shorts/neBpfR1IswE" target="_blank" rel="noopener noreferrer">Open on YouTube ↗</a></p>
+  </div>
+  <iframe class="gp-short-player" width="304" height="540" data-external="1" data-src="https://www.youtube.com/embed/neBpfR1IswE?enablejsapi=1&amp;playsinline=1&amp;rel=0&amp;autoplay=0" title="What's the smallest thing you can be? — The Rest Is Science" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+```
 
 ::: notes
 
-Allow 2–3 minutes for a prediction, a partner explanation and two reveals. Day 29 is half covered, because one more doubling makes the whole pond. Day 28 is one-quarter covered. A response of day 15 treats the growth as additive. The bars represent fractions of the same total area, not the physical shape of the plant patch. This is a hypothetical model up to day 30; do not extrapolate past full coverage as a physical prediction. Connect the multiplier 2 to the upcoming common ratio. No summation is needed.
+Allow 3–4 minutes for the video and the next slide together. Read the question, then tap Play. The Short runs for 1 minute 38 seconds. It uses a thought experiment with one person starting at the Planck scale and a friend starting at the scale of the observable universe. Each second, one size grows by a factor of 10 and the other shrinks by a factor of 10. Take a few observations before moving to the table. The mathematical model uses the repeated scale factors, so no numerical values for the starting lengths are needed.
+
+The player requires internet access. Use “Open on YouTube” if the embedded player is unavailable, then return to the lesson. If the video cannot be played, describe the thought experiment and the two changes per second before continuing. Playback starts only when requested. Leaving this slide unloads the player.
+
+Source: The Rest Is Science, “What's the smallest thing you can be?”, https://www.youtube.com/shorts/neBpfR1IswE. The teacher supplied the scenario summary. The original slide anchor is retained for existing links.
 
 :::

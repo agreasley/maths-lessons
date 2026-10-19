@@ -434,28 +434,30 @@ Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-
 
 ## Lesson 6: Finite geometric series
 
-Year 12 Mathematics Advanced. Section 6, printed pages 35–42, Examples 6.1–6.10 and Homework 6. Twenty-one slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after the hinge (slide 12). The objective is to understand how cancellation gives a finite geometric-sum formula. The success criterion is to derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
+Year 12 Mathematics Advanced. Section 6, printed pages 35–42, Examples 6.1–6.10 and Homework 6. Twenty-three slides. Allow approximately 70–80 minutes including booklet/OneNote working, or split after the hinge (slide 14). The objective is to understand how cancellation gives a finite geometric-sum formula. The success criterion is to derive the formula, identify the first term and number of terms, and use the appropriate formula to solve problems.
 
 ### Sequence and pacing
 
 | Slides | Content | Approximate time |
 |---|---|---|
 | 1–2 | Cover and learning goal | 1 minute |
-| 3–4 | Doubling chessboard and partial-sum pattern | 4 minutes |
-| 5–6 | Example 6.1: expansion identity and sum formula | 10 minutes |
-| 7–9 | Example 6.2: aligned subtraction and equivalent formulas | 10 minutes |
-| 10–11 | Examples 6.3–6.4 | 7 minutes |
-| 12 | Timed hinge and discussion | 4 minutes |
-| 13–16 | Examples 6.5–6.8 | 20 minutes |
-| 17–19 | Ratio 1, Example 6.9 and Example 6.10 | 9 minutes |
-| 20–21 | Key ideas and Homework 6 | 3 minutes |
+| 3–6 | Sissa's legend, doubling chessboard, partial-sum pattern and 64th-square reveal | 6 minutes |
+| 7–8 | Example 6.1: expansion identity and sum formula | 10 minutes |
+| 9–11 | Example 6.2: aligned subtraction and equivalent formulas | 10 minutes |
+| 12–13 | Examples 6.3–6.4 | 7 minutes |
+| 14 | Timed hinge and discussion | 4 minutes |
+| 15–18 | Examples 6.5–6.8 | 20 minutes |
+| 19–21 | Ratio 1, Example 6.9 and Example 6.10 | 9 minutes |
+| 22–23 | Key ideas and Homework 6 | 3 minutes |
 
 Leave the remaining time for transitions and discussion. Keep the opener brief. The booklet includes both derivations, so preserve both. Limiting sums, compound interest and recurring decimals belong to later sections.
 
 ### Interactions and reveals
 
-- **Doubling chessboard:** Number squares left to right, row by row. Ask for the grains on square 10 and the grains across the first ten squares. First click reveals a_10=512, second reveals S_10=1023. The exact SVG shows the first four counts and locates square 10. Present this as a mathematical puzzle without adding historical claims.
+- **Sissa's reward:** A brief retelling of the Indian legend, labelled as a legend rather than verified chess history. Sissa asks a king for rice that doubles across a 64-square board. Leave the size of the reward unanswered until after the partial-sum activity.
+- **Doubling chessboard:** Number squares left to right, row by row. Ask for the grains on square 10 and the grains across the first ten squares. First click reveals a_10=512, second reveals S_10=1023. The exact SVG shows the first four counts and locates square 10.
 - **Pattern in the totals:** Initially only square 1 is shown and totals are hidden. Next square adds one column up to 10. Reveal totals independently shows or hides S_n. First ten fills all columns. Reset returns to square 1 with totals hidden. The normal slide Next control reveals the conjecture S_n=2^n−1. Activity state persists through navigation. The expansion identity supplies the proof.
+- **The 64th square:** First click reveals a_64=2^63=9,223,372,036,854,775,808 grains (about 9.22 quintillion). Second click reveals that counting this single square at one grain per second, continuously, would take about 292 billion years, or 21 times the universe's approximate age. Calculation: 2^63/(60×60×24×365.25) ≈ 292,271,023,045 years; divide by 13.8 billion to obtain about 21.2. Third click distinguishes the whole-board sum S_64=2^64−1≈1.84×10^19; its exact value is 18,446,744,073,709,551,615. Do not claim these grain counts exceed the number of atoms in the observable universe. The sum rule remains a conjecture until the following derivation.
 - **Example 6.1(a–b):** First click checks n=1. Second click expands and cancels matching intermediate terms in blue. Third click records x^n−1. This is direct expansion, not induction. For n=2 the intermediate block is just x. The identity holds at x=1.
 - **Example 6.1(c):** Three clicks reveal substitution x=r, division by r−1, and multiplication by a. Division requires r≠1. Count n powers from r^0 to r^(n−1).
 - **Example 6.2:** Students first see the unchanged four-part task. On the next slide S_n is visible initially. Clicks reveal rS_n, subtraction/cancellation, factorisation, and division by 1−r. Keep a and −ar^n in orange. Multiplication by r changes each term but preserves the number of terms. For n=1 there are no common terms to cancel.
@@ -510,5 +512,7 @@ Cambridge Year 12, copied from printed page 42 and the front summary:
 ### Sources and preview
 
 Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 6, pp. 35–42. Examples, values, subparts and homework follow the current booklet. Teaching reference: `Geometric partial sums.pptx`, whose Examples 3.13–3.15 correspond to current Examples 6.4–6.6; its multiply-and-subtract proof informs the staged derivation. Its older homework allocation is superseded by the current booklet. Formula-sheet image: teacher-supplied screenshot, 20 October 2026, unchanged. Example 6.10 is labelled “Advanced HSC – Bank Question” in the booklet; no year or question number was provided or independently verified. No additional syllabus code or textbook edition is asserted.
+
+Opening sources: [Cambridge NRICH, Sissa's Reward](https://nrich.maths.org/problems/sissas-reward) for the legend; [University of Maryland, Population growth 1](https://www.physics.umd.edu/perg/abp/TPProbs/Problems/G/G30.htm) for the last-square and whole-board expressions; [NASA, Universe Overview](https://science.nasa.gov/universe/overview/) for the approximate age of 13.8 billion years. The counting-time comparison is calculated from these quantities, not quoted as a claim about rice production or the number of atoms.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-6.qmd`. The topic listing discovers the new lesson automatically. Publishing remains manual through the existing GitHub workflow.

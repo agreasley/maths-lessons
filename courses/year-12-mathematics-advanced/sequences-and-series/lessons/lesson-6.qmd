@@ -17,9 +17,13 @@ format:
 
 {{< include lesson-6/_objective.qmd >}}
 
+{{< include lesson-6/_sissa.qmd >}}
+
 {{< include lesson-6/_chessboard.qmd >}}
 
 {{< include lesson-6/_totals.qmd >}}
+
+{{< include lesson-6/_square-64.qmd >}}
 
 {{< include lesson-6/_example-6-1-ab.qmd >}}
 

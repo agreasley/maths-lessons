@@ -1,0 +1,21 @@
+## Sissa's reward {#ss6-sissa .gs-lesson .gs-sissa}
+
+An old Indian **legend** tells of Sissa, who presented a board game to a king. Delighted, the king offered him a reward.
+
+Sissa asked for rice: **one grain on the first square**, then twice as many on each successive square, across all 64 squares.
+
+$$1,\quad 2,\quad 4,\quad 8,\quad \ldots$$
+
+The king thought the request was tiny.
+
+::: {.takeaway}
+
+How large would this reward become?
+
+:::
+
+::: notes
+
+Allow about 30 seconds. Tell this as a legend, not an established account of the invention of chess. Some versions use wheat instead of rice; this lesson follows the rice version in Cambridge NRICH's Sissa's Reward. Avoid asserting a historical date or identifying an actual king. Leave the size of the reward unanswered here: investigate square 10 and the first ten squares, then return to the 64-square board after students have conjectured the sum rule. Source: https://nrich.maths.org/problems/sissas-reward.
+
+:::

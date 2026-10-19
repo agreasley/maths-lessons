@@ -1,0 +1,37 @@
+## The 64th square {#ss6-square-64 .gs-lesson .gs-rice-scale}
+
+How many grains would be on the final square?
+
+::: {.fragment .gs-last-square data-fragment-index="0"}
+
+$$a_{64}=2^{63}=9\,223\,372\,036\,854\,775\,808$$
+
+About **9.22 quintillion grains** on that square alone.
+
+:::
+
+::: {.fragment .takeaway .gs-counting-time data-fragment-index="1"}
+
+Count **one grain per second**, without stopping.
+
+It would take about **292 billion years** — roughly **21 times the age of the universe**.
+
+:::
+
+::: {.fragment .gs-whole-board data-fragment-index="2"}
+
+Across the whole board:
+
+$$S_{64}=2^{64}-1\approx1.84\times10^{19}\text{ grains}$$
+
+:::
+
+::: notes
+
+Allow about 1 minute. Ask students why the exponent for square 64 is 63 before the first click reveals the count. Second click gives a comparison for that single square, not the whole board. At one grain per second, 2^63/(60×60×24×365.25) ≈ 292,271,023,045 years. Compared with the universe's approximate age of 13.8 billion years, this is about 21.2 times as long. These are calculated comparisons using a 365.25-day year; the age is from NASA's Universe Overview. Do not claim that the number of grains exceeds the number of atoms in the observable universe.
+
+Third click returns to the lesson's distinction between a term and a sum. The exact total is 18,446,744,073,709,551,615 grains. Ask why the whole-board formula has exponent 64. The preceding activity conjectured this sum rule; the next examples justify the geometric-sum formula.
+
+Sources: https://www.physics.umd.edu/perg/abp/TPProbs/Problems/G/G30.htm (2^63 on the last square and 2^64−1 altogether); https://science.nasa.gov/universe/overview/ (approximate age 13.8 billion years).
+
+:::

@@ -16,6 +16,6 @@ Place one grain of rice on the first square, two on the second, four on the thir
 ::: notes
 
 
-Allow 2 minutes. Pose both questions before revealing either answer. First click reveals a_10=512. Second click reveals S_10=1023. Ask students to explain how the questions differ. Accept direct addition or a pattern-based explanation; the next slide investigates the pattern. This is a mathematical puzzle, with no historical claim about the origin of chess or a particular inventor. The small numbers on the board label square positions; the larger numbers on the first four squares are grain counts. The outline locates square 10.
+Allow 2 minutes. Pose both questions before revealing either answer. First click reveals a_10=512. Second click reveals S_10=1023. Ask students to explain how the questions differ. Accept direct addition or a pattern-based explanation; the next slide investigates the pattern. This explores the reward in the preceding legend; keep that story distinct from verified history. The small numbers on the board label square positions; the larger numbers on the first four squares are grain counts. The outline locates square 10.
 
 :::

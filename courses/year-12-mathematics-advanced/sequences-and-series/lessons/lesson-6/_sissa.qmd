@@ -1,15 +1,39 @@
-## Sissa's reward {#ss6-sissa .gs-lesson .gs-sissa .gs-video-slide}
+## Sissa's reward {#ss6-sissa .gs-lesson .gs-sissa}
 
-An old legend of rice and repeated doubling.
+::::: {.gs-sissa-layout}
+
+:::: {.gs-sissa-story}
+
+An old Indian **legend** tells of Sissa, who presented a board game to a king. Delighted, the king offered him a reward.
+
+Sissa asked for rice: **one grain on the first square**, then twice as many on each successive square, across all 64 squares.
+
+$$1,\quad 2,\quad 4,\quad 8,\quad \ldots$$
+
+The king thought the request was tiny.
+
+::: {.takeaway}
+
+How large would this reward become?
+
+:::
+
+::::
+
+:::: {.gs-sissa-media}
 
 ```{=html}
-<iframe class="gs-rice-player" width="864" height="486" data-external="1" data-src="https://www.youtube.com/embed/byk3pA1GPgU?enablejsapi=1&amp;playsinline=1&amp;rel=0&amp;autoplay=0" title="The Legend of the Chessboard (Teaser)" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="gs-rice-player" width="480" height="270" data-external="1" data-src="https://www.youtube.com/embed/byk3pA1GPgU?enablejsapi=1&amp;playsinline=1&amp;rel=0&amp;autoplay=0" title="The Legend of the Chessboard (Teaser)" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <p class="gs-video-link"><a href="https://www.youtube.com/watch?v=byk3pA1GPgU" target="_blank" rel="noopener noreferrer">Open the video on YouTube ↗</a></p>
 ```
 
+::::
+
+:::::
+
 ::: notes
 
-Introduce this as a legend, then tap Play. Keep the introduction brief and continue directly to the chessboard questions. Playback starts manually; leaving the slide unloads the player. Internet access is required, with a direct YouTube link if the embed is unavailable. If offline, summarise the request: one grain on the first square, doubling on each successive square across the board.
+The original story and question are retained, with a smaller video alongside. Present the story as a legend, not an established account of the invention of chess. Tap Play when ready, then continue to the chessboard questions. Playback starts manually; leaving the slide unloads the player. Internet access is required, with a direct YouTube link if the embed is unavailable. If offline, use the story on the slide and continue.
 
 Teacher-selected video: https://www.youtube.com/watch?v=byk3pA1GPgU. Legend reference: https://nrich.maths.org/problems/sissas-reward.
 

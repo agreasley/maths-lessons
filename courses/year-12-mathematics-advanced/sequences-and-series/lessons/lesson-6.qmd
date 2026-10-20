@@ -26,8 +26,6 @@ format:
 
 {{< include lesson-6/_square-64.qmd >}}
 
-{{< include lesson-6/_rice-video.qmd >}}
-
 {{< include lesson-6/_example-6-1-ab.qmd >}}
 
 {{< include lesson-6/_example-6-1-c.qmd >}}

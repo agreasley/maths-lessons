@@ -263,9 +263,6 @@
 .reveal .gs-lesson>p:not(.booklet-cue){font-size:29px;line-height:1.45;margin:22px 0}
 .reveal .gs-lesson .gs-subparts{margin:26px 0 26px 27px}
 .reveal .gs-subparts p{font-size:28px;line-height:1.45;margin:26px 0}
-.reveal .gs-sissa>.katex-display{font-size:41px;color:var(--blue);margin:30px 0}
-.reveal .gs-sissa .takeaway{margin:26px 0;padding-block:5px}
-.reveal .gs-sissa .takeaway p{font-size:31px;margin:14px 0}
 .reveal .gs-rice-scale .gs-last-square{margin:22px 0;color:var(--muted)}
 .reveal .gs-rice-scale .gs-last-square p{font-size:25px;margin:16px 0}
 .reveal .gs-rice-scale .gs-counting-time{margin:28px 0;padding-block:5px}

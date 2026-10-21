@@ -1,0 +1,26 @@
+## Handle the horizontal shift separately {#fgt1-horizontal-shift .trig-lesson}
+
+**Factor the argument first.**
+
+$$3\sin\left(2x-\frac{2\pi}{3}\right)
+=3\sin\left(2\left(x-\frac{\pi}{3}\right)\right)$$
+
+::: {.fragment}
+**First:** sketch $y=3\sin 2x$ using amplitude $3$ and period $\pi$.
+:::
+
+::: {.fragment}
+**Then:** shift every point $\dfrac{\pi}{3}$ to the right.
+
+$$(x,y)\longmapsto\left(x+\frac{\pi}{3},y\right)$$
+:::
+
+::: {.takeaway .fragment}
+The amplitude and period stay the same. Keep the final graph inside the requested domain.
+:::
+
+::: notes
+
+Preparation for Example 1.19; this slide is additional explanation, not a rewritten source question. The shift is π/3, not 2π/3. Separate the phase translation from the initial modified sine sketch. In the next example, the final domain remains 0≤x≤2π: do not translate the endpoints of a restricted base graph and accidentally change that domain. Think of shifting the underlying periodic curve, then keeping the required interval. Plot the final endpoint values directly as needed. Ask: which features change and which stay the same? Allow about 2 minutes.
+
+:::

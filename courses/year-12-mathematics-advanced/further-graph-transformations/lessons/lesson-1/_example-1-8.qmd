@@ -1,0 +1,15 @@
+## Example 1.8 {#fgt1-example-1-8 .trig-lesson .trig-example}
+
+Sketch the graph of $y=\dfrac12\sin 2x+1$ for $0\leq x\leq2\pi$.
+
+```{=html}
+<div data-trig="sketch" data-example="1.8" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 8 · Example 1.8</p>
+
+::: notes
+
+Preserve the booklet prompt exactly. Complete the working in OneNote and use each reveal only after students have attempted it. Amplitude 1/2, midline y=1, maximum 3/2, minimum 1/2. T=π; quarter-period step π/4. One cycle: (0,1),(π/4,3/2),(π/2,1),(3π/4,1/2),(π,1). Repeat to 2π, giving two cycles and final point (2π,1). Domain [0,2π], range [1/2,3/2], y-intercept 1 and no x-intercepts. The curve begins by increasing. Reset returns to unlabelled construction axes without revealing answers. Allow about 8 minutes.
+
+:::

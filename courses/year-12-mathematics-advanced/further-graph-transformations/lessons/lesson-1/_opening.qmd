@@ -1,0 +1,13 @@
+## Sketching trigonometric graphs {#fgt1-opening .cover .trig-lesson}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Further Graph Transformations · Lesson 1</div>
+<div class="cover-title">Sketching<br>trigonometric graphs</div>
+<div class="cover-subtitle">Amplitude, period and a reliable sketching method.</div>
+<div class="cover-bars" aria-hidden="true"><span style="height:35px"></span><span style="height:70px"></span><span style="height:105px"></span><span style="height:70px"></span><span style="height:35px"></span><span style="height:70px"></span></div>
+<div class="cover-foot">Examples 1.8, 1.9, 1.15, 1.19 · Homework 1–2: selected questions</div>
+
+::: notes
+
+Approximately 60 minutes. Students already know the basic sine, cosine and tangent graphs and general transformations. Amplitude and period are new. Keep initial explanations brief and allow 35–40 minutes for the four main sketches in OneNote. The graph construction buttons provide optional, deliberate reveals; leave each example at its initial state until students have attempted the relevant working. See the topic teacher guide for source details, pacing and exact worked checks.
+
+:::

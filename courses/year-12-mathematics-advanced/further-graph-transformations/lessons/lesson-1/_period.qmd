@@ -1,0 +1,15 @@
+## Period {#fgt1-period .trig-lesson}
+
+The **period** is the horizontal length of one complete repeating cycle.
+
+```{=html}
+<div data-trig="period" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Section 1.3 · Relate the shorter cycle to the horizontal dilation in the hinge.</p>
+
+::: notes
+
+Define the fundamental period as the smallest positive horizontal shift that reproduces the whole graph. A horizontal distance between arbitrary matching heights is not necessarily a full period: use matching positions and directions, such as consecutive peaks. Reveal a full cycle for sin x and sin 2x. Periods are 2π and π. Recall the hinge: a horizontal factor 1/2 halves the period. Generalise to T=2π/|n| for sine and cosine, a,n nonzero. Tangent has T=π/|n| because tan x repeats every π; explain its construction later. Use radians throughout. Aim for 2–3 minutes.
+
+:::

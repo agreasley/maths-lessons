@@ -20,36 +20,30 @@
     }
     document.querySelectorAll('[data-module="cake-sharing"]').forEach(m=>{
       if(m.dataset.ready)return;m.dataset.ready='true';
-      let n=0,visible=false;
-      m.innerHTML='<div class="toolbar"><button class="lim-share primary">Share again</button><button class="lim-fractions" aria-pressed="false">Reveal piece sizes</button><button class="lim-reset">Reset</button><span class="lim-round" aria-live="polite"></span></div><div class="lim-cake-legend"><span class="lim-student-one">Student 1</span><span class="lim-teacher">Mr Greasley</span><span class="lim-student-two">Student 2</span></div><div class="lim-cake-picture"></div><div class="lim-cake-reading" aria-live="polite"></div><div class="lim-cake-history" aria-live="polite"></div>';
+      let n=0;
+      m.innerHTML='<div class="toolbar"><button class="lim-share primary">Share again</button><button class="lim-reset">Reset</button><span class="lim-round" aria-live="polite"></span></div><div class="lim-cake-legend"><span class="lim-student-one">Student 1</span><span class="lim-teacher">Mr Greasley</span><span class="lim-student-two">Student 2</span></div><div class="lim-cake-picture"></div><div class="lim-cake-sums" aria-live="polite"></div>';
       const $=s=>m.querySelector(s);
       function draw(){
         const denominator=3**n,totalNumerator=(denominator-1)/2;
-        let blocks=`<rect x="40" y="8" width="1080" height="70" fill="${teal}"/>`;
+        let blocks=`<rect x="40" y="8" width="1080" height="90" fill="${teal}"/>`;
         for(let k=1;k<=n;k++){
           const previous=1080/3**(k-1),start=40+(1080-previous)/2,piece=previous/3;
-          blocks+=`<g class="${k===n?'lim-new-piece':''}"><rect x="${start}" y="8" width="${piece}" height="70" fill="${blue}"/><rect x="${start+2*piece}" y="8" width="${piece}" height="70" fill="${orange}"/></g>`;
-          if(k<=4)blocks+=`<path d="M${start+piece} 8v70M${start+2*piece} 8v70" stroke="#f7f5ef" stroke-width="1"/>`;
+          blocks+=`<g class="${k===n?'lim-new-piece':''}"><rect x="${start}" y="8" width="${piece}" height="90" fill="${blue}"/><rect x="${start+2*piece}" y="8" width="${piece}" height="90" fill="${orange}"/></g>`;
+          if(k<=4)blocks+=`<path d="M${start+piece} 8v90M${start+2*piece} 8v90" stroke="#f7f5ef" stroke-width="1"/>`;
         }
-        blocks+='<rect x="40" y="8" width="1080" height="70" fill="none" stroke="#152e3b" stroke-width="2"/>';
-        if(n>0){
-          blocks+=`<text x="40" y="112" font-size="22">This round: Mr Greasley’s previous piece, enlarged</text><rect x="40" y="131" width="360" height="34" fill="${blue}"/><rect x="400" y="131" width="360" height="34" fill="${teal}"/><rect x="760" y="131" width="360" height="34" fill="${orange}"/><text x="220" y="191" text-anchor="middle">Student 1</text><text x="580" y="191" text-anchor="middle">Mr Greasley keeps</text><text x="940" y="191" text-anchor="middle">Student 2</text>`;
-        }else blocks+='<text x="580" y="142" text-anchor="middle" font-size="26">One whole cake. Predict the first shares.</text>';
-        $('.lim-cake-picture').innerHTML=`<svg viewBox="0 0 1160 200" role="img" aria-label="Round ${n}. Blue and orange show the students’ shares. Teal shows the teacher’s remaining piece. The lower strip, when shown, enlarges the piece divided in this round." xmlns="http://www.w3.org/2000/svg"><g font-family="Arial,sans-serif" font-size="20" fill="${ink}">${blocks}</g></svg>`;
-        $('.lim-cake-reading').innerHTML=visible?`<div>New piece for each student: ${math(n?frac(1,denominator):'0')}</div><div>Mr Greasley’s share: ${math(frac(1,denominator))}</div>`:'<p>Predict the size of the new piece and the share remaining.</p>';
-        const rounds=Array.from({length:7},(_,i)=>i);
-        const totalCells=()=>rounds.map(k=>`<td class="${k===n?'lim-current-round':''}">${k<=n?math('\\displaystyle '+frac((3**k-1)/2,3**k)):'<span class="lim-future-round">—</span>'}</td>`).join('');
-        $('.lim-cake-history').innerHTML=`<table aria-label="Running totals for each student, as fractions of one whole cake"><thead><tr><th scope="col">Round</th>${rounds.map(k=>`<th scope="col" class="${k===n?'lim-current-round':''}">${k}</th>`).join('')}</tr></thead><tbody><tr class="lim-student-one"><th scope="row">Student 1 total</th>${totalCells()}</tr><tr class="lim-student-two"><th scope="row">Student 2 total</th>${totalCells()}</tr></tbody></table>`;
+        blocks+='<rect x="40" y="8" width="1080" height="90" fill="none" stroke="#152e3b" stroke-width="2"/>';
+        $('.lim-cake-picture').innerHTML=`<svg viewBox="0 0 1160 108" role="img" aria-label="Round ${n}. One whole cake at a fixed scale. Blue and orange show the students’ shares. Teal shows the teacher’s remaining piece." xmlns="http://www.w3.org/2000/svg">${blocks}</svg>`;
+        const pieces=Array.from({length:n},(_,i)=>frac(1,3**(i+1)));
+        const total=frac(totalNumerator,denominator);
+        const studentSum=n>1?`${pieces.join('+')}=${total}`:total;
+        $('.lim-cake-sums').innerHTML=`<div class="lim-cake-sum-row lim-student-one"><strong>Student 1 total</strong><div class="lim-cake-equation">${math('\\displaystyle '+studentSum)}</div></div><div class="lim-cake-sum-row lim-student-two"><strong>Student 2 total</strong><div class="lim-cake-equation">${math('\\displaystyle '+studentSum)}</div></div><div class="lim-cake-sum-row lim-teacher"><strong>Mr Greasley has</strong><div class="lim-cake-equation">${math('\\displaystyle '+frac(1,denominator))}</div></div>`;
         $('.lim-round').textContent=`Round ${n} of 6`;
         $('.lim-share').disabled=n===6;
-        $('.lim-fractions').textContent=visible?'Hide piece sizes':'Reveal piece sizes';
-        $('.lim-fractions').setAttribute('aria-pressed',String(visible));
-        m.dataset.round=String(n);m.dataset.fractionsVisible=String(visible);m.dataset.denominator=String(denominator);m.dataset.studentNumerator=String(totalNumerator);
+        m.dataset.round=String(n);m.dataset.denominator=String(denominator);m.dataset.studentNumerator=String(totalNumerator);
         typeset(m);
       }
       $('.lim-share').addEventListener('click',()=>{n=Math.min(6,n+1);draw();});
-      $('.lim-fractions').addEventListener('click',()=>{visible=!visible;draw();});
-      $('.lim-reset').addEventListener('click',()=>{n=0;visible=false;draw();});
+      $('.lim-reset').addEventListener('click',()=>{n=0;draw();});
       draw();
     });
     document.querySelectorAll('[data-module="cake-limits"]').forEach(m=>{

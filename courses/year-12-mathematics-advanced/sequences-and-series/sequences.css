@@ -461,3 +461,47 @@
 .reveal .gp-comparison th{font-size:24px}
 .reveal .gp-comparison td,.reveal .gp-comparison tbody th{padding:22px 15px}
 .reveal .gp-key-ideas>p:not(.booklet-cue){font-size:26px;line-height:1.4;margin:20px 0}
+
+/* Lesson 7: cake sharing and limiting geometric sums. */
+.reveal .lim-lesson>p:not(.booklet-cue){font-size:29px;line-height:1.43}
+.reveal .lim-lesson .booklet-cue{margin-top:26px}
+.reveal .lim-cake-slide>p:not(.booklet-cue){font-size:26px;line-height:1.35;margin:14px 0}
+.reveal .lim-cake .toolbar{margin:20px 0 16px}
+.reveal .lim-cake button,.reveal .lim-ratio-explorer button{min-height:56px}
+.reveal .lim-round{margin-left:auto;font-size:22px;color:var(--muted)}
+.reveal .lim-cake-legend{display:grid;grid-template-columns:1fr 1fr 1fr;text-align:center;font-size:23px;font-weight:700;margin:12px 0 6px}
+.reveal .lim-student-one{color:var(--blue)}.reveal .lim-student-two{color:var(--orange)}.reveal .lim-teacher{color:var(--teal)}
+.reveal .lim-cake-picture svg{display:block;width:100%;height:260px;max-height:none;margin:0}
+.reveal .lim-cake-reading{display:grid;grid-template-columns:1fr 1fr 1fr;min-height:106px;align-items:start;text-align:center;gap:12px;margin-top:12px;font-size:22px}
+.reveal .lim-cake-reading strong{display:block;font-size:31px;font-weight:400;margin-top:14px}
+.reveal .lim-cake-reading p{grid-column:1/-1;font-size:28px;margin:20px 0}
+.reveal .lim-new-piece{animation:lim-piece-appear .55s ease-out}
+@keyframes lim-piece-appear{from{opacity:.15}to{opacity:1}}
+.reveal .lim-paired-plots{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+.reveal .lim-paired-plots h3{font-size:26px;margin:0 0 6px}
+.reveal .lim-chart{width:100%;height:275px;max-height:none;display:block;margin:0}
+.reveal .lim-axis-label{text-align:right;font-size:20px;margin-right:18px;margin-top:-18px}
+.reveal .lim-two-limits .katex-display{font-size:30px;margin:35px 0}
+.reveal .lim-two-limits .takeaway{font-size:29px;margin-top:30px}
+.reveal .lim-ratios>p:not(.booklet-cue){font-size:27px;margin:14px 0}
+.reveal .lim-ratio-buttons{margin:16px 0 8px;gap:12px}
+.reveal .lim-ratio-buttons button{min-width:75px;font-size:22px}
+.reveal .lim-ratio-explorer .lim-paired-plots{margin-top:15px}
+.reveal .lim-ratio-explorer .lim-chart{height:250px}
+.reveal .lim-behaviour-row{display:grid;grid-template-columns:210px 1fr;align-items:center;gap:22px;margin-top:20px;min-height:70px}
+.reveal .lim-behaviour-text{font-size:25px;line-height:1.35}
+.reveal .lim-ratios .takeaway{margin:17px 0;padding-block:3px}
+.reveal .lim-ratios .takeaway .katex-display{font-size:30px;margin:12px 0}
+.reveal .lim-derivation>p:not(.booklet-cue){font-size:27px;margin:17px 0}
+.reveal .lim-derivation .katex-display{font-size:30px;margin:21px 0}
+.reveal .lim-formula .takeaway .katex-display{font-size:38px;margin:20px 0}
+.reveal .lim-example-parts p{font-size:36px;margin:70px 0}
+.reveal .lim-hinge .hinge-question{font-size:28px;line-height:1.45;margin:10px 0 15px}
+.reveal .lim-hinge .choice{font-size:25px;min-height:100px}
+.reveal .lim-hinge .hinge-explanation{font-size:24px}
+.reveal .lim-trig-proof .katex-display{font-size:29px;margin:28px 0}
+.reveal .lim-trig-proof>p:not(.booklet-cue){font-size:28px}
+.reveal .lim-key-row{margin:27px 0}
+.reveal .lim-key-row h3{font-size:26px;color:var(--teal);margin:0 0 13px}
+.reveal .lim-key-row .katex-display{font-size:29px;margin:15px 0}
+@media(prefers-reduced-motion:reduce){.reveal .lim-new-piece{animation:none}}

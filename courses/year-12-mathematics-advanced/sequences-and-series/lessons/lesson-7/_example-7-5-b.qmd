@@ -1,0 +1,31 @@
+## Example 7.5(b) {#ss7-example-7-5-b .lim-lesson .lim-trig-proof}
+
+For these values of $x$, show that the limiting sum is equal to
+
+$$\sec x\tan x+\tan^2x.$$
+
+::: {.fragment data-fragment-index="0"}
+
+$$S_\infty=\frac{\sin x}{1-\sin x}$$
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+
+$$\frac{\sin x}{1-\sin x}\cdot\frac{1+\sin x}{1+\sin x}=\frac{\sin x+\sin^2x}{\cos^2x}$$
+
+:::
+
+::: {.fragment data-fragment-index="2"}
+
+$$S_\infty=\frac{1}{\cos x}\cdot\frac{\sin x}{\cos x}+\left(\frac{\sin x}{\cos x}\right)^2=\sec x\tan x+\tan^2x$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 46 · Example 7.5(b)</p>
+
+::: notes
+
+First let students work in OneNote. Click 1 substitutes a=r=sin x into the formula. Ask which identity links 1−sin²x with cos²x. Click 2 multiplies numerator and denominator by 1+sin x. This is non-zero on the domain from part (a). Click 3 splits the fraction and identifies sec and tan. The final expression is defined because cos x≠0 on the permitted domain. When sin x=0 both expressions equal 0.
+
+:::

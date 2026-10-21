@@ -1,0 +1,31 @@
+## How much cake does each student receive? {#ss7-cake-totals .lim-lesson }
+
+The new pieces are $\dfrac13,\ \dfrac19,\ \dfrac1{27},\ldots$
+
+**Predict:** how much cake will each student receive if this continues?
+
+::: {.fragment data-fragment-index="0"}
+
+$$S_1=\frac13,\qquad S_2=\frac49,\qquad S_3=\frac{13}{27}$$
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+
+After $n$ rounds, Mr Greasley has $\left(\dfrac13\right)^n$ of the cake left.
+
+$$S_n=\frac{1-\left(\frac13\right)^n}{2}$$
+
+:::
+
+::: {.takeaway .fragment data-fragment-index="2"}
+
+$$\frac13+\frac19+\frac1{27}+\cdots=\frac12$$
+
+:::
+
+::: notes
+
+Invite a prediction and explanation before revealing any totals. Click 1 gives the first three totals for one student. Click 2 uses conservation of the cake: both students share equally what is no longer held by Mr Greasley, so 2S_n+3^(−n)=1. This obtains S_n geometrically before the general formula. Click 3 gives the limiting sum. Every finite total is strictly below one half. Each student eventually receives one half only in the ideal infinite-process sense. An actual cake cannot be divided indefinitely. Ask whether the teacher’s share equals zero after any finite number of cuts.
+
+:::

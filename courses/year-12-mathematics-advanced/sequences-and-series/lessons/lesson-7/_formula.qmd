@@ -1,0 +1,27 @@
+## The limiting sum {#ss7-formula .lim-lesson .lim-formula}
+
+A geometric series with a **non-zero first term** has a limiting sum if and only if
+
+$$\boxed{-1<r<1}\qquad\text{or}\qquad\boxed{|r|<1}.$$
+
+::: {.takeaway .fragment data-fragment-index="0"}
+
+$$S_\infty=\sum_{k=1}^{\infty}ar^{k-1}=\frac{a}{1-r}$$
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+
+For the cake: $a=\dfrac13$ and $r=\dfrac13$, so
+
+$$S_\infty=\frac{\frac13}{1-\frac13}=\frac12.$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 44 · Complete the limiting-sum result</p>
+
+::: notes
+
+The condition is visible first. Click 1 gives the summation notation and formula. Click 2 checks the physical cake result. Identify a as the first included term and r as the common multiplier. S_infinity is the limit of S_n, not the result of inserting infinity into a finite-index expression. The zero-ratio convention uses a_1=a and a_(n+1)=r a_n.
+
+:::

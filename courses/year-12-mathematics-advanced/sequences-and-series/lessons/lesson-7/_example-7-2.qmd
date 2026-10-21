@@ -1,0 +1,29 @@
+## Example 7.2 {#ss7-example-7-2 .lim-lesson .lim-derivation}
+
+Consider the formula for the $n$th partial sum of a geometric series:
+
+$$S_n=\frac{a(1-\textcolor{#b55224}{r^n})}{1-r}.$$
+
+**(a)** Under what condition do you suspect that the sum of a geometric series approaches a finite number? That is, the series has a ‘limiting sum’.
+
+::: {.fragment data-fragment-index="0"}
+
+$$|r|<1\quad\Longrightarrow\quad\textcolor{#b55224}{r^n\longrightarrow0}$$
+
+:::
+
+**(b)** Find the value of the limiting sum.
+
+::: {.fragment data-fragment-index="1"}
+
+$$S_n\longrightarrow\frac{a(1-\textcolor{#b55224}{0})}{1-r}=\frac{a}{1-r}$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 44 · Example 7.2</p>
+
+::: notes
+
+The finite-sum formula requires r≠1. For a non-zero first term, a finite limiting sum exists exactly when |r|<1. Click 1 identifies r^n→0, including negative r between −1 and 0. Click 2 substitutes this limit. If |r|≥1 the terms do not approach zero, so the partial sums cannot converge. This avoids extending the quotient outside its convergence domain. If a=0 the recurrence is the all-zero sequence and its sum is 0 regardless of the chosen multiplier.
+
+:::

@@ -1,0 +1,27 @@
+## Example 7.5(a) {#ss7-example-7-5-a .lim-lesson }
+
+Consider the geometric series:
+
+$$\sin x+\sin^2x+\sin^3x+\cdots.$$
+
+**(a)** Show that, for a limiting sum to exist, we must have $x\ne\dfrac{n\pi}{2}$ for **odd** values of $n$.
+
+::: {.fragment data-fragment-index="0"}
+
+$$r=\sin x,\qquad |\sin x|<1$$
+
+:::
+
+::: {.fragment data-fragment-index="1"}
+
+$$\sin x\ne\pm1\qquad\Longrightarrow\qquad x\ne\frac{n\pi}{2}\quad(n\text{ odd})$$
+
+:::
+
+<p class="booklet-cue">Booklet p. 46 · Example 7.5(a)</p>
+
+::: notes
+
+Treat x as a fixed real parameter and angles in radians. Each term is obtained by multiplying by sin x. At sin x=0 all terms are zero and the sum is 0, so these values are included. Do not divide successive terms at these values. At sin x=1 the partial sums grow; at sin x=−1 they alternate −1,0. Hence exclude exactly odd multiples of π/2, equivalently π/2+kπ for k integer. Click 1 identifies the multiplier and condition. Click 2 records the excluded x-values.
+
+:::

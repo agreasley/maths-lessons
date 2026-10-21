@@ -1,0 +1,15 @@
+## Example 7.4 {#ss7-example-7-4 .lim-lesson }
+
+<div class="eyebrow">Advanced 2015 HSC 11d · 2 marks</div>
+
+Find the limiting sum of the geometric series
+
+$$1-\frac14+\frac1{16}-\frac1{64}+\cdots.$$
+
+<p class="booklet-cue">Booklet p. 45 · Example 7.4</p>
+
+::: notes
+
+Complete in OneNote. a=1, r=−1/4. State |r|<1, then S_infinity=1/[1−(−1/4)]=4/5. Preserve the HSC attribution given in the booklet. The original exam has not been independently consulted. Watch the double negative in the denominator.
+
+:::

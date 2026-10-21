@@ -1,0 +1,17 @@
+## Example 7.3(c) {#ss7-example-7-3-c .lim-lesson }
+
+For each of the following series, evaluate the limiting sums provided they exist.
+
+<div class="lim-example-parts">
+
+**(c)** $2+\sqrt2+1+\cdots$
+
+</div>
+
+<p class="booklet-cue">Booklet p. 45 · Example 7.3(c)</p>
+
+::: notes
+
+Complete in OneNote. a=2, r=√2/2=1/√2, so |r|<1. S_infinity=2/(1−1/√2)=2√2/(√2−1)=4+2√2. Keep exact arithmetic and rationalise the denominator. Students may incorrectly use √2 as the ratio. Ask which number multiplies 2 to give √2.
+
+:::

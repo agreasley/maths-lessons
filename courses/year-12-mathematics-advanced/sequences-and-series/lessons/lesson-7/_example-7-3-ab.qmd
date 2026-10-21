@@ -1,0 +1,19 @@
+## Example 7.3(a–b) {#ss7-example-7-3-ab .lim-lesson }
+
+For each of the following series, evaluate the limiting sums provided they exist.
+
+<div class="lim-example-parts">
+
+**(a)** $18-6+2-\cdots$
+
+**(b)** $\dfrac4{81}+\dfrac2{27}+\dfrac19+\cdots$
+
+</div>
+
+<p class="booklet-cue">Booklet p. 45 · Example 7.3(a–b)</p>
+
+::: notes
+
+Complete in OneNote. (a) a=18, r=−1/3, |r|<1. S_infinity=18/(1+1/3)=27/2=13.5. (b) a=4/81, r=(2/27)/(4/81)=3/2. No limiting sum, even though the starting terms are small. Applying a/(1−r) would give −8/81, which cannot be the sum of positive terms. Check both successive ratios if needed. Preserve question order and values.
+
+:::

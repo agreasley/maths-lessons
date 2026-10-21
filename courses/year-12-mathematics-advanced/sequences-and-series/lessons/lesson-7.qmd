@@ -1,0 +1,46 @@
+---
+pagetitle: "Lesson 7 — Limiting sums of geometric series"
+lesson-title: "Limiting sums of geometric series"
+description: "Model repeated cake sharing, establish the convergence condition and evaluate limiting geometric sums."
+lesson-order: 7
+booklet: "Section 7 · Examples 7.2–7.5 · pp. 43–46"
+homework: "7 · Exercise 1H"
+format:
+  revealjs:
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../limiting-sums.js"></script>
+---
+
+{{< include lesson-7/_opening.qmd >}}
+
+{{< include lesson-7/_objective.qmd >}}
+
+{{< include lesson-7/_cake.qmd >}}
+
+{{< include lesson-7/_cake-totals.qmd >}}
+
+{{< include lesson-7/_two-limits.qmd >}}
+
+{{< include lesson-7/_ratios.qmd >}}
+
+{{< include lesson-7/_example-7-2.qmd >}}
+
+{{< include lesson-7/_formula.qmd >}}
+
+{{< include lesson-7/_example-7-3-ab.qmd >}}
+
+{{< include lesson-7/_example-7-3-c.qmd >}}
+
+{{< include lesson-7/_hinge.qmd >}}
+
+{{< include lesson-7/_example-7-4.qmd >}}
+
+{{< include lesson-7/_example-7-5-a.qmd >}}
+
+{{< include lesson-7/_example-7-5-b.qmd >}}
+
+{{< include lesson-7/_key-ideas.qmd >}}
+
+{{< include lesson-7/_homework.qmd >}}

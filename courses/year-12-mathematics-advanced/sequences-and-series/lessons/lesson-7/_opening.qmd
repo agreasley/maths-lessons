@@ -1,0 +1,9 @@
+## Limiting sums of geometric series {#ss7-opening .lim-lesson .cover .sequence-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 7</div><div class="cover-title">Limiting sums of<br>geometric series</div><div class="cover-subtitle">Can infinitely many pieces add to a finite amount?</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 7 · Examples 7.2–7.5 · Homework 7</div>
+
+::: notes
+
+Sixteen slides, approximately 55–65 minutes including the physical cake demonstration and OneNote working. The teacher-requested cake activity replaces the rabbit opening in Example 7.1. Do not renumber the cake as a booklet example. Sources: current Sequences and Series booklet, Section 7, printed pages 43–46; Geometric Limiting Sum.pptx, slides 3–5. Continue with Examples 7.2–7.5 unchanged and in order.
+
+:::

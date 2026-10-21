@@ -1,0 +1,21 @@
+## The new piece and the accumulated share {#ss7-two-limits .lim-lesson .lim-two-limits}
+
+<div data-module="cake-limits" class="lim-paired-plots"></div>
+
+::: {.fragment data-fragment-index="0"}
+
+$$a_n=\left(\frac13\right)^n\longrightarrow0\qquad\text{but}\qquad S_n=\frac{1-\left(\frac13\right)^n}{2}\longrightarrow\frac12$$
+
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+
+The terms approach zero. Their partial sums approach a finite limit.
+
+:::
+
+::: notes
+
+The two charts plot discrete points for n=1,...,6, with the same vertical scale in fractions of the whole cake. Blue is the next piece for either student. Orange is that student’s accumulated total. Dashed horizontal guides mark 0 and 1/2. The points never lie exactly on their limit for finite n. Click 1 states both limits, click 2 summarises. Terms approaching zero is necessary for a series to converge, but not sufficient for arbitrary series. Here we are investigating geometric series only.
+
+:::

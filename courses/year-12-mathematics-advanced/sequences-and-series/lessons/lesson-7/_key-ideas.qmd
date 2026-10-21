@@ -1,0 +1,28 @@
+## Key ideas {#ss7-key-ideas .lim-lesson .lim-key-ideas}
+
+<div class="lim-key-row">
+<h3>Terms and partial sums</h3>
+
+$$a_n=ar^{n-1},\qquad S_n=\sum_{k=1}^{n}ar^{k-1}$$
+
+</div>
+<div class="lim-key-row">
+<h3>Convergence condition (non-zero first term)</h3>
+
+$$|r|<1\quad\Longleftrightarrow\quad-1<r<1\quad\Longrightarrow\quad r^n\longrightarrow0$$
+
+</div>
+<div class="lim-key-row">
+<h3>Limiting sum</h3>
+
+$$S_\infty=\lim_{n\to\infty}S_n=\sum_{k=1}^{\infty}ar^{k-1}=\frac{a}{1-r}\qquad(|r|<1)$$
+
+</div>
+
+<p class="booklet-cue">Booklet p. 46 · Key Ideas</p>
+
+::: notes
+
+Students record these mathematical statements in the booklet. Check the common multiplier and its absolute value before applying the formula. With a non-zero first term, convergence holds if and only if |r|<1. Both positive and negative ratios are allowed within this interval. Finite geometric sums have a different restriction: the quotient formula only requires r≠1, and r=1 has finite sum na. The all-zero sequence has sum 0.
+
+:::

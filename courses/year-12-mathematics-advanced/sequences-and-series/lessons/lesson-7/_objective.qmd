@@ -1,0 +1,15 @@
+## Today's learning {#ss7-objective .lim-lesson }
+
+### Lesson objective
+
+Understand when an infinite geometric series has a finite limiting sum.
+
+### Success criteria
+
+I can explain the condition $|r|<1$, derive $S_\infty=\dfrac{a}{1-r}$ and apply it to numerical and algebraic series.
+
+::: notes
+
+Assume fluency with sequence notation, geometric general terms and finite geometric sums. No input/output recap. The cake supplies a brief reminder of the distinction between a term and a partial sum.
+
+:::

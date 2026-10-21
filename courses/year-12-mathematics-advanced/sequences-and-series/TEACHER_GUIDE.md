@@ -516,3 +516,96 @@ Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 6, pp. 35–42
 Opening sources: [Cambridge NRICH, Sissa's Reward](https://nrich.maths.org/problems/sissas-reward) for the legend; [University of Maryland, Population growth 1](https://www.physics.umd.edu/perg/abp/TPProbs/Problems/G/G30.htm) for the last-square and whole-board expressions; [NASA, Universe Overview](https://science.nasa.gov/universe/overview/) for the approximate age of 13.8 billion years. The counting-time comparison is calculated from these quantities, not quoted as a claim about rice production or the number of atoms. Teacher-selected video: [The Legend of the Chessboard (Teaser)](https://www.youtube.com/watch?v=byk3pA1GPgU), also listed in the South Australian Department for Education's [Real numbers: Year 10/10A](https://acleadersresource.sa.edu.au/wp-content/uploads/2018/05/DE_Maths_CN_Real_numbers_Year_10_10A_LR.pdf), p. 5.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-6.qmd`. The topic listing discovers the new lesson automatically. Publishing remains manual through the existing GitHub workflow.
+
+## Lesson 7: Limiting sums of geometric series
+
+Year 12 Mathematics Advanced. Section 7, printed pages 43–46. Sixteen slides, approximately 55–65 minutes with physical cake sharing and OneNote working. The teacher-requested cake activity from `Geometric Limiting Sum.pptx` replaces the rabbit opening in Example 7.1. Examples 7.2–7.5 retain their booklet numbering and order. Example 7.1 remains in the booklet for independent practice.
+
+The objective is to understand when an infinite geometric series has a finite limiting sum. The success criterion is to explain |r|<1, derive S_infinity=a/(1−r) and apply it to numerical and algebraic series.
+
+### Sequence and pacing
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–2 | Cover and learning goal | 1 minute |
+| 3–5 | Physical cake, interactive sharing, totals and the two limits | 10 minutes |
+| 6 | Positive and negative ratios: terms versus partial sums | 6 minutes |
+| 7–8 | Example 7.2 derivation, condition and formula | 8 minutes |
+| 9–10 | Example 7.3(a–c) | 10 minutes |
+| 11 | Hinge and discussion | 4 minutes |
+| 12 | Example 7.4 | 4 minutes |
+| 13–14 | Example 7.5(a–b) | 12 minutes |
+| 15–16 | Key ideas and Homework 7 | 3 minutes |
+
+### Cake model and reveals
+
+Bring a physical cake. Share equally between Mr Greasley and two students, then repeatedly divide only the teacher’s remaining piece into thirds. Each student receives another third of that remaining piece. Ask students to predict before each cut.
+
+- **Slide 3:** Share again advances one round, up to six. The top rectangle always represents one whole cake at a fixed scale. Blue belongs to Student 1, orange to Student 2 and teal to Mr Greasley. The bottom strip enlarges the teacher’s piece immediately before the current cut and shows its three equal portions. It is labelled as enlarged and is not extra cake. Reveal fractions separately displays the latest piece, each student’s accumulated share and the remaining teacher share. Reset returns to round zero and hides all fractions. State persists when navigating away and back.
+- **Slide 4:** Start with the new pieces and invite a prediction about each student’s eventual total. Click 1 reveals the first three totals. Click 2 uses conservation: 2S_n+3^(−n)=1, giving S_n=(1−3^(−n))/2. Click 3 reveals the infinite sum 1/2.
+- **Slide 5:** Compare discrete graphs of the new pieces and accumulated share, with the same vertical scale in fractions of the whole cake. Click 1 states a_n→0 and S_n→1/2. Click 2 summarises. Neither finite sequence value reaches its limiting value.
+
+| Round | Extra piece for each student | Each student’s total | Teacher’s remaining share |
+|---|---|---|---|
+| 1 | 1/3 | 1/3 | 1/3 |
+| 2 | 1/9 | 4/9 | 1/9 |
+| 3 | 1/27 | 13/27 | 1/27 |
+| 4 | 1/81 | 40/81 | 1/81 |
+| 5 | 1/243 | 121/243 | 1/243 |
+| 6 | 1/729 | 364/729 | 1/729 |
+| n | 3^(−n) | (1−3^(−n))/2 | 3^(−n) |
+
+The physical cake cannot be divided indefinitely. The mathematical model considers an ideal process. Each finite student total is below one half and the teacher retains a positive amount after every finite round.
+
+### Ratio explorer and formula
+
+Slide 6 fixes a=1 and offers r=1/2, −1/2, 1, −1, 3/2 and −3/2. Both graphs show twelve discrete values. The two graphs share a vertical scale within a selected case, but the scale changes between cases to keep all points visible. Reveal behaviour adds an explanation and, for convergent cases, horizontal limit guides. Choosing another ratio hides that explanation again. Reset returns to r=1/2 with the explanation hidden. All controls work offline and preserve state through navigation.
+
+The r=−1/2 partial sums oscillate towards 2/3. At r=−1 they alternate between 1 and 0 with no single limit. For |r|>1 the terms fail to approach zero. Finite plots suggest the pattern; Example 7.2 supplies the algebra. The normal slide Next control reveals the convergence interval after the exploration.
+
+Slide 7 first reveals r^n→0 for |r|<1, then its substitution into a(1−r^n)/(1−r). Slide 8 shows the condition first, reveals the formula and summation notation, then verifies the cake result a=r=1/3 and S_infinity=1/2. No formula-sheet image is added without a verified relevant excerpt.
+
+### Hinge and response routine
+
+A student claims that 6−9+27/2−… has limiting sum 6/(1+3/2)=12/5. Which response is correct?
+
+1. Correct, because r<1: misses the lower bound r>−1.
+2. Correct, because r≠1: confuses the finite-sum restriction with convergence.
+3. Incorrect, because r is negative: the verdict happens to be right, but negative ratios inside (−1,0) do converge.
+4. **Incorrect, because |r|>1: correct.** Here r=−3/2 and the terms grow in magnitude.
+
+Default 60 seconds, adjustable duration, start/pause/reset and a separate answer reveal. Fist on chest. Think quietly. On the teacher’s verbal “show”, hold up 1–4 fingers simultaneously. Timer expiry does not reveal the answer. Ready: contrast −3/2 and −1/2. Divided: locate both on a number line and re-poll. Reteach: list 6,−9,13.5,−20.25 and revisit the explorer.
+
+### Worked checks
+
+| Example | Working and result |
+|---|---|
+| 7.2 | For non-zero a, |r|<1 gives r^n→0, so S_n→a/(1−r). |
+| 7.3(a) | a=18, r=−1/3. S_infinity=18/(1+1/3)=27/2. |
+| 7.3(b) | r=(2/27)/(4/81)=3/2. No limiting sum. Small first terms do not guarantee convergence. |
+| 7.3(c) | a=2, r=1/√2. S_infinity=2/(1−1/√2)=4+2√2. |
+| 7.4 | a=1, r=−1/4. S_infinity=1/(1+1/4)=4/5. |
+| 7.5(a) | Multiplier sin x. Require |sin x|<1, excluding sin x=±1, hence x≠nπ/2 for odd integers n. The all-zero case sin x=0 is included. |
+| 7.5(b) | sin x/(1−sin x)=sin x(1+sin x)/(1−sin²x)=(sin x+sin²x)/cos²x=sec x tan x+tan²x. |
+
+### Mathematical qualifications
+
+For a non-zero first term, an infinite geometric series converges if and only if |r|<1. At r=0 the recurrence gives a,0,0,… and sum a. The all-zero sequence has sum 0 regardless of an arbitrarily assigned recurrence multiplier. In Example 7.5, identify the multiplier without dividing by a zero term. On its permitted domain cos x≠0 and 1+sin x≠0, so rationalisation is valid. Use radians.
+
+S_infinity denotes the limit of finite partial sums. Do not substitute infinity as if it were an ordinary index. Terms approaching zero is necessary, but is not sufficient for convergence of arbitrary non-geometric series. Keep the conclusion scoped to geometric series.
+
+### Homework 7
+
+Cambridge Year 12, copied from printed page 46:
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 1H Q1–4 (alternate parts) |
+| Medium | Exercise 1H Q1–7 (alternate parts) |
+| Spicy | Exercise 1H Q1–9 (alternate parts), Q10–11 |
+
+### Sources and scope
+
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 7, printed pages 43–46. Opening source: `Geometric Limiting Sum.pptx`, slides 3–5, with the teacher’s request for a matching interactive board model. The HSC attribution in Example 7.4 is reproduced from the booklet. No independent exam-paper or textbook-edition verification is asserted. Exponential growth and decay are reserved for Section 8.
+
+Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-7.qmd`. Publishing remains manual through the existing workflow.

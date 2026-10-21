@@ -471,10 +471,16 @@
 .reveal .lim-round{margin-left:auto;font-size:22px;color:var(--muted)}
 .reveal .lim-cake-legend{display:grid;grid-template-columns:1fr 1fr 1fr;text-align:center;font-size:23px;font-weight:700;margin:12px 0 6px}
 .reveal .lim-student-one{color:var(--blue)}.reveal .lim-student-two{color:var(--orange)}.reveal .lim-teacher{color:var(--teal)}
-.reveal .lim-cake-picture svg{display:block;width:100%;height:260px;max-height:none;margin:0}
-.reveal .lim-cake-reading{display:grid;grid-template-columns:1fr 1fr 1fr;min-height:106px;align-items:start;text-align:center;gap:12px;margin-top:12px;font-size:22px}
-.reveal .lim-cake-reading strong{display:block;font-size:31px;font-weight:400;margin-top:14px}
-.reveal .lim-cake-reading p{grid-column:1/-1;font-size:28px;margin:20px 0}
+.reveal .lim-cake-picture svg{display:block;width:100%;height:200px;max-height:none;margin:0}
+.reveal .lim-cake-reading{display:grid;grid-template-columns:1fr 1fr;min-height:46px;align-items:center;text-align:center;gap:12px;margin-top:10px;font-size:24px}
+.reveal .lim-cake-reading p{grid-column:1/-1;font-size:24px;margin:8px 0}
+.reveal .lim-cake-history table{table-layout:fixed;font-size:25px;margin:8px 0 0}
+.reveal .lim-cake-history th,.reveal .lim-cake-history td{padding:7px 4px;height:40px;box-sizing:border-box}
+.reveal .lim-cake-history th{font-size:22px}
+.reveal .lim-cake-history th:first-child{width:210px;text-align:left}
+.reveal .lim-cake-history tbody th{color:inherit}
+.reveal .lim-cake-history .lim-current-round{background:#e6edf5}
+.reveal .lim-cake-history .lim-future-round{color:#879395}
 .reveal .lim-new-piece{animation:lim-piece-appear .55s ease-out}
 @keyframes lim-piece-appear{from{opacity:.15}to{opacity:1}}
 .reveal .lim-paired-plots{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}

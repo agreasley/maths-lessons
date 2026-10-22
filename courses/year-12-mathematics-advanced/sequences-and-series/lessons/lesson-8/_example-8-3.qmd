@@ -1,0 +1,19 @@
+## Example 8.3 {#ss8-example-8-3 .growth-lesson }
+
+A 2 metre tall tree grows taller each year. In each of the first three years, the tree grows by $1\text{ m}$, $\dfrac23\text{ m}$ and $\dfrac49\text{ m}$ respectively. The tree continues this pattern of growth.
+
+<div class="growth-subparts">
+
+**(a)** How tall will this tree be after 10 years? Give your answer to two decimal places.
+
+**(b)** Find the maximum height to which this tree will approach.
+
+</div>
+
+<p class="booklet-cue">Booklet p. 50 · Example 8.3</p>
+
+::: notes
+
+Complete working in OneNote. The yearly increments form a GP with a=1 and r=2/3. The total height is not itself a GP. (a) H_10=2+S_10=2+[1−(2/3)^10]/(1−2/3)=4.947975410252502≈4.95m. Include the initial 2m. (b) The limiting additional growth is 1/(1−2/3)=3m, so the height approaches 5m. It remains below 5m after every finite number of years. Preserve the booklet wording “maximum height … approach”, while explaining that 5m is a limiting height. Do not mistake the tenth year’s growth (2/3)^9 for the accumulated growth.
+
+:::

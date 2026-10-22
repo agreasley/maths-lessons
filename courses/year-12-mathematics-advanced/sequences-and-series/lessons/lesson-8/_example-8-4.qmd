@@ -1,0 +1,25 @@
+## Example 8.4 {#ss8-example-8-4 .growth-lesson .growth-dense}
+
+<div class="eyebrow">Exponential Growth – Population Model</div>
+
+A marine sanctuary initially contains $A_0=500$ endangered fish at time $t=0$ years. The fish population increases by **15% each year**.
+
+<div class="growth-subparts">
+
+**(a)** State the common ratio $r$ per period, and write a formula for the population $P_n$ at the end of $n$ years.
+
+**(b)** Find the expected fish population at the end of 8 years, rounded to the nearest integer.
+
+**(c)** Using logarithms, determine the minimum number of full years required for the population to exceed 3000 fish.
+
+**(d)** State one realistic limitation of using an unconstrained exponential model for population growth over a long period.
+
+</div>
+
+<p class="booklet-cue">Booklet p. 51 · Example 8.4</p>
+
+::: notes
+
+Complete working in OneNote. (a) r=1.15, P_n=500(1.15)^n. Here r is the multiplier, not the percentage rate. (b) P_8≈1529.5114312695305, so 1530 fish. (c) 500(1.15)^n>3000 gives n>ln(6)/ln(1.15)≈12.8200813382, hence at least 13 full years. Check P_12≈2675<3000 and P_13≈3076>3000. The inequality remains in the same direction because ln(1.15)>0. (d) Food, habitat, disease or competition can limit growth; a fixed 15% rate is not sustainable indefinitely. A model can give non-integer expected values, but report the requested rounded fish count.
+
+:::

@@ -1,0 +1,15 @@
+## Today's learning {#ss8-objective .growth-lesson }
+
+### Lesson objective
+
+Use geometric sequences and series to model exponential growth and decay.
+
+### Success criteria
+
+I can identify the multiplier, match the rate to the time period, and calculate amounts, totals and times in context.
+
+::: notes
+
+Students already know percentage changes, geometric terms, finite sums and limiting sums. Use the short recap to activate this knowledge. Keep new exposition brief and let Examples 8.1–8.6 supply the application.
+
+:::

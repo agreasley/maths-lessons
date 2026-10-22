@@ -609,3 +609,88 @@ Cambridge Year 12, copied from printed page 46:
 Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 7, printed pages 43–46. Opening source: `Geometric Limiting Sum.pptx`, slides 3–5, with the teacher’s request for a matching interactive board model. The HSC attribution in Example 7.4 is reproduced from the booklet. No independent exam-paper or textbook-edition verification is asserted. Exponential growth and decay are reserved for Section 8.
 
 Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-7.qmd`. Publishing remains manual through the existing workflow.
+
+## Lesson 8: Exponential growth and decay
+
+Year 12 Mathematics Advanced. Section 8, printed pages 47–54, Examples 8.1–8.6 and Homework 8. Thirteen slides. The teacher requested a brief percentage recap, an early multiplier hinge and then the booklet problems. Allow approximately 55–65 minutes, keeping the introductory teaching to around eight minutes and doing the examples in OneNote.
+
+The objective is to use geometric sequences and series to model exponential growth and decay. The success criterion is to identify the multiplier, match the rate to the time period, and calculate amounts, totals and times in context.
+
+### Sequence and reveals
+
+| Slides | Content | Approximate time |
+|---|---|---|
+| 1–2 | Shared cover and learning goal | 1 minute |
+| 3 | Percentage increase/decrease recap | 2 minutes |
+| 4 | Multiplier hinge and response | 3 minutes |
+| 5 | Exponential model and compound-interest connection | 2 minutes |
+| 6–7 | Examples 8.1–8.2 | 12 minutes |
+| 8 | Example 8.3 | 6 minutes |
+| 9–10 | Examples 8.4–8.5 | 17 minutes |
+| 11 | Example 8.6 | 12 minutes |
+| 12–13 | Key ideas and Homework 8 | 3 minutes |
+
+On slide 3, ask for both multipliers before revealing 1.06 and 0.88 together. The second click connects repeated percentage change to a constant multiplier acting on the current amount. On slide 5, show A_n=A_0R^n beside A=P(1+r)^n and use one click to emphasise matching the rate and time periods. Examples retain all booklet subparts and are question-only slides, with working in OneNote and checks in the presenter notes.
+
+### Early hinge
+
+The question reuses Year 10 Financial Mathematics Lesson 1: “Multiplying a quantity by 0.82 results in…”
+
+1. An 82% increase: mistakes 82% retained for an increase.
+2. An 18% increase: identifies the difference but reverses its direction.
+3. An 82% decrease: confuses the amount retained with the amount removed.
+4. **An 18% decrease: correct**, because 82% remains.
+
+Default 60 seconds, adjustable duration, start/pause/reset and a separate answer reveal. Fist on chest. Think quietly. On the teacher’s verbal “show”, hold up 1–4 fingers simultaneously. Timer expiry does not reveal the answer. Ready: ask for the multiplier for an 18% increase (1.18). Divided: apply the multiplier to 100 and re-poll. Reteach: write 100→82 and calculate the 18-unit decrease before connecting it to 18%.
+
+### Worked checks
+
+| Example | Working and result |
+|---|---|
+| 8.1(a) | Monthly rate=12%/12=1%. Decimal rate r=0.01, multiplier 1.01. |
+| 8.1(b) | 5000(1.01)=$5050. |
+| 8.1(c) | 5000(1.01)^12≈$5634.13. |
+| 8.2(a) | n=12×11=132. Final balance 16000(1.01)^132≈$59503.3369908. Interest earned≈$43503 to the nearest dollar. |
+| 8.2(b) | Simple interest=16000×0.01×132=$21120, equivalently 16000×0.12×11. |
+| 8.2(c) | Difference in interest≈$22383 to the nearest dollar, or $22383.34 to cents. |
+| 8.3(a) | H_10=2+[1−(2/3)^10]/(1−2/3)≈4.95m. |
+| 8.3(b) | Limiting height=2+1/(1−2/3)=5m. |
+| 8.4(a) | r=1.15, P_n=500(1.15)^n. |
+| 8.4(b) | P_8≈1529.51143127, hence 1530 fish. |
+| 8.4(c) | n>ln(6)/ln(1.15)≈12.82008134, hence 13 full years. P_12≈2675, P_13≈3076. |
+| 8.4(d) | A limited food supply or habitat can prevent indefinite growth at a constant percentage rate. |
+| 8.5(a) | r=0.88, V_n=120000(0.88)^n. |
+| 8.5(b) | V_6≈$55728.49041408, hence $55728. |
+| 8.5(c) | n ln(0.88)<ln(0.3). Since ln(0.88)<0, n>ln(0.3)/ln(0.88)≈9.41829813, hence 10 full years. V_9≈$37977.41>$36000 and V_10≈$33420.12<$36000. |
+| 8.5(d) | Maintenance total=2000(1.2^5−1)/(1.2−1)=$14883.20. |
+| 8.6(a) | Kim: 30000(1.05)^9≈$46539.85. Alex: 33000+9(1500)=$46500. Kim earns about $39.85 more. |
+| 8.6(b) | Kim’s total=30000(1.05^10−1)/(1.05−1)≈$377336.78. |
+| 8.6(c) | Savings=(1/3)(n/2)[66000+(n−1)1500]=250n²+10750n. Set equal to 87500: (n−7)(n+50)=0, hence 7 years. After 6 years the savings are $73500. |
+
+### Mathematical emphasis
+
+A positive starting amount with a constant multiplier R>1 gives exponential growth; 0<R<1 gives decay; R=1 is constant. Percentage change always acts on the current amount. The initial value A_0 is at time zero, so the amount after n periods is A_0R^n. A salary labelled Year 1 has experienced n−1 increases by Year n. Explain the indexing through the context rather than memorising one exponent for every situation.
+
+In compound interest, r denotes a decimal interest rate per compounding period and R=1+r is the multiplier. Later booklet problems use r directly for the common ratio. A nominal 12% p.a. rate compounded monthly is 1% per month; it is not an effective annual increase of exactly 12%. Keep full precision until the requested rounding, and distinguish final balance A from interest earned A−P. Simple interest remains linear even when paid monthly, provided it is not reinvested.
+
+The tree’s yearly increments form a geometric sequence. Its total height is the initial 2m plus their accumulated sum, and approaches 5m without reaching it after any finite number of years. The excavator’s depreciation and maintenance costs are separate models. Kim’s salaries form a GP and Alex’s form an AP. Ask whether a question concerns an amount at one time or the sum of several amounts before choosing a formula.
+
+For strict thresholds, solve the inequality with logarithms and then identify the first permissible integer period. Reverse the inequality when dividing by a negative logarithm. Check the integer immediately before the answer as well as the answer itself.
+
+### Homework 8
+
+Cambridge Year 12, from printed page 54:
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 1H Q10; Exercise 1D Q11 |
+| Medium | Exercise 1H Q10–11; Exercise 1D Q11–12 |
+| Spicy | Exercise 1H Q10–11; Exercise 1D Q11–12; Exercise 1G Q11 |
+
+The printed Spicy line repeats Exercise 1H Q10–11. The slide lists it once, preserving the set of assigned questions.
+
+### Sources and scope
+
+Primary source: `12MA__2026____Sequences_and_Series.pdf`, Section 8, printed pages 47–54. The syllabus statement reproduced in that section is to apply geometric sequence and series formulas to growth and decay problems where a quantity is an exponential function of time. Example 8.6 retains the booklet’s “2013 Advanced HSC 12c – 7 marks” attribution. No independent exam-paper or textbook-edition check is asserted. Recurring decimals remain for Section 9.
+
+Preview with `quarto preview courses/year-12-mathematics-advanced/sequences-and-series/lessons/lesson-8.qmd`. Publishing remains manual through the existing workflow.

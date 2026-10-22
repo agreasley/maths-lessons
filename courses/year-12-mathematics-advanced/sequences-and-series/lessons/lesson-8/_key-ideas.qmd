@@ -1,0 +1,28 @@
+## Key ideas {#ss8-key-ideas .growth-lesson .growth-key-ideas}
+
+<div class="growth-key-row">
+<h3>Percentage change per period</h3>
+
+$$p\%\text{ increase}:\ R=1+\frac{p}{100}\qquad p\%\text{ decrease}:\ R=1-\frac{p}{100}$$
+
+</div>
+<div class="growth-key-row">
+<h3>Amount after <span data-math="n">n</span> periods</h3>
+
+$$A_n=A_0R^n\qquad\text{Compound interest: }A=P(1+r)^n,\quad I=A-P$$
+
+</div>
+<div class="growth-key-row">
+<h3>Total of geometric amounts</h3>
+
+$$S_n=\sum_{k=1}^{n}ar^{k-1}=\frac{a(1-r^n)}{1-r}\quad(r\ne1),\qquad S_\infty=\frac{a}{1-r}\quad(|r|<1)$$
+
+</div>
+
+<p class="booklet-cue">Booklet p. 54 · Key Ideas</p>
+
+::: notes
+
+Record the formulas in the booklet. Match the rate and period count. In the compound formula r is a decimal interest rate; in the sum formulas r is the common ratio. A_0 denotes an amount at time zero, while a is the first included amount in a sum. With a positive initial amount, R>1 gives growth and 0<R<1 gives decay. R=1 is constant, and a finite sum with r=1 is na. Distinguish a particular term from an accumulated total and include any initial amount outside the sum, as in the tree problem. For threshold questions solve the strict inequality, then check the first permissible whole-number period; dividing by a negative logarithm reverses the inequality.
+
+:::

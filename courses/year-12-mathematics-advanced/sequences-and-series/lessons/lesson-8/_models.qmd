@@ -1,0 +1,40 @@
+## A fixed multiplier gives an exponential model {#ss8-models .growth-lesson .growth-models}
+
+::: {.split .growth-model-layout}
+::: {.column-block}
+<h3>Amount after <span data-math="n">n</span> periods</h3>
+
+$$A_n=A_0\textcolor{#3b66a8}{R}^{\,n}$$
+
+$A_0$ is the initial amount, at time $0$.
+
+$R>1$: exponential growth.
+
+$0<R<1$: exponential decay.
+:::
+::: {.column-block}
+<h3>Compound interest</h3>
+
+$$A=P\textcolor{#3b66a8}{(1+r)}^{\,n}$$
+
+$P$ is the initial principal.
+
+$r$ is the interest rate **per period**, written as a decimal.
+
+Here, $R=1+r$.
+:::
+:::
+
+::: {.takeaway .fragment data-fragment-index="0"}
+
+The rate and the number of periods must use the **same time interval**.
+
+:::
+
+<p class="booklet-cue">Booklet pp. 47, 50 · Exponential models</p>
+
+::: notes
+
+The amount starts at time zero, so n elapsed periods require n multiplications: A_0, A_0R, A_0R², …, A_0R^n. This explains the exponent n, compared with n−1 when the first amount is labelled term 1. Assume a positive initial amount for the growth/decay classifications. R=1 gives a constant amount. R is the multiplier on this slide; r in the compound-interest formula is the decimal interest rate, not the common ratio. The booklet uses r for a common ratio in later problems, so read its meaning from context. First click emphasises matching periods. In Example 8.1 students will convert a nominal annual rate to a monthly rate and count twelve months. Compound interest earned is A−P. No derivation is needed here.
+
+:::

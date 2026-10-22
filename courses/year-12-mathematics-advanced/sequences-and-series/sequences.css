@@ -507,3 +507,30 @@
 .reveal .lim-key-row h3{font-size:26px;color:var(--teal);margin:0 0 13px}
 .reveal .lim-key-row .katex-display{font-size:29px;margin:15px 0}
 @media(prefers-reduced-motion:reduce){.reveal .lim-new-piece{animation:none}}
+
+
+/* Lesson 8: a short percentage recap followed by booklet applications. */
+.reveal .growth-lesson>p:not(.booklet-cue){font-size:29px;line-height:1.43;margin:22px 0}
+.reveal .growth-percentages .column-block h3{font-size:32px;color:var(--teal);margin-top:24px}
+.reveal .growth-percentages .katex-display{font-size:31px;margin:32px 0}
+.reveal .growth-percentages .takeaway{margin-top:48px;font-size:30px}
+.reveal .growth-hinge .hinge-question{font-size:31px;margin:20px 0}
+.reveal .growth-hinge .choice{font-size:27px;min-height:106px}
+.reveal .growth-model-layout{gap:42px;margin-top:25px}
+.reveal .growth-model-layout h3{font-size:29px;color:var(--teal);margin:0 0 20px}
+.reveal .growth-model-layout p{font-size:25px;line-height:1.4;margin:18px 0}
+.reveal .growth-model-layout .katex-display{font-size:36px;margin:25px 0}
+.reveal .growth-models .takeaway{font-size:28px;margin:28px 0;padding-block:8px}
+.reveal .growth-subparts{margin:28px 0 24px}
+.reveal .growth-subparts p{font-size:28px;line-height:1.48;margin:25px 0}
+.reveal .growth-dense .eyebrow{font-size:18px;margin:0 0 18px;letter-spacing:.045em}
+.reveal .growth-dense>p:not(.booklet-cue){font-size:26px;line-height:1.4;margin:17px 0}
+.reveal .growth-dense .growth-subparts{margin:20px 0}
+.reveal .growth-dense .growth-subparts p{font-size:25px;line-height:1.4;margin:20px 0}
+.reveal .growth-dense .booklet-cue{margin-top:22px;padding-top:10px;font-size:19px}
+.reveal .growth-marks{font-size:20px;color:var(--muted);white-space:nowrap;margin-left:14px}
+.reveal .growth-salary .growth-subparts p{margin:26px 0}
+.reveal .growth-key-row{margin:28px 0}
+.reveal .growth-key-row h3{font-size:26px;color:var(--teal);margin:0 0 14px}
+.reveal .growth-key-row .katex-display{font-size:27px;margin:20px 0}
+.reveal .growth-homework .homework-level{font-size:26px;line-height:1.4;padding:15px 0}

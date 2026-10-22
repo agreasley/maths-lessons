@@ -1,0 +1,34 @@
+---
+pagetitle: "Lesson 8 — Exponential growth and decay"
+lesson-title: "Exponential growth and decay"
+description: "Use percentage multipliers and geometric models to solve compound-interest, population, depreciation and cumulative-total problems."
+lesson-order: 8
+booklet: "Section 8 · Examples 8.1–8.6 · pp. 47–54"
+homework: "8 · Exercises 1D, 1G and 1H"
+---
+
+{{< include lesson-8/_opening.qmd >}}
+
+{{< include lesson-8/_objective.qmd >}}
+
+{{< include lesson-8/_percentages.qmd >}}
+
+{{< include lesson-8/_hinge.qmd >}}
+
+{{< include lesson-8/_models.qmd >}}
+
+{{< include lesson-8/_example-8-1.qmd >}}
+
+{{< include lesson-8/_example-8-2.qmd >}}
+
+{{< include lesson-8/_example-8-3.qmd >}}
+
+{{< include lesson-8/_example-8-4.qmd >}}
+
+{{< include lesson-8/_example-8-5.qmd >}}
+
+{{< include lesson-8/_example-8-6.qmd >}}
+
+{{< include lesson-8/_key-ideas.qmd >}}
+
+{{< include lesson-8/_homework.qmd >}}

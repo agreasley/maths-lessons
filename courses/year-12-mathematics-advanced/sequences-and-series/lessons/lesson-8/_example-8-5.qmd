@@ -1,0 +1,25 @@
+## Example 8.5 {#ss8-example-8-5 .growth-lesson .growth-dense}
+
+<div class="eyebrow">Exponential Decay and Cumulative Total – Asset Depreciation</div>
+
+A construction firm purchases a heavy excavator for $V_0=\$120\,000$ at time $t=0$ years. Its market value depreciates by **12% each year**.
+
+<div class="growth-subparts">
+
+**(a)** Write down the annual decay factor $r$, and state the formula for the excavator’s value $V_n$ after $n$ years.
+
+**(b)** Calculate the value of the excavator at the end of 6 years, to the nearest dollar.
+
+**(c)** Using logarithms, find how many full years it takes for the excavator’s value to drop below 30% of its original purchase price.
+
+**(d)** Over a 5-year period, the firm also incurs annual maintenance costs that form a geometric progression: \$2000 in Year 1, \$2400 in Year 2, \$2880 in Year 3, and so on. Find the total cumulative maintenance cost incurred over the first 5 years.
+
+</div>
+
+<p class="booklet-cue">Booklet p. 52 · Example 8.5</p>
+
+::: notes
+
+Complete working in OneNote. (a) r=0.88; V_n=120000(0.88)^n. (b) V_6=$55728.49041408≈$55728. (c) 120000(0.88)^n<0.3(120000) gives (0.88)^n<0.3. Taking logs, n ln(0.88)<ln(0.3). Divide by the negative ln(0.88) and reverse the inequality: n>ln(0.3)/ln(0.88)≈9.4182981338, hence 10 full years. Check V_9≈$37977.41>$36000 and V_10≈$33420.12<$36000. (d) Maintenance is a separate geometric series with a=2000, r=1.2, n=5. Total=2000(1.2^5−1)/(1.2−1)=$14883.20. This asks for the sum of maintenance costs, not the excavator’s value or just the fifth annual cost.
+
+:::

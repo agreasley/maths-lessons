@@ -1,0 +1,9 @@
+## Exponential growth and decay {#ss8-opening .growth-lesson .cover .sequence-cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Sequences and series · Lesson 8</div><div class="cover-title">Exponential growth<br>and decay</div><div class="cover-subtitle">Use a constant percentage change to model an amount over time.</div><img class="sequence-cover-art" src="../media/sequence-cover.svg" alt="Growing squares formed by successive odd-numbered layers of dots"><div class="cover-foot">Section 8 · Examples 8.1–8.6 · Homework 8</div>
+
+::: notes
+
+Section 8, printed pages 47–54. Thirteen slides. Keep the recap, hinge and model connection to about eight minutes, then work through the booklet problems in OneNote. Allow approximately 55–65 minutes overall, with flexibility for the logarithmic inequalities and the HSC problem. Source: current Sequences and Series booklet, Section 8. The early hinge reuses the Year 10 Financial Mathematics Lesson 1 multiplier question. Recurring decimals belong to Section 9.
+
+:::

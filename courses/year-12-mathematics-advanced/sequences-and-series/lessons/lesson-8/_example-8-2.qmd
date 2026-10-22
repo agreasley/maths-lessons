@@ -1,0 +1,21 @@
+## Example 8.2 {#ss8-example-8-2 .growth-lesson }
+
+Jack invests **\$16 000 at 12% p.a.**, with interest paid monthly for **11 years**.
+
+<div class="growth-subparts">
+
+**(a)** Find the compound interest earned over 11 years to the nearest dollar.
+
+**(b)** Find the simple interest earned at the same rate, paid monthly over the same time period.
+
+**(c)** By how much does the compound exceed the simple interest?
+
+</div>
+
+<p class="booklet-cue">Booklet p. 49 · Example 8.2</p>
+
+::: notes
+
+Complete working in OneNote. (a) Monthly rate 0.12/12=0.01 and n=11×12=132. Final balance=16000(1.01)^132=$59503.33699080212. Compound interest earned=16000[(1.01)^132−1]=$43503.33699080212≈$43503. (b) Simple interest I=PRN=16000×0.01×132=$21120, equivalently 16000×0.12×11. Monthly payment does not turn simple interest into compound interest. (c) Difference in interest=$22383.33699080212≈$22383 to the nearest dollar, or $22383.34 to cents. Retain full precision until the final rounding. Do not compare the compound final balance with simple interest alone.
+
+:::

@@ -1,0 +1,38 @@
+## Percentage change and multipliers {#ss8-percentages .growth-lesson .growth-percentages}
+
+::: {.split .growth-percentage-layout}
+::: {.column-block}
+<h3>6% increase</h3>
+
+::: {.fragment data-fragment-index="0"}
+
+$$100\%+6\%=106\%$$
+
+$$\text{Multiply by }\textcolor{#3b66a8}{1.06}$$
+
+:::
+:::
+::: {.column-block}
+<h3>12% decrease</h3>
+
+::: {.fragment data-fragment-index="0"}
+
+$$100\%-12\%=88\%$$
+
+$$\text{Multiply by }\textcolor{#b55224}{0.88}$$
+
+:::
+:::
+:::
+
+::: {.takeaway .fragment data-fragment-index="1"}
+
+The same percentage change each period means multiplying the **current amount** by the same factor each time.
+
+:::
+
+::: notes
+
+Ask students for both multipliers before the first click. Click 1 reveals 106% and 88%, with multipliers 1.06 and 0.88. Click 2 links repeated percentage change to a geometric model. A 6% increase adds 6% of the current amount each time, not a fixed dollar amount. Keep this to one or two minutes. The general rule is multiplier 1+p/100 for a p% increase and 1−p/100 for a p% decrease.
+
+:::

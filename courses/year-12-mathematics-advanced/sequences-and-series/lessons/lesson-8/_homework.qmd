@@ -1,0 +1,15 @@
+## Homework 8 {#ss8-homework .growth-lesson .growth-homework}
+
+<div class="eyebrow">Cambridge Year 12</div>
+
+<div class="homework-level"><strong>Mild</strong><span>Exercise 1H Q10<br>Exercise 1D Q11</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Exercise 1H Q10–11<br>Exercise 1D Q11–12</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Exercise 1H Q10–11<br>Exercise 1D Q11–12<br>Exercise 1G Q11</span></div>
+
+<p class="booklet-cue">Booklet p. 54 · Homework 8</p>
+
+::: notes
+
+Assignments follow printed page 54. The printed Spicy line repeats Exercise 1H Q10–11 at the end; it is displayed once here, with no change to the set of assigned questions. The textbook edition has not been independently checked. Next section: recurring decimals.
+
+:::

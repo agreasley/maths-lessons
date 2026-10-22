@@ -1,0 +1,21 @@
+## Example 8.1 {#ss8-example-8-1 .growth-lesson }
+
+Consider an investment which earns interest at a nominal rate of **12% per annum, compounded monthly**.
+
+<div class="growth-subparts">
+
+**(a)** What is the monthly interest rate of the investment?
+
+**(b)** How much will an initial investment of \$5000 be worth after the first month?
+
+**(c)** How much will the investment be worth after one year?
+
+</div>
+
+<p class="booklet-cue">Booklet p. 48 · Example 8.1</p>
+
+::: notes
+
+Complete working in OneNote. (a) Monthly rate 12%/12=1%, hence r=0.01 per month and R=1.01. (b) A_1=5000(1.01)=$5050. (c) Twelve monthly periods: A_12=5000(1.01)^12=$5634.125150659849≈$5634.13. This is the final balance, not interest earned. The effective annual increase is about 12.6825%, so do not replace monthly compounding by a single 12% increase. Round money at the end.
+
+:::

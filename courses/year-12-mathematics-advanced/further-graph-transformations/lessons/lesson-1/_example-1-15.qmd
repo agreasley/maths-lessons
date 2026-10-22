@@ -1,0 +1,15 @@
+## Example 1.15 {#fgt1-example-1-15 .trig-lesson .trig-example}
+
+Sketch the graph of $y=2\tan\dfrac{x}{2}$ for $-3\pi\leq x\leq3\pi$.
+
+```{=html}
+<div data-trig="sketch" data-example="1.15" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 15 · Example 1.15</p>
+
+::: notes
+
+Preserve the booklet prompt exactly. T=π/(1/2)=2π. Asymptotes occur at −3π,−π,π,3π, including the displayed interval boundaries. Plot each branch separately. Centres/zeros: (−2π,0),(0,0),(2π,0). Guide points about each centre are T/4=π/2 horizontally away and have heights −2 and 2; every branch increases. Domain (−3π,−π) union (−π,π) union (π,3π). Range R. The given interval has closed inequality signs, but the function is undefined at its asymptotes: explain this rather than changing the prompt. No y-extrema or amplitude. Allow about 8 minutes.
+
+:::

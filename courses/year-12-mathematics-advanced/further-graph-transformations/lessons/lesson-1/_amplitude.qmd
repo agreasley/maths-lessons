@@ -1,0 +1,15 @@
+## Amplitude {#fgt1-amplitude .trig-lesson}
+
+The **amplitude** is the maximum vertical distance from the midline.
+
+```{=html}
+<div data-trig="amplitude" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Section 1.3 · A sine or cosine graph has amplitude <span data-math="|a|">|a|</span>.</p>
+
+::: notes
+
+New terminology. The illustration y=2 sin x+1 is additional, not a numbered booklet example. Ask students to identify a horizontal line halfway between the peak and trough. Reveal midline y=1, then maximum 3 and minimum −1, then amplitude 2. The full peak-to-trough distance is 4, twice the amplitude. The amplitude is not the maximum y-value. A negative a reflects the graph before translation; for example y=−2 sin x+1 still has amplitude 2. Tangent is unbounded and has no amplitude; return to this on the tangent slide. Aim for 2–3 minutes.
+
+:::

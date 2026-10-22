@@ -1,0 +1,38 @@
+---
+pagetitle: "Lesson 1 — Sketching trigonometric graphs"
+lesson-title: "Sketching trigonometric graphs"
+description: "Define amplitude and period, then sketch modified sine, cosine and tangent graphs using key points and asymptotes."
+lesson-order: 1
+booklet: "Sections 1.1–1.5 · Examples 1.8, 1.9, 1.15, 1.19"
+homework: "1–2 · Exercise 7A · Selected questions"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_objective.qmd >}}
+
+{{< include lesson-1/_previously.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_amplitude.qmd >}}
+
+{{< include lesson-1/_period.qmd >}}
+
+{{< include lesson-1/_method.qmd >}}
+
+{{< include lesson-1/_example-1-8.qmd >}}
+
+{{< include lesson-1/_example-1-9.qmd >}}
+
+{{< include lesson-1/_tangent.qmd >}}
+
+{{< include lesson-1/_example-1-15.qmd >}}
+
+{{< include lesson-1/_horizontal-shift.qmd >}}
+
+{{< include lesson-1/_example-1-19.qmd >}}
+
+{{< include lesson-1/_finish.qmd >}}
+
+{{< include lesson-1/_homework.qmd >}}

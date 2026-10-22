@@ -1,0 +1,15 @@
+## Example 1.19 {#fgt1-example-1-19 .trig-lesson .trig-example}
+
+Sketch the graph of $y=3\sin\left(2x-\dfrac{2\pi}{3}\right)$ for $0\leq x\leq2\pi$.
+
+```{=html}
+<div data-trig="sketch" data-example="1.19" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 19 · Example 1.19</p>
+
+::: notes
+
+Preserve the booklet prompt exactly. Amplitude 3, period π, quarter-period π/4, midline y=0. First reveal y=3 sin 2x. Next shift key points π/3 right. Finally draw the shifted curve over [0,2π], not [π/3,7π/3]. A base point (0,0) maps to (π/3,0), while (π/4,3) maps to (7π/12,3). Final zeros: π/3,5π/6,4π/3,11π/6. Maxima: (7π/12,3),(19π/12,3). Minima: (π/12,−3),(13π/12,−3). Both endpoint values are −3√3/2. Domain [0,2π], range [−3,3]. The base ghost curve is removed in the final reveal; the final endpoints are solid. Allow about 10 minutes including the preceding shift explanation.
+
+:::

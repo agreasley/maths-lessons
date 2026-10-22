@@ -1,0 +1,15 @@
+## Example 1.9 {#fgt1-example-1-9 .trig-lesson .trig-example}
+
+Sketch the graph of $y=2-3\cos 2x$ for $-\pi\leq x\leq\pi$.
+
+```{=html}
+<div data-trig="sketch" data-example="1.9" class="trig-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 9 · Example 1.9</p>
+
+::: notes
+
+Preserve the booklet prompt exactly. Ask for the amplitude, period and y-value at x=0 before sketching. Amplitude 3 (not −3), midline y=2, maximum 5, minimum −1. T=π; quarter-period step π/4. On [−π,π] the y-values at successive quarter-period ticks are −1,2,5,2,−1,2,5,2,−1. It starts at a minimum at x=0 because the cosine coefficient is negative. Domain [−π,π], range [−1,5], y-intercept −1. The x-intercepts are ±α and ±(π−α), α=(1/2) arccos(2/3)≈0.4205; the prompt does not require exact algebraic intercepts, but the sketch must place all four crossings correctly. Do not invent a simple π-fraction for them. Allow about 8 minutes.
+
+:::

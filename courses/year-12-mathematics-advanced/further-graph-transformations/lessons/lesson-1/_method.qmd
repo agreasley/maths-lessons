@@ -1,0 +1,19 @@
+## A reliable sketching method {#fgt1-method .trig-lesson}
+
+For $y=a\sin nx+b$ or $y=a\cos nx+b$:
+
+1. Mark the **midline** $y=b$ and the **extremes** $b\pm|a|$.
+2. Calculate the **period** $T=\dfrac{2\pi}{|n|}$.
+3. Mark the horizontal axis in steps of **$\dfrac{T}{4}$**.
+4. Plot the key points, checking the starting value and direction.
+5. Draw a smooth curve and repeat across the required domain.
+
+::: {.takeaway .fragment}
+Sine starts on its midline. Cosine starts at $y=b+a$.
+:::
+
+::: notes
+
+This method is for the unshifted form written on the slide, with a,n nonzero. The sine starting direction depends on the sign of an. The cosine initial value b+a handles negative a correctly. For the selected examples n is positive. Explain that quarter-period spacing is a construction aid; it does not mean every x-intercept must fall at a tick, especially after vertical translation. Label any required intercepts separately. For shifted graphs, first sketch the unshifted graph and then translate; that comes later. Keep this slide brief and do the substantial teaching through the next examples.
+
+:::

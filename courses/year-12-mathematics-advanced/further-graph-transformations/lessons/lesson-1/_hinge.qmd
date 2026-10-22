@@ -1,0 +1,24 @@
+## Hinge question · Which transformation? {#fgt1-hinge .trig-lesson .trig-hinge}
+
+```{=html}
+<div data-module="hinge" data-correct="3" class="hinge numeric-choices">
+<p class="hinge-question">The graph of <span data-math="y=\sin 2x">y = sin 2x</span> is obtained from <span data-math="y=\sin x">y = sin x</span> by which transformation?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>A horizontal dilation by a factor of <span data-math="2">2</span>.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>A vertical dilation by a factor of <span data-math="2">2</span>.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>A horizontal dilation by a factor of <span data-math="\tfrac12">1/2</span>.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>A vertical dilation by a factor of <span data-math="\tfrac12">1/2</span>.</span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>3.</strong> Each original <span data-math="x">x</span>-coordinate halves; its <span data-math="y">y</span>-coordinate stays the same.<br><span data-math="\left(\frac{\pi}{2},1\right)\longmapsto\left(\frac{\pi}{4},1\right)">(π/2, 1) maps to (π/4, 1)</span>.</div>
+</div>
+```
+
+::: notes
+
+Additional diagnostic, not a booklet example. Correct answer 3: a horizontal dilation by factor 1/2, relative to the y-axis. Choice 1 uses the coefficient directly instead of its reciprocal. Choice 2 confuses an input change with an output change. Choice 4 uses the reciprocal on the wrong coordinate.
+
+Ready: proceed to the new terms amplitude and period, returning to this compression when discussing period. Divided: ask pairs to explain where (π/2,1) moves and re-poll. Need further explanation: map (0,0), (π/2,1), (π,0) and ask the parallel question for y=cos 3x (horizontal factor 1/3). Default 60 seconds. The teacher gives the verbal “show” cue, collects simultaneous fingers and reveals the answer separately. Timer expiry must never reveal it. Reset clears the selection, answer and timer.
+
+:::

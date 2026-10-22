@@ -1,0 +1,30 @@
+---
+title: "Further Graph Transformations"
+description: "Sketch transformed trigonometric graphs, model periodic situations and interpret logarithmic scales."
+metadata-files: [../../../_site-page.yml]
+topic-order: 2
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Advanced</a></li><li><span aria-current="page">Further Graph Transformations</span></li></ol></nav>
+<header class="page-intro topic-intro">
+  <p class="eyebrow">Year 12 Mathematics Advanced</p>
+  <h1>Further Graph Transformations</h1>
+  <p class="intro-copy">Use familiar graphs to sketch, model and interpret changing quantities.</p>
+  <div class="topic-tags"><span>Lesson 1 available</span><span>Trigonometric graphs</span><span>Homework 1–2 · Selected questions</span></div>
+</header>
+<div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Sketch and label the key features.</h2><p>Lesson 1 introduces amplitude and period, then develops a sketching method through Examples 1.8, 1.9, 1.15 and 1.19. Complete the working in your booklet and use the selected homework questions to practise.</p></div></div>
+```

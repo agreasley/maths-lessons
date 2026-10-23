@@ -1,12 +1,12 @@
 ## Sketching tangent graphs {#fgt1-tangent .trig-lesson}
 
-For $y=a\tan nx+b$, the period is $T=\dfrac{\pi}{|n|}$.
+For $y=\textcolor{#b55224}{a}\tan \textcolor{#007f78}{n}x+\textcolor{#3b66a8}{k}$, the period is $T=\dfrac{\pi}{|\textcolor{#007f78}{n}|}$.
 
 ::: {.split}
 ::: {.column-block}
 <h3>Asymptotes first</h3>
 
-- Mark the centre $(0,b)$.
+- Mark the centre $(0,\textcolor{#3b66a8}{k})$.
 - Draw the nearest asymptotes at $x=\pm\dfrac{T}{2}$.
 - Repeat the asymptotes every $T$ units.
 
@@ -22,13 +22,13 @@ For $y=a\tan nx+b$, the period is $T=\dfrac{\pi}{|n|}$.
 :::
 
 ::: {.takeaway .fragment}
-Tangent has no amplitude. The coefficient $a$ gives a vertical dilation and may also reflect the graph.
+Tangent has no amplitude. The coefficient $\textcolor{#b55224}{a}$ gives a vertical dilation and may also reflect the graph.
 :::
 
 <p class="booklet-cue">Booklet p. 14 · Example 1.13</p>
 
 ::: notes
 
-a,n are nonzero. A tangent graph is unbounded: a vertical dilation factor is not an amplitude. For n>0 the central branch has guide points (−T/4,b−a),(0,b),(T/4,b+a); if n<0 its direction reverses. In general the branch increases when an>0 and decreases when an<0. The unshifted vertical asymptotes are x=(π/2+kπ)/n, k an integer; their spacing is T. Range is R. On a specified domain exclude every asymptote, including boundary values if applicable. This two-minute explanation prepares the next full sketch. Source reference is conceptual; no additional booklet task is assigned here.
+a,n are nonzero. A tangent graph is unbounded: a vertical dilation factor is not an amplitude. For n>0 the central branch has guide points (−T/4,k−a),(0,k),(T/4,k+a); if n<0 its direction reverses. In general the branch increases when an>0 and decreases when an<0. The unshifted vertical asymptotes are x=(π/2+jπ)/n, j an integer; their spacing is T. Use j here to distinguish the integer index from the vertical translation k. Range is R. On a specified domain exclude every asymptote, including boundary values if applicable. This two-minute explanation prepares the next full sketch. Source reference is conceptual; no additional booklet task is assigned here.
 
 :::

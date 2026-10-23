@@ -14,6 +14,8 @@ Assume students know y=sin x, y=cos x and y=tan x, radians and general transform
 
 The shared cover is followed by the objective and success criterion, then a short prerequisite recap. Fifteen slides in total, including cover and homework. Approximate timing: opening/recap/hinge 6 minutes; amplitude, period and construction method 8 minutes; Examples 1.8 and 1.9 about 8 minutes each; tangent explanation and Example 1.15 about 10 minutes; phase-shift explanation and Example 1.19 about 10 minutes; consolidation/homework 3 minutes. Remaining time is flexible.
 
+Use y=a sin nx+k, y=a cos nx+k and y=a tan nx+k throughout. Colour code a orange (#b55224), n teal (#007f78) and k blue (#3b66a8); repeat those colours in the amplitude, midline and period explanations. The amplitude distance arrow is orange, the midline is blue and the period distance arrows are teal. The supplied booklet example prompts retain their original expressions and values.
+
 Objective: We are learning to sketch modified trigonometric graphs.
 
 Success criteria: I can sketch a modified trigonometric graph with its key features correctly labelled.
@@ -35,7 +37,7 @@ Example 1.9: successive quarter-period values from −π to π are −1,2,5,2,�
 
 Example 1.15: although the source uses closed interval signs, the function is undefined at all four listed asymptotes, including the endpoints. Its domain is (−3π,−π) union (−π,π) union (π,3π). Each centre has guide points π/2 to the left and right at heights −2 and 2. Branches are drawn as separate paths, with no line across an asymptote.
 
-Example 1.19: factor 2(x−π/3). Zeros: π/3,5π/6,4π/3,11π/6. Maxima: (7π/12,3),(19π/12,3). Minima: (π/12,−3),(13π/12,−3). Shift the underlying periodic curve and then restrict to [0,2π]; do not shift the required domain. The two example mapping arrows are (0,0)→(π/3,0) and (π/4,3)→(7π/12,3). Final endpoint values are included because shifted quarter-period points do not generally land at the requested endpoints.
+Example 1.19: factor 2(x−π/3). Zeros: π/3,5π/6,4π/3,11π/6. Maxima: (7π/12,3),(19π/12,3). Minima: (π/12,−3),(13π/12,−3). Shift the underlying periodic curve and then restrict to [0,2π]; do not shift the required domain. The two arrows on the graph show a movement π/3 to the right with each point staying at the same height. Explain the translation in words, without coordinate-mapping notation. Final endpoint values are included because shifted quarter-period points do not generally land at the requested endpoints.
 
 If time permits, Example 1.10 can be a verbal follow-up: y=4sin(2πx)−1 has amplitude 4, period 1, midline −1 and quarter-period 1/4. It is not a required fifth worked example.
 
@@ -56,7 +58,7 @@ Ready: continue to amplitude and period, connecting the compressed graph to its 
 
 ## Reveal behaviour
 
-Recap graphs are already drawn. The amplitude illustration is static: y=2 sin x+1, its dashed midline y=1 and a double-headed vertical arrow from the midline to a peak are visible immediately. The arrow marks amplitude 2; this slide has no questions or reveal controls. The period illustration introduces one feature at a time. Each main example starts with construction axes and no solution. Use the labelled reveal button to show features, scale, key points and then the curve. Previous step and Reset graph allow revisiting the construction. These controls use touch-friendly buttons without hover interactions. Answers in presenter notes are not shown on student slides.
+Recap graphs are already drawn. The amplitude illustration is static: y=2 sin x+1, its dashed midline y=1 and a double-headed vertical arrow from the midline to a peak are visible immediately. The arrow marks amplitude 2; this slide has no questions or reveal controls. The period illustration is also static: the two sine graphs show one shaded cycle and a horizontal double-headed distance arrow labelled T=2π or T=π. The period rules appear immediately, with no questions or reveal controls. Each main example starts with construction axes and no solution. Use the labelled reveal button to show features, scale, key points and then the curve. Previous step and Reset graph allow revisiting the construction. These controls use touch-friendly buttons without hover interactions. Answers in presenter notes are not shown on student slides.
 
 The horizontal-shift example has three reveals: base graph; translated key points with a grey base-curve reference; completed shifted graph with the required endpoints. The final stage removes the reference curve. Graphs are locally generated SVG diagrams and use the shared embedded KaTeX renderer. No external applet, account or network connection is required to use these graphs.
 

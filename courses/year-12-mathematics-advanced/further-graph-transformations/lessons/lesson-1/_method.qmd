@@ -1,19 +1,19 @@
 ## A reliable sketching method {#fgt1-method .trig-lesson}
 
-For $y=a\sin nx+b$ or $y=a\cos nx+b$:
+For $y=\textcolor{#b55224}{a}\sin \textcolor{#007f78}{n}x+\textcolor{#3b66a8}{k}$ or $y=\textcolor{#b55224}{a}\cos \textcolor{#007f78}{n}x+\textcolor{#3b66a8}{k}$:
 
-1. Mark the **midline** $y=b$ and the **extremes** $b\pm|a|$.
-2. Calculate the **period** $T=\dfrac{2\pi}{|n|}$.
+1. Mark the **midline** $y=\textcolor{#3b66a8}{k}$ and the **extremes** $\textcolor{#3b66a8}{k}\pm|\textcolor{#b55224}{a}|$.
+2. Calculate the **period** $T=\dfrac{2\pi}{|\textcolor{#007f78}{n}|}$.
 3. Mark the horizontal axis in steps of **$\dfrac{T}{4}$**.
 4. Plot the key points, checking the starting value and direction.
 5. Draw a smooth curve and repeat across the required domain.
 
 ::: {.takeaway .fragment}
-Sine starts on its midline. Cosine starts at $y=b+a$.
+Sine starts on its midline. Cosine starts at $y=\textcolor{#3b66a8}{k}+\textcolor{#b55224}{a}$.
 :::
 
 ::: notes
 
-This method is for the unshifted form written on the slide, with a,n nonzero. The sine starting direction depends on the sign of an. The cosine initial value b+a handles negative a correctly. For the selected examples n is positive. Explain that quarter-period spacing is a construction aid; it does not mean every x-intercept must fall at a tick, especially after vertical translation. Label any required intercepts separately. For shifted graphs, first sketch the unshifted graph and then translate; that comes later. Keep this slide brief and do the substantial teaching through the next examples.
+This method is for the unshifted form written on the slide, with a,n nonzero. Use orange for a (vertical dilation and possible reflection), teal for n (horizontal dilation and possible reflection), and blue for k (vertical translation). The sine starting direction depends on the sign of an. The cosine initial value k+a handles negative a correctly. For the selected examples n is positive. Explain that quarter-period spacing is a construction aid; it does not mean every x-intercept must fall at a tick, especially after vertical translation. Label any required intercepts separately. For shifted graphs, first sketch the unshifted graph and then translate; that comes later. Keep this slide brief and do the substantial teaching through the next examples.
 
 :::

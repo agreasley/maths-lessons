@@ -6,7 +6,7 @@ The **amplitude** is the maximum vertical distance from the midline.
 <div data-trig="amplitude" class="trig-demo"></div>
 ```
 
-<p class="booklet-cue">Section 1.3 · A sine or cosine graph has amplitude <span data-math="|a|">|a|</span>.</p>
+<p class="booklet-cue">Section 1.3 · A sine or cosine graph has amplitude <span data-math="|\textcolor{#b55224}{a}|">|a|</span>.</p>
 
 ::: notes
 

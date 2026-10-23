@@ -3,6 +3,9 @@
   'use strict';
   const PI = Math.PI;
   const C = {ink:'#152e3b', teal:'#007f78', blue:'#3b66a8', orange:'#b55224', grey:'#a3aaa9', rule:'#d7d8ce'};
+  // Match the parameter colours in the lesson's Quarto equations.
+  const parameterColours = {a:C.orange,n:C.teal,k:C.blue};
+  const parameterTex = (name,value=name) => `\\textcolor{${parameterColours[name]}}{${value}}`;
   let serial = 0;
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const frac = (num,den) => den===1?String(num):`\\frac{${num}}{${den}}`;
@@ -85,10 +88,10 @@
         inside.push(`<circle data-role="key-point" data-x="${x}" data-y="${y}" cx="${X(x)}" cy="${Y(y)}" r="5" fill="${colour}" stroke="white" stroke-width="1.4"/>`);
       });
     }
-    function bracket(x1,x2,y,tex) {
-      inside.push(line(x1,y,x2,y,C.blue,'',2.3));
-      [x1,x2].forEach(x=>inside.push(line(x,y-.12,x,y+.12,C.blue,'',2.3)));
-      outside.push(label(tex,(X(x1)+X(x2))/2,Y(y)-22,100,40,C.blue));
+    function periodArrow(x1,x2,y,tex) {
+      const left=X(x1),right=X(x2),py=Y(y);
+      inside.push(`<path data-role="period-arrow" d="M${left},${py} H${right} M${left+8},${py-6} L${left},${py} L${left+8},${py+6} M${right-8},${py-6} L${right},${py} L${right-8},${py+6}" fill="none" stroke="${C.teal}" stroke-width="2.3"/>`);
+      outside.push(label(tex,(left+right)/2,py-22,100,40,C.teal));
     }
     function amplitude(x,y1,y2) {
       const px=X(x), py1=Y(y1),py2=Y(y2);
@@ -103,7 +106,7 @@
     function finish(title) {
       return `<svg class="trig-plot" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escape(title)}"><title>${escape(title)}</title><defs><clipPath id="${clip}"><rect x="${m.l-6}" y="${m.t}" width="${w-m.l-m.r+12}" height="${h-m.t-m.b}"/></clipPath></defs><g clip-path="url(#${clip})">${inside.join('')}</g>${outside.join('')}</svg>`;
     }
-    return {curve,points,bracket,amplitude,shiftArrow,finish};
+    return {curve,points,periodArrow,amplitude,shiftArrow,finish};
   }
   function controls(m, steps, draw) {
     let stage=0;
@@ -147,36 +150,30 @@
     m.innerHTML='<div class="trig-chart-layout"><div class="trig-canvas">'+
       p.finish('The graph y equals two sine x plus one, with a dashed midline at y equals one and a vertical double-headed arrow from the midline to the peak at y equals three, showing amplitude two')+
       '</div><div class="trig-reading">'+
-      '<p>'+math('y=2\\sin x+1')+'</p>'+
-      '<p>Midline '+math('y=1')+'</p>'+
-      '<p>Amplitude '+math('2')+'</p>'+
+      '<p>'+math(`y=${parameterTex('a','2')}\\sin x+${parameterTex('k','1')}`)+'</p>'+
+      '<p>Midline '+math(`y=${parameterTex('k','1')}`)+'</p>'+
+      '<p>Amplitude '+math(parameterTex('a','2'))+'</p>'+
       '<p class="trig-hint">The arrow marks the vertical distance from the midline to a peak.</p>'+
       '</div></div>';
   }
   function periodDemo(m) {
     const {math}=window.MathsLesson;
-    m.innerHTML='<div class="trig-pair"></div><div class="trig-period-reading" aria-live="polite"></div>';
-    controls(m,['Reveal one cycle','Reveal the period rule'],stage=>{
-      m.querySelector('.trig-pair').innerHTML=[1,2].map(n=>{
-        const T=2*PI/n;
-        const p=plot({xmin:0,xmax:2*PI,ymin:-1.6,ymax:2,width:610,height:285},{xticks:ticks(0,2*PI,PI/2),yticks:[-1,1],highlight:stage>=1?[0,T]:undefined});
-        p.curve(x=>Math.sin(n*x));
-        if(stage>=1)p.bracket(0,T,1.3,`T=${piTex(T)}`);
-        return `<div><h3>${math(`y=\\sin ${n===1?'':n}x`)}</h3>${p.finish(`Sine ${n}x, with ${stage?'one full cycle marked':'cycle length to be identified'}`)}</div>`;
-      }).join('');
-      const readings=[
-        '<p>How far along the horizontal axis before the whole pattern repeats?</p>',
-        `<p>The horizontal factor ${math('\\tfrac12')} halves the period: ${math('2\\pi\\div2=\\pi')}.</p>`,
-        `<p>Sine and cosine: ${math('T=\\dfrac{2\\pi}{|n|}')} &nbsp; Tangent: ${math('T=\\dfrac{\\pi}{|n|}')}</p><p class="small-note">The basic tangent graph repeats every ${math('\\pi')}.</p>`
-      ];
-      m.querySelector('.trig-period-reading').innerHTML=readings[stage];
-    });
+    const graphs=[1,2].map(n=>{
+      const T=2*PI/n;
+      const p=plot({xmin:0,xmax:2*PI,ymin:-1.6,ymax:2,width:610,height:285},{xticks:ticks(0,2*PI,PI/2),yticks:[-1,1],highlight:[0,T]});
+      p.curve(x=>Math.sin(n*x));
+      p.periodArrow(0,T,1.3,`T=${piTex(T)}`);
+      return `<div><h3>${math(`y=\\sin ${n===1?'':parameterTex('n',n)}x`)}</h3>${p.finish(`Sine ${n}x, with one full cycle shaded and a horizontal double-headed arrow marking its period of ${n===1?'two pi':'pi'}`)}</div>`;
+    }).join('');
+    m.innerHTML=`<div class="trig-pair">${graphs}</div>`+
+      `<div class="trig-period-reading"><p>Sine and cosine: ${math(`T=\\dfrac{2\\pi}{|${parameterTex('n')}|}`)} &nbsp; Tangent: ${math(`T=\\dfrac{\\pi}{|${parameterTex('n')}|}`)}</p>`+
+      `<p class="small-note">Doubling ${math(parameterTex('n'))} halves the period.</p></div>`;
   }
   const examples={
-    '1.8':{xmin:0,xmax:2*PI,ymin:-.35,ymax:1.95,a:.5,b:1,n:2,fn:x=>.5*Math.sin(2*x)+1,range:'[\\tfrac12,\\tfrac32]',name:'sine'},
-    '1.9':{xmin:-PI,xmax:PI,ymin:-2.1,ymax:6,a:-3,b:2,n:2,fn:x=>2-3*Math.cos(2*x),range:'[-1,5]',name:'cosine'},
-    '1.15':{xmin:-3*PI,xmax:3*PI,ymin:-6,ymax:6,a:2,b:0,n:.5,fn:x=>2*Math.tan(x/2),name:'tangent'},
-    '1.19':{xmin:0,xmax:2*PI,ymin:-4.1,ymax:4.3,a:3,b:0,n:2,c:PI/3,fn:x=>3*Math.sin(2*x-2*PI/3),range:'[-3,3]',name:'shifted sine'}
+    '1.8':{xmin:0,xmax:2*PI,ymin:-.35,ymax:1.95,a:.5,k:1,n:2,fn:x=>.5*Math.sin(2*x)+1,range:'[\\tfrac12,\\tfrac32]',name:'sine'},
+    '1.9':{xmin:-PI,xmax:PI,ymin:-2.1,ymax:6,a:-3,k:2,n:2,fn:x=>2-3*Math.cos(2*x),range:'[-1,5]',name:'cosine'},
+    '1.15':{xmin:-3*PI,xmax:3*PI,ymin:-6,ymax:6,a:2,k:0,n:.5,fn:x=>2*Math.tan(x/2),name:'tangent'},
+    '1.19':{xmin:0,xmax:2*PI,ymin:-4.1,ymax:4.3,a:3,k:0,n:2,c:PI/3,fn:x=>3*Math.sin(2*x-2*PI/3),range:'[-3,3]',name:'shifted sine'}
   };
   function sketch(m) {
     const {math}=window.MathsLesson;
@@ -188,8 +185,8 @@
     m.innerHTML='<div class="trig-chart-layout"><div class="trig-canvas"></div><div class="trig-reading" aria-live="polite"></div></div>';
     controls(m,steps,stage=>{
       const grid=ticks(cfg.xmin,cfg.xmax,step);
-      const options={xticks:stage>=(tan||shift?1:2)?grid:[],yticks:stage>=1?(tan?[-2,2]:[cfg.b-Math.abs(cfg.a),cfg.b,cfg.b+Math.abs(cfg.a)]):[],midline:!tan&&stage>=1?cfg.b:undefined};
-      if(!tan&&stage>=1) options.bounds=[cfg.b-Math.abs(cfg.a),cfg.b+Math.abs(cfg.a)];
+      const options={xticks:stage>=(tan||shift?1:2)?grid:[],yticks:stage>=1?(tan?[-2,2]:[cfg.k-Math.abs(cfg.a),cfg.k,cfg.k+Math.abs(cfg.a)]):[],midline:!tan&&stage>=1?cfg.k:undefined};
+      if(!tan&&stage>=1) options.bounds=[cfg.k-Math.abs(cfg.a),cfg.k+Math.abs(cfg.a)];
       const asym=[-3*PI,-PI,PI,3*PI];
       if(tan&&stage>=1)options.asymptotes=asym;
       let shiftedPoints=[];
@@ -205,12 +202,12 @@
       if(shift) {
         if(stage===1) {
           p.curve(x=>3*Math.sin(2*x));p.points(grid.map(x=>[x,3*Math.sin(2*x)]));
-          lines=[`<p>First: ${math('y=3\\sin2x')}. Amplitude ${math('3')}; period ${math('\\pi')}; step ${math('\\pi/4')}.</p>`];
+          lines=[`<p>First: ${math(`y=${parameterTex('a','3')}\\sin ${parameterTex('n','2')}x`)}. Amplitude ${math(parameterTex('a','3'))}; period ${math('\\pi')}; step ${math('\\pi/4')}.</p>`];
         }
         if(stage===2) {
           p.curve(x=>3*Math.sin(2*x),C.grey,'7 6',undefined,.65);
           p.points(shiftedPoints,C.orange);p.shiftArrow(0,PI/3,0);p.shiftArrow(PI/4,7*PI/12,3);
-          lines=[`<p>Shift right ${math('\\pi/3')}: ${math('(0,0)\\mapsto(\\pi/3,0)')} and ${math('(\\pi/4,3)\\mapsto(7\\pi/12,3)')}.</p>`];
+          lines=[`<p>Shift the whole graph ${math('\\pi/3')} to the right. Each point stays at the same height.</p>`];
         }
         if(stage===3) {
           p.curve(cfg.fn);p.points(shiftedPoints);p.points([[0,cfg.fn(0)],[2*PI,cfg.fn(2*PI)]],C.blue);
@@ -228,10 +225,10 @@
           lines=[`<p>Period ${math('2\\pi')}</p><p>Exclude all four asymptote values.</p><p>Range ${math('\\mathbb R')}<br>No amplitude</p>`];
         }
       } else {
-        if(stage>=1)lines=[`<p>Amplitude ${math(numberTex(Math.abs(cfg.a)))}<br>Midline ${math(`y=${cfg.b}`)}</p><p>Maximum ${math(numberTex(cfg.b+Math.abs(cfg.a)))}<br>Minimum ${math(numberTex(cfg.b-Math.abs(cfg.a)))}</p>`];
+        if(stage>=1)lines=[`<p>Amplitude ${math(parameterTex('a',numberTex(Math.abs(cfg.a))))}<br>Midline ${math(`y=${parameterTex('k',numberTex(cfg.k))}`)}</p><p>Maximum ${math(numberTex(cfg.k+Math.abs(cfg.a)))}<br>Minimum ${math(numberTex(cfg.k-Math.abs(cfg.a)))}</p>`];
         if(stage>=2)lines.push(`<p>Period ${math(`T=${piTex(T)}`)}<br>Step ${math(`T/4=${piTex(step)}`)}</p>`);
         if(stage>=3)p.points(grid.map(x=>[x,cfg.fn(x)]));
-        if(stage>=4){p.curve(cfg.fn);lines=[`<p>Amplitude ${math(numberTex(Math.abs(cfg.a)))}<br>Period ${math(piTex(T))}</p><p>Range ${math(cfg.range)}</p><p class="trig-hint">${cfg.b===1?'Two full cycles. No horizontal-axis crossings.':'Check the four horizontal-axis crossings.'}</p>`];}
+        if(stage>=4){p.curve(cfg.fn);lines=[`<p>Amplitude ${math(parameterTex('a',numberTex(Math.abs(cfg.a))))}<br>Period ${math(piTex(T))}</p><p>Range ${math(cfg.range)}</p><p class="trig-hint">${cfg.k===1?'Two full cycles. No horizontal-axis crossings.':'Check the four horizontal-axis crossings.'}</p>`];}
       }
       m.querySelector('.trig-canvas').innerHTML=p.finish(`Example ${m.dataset.example}, ${cfg.name} graph, construction stage ${stage} of ${steps.length}`);
       m.querySelector('.trig-reading').innerHTML=lines.join('');

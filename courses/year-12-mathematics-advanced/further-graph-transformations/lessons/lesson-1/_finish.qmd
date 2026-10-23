@@ -2,8 +2,8 @@
 
 | Feature | Sine and cosine | Tangent |
 |---|---|---|
-| Amplitude | $|a|$ | No amplitude |
-| Period | $\dfrac{2\pi}{|n|}$ | $\dfrac{\pi}{|n|}$ |
+| Amplitude | $|\textcolor{#b55224}{a}|$ | No amplitude |
+| Period | $\dfrac{2\pi}{|\textcolor{#007f78}{n}|}$ | $\dfrac{\pi}{|\textcolor{#007f78}{n}|}$ |
 | Construction | Midline, extrema, quarter-period points | Asymptotes, centres, guide points |
 
 For a horizontal shift: **factor first, sketch the unshifted graph, then translate**.
@@ -14,6 +14,6 @@ I can sketch a modified trigonometric graph with its key features correctly labe
 
 ::: notes
 
-The parameter forms are y=a sin(n(x−c))+b, y=a cos(n(x−c))+b and y=a tan(n(x−c))+b, a,n nonzero. Use this as a brief check, not another lecture. Ask a student to explain why a horizontal shift leaves amplitude and period unchanged. If time permits, use booklet Example 1.10 orally as a further check: y=4 sin 2πx−1 has amplitude 4, period 1, midline −1 and quarter-period 1/4. Do not relabel this as a new compulsory example.
+The parameter forms are y=a sin(n(x−c))+k, y=a cos(n(x−c))+k and y=a tan(n(x−c))+k, a,n nonzero. The vertical translation is k throughout; use orange for a, teal for n and blue for k. Use this as a brief check, not another lecture. Ask a student to explain why a horizontal shift leaves amplitude and period unchanged. If time permits, use booklet Example 1.10 orally as a further check: y=4 sin 2πx−1 has amplitude 4, period 1, midline −1 and quarter-period 1/4. Do not relabel this as a new compulsory example.
 
 :::

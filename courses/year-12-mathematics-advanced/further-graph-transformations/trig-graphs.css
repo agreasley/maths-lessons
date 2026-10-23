@@ -19,7 +19,7 @@
 .reveal .trig-pair{display:grid;grid-template-columns:1fr 1fr;gap:28px}
 .reveal .trig-pair h3{text-align:center;margin:0;font-size:29px}
 .reveal .trig-pair .trig-plot{height:255px}
-.reveal .trig-period-reading{height:115px;font-size:28px;margin:12px 0 0;border-left:4px solid var(--teal);padding:7px 20px;box-sizing:border-box}
+.reveal .trig-period-reading{min-height:115px;font-size:28px;margin:12px 0 0;border-left:4px solid var(--teal);padding:7px 20px;box-sizing:border-box}
 .reveal .trig-period-reading p{margin:5px 0}
 .reveal .trig-axis-math{font-size:22px;line-height:1;display:flex;align-items:center;justify-content:center;height:100%;color:var(--ink)}
 .reveal .trig-axis-math .katex{font-size:1em}

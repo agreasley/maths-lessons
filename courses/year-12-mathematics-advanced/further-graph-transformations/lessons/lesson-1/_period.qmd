@@ -6,10 +6,10 @@ The **period** is the horizontal length of one complete repeating cycle.
 <div data-trig="period" class="trig-demo"></div>
 ```
 
-<p class="booklet-cue">Section 1.3 · Relate the shorter cycle to the horizontal dilation in the hinge.</p>
+<p class="booklet-cue">Section 1.3 · A full cycle repeats the shape and direction.</p>
 
 ::: notes
 
-Define the fundamental period as the smallest positive horizontal shift that reproduces the whole graph. A horizontal distance between arbitrary matching heights is not necessarily a full period: use matching positions and directions, such as consecutive peaks. Reveal a full cycle for sin x and sin 2x. Periods are 2π and π. Recall the hinge: a horizontal factor 1/2 halves the period. Generalise to T=2π/|n| for sine and cosine, a,n nonzero. Tangent has T=π/|n| because tan x repeats every π; explain its construction later. Use radians throughout. Aim for 2–3 minutes.
+This is a static comparison with no questions or reveal controls. Both sine curves, shaded full cycles, horizontal double-headed arrows and period rules are visible immediately. Define the fundamental period as the smallest positive horizontal shift that reproduces the whole graph. The arrows run from x=0 to x=2π for sin x and from x=0 to x=π for sin 2x; each covers a full cycle from one upward midline crossing to the next. Matching heights alone are not enough: the direction must also repeat. Periods are 2π and π. Connect the horizontal factor 1/2 to the halved period. Generalise to T=2π/|n| for sine and cosine, a,n nonzero; n is colour coded teal throughout. Tangent has T=π/|n| because tan x repeats every π; explain its construction later. Use radians throughout and keep the explanation brief.
 
 :::

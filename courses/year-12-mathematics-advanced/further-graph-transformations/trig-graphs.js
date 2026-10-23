@@ -138,19 +138,20 @@
   }
   function amplitudeDemo(m) {
     const {math}=window.MathsLesson;
-    m.innerHTML='<div class="trig-chart-layout"><div class="trig-canvas"></div><div class="trig-reading" aria-live="polite"></div></div>';
-    controls(m,['Reveal midline','Reveal maximum and minimum','Reveal amplitude'],stage=>{
-      const p=plot({xmin:0,xmax:2*PI,ymin:-1.7,ymax:3.7},{xticks:ticks(0,2*PI,PI/2),yticks:stage>=2?[-1,1,3]:[],midline:stage>=1?1:undefined,bounds:stage>=2?[-1,3]:[]});
-      p.curve(x=>2*Math.sin(x)+1);
-      if(stage>=3)p.amplitude(PI/2,1,3);
-      m.querySelector('.trig-canvas').innerHTML=p.finish(`Amplitude illustration y equals two sine x plus one, reveal ${stage} of 3`);
-      const lines=[`<p>${math('y=2\\sin x+1')}</p>`];
-      if(stage===0)lines.push('<p class="trig-hint">Where is the line halfway between the peak and trough?</p>');
-      if(stage>=1)lines.push(`<p>Midline ${math('y=1')}</p>`);
-      if(stage>=2)lines.push(`<p>Maximum ${math('3')}<br>Minimum ${math('-1')}</p>`);
-      if(stage>=3)lines.push(`<p>Amplitude ${math('2')}<br><span class="trig-hint">Peak to trough: ${math('4')}</span></p>`);
-      m.querySelector('.trig-reading').innerHTML=lines.join('');
-    });
+    const p=plot(
+      {xmin:0,xmax:2*PI,ymin:-1.7,ymax:3.7},
+      {xticks:ticks(0,2*PI,PI/2),yticks:[-1,1,3],midline:1}
+    );
+    p.curve(x=>2*Math.sin(x)+1);
+    p.amplitude(PI/2,1,3);
+    m.innerHTML='<div class="trig-chart-layout"><div class="trig-canvas">'+
+      p.finish('The graph y equals two sine x plus one, with a dashed midline at y equals one and a vertical double-headed arrow from the midline to the peak at y equals three, showing amplitude two')+
+      '</div><div class="trig-reading">'+
+      '<p>'+math('y=2\\sin x+1')+'</p>'+
+      '<p>Midline '+math('y=1')+'</p>'+
+      '<p>Amplitude '+math('2')+'</p>'+
+      '<p class="trig-hint">The arrow marks the vertical distance from the midline to a peak.</p>'+
+      '</div></div>';
   }
   function periodDemo(m) {
     const {math}=window.MathsLesson;

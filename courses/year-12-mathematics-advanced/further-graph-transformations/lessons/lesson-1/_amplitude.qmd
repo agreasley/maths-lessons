@@ -10,6 +10,6 @@ The **amplitude** is the maximum vertical distance from the midline.
 
 ::: notes
 
-New terminology. The illustration y=2 sin x+1 is additional, not a numbered booklet example. Ask students to identify a horizontal line halfway between the peak and trough. Reveal midline y=1, then maximum 3 and minimum −1, then amplitude 2. The full peak-to-trough distance is 4, twice the amplitude. The amplitude is not the maximum y-value. A negative a reflects the graph before translation; for example y=−2 sin x+1 still has amplitude 2. Tangent is unbounded and has no amplitude; return to this on the tangent slide. Aim for 2–3 minutes.
+New terminology. This is a static illustration: the graph, dashed midline and double-headed amplitude arrow are visible immediately, with no questions or reveal controls. The illustration $y=2\sin x+1$ is additional, not a numbered booklet example. Explain that the midline is $y=1$ and the vertical distance from that line to a peak at $y=3$ is $2$, the amplitude. The full peak-to-trough distance is $4$, twice the amplitude; amplitude is not the maximum $y$-value. A negative $a$ reflects the graph before translation; for example, $y=-2\sin x+1$ still has amplitude $2$. Tangent is unbounded and has no amplitude; return to this on the tangent slide. Keep this explanation brief.
 
 :::

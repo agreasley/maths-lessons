@@ -56,7 +56,7 @@ Ready: continue to amplitude and period, connecting the compressed graph to its 
 
 ## Reveal behaviour
 
-Recap graphs are already drawn. The amplitude and period illustrations introduce one feature at a time. Each main example starts with construction axes and no solution. Use the labelled reveal button to show features, scale, key points and then the curve. Previous step and Reset graph allow revisiting the construction. These controls use touch-friendly buttons without hover interactions. Answers in presenter notes are not shown on student slides.
+Recap graphs are already drawn. The amplitude illustration is static: y=2 sin x+1, its dashed midline y=1 and a double-headed vertical arrow from the midline to a peak are visible immediately. The arrow marks amplitude 2; this slide has no questions or reveal controls. The period illustration introduces one feature at a time. Each main example starts with construction axes and no solution. Use the labelled reveal button to show features, scale, key points and then the curve. Previous step and Reset graph allow revisiting the construction. These controls use touch-friendly buttons without hover interactions. Answers in presenter notes are not shown on student slides.
 
 The horizontal-shift example has three reveals: base graph; translated key points with a grey base-curve reference; completed shifted graph with the required endpoints. The final stage removes the reference curve. Graphs are locally generated SVG diagrams and use the shared embedded KaTeX renderer. No external applet, account or network connection is required to use these graphs.
 

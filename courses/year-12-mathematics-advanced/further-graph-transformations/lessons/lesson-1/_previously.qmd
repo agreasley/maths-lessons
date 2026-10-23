@@ -4,7 +4,6 @@
 <div data-trig="recap" class="trig-recap" aria-label="Basic sine, cosine and tangent graphs in radians"></div>
 ```
 
-Where does each graph cross the axes? Where is tangent undefined?
 
 <p class="booklet-cue">Booklet pp. 1–3 · Examples 1.1–1.3: visual recap</p>
 

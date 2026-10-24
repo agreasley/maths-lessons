@@ -1,0 +1,13 @@
+## Example 2.1 {#iv1-example-2-1 .vector-lesson}
+
+$ABCD$ is a parallelogram. If $\overrightarrow{AB}=\underset{\sim}{a}$ and $\overrightarrow{BC}=\underset{\sim}{b}$, express each of the following vectors in terms of $\underset{\sim}{a}$ and $\underset{\sim}{b}$
+
+**a)** $\overrightarrow{DA}$   **b)** $\overrightarrow{AC}$   **c)** $\overrightarrow{BD}$
+
+<div data-vector="parallelogram" class="v-interactive"></div>
+
+<div class="booklet-cue">Booklet Example 2.1 · p. 7 · Supporting diagram added for this slide.</div>
+
+::: notes
+The booklet question has no supplied parallelogram diagram; the labelled supporting diagram preserves all named vertices and given vectors. Highlight buttons mark the requested vector but do not reveal its algebraic answer. Answers: DA=−b, AC=a+b, BD=b−a. For the last, trace B→A→D: −a+b. a and b are non-parallel side vectors of the parallelogram. Complete working in OneNote.
+:::

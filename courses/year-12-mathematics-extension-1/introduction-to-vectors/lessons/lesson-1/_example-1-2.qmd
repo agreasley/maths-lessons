@@ -1,0 +1,15 @@
+## Example 1.2 {#iv1-example-1-2 .vector-lesson}
+
+Each grid square has side length 1 unit.
+
+**a)** Draw any unit vector and label it $\underset{\sim}{u}$.
+
+**b)** Draw $-\underset{\sim}{a}$ and label it clearly.
+
+![](../media/example-1-2.svg){.v-grid-figure fig-alt="Booklet grid with vector a moving three squares right and two squares up."}
+
+<div class="booklet-cue">Booklet Example 1.2 · p. 3</div>
+
+::: notes
+For (a), an arrow along one grid edge is a simple valid answer; any direction is allowed provided its length is one unit. A diagonal of one square has length √2, so is not a unit vector. For (b), reverse the direction: three squares left and two squares down. It can start anywhere that leaves sufficient space. Preserve the two requested subparts.
+:::

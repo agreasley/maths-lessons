@@ -1,0 +1,13 @@
+## Equal vectors can move {#iv1-equal .vector-lesson}
+
+Two vectors are equal when they have the **same magnitude and direction**.
+
+<div data-vector="equal" class="v-interactive"></div>
+
+**What changes when the arrow moves? What stays the same?**
+
+<div class="booklet-cue">Booklet §1.3 · p. 2</div>
+
+::: notes
+Drag the orange copy or use the four move buttons. Its starting position changes, but its length and direction remain fixed. Ask: Does moving it change the vector? What would rotating it or stretching it change? Every copy is a different directed segment representing the same vector. The drag target is wide enough for touch; Reset restores the starting position. Do not introduce coordinates for the movement controls.
+:::

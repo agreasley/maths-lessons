@@ -1,0 +1,11 @@
+## A journey with no measurements {#iv1-mystery .vector-lesson}
+
+First move $\mathbf a$, then $\mathbf b$, then **exactly opposite to** $\mathbf a$.
+
+**Could one movement replace this whole journey?**
+
+<div data-vector="journey" class="v-interactive"></div>
+
+::: notes
+Additional opening activity, 2–3 minutes. Reveal a, b and −a separately. Ask for a prediction before revealing the resultant b. Change the length and direction of a while keeping its reverse linked. Ask: Does your answer still work? What information did we need? Use Lift into 3D to show that the same translation reasoning works in space; the 3D drawing is a projection, so apparent screen lengths and angles need not equal spatial lengths and angles. The letters stand for whole movements, not their lengths. The diagram establishes cancellation visually before the equation a+b−a=b. Later addition slides justify commutativity. Reset restores all controls and hides the result. Return to this idea at the end.
+:::

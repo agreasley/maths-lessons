@@ -1,0 +1,11 @@
+## What changes when we turn? {#iv1-a-turn .vector-lesson}
+
+Now you move **5 metres east**, then **2 metres north**.
+
+**Does $5+2=7$ tell us where you finish?**
+
+<div data-vector="turn" class="v-interactive"></div>
+
+::: notes
+Reveal east then north. The total distance is still 7 metres, but that number alone does not describe the endpoint. The displacement goes directly from the start to the finish. Students can use familiar geometry: its length is √29 metres and its direction is arctan(2/5) north of east, if asked; calculating these is not required for the hook. Do not introduce formal component notation yet. On a line, a chosen positive direction and one signed number were enough. In a plane we must retain two independent directions.
+:::

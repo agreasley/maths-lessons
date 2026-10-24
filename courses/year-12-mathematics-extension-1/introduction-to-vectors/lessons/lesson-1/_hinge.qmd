@@ -1,0 +1,18 @@
+## Hinge question · Follow the path {#iv1-hinge .vector-lesson}
+
+<div data-module="hinge" data-correct="3" class="hinge numeric-choices">
+<p class="hinge-question">Given <span data-math="\overrightarrow{OA}=\mathbf a"></span> and <span data-math="\overrightarrow{OB}=\mathbf b"></span>, which represents <span data-math="\overrightarrow{AB}"></span>?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span data-math="\mathbf a+\mathbf b"></span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span data-math="\mathbf a-\mathbf b"></span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span data-math="\mathbf b-\mathbf a"></span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span data-math="-\mathbf a-\mathbf b"></span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>3.</strong> Follow <span data-math="A\to O\to B"></span>: <span data-math="\overrightarrow{AB}=-\mathbf a+\mathbf b=\mathbf b-\mathbf a"></span>.</div>
+</div>
+
+::: notes
+Additional diagnostic. Correct answer 3: A→O is −a, and O→B is b, so AB=b−a. Distractor 1 adds without following an oriented path; 2 gives BA, reversing the requested direction; 4 reverses both given vectors rather than just OA. Default 60 seconds. Students keep a fist on their chest until the teacher says “show”; collect 1–4 simultaneously before revealing. Timer expiry must not reveal the answer. Ready: proceed to closed paths and scaling. Divided: ask students to explain A→O→B to a partner and revote. Needs explanation: draw a simple OAB triangle, trace A→O in a different colour, then retry with A and B exchanged. No formal position-vector definition is needed yet.
+:::

@@ -6,7 +6,7 @@ course-year: 12
 course-name: "Mathematics Extension 1"
 course-group: "Year 12"
 course-order: 8
-availability: coming-soon
+availability: available
 listing:
   id: topics
   contents: "*/index.qmd"

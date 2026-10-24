@@ -1,0 +1,24 @@
+## Magnitude and direction {#iv1-meaning .vector-lesson}
+
+::: {.split}
+<div class="column-block">
+<h3>Scalar quantities</h3>
+<p>A number, with units where appropriate.</p>
+<ul><li>Distance</li><li>Speed</li><li>Time and temperature</li></ul>
+</div>
+<div class="column-block">
+<h3>Vector quantities</h3>
+<p>Both magnitude and direction.</p>
+<ul><li>Displacement</li><li>Velocity</li><li>Acceleration and force</li></ul>
+</div>
+:::
+
+::: {.takeaway .fragment}
+A scalar can be positive, negative or zero. Its sign alone does not make it a vector.
+:::
+
+<div class="booklet-cue">Booklet §1.1 · p. 1</div>
+
+::: notes
+Ask students to explain distance versus displacement, and speed versus velocity. Temperature below zero is a counterexample to the old slide's claim that scalar quantities are only positive. Distinguish a scalar quantity from a real number acting as a multiplier, which appears later. Signed 1D displacement records direction relative to the selected positive axis. Different physical quantities must not be added merely because each is a vector.
+:::

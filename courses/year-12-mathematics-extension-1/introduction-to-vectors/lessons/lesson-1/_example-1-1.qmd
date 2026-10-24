@@ -1,0 +1,11 @@
+## Example 1.1 {#iv1-example-1-1 .vector-lesson}
+
+The vector $\underset{\sim}{a}$ is shown on the grid. Draw two more copies of $\underset{\sim}{a}$, each with a different starting point. Each grid square has side length 1 unit.
+
+![](../media/example-1-1.svg){.v-grid-figure fig-alt="Booklet grid with vector a moving three squares right and two squares up."}
+
+<div class="booklet-cue">Booklet Example 1.1 · p. 3 · Complete the drawing in your booklet.</div>
+
+::: notes
+Exact supplied diagram extracted from the booklet. Each copy moves three squares right and two squares up, with a distinct tail. Check length and orientation, not a particular starting point. Verbal grid movements are sufficient; formal ordered-pair notation belongs in Lesson 2. Do not reveal a completed solution on the student slide.
+:::

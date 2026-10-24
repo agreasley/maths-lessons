@@ -1,0 +1,15 @@
+## One vector, several notations {#iv1-notation .vector-lesson}
+
+<div data-vector="notation" class="v-static"></div>
+
+$$\mathbf a \qquad \underset{\sim}{a} \qquad \overrightarrow{AB}$$
+
+The arrow runs from **tail $A$** to **head $B$**. Its length represents magnitude.
+
+$$\lvert\mathbf a\rvert\qquad\lvert\underset{\sim}{a}\rvert\qquad\lvert\overrightarrow{AB}\rvert$$
+
+<div class="booklet-cue">Booklet §1.2 · p. 1 · The same notation applies in 2D and 3D.</div>
+
+::: notes
+Bold is convenient in printed slides; the undertilde matches the booklet and handwritten work. All three vector notations shown can denote the same vector. Magnitude is a non-negative scalar. Distinguish the directed vector AB from a bare segment or the distance AB. No component notation is required here.
+:::

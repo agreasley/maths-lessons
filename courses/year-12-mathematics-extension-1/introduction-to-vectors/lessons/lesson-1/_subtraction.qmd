@@ -1,0 +1,13 @@
+## Subtracting vectors {#iv1-subtraction .vector-lesson}
+
+$$\mathbf a-\mathbf b=\mathbf a+(-\mathbf b)$$
+
+<div data-vector="subtraction" class="v-interactive"></div>
+
+**Which way does the difference point?**
+
+<div class="booklet-cue">Booklet §2.2 · p. 7</div>
+
+::: notes
+Use Add the opposite to construct a then −b. Compare with the tail-to-tail view: a−b goes from the head of b to the head of a. Translate the resultant between the two diagrams; same direction and length. Swap order to show that the difference reverses. The equation is a vector equation, not an instruction to subtract lengths. Reveal the difference only after collecting predictions.
+:::

@@ -1,0 +1,11 @@
+## One line: familiar territory {#iv1-one-line .vector-lesson}
+
+You move **5 metres to the right**, then **2 metres to the left**.
+
+**Where are you relative to your starting point?**
+
+<div data-vector="signed" class="v-interactive"></div>
+
+::: notes
+Prior learning supplied by the teacher: students have seen a little motion in one dimension, with +/− representing direction. Take right as positive and start at 0. Reveal the movements separately, collecting an answer before revealing +5+(−2)=+3 metres: 3 metres right of the starting point. Distance travelled is 7 metres. A negative displacement is not a negative distance. Keep this to about one minute.
+:::

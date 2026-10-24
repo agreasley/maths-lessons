@@ -1,0 +1,17 @@
+## Homework 1 {#iv1-homework .vector-lesson}
+
+**Vector notation and geometric operations**
+
+| Level | Questions |
+|---|---|
+| Mild | Exercise 9A: Q3, Q5, Q6, Q7, Q8–9 (alternate parts). |
+| Medium | Exercise 9A: Q3–11, Q20(a). |
+| Spicy | Exercise 9A: Q3–12, Q19–20. |
+
+<div class="booklet-cue">Cambridge Mathematics Extension 1 Year 12, Second Edition · Homework Summary p. iv and booklet p. 13</div>
+
+Draw a clear diagram and show the path you use.
+
+::: notes
+Preserve the booklet's exact three homework selections. Assign after the geometric operations and path examples are completed; if the lesson continues into another period, students can first consolidate completed class examples. No extra textbook questions have been added. Next revised lesson: coordinates, components and position vectors in 2D and 3D, booklet Section 3. The two original opening sections are now one deck and one Homework 1 assignment.
+:::

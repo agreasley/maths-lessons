@@ -1,0 +1,17 @@
+## Example 2.4 · (c)–(d) {#iv1-example-2-4-cd .vector-lesson}
+
+The diagram shows a rectangular prism $ABCDEFGH$, with $E$, $F$, $G$ and $H$ directly above $A$, $B$, $C$ and $D$, respectively. Let $\overrightarrow{AB}=\underset{\sim}{a}$, $\overrightarrow{AD}=\underset{\sim}{b}$ and $\overrightarrow{AE}=\underset{\sim}{c}$. The points $M$ and $N$ are the midpoints of $FG$ and $EH$.
+
+::: {.v-example-layout .v-prism-layout}
+<div>
+<p><strong>c)</strong> Find <span data-math="\overrightarrow{CM}"></span> and <span data-math="\overrightarrow{NM}"></span>.</p>
+<p><strong>d)</strong> What does your expression for <span data-math="\overrightarrow{NM}"></span> tell you about the segments <span data-math="NM"></span> and <span data-math="AB"></span>?</p>
+</div>
+<div><img class="v-source-figure" src="../media/example-2-4.svg" alt="Original booklet rectangular prism ABCDEFGH with M on FG, N on EH, and base vectors a, b and c."></div>
+:::
+
+<div class="booklet-cue">Booklet Example 2.4(c)–(d) · p. 12</div>
+
+::: notes
+c) CM=c−1/2 b; NM=a. For NM, N→E→F→M gives −1/2 b+a+1/2 b=a. d) Directed vectors NM and AB are equal; the segments are parallel and equal in length, with the named directions agreeing. Connect NM's cancellation explicitly with a+b−a=b in the opening hook. Avoid inferring perpendicularity or equal other edges from the appearance of a perspective diagram.
+:::

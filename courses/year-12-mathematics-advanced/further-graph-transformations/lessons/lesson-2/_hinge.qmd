@@ -1,0 +1,26 @@
+## Hinge question · Amplitude and period {#fgt2-hinge .trig-lesson .trig-hinge .application-lesson}
+
+```{=html}
+<div data-module="hinge" data-correct="2" class="hinge numeric-choices">
+<p class="hinge-question">A tide has a maximum height of 1.8 m and a minimum height of 0.6 m. It takes 8 hours to go from high tide to the next low tide.<br>What are its amplitude and period?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>Amplitude 0.6 m<br>Period 8 hours</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>Amplitude 0.6 m<br>Period 16 hours</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>Amplitude 1.2 m<br>Period 16 hours</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>Amplitude 1.2 m<br>Period 8 hours</span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>2.</strong> Amplitude is half the maximum–minimum difference. A full cycle goes high → low → high.</div>
+</div>
+```
+
+::: notes
+
+Additional diagnostic, not a booklet question. Correct response 2. Amplitude=(1.8−0.6)/2=0.6 m; period=2×8=16 hours. Choice 1 treats half a cycle as a full period. Choice 3 treats the whole vertical range as the amplitude. Choice 4 makes both errors.
+
+Ready: continue to Example 2.1 and use the tide values in Example 2.2. Divided: pairs explain the two distances, then re-vote before revealing. Further explanation needed: mark a midline and trace high–low–high; check a parallel case with maximum 5, minimum 1 and high-to-low time 3 hours (amplitude 2, period 6).
+
+The adjustable timer defaults to 60 seconds. Collect simultaneous finger responses on the teacher's verbal “show” cue. Expiry does not reveal the answer. Reset clears the answer, selection and timer. Allow about 3 minutes including discussion.
+
+:::

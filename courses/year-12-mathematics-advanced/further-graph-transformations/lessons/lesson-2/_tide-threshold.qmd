@@ -1,0 +1,15 @@
+## Prepare for 2.2(c) · Find the boundary times {#fgt2-tide-threshold .trig-lesson .application-lesson}
+
+A yacht needs at least **0.8 m** of water. Predict where the tide reaches this height.
+
+```{=html}
+<div data-periodic="tide" data-mode="threshold" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Preparation for Example 2.2(c) · Solve the boundary equation before choosing intervals.</p>
+
+::: notes
+
+This is supporting instruction; the full original part (c) is on the next slide. Ask students to predict the intersections before showing the threshold. Show threshold draws h=0.8 but does not give the solutions. Solve in OneNote: 0.6 cos(πt/8)+1.2=0.8, so cos(πt/8)=−2/3. Use radians. With α=arccos(−2/3), u=8α/π≈5.858236 and v=16−u≈10.141764. Repeat by adding 16; the third solution in [0,24] is u+16≈21.858236. The fourth would lie beyond 24. The separate Reveal crossings button shows these three boundary times, never shaded intervals. Reset hides the threshold and crossings. At h=0.8 the yacht CAN sail because the requirement is “at least”. Allow about 6 minutes, including the interval slide.
+
+:::

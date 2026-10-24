@@ -1,0 +1,17 @@
+## Example 2.6(c) · The same height {#fgt2-ferris-equality .trig-lesson .application-lesson .application-dense}
+
+During each revolution, there are two occasions when Anna's and Billie's carriages are at the same heights. At what two heights does this occur? Give your answer correct to 2 decimal places. **(4 marks)**
+
+```{=html}
+<div data-periodic="ferris" data-mode="equality" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 34 · Example 2.6(c)</p>
+
+::: notes
+
+Both curves are visible; the two intersection answers are initially hidden. Ask students to estimate the intersection times, solve A(t)=B(t) in OneNote, and substitute to find heights. Let θ=πt/24. Then cos θ=cos(θ−π/4). By cosine symmetry, θ=−(θ−π/4)+2mπ, so θ=π/8+mπ and t=3+24m. The alternative θ=(θ−π/4)+2mπ gives no integer m. Thus, in 0≤t<48, t=3 and t=27. If the general solution is not yet familiar, use the symmetric positions of the two curves to identify these times and verify by substitution.
+
+A(3)=21−18 cos(π/8)≈4.3701684148; A(27)=21+18 cos(π/8)≈37.6298315852. The requested answers are heights 4.37 m and 37.63 m, not times. Reveal equal heights displays both results and the graph intersections. Lower match and Upper match then set the shared slider exactly to 3 or 27 seconds. On the wheel, the two carriage tops lie on the same horizontal line. Reset returns to t=0 and hides the solutions and match buttons. Allow about 8 minutes.
+
+:::

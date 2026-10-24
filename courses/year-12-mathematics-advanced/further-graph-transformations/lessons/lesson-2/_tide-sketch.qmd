@@ -1,0 +1,15 @@
+## Example 2.2(b) · Sketch 24 hours {#fgt2-tide-sketch .trig-lesson .application-lesson}
+
+**b)** Draw a graph of the height of the tide over a 24-hour period.
+
+```{=html}
+<div data-periodic="tide" data-mode="sketch" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 29 · Example 2.2(b)</p>
+
+::: notes
+
+Model from part (a): h=0.6 cos(πt/8)+1.2 on 0≤t≤24. Students sketch in OneNote/booklets before revealing. The first button press reveals the midline and quarter-period points; the second completes the curve and enables the time slider. Reset returns to axes with no solution. Quarter period=4 hours. At t=0,4,8,12,16,20,24, h=1.8,1.2,0.6,1.2,1.8,1.2,0.6 respectively. The domain contains one and a half cycles, not one cycle. Drag the marker to connect an elapsed time to its height. Allow about 5 minutes.
+
+:::

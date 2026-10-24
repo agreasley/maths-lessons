@@ -14,6 +14,6 @@ Show the period and your horizontal scale before completing each sketch.
 
 ::: notes
 
-These are consolidated subsets of the corresponding Homework 1 and 2 tiers in the supplied booklet, rather than two complete homework allocations. The source is the supplied Extension-version booklet using Cambridge Extension 1 Exercise 7A, although the teaching course is Year 12 Mathematics Advanced. Retain these references; do not invent an Advanced-edition mapping. Lessons 2 and 3 have not been built. Non-periodic modelling from Section 2.2 is outside this approved lesson.
+These are consolidated subsets of the corresponding Homework 1 and 2 tiers in the supplied booklet, rather than two complete homework allocations. The source is the supplied Extension-version booklet using Cambridge Extension 1 Exercise 7A, although the teaching course is Year 12 Mathematics Advanced. Retain these references; do not invent an Advanced-edition mapping. Lesson 2 covers periodic applications; Lesson 3 is planned. Non-periodic modelling from Section 2.2 is outside this approved lesson.
 
 :::

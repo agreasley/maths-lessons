@@ -1,0 +1,15 @@
+## Today's learning {#fgt2-objective .trig-lesson .application-lesson}
+
+### Lesson objective
+
+We are learning to solve practical problems using trigonometric models.
+
+### Success criteria
+
+I can form a trigonometric model and interpret its solutions in context.
+
+::: notes
+
+Read both sentences briefly. Students already know amplitude, period, midline and transformed trigonometric graphs from Lesson 1. Today's emphasis is selecting the model and interpreting the mathematics in the situation, with units and the required time interval.
+
+:::

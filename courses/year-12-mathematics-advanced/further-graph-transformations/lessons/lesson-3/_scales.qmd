@@ -10,7 +10,9 @@
 
 ::: notes
 
-The slider directly controls the integer value x from 1 to 10000, with equal slider movements giving equal changes in x. Start at 100 and use +10 and −10 to take regular additive steps; the buttons stop at the endpoints. The linear marker moves equal distances for equal increases in the value, whereas the logarithmic marker's steps get smaller as the value grows. Move the slider across the range so students see the linear input mapped to a logarithmic position. The live reading shows log10(x), rounded to three decimal places except at exact powers of 10. Native slider arrow keys change x by 1 without advancing the slide. Reset restores 100.
+The slider directly controls the integer value x from 1 to 10000, with equal slider movements giving equal changes in x. Start at 100 and use the ±10, ±100 or ±1000 buttons to take additive steps; all buttons stop at the endpoints. Play increases x at a constant rate of 500 per second, in steps of 10, taking about 20 seconds to cross the whole range. The linear marker moves at constant speed while the logarithmic marker slows as the value grows. Pause holds the current value; Play resumes from there. Playback stops at 10000 and pauses when a manual control is used, the slide is left, the slide map is opened or the browser tab is hidden. Reset pauses playback and restores 100.
+
+Equal increases in the value give equal distances on the linear axis, whereas the logarithmic marker's steps get smaller as the value grows. Move the slider across the range so students see the linear input mapped to a logarithmic position. The live reading shows log10(x), rounded to three decimal places except at exact powers of 10. Native slider arrow keys change x by 1 without advancing the slide.
 
 The linear axis includes zero; the log axis begins at 1 and cannot include zero. Both axes end at 10000. The equally spaced log labels still represent factors of 10. The comparison follows the two scales in Section 3.1. Allow about 3 minutes, then use the supplied case-count charts on the next slide to discuss the effect of the vertical scale.
 

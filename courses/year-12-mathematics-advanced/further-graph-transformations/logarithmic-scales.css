@@ -22,6 +22,13 @@
 .reveal .log-slider label { font-size:23px; white-space:nowrap; }
 .reveal .log-slider input { width:100%; flex:1; height:64px; margin:0; accent-color:var(--teal); touch-action:pan-y; }
 .reveal .log-slider output { min-width:280px; text-align:right; font-size:25px; }
+.reveal [data-log="scales"] .log-slider output { min-width:340px; }
+.reveal [data-log="scales"] .scale-value,.reveal [data-log="scales"] .log-state { display:block; margin:0; }
+.reveal .scale-controls { gap:18px; }
+.reveal .scale-step-pair { display:flex; gap:8px; }
+.reveal .scale-controls .scale-play { min-width:158px; padding:8px 14px; }
+.reveal .scale-play-label,.reveal .scale-rate { display:block; }
+.reveal .scale-rate { font-size:17px; line-height:1.2; margin-top:3px; }
 .reveal .scale-chart-pair { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:20px; }
 .reveal .scale-chart-panel h3 { font-size:27px; margin:0 0 12px; }
 .reveal .scale-chart-frame { position:relative; max-width:594px; margin:0 auto; }

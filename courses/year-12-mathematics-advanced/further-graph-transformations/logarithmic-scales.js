@@ -13,29 +13,60 @@
   const formatted=value=>value.toLocaleString('en-AU');
   const bracket=(a,b,y,label,c)=>line(a,y+7,a,y,c)+line(a,y,b,y,c)+line(b,y,b,y+7,c)+mtext((a+b)/2,y-19,colour(label,c),160,34);
   function scales(m){
-    let value=100;
-    m.innerHTML=`<div class="log-picture"></div><div class="log-slider"><label>Move the value</label><input type="range" min="1" max="10000" step="1" value="100" aria-label="Shared integer value from 1 to 10000"><output></output></div><div class="log-controls"><button class="scale-down">−10</button><button class="scale-up">+10</button><button class="log-reset">Reset</button><span class="log-state" aria-live="polite"></span></div>`;
-    const slider=m.querySelector('input');
+    const minimum=1,maximum=10000,rate=500,playStep=10;
+    let value=100,frame=null,startedAt=0,startValue=value;
+    m.innerHTML=`<div class="log-picture"></div><div class="log-slider"><label>Move the value</label><input type="range" min="1" max="10000" step="1" value="100" aria-label="Shared integer value from 1 to 10000"><output aria-live="polite"><span class="scale-value"></span><span class="log-state"></span></output></div><div class="log-controls scale-controls"><button class="scale-play primary" aria-pressed="false" aria-label="Play at 500 per second"><span class="scale-play-label">Play</span><span class="scale-rate">+500 / second</span></button>${[10,100,1000].map(step=>`<div class="scale-step-pair" role="group" aria-label="Adjust by ${step}"><button class="scale-down" data-scale-step="-${step}" aria-label="Decrease by ${step}">−${formatted(step)}</button><button class="scale-up" data-scale-step="${step}" aria-label="Increase by ${step}">+${formatted(step)}</button></div>`).join('')}<button class="log-reset">Reset</button></div>`;
+    const slider=m.querySelector('input'),play=m.querySelector('.scale-play'),output=m.querySelector('output'),stepButtons=[...m.querySelectorAll('[data-scale-step]')];
+    const left=105,width=990,linear=v=>left+width*v/maximum,log=v=>left+width*Math.log10(v)/4;
+    let s=text(left,28,'Linear scale','start',C.linear,25)+line(left,110,left+width,110,C.linear,2.5);
+    [0,2500,5000,7500,10000].forEach((v,i,a)=>{s+=line(linear(v),101,linear(v),119,C.linear)+text(linear(v),147,formatted(v));if(i<4)s+=bracket(linear(v),linear(a[i+1]),76,'+2500',C.linear);});
+    s+=text(left,208,'Base-10 logarithmic scale','start',C.log,25)+line(left,290,left+width,290,C.log,2.5);
+    [1,10,100,1000,10000].forEach((v,i,a)=>{s+=line(log(v),281,log(v),299,C.log)+text(log(v),327,formatted(v));if(i<4)s+=bracket(log(v),log(a[i+1]),256,'\\times10',C.log);});
+    s+=`<g class="scale-marker linear-marker">${line(0,90,0,130,C.point,3)}${dot(0,110)}</g><g class="scale-marker logarithmic-marker">${line(0,270,0,310,C.point,3)}${dot(0,290)}</g>`;
+    m.querySelector('.log-picture').innerHTML=svg(s,1180,350,'The same value shown on a linear axis and a base-10 logarithmic axis.','log-scale-pair');
+    const plot=m.querySelector('svg');
     function draw(){
-      const left=105,width=990,linear=v=>left+width*v/10000,log=v=>left+width*Math.log10(v)/4;
-      let s=text(left,28,'Linear scale','start',C.linear,25)+line(left,110,left+width,110,C.linear,2.5);
-      [0,2500,5000,7500,10000].forEach((v,i,a)=>{s+=line(linear(v),101,linear(v),119,C.linear)+text(linear(v),147,v.toLocaleString('en-AU'));if(i<4)s+=bracket(linear(v),linear(a[i+1]),76,'+2500',C.linear);});
-      s+=text(left,208,'Base-10 logarithmic scale','start',C.log,25)+line(left,290,left+width,290,C.log,2.5);
-      [1,10,100,1000,10000].forEach((v,i,a)=>{s+=line(log(v),281,log(v),299,C.log)+text(log(v),327,v.toLocaleString('en-AU'));if(i<4)s+=bracket(log(v),log(a[i+1]),256,'\\times10',C.log);});
-      s+=`<g class="scale-marker linear-marker" data-value="${value}">${line(linear(value),90,linear(value),130,C.point,3)}${dot(linear(value),110)}</g>`;
-      s+=`<g class="scale-marker logarithmic-marker" data-value="${value}">${line(log(value),270,log(value),310,C.point,3)}${dot(log(value),290)}</g>`;
-      m.querySelector('.log-picture').innerHTML=svg(s,1180,350,`The same value, ${formatted(value)}, shown on a linear axis and a base-10 logarithmic axis.`,'log-scale-pair');
+      // Keep the axes in place during playback; only the markers and readings change.
+      [['.linear-marker',linear(value)],['.logarithmic-marker',log(value)]].forEach(([selector,x])=>{
+        const marker=m.querySelector(selector),tick=marker.querySelector('line');
+        marker.dataset.value=String(value);tick.setAttribute('x1',x);tick.setAttribute('x2',x);marker.querySelector('circle').setAttribute('cx',x);
+      });
+      const description=`The same value, ${formatted(value)}, shown on a linear axis and a base-10 logarithmic axis.`;
+      plot.setAttribute('aria-label',description);plot.querySelector('title').textContent=description;
       const p=Math.log10(value),exact=Number.isInteger(p),label=formatted(value).replaceAll(',','\\,');
-      m.querySelector('output').innerHTML=math(`x=${label}`);
-      m.querySelector('.scale-down').disabled=value===1;
-      m.querySelector('.scale-up').disabled=value===10000;
+      m.querySelector('.scale-value').innerHTML=math(`x=${label}`);
+      stepButtons.forEach(button=>{button.disabled=Number(button.dataset.scaleStep)<0?value===minimum:value===maximum;});
+      play.disabled=value===maximum;
       m.querySelector('.log-state').innerHTML=math(`\\log_{10}(${label})${exact?'=':'\\approx'}${exact?p:p.toFixed(3)}`);
-      slider.value=String(value);typeset(m);
+      slider.value=String(value);
     }
-    m.querySelector('.scale-down').addEventListener('click',()=>{value=Math.max(1,value-10);draw();});
-    m.querySelector('.scale-up').addEventListener('click',()=>{value=Math.min(10000,value+10);draw();});
-    m.querySelector('.log-reset').addEventListener('click',()=>{value=100;draw();});
-    slider.addEventListener('input',()=>{value=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());draw();
+    function pause(){
+      if(frame!==null)cancelAnimationFrame(frame);
+      frame=null;play.querySelector('.scale-play-label').textContent='Play';play.setAttribute('aria-pressed','false');play.setAttribute('aria-label','Play at 500 per second');output.setAttribute('aria-live','polite');
+    }
+    function tick(now){
+      const current=window.Reveal?.getCurrentSlide();
+      if(document.hidden||(current&&!current.contains(m))||document.querySelector('#lesson-slide-map[open]')){pause();return;}
+      // Elapsed time keeps the additive rate constant even if a frame is delayed.
+      const next=Math.min(maximum,startValue+Math.floor((now-startedAt)*rate/(1000*playStep))*playStep);
+      if(next!==value){value=next;draw();}
+      if(value===maximum){pause();return;}
+      frame=requestAnimationFrame(tick);
+    }
+    play.addEventListener('click',()=>{
+      if(frame!==null){pause();return;}
+      if(value===maximum)return;
+      startValue=value;startedAt=performance.now();play.querySelector('.scale-play-label').textContent='Pause';play.setAttribute('aria-pressed','true');play.setAttribute('aria-label','Pause playback');output.setAttribute('aria-live','off');frame=requestAnimationFrame(tick);
+    });
+    stepButtons.forEach(button=>button.addEventListener('click',()=>{pause();value=Math.max(minimum,Math.min(maximum,value+Number(button.dataset.scaleStep)));draw();}));
+    m.querySelector('.log-reset').addEventListener('click',()=>{pause();value=100;draw();});
+    slider.addEventListener('pointerdown',pause);
+    slider.addEventListener('input',()=>{pause();value=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());
+    window.Reveal?.on('slidechanged',pause);window.Reveal?.on('overviewshown',pause);
+    document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});
+    window.addEventListener('pagehide',pause);
+    document.addEventListener('click',e=>{if(e.target.closest('#lesson-navigation .overview'))pause();},true);
+    draw();typeset(m);
   }
   function positions(m){
     const values=[2,5,20,50];let stage=0;

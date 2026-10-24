@@ -12,6 +12,7 @@
 .reveal .v-sliders input[type=range]{margin:0;height:44px}
 .reveal .v-controls{margin:8px 0;gap:10px;min-height:49px}
 .reveal .v-controls button{font-size:20px;min-height:52px}
+.reveal .v-controls button[data-action=result][aria-pressed=false]{background:white;color:var(--ink);border-color:#81938f}
 .reveal .v-status{font-size:25px;min-height:40px;line-height:1.35;color:var(--teal);margin:10px 0 0}
 .reveal .v-status:empty{display:none}
 .reveal .v-drag-target{cursor:grab;touch-action:none;pointer-events:stroke}
@@ -37,7 +38,16 @@
 .reveal .vector-lesson .hinge-question{font-size:30px}
 .reveal .vector-lesson .hinge-explanation{font-size:25px}
 .reveal .vector-lesson .hinge .choice{min-height:92px}
-.reveal #iv1-mystery .v-sliders label{font-size:18px}
-.reveal #iv1-mystery .v-sliders{gap:20px}
-.reveal #iv1-finish .katex-display{font-size:44px;margin:65px 0 45px}
+.reveal #iv1-opening .cover-title{max-width:650px}
+.reveal #iv1-opening .cover-subtitle{max-width:620px}
+.reveal #iv1-opening .v-cover-figure{position:absolute;right:25px;top:200px;width:510px}
+.reveal #iv1-subtraction .v-sub-equation{font-size:32px;margin:10px 0}
+.reveal #iv1-subtraction .v-status{font-size:23px}
+.reveal #iv1-subtraction .v-sliders label{font-size:20px}
+.reveal .v-key-row{display:grid;grid-template-columns:1fr 1.15fr;gap:25px;align-items:center;min-height:180px;border-bottom:1px solid var(--rule)}
+.reveal .v-key-row:last-child{border-bottom:0}
+.reveal .v-key-row h3{font-size:29px;margin:0 0 10px}
+.reveal .v-key-row p{font-size:25px;line-height:1.4;margin:0}
+.reveal .v-key-diagram .v-diagram{width:100%;height:172px}
+.reveal #iv1-key-ideas .booklet-cue{margin-top:10px}
 @media (prefers-reduced-motion:reduce){.reveal .vector-lesson *{scroll-behavior:auto!important}}

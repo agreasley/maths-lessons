@@ -3,9 +3,9 @@
 <div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 1</div>
 <div class="cover-title">A new language<br>for geometry</div>
 <div class="cover-subtitle">Vector meaning and geometric operations.</div>
-<div class="cover-bars" aria-hidden="true"><span style="height:40px"></span><span style="height:62px"></span><span style="height:83px"></span><span style="height:105px"></span></div>
+<div data-vector="cover" class="v-cover-figure"></div>
 <div class="cover-foot">Booklet Sections 1–2 · Examples 1.1–1.3 and 2.1–2.4 · Homework 1</div>
 
 ::: notes
-Approved combined Lessons 1–2 from the original seven-part program. This is Lesson 1 of the revised six-deck sequence. Plan around 60 minutes with possible spillover for Examples 2.3–2.4. Preserve all examples; do not rush to finish the prism. The approved opening precedes the objective: signed 1D motion, a turn in 2D, then an unmeasured journey. The student already knows a little signed 1D motion. Complete worked examples in OneNote. Source: 12MAX1 – Introduction to Vectors, printed pp. 1–13; Program.pdf, original Lessons 1–2. See TEACHER_GUIDE.md.
+Combined Lessons 1–2 from the original seven-part program. This is Lesson 1 of the revised six-deck sequence. Allow 70–90 minutes across teaching periods if needed, with a possible break before Examples 2.3–2.4. The opening precedes the objective: signed 1D motion, then a turn in 2D. Students already know a little signed 1D motion. The cover shows two vectors placed head to tail and their resultant. Complete worked examples in OneNote. Source: 12MAX1 – Introduction to Vectors, printed pp. 1–13; Program.pdf, original Lessons 1–2. See TEACHER_GUIDE.md.
 :::

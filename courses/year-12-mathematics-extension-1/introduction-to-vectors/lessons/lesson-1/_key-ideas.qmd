@@ -1,0 +1,22 @@
+## Key Ideas {#iv1-key-ideas .vector-lesson}
+
+<div class="v-key-rows">
+<div class="v-key-row">
+<div><h3>Add head to tail</h3><p>Place the tail of the next vector at the head of the previous vector.</p></div>
+<div data-vector="key-addition" class="v-key-diagram"></div>
+</div>
+<div class="v-key-row">
+<div><h3>Negation reverses direction</h3><p><span data-math="-\mathbf a"></span> has the same magnitude as <span data-math="\mathbf a"></span>, in the opposite direction.</p></div>
+<div data-vector="key-opposite" class="v-key-diagram"></div>
+</div>
+<div class="v-key-row">
+<div><h3>Subtract by adding the opposite</h3><p><span data-math="\mathbf a-\mathbf b=\mathbf a+(-\mathbf b)"></span></p></div>
+<div data-vector="key-subtraction" class="v-key-diagram"></div>
+</div>
+</div>
+
+<div class="booklet-cue">Complete the Key Ideas boxes on pp. 5 and 13.</div>
+
+::: notes
+Ask students to explain each diagram before summarising the rule. For addition, trace from the initial tail to the final head. For negation, compare equal lengths and reversed arrows; this does not mean a negative magnitude. For subtraction, point out that −b is added head to tail after a. Translating an arrow changes neither its magnitude nor its direction. These rules apply in both 2D and 3D. Familiar geometry remains useful; vector notation lets us reason with directed quantities without needing every length or angle.
+:::

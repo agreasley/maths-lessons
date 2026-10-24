@@ -1,6 +1,6 @@
 ## Subtracting vectors {#iv1-subtraction .vector-lesson}
 
-$$\mathbf a-\mathbf b=\mathbf a+(-\mathbf b)$$
+<p class="v-sub-equation"><span data-math="\mathbf a-\mathbf b=\mathbf a+(-\mathbf b)"></span></p>
 
 <div data-vector="subtraction" class="v-interactive"></div>
 
@@ -9,5 +9,5 @@ $$\mathbf a-\mathbf b=\mathbf a+(-\mathbf b)$$
 <div class="booklet-cue">Booklet §2.2 · p. 7</div>
 
 ::: notes
-Use Add the opposite to construct a then −b. Compare with the tail-to-tail view: a−b goes from the head of b to the head of a. Translate the resultant between the two diagrams; same direction and length. Swap order to show that the difference reverses. The equation is a vector equation, not an instruction to subtract lengths. Reveal the difference only after collecting predictions.
+Begin with a and b sharing a tail. Ask which vector must be reversed to construct a−b. Show −b: the original b remains as a dotted reference, and −b has the same magnitude in the opposite direction. Use the slider to translate −b without rotating or resizing it, until its tail reaches the head of a. Move head to tail sets the slider to the endpoint. Ask for the resultant before revealing it. Moving the slider away hides the resultant again. Swap order resets the construction to b and a and updates the equation; repeat to show that b−a reverses the difference. Reset restores the original a, b view. The equation concerns whole vectors, not just their lengths.
 :::

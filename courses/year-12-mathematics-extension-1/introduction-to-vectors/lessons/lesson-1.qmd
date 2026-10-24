@@ -13,8 +13,6 @@ homework: "1 · Exercise 9A"
 
 {{< include lesson-1/_a-turn.qmd >}}
 
-{{< include lesson-1/_mystery.qmd >}}
-
 {{< include lesson-1/_objective.qmd >}}
 
 {{< include lesson-1/_meaning.qmd >}}
@@ -51,6 +49,6 @@ homework: "1 · Exercise 9A"
 
 {{< include lesson-1/_example-2-4-cd.qmd >}}
 
-{{< include lesson-1/_finish.qmd >}}
+{{< include lesson-1/_key-ideas.qmd >}}
 
 {{< include lesson-1/_homework.qmd >}}

@@ -17,6 +17,8 @@ homework: "3 · Exercises 5A, 8E and 6A · Spicy"
 
 {{< include lesson-3/_scales.qmd >}}
 
+{{< include lesson-3/_chart-comparison.qmd >}}
+
 {{< include lesson-3/_positions.qmd >}}
 
 {{< include lesson-3/_midpoint.qmd >}}

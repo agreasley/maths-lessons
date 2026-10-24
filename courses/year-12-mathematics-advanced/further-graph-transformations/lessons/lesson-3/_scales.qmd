@@ -10,6 +10,8 @@
 
 ::: notes
 
-Start at 100 and use ×10 to move to 1000, then 10000. The markers move together as values, but only the logarithmic marker travels equal distances. Use ÷10 to reverse the changes. The slider is evenly spaced in the exponent and ranges from 10^0 to 10^4; its positions are not evenly spaced numerical values on the linear axis. The linear axis includes zero; the log axis begins at 1 and cannot include zero. Both axes end at 10000. The comparison follows the two scales in Section 3.1. Return to 100 with Reset. Allow about 3 minutes.
+The slider directly controls the integer value x from 1 to 10000, with equal slider movements giving equal changes in x. Start at 100 and use +10 and −10 to take regular additive steps; the buttons stop at the endpoints. The linear marker moves equal distances for equal increases in the value, whereas the logarithmic marker's steps get smaller as the value grows. Move the slider across the range so students see the linear input mapped to a logarithmic position. The live reading shows log10(x), rounded to three decimal places except at exact powers of 10. Native slider arrow keys change x by 1 without advancing the slide. Reset restores 100.
+
+The linear axis includes zero; the log axis begins at 1 and cannot include zero. Both axes end at 10000. The equally spaced log labels still represent factors of 10. The comparison follows the two scales in Section 3.1. Allow about 3 minutes, then use the supplied case-count charts on the next slide to discuss the effect of the vertical scale.
 
 :::

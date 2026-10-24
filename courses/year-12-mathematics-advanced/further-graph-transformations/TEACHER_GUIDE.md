@@ -143,13 +143,13 @@ The topic appears automatically in the Year 12 Mathematics Advanced listing afte
 
 ## Approved Lesson 3 approach
 
-Fourteen slides for approximately 60 minutes: cover; objective/success; logarithm recap; multiplicative-change hinge; linked linear/logarithmic scales; Example 3.1(a); Example 3.1(b–c); Examples 3.2–3.5; Example 3.6 comparison table; Example 3.7 explanation; key ideas/homework. The user approved this sequence before implementation. Lesson 3 teaches Section 3, logarithmic scales and applications; the replacement homework also contains non-periodic-model revision.
+Fifteen slides for approximately 60 minutes: cover; objective/success; logarithm recap; multiplicative-change hinge; linked linear/logarithmic scales; a comparison of the supplied cumulative-case charts; Example 3.1(a); Example 3.1(b–c); Examples 3.2–3.5; Example 3.6 comparison table; Example 3.7 explanation; key ideas/homework. The user approved this sequence before implementation. Lesson 3 teaches Section 3, logarithmic scales and applications; the replacement homework also contains non-periodic-model revision.
 
 Objective: We are learning to interpret logarithmic scales and solve problems involving them.
 
 Success criterion: I can connect differences in logarithmic readings to ratios of the underlying quantities.
 
-Suggested pacing: cover/objective/recap/hinge 7 minutes; scales and Example 3.1 12 minutes; decibels 8 minutes; earthquakes 6 minutes; stellar magnitude 8 minutes; pH 6 minutes; comparison 5 minutes; explanation 5 minutes; consolidation/homework 3 minutes. Use OneNote for the algebra and the supplied booklet for student working. Application slides contain the model, exact question wording and a static hint, with no model-answer reveal.
+Suggested pacing: cover/objective/recap/hinge 7 minutes; scales, chart comparison and Example 3.1 14 minutes; decibels 7 minutes; earthquakes 6 minutes; stellar magnitude 7 minutes; pH 6 minutes; comparison 5 minutes; explanation 5 minutes; consolidation/homework 3 minutes. Use OneNote for the algebra and the supplied booklet for student working. Application slides contain the model, exact question wording and a static hint, with no model-answer reveal.
 
 ### Lesson 3 source and checked answers
 
@@ -180,12 +180,19 @@ Use the shared adjustable 60-second timer and fist-on-chest/1–4-finger routine
 
 ### Lesson 3 controls
 
-- Linear/logarithmic comparison starts at 100. The same value is shown on both axes. The linear axis runs from 0 to 10000; the log axis runs from 1 to 10000. ×10 and ÷10 move exactly one decade, and are disabled when that full step would leave the domain. The slider is uniform in the base-10 exponent, from 0 to 4. Reset restores 100. No zero or negative input can enter the log diagram.
+- Linear/logarithmic comparison starts at 100. The same value is shown on both axes. The linear axis runs from 0 to 10000; the log axis runs from 1 to 10000. +10 and −10 make additive changes, stopping at the endpoints; the corresponding button is disabled at each endpoint. The slider directly controls integer values from 1 to 10000, with step 1. Its movement is linear in the value, not in the exponent. Reset restores 100. No zero or negative input can enter the log diagram. Equal additive steps move the linear marker equally but move the log marker less as the value grows. The live logarithm is rounded to three decimal places except at powers of 10.
 - Example 3.1(a) starts with only the axis and powers-of-ten labels. Show 2, 5, 20 and 50 in order. Previous point removes the last reveal; Reset hides all four.
 - Example 3.1(b) shows two midpoint positions with unknown labels. Show midpoints gives the exact logarithmic midpoint 10√10 and arithmetic midpoint 55; Reset hides the values.
 - Example 3.6 reveals one factor row at a time in booklet order. Previous row hides the last factor. Reset hides all four. The given models remain visible.
 - Example 3.7 starts with the general model. The three deliberate steps subtract readings, use the quotient law and convert to exponential form. Previous step and Reset restore earlier states. The ratio is orange and the reading difference blue.
-- Slider arrow keys change its value without advancing the slide. Controls are sized for iPad landscape. The lesson has no Reveal fragments; Next and Previous visit exactly fourteen slides.
+- Slider arrow keys change its value without advancing the slide. Controls are sized for iPad landscape. The lesson has no Reveal fragments; Next and Previous visit exactly fifteen slides.
+
+
+### Reading the supplied cumulative-case charts
+
+The slide immediately after the linked scales uses the user's two original chart screenshots. The linear chart has vertical intervals of +200 million cases. The logarithmic chart has intervals of ×100 (two base-10 decades): 100, 10 thousand, 1 million, 100 million, 10 billion. Separate translucent orange overlays mark the same approximate early-2022 interval. Both curves still increase there, although the large absolute increase appears much flatter on the logarithmic scale.
+
+Make the interpretation precise: a flatter-looking log curve can still represent many additional cases. Log scaling is useful for proportional changes; visual flatness alone is not evidence of no additional cases. A truly horizontal curve on either scale means no change. These are supplied historical cumulative totals, not daily counts or a current public-health update. The original PNGs are preserved byte-for-byte in `media/total-cases-linear.png` and `media/total-cases-logarithmic.png`; highlighting is drawn separately in the slide. The chart discussion takes about 2 minutes within the revised lesson pacing.
 
 ### Replacement Homework 3
 

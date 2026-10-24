@@ -10,14 +10,14 @@
   const dot=(x,y,c=C.point,r=7)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${c}" stroke="${C.paper}" stroke-width="2"/>`;
   const svg=(body,w,h,label,cls='')=>`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" class="log-plot ${cls}" role="img" aria-label="${label}"><title>${label}</title>${body}</svg>`;
   const controls=(next,previous)=>`<div class="log-controls"><button class="log-next primary">${next}</button><button class="log-previous" disabled>${previous}</button><button class="log-reset">Reset</button></div>`;
-  const formatted=value=>Number(value.toPrecision(4)).toLocaleString('en-AU',{maximumFractionDigits:3});
+  const formatted=value=>value.toLocaleString('en-AU');
   const bracket=(a,b,y,label,c)=>line(a,y+7,a,y,c)+line(a,y,b,y,c)+line(b,y,b,y+7,c)+mtext((a+b)/2,y-19,colour(label,c),160,34);
   function scales(m){
-    let exponent=2;
-    m.innerHTML=`<div class="log-picture"></div><div class="log-slider"><label>Move the value</label><input type="range" min="0" max="4" step="0.01" value="2" aria-label="Base-10 exponent of the shared value"><output></output></div><div class="log-controls"><button class="scale-down">÷10</button><button class="scale-up">×10</button><button class="log-reset">Reset</button><span class="log-state" aria-live="polite"></span></div>`;
+    let value=100;
+    m.innerHTML=`<div class="log-picture"></div><div class="log-slider"><label>Move the value</label><input type="range" min="1" max="10000" step="1" value="100" aria-label="Shared integer value from 1 to 10000"><output></output></div><div class="log-controls"><button class="scale-down">−10</button><button class="scale-up">+10</button><button class="log-reset">Reset</button><span class="log-state" aria-live="polite"></span></div>`;
     const slider=m.querySelector('input');
     function draw(){
-      const value=10**exponent,left=105,width=990,linear=v=>left+width*v/10000,log=v=>left+width*Math.log10(v)/4;
+      const left=105,width=990,linear=v=>left+width*v/10000,log=v=>left+width*Math.log10(v)/4;
       let s=text(left,28,'Linear scale','start',C.linear,25)+line(left,110,left+width,110,C.linear,2.5);
       [0,2500,5000,7500,10000].forEach((v,i,a)=>{s+=line(linear(v),101,linear(v),119,C.linear)+text(linear(v),147,v.toLocaleString('en-AU'));if(i<4)s+=bracket(linear(v),linear(a[i+1]),76,'+2500',C.linear);});
       s+=text(left,208,'Base-10 logarithmic scale','start',C.log,25)+line(left,290,left+width,290,C.log,2.5);
@@ -25,17 +25,17 @@
       s+=`<g class="scale-marker linear-marker" data-value="${value}">${line(linear(value),90,linear(value),130,C.point,3)}${dot(linear(value),110)}</g>`;
       s+=`<g class="scale-marker logarithmic-marker" data-value="${value}">${line(log(value),270,log(value),310,C.point,3)}${dot(log(value),290)}</g>`;
       m.querySelector('.log-picture').innerHTML=svg(s,1180,350,`The same value, ${formatted(value)}, shown on a linear axis and a base-10 logarithmic axis.`,'log-scale-pair');
-      const p=Number(exponent.toFixed(2));
-      m.querySelector('output').innerHTML=math(`10^{${p}}${Number.isInteger(p)?'=':'\\approx'}${formatted(value).replaceAll(',','\\,')}`);
-      m.querySelector('.scale-down').disabled=exponent<1;
-      m.querySelector('.scale-up').disabled=exponent>3;
-      m.querySelector('.log-state').textContent='One full log interval represents a factor of 10.';
-      slider.value=String(exponent);typeset(m);
+      const p=Math.log10(value),exact=Number.isInteger(p),label=formatted(value).replaceAll(',','\\,');
+      m.querySelector('output').innerHTML=math(`x=${label}`);
+      m.querySelector('.scale-down').disabled=value===1;
+      m.querySelector('.scale-up').disabled=value===10000;
+      m.querySelector('.log-state').innerHTML=math(`\\log_{10}(${label})${exact?'=':'\\approx'}${exact?p:p.toFixed(3)}`);
+      slider.value=String(value);typeset(m);
     }
-    m.querySelector('.scale-down').addEventListener('click',()=>{if(exponent>=1){exponent=Math.max(0,exponent-1);draw();}});
-    m.querySelector('.scale-up').addEventListener('click',()=>{if(exponent<=3){exponent=Math.min(4,exponent+1);draw();}});
-    m.querySelector('.log-reset').addEventListener('click',()=>{exponent=2;draw();});
-    slider.addEventListener('input',()=>{exponent=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());draw();
+    m.querySelector('.scale-down').addEventListener('click',()=>{value=Math.max(1,value-10);draw();});
+    m.querySelector('.scale-up').addEventListener('click',()=>{value=Math.min(10000,value+10);draw();});
+    m.querySelector('.log-reset').addEventListener('click',()=>{value=100;draw();});
+    slider.addEventListener('input',()=>{value=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());draw();
   }
   function positions(m){
     const values=[2,5,20,50];let stage=0;

@@ -22,6 +22,16 @@
 .reveal .log-slider label { font-size:23px; white-space:nowrap; }
 .reveal .log-slider input { width:100%; flex:1; height:64px; margin:0; accent-color:var(--teal); touch-action:pan-y; }
 .reveal .log-slider output { min-width:280px; text-align:right; font-size:25px; }
+.reveal .scale-chart-pair { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:20px; }
+.reveal .scale-chart-panel h3 { font-size:27px; margin:0 0 12px; }
+.reveal .scale-chart-frame { position:relative; max-width:594px; margin:0 auto; }
+.reveal .scale-chart-frame>img { display:block; width:100%; height:auto; max-width:100%; max-height:none; margin:0; }
+.reveal .scale-chart-overlay { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.reveal .scale-chart-overlay rect { fill:#f4a23b; fill-opacity:.19; }
+.reveal .scale-chart-overlay path { stroke:var(--orange); stroke-width:2; fill:none; }
+.reveal .scale-chart-panel .scale-chart-caption { font-size:25px; margin:12px 0 0; color:var(--orange); }
+.reveal #fgt3-chart-comparison .takeaway,.reveal [data-preview-of="fgt3-chart-comparison"] .takeaway { font-size:27px; padding:9px 17px; margin:18px 0 12px; }
+.reveal #fgt3-chart-comparison .booklet-cue,.reveal [data-preview-of="fgt3-chart-comparison"] .booklet-cue { font-size:21px; margin-top:12px; }
 .reveal .log-result { min-height:68px; padding:10px 17px; border-left:4px solid var(--teal); background:#edf3ef; display:flex; align-items:center; gap:28px; font-size:25px; box-sizing:border-box; }
 .reveal .log-result>span:not(.math-token) { font-size:23px; }
 .reveal .log-midpoint-layout { display:grid; grid-template-columns:670px minmax(0,1fr); gap:40px; }

@@ -1,0 +1,40 @@
+## Same data · A different impression {#fgt3-chart-comparison .trig-lesson .log-lesson}
+
+```{=html}
+<div class="scale-chart-pair">
+  <div class="scale-chart-panel">
+    <h3>Linear: equal steps of 200 million</h3>
+    <div class="scale-chart-frame">
+      <img src="../media/total-cases-linear.png" width="676" height="493" alt="Supplied total coronavirus cases chart on a linear vertical scale, with a sharp rise during the highlighted early-2022 period.">
+      <svg class="scale-chart-overlay" viewBox="0 0 676 493" aria-hidden="true"><rect x="350" y="128" width="52" height="217"/><path d="M350 128V345 M402 128V345"/></svg>
+    </div>
+    <p class="scale-chart-caption">The highlighted rise looks steep.</p>
+  </div>
+  <div class="scale-chart-panel">
+    <h3>Logarithmic: equal steps of <span data-math="\times100">×100</span></h3>
+    <div class="scale-chart-frame">
+      <img src="../media/total-cases-logarithmic.png" width="678" height="493" alt="The same total coronavirus cases chart on a logarithmic vertical scale. The same highlighted early-2022 increase appears much flatter.">
+      <svg class="scale-chart-overlay" viewBox="0 0 678 493" aria-hidden="true"><rect x="349" y="127" width="52" height="217"/><path d="M349 127V344 M401 127V344"/></svg>
+    </div>
+    <p class="scale-chart-caption">The same rise looks much flatter.</p>
+  </div>
+</div>
+```
+
+::: {.takeaway}
+A flatter-looking log curve can still represent **many additional cases**.
+:::
+
+<p class="booklet-cue">Read the axis: linear shows absolute change; logarithmic shows proportional change.</p>
+
+::: notes
+
+Use the two supplied screenshots as historical illustrations, not current case counts. Both show cumulative total cases over the same dates. The translucent orange bands mark approximately early 2022, using matching horizontal positions in the two plots. The original screenshot pixels and plotted curves are unchanged; the highlight is a separate overlay.
+
+Point to the steep rise inside the linear band and then to the much flatter-looking section inside the logarithmic band. The data still increase in both. On the linear chart, successive labelled vertical intervals add 200 million cases. On this logarithmic chart, successive labelled intervals multiply by 100: 100, 10 thousand, 1 million, 100 million and 10 billion. A single labelled interval therefore spans two base-10 decades.
+
+The log curve is not literally horizontal in the highlighted period. The vertical scale compresses the absolute change at a large starting total. A truly horizontal line on either scale would mean no increase; a straight rising line on a log scale would mean constant proportional growth. The misleading inference would be to treat a flatter-looking log curve as evidence of almost no additional cases. The logarithmic scale is useful for ratios and growth over many orders of magnitude. Encourage students to read the tick values and decide whether they need absolute or proportional comparisons before judging visual steepness. Do not infer daily case counts from these cumulative charts.
+
+Source: user-supplied screenshots `Screenshot 2026-10-24 at 5.46.19 pm.png` (linear) and `Screenshot 2026-10-24 at 5.46.29 pm.png` (logarithmic). Allow about 2 minutes.
+
+:::

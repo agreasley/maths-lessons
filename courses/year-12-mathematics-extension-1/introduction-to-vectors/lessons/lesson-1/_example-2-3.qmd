@@ -1,0 +1,19 @@
+## Example 2.3 {#iv1-example-2-3 .vector-lesson}
+
+In the quadrilateral $ABCD$, $M$ is the midpoint of $BC$. Let $\overrightarrow{AB}=\underset{\sim}{a}$, $\overrightarrow{AD}=\underset{\sim}{b}$ and $\overrightarrow{DC}=\underset{\sim}{c}$.
+
+::: {.v-example-layout}
+<div>
+<p>Express each vector in terms of <span data-math="\underset{\sim}{a}"></span>, <span data-math="\underset{\sim}{b}"></span> and <span data-math="\underset{\sim}{c}"></span>, showing the path you use:</p>
+<p><strong>a)</strong> <span data-math="\overrightarrow{BC}"></span></p>
+<p><strong>b)</strong> <span data-math="\overrightarrow{BM}"></span></p>
+<p><strong>c)</strong> <span data-math="\overrightarrow{AM}"></span></p>
+</div>
+<div><img class="v-source-figure" src="../media/example-2-3.svg" alt="Original booklet quadrilateral ABCD, with M the midpoint of BC and the given vectors a, b and c along AB, AD and DC."></div>
+:::
+
+<div class="booklet-cue">Booklet Example 2.3 · p. 11</div>
+
+::: notes
+Natural continuation point if the combined lesson needs another period. Retrieve the path A→O→B from the hinge, then apply the same signed-path idea here. a) B→A→D→C gives BC=−a+b+c. b) BM=1/2(−a+b+c). c) AM=a+BM=1/2(a+b+c). Other equivalent paths are valid; ask for the path before simplifying. M is a midpoint in an arbitrary quadrilateral: do not assume a parallelogram. These conclusions do not require numerical lengths or angles. Preserve the exact supplied diagram and all three subparts.
+:::

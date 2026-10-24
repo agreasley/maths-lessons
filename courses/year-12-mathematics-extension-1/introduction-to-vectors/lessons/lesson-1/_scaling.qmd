@@ -1,0 +1,13 @@
+## Scaling and parallel vectors {#iv1-scaling .vector-lesson}
+
+Multiplying by a real number $k$ changes a vector's length and may reverse its direction.
+
+<div data-vector="scaling" class="v-interactive"></div>
+
+For **non-zero vectors**, being scalar multiples is the test for parallelism.
+
+<div class="booklet-cue">Booklet §2.4 · p. 10</div>
+
+::: notes
+Predict before changing k: k>0 preserves direction, k<0 reverses it, and k=0 gives the zero vector. The magnitude is multiplied by |k|. Include 1/2, −1/2, −2 and 0 using presets or the slider. A negative scalar does not give a negative magnitude. Non-zero parallel vectors can point in the same or opposite directions. When a=k b is used as the test for two non-zero vectors, k is non-zero. Do not classify the zero vector as having a parallel direction. Optional stopping point follows this slide; if continuing in another period, retrieve reversal, triangle addition and scaling before Example 2.3.
+:::

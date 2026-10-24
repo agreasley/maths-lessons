@@ -1,0 +1,11 @@
+## Example 2.2 {#iv1-example-2-2 .vector-lesson}
+
+Through the use of a diagram, show that subtraction of vectors is not commutative. If $\mathbf r=\mathbf a-\mathbf b$, express $\mathbf b-\mathbf a$ in terms of $\mathbf r$
+
+<div class="v-working-prompt">Draw both differences using the same two starting vectors.</div>
+
+<div class="booklet-cue">Booklet Example 2.2 · p. 8 · Complete the diagram and working in OneNote.</div>
+
+::: notes
+Preserve the source's r, a and b notation; bold distinguishes the vector symbols in typeset slides. b−a=−(a−b)=−r. Tail-to-tail, the two difference arrows join the same endpoints in opposite directions. In general subtraction is not commutative. If a=b, both differences are zero; this special case does not establish commutativity as a general law. Ask students to explain the direction of r before writing −r.
+:::

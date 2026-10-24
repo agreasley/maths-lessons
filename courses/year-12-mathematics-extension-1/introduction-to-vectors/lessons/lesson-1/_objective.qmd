@@ -1,0 +1,17 @@
+## Today's learning {#iv1-objective .vector-lesson}
+
+### Lesson objective
+
+We are learning to represent vectors and combine them geometrically.
+
+### Success criteria
+
+I can use vector diagrams to add, subtract and scale vectors.
+
+::: {.takeaway}
+Vectors bring algebraic reasoning to quantities with magnitude and direction.
+:::
+
+::: notes
+Some of these problems can already be solved using geometry learnt in Years 7–10. We are developing another powerful tool alongside algebra. Just as algebra lets us work with unknown numbers, vectors let us work with lengths and directions without needing every measurement. One symbol represents a whole directed quantity. The same ideas work in 2D and 3D. Avoid suggesting geometry is being replaced or that vectors are only for motion.
+:::

@@ -1,0 +1,13 @@
+## A closed path {#iv1-closed-path .vector-lesson}
+
+Follow the arrows all the way around.
+
+**What is the resultant when you finish where you started?**
+
+<div data-vector="closed" class="v-interactive"></div>
+
+<div class="booklet-cue">Booklet §2.3 · p. 9</div>
+
+::: notes
+Reveal each arrow before the zero resultant. The travelled distance is positive, but net displacement is zero. The loop sum a+b+c=0 depends on the arrows following the closed path. If an edge arrow is reversed, its sign in the sum must change. A zero resultant has no direction; do not draw an arrow of arbitrary direction for it. Ask whether the same argument requires a triangle (no).
+:::

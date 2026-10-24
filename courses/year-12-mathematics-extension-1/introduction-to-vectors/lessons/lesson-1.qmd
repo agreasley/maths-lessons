@@ -1,0 +1,56 @@
+---
+pagetitle: "Lesson 1 — Vector meaning and geometric operations"
+lesson-title: "Vector meaning and geometric operations"
+description: "Build on signed 1D motion to represent, add, subtract and scale vectors in 2D and 3D."
+lesson-order: 1
+booklet: "Sections 1–2 · Examples 1.1–1.3 and 2.1–2.4"
+homework: "1 · Exercise 9A"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_one-line.qmd >}}
+
+{{< include lesson-1/_a-turn.qmd >}}
+
+{{< include lesson-1/_mystery.qmd >}}
+
+{{< include lesson-1/_objective.qmd >}}
+
+{{< include lesson-1/_meaning.qmd >}}
+
+{{< include lesson-1/_notation.qmd >}}
+
+{{< include lesson-1/_equal.qmd >}}
+
+{{< include lesson-1/_special.qmd >}}
+
+{{< include lesson-1/_example-1-1.qmd >}}
+
+{{< include lesson-1/_example-1-2.qmd >}}
+
+{{< include lesson-1/_example-1-3.qmd >}}
+
+{{< include lesson-1/_addition.qmd >}}
+
+{{< include lesson-1/_example-2-1.qmd >}}
+
+{{< include lesson-1/_subtraction.qmd >}}
+
+{{< include lesson-1/_example-2-2.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_closed-path.qmd >}}
+
+{{< include lesson-1/_scaling.qmd >}}
+
+{{< include lesson-1/_example-2-3.qmd >}}
+
+{{< include lesson-1/_example-2-4-ab.qmd >}}
+
+{{< include lesson-1/_example-2-4-cd.qmd >}}
+
+{{< include lesson-1/_finish.qmd >}}
+
+{{< include lesson-1/_homework.qmd >}}

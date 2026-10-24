@@ -1,0 +1,13 @@
+## Adding vectors {#iv1-addition .vector-lesson}
+
+Place the **tail of the second vector at the head of the first**.
+
+<div data-vector="addition" class="v-interactive"></div>
+
+The resultant runs from the **starting point to the final point**.
+
+<div class="booklet-cue">Booklet §2.1 · p. 6 · Triangle and parallelogram laws</div>
+
+::: notes
+Begin with a and b tail-to-tail. Move b using the placement slider without resizing or rotating it, then reveal a+b. Switch to the parallelogram construction. Swap the order to see that the endpoint is unchanged: a+b=b+a. Ask students to predict the endpoint before revealing. The two constructions also work in 3D: non-parallel vectors placed tail-to-tail determine a plane; parallel vectors lie in any plane containing their common line. These are geometric operations, not component calculations.
+:::

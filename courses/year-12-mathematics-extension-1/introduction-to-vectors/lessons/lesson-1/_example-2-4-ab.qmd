@@ -1,0 +1,17 @@
+## Example 2.4 · (a)–(b) {#iv1-example-2-4-ab .vector-lesson}
+
+The diagram shows a rectangular prism $ABCDEFGH$, with $E$, $F$, $G$ and $H$ directly above $A$, $B$, $C$ and $D$, respectively. Let $\overrightarrow{AB}=\underset{\sim}{a}$, $\overrightarrow{AD}=\underset{\sim}{b}$ and $\overrightarrow{AE}=\underset{\sim}{c}$. The points $M$ and $N$ are the midpoints of $FG$ and $EH$.
+
+::: {.v-example-layout .v-prism-layout}
+<div>
+<p><strong>a)</strong> Express <span data-math="\overrightarrow{AF}"></span> and <span data-math="\overrightarrow{FM}"></span> in terms of <span data-math="\underset{\sim}{a}"></span>, <span data-math="\underset{\sim}{b}"></span> and <span data-math="\underset{\sim}{c}"></span>.</p>
+<p><strong>b)</strong> Hence find <span data-math="\overrightarrow{AM}"></span>.</p>
+</div>
+<div><img class="v-source-figure" src="../media/example-2-4.svg" alt="Original booklet rectangular prism ABCDEFGH with M on FG, N on EH, and base vectors a, b and c."></div>
+:::
+
+<div class="booklet-cue">Booklet Example 2.4(a)–(b) · p. 12</div>
+
+::: notes
+a) AF=a+c; FM=1/2 b. b) AM=a+1/2 b+c. Follow edges and known half-edges before trying to express a diagonal. The original prism and its labels are retained. Students can solve this using geometric reasoning, while vector notation packages the reasoning into expressions that do not depend on the edge lengths.
+:::

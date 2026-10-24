@@ -1,0 +1,25 @@
+---
+title: "Introduction to Vectors"
+description: "Represent and operate with vectors in two and three dimensions."
+metadata-files: [../../../_site-page.yml]
+topic-order: 1
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Extension 1</a></li><li><span aria-current="page">Introduction to Vectors</span></li></ol></nav>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Extension 1</p><h1>Introduction to Vectors</h1><p class="intro-copy">Bring algebraic reasoning to magnitude and direction, in two dimensions and three.</p><div class="topic-tags"><span>1 lesson available</span><span>2D and 3D vectors</span><span>Homework 1</span></div></header>
+<div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Draw, explain and calculate.</h2><p>Lesson 1 combines vector meaning and notation with geometric addition, subtraction and scaling. Use Sections 1–2 of the Introduction to Vectors booklet, complete the examples in class and follow the Homework 1 selection for your level.</p></div></div>
+```

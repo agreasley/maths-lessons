@@ -1,23 +1,21 @@
-## Example 2.6(a) · Ferris-wheel heights {#fgt2-ferris-constants .trig-lesson .application-lesson .application-dense}
+## Example 2.6(a) · Ferris-wheel heights {#fgt2-ferris-constants .trig-lesson .application-lesson .application-dense .ferris-intro}
 
-Anna is sitting in a carriage of a Ferris wheel which is revolving. The height, $A(t)$ in metres above the ground of the top of her carriage is given by:
-
-$$A(t)=c-k\cos\left(\frac{\pi t}{24}\right),$$
-
-where $t$ is the time in seconds after Anna's carriage first reaches the bottom of its revolution and $c$ and $k$ are constants.
+Anna is sitting in a carriage of a Ferris wheel which is revolving. The height, $A(t)$ in metres above the ground of the top of her carriage is given by: $A(t)=c-k\cos\left(\frac{\pi t}{24}\right)$, where $t$ is the time in seconds after Anna's carriage first reaches the bottom of its revolution and $c$ and $k$ are constants.
 
 The top of each carriage reaches a greatest height of 39 m and a smallest height of 3 m.
 
 **a)** Find the values of $c$ and $k$. **(2 marks)**
 
 ```{=html}
-<div data-periodic="ferris-constants" class="periodic-demo"></div>
+<div data-periodic="ferris" data-mode="constants" class="periodic-demo"></div>
 ```
 
 <p class="booklet-cue">Booklet p. 34 · Example 2.6 · HSC Advanced 2024 Q28 (Adapted)</p>
 
 ::: notes
 
-Preserve the booklet's c and k: here c is the blue midline value and k is the orange amplitude magnitude. This differs from the role of k in our general form y=a cos nt+k; do not silently rename the source question. Greatest height c+k=39; smallest c−k=3. Add: 2c=42, so c=21. Subtract: 2k=36, so k=18. At t=0, A(0)=21−18=3, so the negative cosine starts at the minimum. The comparison with the general form is a=−18, n=π/24, midline=21. Reveal constants after working in OneNote. Allow about 5 minutes.
+Preserve the booklet's c and k: here c is the blue midline value and k is the orange amplitude magnitude. This differs from the role of k in our general form y=a cos nt+k; do not silently rename the source question. Greatest height c+k=39; smallest c−k=3. Add: 2c=42, so c=21. Subtract: 2k=36, so k=18. At t=0, A(0)=21−18=3, so the negative cosine starts at the minimum. The comparison with the general form is a=−18, n=π/24, midline=21.
+
+Anna's wheel and curve are visible immediately. Drag Turn wheel to link her position to the graph. Orange vertical arrows measure A(t) from ground level to the top of the carriage, and from height zero to the curve. Both represent the same height in metres; the two drawings use different scales. The curve shows the given extremes, but no calculated midline, constants or numerical time scale. A static hint asks for the midline and amplitude; do the calculation in OneNote. There is no constants reveal. The drawing is schematic and its dot marks the top of the carriage. Allow about 5 minutes.
 
 :::

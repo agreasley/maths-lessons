@@ -31,6 +31,8 @@ homework: "4 · Exercise 7A · Selected questions"
 
 {{< include lesson-2/_ferris-shift.qmd >}}
 
+{{< include lesson-2/_cosine-equality.qmd >}}
+
 {{< include lesson-2/_ferris-equality.qmd >}}
 
 {{< include lesson-2/_finish.qmd >}}

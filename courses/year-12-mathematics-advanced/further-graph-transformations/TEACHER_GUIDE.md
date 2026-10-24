@@ -74,13 +74,13 @@ These selections consolidate two source homework sets for one lesson. The source
 
 ## Approved Lesson 2 approach
 
-Fourteen slides for approximately 60 minutes: cover; objective/success; static recap; amplitude/period hinge; Example 2.1; Example 2.2(a), (b), threshold preparation and (c); Example 2.6(a), (b), (c) shift and (c) equal heights; consolidation/homework. Work the algebra in OneNote and use the local graph controls after students predict or attempt each step. No external applet is needed.
+Fifteen slides for approximately 60 minutes: cover; objective/success; static recap; amplitude/period hinge; Example 2.1; Example 2.2(a), (b), threshold preparation and (c); Example 2.6(a), (b), (c) shift, a unit-circle explanation of equal cosines, and (c) equal heights; consolidation/homework. Work the algebra in OneNote and use the local graph controls after students predict or attempt each step. No external applet is needed.
 
 Objective: We are learning to solve practical problems using trigonometric models.
 
 Success criteria: I can form a trigonometric model and interpret its solutions in context.
 
-Suggested pacing: opening/recap/hinge 6 minutes; Example 2.1 5 minutes; Example 2.2 16 minutes; Example 2.6 21 minutes; consolidation/homework 3 minutes. Keep the remaining 9 minutes for discussion and student working.
+Suggested pacing: opening/recap/hinge 6 minutes; Example 2.1 5 minutes; Example 2.2 16 minutes; Example 2.6 including the unit-circle recap 25 minutes; consolidation/homework 3 minutes. Keep the remaining 5 minutes for discussion and student working.
 
 Continue the general form y=a cos nt+k and the Lesson 1 parameter colours. Preserve different letters when quoting the source: in Examples 2.1 and 2.2, b is the blue midline parameter; in Example 2.6, c is the blue midline and k is the orange amplitude magnitude. Explicitly explain these roles rather than changing the source notation.
 
@@ -104,7 +104,7 @@ Ready: continue to the parameter formulas. Divided: explain the two distances in
 
 Example 2.2(c): define u=8 arccos(−2/3)/π and v=16−u. The yacht cannot sail for u<t<v and u+16<t≤24. Threshold equality is excluded because the yacht needs **at least** 0.8 m. The endpoint t=24 is included because the tide is only 0.6 m there. Add the elapsed times to 5:00 am: the boundary times are approximately 10:51:29.65 am, 3:08:30.35 pm and 2:51:29.65 am next day. The slide rounds these to 10:51 am–3:09 pm, then 2:51 am–5:00 am next day, and labels them approximate. Do not treat the rounded boundaries as exact minute-by-minute sailing permissions. The second low-tide interval continues beyond the end of the requested window; truncate it at 5:00 am next day.
 
-Example 2.6(c): substitute c=21, k=18 and let θ=πt/24. Solve cos θ=cos(θ−π/4). The reflection branch θ=−(θ−π/4)+2mπ gives θ=π/8+mπ and t=3+24m; the other branch gives no integer m. Thus t=3 and 27 in a revolution 0≤t<48. Substitute into A(t): 21−18 cos(π/8)=4.3701684148… and 21+18 cos(π/8)=37.6298315852…. If formal general solutions are unfamiliar, use the symmetry of the curves to identify the times and verify them by substitution. The question asks for the two heights to 2 decimal places, not for the times alone. Keep the source attribution “HSC Advanced 2024 Q28 (Adapted)”.
+Example 2.6(c): substitute c=21, k=18 and set θ1=πt/24, θ2=π(t−6)/24=θ1−π/4. Equal cosines mean equal horizontal coordinates on the unit circle: either θ2=θ1+2mπ or θ2=−θ1+2mπ, for integer m. The first branch would require −π/4=2mπ and has no integer solution. The reflected branch gives θ1−π/4=−θ1+2mπ, hence θ1=π/8+mπ and t=3+24m. Thus t=3 and 27 in a revolution 0≤t<48. At t=3, the angles π/8 and −π/8 are in quadrants I and IV; at t=27, 9π/8 and 7π/8 are in quadrants III and II. Substitute into A(t): 21−18 cos(π/8)=4.3701684148… and 21+18 cos(π/8)=37.6298315852…. The question asks for the two heights to 2 decimal places, not for the times alone. Keep the source attribution “HSC Advanced 2024 Q28 (Adapted)”.
 
 ### Lesson 2 visual controls
 
@@ -114,8 +114,10 @@ Example 2.6(c): substitute c=21, k=18 and let θ=πt/24. Solve cos θ=cos(θ−�
 - Tide sketch: start with axes; reveal quarter-period points, then the curve. The elapsed-time slider is enabled only after the curve is shown.
 - Threshold preparation: start with the tide curve; show the 0.8 m threshold, then separately reveal all three crossings. Reset hides both. No interval shading appears on this slide.
 - Tide intervals: the threshold is visible from previous working. Reveal the below-threshold intervals, then separately reveal approximate clock times. Reset hides both answers. Open endpoints show excluded equality; t=24 is a closed endpoint. Dragging the marker updates height and rounded clock time.
+- Ferris constants (2.6a): Anna's wheel and height curve are visible immediately, with a Turn wheel slider and a static midline/amplitude hint. There is no constants reveal. The given extreme heights are labelled; the calculated midline and numerical period are left for the working. Matching orange arrows measure the carriage-top height from the ground and the curve height from zero. The wheel and graph use different drawing scales but represent the same height in metres.
 - Ferris period: a teacher reveal shows a static one-revolution graph and period arrow. Reset hides it.
-- Ferris shift: Anna starts visible; show Billie after predicting her 6-second delay. A single 0–48 second slider links the wheel's carriage-top markers and both height graphs. Reset restores t=0 with only Anna visible. Describe the right shift in words, without coordinate-mapping notation.
+- Ferris shift: Anna starts visible; show Billie after predicting her 6-second delay. A single 0–48 second slider links the wheel's carriage-top markers and both height graphs. Anna's orange height arrows remain visible on both representations. Reset restores t=0 with only Anna visible. Describe the right shift in words, without coordinate-mapping notation.
+- Equal cosines: a separate unit-circle slide between the Ferris shift and equal-height problem. Same angle puts both markers at one point; Reflected angle pairs points across the horizontal axis. The slider moves θ1 in steps of π/24, showing both I/IV and II/III quadrant pairs and the shared horizontal coordinate. The display uses positive angles in one revolution; 2π−θ1 is equivalent to −θ1. The two general rules include 2mπ for full turns, with m an integer. The diagram's cosine reading is rounded to three decimals. Reset restores θ1=π/3 and Same angle. Use the angle definitions alongside it to connect the picture to the next slide's algebra.
 - Ferris equal heights: both curves start visible. Reveal equal heights shows the results; Lower match and Upper match set the shared time to exactly 3 or 27 seconds. At those times a horizontal line joins the equal-height carriage tops. Reset hides results and match buttons and returns to t=0. The wheel is schematic; coloured dots represent carriage tops, not wheel-seat heights.
 
 All activities preserve their state when navigating away and back, unless Reset is pressed. There is no automatic animation or answer reveal. Controls work by click/touch and sliders also support keyboard arrows.

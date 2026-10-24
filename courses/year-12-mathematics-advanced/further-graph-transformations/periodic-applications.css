@@ -41,9 +41,10 @@
 .reveal [data-periodic="tide"][data-mode="intervals"] .periodic-plot { height:235px; }
 .reveal [data-periodic="tide"][data-mode="intervals"] .periodic-result { font-size:23px; min-height:81px; }
 .reveal [data-periodic="tide"][data-mode="intervals"] .periodic-live { font-size:21px; }
-.reveal [data-periodic="ferris-constants"] .periodic-result { font-size:26px; }
+.reveal .ferris-intro>p { font-size:24px; line-height:1.34; margin:10px 0; }
 .reveal .ferris-layout { display:grid; grid-template-columns:320px minmax(0,1fr); gap:24px; align-items:center; }
 .reveal .ferris-wheel { height:270px; }
+.reveal .ferris-wheel .periodic-svg-math { font-size:28px; }
 .reveal .ferris-graph { height:270px; }
 .reveal .ferris-legend { display:flex; gap:25px; font-size:22px; margin:0 0 5px; }
 .reveal .ferris-legend span { display:inline-flex; align-items:center; gap:9px; }
@@ -55,9 +56,27 @@
 .reveal .periodic-action-row .periodic-result { flex:1; font-size:22px; }
 .reveal [data-periodic="ferris"][data-mode="shift"] .ferris-wheel,
 .reveal [data-periodic="ferris"][data-mode="shift"] .ferris-graph { height:230px; }
+.reveal [data-periodic="ferris"][data-mode="constants"] .ferris-wheel,
+.reveal [data-periodic="ferris"][data-mode="constants"] .ferris-graph { height:220px; }
+.reveal [data-periodic="ferris"][data-mode="constants"] .periodic-action-row { margin-top:0; }
+.reveal [data-periodic="ferris"][data-mode="constants"] .periodic-result { min-height:46px; padding:7px 16px; font-size:24px; }
 .reveal [data-periodic="ferris"][data-mode="equality"] .ferris-wheel,
 .reveal [data-periodic="ferris"][data-mode="equality"] .ferris-graph { height:280px; }
 .reveal [data-periodic="ferris"][data-mode="shift"] .periodic-live { margin:0; }
+.reveal .unit-circle-layout { display:grid; grid-template-columns:530px minmax(0,1fr); gap:30px; align-items:start; }
+.reveal .unit-circle-plot { height:430px; }
+.reveal .unit-circle-explanation { font-size:25px; }
+.reveal .unit-circle-explanation p { margin:11px 0; }
+.reveal .unit-circle-explanation .periodic-controls { margin:0 0 15px; }
+.reveal .circle-reading { min-height:129px; }
+.reveal .circle-reading .periodic-note { font-size:22px; line-height:1.35; min-height:30px; }
+.reveal .circle-value { font-size:24px; }
+.reveal .circle-rules { display:flex; flex-direction:column; align-items:flex-start; gap:4px; padding-left:16px; font-size:26px; }
+.reveal .circle-rules>span:not(.math-token) { font-size:21px; color:var(--muted); }
+.reveal .circle-application { border-top:1px solid var(--rule); margin-top:16px; padding-top:12px; font-size:23px; }
+.reveal .circle-application p { margin:8px 0 0; }
+.reveal .unit-circle-layout .periodic-slider { margin-top:4px; }
+.reveal .unit-circle-layout .periodic-slider output { min-width:100px; }
 .reveal #fgt2-finish li,.reveal [data-preview-of="fgt2-finish"] li { font-size:28px; margin:10px 0; }
 .reveal #fgt2-finish .takeaway,.reveal [data-preview-of="fgt2-finish"] .takeaway { font-size:27px; margin:23px 0; padding:14px 18px; }
 .reveal #fgt2-finish table,.reveal [data-preview-of="fgt2-finish"] table { font-size:25px; margin:12px 0; }

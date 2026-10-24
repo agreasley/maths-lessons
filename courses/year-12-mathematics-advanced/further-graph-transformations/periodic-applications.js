@@ -16,7 +16,7 @@
   const mtext=(x,y,tex,w=150,h=40)=>`<foreignObject x="${x-w/2}" y="${y-h/2}" width="${w}" height="${h}"><div xmlns="http://www.w3.org/1999/xhtml" class="periodic-svg-math">${math(tex)}</div></foreignObject>`;
   const dot=(x,y,c=C.n,r=5,open=false)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${open?C.paper:c}" stroke="${c}" stroke-width="2.5"/>`;
   function arrow(x1,y1,x2,y2,c){
-    const a=Math.atan2(y2-y1,x2-x1),s=9;
+    const a=Math.atan2(y2-y1,x2-x1),s=Math.min(9,Math.hypot(x2-x1,y2-y1)*.35);
     const head=(x,y,t)=>`<path d="M${x+s*Math.cos(t-.45)},${y+s*Math.sin(t-.45)} L${x},${y} L${x+s*Math.cos(t+.45)},${y+s*Math.sin(t+.45)}" fill="none" stroke="${c}" stroke-width="3"/>`;
     return line(x1,y1,x2,y2,c,3)+head(x1,y1,a)+head(x2,y2,a+Math.PI);
   }
@@ -27,7 +27,7 @@
     xticks.forEach(t=>{body+=line(x(t),top,x(t),y(0))+text(x(t),y(0)+28,t);});
     yticks.forEach(v=>{body+=line(left,y(v),w-right,y(v))+text(left-14,y(v)+7,v,'end');});
     body+=line(left,top,left,y(0),C.ink,2)+line(left,y(0),w-right,y(0),C.ink,2);
-    body+=text(left,22,'Height (m)','start',C.muted,20)+mtext(w-right-58,h-16,`t\\text{ (${unit})}`,170,32);
+    body+=text(left,22,'Height (m)','start',C.muted,20)+mtext(w-right-58,h-16,unit?`t\\text{ (${unit})}`:'t',170,32);
     const path=(fn,c=C.n,width=3.5,from=0,to=xmax)=>{
       const points=Array.from({length:401},(_,i)=>{const t=from+(to-from)*i/400;return `${i?'L':'M'}${x(t).toFixed(2)},${y(fn(t)).toFixed(2)}`;}).join(' ');
       return `<path d="${points}" fill="none" stroke="${c}" stroke-width="${width}" stroke-linejoin="round"/>`;
@@ -119,10 +119,6 @@
     m.querySelector('.periodic-reset').addEventListener('click',()=>{time=0;stage=0;threshold=mode==='intervals';cross=false;shade=false;showClock=false;slider.value='0';draw();});
     draw();
   }
-  function ferrisConstants(m){
-    simpleReveal(m,{button:'Reveal constants',initial:'Use the greatest and smallest heights. Check the height at '+math('t=0')+'.',
-      answer:`${math(colour('c=21',C.k))} &nbsp; · &nbsp; ${math(colour('k=18',C.a))} &nbsp; · &nbsp; ${math('A(0)=21-18=3\\text{ m}')}<br><span class="result-small">In this question, ${math('c')} is the midline and ${math('k')} is the amplitude.</span>`});
-  }
   function ferrisPeriod(m){
     m.innerHTML=`${controls('Reveal one revolution')}<div class="periodic-result" aria-live="polite">Find the time from the bottom, through the top, back to the bottom.</div><div class="periodic-graph"></div>`;
     const button=m.querySelector('.periodic-reveal'),result=m.querySelector('.periodic-result'),graph=m.querySelector('.periodic-graph');
@@ -146,36 +142,42 @@
     }
     s+=dot(cx,cy,C.muted,4)+text(13,sy(39)+6,'39','start',C.muted,19)+text(13,sy(3)+6,'3','start',C.muted,19)+text(13,ground+23,'Ground','start',C.muted,18);
     if(matching)s+=line(30,sy(anna(time)),307,sy(anna(time)),C.a,2,'6 5');
+    const ax=cx+r*Math.sin(Math.PI*time/24),ay=sy(anna(time));
+    s+=`<g class="anna-height" data-height="${anna(time)}">${line(ax,ay,315,ay,C.a,1.5,'5 4')}${line(300,ground,326,ground,C.muted,2)}${arrow(315,ground,315,ay,C.a)}${mtext(360,(ground+ay)/2,colour('A(t)',C.a),82,38)}</g>`;
     const carriage=(phase,c,label)=>{
       const angle=Math.PI*phase/24,x=cx+r*Math.sin(angle),y=cy+r*Math.cos(angle);
       return `<rect x="${x-11}" y="${y}" width="22" height="16" rx="3" fill="${C.paper}" stroke="${c}" stroke-width="2"/>`+dot(x,y,c,5)+text(x+(x<cx?-20:20),y-9,label,x<cx?'end':'start',c,22);
     };
     s+=carriage(time,C.n,'A');if(showBillie)s+=carriage(time-6,C.billie,'B');
-    return svg(s,330,325,'Schematic Ferris wheel. Coloured dots mark the tops of Anna’s and Billie’s carriages.','ferris-wheel');
+    return svg(s,405,325,'Schematic Ferris wheel. The orange vertical arrow measures Anna’s carriage-top height above the ground.','ferris-wheel');
   }
   function ferrisDemo(m){
-    const equality=m.dataset.mode==='equality';
+    const equality=m.dataset.mode==='equality',constants=m.dataset.mode==='constants';
     let time=0,showBillie=equality,revealed=false;
     m.innerHTML=`<div class="ferris-layout"><div class="ferris-picture"></div><div><div class="ferris-legend"><span class="anna"><i></i>Anna</span><span class="billie"><i></i>Billie</span></div><div class="periodic-graph"></div></div></div>
-      <div class="periodic-slider"><label>Time</label><input type="range" min="0" max="48" step="0.1" value="0" aria-label="Time in seconds since Anna first reaches the bottom"><output></output></div>
-      <div class="periodic-action-row">${controls(equality?'Reveal equal heights':'Show Billie',equality?'<button class="match-lower" hidden>Lower match</button><button class="match-upper" hidden>Upper match</button>':'')}
+      <div class="periodic-slider"><label>${constants?'Turn wheel':'Time'}</label><input type="range" min="0" max="48" step="0.1" value="0" aria-label="${constants?'Anna’s position in one revolution':'Time in seconds since Anna first reaches the bottom'}"><output></output></div>
+      <div class="periodic-action-row">${constants?'':controls(equality?'Reveal equal heights':'Show Billie',equality?'<button class="match-lower" hidden>Lower match</button><button class="match-upper" hidden>Upper match</button>':'')}
       <div class="periodic-result" aria-live="polite"></div></div>`;
     const graph=m.querySelector('.periodic-graph'),picture=m.querySelector('.ferris-picture'),slider=m.querySelector('input'),out=m.querySelector('output'),button=m.querySelector('.periodic-reveal'),result=m.querySelector('.periodic-result');
     function draw(){
-      const p=plot({w:760,h:equality?280:240,xmax:48,ymax:44,xticks:[0,12,24,36,48],yticks:[3,21,39],unit:'seconds',left:60,right:25,top:35,bottom:50});
-      let s=p.body+p.path(anna)+line(p.left,p.y(21),p.w-p.right,p.y(21),C.k,1.5,'8 6');
+      const p=plot({w:760,h:equality?280:240,xmax:48,ymax:44,xticks:constants?[0]:[0,12,24,36,48],yticks:constants?[3,39]:[3,21,39],unit:constants?'':'seconds',left:60,right:25,top:35,bottom:50});
+      let s=p.body+p.path(anna);
+      if(!constants)s+=line(p.left,p.y(21),p.w-p.right,p.y(21),C.k,1.5,'8 6');
       if(showBillie)s+=p.path(billie,C.billie);
       if(!equality&&showBillie){s+=arrow(p.x(0),p.y(8),p.x(6),p.y(8),C.a)+text(p.x(3),p.y(8)-12,'6 s','middle',C.a,20);}
       if(revealed)[3,27].forEach(t=>{s+=dot(p.x(t),p.y(anna(t)),C.a,6,true);});
-      s+=line(p.x(time),p.y(0),p.x(time),p.y(42),C.muted,1.4,'4 5')+dot(p.x(time),p.y(anna(time)),C.n,6);
+      const heightY=p.y(anna(time)),labelX=p.x(time)+(time<24?45:-45),labelY=Math.min((p.y(0)+heightY)/2,p.y(0)-24);
+      s+=`<g class="anna-height" data-height="${anna(time)}">${arrow(p.x(time),p.y(0),p.x(time),heightY,C.a)}<rect x="${labelX-38}" y="${labelY-16}" width="76" height="32" rx="4" fill="${C.paper}" opacity=".9"/>${mtext(labelX,labelY,colour('A(t)',C.a),76,32)}</g>`+dot(p.x(time),heightY,C.n,6);
       if(showBillie)s+=dot(p.x(time),p.y(billie(time)),C.billie,6);
       graph.innerHTML=svg(s,p.w,p.h,'Carriage height against time over a 48-second revolution','ferris-graph');
       picture.innerHTML=wheel(time,showBillie,revealed&&Math.abs(anna(time)-billie(time))<1e-8);
       m.querySelector('.ferris-legend .billie').hidden=!showBillie;
-      out.innerHTML=math(`t=${time.toFixed(1)}\\text{ s}`);
-      m.querySelector('.ferris-legend .anna').innerHTML=`<i></i>Anna: ${math(`${anna(time).toFixed(2)}\\text{ m}`)}`;
+      out.innerHTML=math(constants?`A(t)=${anna(time).toFixed(2)}\\text{ m}`:`t=${time.toFixed(1)}\\text{ s}`);
+      m.querySelector('.ferris-legend .anna').innerHTML=constants?'<i></i>Anna':`<i></i>Anna: ${math(`${anna(time).toFixed(2)}\\text{ m}`)}`;
       m.querySelector('.ferris-legend .billie').innerHTML=`<i></i>Billie: ${math(`${billie(time).toFixed(2)}\\text{ m}`)}`;
-      if(equality){
+      if(constants){
+        result.innerHTML='Hint: What are the <span class="parameter-k">midline</span> and <span class="parameter-a">amplitude</span>?';
+      }else if(equality){
         result.innerHTML=revealed?`${math('t=3\\text{ s}')} → <strong>4.37 m</strong> &nbsp; · &nbsp; ${math('t=27\\text{ s}')} → <strong>37.63 m</strong><br><span class="result-small">The question asks for the two heights.</span>`:`Find the intersections: ${math('A(t)=B(t)')}. Then calculate the heights.`;
         m.querySelector('.match-lower').hidden=!revealed;m.querySelector('.match-upper').hidden=!revealed;
         button.hidden=revealed;
@@ -185,14 +187,62 @@
       }
       typeset(m);
     }
-    button.addEventListener('click',()=>{if(equality)revealed=true;else showBillie=true;draw();});
+    button?.addEventListener('click',()=>{if(equality)revealed=true;else showBillie=true;draw();});
     slider.addEventListener('input',()=>{time=Number(slider.value);draw();});
     slider.addEventListener('keydown',e=>e.stopPropagation());
     if(equality){
       m.querySelector('.match-lower').addEventListener('click',()=>{time=3;slider.value='3';draw();});
       m.querySelector('.match-upper').addEventListener('click',()=>{time=27;slider.value='27';draw();});
     }
-    m.querySelector('.periodic-reset').addEventListener('click',()=>{time=0;showBillie=equality;revealed=false;slider.value='0';draw();});
+    m.querySelector('.periodic-reset')?.addEventListener('click',()=>{time=0;showBillie=equality;revealed=false;slider.value='0';draw();});
+    draw();
+  }
+  function cosineEquality(m){
+    let step=8,reflected=false;
+    const theta1=colour('\\theta_1',C.n),theta2=colour('\\theta_2',C.billie);
+    const fraction=n=>{let a=n,b=24;while(b){const r=a%b;a=b;b=r;}const top=n/a,bottom=24/a;return bottom===1?(top===1?'\\pi':`${top}\\pi`):`\\frac{${top===1?'':top}\\pi}{${bottom}}`;};
+    m.innerHTML=`<div class="unit-circle-layout"><div><div class="unit-circle-picture"></div><div class="periodic-slider"><label>${math(theta1)}</label><input type="range" min="1" max="47" step="1" value="8" aria-label="First angle in steps of pi over 24"><output></output></div></div>
+      <div class="unit-circle-explanation"><div class="periodic-controls"><button class="circle-same" aria-pressed="true">Same angle</button><button class="circle-reflected" aria-pressed="false">Reflected angle</button><button class="circle-reset">Reset</button></div>
+      <div class="circle-reading" aria-live="polite"></div><div class="periodic-result circle-value"></div>
+      <p>Adding full turns gives both families:</p><div class="circle-rules">${math(`${theta2}=${theta1}+2m\\pi`)}<span>or</span>${math(`${theta2}=-${theta1}+2m\\pi,\\quad m\\in\\mathbb Z`)}</div>
+      <div class="circle-application"><strong>For Example 2.6(c)</strong><p>${math(`${theta1}=\\frac{\\pi t}{24},\\qquad ${theta2}=\\frac{\\pi(t-6)}{24}`)}</p></div></div></div>`;
+    const slider=m.querySelector('input'),picture=m.querySelector('.unit-circle-picture');
+    const arc=(cx,cy,r,end,c)=>{
+      const n=100,d=Array.from({length:n+1},(_,i)=>{const t=end*i/n;return `${i?'L':'M'}${cx+r*Math.cos(t)},${cy-r*Math.sin(t)}`;}).join(' ');
+      const ex=cx+r*Math.cos(end),ey=cy-r*Math.sin(end),heading=-end-Math.PI/2,s=7;
+      return `<path d="${d}" fill="none" stroke="${c}" stroke-width="2.5"/><path d="M${ex-s*Math.cos(heading-.45)},${ey-s*Math.sin(heading-.45)} L${ex},${ey} L${ex-s*Math.cos(heading+.45)},${ey-s*Math.sin(heading+.45)}" fill="none" stroke="${c}" stroke-width="2.5"/>`;
+    };
+    function draw(){
+      const t1=step*Math.PI/24,t2=reflected?TAU-t1:t1,x=Math.cos(t1),y=Math.sin(t1),cx=265,cy=225,r=165,px=cx+r*x,py1=cy-r*y,py2=cy-r*Math.sin(t2),same=Math.abs(py1-py2)<1e-8;
+      let s=line(48,cy,482,cy,C.muted,1.6)+line(cx,20,cx,427,C.muted,1.6);
+      s+=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.grid}" stroke-width="3"/>`;
+      s+=text(cx-13,cy+25,'0','end',C.muted,20)+text(cx+r+12,cy+24,'1','middle',C.muted,20)+text(cx-r-18,cy+24,'−1','middle',C.muted,20)+text(cx+15,cy-r-10,'1','start',C.muted,20)+text(cx+15,cy+r+20,'−1','start',C.muted,20);
+      s+=mtext(493,cy,'x',32)+mtext(cx,11,'y',32);
+      s+=line(px,py1,px,reflected?py2:cy,C.a,2,'6 5');
+      s+=line(cx,cy,px,cy,C.a,5)+line(px,cy-7,px,cy+7,C.a,2);
+      s+=line(cx,cy,px,py1,C.n,3)+arc(cx,cy,46,t1,C.n);
+      if(reflected)s+=line(cx,cy,px,py2,C.billie,3);
+      s+=arc(cx,cy,68,t2,C.billie);
+      s+=`<circle class="circle-point-1" cx="${px}" cy="${py1}" r="${same?9:6}" fill="${same?C.paper:C.n}" stroke="${C.n}" stroke-width="3"/>`;
+      s+=`<circle class="circle-point-2" cx="${px}" cy="${py2}" r="${same?4:6}" fill="${C.billie}" stroke="${C.billie}" stroke-width="2"/>`;
+      const label=(angle,tex)=>{
+        const sine=Math.sin(angle),offset=Math.max(44,Math.abs((r+31)*sine));
+        return mtext(cx+(r+31)*Math.cos(angle),cy-(sine>=0?offset:-offset),tex,125,38);
+      };
+      s+=label(t1,same?`${theta1}=${theta2}`:theta1);if(!same)s+=label(t2,theta2);
+      picture.innerHTML=svg(s,530,450,'Unit circle: the two angles have the same horizontal coordinate and therefore the same cosine.','unit-circle-plot');
+      m.querySelector('output').innerHTML=math(fraction(step));
+      m.querySelector('.circle-same').setAttribute('aria-pressed',String(!reflected));m.querySelector('.circle-reflected').setAttribute('aria-pressed',String(reflected));
+      const quadrant=step===12||step===36?'The points lie on the vertical axis.':step===24?'On the horizontal axis, the reflected points coincide.':x>0?'Quadrants I and IV have the same positive cosine.':'Quadrants II and III have the same negative cosine.';
+      m.querySelector('.circle-reading').innerHTML=`<p><strong>${reflected?'Reflection in the horizontal axis':'The same point on the circle'}</strong></p><p>${math(`${theta2}=${reflected?`2\\pi-${theta1}`:theta1}=${fraction(reflected?48-step:step)}`)}</p><p class="periodic-note">${reflected?quadrant:'Both angles end at the same point.'}</p>`;
+      const value=Math.abs(x)<1e-10?'0':x.toFixed(3);
+      m.querySelector('.circle-value').innerHTML=`Same horizontal coordinate:<br>${math(`\\cos${theta1}=\\cos${theta2}${Math.abs(x)<1e-10?'=':'\\approx'}${value}`)}`;
+      typeset(m);
+    }
+    m.querySelector('.circle-same').addEventListener('click',()=>{reflected=false;draw();});
+    m.querySelector('.circle-reflected').addEventListener('click',()=>{reflected=true;draw();});
+    m.querySelector('.circle-reset').addEventListener('click',()=>{step=8;reflected=false;slider.value='8';draw();});
+    slider.addEventListener('input',()=>{step=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());
     draw();
   }
   function init(){
@@ -200,7 +250,7 @@
     document.querySelectorAll('[data-periodic]').forEach(m=>{
       if(m.dataset.periodicReady)return;
       m.dataset.periodicReady='true';
-      ({recap:el=>{el.innerHTML=featureDiagram();},parameters,tide:tideDemo,'ferris-constants':ferrisConstants,'ferris-period':ferrisPeriod,ferris:ferrisDemo}[m.dataset.periodic])?.(m);
+      ({recap:el=>{el.innerHTML=featureDiagram();},parameters,tide:tideDemo,'ferris-period':ferrisPeriod,ferris:ferrisDemo,'cosine-equality':cosineEquality}[m.dataset.periodic])?.(m);
     });
     typeset(document);
   }

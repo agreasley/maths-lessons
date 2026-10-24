@@ -1,0 +1,15 @@
+## Equal distances · Different meanings {#fgt3-scales .trig-lesson .log-lesson}
+
+**Linear:** equal differences.  **Logarithmic:** equal ratios.
+
+```{=html}
+<div data-log="scales" class="log-demo"></div>
+```
+
+<p class="log-note">The two markers represent the same value. A logarithmic axis represents strictly positive values.</p>
+
+::: notes
+
+Start at 100 and use ×10 to move to 1000, then 10000. The markers move together as values, but only the logarithmic marker travels equal distances. Use ÷10 to reverse the changes. The slider is evenly spaced in the exponent and ranges from 10^0 to 10^4; its positions are not evenly spaced numerical values on the linear axis. The linear axis includes zero; the log axis begins at 1 and cannot include zero. Both axes end at 10000. The comparison follows the two scales in Section 3.1. Return to 100 with Reset. Allow about 3 minutes.
+
+:::

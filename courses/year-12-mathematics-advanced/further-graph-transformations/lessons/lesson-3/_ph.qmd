@@ -1,0 +1,28 @@
+## Example 3.5 · The pH scale {#fgt3-ph .trig-lesson .log-lesson .log-application}
+
+::: {.log-model}
+$$\mathrm{pH}=-\log_{10}\!\left(\frac{[\mathrm H^+]}{1\ \mathrm{mol/L}}\right)$$
+$[\mathrm H^+]$ is hydrogen-ion concentration; lower pH means higher concentration.
+:::
+
+Using the pH model:
+
+::: {.log-questions}
+**a)** Find the pH of a substance with a hydrogen ion concentration of $10^{-3}\ \mathrm{mol/L}$.
+
+**b)** Black coffee has a pH of approximately 5.2. Calculate its hydrogen ion concentration, leaving your answer in scientific notation correct to two significant figures.
+
+**c)** Solution X has a pH of 3 and Solution Y has a pH of 5. Which solution is more acidic (has a higher hydrogen ion concentration), and by what multiplicative factor?
+:::
+
+::: {.log-hint}
+**Hint:** The negative sign reverses the direction of the scale.
+:::
+
+<p class="booklet-cue">Booklet p. 44 · Example 3.5</p>
+
+::: notes
+
+Use the supplied dilute-solution concentration model. (a) pH=−log10(10^-3)=3. (b) [H+]=10^-5.2 mol/L≈6.3095734×10^-6 mol/L, giving 6.3×10^-6 mol/L to 2 significant figures. (c) X is more acidic: [H+]X/[H+]Y=10^-3/10^-5=100. An increase of 1 in pH multiplies concentration by 0.1; a decrease of 1 multiplies it by 10. Positive concentrations may give zero or negative scale readings; do not confuse a logarithmic axis with a scale reading calculated using a logarithm. Allow about 6 minutes.
+
+:::

@@ -1,0 +1,15 @@
+## Today's learning {#fgt3-objective .trig-lesson .log-lesson}
+
+### Lesson objective
+
+We are learning to interpret logarithmic scales and solve problems involving them.
+
+### Success criteria
+
+I can connect differences in logarithmic readings to ratios of the underlying quantities.
+
+::: notes
+
+Approximately 60 minutes. Students already know logarithms, index laws and scientific notation. Keep the recap brief. Use the models supplied in the booklet, complete the algebra in OneNote and distinguish the scale reading from the physical quantity throughout.
+
+:::

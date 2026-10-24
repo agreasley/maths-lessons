@@ -5,6 +5,7 @@ format:
       - ../../../../assets/lesson.css
       - ../trig-graphs.css
       - ../periodic-applications.css
+      - ../logarithmic-scales.css
     include-in-header:
       text: |
         <meta name="lesson-topic-url" content="../index.html">
@@ -13,6 +14,7 @@ format:
         <script src="../../../../assets/lesson.js"></script>
         <script src="../trig-graphs.js"></script>
         <script src="../periodic-applications.js"></script>
+        <script src="../logarithmic-scales.js"></script>
     width: 1280
     height: 800
     margin: 0.09

@@ -1,0 +1,32 @@
+## Example 3.1(b–c) · Midpoints and range {#fgt3-midpoint .trig-lesson .log-lesson}
+
+:::: {.log-midpoint-layout}
+::: {.column-block}
+
+**b)** Find the exact numerical value that lies exactly halfway between 10 and 100 on a logarithmic scale. Contrast this with the arithmetic midpoint on a linear scale.
+
+```{=html}
+<div data-log="midpoint" class="log-demo"></div>
+```
+
+:::
+::: {.column-block}
+
+**c)** A scientist is measuring the masses of various cells and viruses ranging from $10^{-6}$ g to $10^6$ g. Justify why a logarithmic scale is more appropriate than a linear scale for plotting these masses.
+
+::: {.log-hint}
+**Hint:** Compare the exponents at the two ends of the range.
+:::
+
+:::
+::::
+
+<p class="booklet-cue">Booklet p. 40 · Example 3.1(b–c)</p>
+
+::: notes
+
+Work the midpoint in OneNote before using Show midpoints. A midpoint on the logarithmic axis has log10(x)=(1+2)/2=3/2, so x=10^(3/2)=10√10=√1000≈31.6227766. Its ratio to 10 equals the ratio of 100 to it: √10. The linear midpoint is (10+100)/2=55. The two diagrams use equal physical lengths, with separate labels for their scales. Reset hides both midpoint values.
+
+For (c), retain the supplied hypothetical range. It spans 12 orders of magnitude, with largest-to-smallest ratio 10^12. A linear scale large enough for 10^6 g crowds small masses near zero; a logarithmic scale allocates equal space to equal ratios and makes relative comparisons readable. All masses are positive. Allow about 5 minutes.
+
+:::

@@ -1,12 +1,10 @@
-## Homework {#fgt1-homework .trig-lesson}
+## Homework 1 {#fgt1-homework .trig-lesson}
 
-Selected questions from **Homework 1–2 · Exercise 7A**.
+**Trigonometric transformations, equations and graphical analysis**
 
 | Level | Questions |
 |---|---|
-| Mild | Q2, Q4, Q5, Q8 — alternate parts |
-| Medium | Q3, Q4, Q5, Q8, Q9 — alternate parts |
-| Spicy | Q5, Q7, Q9, Q10 — all parts |
+| Spicy | Exercise 7A Q6(a), Q7(a,c), Q8(b,c), Q9(b), Q10–12, Q18–21 |
 
 ::: {.takeaway}
 Show the period and your horizontal scale before completing each sketch.
@@ -14,6 +12,6 @@ Show the period and your horizontal scale before completing each sketch.
 
 ::: notes
 
-These are consolidated subsets of the corresponding Homework 1 and 2 tiers in the supplied booklet, rather than two complete homework allocations. The source is the supplied Extension-version booklet using Cambridge Extension 1 Exercise 7A, although the teaching course is Year 12 Mathematics Advanced. Retain these references; do not invent an Advanced-edition mapping. Lesson 2 covers periodic applications; Lesson 3 is planned. Non-periodic modelling from Section 2.2 is outside this approved lesson.
+Use the exact Homework 1 selection in the user's replacement Homework Summary image supplied on 24 October 2026. Only Spicy has questions in that image; no Mild or Medium allocations have been inferred. This replaces the earlier consolidated Homework 1–2 allocation. Retain the supplied exercise and part references. Lesson 2 covers periodic applications and Lesson 3 covers logarithmic scales.
 
 :::

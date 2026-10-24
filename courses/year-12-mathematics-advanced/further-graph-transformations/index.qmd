@@ -17,7 +17,7 @@ listing:
   <p class="eyebrow">Year 12 Mathematics Advanced</p>
   <h1>Further Graph Transformations</h1>
   <p class="intro-copy">Use familiar graphs to sketch, model and interpret changing quantities.</p>
-  <div class="topic-tags"><span>2 lessons available</span><span>Trigonometric graphs and applications</span><span>Homework 1–2 and 4</span></div>
+  <div class="topic-tags"><span>3 lessons available</span><span>Trigonometric graphs and logarithmic scales</span><span>Homework 1–3</span></div>
 </header>
 <div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
 ```
@@ -26,5 +26,5 @@ listing:
 :::
 
 ```{=html}
-<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Sketch, model and interpret.</h2><p>Lesson 1 introduces amplitude and period, then develops a sketching method through Examples 1.8, 1.9, 1.15 and 1.19. Lesson 2 uses Examples 2.1, 2.2 and 2.6 to model tides and Ferris-wheel heights. Complete the working in your booklet and use the selected homework questions to practise.</p></div></div>
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Sketch, model and interpret.</h2><p>Lesson 1 introduces amplitude and period, then develops a sketching method through Examples 1.8, 1.9, 1.15 and 1.19. Lesson 2 uses Examples 2.1, 2.2 and 2.6 to model tides and Ferris-wheel heights. Lesson 3 uses Examples 3.1–3.7 to interpret logarithmic scales and compare sound intensity, earthquake amplitude, stellar brightness and hydrogen-ion concentration. Complete the working in your booklet and use the Homework 1–3 selections to practise.</p></div></div>
 ```

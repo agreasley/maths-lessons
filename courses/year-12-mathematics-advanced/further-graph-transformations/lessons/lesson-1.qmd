@@ -4,7 +4,7 @@ lesson-title: "Sketching trigonometric graphs"
 description: "Define amplitude and period, then sketch modified sine, cosine and tangent graphs using key points and asymptotes."
 lesson-order: 1
 booklet: "Sections 1.1–1.5 · Examples 1.8, 1.9, 1.15, 1.19"
-homework: "1–2 · Exercise 7A · Selected questions"
+homework: "1 · Exercise 7A · Spicy"
 ---
 
 {{< include lesson-1/_opening.qmd >}}

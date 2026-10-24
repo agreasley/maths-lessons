@@ -1,0 +1,23 @@
+## Key ideas and homework {#fgt3-finish .trig-lesson .log-lesson}
+
+1. Equal distances on a log axis represent equal ratios.
+2. A difference in readings gives a multiplier of the underlying quantity.
+3. Check the sign, the order of comparison and the units.
+
+::: {.takeaway}
+I can connect differences in logarithmic readings to ratios of the underlying quantities.
+:::
+
+**Homework 3 · Non-periodic models and logarithmic scales · Spicy**
+
+| Exercise | Questions |
+|---|---|
+| 5A | Q16–17 |
+| 8E | Q16, Q19, Q20(b–d), Q21 |
+| 6A | Q15(a,b,d), Q16–17, Q22 |
+
+::: notes
+
+These are the exact Homework 3 questions from the user's replacement Homework Summary image supplied on 24 October 2026. It supersedes Homework 6 from the earlier booklet. Only Spicy has questions in the replacement image; do not invent Mild or Medium sets. Retain the supplied exercise references. The assignment includes non-periodic-model revision as well as logarithmic scales; this approved lesson teaches Section 3, Examples 3.1–3.7. Allow about 3 minutes.
+
+:::

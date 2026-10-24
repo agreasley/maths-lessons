@@ -1,0 +1,17 @@
+## Example 3.7 · Why do ratios repeat? {#fgt3-reason .trig-lesson .log-lesson}
+
+Using the table and your knowledge of logarithms, explain mathematically why equal differences in scale readings (e.g., pH 3 to 5, or magnitude 4 to 6) always correspond to equal ratios of their underlying quantities.
+
+```{=html}
+<div data-log="reason" class="log-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 45 · Example 3.7</p>
+
+::: notes
+
+Start from S=c log10(Q/Q0), with Q,Q0>0 and fixed nonzero c. Let Q1 and Q2 be two quantities measured using the same reference Q0. Subtract the readings, use the quotient law and convert to exponential form. S2−S1=c log10(Q2/Q1), so Q2/Q1=10^((S2−S1)/c). The ratio therefore depends only on the difference in readings and the model coefficient c, not the starting value of Q. Keep the order of subtraction consistent with the numerator and denominator.
+
+The first click shows subtraction of the two readings; the second combines the logarithms; the third gives the ratio and conclusion. Previous step and Reset allow teaching the argument in OneNote before the class checks it. The coefficients c are 10, 1, −2.5 and −1 for the four models. Equal numerical differences across different scales need not produce the same multiplier; c must be fixed. Allow about 5 minutes.
+
+:::

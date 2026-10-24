@@ -1,0 +1,28 @@
+## Example 3.3 · Earthquake magnitude {#fgt3-earthquakes .trig-lesson .log-lesson .log-application}
+
+::: {.log-model}
+$$M=\log_{10}\!\left(\frac{A}{A_0}\right),\qquad A,A_0>0$$
+A simplified model comparing amplitude $A$ with a reference amplitude $A_0$.
+:::
+
+Using the amplitude magnitude model:
+
+::: {.log-questions}
+**a)** Two earthquakes have magnitudes of $M=4$ and $M=6$. Calculate the ratio of their amplitudes.
+
+**b)** If an earthquake has an amplitude 1000 times greater than another, what is the difference in their magnitudes?
+
+**c)** A major earthquake measured 7.2 on the scale, and an aftershock measured 5.8. Determine the amplitude ratio between the major earthquake and the aftershock, correct to one decimal place.
+:::
+
+::: {.log-hint}
+**Hint:** Label which amplitude is in the numerator before comparing.
+:::
+
+<p class="booklet-cue">Booklet p. 42 · Example 3.3</p>
+
+::: notes
+
+Use the supplied simplified amplitude model with the same baseline A0 for both earthquakes. (a) A6/A4=10^(6−4)=100, so the magnitude-6 amplitude is 100 times the magnitude-4 amplitude. (b) ΔM=log10(1000)=3. (c) Amajor/Aaftershock=10^(7.2−5.8)=10^1.4≈25.1188643, giving 25.1:1. These are amplitude ratios, not energy ratios. Do not introduce an energy multiplier into this question. All model answers stay in the presenter notes. Allow about 6 minutes.
+
+:::

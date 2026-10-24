@@ -1,0 +1,15 @@
+## Example 3.6 · Compare the models {#fgt3-comparison .trig-lesson .log-lesson}
+
+Complete the summary table below to consolidate the properties of the four logarithmic scales covered in this lesson. For the last column, determine the multiplicative effect on the underlying physical quantity when the scale measurement increases by 1 unit.
+
+```{=html}
+<div data-log="comparison" class="log-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 45 · Example 3.6</p>
+
+::: notes
+
+Give students time to fill the last column before revealing one row at a time. The four multipliers are: decibels, 10^(1/10)≈1.258925 (about ×1.259); seismic amplitude, 10; stellar brightness, 10^(-1/2.5)=10^-0.4≈0.398107 (about ×0.398); hydrogen-ion concentration, 10^-1=0.1. Negative coefficients mean a higher reading corresponds to a smaller physical quantity. The factors act on the underlying quantity, not on the scale reading itself. Use Previous row and Reset to revisit. The pH table retains the booklet's shorthand, where [H+] denotes the numerical concentration in mol/L. Allow about 5 minutes.
+
+:::

@@ -1,0 +1,21 @@
+## Example 3.1(a) · Read the scale {#fgt3-positions .trig-lesson .log-lesson}
+
+Consider a standard base-10 logarithmic scale.
+
+**a)** Estimate the positions of 2, 5, 20, and 50 on a base-10 logarithmic axis.
+
+```{=html}
+<div data-log="positions" class="log-demo"></div>
+```
+
+::: {.log-hint}
+**Hint:** Where do their logarithms lie between consecutive integers?
+:::
+
+<p class="booklet-cue">Booklet p. 40 · Example 3.1(a)</p>
+
+::: notes
+
+Keep all four answer points hidden while students estimate. Show 2, then 5, then 20, then 50 using the local button. Previous point and Reset allow revisiting the construction. Positions are proportional to log10(value): log10(2)=0.3010299957, log10(5)=0.6989700043, log10(20)=1.3010299957, log10(50)=1.6989700043. Thus 2 is about 30.1% of the way from 1 to 10, and 5 about 69.9%; 20 and 50 repeat those positions in the next decade. The 1–10 and 10–100 intervals have equal length, so multiplying either value by 10 moves it one complete interval. Allow about 4 minutes.
+
+:::

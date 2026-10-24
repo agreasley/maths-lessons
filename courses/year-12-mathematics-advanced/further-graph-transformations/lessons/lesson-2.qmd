@@ -4,7 +4,7 @@ lesson-title: "Trigonometric applications"
 description: "Build periodic models from maximum, minimum and period, then interpret tide intervals and Ferris-wheel heights."
 lesson-order: 2
 booklet: "Section 2.1 · Examples 2.1, 2.2, 2.6"
-homework: "4 · Exercise 7A · Selected questions"
+homework: "2 · Exercise 7A · Spicy"
 ---
 
 {{< include lesson-2/_opening.qmd >}}

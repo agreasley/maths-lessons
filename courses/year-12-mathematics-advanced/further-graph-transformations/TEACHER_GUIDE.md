@@ -2,9 +2,9 @@
 
 ## Course and source priority
 
-Year 12 Mathematics Advanced. The topic is planned as three lessons: (1) sketching trigonometric graphs, (2) periodic applications, (3) logarithmic scales. Lessons 1 and 2 are implemented; Lesson 3 is planned.
+Year 12 Mathematics Advanced. The topic is planned as three lessons: (1) sketching trigonometric graphs, (2) periodic applications, (3) logarithmic scales. All three lessons are implemented.
 
-Primary source: the supplied `12 MAX Further Graph Transformations.pdf` (latest supplied version, 24 October 2026), 51 PDF pages including preliminaries. The original Lesson 1 source was `12MA Further Graph Transformations.pdf`; the Lesson 2 prompts and homework below were checked against the latest file. Page references below are printed booklet page numbers. The cover says Year 12 Mathematics Extension and the homework uses Cambridge Extension 1 references. Retain that supplied reference system while teaching the Advanced course. No Advanced textbook question mapping has been inferred.
+Primary source: the supplied `12 MAX Further Graph Transformations.pdf` (latest supplied version, 24 October 2026), 51 PDF pages including preliminaries. The original Lesson 1 source was `12MA Further Graph Transformations.pdf`; the Lesson 2–3 prompts were checked against the latest file. Homework is superseded by the user’s replacement Homework Summary image supplied on 24 October 2026, as recorded below. Page references below are printed booklet page numbers. The cover says Year 12 Mathematics Extension and the homework uses Cambridge Extension 1 references. Retain that supplied reference system while teaching the Advanced course. No Advanced textbook question mapping has been inferred.
 
 The previous `Trig Graphs.pptx` supplies the quarter-period construction approach. Its statement that a is the amplitude is refined to |a|; signed coefficients can reflect a curve. The other two supplied decks inform the wider topic plan but are not needed for this lesson's questions. The supplied sequence image identifies trigonometric graphs as the first of three lessons.
 
@@ -62,15 +62,13 @@ Recap graphs are already drawn. The amplitude illustration is static: y=2 sin x+
 
 The horizontal-shift example has three reveals: base graph; translated key points with a grey base-curve reference; completed shifted graph with the required endpoints. The final stage removes the reference curve. Graphs are locally generated SVG diagrams and use the shared embedded KaTeX renderer. No external applet, account or network connection is required to use these graphs.
 
-## Consolidated homework
+## Replacement Homework 1
 
-Exercise 7A, selected from the matching Homework 1–2 tiers in the supplied booklet:
+The user's replacement Homework Summary image supplied on 24 October 2026 supersedes the previous consolidated allocation. Homework 1 is **Trigonometric transformations, equations and graphical analysis**. Its only populated tier is **Spicy**:
 
-- Mild: Q2, Q4, Q5, Q8, alternate parts.
-- Medium: Q3, Q4, Q5, Q8, Q9, alternate parts.
-- Spicy: Q5, Q7, Q9, Q10, all parts.
+Exercise 7A Q6(a), Q7(a,c), Q8(b,c), Q9(b), Q10–12, Q18–21.
 
-These selections consolidate two source homework sets for one lesson. The source booklet's existing allocations are not edited.
+Do not invent Mild or Medium selections. Retain the supplied exercise numbers and question parts without inferring another textbook edition's mapping. The slide cover, lesson card and homework slide all identify this as Homework 1.
 
 ## Approved Lesson 2 approach
 
@@ -124,7 +122,7 @@ All activities preserve their state when navigating away and back, unless Reset 
 
 ### Lesson 2 homework
 
-Homework 4, Exercise 7A, unchanged from the supplied booklet: Mild Q13, Q14; Medium Q14, Q15; Spicy Q15, Q16, Q17. Retain the supplied Cambridge Extension 1 reference system while teaching the Advanced course.
+The replacement Homework 2 is **Modelling periodic phenomena**. Its only populated tier is **Spicy: Exercise 7A Q13–17 (all parts)**. This supersedes the earlier Homework 4 tiers. The cover, lesson card and final slide use Homework 2. Retain the supplied exercise references.
 
 ## Source issues retained for later work
 
@@ -141,3 +139,60 @@ quarto preview courses/year-12-mathematics-advanced/further-graph-transformation
 ```
 
 The topic appears automatically in the Year 12 Mathematics Advanced listing after rendering. The topic card advertises two available lessons, and the lesson listing discovers both masters. The shared return control leads to the topic page, which links back to the course. Published paths follow the existing course/topic/lesson structure. Publishing remains the repository's manual GitHub Actions workflow; pushing a branch or main alone does not deploy the site.
+
+
+## Approved Lesson 3 approach
+
+Fourteen slides for approximately 60 minutes: cover; objective/success; logarithm recap; multiplicative-change hinge; linked linear/logarithmic scales; Example 3.1(a); Example 3.1(b–c); Examples 3.2–3.5; Example 3.6 comparison table; Example 3.7 explanation; key ideas/homework. The user approved this sequence before implementation. Lesson 3 teaches Section 3, logarithmic scales and applications; the replacement homework also contains non-periodic-model revision.
+
+Objective: We are learning to interpret logarithmic scales and solve problems involving them.
+
+Success criterion: I can connect differences in logarithmic readings to ratios of the underlying quantities.
+
+Suggested pacing: cover/objective/recap/hinge 7 minutes; scales and Example 3.1 12 minutes; decibels 8 minutes; earthquakes 6 minutes; stellar magnitude 8 minutes; pH 6 minutes; comparison 5 minutes; explanation 5 minutes; consolidation/homework 3 minutes. Use OneNote for the algebra and the supplied booklet for student working. Application slides contain the model, exact question wording and a static hint, with no model-answer reveal.
+
+### Lesson 3 source and checked answers
+
+The source is Section 3 of `12 MAX Further Graph Transformations.pdf`, printed pages 40–46 (PDF pages 45–51). Preserve the question wording, numbers, model notation, units, rounding instructions and all subparts. The log-axis and comparison diagrams are locally drawn SVGs. No external applet is needed.
+
+| Example | Printed page | Checked mathematics |
+|---|---:|---|
+| 3.1 | 40 | (a) log10 positions: 2 → 0.301030; 5 → 0.698970; 20 → 1.301030; 50 → 1.698970. (b) Log midpoint 10^(3/2)=10√10≈31.6228; linear midpoint 55. (c) 10^-6 to 10^6 spans 12 orders of magnitude, ratio 10^12. |
+| 3.2 | 41 | (a) 60 dB. (b) 10 W/m². (c) Vacuum/room intensity ratio 100:1; 20 dB is a multiplicative change in intensity. |
+| 3.3 | 42 | (a) Magnitude-6/magnitude-4 amplitude ratio 100:1. (b) Difference 3. (c) Major/aftershock amplitude ratio 10^1.4≈25.1:1. |
+| 3.4 | 43 | (a) Star A is brighter; BA/BB=100. (b) Requested mD−mC=2.5. (c) Venus/Sirius brightness ratio 10^(3.46/2.5)≈24.21, nearest whole number 24. |
+| 3.5 | 44 | (a) pH 3. (b) [H+]=10^-5.2≈6.3×10^-6 mol/L, 2 significant figures. (c) X has 100 times Y's hydrogen-ion concentration, so X is more acidic. |
+| 3.6 | 45 | For +1 reading: intensity ×10^0.1≈×1.259; amplitude ×10; brightness ×10^-0.4≈×0.398; hydrogen-ion concentration ×0.1. |
+| 3.7 | 45 | With fixed nonzero c and common Q0>0: S=c log10(Q/Q0), so S2−S1=c log10(Q2/Q1) and Q2/Q1=10^((S2−S1)/c). Equal differences within the same model produce equal ratios. |
+
+A logarithmic axis needs positive underlying values; a scale reading calculated with logarithms may itself be zero or negative. The decibel questions compare intensity, not perceived loudness. The earthquake model compares amplitude, not energy. The negative coefficients in stellar magnitude and pH reverse the direction of the reading. Keep numerator order consistent with subtraction order. The pH application uses the supplied dimensionless concentration ratio; the summary table preserves the booklet's shorthand and explicitly states that [H+] there is the numerical concentration in mol/L.
+
+### Lesson 3 hinge
+
+A positive quantity is multiplied by 100. What happens to its base-10 logarithm?
+
+1. It increases by 100 — directly transfers the factor into an additive change.
+2. It increases by 2 — correct: log10(100x)=2+log10(x).
+3. It is multiplied by 100 — incorrectly takes an input multiplier outside the logarithm.
+4. It is multiplied by 2 — recognises log10(100)=2 but confuses addition with multiplication.
+
+Use the shared adjustable 60-second timer and fist-on-chest/1–4-finger routine. The answer is revealed only by the teacher's button. Expiry never reveals it. Reset clears the answer, selection and timer. Ready: link the extra 2 to movement across two base-10 intervals. Divided: compare 10 and 1000 and re-poll. Further explanation: write powers of 10 and track their exponents, then check ×1000.
+
+### Lesson 3 controls
+
+- Linear/logarithmic comparison starts at 100. The same value is shown on both axes. The linear axis runs from 0 to 10000; the log axis runs from 1 to 10000. ×10 and ÷10 move exactly one decade, and are disabled when that full step would leave the domain. The slider is uniform in the base-10 exponent, from 0 to 4. Reset restores 100. No zero or negative input can enter the log diagram.
+- Example 3.1(a) starts with only the axis and powers-of-ten labels. Show 2, 5, 20 and 50 in order. Previous point removes the last reveal; Reset hides all four.
+- Example 3.1(b) shows two midpoint positions with unknown labels. Show midpoints gives the exact logarithmic midpoint 10√10 and arithmetic midpoint 55; Reset hides the values.
+- Example 3.6 reveals one factor row at a time in booklet order. Previous row hides the last factor. Reset hides all four. The given models remain visible.
+- Example 3.7 starts with the general model. The three deliberate steps subtract readings, use the quotient law and convert to exponential form. Previous step and Reset restore earlier states. The ratio is orange and the reading difference blue.
+- Slider arrow keys change its value without advancing the slide. Controls are sized for iPad landscape. The lesson has no Reveal fragments; Next and Previous visit exactly fourteen slides.
+
+### Replacement Homework 3
+
+**Non-periodic models and logarithmic scales · Spicy**
+
+- Exercise 5A Q16–17.
+- Exercise 8E Q16, Q19, Q20(b–d), Q21.
+- Exercise 6A Q15(a,b,d), Q16–17, Q22.
+
+These are transcribed exactly from the replacement Homework Summary image. Only Spicy has questions; no Mild or Medium sets are inferred. Homework 3 replaces the earlier booklet's Homework 6 for these slides. All three lessons' metadata, covers, homework slides and topic listing now use Homework 1–3.

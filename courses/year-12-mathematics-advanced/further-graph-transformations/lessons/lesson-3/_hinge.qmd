@@ -1,0 +1,26 @@
+## Hinge question · A change of scale {#fgt3-hinge .trig-lesson .trig-hinge .log-lesson}
+
+```{=html}
+<div data-module="hinge" data-correct="2" class="hinge numeric-choices">
+<p class="hinge-question">A positive quantity is multiplied by 100.<br>What happens to its base-10 logarithm?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>It increases by 100.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>It increases by 2.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>It is multiplied by 100.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>It is multiplied by 2.</span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>2.</strong> <span data-math="\log_{10}(100x)=2+\log_{10}x">\log_{10}(100x)=2+\log_{10}x</span>. Multiplying the quantity adds to its logarithm.</div>
+</div>
+```
+
+::: notes
+
+Additional diagnostic, not a booklet question. Correct response 2. The product law gives log10(100x)=log10(100)+log10(x)=2+log10(x), for x>0. Choice 1 transfers the factor 100 directly into an additive change. Choice 3 incorrectly takes the factor outside the logarithm. Choice 4 finds log10(100)=2 but multiplies rather than adds; it confuses a product with a power.
+
+Ready: connect the additive change to equal distances on the logarithmic scale. Divided: compare x=10 and 100x=1000, then re-poll. Further explanation needed: write 10^1, 10^2, 10^3 and track the exponents, then check multiplying by 1000.
+
+The timer defaults to 60 seconds and is adjustable. Students start with a fist on their chest and show 1–4 fingers simultaneously on the teacher's verbal “show”. Timer expiry never reveals the answer. Reset clears the selected choice, answer and timer. Allow about 3 minutes including discussion.
+
+:::

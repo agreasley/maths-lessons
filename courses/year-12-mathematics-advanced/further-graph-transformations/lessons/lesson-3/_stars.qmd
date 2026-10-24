@@ -1,0 +1,28 @@
+## Example 3.4 · Stellar magnitude {#fgt3-stars .trig-lesson .log-lesson .log-application}
+
+::: {.log-model}
+$$m_1-m_2=-2.5\log_{10}\!\left(\frac{B_1}{B_2}\right),\qquad B_1,B_2>0$$
+A smaller apparent magnitude means a brighter object.
+:::
+
+Using the stellar magnitude model:
+
+::: {.log-questions}
+**a)** Star A has a magnitude of 1 and Star B has a magnitude of 6. Which star appears brighter? Calculate the ratio of their brightness ($B_1/B_2$).
+
+**b)** Star C is exactly 10 times brighter than Star D. Determine the difference in their apparent magnitudes ($m_D-m_C$).
+
+**c)** Sirius has an apparent magnitude of $-1.46$ and Venus (at its brightest) has an apparent magnitude of $-4.92$. Determine how many times brighter Venus appears compared to Sirius, correct to the nearest whole number.
+:::
+
+::: {.log-hint}
+**Hint:** Keep the order of the two objects consistent on both sides.
+:::
+
+<p class="booklet-cue">Booklet p. 43 · Example 3.4</p>
+
+::: notes
+
+Keep the signs and the order of the two objects explicit. (a) Let subscript 1 represent Star A and subscript 2 Star B. Star A appears brighter. 1−6=−2.5 log10(BA/BB), so BA/BB=10^2=100. (b) BC/BD=10 implies mC−mD=−2.5, so the requested mD−mC=2.5. (c) Use Venus first: −4.92−(−1.46)=−3.46=−2.5 log10(BV/BS). Thus BV/BS=10^(3.46/2.5)≈24.21, so Venus appears 24 times as bright to the nearest whole number. Preserve the supplied values and wording. The smaller reading gives the larger brightness because the coefficient is negative. Allow about 8 minutes.
+
+:::

@@ -1,0 +1,30 @@
+## Example 3.2 · Decibels {#fgt3-decibels .trig-lesson .log-lesson .log-application}
+
+::: {.log-model}
+$$L=10\log_{10}\!\left(\frac{I}{I_0}\right),\qquad I_0=10^{-12}\ \mathrm{W/m^2},\quad I>0$$
+Sound intensity level $L$ is measured in dB; intensity $I$ is measured in $\mathrm{W/m^2}$.
+:::
+
+Using the decibel model:
+
+::: {.log-questions}
+**a)** Calculate the decibel level of a conversation with a sound intensity of $I=10^{-6}\ \mathrm{W/m^2}$.
+
+**b)** An aircraft engine produces a sound level of 130 dB. Find its sound intensity $I$ in $\mathrm{W/m^2}$.
+
+**c)** A vacuum cleaner operates at 70 dB, while a quiet room is 50 dB. Determine the ratio of the intensity of the vacuum cleaner to the quiet room. Explain why an increase of 20 dB does not mean the sound intensity is simply 20 units larger.
+:::
+
+::: {.log-hint}
+**Hint:** For a ratio, subtract the readings and use the quotient law.
+:::
+
+<p class="booklet-cue">Booklet p. 41 · Example 3.2</p>
+
+::: notes
+
+Keep the formulas, questions and hint visible; complete all working in OneNote. There is no model-answer reveal.
+
+(a) I/I0=10^6, so L=10×6=60 dB. (b) log10(I/I0)=13, hence I=10^13×10^-12=10 W/m². (c) 70−50=10 log10(Ivac/Iroom), so Ivac/Iroom=10^2=100. A change of 20 dB corresponds to multiplication of intensity by 100. Do not equate intensity ratios with perceived loudness ratios. The reading 0 dB corresponds to the reference intensity, not zero intensity. Allow about 8 minutes.
+
+:::

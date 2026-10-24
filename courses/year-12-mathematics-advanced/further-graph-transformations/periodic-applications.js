@@ -198,22 +198,24 @@
     draw();
   }
   function cosineEquality(m){
-    let step=8,reflected=false;
+    let step=8,mode='same';
     const theta1=colour('\\theta_1',C.n),theta2=colour('\\theta_2',C.billie);
     const fraction=n=>{let a=n,b=24;while(b){const r=a%b;a=b;b=r;}const top=n/a,bottom=24/a;return bottom===1?(top===1?'\\pi':`${top}\\pi`):`\\frac{${top===1?'':top}\\pi}{${bottom}}`;};
     m.innerHTML=`<div class="unit-circle-layout"><div><div class="unit-circle-picture"></div><div class="periodic-slider"><label>${math(theta1)}</label><input type="range" min="1" max="47" step="1" value="8" aria-label="First angle in steps of pi over 24"><output></output></div></div>
-      <div class="unit-circle-explanation"><div class="periodic-controls"><button class="circle-same" aria-pressed="true">Same angle</button><button class="circle-reflected" aria-pressed="false">Reflected angle</button><button class="circle-reset">Reset</button></div>
+      <div class="unit-circle-explanation"><div class="periodic-controls"><button class="circle-same" aria-pressed="true">Same angle</button><button class="circle-turn" aria-pressed="false">Full turn</button><button class="circle-reflected" aria-pressed="false">Reflected angle</button><button class="circle-reset">Reset</button></div>
       <div class="circle-reading" aria-live="polite"></div><div class="periodic-result circle-value"></div>
       <p>Adding full turns gives both families:</p><div class="circle-rules">${math(`${theta2}=${theta1}+2m\\pi`)}<span>or</span>${math(`${theta2}=-${theta1}+2m\\pi,\\quad m\\in\\mathbb Z`)}</div>
       <div class="circle-application"><strong>For Example 2.6(c)</strong><p>${math(`${theta1}=\\frac{\\pi t}{24},\\qquad ${theta2}=\\frac{\\pi(t-6)}{24}`)}</p></div></div></div>`;
     const slider=m.querySelector('input'),picture=m.querySelector('.unit-circle-picture');
-    const arc=(cx,cy,r,end,c)=>{
-      const n=100,d=Array.from({length:n+1},(_,i)=>{const t=end*i/n;return `${i?'L':'M'}${cx+r*Math.cos(t)},${cy-r*Math.sin(t)}`;}).join(' ');
-      const ex=cx+r*Math.cos(end),ey=cy-r*Math.sin(end),heading=-end-Math.PI/2,s=7;
+    const arc=(cx,cy,r,end,c,growth=0)=>{
+      const n=Math.ceil(100*end/TAU),radius=t=>r+growth*t/TAU;
+      const d=Array.from({length:n+1},(_,i)=>{const t=end*i/n;return `${i?'L':'M'}${cx+radius(t)*Math.cos(t)},${cy-radius(t)*Math.sin(t)}`;}).join(' ');
+      const rr=radius(end),dr=growth/TAU,ex=cx+rr*Math.cos(end),ey=cy-rr*Math.sin(end),heading=Math.atan2(-dr*Math.sin(end)-rr*Math.cos(end),dr*Math.cos(end)-rr*Math.sin(end)),s=7;
       return `<path d="${d}" fill="none" stroke="${c}" stroke-width="2.5"/><path d="M${ex-s*Math.cos(heading-.45)},${ey-s*Math.sin(heading-.45)} L${ex},${ey} L${ex-s*Math.cos(heading+.45)},${ey-s*Math.sin(heading+.45)}" fill="none" stroke="${c}" stroke-width="2.5"/>`;
     };
     function draw(){
-      const t1=step*Math.PI/24,t2=reflected?TAU-t1:t1,x=Math.cos(t1),y=Math.sin(t1),cx=265,cy=225,r=165,px=cx+r*x,py1=cy-r*y,py2=cy-r*Math.sin(t2),same=Math.abs(py1-py2)<1e-8;
+      const reflected=mode==='reflected',fullTurn=mode==='turn';
+      const t1=step*Math.PI/24,t2=reflected?TAU-t1:t1+(fullTurn?TAU:0),x=Math.cos(t1),y=Math.sin(t1),cx=265,cy=225,r=165,px=cx+r*x,py1=cy-r*y,py2=cy-r*Math.sin(t2),same=Math.abs(py1-py2)<1e-8;
       let s=line(48,cy,482,cy,C.muted,1.6)+line(cx,20,cx,427,C.muted,1.6);
       s+=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.grid}" stroke-width="3"/>`;
       s+=text(cx-13,cy+25,'0','end',C.muted,20)+text(cx+r+12,cy+24,'1','middle',C.muted,20)+text(cx-r-18,cy+24,'−1','middle',C.muted,20)+text(cx+15,cy-r-10,'1','start',C.muted,20)+text(cx+15,cy+r+20,'−1','start',C.muted,20);
@@ -222,26 +224,25 @@
       s+=line(cx,cy,px,cy,C.a,5)+line(px,cy-7,px,cy+7,C.a,2);
       s+=line(cx,cy,px,py1,C.n,3)+arc(cx,cy,46,t1,C.n);
       if(reflected)s+=line(cx,cy,px,py2,C.billie,3);
-      s+=arc(cx,cy,68,t2,C.billie);
+      s+=arc(cx,cy,68,t2,C.billie,fullTurn?22:0);
       s+=`<circle class="circle-point-1" cx="${px}" cy="${py1}" r="${same?9:6}" fill="${same?C.paper:C.n}" stroke="${C.n}" stroke-width="3"/>`;
       s+=`<circle class="circle-point-2" cx="${px}" cy="${py2}" r="${same?4:6}" fill="${C.billie}" stroke="${C.billie}" stroke-width="2"/>`;
       const label=(angle,tex)=>{
         const sine=Math.sin(angle),offset=Math.max(44,Math.abs((r+31)*sine));
         return mtext(cx+(r+31)*Math.cos(angle),cy-(sine>=0?offset:-offset),tex,125,38);
       };
-      s+=label(t1,same?`${theta1}=${theta2}`:theta1);if(!same)s+=label(t2,theta2);
-      picture.innerHTML=svg(s,530,450,'Unit circle: the two angles have the same horizontal coordinate and therefore the same cosine.','unit-circle-plot');
+      s+=label(t1,same?(fullTurn?`${theta1},\\,${theta2}`:`${theta1}=${theta2}`):theta1);if(!same)s+=label(t2,theta2);
+      picture.innerHTML=svg(s,530,450,fullTurn?'Unit circle: the second angle makes one extra full revolution and ends at the same point, so the cosine is unchanged.':'Unit circle: the two angles have the same horizontal coordinate and therefore the same cosine.','unit-circle-plot');
       m.querySelector('output').innerHTML=math(fraction(step));
-      m.querySelector('.circle-same').setAttribute('aria-pressed',String(!reflected));m.querySelector('.circle-reflected').setAttribute('aria-pressed',String(reflected));
+      ['same','turn','reflected'].forEach(value=>m.querySelector('.circle-'+value).setAttribute('aria-pressed',String(mode===value)));
       const quadrant=step===12||step===36?'The points lie on the vertical axis.':step===24?'On the horizontal axis, the reflected points coincide.':x>0?'Quadrants I and IV have the same positive cosine.':'Quadrants II and III have the same negative cosine.';
-      m.querySelector('.circle-reading').innerHTML=`<p><strong>${reflected?'Reflection in the horizontal axis':'The same point on the circle'}</strong></p><p>${math(`${theta2}=${reflected?`2\\pi-${theta1}`:theta1}=${fraction(reflected?48-step:step)}`)}</p><p class="periodic-note">${reflected?quadrant:'Both angles end at the same point.'}</p>`;
+      m.querySelector('.circle-reading').innerHTML=`<p><strong>${reflected?'Reflection in the horizontal axis':fullTurn?'One full revolution further':'The same point on the circle'}</strong></p><p>${math(`${theta2}=${reflected?`2\\pi-${theta1}`:fullTurn?`${theta1}+2\\pi`:theta1}=${fraction(reflected?48-step:step+(fullTurn?48:0))}`)}</p><p class="periodic-note">${reflected?quadrant:fullTurn?'Different angles; the same point and cosine value.':'Both angles end at the same point.'}</p>`;
       const value=Math.abs(x)<1e-10?'0':x.toFixed(3);
       m.querySelector('.circle-value').innerHTML=`Same horizontal coordinate:<br>${math(`\\cos${theta1}=\\cos${theta2}${Math.abs(x)<1e-10?'=':'\\approx'}${value}`)}`;
       typeset(m);
     }
-    m.querySelector('.circle-same').addEventListener('click',()=>{reflected=false;draw();});
-    m.querySelector('.circle-reflected').addEventListener('click',()=>{reflected=true;draw();});
-    m.querySelector('.circle-reset').addEventListener('click',()=>{step=8;reflected=false;slider.value='8';draw();});
+    ['same','turn','reflected'].forEach(value=>m.querySelector('.circle-'+value).addEventListener('click',()=>{mode=value;draw();}));
+    m.querySelector('.circle-reset').addEventListener('click',()=>{step=8;mode='same';slider.value='8';draw();});
     slider.addEventListener('input',()=>{step=Number(slider.value);draw();});slider.addEventListener('keydown',e=>e.stopPropagation());
     draw();
   }

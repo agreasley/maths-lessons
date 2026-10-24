@@ -1,0 +1,19 @@
+## Example 2.6(c) · Billie joins the model {#fgt2-ferris-shift .trig-lesson .application-lesson .application-dense}
+
+**c)** Billie is in another carriage. The height, $B(t)$, in metres above the ground of the top of her carriage is given by:
+
+$$B(t)=c-k\cos\left(\frac{\pi}{24}(t-6)\right),$$
+
+where $c$ and $k$ are the values found in part (a).
+
+```{=html}
+<div data-periodic="ferris" data-mode="shift" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 34 · Example 2.6(c), continued on the next slide</p>
+
+::: notes
+
+The source part (c) continues on the next slide. Before showing Billie, ask: when does Billie reach the bottom, and where will her graph sit relative to Anna's? Billie reaches the bottom at t=6 seconds, so her height graph is Anna's translated 6 seconds to the right. Explain in words; do not use coordinate-mapping notation. The height range and period stay the same. Show Billie reveals her wheel marker and curve together. Drag the shared time slider from 0 to 48 seconds to see the height of each carriage and the corresponding graph points. The coloured dots represent the tops of the carriages, as specified by the question; the wheel drawing is schematic. Reset returns to t=0 with only Anna visible. No equal-height answers appear here. Allow about 5 minutes.
+
+:::

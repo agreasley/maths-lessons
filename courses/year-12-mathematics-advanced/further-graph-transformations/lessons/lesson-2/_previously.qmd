@@ -1,0 +1,18 @@
+## Previously · Read the key features {#fgt2-previously .trig-lesson .application-lesson}
+
+$$y=\textcolor{#b55224}{a}\cos(\textcolor{#007f78}{n}t)+\textcolor{#3b66a8}{k}$$
+
+```{=html}
+<div data-periodic="recap" class="periodic-demo"></div>
+<div class="parameter-strip">
+<p><span class="parameter-a">Amplitude</span><br><span data-math="|a|">|a|</span></p>
+<p><span class="parameter-n">Period</span><br><span data-math="T=\frac{2\pi}{n}\quad(n>0)">T = 2π/n</span></p>
+<p><span class="parameter-k">Midline</span><br><span data-math="y=k">y = k</span></p>
+</div>
+```
+
+::: notes
+
+Static recap: the dashed blue midline, orange vertical distance and teal horizontal distance are already drawn. No questions or reveal controls. The illustration uses a positive cosine coefficient; |a| also handles negative coefficients. A full period returns to the same height and the same direction of motion. Sine has the same amplitude and period rules. Tangent has period π/n and no amplitude; it is not used for today's bounded periodic models.
+
+:::

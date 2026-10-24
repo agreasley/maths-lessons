@@ -1,0 +1,17 @@
+## Example 2.2(c) · Interpret the intervals {#fgt2-tide-intervals .trig-lesson .application-lesson .application-dense}
+
+**c)** A yacht requires at least 0.8 m of water to sail. Given high tide occurs at 5:00 am, determine the times during the following 24 hours when the yacht is unable to sail through Fort Denison.
+
+```{=html}
+<div data-periodic="tide" data-mode="intervals" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 29 · Example 2.2(c)</p>
+
+::: notes
+
+First identify portions below the threshold, then add elapsed hours to 5:00 am. Reveal intervals shades only h<0.8 on [0,24]. Reveal clock times is a separate action, enabled afterwards. Both hide again on Reset; the threshold remains as prior working. The unrounded intervals are u<t<v and u+16<t≤24, where u≈5.858236 and v≈10.141764. Open circles mark excluded equality points. The right endpoint t=24 is included because h=0.6 there. The overnight interval continues beyond 5:00 am, but the question stops at the end of the following 24 hours.
+
+Boundary clock times are about 10:51:29.65 am, 3:08:30.35 pm, and 2:51:29.65 am next day. To the nearest minute: approximately 10:51 am–3:09 pm, and 2:51 am–5:00 am next day. The displayed clock times are rounded boundaries, not a guarantee of whole-minute sailing windows. At exactly h=0.8, the yacht can sail. Keep the strict inequality clear. The second interval is easily missed if students only solve one cycle.
+
+:::

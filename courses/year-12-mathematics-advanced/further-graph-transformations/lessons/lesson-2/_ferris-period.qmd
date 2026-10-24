@@ -1,0 +1,17 @@
+## Example 2.6(b) · One revolution {#fgt2-ferris-period .trig-lesson .application-lesson}
+
+**b)** How many seconds does it take for one complete revolution of the Ferris wheel? **(1 mark)**
+
+$$A(t)=21-18\cos\left(\textcolor{#007f78}{\frac{\pi}{24}}t\right)$$
+
+```{=html}
+<div data-periodic="ferris-period" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 34 · Example 2.6(b)</p>
+
+::: notes
+
+Work in OneNote: n=π/24, hence T=2π/(π/24)=48 seconds. One revolution returns from the bottom through the top to the bottom. The time to the top is 24 seconds, only half a revolution. Reveal one revolution shows a static graph and a teal double-headed period arrow; no automatic motion. Reset hides the solution graph and result. Allow about 3 minutes.
+
+:::

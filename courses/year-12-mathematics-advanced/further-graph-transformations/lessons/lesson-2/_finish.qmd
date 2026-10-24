@@ -1,0 +1,23 @@
+## Key ideas and homework {#fgt2-finish .trig-lesson .application-lesson}
+
+1. Use the maximum, minimum and full period to build the model.
+2. Find all solutions in the required interval.
+3. Answer in context: heights, clock times and units.
+
+::: {.takeaway}
+I can form a trigonometric model and interpret its solutions in context.
+:::
+
+**Homework 4 · Exercise 7A**
+
+| Level | Questions |
+|---|---|
+| Mild | Q13, Q14 |
+| Medium | Q14, Q15 |
+| Spicy | Q15, Q16, Q17 |
+
+::: notes
+
+Return to the success criterion. Ask students to name one interpretation they had to make after calculating: a full period rather than high-to-low time; strict depth inequality; overnight interval and domain end; or height rather than time for the Ferris wheel. These are the exact Homework 4 tiers from the current supplied booklet, using its Cambridge Extension 1 Exercise 7A references. No Advanced-edition mapping is inferred. Allow about 3 minutes.
+
+:::

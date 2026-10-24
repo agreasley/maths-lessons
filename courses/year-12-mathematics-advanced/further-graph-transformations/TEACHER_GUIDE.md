@@ -2,9 +2,9 @@
 
 ## Course and source priority
 
-Year 12 Mathematics Advanced. The topic is planned as three lessons: (1) sketching trigonometric graphs, (2) periodic applications, (3) logarithmic scales. Only Lesson 1 is implemented.
+Year 12 Mathematics Advanced. The topic is planned as three lessons: (1) sketching trigonometric graphs, (2) periodic applications, (3) logarithmic scales. Lessons 1 and 2 are implemented; Lesson 3 is planned.
 
-Primary source: the supplied `12MA Further Graph Transformations.pdf`, 51 PDF pages including preliminaries. Page references below are printed booklet page numbers. The cover says Year 12 Mathematics Extension and the homework uses Cambridge Extension 1 references. Retain that supplied reference system while teaching the Advanced course. No Advanced textbook question mapping has been inferred.
+Primary source: the supplied `12 MAX Further Graph Transformations.pdf` (latest supplied version, 24 October 2026), 51 PDF pages including preliminaries. The original Lesson 1 source was `12MA Further Graph Transformations.pdf`; the Lesson 2 prompts and homework below were checked against the latest file. Page references below are printed booklet page numbers. The cover says Year 12 Mathematics Extension and the homework uses Cambridge Extension 1 references. Retain that supplied reference system while teaching the Advanced course. No Advanced textbook question mapping has been inferred.
 
 The previous `Trig Graphs.pptx` supplies the quarter-period construction approach. Its statement that a is the amplitude is refined to |a|; signed coefficients can reflect a curve. The other two supplied decks inform the wider topic plan but are not needed for this lesson's questions. The supplied sequence image identifies trigonometric graphs as the first of three lessons.
 
@@ -72,6 +72,57 @@ Exercise 7A, selected from the matching Homework 1–2 tiers in the supplied boo
 
 These selections consolidate two source homework sets for one lesson. The source booklet's existing allocations are not edited.
 
+## Approved Lesson 2 approach
+
+Fourteen slides for approximately 60 minutes: cover; objective/success; static recap; amplitude/period hinge; Example 2.1; Example 2.2(a), (b), threshold preparation and (c); Example 2.6(a), (b), (c) shift and (c) equal heights; consolidation/homework. Work the algebra in OneNote and use the local graph controls after students predict or attempt each step. No external applet is needed.
+
+Objective: We are learning to solve practical problems using trigonometric models.
+
+Success criteria: I can form a trigonometric model and interpret its solutions in context.
+
+Suggested pacing: opening/recap/hinge 6 minutes; Example 2.1 5 minutes; Example 2.2 16 minutes; Example 2.6 21 minutes; consolidation/homework 3 minutes. Keep the remaining 9 minutes for discussion and student working.
+
+Continue the general form y=a cos nt+k and the Lesson 1 parameter colours. Preserve different letters when quoting the source: in Examples 2.1 and 2.2, b is the blue midline parameter; in Example 2.6, c is the blue midline and k is the orange amplitude magnitude. Explicitly explain these roles rather than changing the source notation.
+
+### Lesson 2 hinge
+
+A tide has maximum 1.8 m, minimum 0.6 m, and takes 8 hours from high to the next low. Correct response **2: amplitude 0.6 m, period 16 hours**. Choice 1 uses half a cycle as the period; choice 3 uses the full vertical range as amplitude; choice 4 makes both errors. The 60-second adjustable timer, separate answer reveal and simultaneous 1–4 finger routine match Lesson 1.
+
+Ready: continue to the parameter formulas. Divided: explain the two distances in pairs, then re-vote. Further explanation: mark the midline and trace high–low–high, then check maximum 5, minimum 1, high-to-low time 3 hours (amplitude 2, period 6). Reset hides the answer and clears selection/time; leaving the slide or opening the slide map pauses a running timer.
+
+### Lesson 2 source and worked checks
+
+| Example | Printed page | Checked result |
+|---|---:|---|
+| 2.1 | 28 | a=(h−l)/2, n=2π/T, b=(h+l)/2; a>0 and n>0 as given. |
+| 2.2(a) | 29 | a=0.6, n=π/8, b=1.2; h=0.6 cos(πt/8)+1.2. T=16 hours, not 8. |
+| 2.2(b) | 29 | Over 0≤t≤24, heights at t=0,4,8,12,16,20,24 are 1.8,1.2,0.6,1.2,1.8,1.2,0.6 m. |
+| 2.2(c) | 29 | Three threshold crossings at approximately 5.858236, 10.141764 and 21.858236 hours. Two intervals below 0.8 m within the 24-hour window. |
+| 2.6(a) | 34 | c=21 and k=18; A(0)=3, so the negative cosine starts at the minimum. |
+| 2.6(b) | 34 | T=2π/(π/24)=48 seconds. |
+| 2.6(c) | 34 | Billie is delayed 6 seconds; equal heights at t=3 and 27 seconds are 4.37 m and 37.63 m. |
+
+Example 2.2(c): define u=8 arccos(−2/3)/π and v=16−u. The yacht cannot sail for u<t<v and u+16<t≤24. Threshold equality is excluded because the yacht needs **at least** 0.8 m. The endpoint t=24 is included because the tide is only 0.6 m there. Add the elapsed times to 5:00 am: the boundary times are approximately 10:51:29.65 am, 3:08:30.35 pm and 2:51:29.65 am next day. The slide rounds these to 10:51 am–3:09 pm, then 2:51 am–5:00 am next day, and labels them approximate. Do not treat the rounded boundaries as exact minute-by-minute sailing permissions. The second low-tide interval continues beyond the end of the requested window; truncate it at 5:00 am next day.
+
+Example 2.6(c): substitute c=21, k=18 and let θ=πt/24. Solve cos θ=cos(θ−π/4). The reflection branch θ=−(θ−π/4)+2mπ gives θ=π/8+mπ and t=3+24m; the other branch gives no integer m. Thus t=3 and 27 in a revolution 0≤t<48. Substitute into A(t): 21−18 cos(π/8)=4.3701684148… and 21+18 cos(π/8)=37.6298315852…. If formal general solutions are unfamiliar, use the symmetry of the curves to identify the times and verify them by substitution. The question asks for the two heights to 2 decimal places, not for the times alone. Keep the source attribution “HSC Advanced 2024 Q28 (Adapted)”.
+
+### Lesson 2 visual controls
+
+- Recap: a static cosine diagram with the midline and double-headed amplitude/period arrows already drawn.
+- Parameter rules and tide model: separate teacher reveal and reset controls; solutions begin hidden.
+- Tide sketch: start with axes; reveal quarter-period points, then the curve. The elapsed-time slider is enabled only after the curve is shown.
+- Threshold preparation: start with the tide curve; show the 0.8 m threshold, then separately reveal all three crossings. Reset hides both. No interval shading appears on this slide.
+- Tide intervals: the threshold is visible from previous working. Reveal the below-threshold intervals, then separately reveal approximate clock times. Reset hides both answers. Open endpoints show excluded equality; t=24 is a closed endpoint. Dragging the marker updates height and rounded clock time.
+- Ferris period: a teacher reveal shows a static one-revolution graph and period arrow. Reset hides it.
+- Ferris shift: Anna starts visible; show Billie after predicting her 6-second delay. A single 0–48 second slider links the wheel's carriage-top markers and both height graphs. Reset restores t=0 with only Anna visible. Describe the right shift in words, without coordinate-mapping notation.
+- Ferris equal heights: both curves start visible. Reveal equal heights shows the results; Lower match and Upper match set the shared time to exactly 3 or 27 seconds. At those times a horizontal line joins the equal-height carriage tops. Reset hides results and match buttons and returns to t=0. The wheel is schematic; coloured dots represent carriage tops, not wheel-seat heights.
+
+All activities preserve their state when navigating away and back, unless Reset is pressed. There is no automatic animation or answer reveal. Controls work by click/touch and sliders also support keyboard arrows.
+
+### Lesson 2 homework
+
+Homework 4, Exercise 7A, unchanged from the supplied booklet: Mild Q13, Q14; Medium Q14, Q15; Spicy Q15, Q16, Q17. Retain the supplied Cambridge Extension 1 reference system while teaching the Advanced course.
+
 ## Source issues retained for later work
 
 Example 1.20 is not assigned. Its x=0 is an asymptote, so its reference to y-intercepts needs attention before use. Example 3.1(c) is outside this lesson and its cell/virus mass range is implausible. The pond graph in the old application deck differs from the current booklet; use the current booklet for Lesson 2. General non-periodic modelling in Section 2.2 is outside the user's three-lesson emphasis and must be prior learning or separate revision.
@@ -82,6 +133,8 @@ From the repository root:
 
 ```bash
 quarto preview courses/year-12-mathematics-advanced/further-graph-transformations/lessons/lesson-1.qmd
+
+quarto preview courses/year-12-mathematics-advanced/further-graph-transformations/lessons/lesson-2.qmd
 ```
 
-The topic appears automatically in the Year 12 Mathematics Advanced listing after rendering. The topic card only advertises Lesson 1 as available. The shared return control leads to the topic page, which links back to the course. Published paths follow the existing course/topic/lesson structure. Publishing remains the repository's manual GitHub Actions workflow; pushing a branch or main alone does not deploy the site.
+The topic appears automatically in the Year 12 Mathematics Advanced listing after rendering. The topic card advertises two available lessons, and the lesson listing discovers both masters. The shared return control leads to the topic page, which links back to the course. Published paths follow the existing course/topic/lesson structure. Publishing remains the repository's manual GitHub Actions workflow; pushing a branch or main alone does not deploy the site.

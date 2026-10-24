@@ -1,0 +1,15 @@
+## Example 2.1 · From features to a model {#fgt2-parameters .trig-lesson .application-lesson}
+
+The function $y=a\cos(nx)+b$, where $a>0$ and $n>0$, has a period of $T$, a maximum value of $h$, and a minimum value of $l$. Express $a$, $n$, and $b$ in terms of $T$, $h$, and $l$.
+
+```{=html}
+<div data-periodic="parameters" class="periodic-demo"></div>
+```
+
+<p class="booklet-cue">Booklet p. 28 · Example 2.1</p>
+
+::: notes
+
+Preserve the source use of b. In our sketching form y=a cos nx+k, b plays the role of the blue midline parameter k. Do the derivation in OneNote: h=b+a and l=b−a. Add to find b=(h+l)/2; subtract to find a=(h−l)/2. Since T=2π/n, n=2π/T. The reveal displays all three formulas after students attempt them. Reset hides the formulas; the labelled feature diagram remains. Allow about 5 minutes.
+
+:::

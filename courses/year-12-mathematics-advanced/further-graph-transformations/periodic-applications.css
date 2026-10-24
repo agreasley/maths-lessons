@@ -27,7 +27,6 @@
 .reveal .periodic-result { min-height:54px; box-sizing:border-box; border-left:4px solid var(--teal); background:#edf3ef; padding:10px 16px; font-size:24px; line-height:1.4; }
 .reveal .periodic-result p { margin:0; font-size:inherit; }
 .reveal .periodic-result .result-small { font-size:21px; color:var(--muted); }
-.reveal .periodic-equation { font-size:30px; text-align:center; padding:13px 0; min-height:68px; box-sizing:border-box; }
 .reveal .periodic-slider { display:flex; gap:18px; align-items:center; margin:3px 0; min-height:64px; }
 .reveal .periodic-slider label { font-size:22px; white-space:nowrap; }
 .reveal .periodic-slider input { flex:1; width:100%; height:64px; accent-color:var(--teal); cursor:pointer; margin:0; padding:0; touch-action:pan-y; }
@@ -38,7 +37,6 @@
 .reveal [data-periodic="parameters"] .periodic-plot { height:245px; }
 .reveal [data-periodic="parameters"] .parameter-strip { min-height:79px; }
 .reveal [data-periodic="parameters"] .parameter-strip p { font-size:25px; padding:7px 18px; }
-.reveal [data-periodic="tide-model"] { margin-top:22px; }
 .reveal [data-periodic="tide"] .periodic-result { min-height:65px; }
 .reveal [data-periodic="tide"][data-mode="intervals"] .periodic-plot { height:235px; }
 .reveal [data-periodic="tide"][data-mode="intervals"] .periodic-result { font-size:23px; min-height:81px; }

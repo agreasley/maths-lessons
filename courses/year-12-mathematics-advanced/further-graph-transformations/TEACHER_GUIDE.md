@@ -109,7 +109,8 @@ Example 2.6(c): substitute c=21, k=18 and let θ=πt/24. Solve cos θ=cos(θ−�
 ### Lesson 2 visual controls
 
 - Recap: a static cosine diagram with the midline and double-headed amplitude/period arrows already drawn.
-- Parameter rules and tide model: separate teacher reveal and reset controls; solutions begin hidden.
+- Parameter rules: separate teacher reveal and reset controls; solutions begin hidden.
+- Tide model (2.2a): a static, colour-coded hint asks for the amplitude, period and midline. Complete the model in OneNote; the slide has no answer-reveal controls.
 - Tide sketch: start with axes; reveal quarter-period points, then the curve. The elapsed-time slider is enabled only after the curve is shown.
 - Threshold preparation: start with the tide curve; show the 0.8 m threshold, then separately reveal all three crossings. Reset hides both. No interval shading appears on this slide.
 - Tide intervals: the threshold is visible from previous working. Reveal the below-threshold intervals, then separately reveal approximate clock times. Reset hides both answers. Open endpoints show excluded equality; t=24 is a closed endpoint. Dragging the marker updates height and rounded clock time.

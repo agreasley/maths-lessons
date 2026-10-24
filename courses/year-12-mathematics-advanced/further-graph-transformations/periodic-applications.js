@@ -64,10 +64,6 @@
       initial:'Use the maximum, minimum and full period. The booklet uses '+math('b')+' for the midline.',
       answer:`<div class="parameter-strip"><p>${math(colour('a=\\dfrac{h-l}{2}',C.a))}</p><p>${math(colour('n=\\dfrac{2\\pi}{T}',C.n))}</p><p>${math(colour('b=\\dfrac{h+l}{2}',C.k))}</p></div>`});
   }
-  function tideModel(m){
-    simpleReveal(m,{button:'Reveal model',initial:'Start at high tide. Find the midline, amplitude and full period.',
-      answer:`<div class="periodic-equation">${math(`h=${colour('0.6',C.a)}\\cos\\left(${colour('\\frac{\\pi}{8}',C.n)}t\\right)+${colour('1.2',C.k)}`)}</div><p>${math(colour('a=0.6',C.a))} &nbsp; · &nbsp; ${math(colour('n=\\pi/8',C.n))} &nbsp; · &nbsp; ${math(colour('b=1.2',C.k))} &nbsp; · &nbsp; Period: 16 hours</p>`});
-  }
   function clock(t){
     const minutes=Math.round((5+t)*60),hours=Math.floor(minutes/60)%24;
     return `${hours%12||12}:${String(minutes%60).padStart(2,'0')} ${hours<12?'am':'pm'}${minutes>=1440?' next day':''}`;
@@ -204,7 +200,7 @@
     document.querySelectorAll('[data-periodic]').forEach(m=>{
       if(m.dataset.periodicReady)return;
       m.dataset.periodicReady='true';
-      ({recap:el=>{el.innerHTML=featureDiagram();},parameters,'tide-model':tideModel,tide:tideDemo,'ferris-constants':ferrisConstants,'ferris-period':ferrisPeriod,ferris:ferrisDemo}[m.dataset.periodic])?.(m);
+      ({recap:el=>{el.innerHTML=featureDiagram();},parameters,tide:tideDemo,'ferris-constants':ferrisConstants,'ferris-period':ferrisPeriod,ferris:ferrisDemo}[m.dataset.periodic])?.(m);
     });
     typeset(document);
   }

@@ -4,14 +4,14 @@ The tide at a point on the NSW coast can be modelled using the equation $h=a\cos
 
 **a)** Determine the values of $a$, $n$, and $b$ which model the tide at Fort Denison.
 
-```{=html}
-<div data-periodic="tide-model" class="periodic-demo"></div>
-```
+::: {.takeaway}
+**Hint:** What are the [amplitude]{.parameter-a}, [period]{.parameter-n} and [midline]{.parameter-k}?
+:::
 
 <p class="booklet-cue">Booklet p. 29 · Example 2.2(a)</p>
 
 ::: notes
 
-Work in OneNote. The time origin is high tide, so positive cosine is a convenient model. a=0.6, b=1.2 and T=16 hours; n=2π/16=π/8 radians per hour. Hence h=0.6 cos(πt/8)+1.2. Explain the role of the booklet's b as the midline parameter k in our general sketching form. Height is measured in metres and time in hours. Reveal the model only after the working. Reset hides it. Allow about 5 minutes.
+Work in OneNote. The time origin is high tide, so positive cosine is a convenient model. a=0.6, b=1.2 and T=16 hours; n=2π/16=π/8 radians per hour. Hence h=0.6 cos(πt/8)+1.2. Explain the role of the booklet's b as the midline parameter k in our general sketching form. Height is measured in metres and time in hours. The slide gives a static hint to identify the amplitude, period and midline; complete the model in OneNote. There are no answer-reveal controls on this slide. Allow about 5 minutes.
 
 :::

@@ -85,3 +85,24 @@
 .reveal [data-preview-of="iv2-hinge"] .hinge-explanation{font-size:23px}
 /* Reveal's theme also sets right:10px; clear it so the centred counter stays narrow. */
 .reveal .slide-number{right:auto!important;width:max-content!important;left:50%!important;bottom:22px!important}
+
+/* Coordinate-plane controls: two in-plane coordinates, then the independent offset. */
+.reveal [data-components=planes] .c-plane-sliders{display:grid;grid-template-columns:1fr 1fr;gap:4px 26px}
+.reveal [data-components=planes] .c-plane-sliders label{grid-template-columns:145px 1fr;gap:12px}
+.reveal [data-components=planes] .c-plane-sliders label:last-child{grid-column:1 / -1;grid-template-columns:310px 1fr}
+.reveal [data-components=planes] .c-equations p{margin:10px 0}
+.reveal [data-components=planes] .c-status{font-size:23px;margin:8px 0;min-height:32px}
+
+/* Keep vector settings separate from notation choices. */
+.reveal [data-components=forms] .c-controls{display:flex;flex-direction:column;align-items:flex-start;gap:9px}
+.reveal [data-components=forms] .c-form-presets,.reveal [data-components=forms] .c-form-types{display:flex;flex-wrap:nowrap;gap:9px}
+.reveal [data-components=unitSteps] .c-demonstration{grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:25px}
+.reveal [data-components=unitSteps] .c-unit-answer{border-bottom:1px solid var(--rule);padding:9px 0;min-height:116px}
+.reveal [data-components=unitSteps] .c-unit-answer p{display:inline-block;margin:8px 10px 2px 0;font-size:26px}
+.reveal [data-components=unitSteps] .c-unit-answer button{display:block;font-size:20px;min-height:45px;padding:7px 14px}
+.reveal [data-components=unitSteps] .c-unit-answer button[aria-pressed=false]{background:white;color:var(--ink)}
+.reveal [data-components=unitSteps] .c-label{font-size:21px}
+.reveal [data-components=unitSteps] .c-status{font-size:23px}
+.reveal .c-3d-rules{display:grid;grid-template-columns:1.35fr 1fr;gap:48px;margin-top:45px}
+.reveal .c-3d-rules h3{font-size:27px;line-height:1.35;min-height:75px}
+.reveal .c-3d-rules p{font-size:31px}

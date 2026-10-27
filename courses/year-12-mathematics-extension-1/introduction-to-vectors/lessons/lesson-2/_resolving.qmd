@@ -6,5 +6,5 @@ The angle <span data-math="\theta"></span> is measured anticlockwise from the po
 <div class="booklet-cue">Booklet Section 3.2.1 · p. 18</div>
 
 ::: notes
-Use a positive first-quadrant angle to connect the horizontal component with adjacent/hypotenuse=cos θ and vertical with sin θ. Then cross 90 degrees and predict the sign change. The radius stays 6, so a=6cosθ i+6sinθ j. The old component slides had sine and cosine swapped; this diagram and formula correct that. At 150 degrees, x=−3√3≈−5.20 and y=3. The adjacent signed component is negative; a triangle side length itself is non-negative.
+Use a positive first-quadrant angle to connect the horizontal component with adjacent/hypotenuse=cos θ and vertical with sin θ. Then cross 90 degrees and predict the sign change. The magnitude |a| stays 6; use x=|a|cos θ and y=|a|sin θ, so a=6cosθ i+6sinθ j. The old component slides had sine and cosine swapped; this diagram and formula correct that. At 150 degrees, x=−3√3≈−5.20 and y=3. The adjacent signed component is negative; a triangle side length itself is non-negative.
 :::

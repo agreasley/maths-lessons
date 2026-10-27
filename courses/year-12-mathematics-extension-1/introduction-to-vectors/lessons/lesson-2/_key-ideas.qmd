@@ -1,0 +1,9 @@
+## Key Ideas {#iv2-key-ideas .component-lesson .vector-lesson}
+
+<div class="c-key-row"><div><h3>Three forms, one vector</h3><p><span data-math="x\mathbf i+y\mathbf j+z\mathbf k=(x,y,z)=\begin{bmatrix}x\\y\\z\end{bmatrix}"></span></p></div><div data-components="key-components"></div></div>
+<div class="c-key-row"><div><h3>Operate on corresponding components</h3><p><span data-math="\begin{bmatrix}a_x\\a_y\\a_z\end{bmatrix}\!\pm\!\begin{bmatrix}b_x\\b_y\\b_z\end{bmatrix}=\begin{bmatrix}a_x\pm b_x\\a_y\pm b_y\\a_z\pm b_z\end{bmatrix}"></span></p></div><div data-components="key-add"></div></div>
+<div class="c-key-row"><div><h3>Scale every component</h3><p><span data-math="k\begin{bmatrix}x\\y\\z\end{bmatrix}=\begin{bmatrix}kx\\ky\\kz\end{bmatrix}"></span></p></div><div data-components="key-scale"></div></div>
+
+::: notes
+Complete the relevant Key Ideas in the booklet after discussion. Ask a student to state each rule and point to its geometric meaning. Also retrieve the coordinate-plane equations orally. Position vectors and head-minus-tail are next lesson; magnitude, distance, midpoint, normalisation and scalar product remain for Lesson 4 onwards.
+:::

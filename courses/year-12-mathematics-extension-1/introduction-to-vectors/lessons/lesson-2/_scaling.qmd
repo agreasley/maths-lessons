@@ -1,0 +1,10 @@
+## Scaling every component {#iv2-scaling .component-lesson .vector-lesson}
+
+Multiply each component by the same scalar.
+
+<div data-components="scaling"></div>
+<div class="booklet-cue">Booklet Section 3.3 · p. 20</div>
+
+::: notes
+Use a=(2,1). The slider and presets include negative, fractional and zero values. For k>0 direction is unchanged; k<0 reverses direction; k=0 is the zero vector with no direction. Equal axis scales make the geometric length change meaningful. The original vector is shown as a dotted reference when its multiple overlaps it.
+:::

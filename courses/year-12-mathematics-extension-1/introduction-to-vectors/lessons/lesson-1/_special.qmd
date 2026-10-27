@@ -11,5 +11,5 @@
 <div class="booklet-cue">Booklet §1.3 · p. 2</div>
 
 ::: notes
-Switch between opposite, zero and unit. Reverse a without changing its length. The zero vector is represented by a point; it has magnitude zero, not an undefined magnitude. A unit vector can point in any direction; it need not be horizontal or vertical. Use the marked unit scale. Only define the unit vector now; the formula a/|a| belongs in revised Lesson 3. A zero vector has no associated direction or unit vector.
+Switch between opposite, zero and unit. Reverse a without changing its length. The zero vector is represented by a point; it has magnitude zero, not an undefined magnitude. A unit vector can point in any direction; it need not be horizontal or vertical. Use the marked unit scale. Only define the unit vector now; the formula a/|a| belongs in revised Lesson 4. A zero vector has no associated direction or unit vector.
 :::

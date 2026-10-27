@@ -2,16 +2,17 @@
 
 ## Sequence and sources
 
-This topic follows the user's revised six-deck sequence. Original program Lessons 1 and 2 are combined; original Lessons 3–7 become revised Lessons 2–6. Only Lesson 1 has been built.
+This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1 and 2 have been built.
 
 | Revised lesson | Booklet coverage | Homework |
 |---|---|---|
 | 1. Vector meaning and geometric operations | Sections 1–2; Examples 1.1–1.3 and 2.1–2.4 | 1 |
-| 2. Coordinates, components and position vectors | Section 3; Examples 3.1–3.11 | 2 |
-| 3. Magnitude, distance, midpoints, unit vectors and algebraic scalar product | Section 4; Examples 4.1–4.14 | 3 |
-| 4. Geometric scalar product and magnitude | Section 5; Examples 5.1–5.4 | 4 |
-| 5. Angles, perpendicularity and parallelism | Section 6; Examples 6.1–6.15 | 5 |
-| 6. Projections and perpendicular components | Section 7; Examples 7.1–7.10 | 6 |
+| 2. Coordinates and components | Sections 3.1–3.3; Examples 3.1–3.7 | 2, first part |
+| 3. Position vectors and vectors between points | Section 3.4; Examples 3.8–3.11 | 2, remaining questions |
+| 4. Magnitude, distance, midpoints, unit vectors and algebraic scalar product | Section 4; Examples 4.1–4.14 | 3 |
+| 5. Geometric scalar product and magnitude | Section 5; Examples 5.1–5.4 | 4 |
+| 6. Angles, perpendicularity and parallelism | Section 6; Examples 6.1–6.15 | 5 |
+| 7. Projections and perpendicular components | Section 7; Examples 7.1–7.10 | 6 |
 
 Primary source: *12MAX1 – Introduction to Vectors.pdf*, supplied 24 October 2026, printed pp. 1–13 for this lesson. Program: *Program.pdf*, Introduction to Vectors [E1], original Lessons 1–2. Textbook: *Cambridge Mathematics Extension 1 Year 12*, Second Edition, Chapter 9, especially 9A. Older slide sources inform the explanations: *What are vectors*, *Vectors in 2D* and the applicable spatial representations in *Vectors in 3D*. The booklet controls scope, wording and examples. Mathematical derivations and short applications remain in scope; standalone advanced geometric-proof lessons, vector equations and motion applications belong to later work.
 
@@ -26,7 +27,7 @@ Plan for roughly 70–90 minutes in total, depending on discussion and student w
 - Triangle/parallelogram addition, Example 2.1, subtraction, Example 2.2 and hinge.
 - Closed paths and scalar multiplication, then Examples 2.3–2.4, the illustrated Key Ideas summary and Homework 1.
 
-A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2, 3, 5 and 6 may each need two teaching periods; avoid forcing the six decks into six periods.
+A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2, 4, 6 and 7 may each need two teaching periods; avoid forcing seven decks into seven periods.
 
 ## Hook and the purpose of the unit
 
@@ -73,7 +74,7 @@ Ready: proceed. Divided: explain A→O→B to a partner and revote. Needs explan
 
 - Scalar quantities may be negative. A real scalar multiplier can be positive, negative or zero.
 - The zero vector has magnitude zero and no direction.
-- A unit vector has magnitude one; defer the normalising formula to revised Lesson 3.
+- A unit vector has magnitude one; defer the normalising formula to revised Lesson 4.
 - Non-zero parallel vectors may have the same or opposite directions. Do not attribute a direction to the zero vector.
 - Triangle and parallelogram constructions work in 3D. Non-parallel tail-to-tail vectors determine a plane; parallel vectors do not determine a unique plane.
 - The later component-resolution lesson must use r cos θ in the x-direction and r sin θ in the y-direction when θ is measured from positive x, correcting the old swapped formula.
@@ -97,3 +98,46 @@ quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/l
 Render with the repository's pinned Quarto 1.10.18. The shared scripts supply Next/Previous, Slide map, Topic lessons and finger-response icons. The topic-specific scripts and SVGs are embedded in the rendered lesson. Open on iPad in landscape. Dragging has button alternatives and no interaction depends on hover.
 
 Publishing remains the repository's manual GitHub Actions workflow; a source commit or PR does not itself publish the lesson.
+
+## Lesson 2: coordinates and components
+
+Source scope: booklet printed pp. 14–22, Sections 3.1–3.3 and Examples 3.1–3.7. Cambridge Second Edition sections 9B, 9D and 9E provide the component, coordinate and 3D context. The old Vectors in component form and Vectors in 3D slides inform the unit-vector and operation diagrams. The booklet controls example wording, values, order and notation. Example 3.2 and the right-hand axes image are exact crops from the supplied booklet; all other new diagrams are native mathematical constructions.
+
+Allow approximately 75–90 minutes with student working time. There are 24 slides. The objective follows the cover, then a brief translated-vector recap. Introduce coordinates and coordinate planes, standard unit vectors and equivalent forms, resolve components, and equate corresponding components. A natural period break is after Example 3.4. Continue with component operations and Examples 3.5–3.6, a short 3D operations demonstration, the hinge, and Example 3.7. The hinge is immediately before Example 3.7, as requested. Position vectors and head-minus-tail are reserved for Lesson 3.
+
+The component operations controls deliberately stage the construction: choose addition or subtraction, show the negative vector when subtracting, move the second vector head to tail, then reveal the calculations. The slider preserves magnitude and direction while translating. The parallelogram view verifies the same result. Moving away from head-to-tail placement hides the answer. Buttons are neutral before a reveal and green only when active. All dragging/translation has button alternatives.
+
+For resolving components, the angle is anticlockwise from positive x. Use x=r cos(theta), y=r sin(theta), correcting the swapped formula in the old slide source. The diagram keeps equal x/y scales, uses signed components and includes all quadrants. Three-dimensional diagrams use a fixed parallel projection of right-handed perpendicular axes; projected lengths/angles must not be measured as spatial lengths/angles.
+
+### Lesson 2 worked checks
+
+- 3.1: a) xy; b) xz; c) yz; d) xz and yz; e) all three; f) none.
+- 3.2: a=(1,2), b=(-5,-1), c=(-1,3). In the original diagram, b points from (2,-2) to (-3,-3). Count displacement from each arrow's own tail.
+- 3.3: a=6cos(150°)i+6sin(150°)j=-3sqrt(3)i+3j, approximately -5.20i+3.00j.
+- 3.4: 3m+1=7 and 4n-9=-5, so m=2, n=1.
+- 3.5: a) (2,-3); b) (-12,18), both as columns.
+- 3.6: a) -2i-3j; b) -4i+7j; c) -25i+34j; d) 12i-16j.
+- 3.7: a) 2j+3k; b) 6i-k; c) 8i-4j+16k; d) 5i-9j+9k. Retain mixed representations in the question and component-form final answers, as requested in the booklet.
+
+### Lesson 2 hinge
+
+Given a=(2,-1,3), b=(-1,4,2), find 2a-b. Correct choice 3: (5,-6,4).
+
+1. (3,2,8) computes 2a+b.
+2. (5,2,4) adds the y-components instead of subtracting: -2+4 instead of -2-4.
+3. (5,-6,4) is correct.
+4. (3,-5,1) computes a-b, omitting the factor 2.
+
+Use the shared 60-second timer, adjustable duration, manual reveal and simultaneous 1–4 finger responses. Ready: move to 3.7. Divided: compare one component with a partner and revote. Needs explanation: write 2a=(4,-2,6), bracket the subtracted components, and explain the middle calculation before retrying. No automatic reveal at expiry; timers pause when leaving the slide or entering the slide map.
+
+### Homework 2 split across Lessons 2 and 3
+
+The combined allocation is unchanged from booklet p. 25 and the Homework Summary. No questions are added or dropped. Cambridge was checked before making this split: 9B Q4 explicitly asks for position-vector sketches, 9B Q7 and 9E Q1/5/6/12 use position vectors, 9D Q4 applies coordinate transformations, 9D Q5(a) reads cube coordinates, and 9E Q7 equates components.
+
+| Level | After Lesson 2 | Reserve for Lesson 3 |
+|---|---|---|
+| Mild | 9B Q2(a,c,e); 9D Q1–2; 9E Q4(a,c) | 9B Q4,Q7; 9E Q1,Q5(a,b) |
+| Medium | 9B Q2(a,c,e),Q3(a,c); 9D Q1–3; 9E Q4(a,c) | 9B Q4,Q7; 9D Q4(a–h); 9E Q1,Q5(a,b),Q6(a,b) |
+| Spicy | 9B Q2(a,c,e),Q3(a,c); 9D Q1–3,Q5(a); 9E Q4(a,c),Q7 | 9B Q4,Q7; 9D Q4; 9E Q1,Q5(a,b),Q6(a,b),Q12 |
+
+Preview Lesson 2 with `quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-2.qmd`. Lesson-specific assets are components.js and components.css; shared navigation, finger-response icons and timers are unchanged.

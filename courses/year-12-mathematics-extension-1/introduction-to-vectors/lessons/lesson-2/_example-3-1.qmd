@@ -1,0 +1,10 @@
+## Example 3.1 {#iv2-example-3-1 .component-lesson .vector-lesson}
+
+State all the coordinate planes, if any, that contain each point.
+
+<div data-components="classify"></div>
+<div class="booklet-cue">Booklet Example 3.1 · p. 15</div>
+
+::: notes
+Preserve the six source points and order. a) A(3,−2,0): xy. b) B(4,0,−1): xz. c) C(0,−3,5): yz. d) D(0,0,2): xz and yz, because the point lies on the z-axis. e) E(0,0,0): all three. f) F(1,2,3): none. Reveal one row at a time only after students explain which coordinates vanish. Reset hides all classifications.
+:::

@@ -1,0 +1,10 @@
+## Example 3.6 · (a)–(b) {#iv2-example-3-6-ab .component-lesson .vector-lesson}
+
+Given $\underset{\sim}{a}=\underset{\sim}{i}-5\underset{\sim}{j}$ and $\underset{\sim}{b}=-3\underset{\sim}{i}+2\underset{\sim}{j}$ find:
+
+<div class="c-parts"><div><p><strong>a)</strong> <span data-math="\underset{\sim}{a}+\underset{\sim}{b}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}+\underset{\sim}{b}=-2\underset{\sim}{i}-3\underset{\sim}{j}"></span></div></div></div><div><p><strong>b)</strong> <span data-math="\underset{\sim}{b}-\underset{\sim}{a}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{b}-\underset{\sim}{a}=-4\underset{\sim}{i}+7\underset{\sim}{j}"></span></div></div></div></div>
+<div class="booklet-cue">Booklet Example 3.6(a)–(b) · p. 21</div>
+
+::: notes
+a) −2i−3j. b) −4i+7j. In b−a, the j coefficient is 2−(−5)=7. Keep the original order, particularly b−a.
+:::

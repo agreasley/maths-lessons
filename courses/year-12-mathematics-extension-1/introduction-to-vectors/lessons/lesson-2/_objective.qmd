@@ -1,0 +1,17 @@
+## Today's learning {#iv2-objective .component-lesson .vector-lesson}
+
+### Learning objective
+
+Represent and calculate with vectors using components in two and three dimensions.
+
+### Success criterion
+
+I can convert between vector forms and calculate scalar multiples, sums and differences in 2D and 3D.
+
+::: takeaway
+Components let us calculate with the geometric vectors we already know.
+:::
+
+::: notes
+Geometry and algebra remain connected throughout. Formal position vectors and vectors between given points are reserved for Lesson 3. Only standard unit vectors are needed here; calculating a unit vector in an arbitrary direction belongs to Lesson 4.
+:::

@@ -1,0 +1,12 @@
+## Example 3.4 {#iv2-example-3-4 .component-lesson .vector-lesson}
+
+Find the values of $m$ and $n$ if
+
+$$7\underset{\sim}{i}-5\underset{\sim}{j}=(3m+1)\underset{\sim}{i}+(4n-9)\underset{\sim}{j}$$
+
+<div class="c-work-space"><p>Match corresponding components.</p></div>
+<div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="3m+1=7,\quad4n-9=-5\qquad\Longrightarrow\qquad m=2,\ n=1"></span></div></div><div class="booklet-cue">Booklet Example 3.4 · p. 19</div>
+
+::: notes
+Equate coefficients: 3m+1=7 and 4n−9=−5, giving m=2, n=1. If this deck spans two periods, this is the suggested stopping point. Resume by retrieving the three forms and equal corresponding components before operations.
+:::

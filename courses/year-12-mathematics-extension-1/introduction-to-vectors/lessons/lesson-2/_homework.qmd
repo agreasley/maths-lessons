@@ -1,0 +1,16 @@
+## Homework 2 · First part {#iv2-homework .component-lesson .vector-lesson}
+
+**Coordinates and component operations**
+
+| Level | Questions |
+|---|---|
+| Mild | **9B:** Q2(a,c,e). **9D:** Q1–2. **9E:** Q4(a,c). |
+| Medium | **9B:** Q2(a,c,e), Q3(a,c). **9D:** Q1–3. **9E:** Q4(a,c). |
+| Spicy | **9B:** Q2(a,c,e), Q3(a,c). **9D:** Q1–3, Q5(a). **9E:** Q4(a,c), Q7. |
+
+The position-vector questions from Homework 2 follow Lesson 3.
+<div class="booklet-cue">Cambridge Mathematics Extension 1 Year 12, Second Edition · Split from booklet Homework 2, p. 25</div>
+
+::: notes
+This is a partition of the existing Homework 2, with no extra questions added or removed overall. Lesson 3 reserve: Mild 9B Q4,Q7; 9E Q1,Q5(a,b). Medium 9B Q4,Q7; 9D Q4(a–h); 9E Q1,Q5(a,b),Q6(a,b). Spicy 9B Q4,Q7; 9D Q4; 9E Q1,Q5(a,b),Q6(a,b),Q12. Q4 of 9B explicitly requests sketches as position vectors, so it is reserved for Lesson 3. Q5(a) of 9D is coordinate reading and Q7 of 9E is component equality, so both fit Lesson 2. Keep the booklet label Homework 2 across the split.
+:::

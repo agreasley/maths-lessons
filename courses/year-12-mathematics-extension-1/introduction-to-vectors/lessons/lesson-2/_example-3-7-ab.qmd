@@ -1,0 +1,10 @@
+## Example 3.7 · (a)–(b) {#iv2-example-3-7-ab .component-lesson .vector-lesson}
+
+Given $\underset{\sim}{a}=\begin{bmatrix}2\\-1\\4\end{bmatrix}$, $\underset{\sim}{b}=(-3,1,2)$, $\underset{\sim}{c}=\underset{\sim}{i}+2\underset{\sim}{j}-3\underset{\sim}{k}$, find each of the following vectors expressing your answer in component form.
+
+<div class="c-parts"><div><p><strong>a)</strong> <span data-math="\underset{\sim}{a}+\underset{\sim}{b}+\underset{\sim}{c}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}+\underset{\sim}{b}+\underset{\sim}{c}=2\underset{\sim}{j}+3\underset{\sim}{k}"></span></div></div></div><div><p><strong>b)</strong> <span data-math="\underset{\sim}{a}-\underset{\sim}{b}+\underset{\sim}{c}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}-\underset{\sim}{b}+\underset{\sim}{c}=6\underset{\sim}{i}-\underset{\sim}{k}"></span></div></div></div></div>
+<div class="booklet-cue">Booklet Example 3.7(a)–(b) · p. 22</div>
+
+::: notes
+First put the three given vectors into a common notation: a=(2,−1,4), b=(−3,1,2), c=(1,2,−3). a) (0,2,3)=2j+3k. b) (6,0,−1)=6i−k. The question requires answers in component form using i, j, k. A zero coefficient can be omitted from that expression, but its place must remain in a column or tuple.
+:::

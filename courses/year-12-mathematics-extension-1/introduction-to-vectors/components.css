@@ -85,3 +85,10 @@
 .reveal [data-preview-of="iv2-hinge"] .hinge-explanation{font-size:23px}
 /* Reveal's theme also sets right:10px; clear it so the centred counter stays narrow. */
 .reveal .slide-number{right:auto!important;width:max-content!important;left:50%!important;bottom:22px!important}
+
+/* Coordinate-plane controls: two in-plane coordinates, then the independent offset. */
+.reveal [data-components=planes] .c-plane-sliders{display:grid;grid-template-columns:1fr 1fr;gap:4px 26px}
+.reveal [data-components=planes] .c-plane-sliders label{grid-template-columns:145px 1fr;gap:12px}
+.reveal [data-components=planes] .c-plane-sliders label:last-child{grid-column:1 / -1;grid-template-columns:310px 1fr}
+.reveal [data-components=planes] .c-equations p{margin:10px 0}
+.reveal [data-components=planes] .c-status{font-size:23px;margin:8px 0;min-height:32px}

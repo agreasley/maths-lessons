@@ -22,8 +22,6 @@ format:
 
 {{< include lesson-2/_objective.qmd >}}
 
-{{< include lesson-2/_recap.qmd >}}
-
 {{< include lesson-2/_coordinates.qmd >}}
 
 {{< include lesson-2/_planes.qmd >}}

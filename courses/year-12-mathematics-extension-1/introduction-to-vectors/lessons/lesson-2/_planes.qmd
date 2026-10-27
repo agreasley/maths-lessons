@@ -7,5 +7,5 @@ Which coordinate stays zero on each plane?
 <p class="small-note">The shaded patch represents part of a plane that extends indefinitely.</p>
 
 ::: notes
-Booklet pp. 14–15. Select xy, xz and yz in turn, then vary the missing coordinate to move the point off the plane. The equations are xy: z=0, xz: y=0, yz: x=0. Returning the slider to zero puts the point back on the selected plane. Axes belong to two planes; the origin belongs to all three. Ask students to sketch each plane in their booklet before moving on.
+Booklet pp. 14–15. Select xy, xz and yz in turn. First move both in-plane coordinate sliders and observe that the highlighted missing coordinate stays at zero: on the xz-plane, x and z can vary while y remains zero. Then use Move off the plane to vary that missing coordinate independently. The other two sliders still work when the point is off the plane. The equations are xy: z=0, xz: y=0, yz: x=0. Returning the Move off the plane slider to zero puts the point back on the selected plane. Reset restores the point to (2,2) in the selected plane and hides its equation. Switching planes also starts on that plane. Axes belong to two planes; the origin belongs to all three. Ask students to sketch each plane in their booklet before moving on.
 :::

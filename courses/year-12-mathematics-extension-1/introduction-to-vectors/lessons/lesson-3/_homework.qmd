@@ -1,0 +1,16 @@
+## Homework 2 · Remaining questions {#iv3-homework .vector-lesson .component-lesson .position-lesson}
+
+**Position vectors and vectors between points**
+
+| Level | Questions |
+|---|---|
+| Mild | **9B:** Q4, Q7. **9E:** Q1, Q5(a,b). |
+| Medium | **9B:** Q4, Q7. **9D:** Q4(a–h). **9E:** Q1, Q5(a,b), Q6(a,b). |
+| Spicy | **9B:** Q4, Q7. **9D:** Q4. **9E:** Q1, Q5(a,b), Q6(a,b), Q12. |
+
+Name the head and tail before calculating a displacement.
+<div class="booklet-cue">Cambridge Mathematics Extension 1 Year 12, Second Edition · Booklet Homework 2, p. 25</div>
+
+::: notes
+Together with Lesson 2’s first-part allocation, this preserves the original Homework 2 exactly. In 9D Q4, interpret coordinate transformations directly, including reflections and half-turns. In the spicy parallelogram question 9E Q12, use equality of directed opposite sides to find the fourth vertex. Next lesson: magnitude, distance, midpoints, unit vectors and algebraic scalar product, booklet Section 4.
+:::

@@ -1,0 +1,10 @@
+## Head minus tail {#iv3-head-minus-tail .vector-lesson .component-lesson .position-lesson}
+
+$$\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}$$
+
+<div data-position="between"></div>
+<div class="booklet-cue">Booklet result: Head minus tail · p. 23</div>
+
+::: notes
+Use A(1,2), B(4,−1), so AB=(3,−3). Reveal only after predicting. Move B with the four buttons, or swap the requested direction; neither changes the head-minus-tail rule. Each movement hides the previous answer. Explicitly identify the head and tail before subtracting. This uses different coordinates from the following hinge.
+:::

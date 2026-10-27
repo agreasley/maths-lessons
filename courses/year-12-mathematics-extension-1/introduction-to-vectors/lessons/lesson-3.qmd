@@ -1,0 +1,47 @@
+---
+pagetitle: "Lesson 3 — Position vectors"
+lesson-title: "Position vectors"
+description: "Use position vectors to find displacements and endpoints in 2D and 3D."
+lesson-order: 3
+booklet: "Section 3.4 · Examples 3.8–3.11"
+homework: "2, remaining questions · Exercises 9B, 9D and 9E"
+format:
+  revealjs:
+    css:
+      - ../../../../assets/lesson.css
+      - ../vectors.css
+      - ../components.css
+      - ../positions.css
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../vectors.js"></script>
+        <script src="../components.js"></script>
+        <script src="../positions.js"></script>
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_objective.qmd >}}
+
+{{< include lesson-3/_recap.qmd >}}
+
+{{< include lesson-3/_position.qmd >}}
+
+{{< include lesson-3/_example-3-8.qmd >}}
+
+{{< include lesson-3/_head-minus-tail.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_example-3-9.qmd >}}
+
+{{< include lesson-3/_example-3-10.qmd >}}
+
+{{< include lesson-3/_three-dimensions.qmd >}}
+
+{{< include lesson-3/_example-3-11.qmd >}}
+
+{{< include lesson-3/_key-ideas.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

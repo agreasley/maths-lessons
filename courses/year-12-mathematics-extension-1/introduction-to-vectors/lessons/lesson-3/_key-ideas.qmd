@@ -1,0 +1,9 @@
+## Key Ideas {#iv3-key-ideas .vector-lesson .component-lesson .position-lesson}
+
+<div class="p-key-row"><div><h3>A position vector starts at the origin</h3><p><span data-math="A(x,y,z)\quad\Longleftrightarrow\quad\overrightarrow{OA}=\begin{bmatrix}x\\y\\z\end{bmatrix}"></span></p></div><div data-position="key-position"></div></div>
+<div class="p-key-row"><div><h3>Displacement is head minus tail</h3><p><span data-math="\overrightarrow{AB}=\overrightarrow{OB}-\overrightarrow{OA}"></span></p><p><span data-math="\overrightarrow{BA}=-\overrightarrow{AB}"></span></p></div><div data-position="key-between"></div></div>
+<div class="p-key-row"><div><h3>Endpoint is start plus displacement</h3><p><span data-math="\overrightarrow{OB}=\overrightarrow{OA}+\overrightarrow{AB}"></span></p></div><div data-position="key-endpoint"></div></div>
+
+::: notes
+Complete the Section 3 Key Ideas together. Ask students to distinguish points from vectors, name the head and tail, and explain why reversing the endpoints changes every component’s sign. The same identities work in 2D and 3D.
+:::

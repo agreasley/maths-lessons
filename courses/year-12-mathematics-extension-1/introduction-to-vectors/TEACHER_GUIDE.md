@@ -2,7 +2,7 @@
 
 ## Sequence and sources
 
-This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1 and 2 have been built.
+This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–3 have been built.
 
 | Revised lesson | Booklet coverage | Homework |
 |---|---|---|
@@ -141,3 +141,14 @@ The combined allocation is unchanged from booklet p. 25 and the Homework Summary
 | Spicy | 9B Q2(a,c,e),Q3(a,c); 9D Q1–3,Q5(a); 9E Q4(a,c),Q7 | 9B Q4,Q7; 9D Q4; 9E Q1,Q5(a,b),Q6(a,b),Q12 |
 
 Preview Lesson 2 with `quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-2.qmd`. Lesson-specific assets are components.js and components.css; shared navigation, finger-response icons and timers are unchanged.
+
+
+## Lesson 3: position vectors
+
+Allow 40–55 minutes for 13 slides, including independent work. Begin with component subtraction, distinguish a point from its position vector, and derive head minus tail using the path through the origin (Example 3.8). Use the movable-endpoint demonstration before the timed hinge. The hinge is immediately before Example 3.9. If students need more time, break after Example 3.10 and begin the next session with the two 3D slides.
+
+Hinge: A(2,−1), B(−3,4). Correct choice 3 is (−5,5). Choice 1 adds the positions; choice 2 reverses the direction; choice 4 uses B alone. Use the shared simultaneous finger-response routine and manual reveal. If divided, trace A → O → B; if secure, proceed to Example 3.9.
+
+Worked checks: Example 3.8 AB=b−a; Example 3.9 (−4,−6); Example 3.10 endpoint (−1,8); Example 3.11 (4,2,0). In Example 3.11 the segment lies at z=8 and is parallel to the xy-plane, not in that plane. The height slider translates an equal vector down to z=0. Spatial diagrams use a fixed parallel projection; screen lengths and angles are not spatial measurements.
+
+Finish with the illustrated Key Ideas and the remaining Homework 2 selections shown in the deck. Magnitude, midpoint and normalisation remain in Lesson 4. Assets: positions.js and positions.css.

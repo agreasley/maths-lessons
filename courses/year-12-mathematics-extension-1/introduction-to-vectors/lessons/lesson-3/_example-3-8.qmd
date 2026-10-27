@@ -1,0 +1,10 @@
+## Example 3.8 {#iv3-example-3-8 .vector-lesson .component-lesson .position-lesson}
+
+Given position vectors $\underset{\sim}{a}=\overrightarrow{OA}$ and $\underset{\sim}{b}=\overrightarrow{OB}$ derive an expression for $\overrightarrow{AB}$.
+
+<div data-position="derive"></div>
+<div class="booklet-cue">Booklet Example 3.8 · p. 23</div>
+
+::: notes
+Follow A→O→B. First reverse OA, giving AO=−a. Then follow OB=b. The combined path has displacement AB=−a+b=b−a. The original OA stays dotted when reversed. Reveal AB last, then swap A and B to derive BA=a−b=−AB. Preserve the given vectors a=OA and b=OB when swapping the requested direction.
+:::

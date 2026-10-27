@@ -1,0 +1,13 @@
+## Previously · Subtracting components {#iv3-recap .vector-lesson .component-lesson .position-lesson}
+
+Given $\mathbf a=(2,1)$ and $\mathbf b=(-1,3)$, find $\mathbf b-\mathbf a$.
+
+<div class="p-recap-diagrams"><div data-vector="key-opposite"></div><div data-vector="key-subtraction"></div></div>
+
+Subtracting a vector means adding its negative.
+<div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\mathbf b-\mathbf a=(-1-2,\ 3-1)=(-3,2)"></span></div></div>
+<p class="small-note">What would change if we reversed the order?</p>
+
+::: notes
+Brief retrieval only. b−a=(−3,2), while a−b=(3,−2), its negative. The diagrams retrieve reversal and subtraction as addition; their vectors are illustrative and not drawn to the numerical components in this question. This is a bridge to the path A→O→B, not a second hinge.
+:::

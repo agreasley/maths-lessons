@@ -1,0 +1,10 @@
+## A point and its position vector {#iv3-position .vector-lesson .component-lesson .position-lesson}
+
+A <strong>position vector</strong> has its tail at the origin.
+
+<div data-position="position"></div>
+<div class="booklet-cue">Booklet Section 3.4 · p. 23</div>
+
+::: notes
+Initially show the point A(3,2). Reveal OA and distinguish the location A from the directed segment starting at O. OA=3i+2j. The origin is fixed in this demonstration. Switch to 3D, A(2,3,3), for the same definition. Translating a free vector away from O preserves the vector, but the translated representative is no longer drawn as a position vector from O.
+:::

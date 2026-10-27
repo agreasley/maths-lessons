@@ -1,0 +1,10 @@
+## Example 3.10 {#iv3-example-3-10 .vector-lesson .component-lesson .position-lesson}
+
+If the vector $\begin{bmatrix}-3\\5\end{bmatrix}$ has an initial point at $(2,3)$, determine the coordinates of the end point.
+
+<div data-position="endpoint"></div>
+<div class="booklet-cue">Booklet Example 3.10 · p. 24</div>
+
+::: notes
+Endpoint=(-1,8). Add the displacement to the starting coordinates: (2,3)+(-3,5)=(-1,8). The initial point is not the origin. Show three units left and then five up, with the resultant displacement drawn from the given initial point. Reinforce B=A+AB, the rearrangement of AB=B−A. The named A and B labels in the new supporting diagram are explanatory additions.
+:::

@@ -1,0 +1,11 @@
+## Position vectors {#iv3-opening .cover}
+
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 3</div>
+<div class="cover-title">Position vectors</div>
+<div class="cover-subtitle">Locations, displacements<br>and endpoints.</div>
+<div data-position="cover" class="p-cover-figure"></div>
+<div class="cover-foot">Booklet Section 3.4 · Examples 3.8–3.11 · Homework 2, remaining questions</div>
+
+::: notes
+Allow approximately 40–55 minutes. The hinge follows the head-minus-tail demonstration and precedes Example 3.9. Source: supplied Introduction to Vectors booklet, printed pp. 23–25; Cambridge Extension 1 Year 12 Second Edition, sections 9B and 9E. Keep magnitude, midpoint and normalisation for Lesson 4. Native coordinate diagrams are new supporting diagrams.
+:::

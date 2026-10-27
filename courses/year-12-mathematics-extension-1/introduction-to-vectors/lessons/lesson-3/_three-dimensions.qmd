@@ -1,0 +1,11 @@
+## Head minus tail in three dimensions {#iv3-three-dimensions .vector-lesson .component-lesson .position-lesson}
+
+For $A(x,y,z)$ and $B(u,v,w)$,
+
+$$\overrightarrow{AB}=\begin{bmatrix}u-x\\v-y\\w-z\end{bmatrix}.$$
+
+<div data-position="between3d"></div>
+
+::: notes
+Additional supporting example: A(1,1,1), B(3,4,3), giving AB=(2,3,2). Show the two position vectors, then reveal their difference at A. Reversing the requested direction negates all three components. A fixed parallel projection represents the 3D axes; screen lengths and angles are not spatial measurements.
+:::

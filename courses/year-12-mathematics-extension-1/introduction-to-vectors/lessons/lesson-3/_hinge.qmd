@@ -1,0 +1,18 @@
+## Hinge question · Which direction? {#iv3-hinge .vector-lesson .component-lesson .position-lesson}
+
+<div data-module="hinge" data-correct="3" class="hinge numeric-choices">
+<p class="hinge-question">Given <span data-math="A(2,-1)"></span> and <span data-math="B(-3,4)"></span>, find <span data-math="\overrightarrow{AB}"></span>.</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span data-math="(-1,3)"></span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span data-math="(5,-5)"></span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span data-math="(-5,5)"></span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span data-math="(-3,4)"></span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>3.</strong> Head minus tail: <span data-math="\overrightarrow{AB}=(-3-2,\ 4-(-1))=(-5,5)"></span>.</div>
+</div>
+
+::: notes
+Additional diagnostic before Example 3.9. Correct choice 3. Choice 1 adds the position vectors, (-1,3). Choice 2 reverses the direction and gives BA=(5,-5). Choice 4 uses the coordinates of B as though the starting point were O. Default 60 seconds, adjustable. Fist on chest; think quietly; on the teacher’s “show”, hold up 1–4 fingers simultaneously. Timer expiry never reveals. Ready: proceed. Divided: identify the head and tail with a partner, then revote. Needs explanation: trace A→O→B and reverse only the first position vector before retrying.
+:::

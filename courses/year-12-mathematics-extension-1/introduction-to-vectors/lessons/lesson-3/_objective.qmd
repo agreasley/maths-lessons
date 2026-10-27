@@ -1,0 +1,17 @@
+## Today's learning {#iv3-objective .vector-lesson .component-lesson .position-lesson}
+
+### Learning objective
+
+Use position vectors to describe locations and calculate vectors between points.
+
+### Success criterion
+
+I can find a displacement or endpoint in 2D and 3D and explain the direction using a diagram.
+
+::: takeaway
+The starting point and finishing point determine the displacement.
+:::
+
+::: notes
+Make the relationship between point coordinates and vector components explicit. A point is a location; a vector describes magnitude and direction. Once an origin is chosen, its position vector joins that origin to the point.
+:::

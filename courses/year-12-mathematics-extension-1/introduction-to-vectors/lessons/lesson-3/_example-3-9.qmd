@@ -1,0 +1,10 @@
+## Example 3.9 {#iv3-example-3-9 .vector-lesson .component-lesson .position-lesson}
+
+What vector represents going from the point $(3,1)$ to the point $(-1,-5)$?
+
+<div data-position="example9"></div>
+<div class="booklet-cue">Booklet Example 3.9 · p. 24</div>
+
+::: notes
+The vector is (-4,-6), or -4i-6j. First show the two points. Reveal the directed segment and calculation after students work. The supporting diagram is new; the question and values are unchanged. Movement is four left and six down.
+:::

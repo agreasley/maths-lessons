@@ -1,9 +1,12 @@
 ## The same operations in three dimensions {#iv2-operations-3d .component-lesson .vector-lesson}
 
-Combine the corresponding <span data-math="x"></span>-, <span data-math="y"></span>- and <span data-math="z"></span>-components.
+All the operations from 2D work the same way in 3D — there is just one extra component.
 
-<div data-components="operations3d"></div>
+<div class="c-3d-rules">
+<div><h3>Add or subtract corresponding components</h3><p><span data-math="\begin{bmatrix}a_x\\a_y\\a_z\end{bmatrix}\pm\begin{bmatrix}b_x\\b_y\\b_z\end{bmatrix}=\begin{bmatrix}a_x\pm b_x\\a_y\pm b_y\\a_z\pm b_z\end{bmatrix}"></span></p></div>
+<div><h3>Multiply every component by the scalar</h3><p><span data-math="k\begin{bmatrix}a_x\\a_y\\a_z\end{bmatrix}=\begin{bmatrix}ka_x\\ka_y\\ka_z\end{bmatrix}"></span></p></div>
+</div>
 
 ::: notes
-Use a=(2,0,1), b=(0,3,2), first drawn from a common tail. Move b head to tail for addition, or −b for subtraction. The corresponding component calculations are revealed together only after placement. Addition=(2,3,3), subtraction=(2,−3,−1). A parallelogram control verifies the same calculation for either operation, with the opposite vector used for subtraction. The selected projection preserves directions and parallel lines but is not a spatial measuring scale. This brief bridge is immediately followed by the agreed hinge, then Example 3.7.
+A brief bridge to the hinge and Example 3.7: the geometric rules and component operations are unchanged, with an extra z-component. Ask students which component to calculate next; there is no new operation to learn. Addition and subtraction combine matching components; scalar multiplication affects every component.
 :::

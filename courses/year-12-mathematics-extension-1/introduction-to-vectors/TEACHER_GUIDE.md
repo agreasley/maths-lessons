@@ -77,7 +77,7 @@ Ready: proceed. Divided: explain A→O→B to a partner and revote. Needs explan
 - A unit vector has magnitude one; defer the normalising formula to revised Lesson 4.
 - Non-zero parallel vectors may have the same or opposite directions. Do not attribute a direction to the zero vector.
 - Triangle and parallelogram constructions work in 3D. Non-parallel tail-to-tail vectors determine a plane; parallel vectors do not determine a unique plane.
-- The later component-resolution lesson must use r cos θ in the x-direction and r sin θ in the y-direction when θ is measured from positive x, correcting the old swapped formula.
+- The later component-resolution lesson must use |a| cos θ in the x-direction and |a| sin θ in the y-direction when θ is measured from positive x, correcting the old swapped formula.
 
 ## Homework 1 (unchanged)
 
@@ -101,15 +101,15 @@ Publishing remains the repository's manual GitHub Actions workflow; a source com
 
 ## Lesson 2: coordinates and components
 
-Source scope: booklet printed pp. 14–22, Sections 3.1–3.3 and Examples 3.1–3.7. Cambridge Second Edition sections 9B, 9D and 9E provide the component, coordinate and 3D context. The old Vectors in component form and Vectors in 3D slides inform the unit-vector and operation diagrams. The booklet controls example wording, values, order and notation. Example 3.2 and the right-hand axes image are exact crops from the supplied booklet; all other new diagrams are native mathematical constructions.
+Source scope: booklet printed pp. 14–22, Sections 3.1–3.3 and Examples 3.1–3.7. Cambridge Second Edition sections 9B, 9D and 9E provide the component, coordinate and 3D context. The old Vectors in component form and Vectors in 3D slides inform the unit-vector and operation diagrams. The booklet controls example wording, values, order and notation. The right-hand axes image is an exact crop from the supplied booklet. Example 3.2 is recreated at the original coordinates, with reversible reveals of individual signed unit-vector steps head to tail and the component/column answers; all other new diagrams are native mathematical constructions.
 
-Allow approximately 75–90 minutes with student working time. There are 23 slides. The objective follows the cover, then the coordinate introduction; the translated-vector recap is already covered in Lesson 1. Introduce coordinates and coordinate planes, standard unit vectors and equivalent forms, resolve components, and equate corresponding components. A natural period break is after Example 3.4. Continue with component operations and Examples 3.5–3.6, a short 3D operations demonstration, the hinge, and Example 3.7. The hinge is immediately before Example 3.7, as requested. Position vectors and head-minus-tail are reserved for Lesson 3.
+Allow approximately 75–90 minutes with student working time. There are 23 slides. The objective follows the cover, then the coordinate introduction; the translated-vector recap is already covered in Lesson 1. Introduce coordinates and coordinate planes, standard unit vectors and equivalent forms, resolve components, and equate corresponding components. A natural period break is after Example 3.4. Continue with component operations and Examples 3.5–3.6, a brief statement of the same component rules in 3D, the hinge, and Example 3.7. The hinge is immediately before Example 3.7, as requested. Position vectors and head-minus-tail are reserved for Lesson 3.
 
 On the coordinate-planes slide, vary both in-plane coordinates while the highlighted missing coordinate stays zero. For example, on the xz-plane, x and z move freely while y=0. The separate Move off the plane slider varies the missing coordinate; return it to zero to put the point back on the plane. Reset and switching planes restore the two in-plane coordinates to 2, set the offset to zero and hide the equation.
 
 The component operations controls deliberately stage the construction: choose addition or subtraction, show the negative vector when subtracting, move the second vector head to tail, then reveal the calculations. The slider preserves magnitude and direction while translating. The parallelogram view verifies the same result. Moving away from head-to-tail placement hides the answer. Buttons are neutral before a reveal and green only when active. All dragging/translation has button alternatives.
 
-For resolving components, the angle is anticlockwise from positive x. Use x=r cos(theta), y=r sin(theta), correcting the swapped formula in the old slide source. The diagram keeps equal x/y scales, uses signed components and includes all quadrants. Three-dimensional diagrams use a fixed parallel projection of right-handed perpendicular axes; projected lengths/angles must not be measured as spatial lengths/angles.
+For resolving components, the angle is anticlockwise from positive x. Use x=|a| cos(theta), y=|a| sin(theta), correcting the swapped formula in the old slide source. The diagram keeps equal x/y scales, uses signed components and includes all quadrants. Three-dimensional diagrams use a fixed parallel projection of right-handed perpendicular axes; projected lengths/angles must not be measured as spatial lengths/angles.
 
 ### Lesson 2 worked checks
 

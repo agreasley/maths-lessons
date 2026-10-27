@@ -1,0 +1,9 @@
+## The same operations in three dimensions {#iv2-operations-3d .component-lesson .vector-lesson}
+
+Combine the corresponding <span data-math="x"></span>-, <span data-math="y"></span>- and <span data-math="z"></span>-components.
+
+<div data-components="operations3d"></div>
+
+::: notes
+Use a=(2,0,1), b=(0,3,2), first drawn from a common tail. Move b head to tail for addition, or −b for subtraction. The corresponding component calculations are revealed together only after placement. Addition=(2,3,3), subtraction=(2,−3,−1). A parallelogram control verifies the same calculation for either operation, with the opposite vector used for subtraction. The selected projection preserves directions and parallel lines but is not a spatial measuring scale. This brief bridge is immediately followed by the agreed hinge, then Example 3.7.
+:::

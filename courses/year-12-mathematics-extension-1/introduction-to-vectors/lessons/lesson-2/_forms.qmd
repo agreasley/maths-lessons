@@ -1,0 +1,10 @@
+## Three equivalent forms {#iv2-forms .component-lesson .vector-lesson}
+
+The vector stays the same when its notation changes.
+
+<div data-components="forms"></div>
+<div class="booklet-cue">Booklet Section 3.2 · p. 16</div>
+
+::: notes
+Use the representation buttons to display component form, an ordered pair/triple and column notation. Start with (3,2) in 2D, then show (2,3,3) in 3D and the mixed-sign preset (2,−1,3). Use a zero component to show omission of a basis-vector term. Distinguish a point named P(x,y,z) from a vector a=(x,y,z): context tells us whether the tuple describes a location or a directed quantity. Formal position-vector terminology follows in Lesson 3.
+:::

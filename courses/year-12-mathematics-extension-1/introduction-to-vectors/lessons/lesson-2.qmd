@@ -1,0 +1,67 @@
+---
+pagetitle: "Lesson 2 — Coordinates and components"
+lesson-title: "Coordinates and components"
+description: "Represent points and vectors in 2D and 3D, then calculate with vector components."
+lesson-order: 2
+booklet: "Sections 3.1–3.3 · Examples 3.1–3.7"
+homework: "2, first part · Exercises 9B, 9D and 9E"
+format:
+  revealjs:
+    css:
+      - ../../../../assets/lesson.css
+      - ../vectors.css
+      - ../components.css
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../vectors.js"></script>
+        <script src="../components.js"></script>
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_objective.qmd >}}
+
+{{< include lesson-2/_recap.qmd >}}
+
+{{< include lesson-2/_coordinates.qmd >}}
+
+{{< include lesson-2/_planes.qmd >}}
+
+{{< include lesson-2/_example-3-1.qmd >}}
+
+{{< include lesson-2/_basis.qmd >}}
+
+{{< include lesson-2/_forms.qmd >}}
+
+{{< include lesson-2/_example-3-2.qmd >}}
+
+{{< include lesson-2/_resolving.qmd >}}
+
+{{< include lesson-2/_example-3-3.qmd >}}
+
+{{< include lesson-2/_equality.qmd >}}
+
+{{< include lesson-2/_example-3-4.qmd >}}
+
+{{< include lesson-2/_operations.qmd >}}
+
+{{< include lesson-2/_scaling.qmd >}}
+
+{{< include lesson-2/_example-3-5.qmd >}}
+
+{{< include lesson-2/_example-3-6-ab.qmd >}}
+
+{{< include lesson-2/_example-3-6-cd.qmd >}}
+
+{{< include lesson-2/_operations-3d.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_example-3-7-ab.qmd >}}
+
+{{< include lesson-2/_example-3-7-cd.qmd >}}
+
+{{< include lesson-2/_key-ideas.qmd >}}
+
+{{< include lesson-2/_homework.qmd >}}

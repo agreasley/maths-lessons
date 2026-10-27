@@ -1,0 +1,10 @@
+## Example 3.3 {#iv2-example-3-3 .component-lesson .vector-lesson}
+
+Resolve the vector $\underset{\sim}{a}$ into component form $\underset{\sim}{a}=x\underset{\sim}{i}+y\underset{\sim}{j}$, given $|\underset{\sim}{a}|=6$ and has a direction of $150^\circ$ to the positive $x$-axis. Give your answer correct to two decimal places.
+
+<div class="c-work-space"><p>Predict the signs of the two components before calculating.</p></div>
+<div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}=6\cos150^\circ\,\underset{\sim}{i}+6\sin150^\circ\,\underset{\sim}{j}\approx-5.20\underset{\sim}{i}+3.00\underset{\sim}{j}"></span></div></div><div class="booklet-cue">Booklet Example 3.3 · p. 18</div>
+
+::: notes
+Preserve the source magnitude, angle, notation and two-decimal-place requirement. Use degree mode. Exact horizontal component −3√3, vertical component 3. Write working in OneNote. Ask why the x-component is negative before revealing the final check.
+:::

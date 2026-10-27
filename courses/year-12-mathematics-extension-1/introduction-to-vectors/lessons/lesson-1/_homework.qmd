@@ -13,5 +13,5 @@
 Draw a clear diagram and show the path you use.
 
 ::: notes
-Preserve the booklet's exact three homework selections. Assign after the geometric operations and path examples are completed; if the lesson continues into another period, students can first consolidate completed class examples. No extra textbook questions have been added. Next revised lesson: coordinates, components and position vectors in 2D and 3D, booklet Section 3. The two original opening sections are now one deck and one Homework 1 assignment.
+Preserve the booklet's exact three homework selections. Assign after the geometric operations and path examples are completed; if the lesson continues into another period, students can first consolidate completed class examples. No extra textbook questions have been added. Next revised lesson: coordinates and components in 2D and 3D, booklet Sections 3.1–3.3 through Example 3.7. Position vectors follow in Lesson 3. The two original opening sections are now one deck and one Homework 1 assignment.
 :::

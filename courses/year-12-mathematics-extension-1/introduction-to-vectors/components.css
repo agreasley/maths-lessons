@@ -1,0 +1,87 @@
+/* Lesson 2 layout: readable mathematics, diagrams and touch controls. */
+.reveal .component-lesson h2{font-size:44px;margin-bottom:16px}
+.reveal .component-lesson>p{font-size:29px;line-height:1.4}
+.reveal .c-demonstration{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);gap:22px;align-items:center;margin:8px 0}
+.reveal .c-demonstration.c-full{display:block}
+.reveal .c-svg{display:block;width:100%;height:auto;max-height:none;max-width:none;margin:0;overflow:visible}
+.reveal .c-svg foreignObject{overflow:visible}
+.reveal .c-label{display:flex;align-items:center;justify-content:center;height:100%;font-size:24px;line-height:1;white-space:nowrap}
+.reveal .c-label .katex{font-size:1em}
+.reveal .c-equations{font-size:28px;line-height:1.25}
+.reveal .c-equations p{margin:14px 0;line-height:1.3}
+.reveal .c-equations h3{font-size:27px;margin-bottom:22px}
+.reveal .c-equations .c-large{font-size:32px}
+.reveal .c-equations .c-predict{font-size:24px;color:var(--muted)}
+.reveal .c-controls{gap:9px;margin:8px 0;min-height:49px}
+.reveal .c-controls button{font-size:20px;min-height:51px;padding:9px 13px}
+.reveal .c-controls button[aria-pressed=false]{background:white;color:var(--ink);border-color:#81938f}
+.reveal .c-controls button[aria-pressed=true]{background:var(--teal);color:white;border-color:var(--teal)}
+.reveal .c-sliders{display:flex;gap:18px;margin:7px 0}
+.reveal .c-sliders label{display:grid;grid-template-columns:230px 1fr;align-items:center;gap:15px;font-size:21px;width:100%;color:var(--muted)}
+.reveal .c-sliders input{margin:0;height:44px}
+.reveal .c-status{font-size:25px;line-height:1.35;min-height:38px;color:var(--teal);margin:12px 0}
+.reveal .c-status:empty{display:none}
+.reveal .c-coordinate-step{opacity:.22}
+.reveal .c-coordinate-step.is-shown{opacity:1;color:var(--teal)}
+.reveal .c-coordinate-footer{display:flex;align-items:center;gap:25px;margin-top:3px}
+.reveal .c-coordinate-footer p{flex:1;font-size:22px}
+.reveal .c-coordinate-footer img{width:144px;height:150px;object-fit:contain;margin:0;mix-blend-mode:multiply}
+.reveal .c-retrieval{display:flex;gap:22px;border-top:1px solid var(--rule);padding-top:14px;margin-top:15px;font-size:24px;line-height:1.4}
+.reveal .c-retrieval span{flex:1}
+.reveal .c-plane-questions{margin:18px 0}
+.reveal .c-plane-question{display:grid;grid-template-columns:1.1fr 120px 1fr;align-items:center;gap:25px;min-height:74px;border-bottom:1px solid var(--rule);font-size:29px}
+.reveal .c-plane-question button{font-size:19px;min-height:49px}
+.reveal .c-plane-answer{color:var(--teal);font-size:27px}
+.reveal .c-source-layout{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start;margin-top:20px}
+.reveal img.c-source-grid{width:100%;height:495px;object-fit:contain;max-height:none;margin:0;mix-blend-mode:multiply}
+.reveal .c-source-layout p{font-size:26px;margin-top:12px}
+.reveal [data-components=check]{margin:20px 0}
+.reveal [data-components=check] button{font-size:20px}
+.reveal [data-components=check] button[aria-pressed=false]{background:white;color:var(--ink)}
+.reveal .c-check-answer{font-size:29px;color:var(--teal);line-height:1.5;margin:23px 0 0;min-height:50px}
+.reveal .c-source-layout [data-components=check]{display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:center;min-height:88px;margin:12px 0}
+.reveal .c-source-layout .c-check-answer{margin:0;font-size:29px}
+.reveal .c-work-space{height:180px;padding:30px 0;color:var(--muted)}
+.reveal .c-work-space p{font-size:25px}
+.reveal .c-parts{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin:30px 0;min-height:320px}
+.reveal .c-parts>div{padding:20px 0;border-top:2px solid var(--rule)}
+.reveal .c-parts>div>p{font-size:34px;margin:10px 0 38px}
+.reveal .c-parts .c-check-answer{font-size:26px}
+.reveal #iv2-example-3-7-ab>p,.reveal #iv2-example-3-7-cd>p,
+.reveal [data-preview-of="iv2-example-3-7-ab"]>p,.reveal [data-preview-of="iv2-example-3-7-cd"]>p{font-size:27px}
+.reveal #iv2-example-3-7-ab .c-parts,.reveal #iv2-example-3-7-cd .c-parts,
+.reveal [data-preview-of="iv2-example-3-7-ab"] .c-parts,.reveal [data-preview-of="iv2-example-3-7-cd"] .c-parts{margin-top:24px;min-height:290px}
+.reveal #iv2-example-3-3 .c-check-answer,
+.reveal [data-preview-of="iv2-example-3-3"] .c-check-answer{font-size:27px}
+.reveal .c-calculation{font-size:27px}
+.reveal .c-calculation.is-shown{color:var(--teal)}
+.reveal .c-calculation.is-pending{color:var(--muted)}
+.reveal .c-equations .c-component-value{font-size:23px}
+.reveal #iv2-operations .c-equations>p,.reveal #iv2-operations-3d .c-equations>p,
+.reveal [data-preview-of="iv2-operations"] .c-equations>p,.reveal [data-preview-of="iv2-operations-3d"] .c-equations>p{font-size:25px;margin:9px 0}
+.reveal #iv2-operations .c-controls,.reveal #iv2-operations-3d .c-controls,
+.reveal [data-preview-of="iv2-operations"] .c-controls,.reveal [data-preview-of="iv2-operations-3d"] .c-controls{gap:8px}
+.reveal #iv2-operations .c-controls button,.reveal #iv2-operations-3d .c-controls button,
+.reveal [data-preview-of="iv2-operations"] .c-controls button,.reveal [data-preview-of="iv2-operations-3d"] .c-controls button{font-size:18px;padding:8px 10px}
+.reveal #iv2-forms .c-controls,
+.reveal [data-preview-of="iv2-forms"] .c-controls{max-width:1150px}
+.reveal #iv2-opening .cover-title,
+.reveal [data-preview-of="iv2-opening"] .cover-title{max-width:680px;font-size:73px}
+.reveal #iv2-opening .cover-subtitle,
+.reveal [data-preview-of="iv2-opening"] .cover-subtitle{max-width:620px}
+.reveal #iv2-opening .c-cover-figure,
+.reveal [data-preview-of="iv2-opening"] .c-cover-figure{position:absolute;right:10px;top:180px;width:510px}
+.reveal .c-key-row{display:grid;grid-template-columns:1.55fr 1fr;gap:30px;align-items:center;border-bottom:1px solid var(--rule);min-height:200px}
+.reveal .c-key-row:last-child{border-bottom:0}
+.reveal .c-key-row h3{font-size:28px;margin:0 0 15px}
+.reveal .c-key-row p{font-size:25px;margin:0}
+.reveal #iv2-homework table,
+.reveal [data-preview-of="iv2-homework"] table{margin:30px 0;font-size:27px;line-height:1.5}
+.reveal #iv2-homework td,.reveal #iv2-homework th,
+.reveal [data-preview-of="iv2-homework"] td,.reveal [data-preview-of="iv2-homework"] th{text-align:left;padding:18px 12px}
+.reveal #iv2-homework td:first-child,
+.reveal [data-preview-of="iv2-homework"] td:first-child{width:140px;color:var(--teal);font-weight:bold}
+.reveal #iv2-hinge .hinge-explanation,
+.reveal [data-preview-of="iv2-hinge"] .hinge-explanation{font-size:23px}
+/* Reveal's theme also sets right:10px; clear it so the centred counter stays narrow. */
+.reveal .slide-number{right:auto!important;width:max-content!important;left:50%!important;bottom:22px!important}

@@ -1,0 +1,10 @@
+## Addition and subtraction in components {#iv2-operations .component-lesson .vector-lesson}
+
+The component calculation describes the same geometric construction.
+
+<div data-components="operations"></div>
+<div class="booklet-cue">Booklet Section 3.3 · p. 20</div>
+
+::: notes
+Use a=(3,1), b=(1,2). In addition, move b to the head of a, then reveal x and y calculations separately. In subtraction, show −b with b dotted at its original position; translate −b, preserving its magnitude and direction. Reveal is gated until head-to-tail placement. Addition gives (4,3); subtraction gives (2,−1). Both are examples of combining corresponding components. Switching operation resets construction and hides results. The parallelogram view verifies the same result geometrically.
+:::

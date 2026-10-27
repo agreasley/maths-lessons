@@ -1,0 +1,11 @@
+## Coordinates and components {#iv2-opening .cover}
+
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 2</div>
+<div class="cover-title">Coordinates<br>and components</div>
+<div class="cover-subtitle">Calculating with vectors<br>in two and three dimensions.</div>
+<div data-components="cover" class="c-cover-figure"></div>
+<div class="cover-foot">Booklet Sections 3.1–3.3 · Examples 3.1–3.7 · Homework 2, first part</div>
+
+::: notes
+Lesson 2 of the revised seven-deck sequence. The original opening two lessons remain combined as Lesson 1, while coordinates/components and position vectors are now separate Lessons 2 and 3. Allow 75–90 minutes including working time. Finish at Example 3.7; the hinge is immediately before it. If two periods are needed, a natural break is after Example 3.4. Source: supplied booklet printed pp. 14–22; Cambridge Extension 1 Year 12, Second Edition, sections 9B, 9D and 9E. Native diagrams show precise vector constructions.
+:::

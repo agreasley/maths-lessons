@@ -1,0 +1,14 @@
+## Equal vectors, equal components {#iv2-equality .component-lesson .vector-lesson}
+
+Two vectors are equal if and only if their corresponding components are equal.
+
+<div data-components="equality"></div>
+
+::: takeaway
+Translation changes where the arrow is drawn. Its components stay the same.
+:::
+<div class="booklet-cue">Booklet p. 19</div>
+
+::: notes
+This makes explicit the connection to the opening translation activity. The copy is (3,2) at every location. Compare like components, rather than treating i and j as unknown real numbers that can cancel each other. Mutually perpendicular directions are independent.
+:::

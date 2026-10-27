@@ -1,0 +1,13 @@
+## Example 3.2 {#iv2-example-3-2 .component-lesson .vector-lesson}
+
+Represent each of the vectors on the plane below as a column vector
+
+<div class="c-source-layout"><img class="c-source-grid" src="../media/example-3-2.svg" alt="Original booklet grid. Vector a runs from (0,1) to (1,3), b from (2,-2) to (-3,-3), and c from (-2,1) to (-3,4)."><div>
+<p>Count the movement from each arrow’s own tail.</p>
+<div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal a</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}=\begin{bmatrix}1\\2\end{bmatrix}"></span></div></div><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal b</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{b}=\begin{bmatrix}-5\\-1\end{bmatrix}"></span></div></div><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal c</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{c}=\begin{bmatrix}-1\\3\end{bmatrix}"></span></div></div>
+</div></div>
+<div class="booklet-cue">Booklet Example 3.2 · p. 17</div>
+
+::: notes
+The SVG is an exact crop of the supplied booklet figure with fonts converted to paths. a=(1,2), b=(−5,−1), c=(−1,3). The vector b points left, from (2,−2) to (−3,−3). Count changes rather than reading the coordinates of the head. Solutions are initially hidden, with independent reversible checks.
+:::

@@ -1,0 +1,10 @@
+## Example 3.5 {#iv2-example-3-5 .component-lesson .vector-lesson}
+
+Given $\underset{\sim}{v}=\begin{bmatrix}4\\-6\end{bmatrix}$, specify a column vector for each of the following
+
+<div class="c-parts"><div><p><strong>a)</strong> <span data-math="\tfrac12\underset{\sim}{v}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\tfrac12\underset{\sim}{v}=\begin{bmatrix}2\\-3\end{bmatrix}"></span></div></div></div><div><p><strong>b)</strong> <span data-math="-3\underset{\sim}{v}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="-3\underset{\sim}{v}=\begin{bmatrix}-12\\18\end{bmatrix}"></span></div></div></div></div>
+<div class="booklet-cue">Booklet Example 3.5 · p. 21</div>
+
+::: notes
+a) (2,−3). b) (−12,18). Each component is multiplied, including its sign. Explain half-length/same direction and triple-length/opposite direction without calculating the original magnitude.
+:::

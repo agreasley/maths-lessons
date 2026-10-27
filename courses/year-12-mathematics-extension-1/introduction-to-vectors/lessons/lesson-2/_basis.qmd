@@ -1,0 +1,10 @@
+## Standard unit vectors {#iv2-basis .component-lesson .vector-lesson}
+
+<span data-math="\mathbf i"></span>, <span data-math="\mathbf j"></span> and <span data-math="\mathbf k"></span> have magnitude 1 and point along the positive coordinate axes.
+
+<div data-components="basis"></div>
+<div class="booklet-cue">Booklet Section 3.2 · p. 16</div>
+
+::: notes
+The unit vectors are mutually perpendicular. Begin with i and j in 2D, then introduce k in 3D. Construct 3i+2j, or 2i+3j+3k, by placing the component vectors head to tail. These are scalar multiples of the unit vectors, so the component multipliers say how far to move in each direction. No normalisation formula is required.
+:::

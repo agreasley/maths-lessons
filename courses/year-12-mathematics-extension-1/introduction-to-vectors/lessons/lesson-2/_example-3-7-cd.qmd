@@ -1,0 +1,10 @@
+## Example 3.7 · (c)–(d) {#iv2-example-3-7-cd .component-lesson .vector-lesson}
+
+Given $\underset{\sim}{a}=\begin{bmatrix}2\\-1\\4\end{bmatrix}$, $\underset{\sim}{b}=(-3,1,2)$, $\underset{\sim}{c}=\underset{\sim}{i}+2\underset{\sim}{j}-3\underset{\sim}{k}$, find each of the following vectors expressing your answer in component form.
+
+<div class="c-parts"><div><p><strong>c)</strong> <span data-math="4\underset{\sim}{a}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="4\underset{\sim}{a}=8\underset{\sim}{i}-4\underset{\sim}{j}+16\underset{\sim}{k}"></span></div></div></div><div><p><strong>d)</strong> <span data-math="\underset{\sim}{a}-2\underset{\sim}{b}-3\underset{\sim}{c}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="\underset{\sim}{a}-2\underset{\sim}{b}-3\underset{\sim}{c}=5\underset{\sim}{i}-9\underset{\sim}{j}+9\underset{\sim}{k}"></span></div></div></div></div>
+<div class="booklet-cue">Booklet Example 3.7(c)–(d) · p. 22</div>
+
+::: notes
+c) (8,−4,16). d) (2,−1,4)−(−6,2,4)−(3,6,−9)=(5,−9,9). Require component-form final answers. Both negative scalar multiplications apply to every component. These are the final class examples in Lesson 2.
+:::

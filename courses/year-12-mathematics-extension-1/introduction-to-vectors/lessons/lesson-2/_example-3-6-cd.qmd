@@ -1,0 +1,10 @@
+## Example 3.6 · (c)–(d) {#iv2-example-3-6-cd .component-lesson .vector-lesson}
+
+Given $\underset{\sim}{a}=\underset{\sim}{i}-5\underset{\sim}{j}$ and $\underset{\sim}{b}=-3\underset{\sim}{i}+2\underset{\sim}{j}$ find:
+
+<div class="c-parts"><div><p><strong>c)</strong> <span data-math="-4\underset{\sim}{a}+7\underset{\sim}{b}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="-4\underset{\sim}{a}+7\underset{\sim}{b}=-25\underset{\sim}{i}+34\underset{\sim}{j}"></span></div></div></div><div><p><strong>d)</strong> <span data-math="3\underset{\sim}{a}-3\underset{\sim}{b}+5\underset{\sim}{j}"></span></p><div data-components="check"><button data-action="reveal" aria-pressed="false">Reveal check</button><div class="c-check-answer" hidden><span data-math="3\underset{\sim}{a}-3\underset{\sim}{b}+5\underset{\sim}{j}=12\underset{\sim}{i}-16\underset{\sim}{j}"></span></div></div></div></div>
+<div class="booklet-cue">Booklet Example 3.6(c)–(d) · p. 21</div>
+
+::: notes
+c) −4(1,−5)+7(−3,2)=(−25,34). d) 3(1,−5)−3(−3,2)+(0,5)=(12,−16). The 5j term changes only the j component. Complete working in OneNote before revealing each check.
+:::

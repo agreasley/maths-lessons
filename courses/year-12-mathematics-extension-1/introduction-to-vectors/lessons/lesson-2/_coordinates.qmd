@@ -1,0 +1,11 @@
+## Coordinates in three dimensions {#iv2-coordinates .component-lesson .vector-lesson}
+
+A third coordinate records position along the <span data-math="z"></span>-axis.
+
+<div data-components="coordinates"></div>
+
+<div class="c-coordinate-footer"><p class="small-note">The axes are mutually perpendicular in space. A flat drawing shows them in perspective.</p><img src="../media/right-hand-axes.svg" alt="Original booklet right-hand rule diagram showing the positive x, y and z axes."></div>
+
+::: notes
+Booklet p. 14. Begin in 2D with P(3,2); switch to 3D and build P(2,3,3) in the x, y, then z directions. The coloured segments locate a point. Show the rectangular prism guides only after students predict the location. Use the right-hand-rule image from the supplied booklet to keep positive axes consistent. The projection is a view of perpendicular spatial axes, not a claim that screen angles are right angles. This slide does not define position vectors.
+:::

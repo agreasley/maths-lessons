@@ -22,7 +22,18 @@ Inside a layout div such as `.column-block`, use raw HTML `<h3>...</h3>` for a p
 
 - Typeset variables and expressions, including lower-case **x** and upper-case **X**, using the lesson's mathematical renderer rather than ordinary body text or an unstyled HTML `var` element.
 - In Quarto prose use `$x$`, `$X$` and normal LaTeX maths. Inside raw HTML use `<span data-math="x">x</span>` (and the corresponding expression). Shared JavaScript renders these with the embedded KaTeX library.
-- Inside JavaScript-generated activities use the shared `math(tex)` helper, including regenerated equations, reveal-button labels and result histories. Preserve the distinction between lower- and upper-case symbols.
+- For HTML content inside JavaScript-generated activities, use the shared `math(tex)` helper, including regenerated equations, reveal-button labels and result histories. For labels inside SVG diagrams, use the native SVG mathematics renderer described below. Preserve the distinction between lower- and upper-case symbols.
+
+## iPad and browser compatibility
+
+The teaching target is Safari on an iPad. A lesson that looks correct on a laptop, or in Chromium with an iPad-sized viewport, has not yet been checked for iPad browser compatibility.
+
+- **Keep diagrams and their labels in the same SVG coordinate system.** Use native SVG text for ordinary tick values and native SVG paths for mathematical notation. Do not embed HTML/KaTeX labels using SVG `foreignObject` in new or revised diagrams: Safari/WebKit can misplace or mis-scale them when Reveal scales the slide or a group is translated. Do not compensate with device-specific offsets.
+- **Reuse the existing SVG maths renderer.** The vector lessons use `VectorDiagramMath.label(...)` from `courses/year-12-mathematics-extension-1/introduction-to-vectors/diagram-math.js`, its configuration file and the locally bundled MathJax SVG component in `assets/vendor/mathjax-3.2.2/`. Reuse this approach for other topics; extract a shared helper when needed rather than creating divergent copies. Keep prose, controls and ordinary equations in KaTeX. Preserve offline use by embedding local dependencies.
+- **Test the browser engine, not just the viewport.** For new or changed interactive diagrams, run the rendered lesson in both Chromium and WebKit. Use touch-enabled iPad landscape sizes (1024×768 and 1194×834), and resize to portrait and back. Playwright WebKit is a useful compatibility check, but it is not a physical-iPad test.
+- **Exercise states that can expose label drift.** Check initial and revealed diagrams, representative positive/negative/zero values, relevant 2D/3D views, translated or dragged objects, and resets. Open the slide map and return to the lesson; labels must stay attached to their geometry in previews as well. Include fractions, coordinate labels and axis values where present.
+- **Inspect visual output as well as assertions.** Review representative screenshots in both engines for displaced, clipped or overlapping labels. Verify that labels move and scale with their intended anchors and that touch controls still work. A clean console or correct arithmetic alone does not establish visual correctness.
+- **Report what was actually tested.** Name the engines and checks performed. If WebKit or physical-device testing was unavailable, state that limitation; do not describe viewport-only Chromium checks as “tested on iPad”.
 
 ## Checks
 

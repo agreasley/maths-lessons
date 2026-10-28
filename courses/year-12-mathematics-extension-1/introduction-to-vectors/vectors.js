@@ -16,7 +16,7 @@
     const P=p=>[ox+p[0]*scale,oy-p[1]*scale];
     const body=[];
     const line=(p,q,colour=C.rule,dash='',thickness=2)=>{const [x,y]=P(p),[u,v]=P(q);body.push(`<line x1="${x}" y1="${y}" x2="${u}" y2="${v}" stroke="${colour}" stroke-width="${thickness}"${dash?` stroke-dasharray="${dash}"`:''}/>`);};
-    const label=(p,tex,colour=C.ink,dx=0,dy=0,w=160)=>{const [x,y]=P(p);body.push(`<foreignObject x="${x-w/2+dx}" y="${y-22+dy}" width="${w}" height="44"><div xmlns="http://www.w3.org/1999/xhtml" class="v-math-label" style="color:${colour}">${math(tex)}</div></foreignObject>`);};
+    const label=(p,tex,colour=C.ink,dx=0,dy=0,w=160)=>{const [x,y]=P(p);body.push(window.VectorDiagramMath.label(x+dx,y+dy,tex,colour,25));};
     const dot=(p,tex='',colour=C.ink,dx=0,dy=25)=>{const [x,y]=P(p);body.push(`<circle cx="${x}" cy="${y}" r="4" fill="${colour}"/>`);if(tex)label(p,tex,colour,dx,dy);};
     const arrow=(p,q,tex='',colour=C.a,options={})=>{
       const [x,y]=P(p),[u,v]=P(q),len=Math.hypot(u-x,v-y);if(len<.1){dot(p,tex,colour,options.dx||0,options.dy||25);return;}
@@ -180,6 +180,6 @@
     function draw(){const a=[2,.5],p=canvas([-6.7,6.7,-2,2],270,25);p.group('data-scaling-base=""',()=>p.arrow([0,0],a,'\\mathbf a',C.a,{width:7,dy:-32}));if(k===0)p.dot([0,0],'\\mathbf0',C.c,0,35);else p.arrow([0,0],mul(k,a),vecName(k),C.c,{dy:k>0?30:-30});ui.plot(p.svg(`Vector a and its scalar multiple with k=${k}.`));ui.status(math('k='+number(k))+': '+(k===0?'magnitude zero; no direction.':`${k>0?'Same':'Opposite'} direction; ${Math.abs(k)} times the original length.`));m.querySelector('[data-control="scalar"]').value=k;[...m.querySelectorAll('button')].forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.action)===k)));m.dataset.scalar=k;m.dataset.multiple=JSON.stringify(mul(k,a));}
     m.addEventListener('input',e=>{if(e.target.dataset.control==='scalar'){k=Number(e.target.value);draw();}});onAction(m,a=>{k=Number(a);draw();});draw();
   }
-  function init(){if(!window.MathsLesson){setTimeout(init,30);return;}const modules={signed:m=>motion(m),turn:m=>motion(m,true),cover,notation,equal,special,addition,parallelogram,subtraction,closed,scaling,'key-addition':m=>keyDiagram(m,'addition'),'key-opposite':m=>keyDiagram(m,'opposite'),'key-subtraction':m=>keyDiagram(m,'subtraction')};document.querySelectorAll('[data-vector]').forEach(m=>{if(m.dataset.vectorReady)return;m.dataset.vectorReady='true';modules[m.dataset.vector]?.(m);});window.MathsLesson.typeset(document);}
+  function init(){if(!window.MathsLesson||!window.VectorDiagramMath?.ready){setTimeout(init,30);return;}const modules={signed:m=>motion(m),turn:m=>motion(m,true),cover,notation,equal,special,addition,parallelogram,subtraction,closed,scaling,'key-addition':m=>keyDiagram(m,'addition'),'key-opposite':m=>keyDiagram(m,'opposite'),'key-subtraction':m=>keyDiagram(m,'subtraction')};document.querySelectorAll('[data-vector]').forEach(m=>{if(m.dataset.vectorReady)return;m.dataset.vectorReady='true';modules[m.dataset.vector]?.(m);});window.MathsLesson.typeset(document);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

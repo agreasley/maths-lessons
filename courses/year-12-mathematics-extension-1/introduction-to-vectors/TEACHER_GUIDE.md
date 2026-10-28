@@ -154,3 +154,8 @@ Hinge: A(2,−1), B(−3,4). Correct choice 3 is (−5,5). Choice 1 adds the pos
 Worked checks: Example 3.8 AB=b−a; Example 3.9 (−4,−6); Example 3.10 endpoint (−1,8); Example 3.11 (4,2,0). In Example 3.11 the segment lies at z=8 and is parallel to the xy-plane, not in that plane. The height slider translates an equal vector down to z=0. Spatial diagrams use a fixed parallel projection; screen lengths and angles are not spatial measurements.
 
 Finish with the illustrated Key Ideas and the remaining Homework 2 selections shown in the deck. Magnitude, midpoint and normalisation remain in Lesson 4. Assets: positions.js and positions.css.
+
+
+### Browser compatibility of vector diagrams
+
+Diagram labels and tick values are rendered as native SVG paths using the locally bundled MathJax SVG component. This avoids Safari/WebKit's HTML-in-SVG (`foreignObject`) positioning issues when Reveal scales slides or a vector group is translated. KaTeX still renders the ordinary slide text and controls. Keep label placement in the diagram's SVG coordinates, and test in WebKit as well as Chromium; changing the viewport size in Chromium alone does not check iPad browser behaviour. The SVG helper also supports slide-map clones and offline presentation without a CDN.

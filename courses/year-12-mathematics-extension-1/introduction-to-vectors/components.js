@@ -21,12 +21,12 @@
     m.innerHTML=`<div class="c-demonstration${side?'':' c-full'}"><div class="c-plot"></div>${side?'<div class="c-equations"></div>':''}</div>${sliders?'<div class="c-sliders">'+sliders+'</div>':''}<div class="toolbar c-controls">${controls}</div><div class="c-status" aria-live="polite"></div>`;
     return {plot:s=>m.querySelector('.c-plot').innerHTML=s,eq:s=>{const e=m.querySelector('.c-equations');if(e)e.innerHTML=s;},status:s=>m.querySelector('.c-status').innerHTML=s};
   }
-  function chart(bounds=[-5,5,-3,5],height=320,width=690,pad=45){
+  function chart(bounds=[-5,5,-3,5],height=320,width=690,pad=45,labelSize=24){
     const scale=Math.min((width-pad*2)/(bounds[1]-bounds[0]),(height-pad*2)/(bounds[3]-bounds[2]));
     const ox=(width-scale*(bounds[1]+bounds[0]))/2,oy=(height+scale*(bounds[3]+bounds[2]))/2;
     const P=v=>[ox+scale*v[0],oy-scale*v[1]],body=[];
     function line(p,q,color=C.rule,dash='',w=2){const a=P(p),b=P(q);body.push(`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${color}" stroke-width="${w}"${dash?` stroke-dasharray="${dash}"`:''}/>`);}
-    function label(p,t,color=C.ink,dx=0,dy=0,w=150){const a=P(p);body.push(`<foreignObject x="${a[0]-w/2+dx}" y="${a[1]-19+dy}" width="${w}" height="38"><div xmlns="http://www.w3.org/1999/xhtml" class="c-label" style="color:${color}">${M(t)}</div></foreignObject>`);}
+    function label(p,t,color=C.ink,dx=0,dy=0,w=150){const a=P(p);body.push(window.VectorDiagramMath.label(a[0]+dx,a[1]+dy,t,color,labelSize));}
     function dot(p,t='',color=C.ink,dx=0,dy=-26){const a=P(p);body.push(`<circle cx="${a[0]}" cy="${a[1]}" r="4.5" fill="${color}"/>`);if(t)label(p,t,color,dx,dy,230);}
     function arrow(p,q,t='',color=C.x,o={}){const a=P(p),b=P(q),len=Math.hypot(b[0]-a[0],b[1]-a[1]);if(len<.1){dot(p,t,color,o.dx||0,o.dy||25);return;}const ux=(b[0]-a[0])/len,uy=(b[1]-a[1])/len,h=Math.min(13,len*.3),s=h*.43;body.push(`<g${o.cls?` class="${o.cls}"`:''}${o.opacity?` opacity="${o.opacity}"`:''}>`);line(p,[(b[0]-ux*h*.65-ox)/scale,(oy-b[1]+uy*h*.65)/scale],color,o.dash?'4 6':'',o.width||4);body.push(`<polygon points="${b[0]},${b[1]} ${b[0]-ux*h-uy*s},${b[1]-uy*h+ux*s} ${b[0]-ux*h+uy*s},${b[1]-uy*h-ux*s}" fill="${color}"/></g>`);if(t)label([(p[0]+q[0])/2,(p[1]+q[1])/2],t,color,o.dx??uy*24,o.dy??-ux*24,o.labelWidth||150);}
     function polygon(points,color){body.push(`<polygon points="${points.map(p=>P(p).join(',')).join(' ')}" fill="${color}" fill-opacity=".13" stroke="${color}" stroke-width="1.3"/>`);}
@@ -100,7 +100,7 @@
     let shown=[false,false,false];const ui=frame(m,btn('reset','Reset all'));
     const symbol=name=>'\\underset{\\sim}{'+name+'}';
     function draw(){
-      const p=chart([-4.4,3.5,-4,5],420,650,32);p.grid();p.axes2(5);
+      const p=chart([-4.4,3.5,-4,5],420,650,32,21);p.grid();p.axes2(5);
       // Integer ticks give the original grid a readable scale.
       for(let n=-3;n<=3;n++)if(n){p.label([n,0],String(n),C.muted,0,16,38);}
       for(let n=-3;n<=4;n++)if(n){p.label([0,n],String(n),C.muted,16,0,38);}
@@ -143,6 +143,6 @@
   function scaling(m){let k=1;const a=[2,1],ui=frame(m,[-2,-.5,0,.5,1,2].map(n=>btn(String(n),M('k='+nf(n)))).join(''),slider('scalar','Scalar multiplier',-3,3,.5,1));function draw(){const v=mul(k,a),p=chart([-7,7,-3.8,3.8],335,690,38);p.grid();p.axes2(6.5);p.arrow([0,0],a,'\\mathbf a',C.x,{dash:true,dy:-28});p.arrow([0,0],v,k===0?'\\mathbf0':nf(k)+'\\mathbf a',C.z,{dy:30,width:5});ui.plot(p.svg(`Vector (2,1) scaled by ${k} to ${tuple(v)}.`));ui.eq('<p>'+M('\\mathbf a='+V(a))+'</p><p>'+M('k='+nf(k))+'</p><p class="c-large">'+M(nf(k)+V(a)+'='+V(v))+'</p>');ui.status(k===0?'Zero magnitude; no direction.':(k>0?'Same':'Opposite')+' direction, '+Math.abs(k)+' times the original length.');m.querySelector('input').value=k;[-2,-.5,0,.5,1,2].forEach(n=>press(m,String(n),n===k));m.dataset.scalar=k;m.dataset.multiple=JSON.stringify(v);}action(m,a=>{k=+a;draw();});input(m,(a,v)=>{k=v;draw();});draw();}
   function check(m){const b=m.querySelector('button'),answer=m.querySelector('.c-check-answer'),initial=b.textContent;action(m,()=>{answer.hidden=!answer.hidden;b.setAttribute('aria-pressed',String(!answer.hidden));b.textContent=answer.hidden?initial:'Hide check';});}
   function key(m,kind){const p=chart(kind==='scale'?[-1,5,-1,2]:[-2.8,4,-1.8,3.5],185,460,25);if(kind==='components'){const v=[2,2,2];prism(p,v);path(p,v,3,true,{labels:false});p.arrow([0,0],project(v),'\\mathbf a',C.ink,{dx:32,dy:-22});}else if(kind==='add'){p.arrow([0,0],[2.5,0],'\\mathbf a',C.x,{dy:24});p.arrow([2.5,0],[3.5,2],'\\mathbf b',C.y,{dx:27,dy:0});p.arrow([0,0],[3.5,2],'\\mathbf a+\\mathbf b',C.z,{dy:-28,labelWidth:220});}else{p.arrow([0,.3],[2,.3],'\\mathbf a',C.x,{dy:25});p.arrow([0,1.3],[4,1.3],'2\\mathbf a',C.z,{dy:-26});}m.innerHTML=p.svg('Key idea: '+kind+'.');}
-  function init(){if(!window.MathsLesson){setTimeout(init,30);return;}const modules={cover,coordinates,planes,classify,basis,forms,unitSteps,resolving,equality,operations,operations3d:m=>operations(m,true),scaling,check,'key-components':m=>key(m,'components'),'key-add':m=>key(m,'add'),'key-scale':m=>key(m,'scale')};document.querySelectorAll('[data-components]').forEach(m=>{if(m.dataset.componentsReady)return;m.dataset.componentsReady='true';modules[m.dataset.components]?.(m);});window.MathsLesson.typeset(document);}
+  function init(){if(!window.MathsLesson||!window.VectorDiagramMath?.ready){setTimeout(init,30);return;}const modules={cover,coordinates,planes,classify,basis,forms,unitSteps,resolving,equality,operations,operations3d:m=>operations(m,true),scaling,check,'key-components':m=>key(m,'components'),'key-add':m=>key(m,'add'),'key-scale':m=>key(m,'scale')};document.querySelectorAll('[data-components]').forEach(m=>{if(m.dataset.componentsReady)return;m.dataset.componentsReady='true';modules[m.dataset.components]?.(m);});window.MathsLesson.typeset(document);}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
 })();

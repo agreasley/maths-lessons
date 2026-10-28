@@ -4,9 +4,6 @@
 .reveal .vector-lesson .booklet-cue{margin-top:17px;font-size:19px;padding-top:10px}
 .reveal .v-diagram{display:block;width:100%;max-width:none;max-height:none;margin:0 auto;overflow:visible}
 .reveal .v-plot{width:100%;margin:4px 0}
-.reveal .v-diagram foreignObject{overflow:visible}
-.reveal .v-math-label{display:flex;align-items:center;justify-content:center;height:100%;font-size:25px;line-height:1.1;white-space:nowrap}
-.reveal .v-math-label .katex{font-size:1em}
 .reveal .v-sliders{display:flex;gap:28px;align-items:center;margin:3px 0 9px}
 .reveal .v-sliders label{display:grid;grid-template-columns:auto minmax(150px,1fr);align-items:center;gap:12px;flex:1;font-size:20px;color:var(--muted)}
 .reveal .v-sliders input[type=range]{margin:0;height:44px}

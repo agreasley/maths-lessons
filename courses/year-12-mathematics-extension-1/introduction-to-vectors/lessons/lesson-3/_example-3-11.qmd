@@ -2,9 +2,8 @@
 
 Given $A(6,4,8)$ and $B(10,6,8)$ show that $\overrightarrow{AB}$ is parallel to the $x$-$y$ plane.
 
-<div data-position="parallel"></div>
 <div class="booklet-cue">Booklet Example 3.11 · p. 24</div>
 
 ::: notes
-AB=(4,2,0). Both points lie at z=8, while the displacement has zero z-component. The segment AB lies in the plane z=8 and does not lie in the xy-plane z=0. Its direction is parallel to that plane. The translation slider moves a copy of AB vertically down to the xy-plane, preserving its magnitude and direction while leaving the original segment dotted. This is a translated representative of the same free vector, not a claim that the original A and B lie at height zero. Reset restores the initial view and hides the calculation.
+AB=(4,2,0). Both points lie at z=8, while the displacement has zero z-component. The segment AB lies in the plane z=8 and does not lie in the xy-plane z=0. Its direction is parallel to that plane. Complete the component calculation in OneNote and use the zero vertical component to justify parallelism.
 :::

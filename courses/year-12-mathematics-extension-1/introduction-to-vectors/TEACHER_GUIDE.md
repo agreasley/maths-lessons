@@ -147,11 +147,11 @@ Preview Lesson 2 with `quarto preview courses/year-12-mathematics-extension-1/in
 
 ## Lesson 3: position vectors
 
-Allow 40–55 minutes for 13 slides, including independent work. Begin with component subtraction, distinguish a point from its position vector, and derive head minus tail using the path through the origin (Example 3.8). Use the movable-endpoint demonstration before the timed hinge. The hinge is immediately before Example 3.9. If students need more time, break after Example 3.10 and begin the next session with the two 3D slides.
+Allow 40–55 minutes for 13 slides, including independent work. Begin with component subtraction, distinguish a point from its position vector, and derive head minus tail using the path through the origin (Example 3.8). Use the movable-endpoint demonstration before the timed hinge. The hinge is immediately before Example 3.9. Keep the position-vector demonstration in 2D. Extend head minus tail to 3D using the component formula, without a spatial applet. Examples 3.10 and 3.11 are question-only slides for working in OneNote; their answers remain in presenter notes.
 
 Hinge: A(2,−1), B(−3,4). Correct choice 3 is (−5,5). Choice 1 adds the positions; choice 2 reverses the direction; choice 4 uses B alone. Use the shared simultaneous finger-response routine and manual reveal. If divided, trace A → O → B; if secure, proceed to Example 3.9.
 
-Worked checks: Example 3.8 AB=b−a; Example 3.9 (−4,−6); Example 3.10 endpoint (−1,8); Example 3.11 (4,2,0). In Example 3.11 the segment lies at z=8 and is parallel to the xy-plane, not in that plane. The height slider translates an equal vector down to z=0. Spatial diagrams use a fixed parallel projection; screen lengths and angles are not spatial measurements.
+Worked checks: Example 3.8 AB=b−a; Example 3.9 (−4,−6); Example 3.10 endpoint (−1,8); Example 3.11 (4,2,0). In Example 3.11 the segment lies at z=8 and is parallel to the xy-plane, not in that plane. Justify parallelism from the zero vertical component.
 
 Finish with the illustrated Key Ideas and the remaining Homework 2 selections shown in the deck. Magnitude, midpoint and normalisation remain in Lesson 4. Assets: positions.js and positions.css.
 

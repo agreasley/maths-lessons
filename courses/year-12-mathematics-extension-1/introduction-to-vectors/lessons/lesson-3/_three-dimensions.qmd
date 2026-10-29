@@ -4,8 +4,12 @@ For $A(x,y,z)$ and $B(u,v,w)$,
 
 $$\overrightarrow{AB}=\begin{bmatrix}u-x\\v-y\\w-z\end{bmatrix}.$$
 
-<div data-position="between3d"></div>
+The same rule applies: subtract corresponding coordinates, including the third component.
+
+::: {.takeaway}
+Head minus tail works in both 2D and 3D.
+:::
 
 ::: notes
-Additional supporting example: A(1,1,1), B(3,4,3), giving AB=(2,3,2). Show the two position vectors, then reveal their difference at A. Reversing the requested direction negates all three components. A fixed parallel projection represents the 3D axes; screen lengths and angles are not spatial measurements.
+No spatial applet is needed. Identify B as the head and A as the tail, then subtract corresponding coordinates. The position vectors OA=(x,y,z) and OB=(u,v,w) give AB=OB−OA. Reversing the requested direction negates all three components. Proceed to Example 3.11 for an application.
 :::

@@ -1,0 +1,8 @@
+## Example 4.8 {#iv4-example-4-8 .vector-lesson .magnitude-lesson }
+
+<p>Define the unit vector <span data-math="\widehat{\underset{\sim}{a}}"></span> for each of the following vectors</p><div class="m-parts"><div class="m-part"><p><strong>a)</strong> <span data-math="\underset{\sim}{a}=4\underset{\sim}{i}-3\underset{\sim}{j}"></span></p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="|\underset{\sim}{a}|=5"></span></div><div class="m-equation"><span data-math="\widehat{\underset{\sim}{a}}=\tfrac45\underset{\sim}{i}-\tfrac35\underset{\sim}{j}"></span></div></div></div></div><div class="m-part"><p><strong>b)</strong> <span data-math="\underset{\sim}{a}=-5\underset{\sim}{i}+8\underset{\sim}{j}"></span></p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="|\underset{\sim}{a}|=\sqrt{89}"></span></div><div class="m-equation"><span data-math="\widehat{\underset{\sim}{a}}=-\tfrac5{\sqrt{89}}\underset{\sim}{i}+\tfrac8{\sqrt{89}}\underset{\sim}{j}"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 4.8 · p. 30</div>
+
+::: notes
+Retain the booklet wording. a) (4/5,-3/5). b) (-5/sqrt(89),8/sqrt(89)). Both have magnitude 1 and positive scale factors relative to a.
+:::

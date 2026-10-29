@@ -1,0 +1,8 @@
+## The scalar product: multiply, then add {#iv4-scalar-product .vector-lesson .magnitude-lesson }
+
+<p>The scalar product or dot product of two vectors is a <strong>scalar</strong>, found by multiplying corresponding components and adding the results.</p><div data-magnitude="dot"></div><p>A scalar product can be positive, zero or negative. It is different from multiplying a vector by a scalar.</p>
+<div class="booklet-cue">Booklet Section 4 · p. 33</div>
+
+::: notes
+Use the 2D and 3D buttons to show the definition; match the component colours, then reveal the sum. Multiplying corresponding components alone produces an unfinished calculation: the products must be added to give one scalar. The positive/negative/zero examples follow in 4.12. Avoid teaching angle or perpendicularity interpretations here; the geometric expression is Lesson 5. The duplicated explanatory sentence in the booklet appears only once on the slide.
+:::

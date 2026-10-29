@@ -1,0 +1,8 @@
+## Example 4.7 {#iv4-example-4-7 .vector-lesson .magnitude-lesson }
+
+<p>The point <span data-math="P"></span> lies on the line segment <span data-math="AB"></span> such that <span data-math="AP:PB=1:2"></span>.</p><p>Given that <span data-math="A"></span> has coordinates <span data-math="(-2,3)"></span> and <span data-math="P"></span> has coordinates <span data-math="(1,1)"></span>, find the coordinates of <span data-math="B"></span>.</p><div class="m-split"><div><div data-magnitude="ratio"></div></div><div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\overrightarrow{AP}=(3,-2)"></span></div><div class="m-equation"><span data-math="\overrightarrow{AB}=3\overrightarrow{AP}=(9,-6)"></span></div><div class="m-equation"><span data-math="B=(-2,3)+(9,-6)=\boxed{(7,-3)}"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 4.7 · p. 30</div>
+
+::: notes
+AP is one of three equal parts of AB, not half of AB. Therefore AB=3AP. Alternatively PB=2AP, so B=P+2AP. Answer (7,-3). This is a short application of scalar multiplication and head minus tail, not a new section-formula lesson.
+:::

@@ -1,0 +1,51 @@
+/* Lesson 4 layouts keep a readable, fixed slide canvas on iPad and desktop. */
+.reveal .slide-number{right:auto!important;width:max-content!important;left:50%!important;bottom:22px!important}
+.reveal .magnitude-lesson .m-split{display:grid;grid-template-columns:1fr 1.15fr;gap:30px;align-items:center;margin-top:12px}
+.reveal .magnitude-lesson .m-split>div{min-width:0}
+.reveal .magnitude-lesson .m-svg{display:block;width:100%;height:auto;max-height:none;max-width:none;overflow:visible;margin:0}
+.reveal .magnitude-lesson .m-equation{font-size:27px;line-height:1.65;margin:12px 0}
+.reveal .magnitude-lesson .m-split p{font-size:25px}
+.reveal .magnitude-lesson .m-split .m-equation{font-size:24px}
+.reveal .magnitude-lesson .m-reveal{margin-top:18px}
+.reveal .magnitude-lesson .panel-answer{border-left:4px solid var(--teal);padding:8px 0 8px 18px;margin-top:12px}
+.reveal .magnitude-lesson .panel-answer p{font-size:25px}
+.reveal .magnitude-lesson .m-parts{display:grid;grid-template-columns:1fr 1fr;gap:22px 30px;margin-top:25px}
+.reveal .magnitude-lesson .m-part{min-width:0;border-top:1px solid var(--rule);padding-top:10px}
+.reveal .magnitude-lesson .m-part p{font-size:27px}
+.reveal .magnitude-lesson .m-part .m-equation{font-size:24px;margin:8px 0}
+.reveal .magnitude-lesson .m-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:10px 0}
+.reveal .magnitude-lesson .m-controls label{display:flex;align-items:center;gap:12px;flex:1;font-size:20px;white-space:nowrap}
+.reveal .magnitude-lesson .m-controls input{min-width:100px}
+.reveal .magnitude-lesson .m-unit-result{text-align:center;font-size:24px;color:var(--teal)}
+.reveal #iv4-opening .cover-title{font-size:68px;max-width:720px;margin-top:55px}
+.reveal #iv4-opening .cover-subtitle{max-width:670px;font-size:28px}
+.reveal #iv4-opening .cover-bars{height:90px;margin-top:25px}
+.reveal #iv4-opening .m-cover-figure{position:absolute;right:20px;top:225px;width:480px}
+.reveal #iv4-example-4-3>p{font-size:25px}
+.reveal #iv4-example-4-3 .m-split{grid-template-columns:.8fr 1.3fr}
+.reveal #iv4-example-4-3 .m-equation{font-size:22px}
+.reveal #iv4-example-4-5>p{font-size:24px;margin:10px 0}
+.reveal #iv4-example-4-5 .m-split{grid-template-columns:1fr 1.1fr}
+.reveal #iv4-example-4-5 .m-svg{max-height:270px}
+.reveal #iv4-example-4-5 .m-equation{font-size:23px}
+.reveal #iv4-example-4-11>p{font-size:25px;margin:10px 0}
+.reveal #iv4-example-4-11 .m-split{align-items:start;grid-template-columns:1fr 1.1fr}
+.reveal #iv4-example-4-11 .m-svg{max-height:280px}
+.reveal #iv4-example-4-11 .m-equation{font-size:23px}
+.reveal #iv4-example-4-11 .panel-answer{padding-top:0;padding-bottom:0}
+.reveal .magnitude-lesson.m-three-parts .m-parts{grid-template-columns:1fr}
+.reveal .magnitude-lesson.m-three-parts .m-part{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;padding:6px 0}
+.reveal .magnitude-lesson.m-three-parts .m-reveal{margin:0}
+.reveal .magnitude-lesson.m-three-parts .panel-answer{margin-top:7px}
+.reveal .magnitude-lesson .m-dot-vectors{font-size:35px;margin:45px 0}
+.reveal .magnitude-lesson .m-dot-sum{font-size:38px;min-height:85px;margin:30px 0;color:var(--teal)}
+.reveal .magnitude-lesson .m-source{font-size:22px;color:var(--muted);margin:15px 0}
+.reveal .magnitude-lesson .m-key-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 30px}
+.reveal .magnitude-lesson .m-key-grid>div{border-bottom:1px solid var(--rule);padding-bottom:12px;min-width:0}
+.reveal .magnitude-lesson .m-key-grid .m-svg{height:115px}
+.reveal .magnitude-lesson .m-key-grid h3{font-size:26px;margin:5px 0}
+.reveal .magnitude-lesson .m-key-grid .m-equation{font-size:22px;margin:7px 0;line-height:1.4}
+.reveal .magnitude-lesson .m-key-grid p{font-size:22px;margin:7px 0}
+.reveal #iv4-homework table{font-size:24px;line-height:1.45}
+.reveal #iv4-homework td,.reveal #iv4-homework th{text-align:left;padding:18px 12px}
+.reveal #iv4-homework td:first-child{width:100px;font-weight:700}

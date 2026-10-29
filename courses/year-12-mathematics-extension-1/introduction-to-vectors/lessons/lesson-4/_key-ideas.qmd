@@ -1,0 +1,8 @@
+## Key Ideas {#iv4-key-ideas .vector-lesson .magnitude-lesson }
+
+<div class="m-key-grid"><div><div data-magnitude="key-length"></div><h3>Length and distance</h3><div class="m-equation"><span data-math="|\mathbf a|=\sqrt{x^2+y^2+z^2}"></span></div><div class="m-equation"><span data-math="AB=|\mathbf b-\mathbf a|"></span></div></div><div><div data-magnitude="key-midpoint"></div><h3>Midpoint</h3><div class="m-equation"><span data-math="\overrightarrow{OM}=\tfrac12(\mathbf a+\mathbf b)"></span></div><p>Average corresponding coordinates.</p></div><div><div data-magnitude="key-unit"></div><h3>Unit vector</h3><div class="m-equation"><span data-math="\widehat{\mathbf a}=\frac{\mathbf a}{|\mathbf a|},\quad\mathbf a\ne\mathbf0"></span></div><p>Same direction; length <span data-math="1"></span>.</p></div><div><div data-magnitude="key-dot"></div><h3>Scalar product</h3><div class="m-equation"><span data-math="\mathbf a\cdot\mathbf b=x_1x_2+y_1y_2+z_1z_2"></span></div><p>Corresponding products add to one number.</p></div></div>
+<div class="booklet-cue">Booklet Section 4 · p. 35</div>
+
+::: notes
+Complete the booklet Key Ideas box. In 2D omit the z terms. Distinguish scalar distance, point midpoint and vector normalisation. The dot product is a scalar. Geometric dot product, its angle interpretation and the formal self-dot magnitude identity are reserved for Lesson 5.
+:::

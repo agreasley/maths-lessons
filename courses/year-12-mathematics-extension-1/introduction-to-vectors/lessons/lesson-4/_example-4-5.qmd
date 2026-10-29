@@ -1,0 +1,8 @@
+## Example 4.5 · Midpoints {#iv4-example-4-5 .vector-lesson .magnitude-lesson }
+
+<p>Let <span data-math="A(x_1,y_1,z_1)"></span> and <span data-math="B(x_2,y_2,z_2)"></span> be two points in space, and let <span data-math="M"></span> be the midpoint of <span data-math="AB"></span>. Let <span data-math="O"></span> denote the origin.</p><p><strong>a)</strong> Use vectors to show that <span data-math="\overrightarrow{OM}=\tfrac12(\overrightarrow{OA}+\overrightarrow{OB})"></span>.</p><p><strong>b)</strong> Hence show that the coordinates of <span data-math="M"></span> are <span data-math="\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2},\frac{z_1+z_2}{2}\right)"></span>.</p><div class="m-split"><div><div data-magnitude="midpoint"></div></div><div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show proof</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\overrightarrow{OM}=\mathbf a+\tfrac12(\mathbf b-\mathbf a)"></span></div><div class="m-equation"><span data-math="=\tfrac12(\mathbf a+\mathbf b)"></span></div><p>Average each pair of corresponding coordinates.</p></div></div></div></div>
+<div class="booklet-cue">Booklet Example 4.5 · p. 29</div>
+
+::: notes
+Preserve both subparts. Trace O→A→M, with AM half of AB. Distribute the half and simplify to (a+b)/2, then substitute coordinates to obtain part b. Moving B changes M but always leaves AM=MB. The plane sketch supports the vector identity in 2D and 3D. Reset returns the initial diagram.
+:::

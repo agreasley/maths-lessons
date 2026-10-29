@@ -1,0 +1,10 @@
+## Magnitude in two dimensions {#iv4-magnitude-2d .vector-lesson .magnitude-lesson }
+
+For $\mathbf a=x\mathbf i+y\mathbf j$, how do the components tell us the length?
+
+<div class="m-split"><div><div data-magnitude="2d"></div></div><div><p>Let <span data-math="d=|x\underset{\sim}{i}+y\underset{\sim}{j}|"></span>.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show proof</button><div class="panel-answer" hidden><p>By Pythagoras:</p><div class="m-equation"><span data-math="d^2=|x|^2+|y|^2=x^2+y^2"></span></div><div class="m-equation"><span data-math="d=\sqrt{x^2+y^2}"></span></div></div></div><p>The component signs give direction; the squares determine length.</p></div></div>
+<div class="booklet-cue">Booklet Section 4 · p. 26</div>
+
+::: notes
+Briefly ask for the length of (3,4): 5. Then generalise using the diagram. The drawn triangle represents positive x and y; side lengths are labelled |x| and |y| so the calculation applies to any signs. If a component is zero, the same formula holds for the degenerate triangle. The blue/teal diagonal d is deliberately reused as the base in the next 3D proof. Diagram is static: no animation or drag controls.
+:::

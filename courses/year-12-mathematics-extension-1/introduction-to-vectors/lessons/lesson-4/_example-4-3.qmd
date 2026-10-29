@@ -1,0 +1,8 @@
+## Example 4.3 · Distance between points {#iv4-example-4-3 .vector-lesson .magnitude-lesson }
+
+<p>Given <span data-math="\overrightarrow{OA}=\begin{bmatrix}x_1\\y_1\\z_1\end{bmatrix}"></span> and <span data-math="\overrightarrow{OB}=\begin{bmatrix}x_2\\y_2\\z_2\end{bmatrix}"></span>. Find the formula for <span data-math="|\overrightarrow{AB}|"></span>.</p><div class="m-split"><div><div data-magnitude="distance"></div></div><div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show proof</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\overrightarrow{AB}=\mathbf b-\mathbf a=\begin{bmatrix}x_2-x_1\\y_2-y_1\\z_2-z_1\end{bmatrix}"></span></div><div class="m-equation"><span data-math="AB=|\overrightarrow{AB}|"></span></div><div class="m-equation"><span data-math="=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}"></span></div></div></div></div></div><p>In 2D, omit the <span data-math="z"></span> term.</p>
+<div class="booklet-cue">Booklet Example 4.3 · p. 27</div>
+
+::: notes
+Retrieve head minus tail, then take its magnitude. The supporting sketch is in a plane; the same algebra works in 3D. AB is the scalar distance; the arrow AB is a vector. Reversing endpoints negates the vector but leaves its magnitude unchanged. Do not subtract the two position-vector magnitudes.
+:::

@@ -1,0 +1,8 @@
+## Example 4.1 · Magnitude in three dimensions {#iv4-example-4-1 .vector-lesson .magnitude-lesson }
+
+<p>Given <span data-math="\mathbf a=x\mathbf i+y\mathbf j+z\mathbf k"></span>. Express <span data-math="|\mathbf a|"></span> in terms of <span data-math="x"></span>, <span data-math="y"></span> and <span data-math="z"></span>.</p><div class="m-split"><div><div data-magnitude="3d"></div></div><div><p>From the 2D result:</p><div class="m-equation"><span data-math="d^2=x^2+y^2"></span></div><p><span data-math="Q(x,y,0)"></span> lies directly below <span data-math="P(x,y,z)"></span>.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show proof</button><div class="panel-answer" hidden><p>In the right triangle <span data-math="OQP"></span>:</p><div class="m-equation"><span data-math="|\mathbf a|^2=d^2+z^2"></span></div><div class="m-equation"><span data-math="\phantom{|\mathbf a|^2}=x^2+y^2+z^2"></span></div><div class="m-equation"><span data-math="\boxed{|\mathbf a|=\sqrt{x^2+y^2+z^2}}"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 4.1 · p. 26</div>
+
+::: notes
+Retain the booklet wording and bold notation in this question. The teal base OQ is the 2D diagonal, and QP has length |z|. We already know the distance across the floor; use that as one side of the new right triangle. Explain that QP is perpendicular to the xy-plane and hence to OQ. The right-angle symbol is a spatial marker; do not measure the projected drawing. The result also applies to negative/zero components.
+:::

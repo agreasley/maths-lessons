@@ -1,0 +1,13 @@
+## Magnitude and scalar product {#iv4-opening .vector-lesson .magnitude-lesson .cover}
+
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 4</div>
+<div class="cover-title">Magnitude and<br>scalar product</div>
+<div class="cover-subtitle">Lengths, midpoints and unit vectors<br>in two and three dimensions.</div>
+<div class="cover-bars" aria-hidden="true"><span style="height:40px"></span><span style="height:65px"></span><span style="height:90px"></span></div>
+<div data-magnitude="cover" class="m-cover-figure"></div>
+<div class="cover-foot">Booklet Section 4 · Examples 4.1–4.14 · Homework 3</div>
+
+
+::: notes
+One 50-minute lesson, as requested. Suggested pacing: opening and magnitude 8 minutes; distance 5; midpoints and ratio 8; unit vectors, hinge and applications 15; algebraic scalar product 11; summary and homework 3. Use concise explanations and booklet working, with manual checks. No planned period break. The static 3D proof explicitly reuses the 2D result. Source: supplied Introduction to Vectors booklet, printed pp. 26–35; Cambridge Mathematics Extension 1 Year 12 Second Edition, sections 9B–9F. Old component and 3D slides inform the normalisation explanation. All diagrams are new native SVG constructions.
+:::

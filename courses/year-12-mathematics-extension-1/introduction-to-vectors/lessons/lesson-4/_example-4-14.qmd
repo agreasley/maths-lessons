@@ -1,0 +1,8 @@
+## Example 4.14 · HSC 2024 {#iv4-example-4-14 .vector-lesson .magnitude-lesson }
+
+<div class="m-source">Extension 1 · Question 11(a) · 2 marks</div><p>Consider the vectors <span data-math="\underset{\sim}{a}=3\underset{\sim}{i}+2\underset{\sim}{j}"></span> and <span data-math="\underset{\sim}{b}=-\underset{\sim}{i}+4\underset{\sim}{j}"></span>.</p><div class="m-parts"><div class="m-part"><p><strong>(i)</strong> Find <span data-math="2\underset{\sim}{a}-\underset{\sim}{b}"></span>.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="2\underset{\sim}{a}-\underset{\sim}{b}=(6\underset{\sim}{i}+4\underset{\sim}{j})-(-\underset{\sim}{i}+4\underset{\sim}{j})"></span></div><div class="m-equation"><span data-math="=\boxed{7\underset{\sim}{i}}"></span></div></div></div></div><div class="m-part"><p><strong>(ii)</strong> Find <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}"></span>.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=3(-1)+2(4)=\boxed5"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 4.14 · p. 34</div>
+
+::: notes
+Source attribution and subpart labels follow the supplied booklet: HSC 2024 Extension 1 Q11(a), 2 marks. Answers (i) 7i, a vector; (ii) 5, a scalar. This contrast is a concise exit check. Allow students to finish both before revealing.
+:::

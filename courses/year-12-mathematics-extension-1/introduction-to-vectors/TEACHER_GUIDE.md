@@ -2,7 +2,7 @@
 
 ## Sequence and sources
 
-This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–3 have been built.
+This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–4 have been built. Lesson 4 is planned as one 50-minute teaching period, as explicitly requested.
 
 | Revised lesson | Booklet coverage | Homework |
 |---|---|---|
@@ -27,7 +27,7 @@ Plan for roughly 70–90 minutes in total, depending on discussion and student w
 - Triangle/parallelogram addition, Example 2.1, subtraction, Example 2.2 and hinge.
 - Closed paths and scalar multiplication, then Examples 2.3–2.4, the illustrated Key Ideas summary and Homework 1.
 
-A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2, 4, 6 and 7 may each need two teaching periods; avoid forcing seven decks into seven periods.
+A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2, 6 and 7 may each need two teaching periods; avoid forcing seven decks into seven periods.
 
 ## Hook and the purpose of the unit
 
@@ -159,3 +159,39 @@ Finish with the illustrated Key Ideas and the remaining Homework 2 selections sh
 ### Browser compatibility of vector diagrams
 
 Diagram labels and tick values are rendered as native SVG paths using the locally bundled MathJax SVG component. This avoids Safari/WebKit's HTML-in-SVG (`foreignObject`) positioning issues when Reveal scales slides or a vector group is translated. KaTeX still renders the ordinary slide text and controls. Keep label placement in the diagram's SVG coordinates, and test in WebKit as well as Chromium; changing the viewport size in Chromium alone does not check iPad browser behaviour. The SVG helper also supports slide-map clones and offline presentation without a CDN.
+
+
+## Lesson 4: magnitude and scalar product
+
+One **50-minute lesson**, with 22 slides and no planned period break. Preserve the booklet's Sections 4.1–4.5, Examples 4.1–4.14, question wording and order (printed pp. 26–35). Use concise explanations and booklet working, with manually revealed solutions. Suggested allocation: opening and magnitude 8 minutes; distance 5; midpoints and ratio 8; unit vectors, hinge and applications 15; algebraic scalar product 11; Key Ideas and homework 3. The user explicitly corrected the earlier two-period estimate; do not reintroduce it.
+
+The magnitude diagrams are static. First establish d²=x²+y² in 2D; then reuse the same teal diagonal as the base OQ in 3D. Q=(x,y,0) lies below P=(x,y,z). QP has length |z| and is perpendicular to the xy-plane, so |a|²=d²+z²=x²+y²+z². Labels are native SVG paths. Do not replace this sequence with an unrelated numerical 3D example or an interactive 3D construction.
+
+The midpoint demonstration moves B while M remains (A+B)/2; Reset restores the initial diagram. The unit-vector demonstration compares a=(4,−3) with a/5: the original becomes dotted while the length-one vector is drawn in the same direction. Dot-product controls match component colours in 2D/3D and reveal the sum to a scalar. Initial answer panels and the hinge explanation remain hidden. All controls work with touch.
+
+### Lesson 4 worked checks
+
+- 4.1: |a|=sqrt(x²+y²+z²), obtained from the 2D base length.
+- 4.2: a) 5; b) sqrt(38); c) 4; d) sqrt(5).
+- 4.3: AB=b−a; its magnitude is sqrt((x2−x1)²+(y2−y1)²+(z2−z1)²). In 2D omit the z term.
+- 4.4: AB vector=(6,−4,5); distance sqrt(77).
+- 4.5: OM=a+(b−a)/2=(a+b)/2; average corresponding coordinates.
+- 4.6: M=(2,1,7).
+- 4.7: AP=(3,−2), AB=3AP=(9,−6), B=(7,−3). AP is one third of AB.
+- 4.8: a) (4/5,−3/5); b) (−5/sqrt(89),8/sqrt(89)).
+- 4.9: (1,2,3)/sqrt(14), expressed in i,j,k component form.
+- 4.10: |a|=10; b=5(a/10)=(3,−4).
+- 4.11: e=(−2,0,−2); unit a=(1,3,4)/sqrt(26); unit b=(−1,3,2)/sqrt(14); unit e=(−1,0,−1)/sqrt(2).
+- 4.12: a) 11; b) −20; c) 0.
+- 4.13: a) 7; b) 7; c) (3,2,−1)/sqrt(14); d) 7/sqrt(14)=sqrt(14)/2.
+- 4.14: (i) 7i (vector); (ii) 5 (scalar). Booklet attribution: HSC 2024 Extension 1 Q11(a), 2 marks.
+
+### Lesson 4 hinge and homework
+
+The hinge is immediately **after Example 4.9 and before Example 4.10**. Given a=(2,−1,2), identify the unit vector in the same direction. Correct **3**, (2/3,−1/3,2/3). Choice 1 leaves magnitude 3; choice 2 divides by 9, giving magnitude 1/3; choice 4 gives a unit vector in the opposite direction. Keep the default 60-second timer, adjustable duration, 1–4 finger routine and separate manual reveal. If divided, check magnitude and direction separately before a revote. Proceed to 4.10 when secure.
+
+Homework 3 is retained except the planning adjustment: defer **9C Q6** (Spicy) and **9F Q3** (Medium/Spicy) until Lesson 5. These already appear in Homework 4, so nothing is removed from unit coverage. Cambridge confirms these questions explicitly connect the self-dot product with magnitude. All other Homework 3 questions remain as in the booklet. Reserve the geometric dot-product expression, angles/perpendicularity interpretations and formal self-dot magnitude identity for the following lessons.
+
+Preview with `quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-4.qmd`. Assets: magnitudes.js and magnitudes.css, reusing the shared navigation, reveal panels, timer and native SVG maths renderer.
+
+Validation: rendered all 22 slides and checked complete Next/Previous navigation, initial/revealed answers, midpoint motion/reset, unit-vector comparison/reset, 2D/3D dot-product controls, hinge timer expiry/manual reveal/reset and slide-map state in Chromium and WebKit. Tested touch at 1024×768 and 1194×834, with portrait rotation and return. SVG label offsets matched between engines; no external network requests, unrendered mathematics, JavaScript errors or slide-content overflow. Screenshot review included both proofs, midpoint, the 3D combined example, unit vectors and illustrated Key Ideas. These are desktop browser-engine checks, not a physical-iPad test.

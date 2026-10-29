@@ -1,0 +1,8 @@
+## Example 4.9 {#iv4-example-4-9 .vector-lesson .magnitude-lesson }
+
+<p>Given <span data-math="\underset{\sim}{a}=\underset{\sim}{i}+2\underset{\sim}{j}+3\underset{\sim}{k}"></span>. Express <span data-math="\widehat{\underset{\sim}{a}}"></span> in component form.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="|\underset{\sim}{a}|=\sqrt{1^2+2^2+3^2}=\sqrt{14}"></span></div><div class="m-equation"><span data-math="\boxed{\widehat{\underset{\sim}{a}}=\frac1{\sqrt{14}}\underset{\sim}{i}+\frac2{\sqrt{14}}\underset{\sim}{j}+\frac3{\sqrt{14}}\underset{\sim}{k}}"></span></div></div></div>
+<div class="booklet-cue">Booklet Example 4.9 · p. 31</div>
+
+::: notes
+Same normalisation rule in 3D. Final answer retains the requested component form. The hinge follows immediately before Example 4.10.
+:::

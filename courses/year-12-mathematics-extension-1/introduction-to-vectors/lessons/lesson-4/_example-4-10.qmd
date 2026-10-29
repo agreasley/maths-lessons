@@ -1,0 +1,8 @@
+## Example 4.10 {#iv4-example-4-10 .vector-lesson .magnitude-lesson }
+
+<p>Define the vector <span data-math="\underset{\sim}{b}"></span> such that <span data-math="|\underset{\sim}{b}|=5"></span> and it is in the direction of <span data-math="\underset{\sim}{a}=6\underset{\sim}{i}-8\underset{\sim}{j}"></span></p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="|\underset{\sim}{a}|=10,\qquad\widehat{\underset{\sim}{a}}=\tfrac35\underset{\sim}{i}-\tfrac45\underset{\sim}{j}"></span></div><div class="m-equation"><span data-math="\underset{\sim}{b}=5\widehat{\underset{\sim}{a}}=\boxed{3\underset{\sim}{i}-4\underset{\sim}{j}}"></span></div><p>Check: length <span data-math="5"></span>, same direction.</p></div></div>
+<div class="booklet-cue">Booklet Example 4.10 · p. 31</div>
+
+::: notes
+Magnitude of a is 10. Unit vector=(3/5,-4/5). Multiply by 5 to get b=(3,-4). Avoid multiplying the original a by 5, which would produce length 50. The positive factor 1/2 applied to a also works.
+:::

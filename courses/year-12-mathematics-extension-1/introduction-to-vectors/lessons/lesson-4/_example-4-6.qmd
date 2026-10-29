@@ -1,0 +1,8 @@
+## Example 4.6 {#iv4-example-4-6 .vector-lesson .magnitude-lesson }
+
+<p>The points <span data-math="A"></span> and <span data-math="B"></span> have coordinates <span data-math="(-2,3,5)"></span> and <span data-math="(6,-1,9)"></span> respectively.</p><p>Find the coordinates of the midpoint of <span data-math="AB"></span>.</p><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="M=\left(\frac{-2+6}{2},\frac{3+(-1)}2,\frac{5+9}2\right)"></span></div><div class="m-equation"><span data-math="\boxed{M=(2,1,7)}"></span></div></div></div>
+<div class="booklet-cue">Booklet Example 4.6 · p. 29</div>
+
+::: notes
+Answer M=(2,1,7). This is a point. The corresponding position vector has the same three components once O is chosen.
+:::

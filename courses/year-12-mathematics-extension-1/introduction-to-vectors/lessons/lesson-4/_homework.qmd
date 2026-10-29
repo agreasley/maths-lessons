@@ -1,0 +1,15 @@
+## Homework 3 {#iv4-homework .vector-lesson .magnitude-lesson }
+
+| Level | Questions |
+|---|---|
+| Mild | **9B:** Q1, Q5–6, Q8. **9E:** Q2–3, Q5(c). **9C:** Q1(a,b). **9F:** Q4(a,b). |
+| Medium | **9B:** Q1, Q5–6, Q8. **9D:** Q8–9. **9E:** Q2–3, Q5(c), Q6(c). **9C:** Q1, Q4–5. **9F:** Q4(a,b). |
+| Spicy | **9B:** Q1, Q5–6, Q8–9. **9D:** Q8–9, Q13–14. **9E:** Q2–3, Q5(c), Q6(c). **9C:** Q1, Q4–5. **9F:** Q4(a,b). |
+
+<p class="small-note">Reserve 9C Q6 and 9F Q3 for Lesson 5 (already included in Homework 4).</p>
+<div class="booklet-cue">Cambridge Mathematics Extension 1 Year 12, Second Edition · Booklet Homework 3, p. 35</div>
+
+
+::: notes
+The approved planning adjustment defers 9C Q6 (Spicy) and 9F Q3 (Medium/Spicy) to Lesson 5 because these explicitly use the self-dot/magnitude connection. They already appear in Homework 4 and are not removed from the unit. All other Homework 3 questions are unchanged. 9C Q4–5 are computable directly from components. Preserve this reservation when building Lesson 5.
+:::

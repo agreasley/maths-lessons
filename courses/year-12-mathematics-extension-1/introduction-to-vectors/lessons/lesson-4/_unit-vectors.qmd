@@ -1,0 +1,8 @@
+## Keep the direction. Make the length one. {#iv4-unit-vectors .vector-lesson .magnitude-lesson }
+
+<p>A unit vector has magnitude <span data-math="1"></span>. For <span data-math="\underset{\sim}{a}\ne\mathbf0"></span>:</p><div class="m-split"><div><div data-magnitude="unit"></div></div><div><div class="m-equation"><span data-math="\widehat{\underset{\sim}{a}}=\frac{1}{|\underset{\sim}{a}|}\underset{\sim}{a}"></span></div><p>Divide every component by the magnitude.</p><p>Then <span data-math="\left|\widehat{\underset{\sim}{a}}\right|=\frac{|\underset{\sim}{a}|}{|\underset{\sim}{a}|}=1"></span>.</p><p>The multiplier is positive, so the direction stays the same.</p><p>The zero vector has no unit vector in its direction.</p></div></div>
+<div class="booklet-cue">Booklet Section 4 · p. 30</div>
+
+::: notes
+Reuse the explanation from the old component/3D slides: normalisation scales the magnitude to one while preserving direction. The concrete vector (4,-3) has length 5. The unit vector is (4/5,-3/5). Show unit vector keeps the original dotted, so the one-fifth length can be compared. No need to derive a second rule for 3D.
+:::

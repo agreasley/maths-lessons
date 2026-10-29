@@ -1,0 +1,18 @@
+## Today's learning {#iv4-objective .vector-lesson .magnitude-lesson }
+
+### Learning objective
+
+Use vector components to calculate lengths, midpoints, unit vectors and scalar products in two and three dimensions.
+
+### Success criterion
+
+I can solve these problems and identify whether my answer is a point, a vector or a scalar.
+
+::: takeaway
+Familiar geometry gives the insight; vectors give us a general method.
+:::
+
+
+::: notes
+Build from head minus tail in Lesson 3. No extended recap: use the distance derivation to retrieve it in context.
+:::

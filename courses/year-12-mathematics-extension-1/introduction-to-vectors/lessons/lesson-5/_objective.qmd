@@ -7,9 +7,9 @@ We are learning to connect the scalar product with vector magnitudes and the ang
 
 ### Success criterion
 
-I can use both scalar-product formulas and explain the magnitude identity and special cases.
+I can use the scalar product and vector magnitudes to identify whether two non-zero vectors point in the same direction, point in opposite directions or are perpendicular.
 
 
 ::: notes
-The component formula from Lesson 4 and the geometric formula describe the same scalar. Students should connect them, rather than memorise two unrelated rules.
+The component formula from Lesson 4 and the geometric formula describe the same scalar. Students should connect them, rather than memorise two unrelated rules. A positive dot product alone does not establish the same direction, and a negative one alone does not establish opposite directions: compare with ±|a||b|. For non-zero vectors, a zero dot product establishes perpendicularity.
 :::

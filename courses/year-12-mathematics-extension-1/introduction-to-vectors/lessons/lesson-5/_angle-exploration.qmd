@@ -1,11 +1,9 @@
-## What changes when the angle changes? {#iv5-angle-exploration .vector-lesson .magnitude-lesson .geometric-lesson }
+## Interpreting the sign of the scalar product {#iv5-angle-exploration .vector-lesson .magnitude-lesson .geometric-lesson}
 
-
-Keep the lengths fixed. Predict whether the scalar product is **positive, zero or negative**.
+Change the angle and lengths. What makes the result **positive, zero or negative**?
 
 <div data-geometric="explore"></div>
 
-
 ::: notes
-Additional 2-minute predict–explain activity. Fixed lengths |a|=2 and |b|=5, giving a·b=10 cos θ. Start at 60° with the numerical answer hidden. Change θ from 0° to 180°; collect a prediction before manually revealing. Angle changes hide the previous answer. Presets 0°, 90° and 180° support later special cases. Ask: “How can two non-zero vectors have a scalar product of zero?” The cosine factor determines the sign; the lengths are positive. At 90° the value is exactly zero, not a floating-point approximation. Moving or resetting the controls does not reveal the value.
+The result is always visible as a·b=value, without a substituted calculation or a separate list of vector values. The labelled diagram shows the angle; the controls change θ and both positive magnitudes. Start at |a|=2, |b|=5, θ=60°. Ask students to vary lengths at a fixed angle: the size changes but the sign does not. At 90° the value is exactly zero for any positive lengths. Compare 0° with an acute angle, and 180° with an obtuse angle: positive does not necessarily mean same direction and negative does not necessarily mean opposite directions. Presets 0°,90°,180° and Reset support these comparisons. Reset restores 2,5,60°. No 3D interactive.
 :::

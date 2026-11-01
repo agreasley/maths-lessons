@@ -1,0 +1,7 @@
+## On the formula sheet {#iv5-formula-sheet .vector-lesson .magnitude-lesson .geometric-lesson}
+
+<img class="g-formula-sheet" src="../media/vector-formula-sheet.png" alt="Supplied formula-sheet excerpt. The highlighted line is u dot v equals magnitude u times magnitude v times cosine theta, equals x1 x2 plus y1 y2; u=x1 i+y1 j and v=x2 i+y2 j. The excerpt also includes magnitude and projection formulas.">
+
+::: notes
+Use the exact supplied formula-sheet image, including its highlighted scalar-product line. Point out that u,v here play the role of a,b, and x1,y1 and x2,y2 are their components. The projection formula is visible in the source excerpt but belongs to the later projection lesson.
+:::

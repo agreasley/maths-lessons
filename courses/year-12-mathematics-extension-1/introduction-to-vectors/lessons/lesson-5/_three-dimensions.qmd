@@ -1,0 +1,12 @@
+## The same two methods apply in 3D {#iv5-three-dimensions .vector-lesson .magnitude-lesson .geometric-lesson}
+
+<div class="g-method-grid">
+<div><h3>Know the components?</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y+a_zb_z"></span></div><p>Include the third pair of components.</p></div>
+<div><h3>Know the lengths and angle?</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div><p>The geometric formula is unchanged.</p></div>
+</div>
+
+Two non-parallel vectors placed tail-to-tail lie in a plane, so the same cosine-rule reasoning applies.
+
+::: notes
+No 3D interactive is needed. Expanding AB²=(b_x−a_x)²+(b_y−a_y)²+(b_z−a_z)² adds a_zb_z to the component scalar product. Compare with the cosine rule in the plane containing the two vectors. The parallel cases follow by θ=0° or 180°. The angle is undefined for a zero vector.
+:::

@@ -1,0 +1,13 @@
+## The angle between two vectors {#iv5-angle-between .vector-lesson .magnitude-lesson .geometric-lesson}
+
+Place two **non-zero** vectors **tail-to-tail**, preserving their lengths and directions.
+
+<div data-geometric="angle-between" class="g-angle-definition"></div>
+
+The angle between them is the **smaller angle**: $0^\circ\leq\theta\leq180^\circ$.
+
+<div class="g-angle-endpoints"><span>Same direction: <span data-math="0^\circ"></span></span><span>Perpendicular: <span data-math="90^\circ"></span></span><span>Opposite directions: <span data-math="180^\circ"></span></span></div>
+
+::: notes
+Translate vectors without rotating or rescaling them. The dashed blue arrow is the vector in its original position; the solid copy has been moved to the common tail. Use the angle between their directions, not the internal angle at a head-to-tail join, and not the reflex angle. A zero vector has no direction, so its angle with another vector is undefined. For opposite vectors both half-turn angles are 180°.
+:::

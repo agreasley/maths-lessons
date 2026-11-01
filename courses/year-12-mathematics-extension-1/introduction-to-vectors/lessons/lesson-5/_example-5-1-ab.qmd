@@ -1,5 +1,4 @@
-## Example 5.1 · Parts (a–b) {#iv5-example-5-1-ab .vector-lesson .magnitude-lesson .geometric-lesson }
-
+## Example 5.1 · Parts (a–b) {#iv5-example-5-1-ab .vector-lesson .magnitude-lesson .geometric-lesson}
 
 Consider the diagram below, where $\overrightarrow{OA}$ and $\overrightarrow{OB}$ are position vectors to the points $A(a_x,a_y)$ and $B(b_x,b_y)$ respectively.
 
@@ -7,10 +6,12 @@ Consider the diagram below, where $\overrightarrow{OA}$ and $\overrightarrow{OB}
 <div><img class="g-booklet-triangle" src="../media/example-5-1.svg" alt="Original booklet diagram: position vectors a from O to A and b from O to B, with theta between them and side AB joining their heads."></div>
 <div>
 <p><strong>a)</strong> Express <span data-math="\overrightarrow{AB}"></span> in terms of <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span></p>
+<div class="g-proof-answer"><div class="m-equation"><span data-math="\overrightarrow{AB}=\underset{\sim}{b}-\underset{\sim}{a}"></span></div></div>
 <p><strong>b)</strong> Calculate <span data-math="|\overrightarrow{OA}|"></span>, <span data-math="|\overrightarrow{OB}|"></span> and <span data-math="|\overrightarrow{AB}|"></span></p>
-<div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show check</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\overrightarrow{AB}=\underset{\sim}{b}-\underset{\sim}{a}"></span></div><div class="m-equation"><span data-math="|\overrightarrow{OA}|=\sqrt{a_x^2+a_y^2}"></span></div><div class="m-equation"><span data-math="|\overrightarrow{OB}|=\sqrt{b_x^2+b_y^2}"></span></div><div class="m-equation"><span data-math="|\overrightarrow{AB}|=\sqrt{(b_x-a_x)^2+(b_y-a_y)^2}"></span></div></div></div></div></div>
+<div class="g-proof-answer"><div class="m-equation"><span data-math="|\overrightarrow{OA}|=|\underset{\sim}{a}|=\sqrt{a_x^2+a_y^2}"></span></div><div class="m-equation"><span data-math="|\overrightarrow{OB}|=|\underset{\sim}{b}|=\sqrt{b_x^2+b_y^2}"></span></div><div class="m-equation"><span data-math="|\overrightarrow{AB}|=\sqrt{(b_x-a_x)^2+(b_y-a_y)^2}"></span></div></div>
+</div></div>
 <div class="booklet-cue">Booklet Example 5.1(a–b) · p. 36</div>
 
 ::: notes
-Keep the original diagram visible while students work. The direction A→B gives b−a. Magnitudes are non-negative scalars. For part (c), square the distance expression before expanding; avoid needless manipulation of square roots. The diagram is cropped directly from the supplied booklet with text converted to SVG paths.
+The full working is visible directly under each scaffolded part. The direction A→B gives b−a. Magnitudes are non-negative scalars. For part (c), square the distance expression before expanding. The original diagram is cropped directly from the supplied booklet with text converted to SVG paths.
 :::

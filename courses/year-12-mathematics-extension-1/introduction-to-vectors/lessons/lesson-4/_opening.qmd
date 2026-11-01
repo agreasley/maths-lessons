@@ -3,7 +3,6 @@
 <div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 4</div>
 <div class="cover-title">Magnitude and<br>scalar product</div>
 <div class="cover-subtitle">Lengths, midpoints and unit vectors<br>in two and three dimensions.</div>
-<div class="cover-bars" aria-hidden="true"><span style="height:40px"></span><span style="height:65px"></span><span style="height:90px"></span></div>
 <div data-magnitude="cover" class="m-cover-figure"></div>
 <div class="cover-foot">Booklet Section 4 · Examples 4.1–4.14 · Homework 3</div>
 

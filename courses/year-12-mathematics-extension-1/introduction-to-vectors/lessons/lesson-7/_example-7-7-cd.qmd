@@ -1,0 +1,12 @@
+## Example 7.7 · (c–d) {#iv7-example-7-7-cd .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>Given the vectors <span data-math="\underset{\sim}{a}=4\underset{\sim}{i}+5\underset{\sim}{j}-3\underset{\sim}{k}"></span> and <span data-math="\underset{\sim}{b}=2\underset{\sim}{i}-2\underset{\sim}{j}+\underset{\sim}{k}"></span>, find</p><div class="pr-cols"><div><p>c) the vector projection of <span data-math="\underset{\sim}{a}"></span> onto the <span data-math="x"></span>-axis. Hence write the vector projection on the <span data-math="y"></span>- and <span data-math="z"></span>-axes</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{i}}\underset{\sim}{a}=\frac{4(1)+5(0)-3(0)}{1^2}\underset{\sim}{i}=4\underset{\sim}{i}"></span></div><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{j}}\underset{\sim}{a}=5\underset{\sim}{j}"></span></div><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{k}}\underset{\sim}{a}=-3\underset{\sim}{k}"></span></div></div></div></div><div><p>d) the vector projection of <span data-math="\underset{\sim}{a}"></span> perpendicular to <span data-math="\underset{\sim}{b}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{p}=\underset{\sim}{a}-\operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}"></span></div><div class="pr-eq"><span data-math="\displaystyle =(4\underset{\sim}{i}+5\underset{\sim}{j}-3\underset{\sim}{k})"></span></div><div class="pr-eq"><span data-math="\displaystyle \quad-\left(-\frac{10}{9}\underset{\sim}{i}+\frac{10}{9}\underset{\sim}{j}-\frac59\underset{\sim}{k}\right)"></span></div><div class="pr-eq"><span data-math="\displaystyle =\frac{46}{9}\underset{\sim}{i}+\frac{35}{9}\underset{\sim}{j}-\frac{22}{9}\underset{\sim}{k}"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 59</div>
+
+::: notes
+Connect (c) to the opening recall: standard coordinate components are projections onto unit coordinate directions. For (d), the component dot product (92−70−22)/9=0 checks perpendicularity.
+:::

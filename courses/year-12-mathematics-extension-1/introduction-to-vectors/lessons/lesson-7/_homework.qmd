@@ -1,0 +1,12 @@
+## Homework 6 {#iv7-homework .vector-lesson .projection-lesson }
+
+```{=html}
+<table><thead><tr><th>Level</th><th>Exercise 9G</th></tr></thead><tbody><tr><td>Mild</td><td>Q1–5 (alternate parts), Q8(a), Q10–11</td></tr><tr><td>Medium</td><td>Q1–6, Q8–11, Q14</td></tr><tr><td>Spicy</td><td>Q3–12, Q14–16, Q20</td></tr></tbody></table>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 64</div>
+
+::: notes
+Homework6 is not split across lessons. The slide contains assignments only, following AGENTS.md.
+:::

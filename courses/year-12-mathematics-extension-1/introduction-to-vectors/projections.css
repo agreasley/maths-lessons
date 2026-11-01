@@ -1,0 +1,81 @@
+/* Lesson 7: projection, decomposition and complete worked examples. */
+.reveal .projection-lesson h2{font-size:43px;margin-bottom:20px}
+.reveal .projection-lesson p{font-size:27px;line-height:1.4;margin:14px 0}
+.reveal .projection-lesson h3{font-size:29px;margin:22px 0 15px}
+.reveal .projection-lesson .pr-eq{font-size:29px;line-height:1.5;margin:18px 0}
+.reveal .pr-cols{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start;margin:20px 0}
+.reveal .pr-cols>div{min-width:0}
+.reveal .pr-cols p{font-size:25px}
+.reveal .pr-cols .pr-eq{font-size:25px}
+.reveal .pr-reveal{margin-top:18px}
+.reveal .projection-lesson .panel-answer{border-left:4px solid var(--teal);padding:2px 0 2px 18px;margin-top:12px}
+.reveal .projection-lesson .panel-answer .pr-eq{margin:12px 0}
+.reveal .pr-svg{display:block;width:100%;height:auto;max-width:none;max-height:none;margin:0;overflow:visible}
+.reveal .pr-figure .pr-svg{height:320px}
+.reveal .projection-lesson .booklet-cue{margin-top:18px;font-size:18px}
+.reveal #iv7-opening .cover-title{font-size:75px;max-width:770px}
+.reveal #iv7-opening .cover-subtitle{font-size:31px;max-width:580px}
+.reveal .pr-cover{position:absolute;right:0;top:310px;width:600px}
+.reveal .pr-cover .pr-svg{height:350px}
+.reveal #iv7-objective h3{margin-top:55px}
+.reveal #iv7-objective p{font-size:31px;max-width:1110px}
+.reveal #iv7-recall .pr-cols{align-items:center;margin-top:45px}
+.reveal #iv7-recall .pr-cols .pr-eq{font-size:36px}
+.reveal .pr-controls{display:flex;gap:35px;margin:12px 0 0}
+.reveal .pr-controls label{display:flex;gap:12px;align-items:center;flex:1;font-size:22px}
+.reveal .pr-controls input{flex:1;min-width:80px;height:44px;margin:0;accent-color:var(--teal)}
+.reveal .pr-controls output{min-width:48px;text-align:right}
+.reveal .pr-preset-row{display:flex;gap:10px;margin:5px 0}
+.reveal .pr-preset-row button{min-width:68px;min-height:46px;font-size:20px}
+.reveal .pr-preset-row .pr-reset{margin-left:auto}
+.reveal .pr-live-figure .pr-svg{height:355px}
+.reveal .pr-reveal-controls{display:flex;gap:12px}
+.reveal .pr-reveal-controls button{font-size:20px;min-height:52px;flex:1;padding:8px 12px}
+.reveal .pr-reveal-controls button[aria-pressed=true]{background:var(--teal);color:white}
+.reveal .pr-result{font-size:27px;min-height:45px;margin-top:12px}
+.reveal .pr-sign{font-size:22px;color:var(--muted);margin-left:20px}
+.reveal #iv7-shadow .booklet-cue{margin-top:5px}
+.reveal .pr-three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0 25px;border-top:2px solid var(--teal);border-bottom:1px solid var(--rule);margin:40px 0 30px}
+.reveal .pr-three p{font-size:24px}
+.reveal .pr-three .pr-eq{font-size:25px;margin:10px 0 25px}
+.reveal #iv7-scalar>.pr-eq{font-size:39px;margin:30px 0}
+.reveal #iv7-vector-formula .pr-eq{font-size:36px;margin:30px 0}
+.reveal .pr-compact p{font-size:24px}
+.reveal .pr-compact .pr-cols p{font-size:23px;margin:11px 0}
+.reveal .pr-compact .pr-cols .pr-eq{font-size:22px;line-height:1.4;margin:12px 0}
+.reveal .pr-compact .pr-cols{gap:30px;margin-top:14px}
+.reveal .pr-compact .pr-reveal{margin-top:12px}
+.reveal .pr-compact .panel-answer{padding-left:12px;margin-top:10px}
+.reveal .pr-source{font-size:20px;color:var(--muted)}
+.reveal #iv7-example-7-3-bc .pr-cols{grid-template-columns:.9fr 1.1fr}
+.reveal #iv7-example-7-3-bc .pr-cols p{font-size:22px}
+.reveal .pr-decompose .pr-svg{height:285px}
+.reveal .pr-component-steps{display:grid;grid-template-columns:1fr 1fr;gap:35px}
+.reveal .pr-component-steps .pr-eq{font-size:32px;margin:10px 0}
+.reveal .pr-component-steps p{font-size:24px}
+.reveal .pr-takeaway{border-left:5px solid var(--teal);padding:2px 0 2px 20px;margin:25px 0}
+.reveal .pr-takeaway .pr-eq{font-size:34px;margin:12px 0}
+.reveal .pr-takeaway p{margin:10px 0}
+.reveal #iv7-dimensions>.pr-eq{font-size:32px;margin:40px 0}
+.reveal #iv7-dimensions .math.display{font-size:27px;margin:26px 0}
+.reveal #iv7-applications .pr-cols,.reveal #iv7-shortest-distance .pr-cols{align-items:center}
+.reveal #iv7-example-7-8-ab .pr-cols{grid-template-columns:.85fr 1.15fr}
+.reveal #iv7-example-7-8-ab .pr-cols .pr-eq{font-size:21px}
+.reveal #iv7-example-7-9-ab .pr-cols{grid-template-columns:.85fr 1.15fr}
+.reveal #iv7-example-7-10 .panel-answer>.pr-cols{margin:5px 0}
+.reveal .pr-key{display:grid;grid-template-columns:.85fr 1.15fr;gap:25px;align-items:center;margin:25px 0}
+.reveal .pr-key h3{font-size:26px;margin:22px 0 10px}
+.reveal .pr-key .pr-eq{font-size:27px;margin:15px 0 26px}
+.reveal #iv7-key-ideas>p{font-size:25px}
+.reveal #iv7-homework table{font-size:27px;line-height:1.6;margin-top:50px;width:100%}
+.reveal #iv7-homework td,.reveal #iv7-homework th{text-align:left;padding:23px 20px}
+.reveal #iv7-homework td:first-child{font-weight:700;width:140px}
+.pr-stage{opacity:0;visibility:hidden;transition:opacity .25s}
+.pr-stage .pr-draw{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .65s ease-out}
+[data-projection=decompose][data-stage="1"] .pr-stage-1,[data-projection=decompose][data-stage="2"] .pr-stage,[data-projection=decompose][data-stage="3"] .pr-stage{opacity:1;visibility:visible}
+[data-projection=decompose][data-stage="1"] .pr-stage-1 .pr-draw,[data-projection=decompose][data-stage="2"] .pr-draw,[data-projection=decompose][data-stage="3"] .pr-draw{stroke-dashoffset:0}
+@media(prefers-reduced-motion:reduce){.pr-stage,.pr-stage .pr-draw{transition:none}}
+/* Treat repeated taps as button actions rather than a browser double-tap gesture. */
+.reveal .projection-lesson button{touch-action:manipulation}
+/* Oversized radical glyph boxes must not intercept taps intended for controls. */
+.reveal .projection-lesson .katex{pointer-events:none}

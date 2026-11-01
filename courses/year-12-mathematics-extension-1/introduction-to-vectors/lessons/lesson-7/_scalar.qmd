@@ -1,0 +1,12 @@
+## Scalar projection: a signed amount {#iv7-scalar .vector-lesson .projection-lesson }
+
+```{=html}
+<p>For <span data-math="\underset{\sim}{b}\ne\underset{\sim}{0}"></span>:</p><div class="pr-eq"><span data-math="\displaystyle \frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|}=\underset{\sim}{a}\cdot\hat{\underset{\sim}{b}}=|\underset{\sim}{a}|\cos\theta"></span></div><div class="pr-three"><h3>Positive</h3><h3>Zero</h3><h3>Negative</h3><p>Along the chosen direction</p><p>Perpendicular</p><p>Opposite the chosen direction</p><div class="pr-eq"><span data-math="\displaystyle 0^\circ\le\theta&lt;90^\circ"></span></div><div class="pr-eq"><span data-math="\displaystyle \theta=90^\circ"></span></div><div class="pr-eq"><span data-math="\displaystyle 90^\circ&lt;\theta\le180^\circ"></span></div></div><p>The shadow’s <strong>length</strong> is the absolute value of its scalar projection.</p>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 55</div>
+
+::: notes
+For a non-zero a the angle is defined in [0°,180°]. When a=0 the scalar projection is zero directly from the dot-product expression; its angle is undefined. The sign describes the parallel component, not that a and b themselves are parallel.
+:::

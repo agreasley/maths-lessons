@@ -1,0 +1,12 @@
+## From coordinate directions to any direction {#iv7-recall .vector-lesson .projection-lesson }
+
+```{=html}
+<div class="pr-cols"><div><div data-projection="recall" class="pr-figure "></div></div><div><h3>You already know</h3><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{a}=3\underset{\sim}{i}+2\underset{\sim}{j}"></span></div><p>Horizontal component + vertical component.</p><div class="fragment" data-fragment-index="0"><h3>Now choose any direction</h3><p>How much of the vector goes <strong>along</strong> that direction? How much goes <strong>perpendicular</strong> to it?</p></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 54</div>
+
+::: notes
+The coordinate example is a special case of the decomposition students will use throughout this lesson. The two components add head-to-tail to give the original vector.
+:::

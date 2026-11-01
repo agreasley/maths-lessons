@@ -1,0 +1,12 @@
+## Example 7.3 · (b–c) {#iv7-example-7-3-bc .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>Consider the vectors <span data-math="\underset{\sim}{a}=2\underset{\sim}{i}-5\underset{\sim}{j}"></span> and <span data-math="\underset{\sim}{b}=-2\underset{\sim}{i}+3\underset{\sim}{j}"></span>.</p><div class="pr-cols"><div><div data-projection="negative" class="pr-figure "></div><p>Diagram drawn from the given vectors.</p></div><div><p>b) Through use of a diagram explain why the scalar projection of <span data-math="\underset{\sim}{a}"></span> onto <span data-math="\underset{\sim}{b}"></span> is negative. Under what circumstances will we expect the scalar projection of one vector onto another to be negative?</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><p>The angle is obtuse, so <span data-math="\cos\theta&lt;0"></span>. The shadow points opposite to <span data-math="\underset{\sim}{b}"></span>.</p><p>Negative when <span data-math="90^\circ&lt;\theta\le180^\circ"></span>.</p></div></div><p>c) Under what circumstances will the scalar projection of <span data-math="\underset{\sim}{a}"></span> onto <span data-math="\underset{\sim}{b}"></span> be <span data-math="0"></span>?</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (c)</button><div class="panel-answer" hidden><p>For non-zero vectors, when they are perpendicular: <span data-math="\theta=90^\circ"></span> and <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span>.</p></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 55</div>
+
+::: notes
+The diagram uses the actual coordinates, so the angle is about168.11°. The projected vector is (38/13,-57/13), opposite b. State the general negative range including180°. The zero original vector also has zero projection but no defined angle.
+:::

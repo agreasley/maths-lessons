@@ -1,0 +1,12 @@
+## The same decomposition works in 2D and 3D {#iv7-dimensions .vector-lesson .projection-lesson }
+
+```{=html}
+<p>Choose a non-zero direction <span data-math="\underset{\sim}{b}"></span>.</p><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{a}=\underbrace{\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|^2}\underset{\sim}{b}}_{\text{parallel component}}+\underbrace{\left(\underset{\sim}{a}-\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|^2}\underset{\sim}{b}\right)}_{\text{perpendicular component}}"></span></div><p>Use two components or three when calculating the scalar product and magnitude.</p><div class="pr-takeaway"><p>Breaking a vector into these two parts is a skill we will use in many application problems.</p></div>
+```
+
+
+<!-- A real Markdown equation ensures Quarto embeds the maths renderer. -->
+
+$$\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y\quad\text{or}\quad a_xb_x+a_yb_y+a_zb_z$$
+
+<div class="booklet-cue">Booklet Section 7 · p. 58</div>

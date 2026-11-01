@@ -1,0 +1,12 @@
+## Example 7.6 {#iv7-example-7-6 .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>Consider the vectors in Example 7.4 which were defined as <span data-math="\underset{\sim}{a}=5\underset{\sim}{i}-\underset{\sim}{j}"></span> and <span data-math="\underset{\sim}{b}=3\underset{\sim}{i}+4\underset{\sim}{j}"></span>.</p><div class="pr-cols"><div><p>a) Find the vector projection of <span data-math="\underset{\sim}{a}"></span> perpendicular to <span data-math="\underset{\sim}{b}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{p}=\underset{\sim}{a}-\operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}"></span></div><div class="pr-eq"><span data-math="\displaystyle =(5\underset{\sim}{i}-\underset{\sim}{j})-\left(\frac{33}{25}\underset{\sim}{i}+\frac{44}{25}\underset{\sim}{j}\right)"></span></div><div class="pr-eq"><span data-math="\displaystyle =\frac{92}{25}\underset{\sim}{i}-\frac{69}{25}\underset{\sim}{j}"></span></div><p>Check: <span data-math="\frac{92}{25}(3)-\frac{69}{25}(4)=0"></span>.</p></div></div></div><div><p>b) Find the vector projection of <span data-math="\underset{\sim}{b}"></span> perpendicular to <span data-math="\underset{\sim}{a}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{b}-\operatorname{proj}_{\underset{\sim}{a}}\underset{\sim}{b}"></span></div><div class="pr-eq"><span data-math="\displaystyle =(3\underset{\sim}{i}+4\underset{\sim}{j})-\left(\frac{55}{26}\underset{\sim}{i}-\frac{11}{26}\underset{\sim}{j}\right)"></span></div><div class="pr-eq"><span data-math="\displaystyle =\frac{23}{26}\underset{\sim}{i}+\frac{115}{26}\underset{\sim}{j}"></span></div><p>Check: <span data-math="\frac{23}{26}(5)+\frac{115}{26}(-1)=0"></span>.</p></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 58</div>
+
+::: notes
+The booklet uses the wording vector projection perpendicular to; identify this as the perpendicular component, formed by subtracting the parallel vector projection. Check by components without assuming distributivity of dot product.
+:::

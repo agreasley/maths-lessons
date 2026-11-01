@@ -1,0 +1,12 @@
+## Example 7.2 {#iv7-example-7-2 .vector-lesson .projection-lesson }
+
+```{=html}
+<p>Consider the vectors <span data-math="\underset{\sim}{a}=5\underset{\sim}{i}-\underset{\sim}{j}"></span> and <span data-math="\underset{\sim}{b}=3\underset{\sim}{i}+4\underset{\sim}{j}"></span>.</p><div class="pr-cols"><div><p>a) Find the scalar projection of <span data-math="\underset{\sim}{a}"></span> onto <span data-math="\underset{\sim}{b}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{a}\cdot\underset{\sim}{b}=5(3)+(-1)(4)=11"></span></div><div class="pr-eq"><span data-math="\displaystyle |\underset{\sim}{b}|=\sqrt{3^2+4^2}=5"></span></div><div class="pr-eq"><span data-math="\displaystyle \frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|}=\frac{11}{5}"></span></div></div></div></div><div><p>b) Find the scalar projection of <span data-math="\underset{\sim}{b}"></span> onto <span data-math="\underset{\sim}{a}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{b}\cdot\underset{\sim}{a}=3(5)+4(-1)=11"></span></div><div class="pr-eq"><span data-math="\displaystyle |\underset{\sim}{a}|=\sqrt{5^2+(-1)^2}=\sqrt{26}"></span></div><div class="pr-eq"><span data-math="\displaystyle \frac{\underset{\sim}{b}\cdot\underset{\sim}{a}}{|\underset{\sim}{a}|}=\frac{11}{\sqrt{26}}"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 55</div>
+
+::: notes
+The direction onto which we project determines the denominator. Reversing the projection changes the answer even though the dot product agrees.
+:::

@@ -1,0 +1,8 @@
+## Why the perpendicular gives the shortest distance {#iv7-shortest-distance .vector-lesson .projection-lesson }
+
+```{=html}
+<div class="pr-cols"><div><div data-projection="distance" class="pr-figure "></div></div><div><p>Every sloping segment is the hypotenuse of a right-angled triangle.</p><p>It is longer than the perpendicular segment <span data-math="PH"></span>.</p><div class="pr-eq"><span data-math="\displaystyle d=PH=|\overrightarrow{HP}|"></span></div></div></div><div class="pr-takeaway"><p>Choose a point on the line. Resolve the vector to <span data-math="P"></span> into its parallel and perpendicular parts.</p></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 61</div>

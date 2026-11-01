@@ -1,0 +1,12 @@
+## One vector = two perpendicular components {#iv7-decompose .vector-lesson .projection-lesson }
+
+```{=html}
+<div data-projection="decompose" class="pr-figure pr-decompose"></div><div class="pr-component-steps"><div class="fragment" data-fragment-index="0" data-projection-stage="1"><p><strong>Along the chosen direction</strong></p><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{c}=\operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}"></span></div></div><div class="fragment" data-fragment-index="1" data-projection-stage="2"><p><strong>Perpendicular to it</strong></p><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{a}=\underset{\sim}{c}+\underset{\sim}{p}"></span></div></div></div><div class="fragment" data-fragment-index="2" data-projection-stage="3"><div class="pr-takeaway"><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{p}=\underset{\sim}{a}-\operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}"></span></div><p>Find the parallel part. Subtract it to find what remains.</p></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 57</div>
+
+::: notes
+Next first draws c along b, next draws p from the tip of c to the tip of a, making a=c+p, and finally rearranges. The orange component has been translated head-to-tail without changing it. Previous reverses the stages. This decomposition is the central transferable skill: how much goes in a chosen direction versus perpendicular to it. It works for acute, obtuse and right angles; the earlier activity demonstrates these cases.
+:::

@@ -1,0 +1,12 @@
+## Example 7.8 · (a–b) {#iv7-example-7-8-ab .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>The vertices of a triangle in three dimensions are <span data-math="A(1,1,1)"></span>, <span data-math="B(5,5,3)"></span> and <span data-math="C(4,1,4)"></span>. Let <span data-math="H"></span> be the foot of the perpendicular from <span data-math="C"></span> to <span data-math="AB"></span>.</p><div class="pr-cols"><div><div data-projection="triangle" class="pr-figure "></div><p>Diagram not to scale.</p></div><div><p>a) Find <span data-math="\overrightarrow{AB}"></span> and <span data-math="\overrightarrow{AC}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AB}=(5-1,5-1,3-1)=(4,4,2)"></span></div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AC}=(4-1,1-1,4-1)=(3,0,3)"></span></div></div></div><p>b) Use vector projection to find <span data-math="\overrightarrow{AH}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AC}\cdot\overrightarrow{AB}=3(4)+0(4)+3(2)=18"></span></div><div class="pr-eq"><span data-math="\displaystyle |\overrightarrow{AB}|^2=4^2+4^2+2^2=36"></span></div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AH}=\frac{18}{36}(4,4,2)=(2,2,1)"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 60</div>
+
+::: notes
+Project AC onto AB, the chosen base direction. The schematic is in the plane of the triangle, not a 3D interactive.
+:::

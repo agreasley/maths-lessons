@@ -1,0 +1,8 @@
+## Example 7.5 {#iv7-example-7-5 .vector-lesson .projection-lesson }
+
+```{=html}
+<p><span class="pr-source">Adapted from HSC 2025 Extension 1, Question 2</span></p><p>The projection of <span data-math="\underset{\sim}{u}"></span> onto <span data-math="\underset{\sim}{v}"></span> is given by <span data-math="\frac{\underset{\sim}{u}\cdot\underset{\sim}{v}}{|\underset{\sim}{v}|^2}\underset{\sim}{v}"></span>.</p><p>Find the projection of <span data-math="\underset{\sim}{u}=\underset{\sim}{i}+2\underset{\sim}{j}"></span> onto <span data-math="\underset{\sim}{v}=2\underset{\sim}{i}-3\underset{\sim}{j}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{u}\cdot\underset{\sim}{v}=1(2)+2(-3)=-4,\qquad |\underset{\sim}{v}|^2=2^2+(-3)^2=13"></span></div><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{v}}\underset{\sim}{u}=-\frac4{13}(2\underset{\sim}{i}-3\underset{\sim}{j})"></span></div><div class="pr-eq"><span data-math="\displaystyle =-\frac8{13}\underset{\sim}{i}+\frac{12}{13}\underset{\sim}{j}"></span></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 57</div>

@@ -1,0 +1,12 @@
+## Give the scalar projection a direction {#iv7-vector-formula .vector-lesson .projection-lesson }
+
+```{=html}
+<p>Multiply the signed amount by the unit vector in the chosen direction.</p><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{c}=(\underset{\sim}{a}\cdot\hat{\underset{\sim}{b}})\hat{\underset{\sim}{b}}"></span></div><div class="fragment" data-fragment-index="0"><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}=\left(\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|}\right)\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span></div></div><div class="fragment" data-fragment-index="1"><div class="pr-eq"><span data-math="\displaystyle \operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}=\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|^2}\underset{\sim}{b}"></span></div><p>The vector projection is a scalar multiple of <span data-math="\underset{\sim}{b}"></span>.</p></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 56</div>
+
+::: notes
+Full proof from scalar amount times the unit vector, replacing bhat by b/|b|. Point out the denominator is |b| squared and the final multiplication by b gives a vector. Negative scalar reverses the direction. Zero scalar gives the zero vector.
+:::

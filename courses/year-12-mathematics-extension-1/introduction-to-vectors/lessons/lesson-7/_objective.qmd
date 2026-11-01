@@ -1,0 +1,6 @@
+## Today’s learning {#iv7-objective .vector-lesson .projection-lesson }
+
+```{=html}
+<h3>Learning objective</h3><p>We are learning to resolve a vector into the sum of two perpendicular components relative to a chosen direction.</p><h3>Success criterion</h3><p>I can calculate scalar and vector projections, find the perpendicular component, and use these to calculate heights, areas and distances.</p>
+```
+

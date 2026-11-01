@@ -1,0 +1,12 @@
+## Example 7.10 {#iv7-example-7-10 .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>Let <span data-math="P"></span>, <span data-math="A"></span> and <span data-math="B"></span> be the points <span data-math="(-4,3,-1)"></span>, <span data-math="(3,2,1)"></span> and <span data-math="(0,-4,1)"></span> respectively.</p><p>Find the perpendicular distance of <span data-math="P"></span> from the line <span data-math="AB"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><p>Let <span data-math="H"></span> be the foot of the perpendicular from <span data-math="P"></span> to <span data-math="AB"></span>.</p><div class="pr-cols"><div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AB}=(0-3,-4-2,1-1)=(-3,-6,0)"></span></div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AP}=(-4-3,3-2,-1-1)=(-7,1,-2)"></span></div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AP}\cdot\overrightarrow{AB}=21-6+0=15"></span></div><div class="pr-eq"><span data-math="\displaystyle |\overrightarrow{AB}|^2=9+36+0=45"></span></div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{AH}=\frac{15}{45}(-3,-6,0)=(-1,-2,0)"></span></div></div><div><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{HP}=\overrightarrow{AP}-\overrightarrow{AH}"></span></div><div class="pr-eq"><span data-math="\displaystyle =(-7,1,-2)-(-1,-2,0)"></span></div><div class="pr-eq"><span data-math="\displaystyle =(-6,3,-2)"></span></div><div class="pr-eq"><span data-math="\displaystyle d=\sqrt{(-6)^2+3^2+(-2)^2}"></span></div><div class="pr-eq"><span data-math="\displaystyle =\sqrt{49}=7"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 63</div>
+
+::: notes
+Use AP, not OP: the chosen point A is on the line. H=A+AH=(2,0,1). HP·AB=18−18=0 confirms perpendicularity. All working is retained for independent review.
+:::

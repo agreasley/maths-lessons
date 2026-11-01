@@ -1,0 +1,12 @@
+## Key ideas · One vector, two components {#iv7-key-ideas .vector-lesson .projection-lesson }
+
+```{=html}
+<div class="pr-key"><div data-projection="key" class="pr-figure "></div><div><h3>Scalar projection · a signed amount</h3><div class="pr-eq"><span data-math="\displaystyle \frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|}=\underset{\sim}{a}\cdot\hat{\underset{\sim}{b}}"></span></div><h3>Vector projection · the parallel part</h3><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{c}=\operatorname{proj}_{\underset{\sim}{b}}\underset{\sim}{a}=\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{b}|^2}\underset{\sim}{b}"></span></div><h3>Perpendicular component · what remains</h3><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{p}=\underset{\sim}{a}-\underset{\sim}{c},\qquad \underset{\sim}{a}=\underset{\sim}{c}+\underset{\sim}{p}"></span></div></div></div><p>In applications, <span data-math="|\underset{\sim}{p}|"></span> gives a perpendicular height or distance. <span data-math="\underset{\sim}{b}\ne\underset{\sim}{0}"></span>.</p>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 64</div>
+
+::: notes
+The projection is not necessarily in the same direction as b: a negative scalar projection gives the opposite direction. Scalar projection is a number; the other two quantities are vectors. This along/across decomposition will be used in many application problems.
+:::

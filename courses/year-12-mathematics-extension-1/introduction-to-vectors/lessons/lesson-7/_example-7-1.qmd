@@ -1,0 +1,12 @@
+## Example 7.1 {#iv7-example-7-1 .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>Consider the acute-angle diagram above, where <span data-math="\theta"></span> is the angle between <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span>.</p><div class="pr-cols"><div><div data-projection="acute" class="pr-figure "></div><p>The projected component <span data-math="\underset{\sim}{c}"></span> points in the same direction as <span data-math="\underset{\sim}{b}"></span>.</p></div><div><p>a) Explain why <span data-math="|\underset{\sim}{c}|=|\underset{\sim}{a}|\cos\theta"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \cos\theta=\frac{|\underset{\sim}{c}|}{|\underset{\sim}{a}|}"></span></div><div class="pr-eq"><span data-math="\displaystyle |\underset{\sim}{c}|=|\underset{\sim}{a}|\cos\theta"></span></div></div></div><p>b) Hence show that <span data-math="|\underset{\sim}{c}|=\underset{\sim}{a}\cdot\hat{\underset{\sim}{b}}"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \underset{\sim}{a}\cdot\hat{\underset{\sim}{b}}=|\underset{\sim}{a}|\,|\hat{\underset{\sim}{b}}|\cos\theta"></span></div><div class="pr-eq"><span data-math="\displaystyle =|\underset{\sim}{a}|\times1\times\cos\theta=|\underset{\sim}{c}|"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 54</div>
+
+::: notes
+Here the angle is acute, so the scalar projection equals the positive magnitude of c. The formula a·bhat follows directly from the geometric scalar-product formula with the unit vector, whose direction agrees with b and whose length is one. No distributive law is assumed.
+:::

@@ -1,0 +1,12 @@
+## A projection is a perpendicular shadow {#iv7-shadow .vector-lesson .projection-lesson }
+
+```{=html}
+<div class="pr-interactive" data-projection="interactive"></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 54</div>
+
+::: notes
+Change angle and length. Reveal the perpendicular drop, then the parallel projection, then the remaining component using the three independent buttons. The scalar result appears with the projection. Compare 60°,90°,120°,0°,180°; Reset restores 60°, length 4 and all three hidden. Scalar projection is a signed amount along b, not always a length. The chosen direction b is horizontal here; its drawn length does not affect the projection. The blue original vector is the sum of the teal parallel part and orange perpendicular part. No 3D interaction.
+:::

@@ -1,0 +1,12 @@
+## Example 7.9 · (a–b) {#iv7-example-7-9-ab .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>The point <span data-math="P"></span> has coordinates <span data-math="(1,3)"></span> and the line <span data-math="\ell"></span> has Cartesian equation <span data-math="y=\tfrac12 x"></span>. Let <span data-math="O"></span> be the origin and let <span data-math="H"></span> be the foot of the perpendicular from <span data-math="P"></span> to <span data-math="\ell"></span>.</p><div class="pr-cols"><div><div data-projection="line" class="pr-figure "></div></div><div><p>a) By considering the gradient of <span data-math="\ell"></span>, write down a non-zero vector <span data-math="\underset{\sim}{b}"></span> parallel to the line.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \text{gradient}=\frac12\quad\Longrightarrow\quad\underset{\sim}{b}=(2,1)"></span></div></div></div><p>b) Find the vector projection of <span data-math="\overrightarrow{OP}"></span> onto <span data-math="\underset{\sim}{b}"></span>, and hence find the coordinates of <span data-math="H"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{OH}=\frac{1(2)+3(1)}{2^2+1^2}(2,1)"></span></div><div class="pr-eq"><span data-math="\displaystyle =\frac55(2,1)=(2,1)\quad\Longrightarrow\quad H(2,1)"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 62</div>
+
+::: notes
+The given line passes through O, so projecting OP onto its direction yields OH. Any non-zero multiple of (2,1) gives the same projection.
+:::

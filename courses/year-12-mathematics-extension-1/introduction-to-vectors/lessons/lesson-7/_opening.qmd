@@ -1,0 +1,10 @@
+## Scalar and vector projection {#iv7-opening .vector-lesson .projection-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 7</div><div class="cover-title">Scalar and<br>vector projection</div><div class="cover-subtitle">One vector.<br>Two perpendicular components.</div><div data-projection="cover" class="pr-figure pr-cover"></div><div class="cover-foot">Booklet Section 7 · Examples 7.1–7.10 · Homework 6</div>
+```
+
+
+::: notes
+Retain every booklet example with complete manually revealed solutions. Select examples in class if time is short. The central idea is resolving a vector into a sum of two perpendicular components relative to a chosen non-zero direction: how much goes along it and how much goes across it. Return to this idea in the height, area and distance applications.
+:::

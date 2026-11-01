@@ -1,0 +1,12 @@
+## Example 7.8 · (c–d) {#iv7-example-7-8-cd .vector-lesson .projection-lesson .pr-compact}
+
+```{=html}
+<p>The vertices of a triangle in three dimensions are <span data-math="A(1,1,1)"></span>, <span data-math="B(5,5,3)"></span> and <span data-math="C(4,1,4)"></span>. Let <span data-math="H"></span> be the foot of the perpendicular from <span data-math="C"></span> to <span data-math="AB"></span>.</p><div class="pr-cols"><div><p>c) Hence find <span data-math="\overrightarrow{HC}"></span> and the perpendicular height <span data-math="CH"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle \overrightarrow{HC}=\overrightarrow{AC}-\overrightarrow{AH}"></span></div><div class="pr-eq"><span data-math="\displaystyle =(3,0,3)-(2,2,1)=(1,-2,2)"></span></div><div class="pr-eq"><span data-math="\displaystyle CH=\sqrt{1^2+(-2)^2+2^2}=3"></span></div></div></div></div><div><p>d) Calculate the area of triangle <span data-math="ABC"></span>.</p><div data-module="reveal-panel" class="pr-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="pr-eq"><span data-math="\displaystyle AB=\sqrt{4^2+4^2+2^2}=6"></span></div><div class="pr-eq"><span data-math="\displaystyle \text{Area}=\tfrac12\times AB\times CH"></span></div><div class="pr-eq"><span data-math="\displaystyle =\tfrac12\times6\times3=9"></span></div></div></div></div></div>
+```
+
+
+<div class="booklet-cue">Booklet Section 7 · p. 60</div>
+
+::: notes
+HC is the remaining component; taking its magnitude gives the height. This is exactly the same decomposition as a=c+p.
+:::

@@ -1,0 +1,16 @@
+## Example 5.4 {#iv5-example-5-4 .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+Express $\underset{\sim}{a}\cdot\underset{\sim}{b}$ in terms of $|\underset{\sim}{a}|$ and $|\underset{\sim}{b}|$ when:
+
+<div class="g-case-grid">
+<div class="g-case"><p><strong>a)</strong> <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> are parallel and in the same direction</p><div data-geometric="case-same"></div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|"></span></div></div></div></div>
+<div class="g-case"><p><strong>b)</strong> <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> are parallel and in opposite directions</p><div data-geometric="case-opposite"></div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=-|\underset{\sim}{a}||\underset{\sim}{b}|"></span></div></div></div></div>
+<div class="g-case"><p><strong>c)</strong> <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> are perpendicular (or orthogonal)</p><div data-geometric="case-perpendicular"></div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (c)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span></div></div></div></div>
+<div class="g-case"><p><strong>d)</strong> <span data-math="\underset{\sim}{a}=\underset{\sim}{b}"></span></p><div data-geometric="case-equal"></div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (d)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}|^2"></span></div></div></div></div>
+</div>
+<div class="booklet-cue">Booklet Example 5.4(a–d) · p. 39</div>
+
+::: notes
+For non-zero vectors the angles are a) 0°, b) 180°, c) 90°, d) 0°. The cosine values are 1, −1, 0, 1. In d), equal vectors also have equal magnitudes, so the result is |a|². The coincident same-direction arrows are drawn with different widths so both can be seen without changing their geometry. Reveal answers individually after students explain their reasoning. In the summary, keep the non-zero condition for angle statements. The self-dot identity is true for every vector. Calculating unknown angles and solving component conditions belong to Lesson 6.
+:::

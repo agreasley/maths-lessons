@@ -1,0 +1,14 @@
+## Geometric scalar product and magnitude {#iv5-opening .vector-lesson .magnitude-lesson .geometric-lesson .cover}
+
+
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 5</div>
+<div class="cover-title">Geometric scalar<br>product and magnitude</div>
+<div class="cover-subtitle">Connect components, lengths<br>and the angle between vectors.</div>
+<div class="cover-bars" aria-hidden="true"><span style="height:40px"></span><span style="height:65px"></span><span style="height:90px"></span></div>
+<div data-geometric="cover" class="g-cover-figure"></div>
+<div class="cover-foot">Booklet Section 5 · Examples 5.1–5.4 · Homework 4</div>
+
+
+::: notes
+One 50-minute lesson. Suggested pacing: recap and proof 18 minutes; geometric formula and angle exploration 8; Example 5.2 and hinge 8; magnitude identity 7; special cases 6; summary and homework 3. The hinge follows Example 5.2, as explicitly requested. Original booklet examples and diagrams are preserved. The only interactive diagram is a 2D angle exploration; no spatial applet is used.
+:::

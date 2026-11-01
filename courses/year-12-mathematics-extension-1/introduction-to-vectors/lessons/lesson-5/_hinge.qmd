@@ -1,0 +1,20 @@
+## Hinge question · Lengths and angle {#iv5-hinge .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+<div data-module="hinge" data-correct="2" class="hinge numeric-choices">
+<p class="hinge-question">Two vectors have magnitudes <span data-math="3"></span> and <span data-math="4"></span>. Their tail-to-tail angle is <span data-math="120^\circ"></span>. What is their scalar product?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span data-math="6"></span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span data-math="-6"></span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span data-math="12"></span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span data-math="6\sqrt3"></span></button>
+</div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>2.</strong> <span data-math="3\times4\times\cos120^\circ=12\times(-\tfrac12)=-6"></span>.</div>
+</div>
+
+
+::: notes
+Immediately after Example 5.2, before Example 5.3. Correct choice 2: 12×(−1/2)=−6. Choice 1 uses the supplementary acute angle or loses the negative sign. Choice 3 omits cosine and multiplies the magnitudes only. Choice 4 uses sine rather than cosine, giving 6sqrt(3). Default 60 seconds, adjustable; timer expiry does not reveal. Use simultaneous 1–4 finger responses on the teacher’s show cue. Ready: proceed to the self-dot identity. Divided: ask whether an obtuse angle should give a positive or negative result, then revote. Needs explanation: return to the 2D diagram at 90° and rotate beyond it, then connect the negative cosine to the calculation.
+:::

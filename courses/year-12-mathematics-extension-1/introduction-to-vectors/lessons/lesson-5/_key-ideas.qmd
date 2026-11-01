@@ -1,0 +1,14 @@
+## Key Ideas {#iv5-key-ideas .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+<div class="g-summary-grid">
+<div><h3>Lengths and angle</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div><p>Non-zero vectors; angle measured tail-to-tail.</p><div data-geometric="key-angle"></div></div>
+<div><h3>Magnitude from a scalar product</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{a}=|\underset{\sim}{a}|^2"></span></div><div class="m-equation"><span data-math="|\underset{\sim}{a}|=\sqrt{\underset{\sim}{a}\cdot\underset{\sim}{a}}"></span></div><p>Valid for every vector in 2D and 3D.</p></div>
+<div><h3>The cosine controls the sign</h3><p>Acute: positive · right angle: zero · obtuse: negative.</p></div>
+<div><h3>Special cases</h3><p>Same direction: <span data-math="|\underset{\sim}{a}||\underset{\sim}{b}|"></span><br>Opposite directions: <span data-math="-|\underset{\sim}{a}||\underset{\sim}{b}|"></span><br>Perpendicular: <span data-math="0"></span></p></div>
+</div>
+
+
+::: notes
+Revisit the success criterion: ask students to explain when each formula is useful, why a scalar product can be negative but a squared magnitude cannot, and how the special cases follow from cosine. Complete the Section 5 Key Ideas box. For the sign statement, endpoint angles 0° and 180° are covered by the same/opposite direction cases. No extra commentary is added to the homework slide.
+:::

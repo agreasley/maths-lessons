@@ -1,0 +1,10 @@
+## Homework 4 {#iv5-homework .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+| Level | Questions |
+|---|---|
+| Mild | **9C:** Q2, Q6. **9F:** Q3, Q20. |
+| Medium | **9C:** Q2, Q6, Q13. **9F:** Q3, Q20–21. |
+| Spicy | **9C:** Q2, Q6, Q13, Q21. **9F:** Q3, Q20–22. |
+
+<div class="booklet-cue">Booklet Homework 4 · p. 40 · Cambridge Mathematics Extension 1 Year 12, Second Edition</div>

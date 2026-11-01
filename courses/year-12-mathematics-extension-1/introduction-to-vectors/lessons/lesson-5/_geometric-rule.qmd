@@ -1,0 +1,15 @@
+## One scalar product, two expressions {#iv5-geometric-rule .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+<div class="g-rule"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div>
+
+For non-zero vectors, measure the angle **tail-to-tail**, with $0^\circ\leq\theta\leq180^\circ$.
+
+<div class="g-recap-grid g-two-cols"><div><h3>In two dimensions</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y"></span></div></div><div><h3>In three dimensions</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y+a_zb_z"></span></div></div></div>
+
+The two vectors lie in a plane, so the same cosine-rule reasoning applies in 3D.
+<div class="booklet-cue">Booklet Section 5.1 · Geometric expression for the scalar product · p. 37</div>
+
+::: notes
+To verify the 3D case, write AB²=(b_x−a_x)²+(b_y−a_y)²+(b_z−a_z)². Expanding gives |a|²+|b|²−2(a_xb_x+a_yb_y+a_zb_z); equating with the cosine rule gives the same geometric formula. Translate free vectors to a common tail without rotating them. For collinear vectors use θ=0° or 180° and directly check the component expression. The zero vector has no defined angle, although its component scalar product with every vector is zero.
+:::

@@ -1,0 +1,13 @@
+## The same vector: angle zero {#iv5-magnitude-identity .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+<div class="m-split"><div data-geometric="same-vector"></div><div>
+<div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{a}=|\underset{\sim}{a}||\underset{\sim}{a}|\cos0^\circ=|\underset{\sim}{a}|^2"></span></div>
+<div class="g-rule"><span data-math="|\underset{\sim}{a}|=\sqrt{\underset{\sim}{a}\cdot\underset{\sim}{a}}"></span></div>
+<p>The scalar product with itself is the <strong>squared magnitude</strong>.</p>
+</div></div>
+<div class="booklet-cue">Booklet Section 5.2 · Magnitude identity · pp. 38–39</div>
+
+::: notes
+For a non-zero vector, use the geometric formula with θ=0°. The diagram shows two coincident arrows using a wider pale arrow behind the narrower one. Their tails and heads coincide exactly: no artificial separation suggesting different vectors. Choose the non-negative square root for magnitude. Example 5.3 also proved the identity for the zero vector without assigning it an angle. Ask orally: if a·a=25, what is |a|? Answer 5, not 25 or ±5. This check is supporting discussion, not a booklet example.
+:::

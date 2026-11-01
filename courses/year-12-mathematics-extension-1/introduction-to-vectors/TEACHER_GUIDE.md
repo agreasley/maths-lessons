@@ -2,7 +2,7 @@
 
 ## Sequence and sources
 
-This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–4 have been built. Lesson 4 is planned as one 50-minute teaching period, as explicitly requested.
+This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–5 have been built. Lesson 4 is planned as one 50-minute teaching period, as explicitly requested.
 
 | Revised lesson | Booklet coverage | Homework |
 |---|---|---|
@@ -195,3 +195,26 @@ Homework 3 is retained except the planning adjustment: defer **9C Q6** (Spicy) a
 Preview with `quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-4.qmd`. Assets: magnitudes.js and magnitudes.css, reusing the shared navigation, reveal panels, timer and native SVG maths renderer.
 
 Validation: rendered all 22 slides and checked complete Next/Previous navigation, initial/revealed answers, midpoint motion/reset, unit-vector comparison/reset, 2D/3D dot-product controls, hinge timer expiry/manual reveal/reset and slide-map state in Chromium and WebKit. Tested touch at 1024×768 and 1194×834, with portrait rotation and return. SVG label offsets matched between engines; no external network requests, unrendered mathematics, JavaScript errors or slide-content overflow. Screenshot review included both proofs, midpoint, the 3D combined example, unit vectors and illustrated Key Ideas. These are desktop browser-engine checks, not a physical-iPad test.
+
+
+## Lesson 5: geometric scalar product and magnitude
+
+One 50-minute lesson, 14 slides. Preserve Section 5, Examples 5.1–5.4 and their subparts (printed pp. 36–40). Example 5.1 is split across (a–b) and (c). The diagnostic hinge goes immediately AFTER Example 5.2, as explicitly requested: students practise using the geometric formula before the check. Example 5.3 then proves the magnitude identity using components; a following slide relates it to angle zero. Example 5.4 collects the special cases, with individual manual answer reveals.
+
+The original figures for 5.1 and 5.2 are exact booklet crops with font glyphs converted to SVG paths. A new static, colour-coded triangle supports the cosine-rule derivation. Prove the 3D equivalence by including the extra z-term in the component expansion, using the same cosine-rule triangle in the plane of the two vectors. Do not add a 3D applet.
+
+The 2D angle activity fixes |a|=2 and |b|=5, so a·b=10 cos θ. The slider ranges from 0° to 180°, with presets 0°, 90° and 180°. Changing the angle hides the old numerical answer; only the separate reveal button shows it. Reset returns to 60° with the answer hidden. At 0° the arrows share a line and tail; their different lengths and stroke widths keep both visible. Special-case diagrams use coincident arrows for equal vectors, not artificially separated parallel arrows. All labels use the shared native SVG renderer.
+
+Worked checks:
+- 5.1(a): AB=b−a. (b): |OA|=sqrt(a_x²+a_y²), |OB|=sqrt(b_x²+b_y²), |AB|=sqrt((b_x−a_x)²+(b_y−a_y)²). (c): Equate the component expansion of AB² to |a|²+|b|²−2|a||b|cos θ and cancel; cos θ=(a_x b_x+a_y b_y)/(|a||b|).
+- 5.2: (a) 30 cos 40° ≈ 22.98; (b) 30 cos 140° ≈ −22.98. Both given angles are already tail-to-tail.
+- 5.3: a·a=x²+y²+z²=|a|². This includes the zero vector; its angle is not defined.
+- 5.4: (a) |a||b|; (b) −|a||b|; (c) 0; (d) |a|². Non-zero vectors have angles 0°, 180°, 90° and 0° respectively.
+
+Hinge: magnitudes 3 and 4 with tail-to-tail angle 120°. Correct choice 2 is −6. Choice 1 gives 6 by dropping the negative sign or using the supplementary angle; choice 3 gives 12 by omitting cosine; choice 4 gives 6sqrt(3) by using sine. Use 60 seconds, adjustable, with simultaneous 1–4 fingers and a manual answer reveal. Ready: proceed to 5.3. Divided: predict the sign and revote. Needs explanation: revisit the angle activity at 90° and beyond, then reconnect to the cosine factor.
+
+Homework 4 is unchanged: Mild 9C Q2,Q6; 9F Q3,Q20. Medium 9C Q2,Q6,Q13; 9F Q3,Q20–21. Spicy 9C Q2,Q6,Q13,Q21; 9F Q3,Q20–22. Questions 9C Q6 and 9F Q3 deferred from Lesson 4 are included. The homework slide has only the heading, assignment table and source reference: no reminders, advice or next-lesson commentary. The allocation is not split across lessons. Keep future homework slides consistent with the repository-wide AGENTS.md rule.
+
+Preview: quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-5.qmd. Assets: geometric.js, geometric.css and the two SVG booklet figures. Lesson 6 retains calculation of unknown angles and solving perpendicularity/parallelism conditions; Lesson 7 retains projections.
+
+Validation: rendered 14 slides and checked complete Next/Previous navigation, initially hidden answers, individual reveals, all angle presets and representative acute/right/obtuse values, reset, hinge timer pause/expiry/manual reveal, and slide-map state in Chromium and WebKit. Tested touch at 1024×768 and 1194×834, with portrait rotation and return. Screenshot review covered the original booklet figures, cosine-rule triangle, coincident and opposite arrows, special cases and homework. No JavaScript errors, external network requests, unrendered mathematics, SVG label drift or slide-content overflow. These are desktop browser-engine checks, not a physical-iPad test.

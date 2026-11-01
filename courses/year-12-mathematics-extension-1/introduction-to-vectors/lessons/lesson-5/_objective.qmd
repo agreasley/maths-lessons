@@ -1,0 +1,15 @@
+## Today's learning {#iv5-objective .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+### Learning objective
+
+We are learning to connect the scalar product with vector magnitudes and the angle between vectors.
+
+### Success criterion
+
+I can use both scalar-product formulas and explain the magnitude identity and special cases.
+
+
+::: notes
+The component formula from Lesson 4 and the geometric formula describe the same scalar. Students should connect them, rather than memorise two unrelated rules.
+:::

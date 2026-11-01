@@ -1,0 +1,15 @@
+## Example 5.1 · Part (c) {#iv5-example-5-1-c .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+**c)** By applying the cosine rule show that $\displaystyle\cos\theta=\frac{a_xb_x+a_yb_y}{|\underset{\sim}{a}||\underset{\sim}{b}|}$
+
+<div class="m-split g-proof-layout"><div data-geometric="triangle"></div><div>
+<h3>Two expressions for the same length squared</h3>
+<div class="m-equation"><span data-math="AB^2=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div>
+<div class="m-equation"><span data-math="AB^2=(b_x-a_x)^2+(b_y-a_y)^2"></span></div>
+<div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show connection</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="AB^2=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2(a_xb_x+a_yb_y)"></span></div><div class="m-equation"><span data-math="|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta=a_xb_x+a_yb_y"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 5.1(c) · p. 36</div>
+
+::: notes
+Work the expansion in OneNote: b_x²−2a_xb_x+a_x²+b_y²−2a_yb_y+a_y². Group the squared terms into |a|²+|b|², equate with the cosine rule and cancel to obtain the required expression. Non-zero vectors allow division by |a||b|. This is an annotated supporting version of the booklet triangle, not a new question. For parallel vectors the same identity follows by direct substitution; the ordinary triangle proof uses non-collinear vectors.
+:::

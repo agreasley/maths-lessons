@@ -1,0 +1,13 @@
+## Previously: the tools for our proof {#iv5-previously .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+<div class="g-recap-grid">
+<div><h3>Head minus tail</h3><div class="m-equation"><span data-math="\overrightarrow{AB}=\underset{\sim}{b}-\underset{\sim}{a}"></span></div><p>When <span data-math="\underset{\sim}{a}=\overrightarrow{OA}"></span> and <span data-math="\underset{\sim}{b}=\overrightarrow{OB}"></span>.</p></div>
+<div><h3>Magnitude</h3><div class="m-equation"><span data-math="|(x,y)|=\sqrt{x^2+y^2}"></span></div><div class="m-equation"><span data-math="|(x,y,z)|=\sqrt{x^2+y^2+z^2}"></span></div></div>
+<div><h3>Component scalar product</h3><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y"></span></div><p>In 3D, also add <span data-math="a_zb_z"></span>.</p></div>
+</div>
+
+
+::: notes
+Retrieve these orally in 1–2 minutes. The scalar product is a number. The next proof also uses the cosine rule, c²=a²+b²−2ab cos C, from prior trigonometry. Do not use the geometric dot-product formula as an assumed result.
+:::

@@ -1,0 +1,57 @@
+/* Lesson 5: fixed, readable slide layouts with touch controls and native SVG labels. */
+.reveal #iv5-opening .cover-title{font-size:64px;max-width:760px}
+.reveal #iv5-opening .cover-subtitle{max-width:640px}
+.reveal .g-cover-figure{position:absolute;right:25px;top:335px;width:390px}
+.reveal .g-svg{display:block;width:100%;height:auto;max-width:none;max-height:none;margin:0;overflow:visible}
+.reveal .g-rule{font-size:37px;margin:28px 0;color:var(--teal)}
+.reveal .g-recap-grid{display:grid;grid-template-columns:1fr;gap:12px}
+.reveal .g-recap-grid>div{border-bottom:1px solid var(--rule);padding:5px 0 12px}
+.reveal .g-recap-grid h3{font-size:27px;margin:4px 0 8px}
+.reveal .g-recap-grid p{font-size:23px;margin:8px 0}
+.reveal .g-recap-grid .m-equation{font-size:27px;line-height:1.4;margin:7px 0}
+.reveal .g-two-cols{grid-template-columns:1fr 1fr;gap:35px;margin:30px 0}
+.reveal #iv5-previously .g-recap-grid{grid-template-columns:1fr 1fr;gap:28px}
+.reveal #iv5-previously .g-recap-grid>div:last-child{grid-column:1/-1}
+.reveal .g-proof-layout{grid-template-columns:.8fr 1.4fr;gap:30px}
+.reveal .g-booklet-triangle{display:block;width:100%;max-height:300px;object-fit:contain;margin:0}
+.reveal .geometric-lesson .g-proof-layout .m-equation{font-size:22px;line-height:1.5;margin:9px 0}
+.reveal .g-proof-layout h3{font-size:25px}
+.reveal #iv5-example-5-1-ab>p,.reveal #iv5-example-5-1-c>p{font-size:26px}
+.reveal #iv5-example-5-1-ab .g-proof-layout p{font-size:25px;margin:12px 0}
+.reveal #iv5-example-5-1-c .g-proof-layout{grid-template-columns:.75fr 1.45fr}
+.reveal #iv5-example-5-1-c .m-equation{font-size:20px}
+.reveal #iv5-geometric-rule>p{font-size:27px}
+.reveal .g-explore-layout{display:grid;grid-template-columns:1.3fr .7fr;gap:25px;align-items:center}
+.reveal .g-angle-plot .g-svg{height:310px}
+.reveal .g-angle-values p{font-size:27px;margin:13px 0}
+.reveal .g-angle-toolbar{display:flex;gap:12px;align-items:center;margin:12px 0}
+.reveal .g-angle-toolbar label{display:flex;align-items:center;gap:14px;flex:1;font-size:23px}
+.reveal .g-angle-toolbar input{width:100%;min-width:140px}
+.reveal .g-angle-actions{display:flex;align-items:center;gap:25px;min-height:75px}
+.reveal .g-angle-result{font-size:29px;color:var(--teal)}
+.reveal .g-booklet-angles{display:block;width:100%;height:255px;object-fit:contain;max-height:none;margin:12px 0}
+.reveal .g-two-checks{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.reveal #iv5-example-5-2 .m-equation{font-size:23px;line-height:1.4}
+.reveal #iv5-example-5-2 .m-reveal{margin-top:0}
+.reveal #iv5-example-5-2 .panel-answer{padding-left:12px}
+.reveal #iv5-magnitude-identity .m-split{grid-template-columns:.8fr 1.4fr;margin-top:55px}
+.reveal #iv5-magnitude-identity .m-equation{font-size:25px}
+.reveal #iv5-magnitude-identity .g-rule{font-size:35px}
+.reveal .g-case-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px}
+.reveal .g-case{border-top:1px solid var(--rule);padding-top:5px}
+.reveal .g-case>p{font-size:22px;line-height:1.35;min-height:55px;margin:6px 0}
+.reveal .g-case .g-svg{height:110px}
+.reveal .g-case .m-reveal{margin-top:5px}
+.reveal .g-case .m-equation{font-size:22px;line-height:1.25;margin:3px 0}
+.reveal .g-case .panel-answer{padding:4px 0 4px 10px;margin-top:7px}
+.reveal #iv5-example-5-4>p{font-size:26px;margin:8px 0 15px}
+.reveal #iv5-example-5-4 .booklet-cue{margin-top:14px}
+.reveal .g-summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px 35px}
+.reveal .g-summary-grid>div{border-bottom:1px solid var(--rule);padding-bottom:12px}
+.reveal .g-summary-grid h3{font-size:26px;margin:0 0 14px}
+.reveal .g-summary-grid p{font-size:24px;line-height:1.5;margin:9px 0}
+.reveal .g-summary-grid .m-equation{font-size:27px;line-height:1.4;margin:8px 0}
+.reveal .g-summary-grid .g-svg{height:150px}
+.reveal #iv5-homework table{font-size:28px;line-height:1.6;margin-top:35px}
+.reveal #iv5-homework th,.reveal #iv5-homework td{text-align:left;padding:24px 16px}
+.reveal #iv5-homework td:first-child{font-weight:700;width:130px}

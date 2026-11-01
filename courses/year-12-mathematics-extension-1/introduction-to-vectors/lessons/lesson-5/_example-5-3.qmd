@@ -1,0 +1,14 @@
+## Example 5.3 {#iv5-example-5-3 .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+Let $\underset{\sim}{a}=x\underset{\sim}{i}+y\underset{\sim}{j}+z\underset{\sim}{k}$
+
+Using the component definition of the scalar product and the formula for the magnitude of a vector, show that
+
+$$\underset{\sim}{a}\cdot\underset{\sim}{a}=|\underset{\sim}{a}|^2.$$
+<div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show working</button><div class="panel-answer" hidden><div class="g-two-checks"><div><div class="m-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{a}=x^2+y^2+z^2"></span></div></div><div><div class="m-equation"><span data-math="|\underset{\sim}{a}|^2=\left(\sqrt{x^2+y^2+z^2}\right)^2"></span></div><div class="m-equation"><span data-math="=x^2+y^2+z^2"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 5.3 · p. 38</div>
+
+::: notes
+Use components as the question requires. Both expressions equal x²+y²+z². The result includes a=0 and works in 2D by omitting z. Do not write |a| rather than |a|². Complete the proof in OneNote before revealing the comparison.
+:::

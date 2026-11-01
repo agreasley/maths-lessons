@@ -24,6 +24,13 @@ Inside a layout div such as `.column-block`, use raw HTML `<h3>...</h3>` for a p
 - In Quarto prose use `$x$`, `$X$` and normal LaTeX maths. Inside raw HTML use `<span data-math="x">x</span>` (and the corresponding expression). Shared JavaScript renders these with the embedded KaTeX library.
 - For HTML content inside JavaScript-generated activities, use the shared `math(tex)` helper, including regenerated equations, reveal-button labels and result histories. For labels inside SVG diagrams, use the native SVG mathematics renderer described below. Preserve the distinction between lower- and upper-case symbols.
 
+## Homework slides
+
+- Show only the assigned homework: its heading, source reference and questions, including differentiated levels where applicable.
+- Do not add advice, reminders, reflection prompts, summaries, motivational text, next-lesson previews or other commentary to homework slides.
+- The sole exception is a brief clarification when the homework allocation is split across two lessons, identifying which questions belong to each lesson. If it is not split, include no commentary.
+- Put any useful teacher guidance in presenter notes or the topic teacher guide, rather than on the homework slide.
+
 ## iPad and browser compatibility
 
 The teaching target is Safari on an iPad. A lesson that looks correct on a laptop, or in Chromium with an iPad-sized viewport, has not yet been checked for iPad browser compatibility.

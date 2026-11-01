@@ -1,0 +1,13 @@
+## Example 5.2 {#iv5-example-5-2 .vector-lesson .magnitude-lesson .geometric-lesson }
+
+
+Given $|\underset{\sim}{a}|=5$ and $|\underset{\sim}{b}|=6$ evaluate $\underset{\sim}{a}\cdot\underset{\sim}{b}$
+
+<img class="g-booklet-angles" src="../media/example-5-2.svg" alt="Original booklet diagrams. Part a: vectors a and b share a tail with angle 40 degrees. Part b: vectors a and b share a tail with angle 140 degrees.">
+
+<div class="g-two-checks"><div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\text{a) }\underset{\sim}{a}\cdot\underset{\sim}{b}=30\cos40^\circ\approx22.98"></span></div></div></div></div><div><div data-module="reveal-panel" class="m-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="m-equation"><span data-math="\text{b) }\underset{\sim}{a}\cdot\underset{\sim}{b}=30\cos140^\circ\approx-22.98"></span></div></div></div></div></div>
+<div class="booklet-cue">Booklet Example 5.2(a–b) · p. 37</div>
+
+::: notes
+Both marked angles are tail-to-tail; neither needs a supplement. Preserve both original diagrams. Predict a positive answer for 40° and a negative one for 140°. Answers are 30 cos 40° and 30 cos 140°; the latter is −30 cos 40°. Use degree mode. Reveal each part only after working in OneNote. The diagnostic hinge follows this example, after students have practised this calculation.
+:::

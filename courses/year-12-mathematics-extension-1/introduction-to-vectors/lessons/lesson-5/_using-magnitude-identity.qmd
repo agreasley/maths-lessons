@@ -7,10 +7,11 @@ To work algebraically with magnitudes, rewrite a **squared magnitude** as a scal
 <div class="g-magnitude-expansion">
 <h3>The vector can be a difference, too</h3>
 <div class="m-equation"><span data-math="\begin{aligned}|\underset{\sim}{b}-\underset{\sim}{a}|^2&=(\underset{\sim}{b}-\underset{\sim}{a})\cdot(\underset{\sim}{b}-\underset{\sim}{a})\\&=\underset{\sim}{b}\cdot\underset{\sim}{b}-2\underset{\sim}{a}\cdot\underset{\sim}{b}+\underset{\sim}{a}\cdot\underset{\sim}{a}\end{aligned}"></span></div>
+<p class="g-distributive-note">The last step uses the <strong>distributive property</strong> of the scalar product, which you will study in <strong>Extension 2</strong>.</p>
 </div>
 
 If a problem involves $|\underset{\sim}{a}|$ or $|\underset{\sim}{b}-\underset{\sim}{a}|$, working with its **square** lets us remove the magnitude signs and use scalar-product algebra.
 
 ::: notes
-Emphasise the commonly useful direction |v|²=v·v, not only v·v=|v|². In the second example v=b−a. Distribute the product and use commutativity for the two cross terms. If the actual length is required, take the non-negative square root at the end; |v| itself is not v·v. This is a strategy for manipulating magnitudes, not an automatic instruction to square every equation (squaring can introduce extra solutions).
+Emphasise the commonly useful direction |v|²=v·v, not only v·v=|v|². In the second example v=b−a. The expansion previews the distributive property, which students have not yet studied and will cover in Extension 2. The visible note explicitly acknowledges this; do not treat distributivity as assumed prior knowledge. The two cross terms are combined using commutativity. If the actual length is required, take the non-negative square root at the end; |v| itself is not v·v. This is a strategy for manipulating magnitudes, not an automatic instruction to square every equation (squaring can introduce extra solutions).
 :::

@@ -7,12 +7,13 @@
 <div class="m-equation"><span data-math="\begin{aligned}AB^2&=(b_x-a_x)^2+(b_y-a_y)^2\\&=b_x^2-2a_xb_x+a_x^2+b_y^2-2a_yb_y+a_y^2\\&=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2(a_xb_x+a_yb_y)\end{aligned}"></span></div>
 <h3>By the cosine rule</h3>
 <div class="m-equation"><span data-math="AB^2=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div>
-<h3>Equate, cancel and divide by <span data-math="-2|\underset{\sim}{a}||\underset{\sim}{b}|"></span></h3>
-<div class="m-equation"><span data-math="-2(a_xb_x+a_yb_y)=-2|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div>
-<div class="g-proof-answer"><div class="m-equation"><span data-math="\displaystyle\cos\theta=\frac{a_xb_x+a_yb_y}{|\underset{\sim}{a}||\underset{\sim}{b}|}"></span></div></div>
 </div></div>
+<div class="g-proof-algebra">
+<h3>Both expressions equal <span data-math="AB^2"></span>, so</h3>
+<div class="m-equation"><span data-math="\begin{aligned}|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2(a_xb_x+a_yb_y)&=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2-2|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta\\-2(a_xb_x+a_yb_y)&=-2|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta\\a_xb_x+a_yb_y&=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta\\\cos\theta&=\dfrac{a_xb_x+a_yb_y}{|\underset{\sim}{a}||\underset{\sim}{b}|}\end{aligned}"></span></div>
+</div>
 <div class="booklet-cue">Booklet Example 5.1(c) · p. 36</div>
 
 ::: notes
-The complete expansion, cosine rule, cancellation and final division are displayed. Equate the two expressions for AB²; the |a|²+|b|² terms cancel. Non-zero vectors permit division by −2|a||b|. The triangle proof uses non-collinear vectors; the parallel cases follow by direct substitution with θ=0° or 180°. Keep all parts aligned to the original scaffold.
+Every algebraic stage is displayed. First equate the complete expressions for AB². Subtract |a|²+|b|² from both sides, divide both sides by −2, then divide by |a||b| and write cos θ on the left. Both vectors are non-zero, so the final denominator is non-zero. The slide shows these successive equations rather than replacing the working with a verbal instruction. The triangle proof uses non-collinear vectors; the parallel cases follow by direct substitution with θ=0° or 180°. Keep all parts aligned to the original scaffold.
 :::

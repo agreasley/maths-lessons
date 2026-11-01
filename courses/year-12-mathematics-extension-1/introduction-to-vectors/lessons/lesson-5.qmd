@@ -53,6 +53,8 @@ format:
 
 {{< include lesson-5/_example-5-4.qmd >}}
 
+{{< include lesson-5/_direction-hinge.qmd >}}
+
 {{< include lesson-5/_key-ideas.qmd >}}
 
 {{< include lesson-5/_homework.qmd >}}

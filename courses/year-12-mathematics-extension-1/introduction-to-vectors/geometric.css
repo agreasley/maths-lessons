@@ -31,10 +31,19 @@
 .reveal .g-method-grid .m-equation{font-size:29px;margin:20px 0}
 .reveal .g-equivalence{font-size:34px;margin:30px 0 10px;text-align:center}
 .reveal .g-method-message{text-align:center}
+.reveal #iv5-geometric-rule .g-equivalence{font-size:31px}
+.reveal .g-method-conclusion .g-method-message{font-size:27px}
 .reveal .g-formula-sheet{display:block;width:600px;height:auto;max-height:510px;object-fit:contain;margin:32px auto 0}
 .reveal .g-angle-definition{max-width:1000px;margin:25px auto}
 .reveal .g-angle-definition .g-svg{height:300px}
 .reveal .g-angle-endpoints{display:flex;justify-content:space-between;gap:20px;font-size:24px;margin-top:25px}
+.reveal #iv5-angle-between .g-angle-definition{margin:12px auto}
+.reveal #iv5-angle-between .g-angle-definition .g-svg{height:250px}
+.reveal .g-reflex-note{border-top:1px solid var(--rule);margin-top:20px;padding-top:8px}
+.reveal .g-reflex-note p{font-size:23px;line-height:1.35;margin:7px 0}
+.reveal .g-reflex-note .m-equation{font-size:27px;line-height:1.35;margin:7px 0;color:var(--teal)}
+.reveal #iv5-direction-hinge .choice{font-size:28px}
+.reveal #iv5-direction-hinge .hinge-explanation{font-size:26px;line-height:1.4}
 .reveal #iv5-angle-exploration h2{font-size:42px}
 .reveal #iv5-angle-exploration>p{font-size:27px}
 .reveal .g-explore-layout{display:grid;grid-template-columns:1.4fr .6fr;gap:25px;align-items:center}

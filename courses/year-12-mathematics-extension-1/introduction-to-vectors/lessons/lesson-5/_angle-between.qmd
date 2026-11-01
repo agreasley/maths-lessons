@@ -8,6 +8,8 @@ The angle between them is the **smaller angle**: $0^\circ\leq\theta\leq180^\circ
 
 <div class="g-angle-endpoints"><span>Same direction: <span data-math="0^\circ"></span></span><span>Perpendicular: <span data-math="90^\circ"></span></span><span>Opposite directions: <span data-math="180^\circ"></span></span></div>
 
+<div class="g-reflex-note"><p><strong>For the scalar product, the reflex angle also works:</strong></p><div class="m-equation"><span data-math="\cos(360^\circ-\theta)=\cos\theta"></span></div><p>When asked to state the angle between vectors, give the smaller angle in <span data-math="[0^\circ,180^\circ]"></span>.</p></div>
+
 ::: notes
-Translate vectors without rotating or rescaling them. The dashed blue arrow is the vector in its original position; the solid copy has been moved to the common tail. Use the angle between their directions, not the internal angle at a head-to-tail join, and not the reflex angle. A zero vector has no direction, so its angle with another vector is undefined. For opposite vectors both half-turn angles are 180°.
+Translate vectors without rotating or rescaling them. The dashed blue arrow is the vector in its original position; the solid copy has been moved to the common tail. The reported angle between vectors is measured between their directions and lies in [0°,180°]; do not report the internal angle at a head-to-tail join or the reflex angle. However, the geometric scalar-product formula also gives the same result with the other angle, 360°−θ, because their cosines agree. For example, cos 300°=cos 60°=1/2. For 0°<θ<180° the other angle is reflex; at the endpoints the identity still holds. Revisit this observation after introducing the formula. In Lesson 6, students must report the angle between vectors in [0°,180°] even though the reflex angle gives the same dot product. A zero vector has no direction, so its angle with another vector is undefined. For opposite vectors both half-turn angles are 180°.
 :::

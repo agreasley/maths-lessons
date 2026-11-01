@@ -1,0 +1,11 @@
+## Example 6.11 {#iv6-example-6-11 .vector-lesson .magnitude-lesson .angles-lesson .a-rows}
+
+```{=html}
+<p>For each pair of vectors, determine whether the vectors are parallel in the same direction, parallel in opposite directions, or not parallel.</p><div class="a-row-parts"><div><div><p>a)</p><div class="a-eq"><span data-math="\underset{\sim}{a}=2\underset{\sim}{i}-\underset{\sim}{j},\quad\underset{\sim}{b}=6\underset{\sim}{i}-3\underset{\sim}{j}."></span></div></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{b}=\begin{bmatrix}6\\-3\end{bmatrix}=3\begin{bmatrix}2\\-1\end{bmatrix}=3\underset{\sim}{a}"></span></div><p>Parallel in the same direction.</p></div></div></div><div><div><p>b)</p><div class="a-eq"><span data-math="\underset{\sim}{a}=\underset{\sim}{i}+2\underset{\sim}{j}-2\underset{\sim}{k},\quad\underset{\sim}{b}=-2\underset{\sim}{i}-4\underset{\sim}{j}+4\underset{\sim}{k}."></span></div></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{b}=\begin{bmatrix}-2\\-4\\4\end{bmatrix}=-2\begin{bmatrix}1\\2\\-2\end{bmatrix}=-2\underset{\sim}{a}"></span></div><p>Parallel in opposite directions.</p></div></div></div><div><div><p>c)</p><div class="a-eq"><span data-math="\underset{\sim}{a}=3\underset{\sim}{i}+4\underset{\sim}{j},\quad\underset{\sim}{b}=4\underset{\sim}{i}+3\underset{\sim}{j}."></span></div></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (c)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\lambda=\frac43\quad\text{from }x,\qquad\lambda=\frac34\quad\text{from }y"></span></div><p>Not parallel: no single multiplier works.</p></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 50</div>
+
+::: notes
+Core classification. The solutions use b=lambda a, which is equivalent to the stated a=lambda b test; the sign classification is unchanged. In (c), swapped components do not imply parallelism.
+:::

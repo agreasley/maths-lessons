@@ -1,0 +1,11 @@
+## The unit-vector connection {#iv6-unit-vectors .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<div class="a-eq"><span data-math="\boxed{\cos\theta=\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{a}||\underset{\sim}{b}|}=\hat{\underset{\sim}{a}}\cdot\hat{\underset{\sim}{b}}}"></span></div><div class="a-cols "><div><div data-angles="unit" class="a-figure"></div></div><div><p>Normalising changes the lengths to 1 and preserves both directions, so the angle stays the same.</p><div class="a-eq"><span data-math="\hat{\underset{\sim}{a}}\cdot\hat{\underset{\sim}{b}}=1\times1\times\cos\theta=\cos\theta"></span></div><p><strong>The dot product of the unit vectors is the cosine of the angle.</strong></p></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 41</div>
+
+::: notes
+Apply the known geometric formula to the unit vectors. This needs no distributivity or scalar-factor laws for the dot product. Do not claim theta equals the unit-vector dot product: it equals the inverse cosine of that product. The diagram compares original vectors and unit vectors with the same angle.
+:::

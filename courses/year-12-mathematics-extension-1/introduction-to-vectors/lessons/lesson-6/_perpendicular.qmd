@@ -1,0 +1,11 @@
+## Perpendicular vectors {#iv6-perpendicular .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<div class="a-cols "><div><div data-angles="perpendicular" class="a-figure"></div></div><div><p>For two non-zero vectors:</p><div class="a-eq"><span data-math="\boxed{\underset{\sim}{a}\perp\underset{\sim}{b}\quad\Longleftrightarrow\quad\underset{\sim}{a}\cdot\underset{\sim}{b}=0}"></span></div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos90^\circ=0"></span></div><p>To find an unknown component, set the scalar product equal to zero.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 44</div>
+
+::: notes
+Recall the result established in Lesson 5. Conversely, positive magnitudes and a zero dot product imply cos theta=0, hence theta=90°. Zero vectors have no defined direction or angle, so exclude them from this geometric criterion.
+:::

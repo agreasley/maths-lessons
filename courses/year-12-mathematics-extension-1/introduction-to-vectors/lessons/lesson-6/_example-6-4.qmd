@@ -1,0 +1,11 @@
+## Example 6.4 {#iv6-example-6-4 .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>Find the value of <span data-math="b"></span> such that <span data-math="\begin{bmatrix}2\\-3\end{bmatrix}"></span> and <span data-math="\begin{bmatrix}b\\1\end{bmatrix}"></span> are perpendicular.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="2b+(-3)(1)=0"></span></div><div class="a-eq"><span data-math="2b-3=0\quad\Longrightarrow\quad2b=3\quad\Longrightarrow\quad\boxed{b=\frac32}"></span></div><div class="a-eq"><span data-math="\text{Check: }2\!\left(\frac32\right)-3=0"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 44</div>
+
+::: notes
+Core application. b is a scalar component here, not a vector. Both vectors are non-zero regardless of b. No inverse-cosine calculation is needed.
+:::

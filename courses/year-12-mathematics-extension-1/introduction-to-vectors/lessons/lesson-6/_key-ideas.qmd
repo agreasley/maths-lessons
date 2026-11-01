@@ -1,0 +1,11 @@
+## Key Ideas {#iv6-key-ideas .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>For non-zero vectors:</p><div class="a-key-grid"><div><h3>Calculate an angle</h3><div class="a-eq"><span data-math="\cos\theta=\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{a}||\underset{\sim}{b}|}=\hat{\underset{\sim}{a}}\cdot\hat{\underset{\sim}{b}}"></span></div><div class="a-eq"><span data-math="0^\circ\leq\theta\leq180^\circ"></span></div></div><div><h3>Perpendicular</h3><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span></div><div class="a-eq"><span data-math="\begin{bmatrix}a\\b\end{bmatrix}\perp\begin{bmatrix}-b\\a\end{bmatrix}"></span></div><div class="a-eq"><span data-math="\begin{bmatrix}a\\b\end{bmatrix}\perp\begin{bmatrix}b\\-a\end{bmatrix}"></span></div><p>The two quarter turns have the same magnitude as the original vector.</p></div><div><h3>Parallel: scalar multiples</h3><div class="a-eq"><span data-math="\underset{\sim}{a}=\lambda\underset{\sim}{b},\quad\lambda\ne0"></span></div><p><span data-math="\lambda>0"></span>: same direction.<br><span data-math="\lambda<0"></span>: opposite directions.</p></div><div><h3>Parallel: scalar product</h3><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\quad\text{same}"></span></div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=-|\underset{\sim}{a}||\underset{\sim}{b}|\quad\text{opposite}"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 53</div>
+
+::: notes
+The quarter-turn shortcut is only for 2D. Both parallelism methods apply in 2D and 3D. Positive or negative scalar product alone determines an angle category, not parallelism.
+:::

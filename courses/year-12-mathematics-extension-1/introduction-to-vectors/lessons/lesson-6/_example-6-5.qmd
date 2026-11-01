@@ -1,0 +1,11 @@
+## Example 6.5 {#iv6-example-6-5 .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>Show that the vectors <span data-math="\underset{\sim}{u}=2\underset{\sim}{i}-3\underset{\sim}{j}+4\underset{\sim}{k}"></span> and <span data-math="\underset{\sim}{v}=5\underset{\sim}{i}+2\underset{\sim}{j}-\underset{\sim}{k}"></span> are perpendicular to each other.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{u}\cdot\underset{\sim}{v}=2(5)+(-3)(2)+4(-1)"></span></div><div class="a-eq"><span data-math="\underset{\sim}{u}\cdot\underset{\sim}{v}=10-6-4=0"></span></div><p>Both vectors are non-zero, so <span data-math="\underset{\sim}{u}\perp\underset{\sim}{v}"></span>.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 44</div>
+
+::: notes
+Additional short verification. Preserve all components and signs.
+:::

@@ -1,0 +1,11 @@
+## Example 6.1 · Parts (a–b) {#iv6-example-6-1-ab .vector-lesson .magnitude-lesson .angles-lesson .a-pair}
+
+```{=html}
+<p>Find the angle between these vectors</p><div class="a-cols "><div><p><strong>a)</strong></p><div class="a-eq"><span data-math="2\underset{\sim}{i}+3\underset{\sim}{j}\quad\text{and}\quad4\underset{\sim}{i}+\underset{\sim}{j}"></span></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=2(4)+3(1)=11"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{a}|=\sqrt{2^2+3^2}=\sqrt{13}"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{b}|=\sqrt{4^2+1^2}=\sqrt{17}"></span></div><div class="a-eq"><span data-math="\theta=\cos^{-1}\!\left(\frac{11}{\sqrt{13}\sqrt{17}}\right)\approx42.27^\circ"></span></div></div></div></div><div><p><strong>b)</strong></p><div class="a-eq"><span data-math="3\underset{\sim}{i}-\underset{\sim}{j}\quad\text{and}\quad-6\underset{\sim}{i}+2\underset{\sim}{j}"></span></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=3(-6)+(-1)(2)=-20"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{a}|=\sqrt{3^2+(-1)^2}=\sqrt{10}"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{b}|=\sqrt{(-6)^2+2^2}=\sqrt{40}"></span></div><div class="a-eq"><span data-math="\theta=\cos^{-1}\!\left(\frac{-20}{\sqrt{10}\sqrt{40}}\right)=180^\circ"></span></div></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 41</div>
+
+::: notes
+Select parts according to need; (a) models the method and (d) checks an obtuse angle. All four solutions are retained. Round only at the end. Parts (b) and (c) agree with the special cases from Lesson 5.
+:::

@@ -1,0 +1,84 @@
+---
+pagetitle: "Lesson 6 — Angles, perpendicularity and parallelism"
+lesson-title: "Angles, perpendicularity and parallelism"
+description: "Calculate angles in 2D and 3D, find perpendicular vectors and compare two tests for parallelism."
+lesson-order: 6
+booklet: "Section 6 · Examples 6.1–6.15"
+homework: "5 · Exercises 9B, 9C, 9E and 9F"
+format:
+  revealjs:
+    css:
+      - ../../../../assets/lesson.css
+      - ../vectors.css
+      - ../magnitudes.css
+      - ../angles.css
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../diagram-math-config.js"></script>
+        <script src="../../../../assets/vendor/mathjax-3.2.2/tex-svg.js"></script>
+        <script src="../diagram-math.js"></script>
+        <script src="../angles.js"></script>
+---
+
+{{< include lesson-6/_opening.qmd >}}
+
+{{< include lesson-6/_objective.qmd >}}
+
+{{< include lesson-6/_previously.qmd >}}
+
+{{< include lesson-6/_angle-formula.qmd >}}
+
+{{< include lesson-6/_unit-vectors.qmd >}}
+
+{{< include lesson-6/_example-6-1-ab.qmd >}}
+
+{{< include lesson-6/_example-6-1-cd.qmd >}}
+
+{{< include lesson-6/_example-6-2.qmd >}}
+
+{{< include lesson-6/_example-6-3-abc.qmd >}}
+
+{{< include lesson-6/_example-6-3-d.qmd >}}
+
+{{< include lesson-6/_perpendicular.qmd >}}
+
+{{< include lesson-6/_example-6-4.qmd >}}
+
+{{< include lesson-6/_example-6-5.qmd >}}
+
+{{< include lesson-6/_example-6-6.qmd >}}
+
+{{< include lesson-6/_example-6-7.qmd >}}
+
+{{< include lesson-6/_example-6-8-ab.qmd >}}
+
+{{< include lesson-6/_example-6-8-cd.qmd >}}
+
+{{< include lesson-6/_example-6-9.qmd >}}
+
+{{< include lesson-6/_example-6-10.qmd >}}
+
+{{< include lesson-6/_parallel-multiple.qmd >}}
+
+{{< include lesson-6/_example-6-11.qmd >}}
+
+{{< include lesson-6/_example-6-12.qmd >}}
+
+{{< include lesson-6/_collinear.qmd >}}
+
+{{< include lesson-6/_example-6-13.qmd >}}
+
+{{< include lesson-6/_example-6-14-a.qmd >}}
+
+{{< include lesson-6/_example-6-14-b.qmd >}}
+
+{{< include lesson-6/_parallel-dot.qmd >}}
+
+{{< include lesson-6/_example-6-15-ab.qmd >}}
+
+{{< include lesson-6/_example-6-15-c.qmd >}}
+
+{{< include lesson-6/_key-ideas.qmd >}}
+
+{{< include lesson-6/_homework.qmd >}}

@@ -1,0 +1,11 @@
+## Parallel vectors: the scalar-product test {#iv6-parallel-dot .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>For two non-zero vectors in 2D or 3D:</p><div class="a-eq"><span data-math="\boxed{\underset{\sim}{a}\parallel\underset{\sim}{b}\quad\Longleftrightarrow\quad\underset{\sim}{a}\cdot\underset{\sim}{b}=\pm|\underset{\sim}{a}||\underset{\sim}{b}|}"></span></div><div class="a-cols "><div><h3>Same direction</h3><div class="a-eq"><span data-math="\theta=0^\circ,\quad\cos\theta=1"></span></div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|"></span></div></div><div><h3>Opposite directions</h3><div class="a-eq"><span data-math="\theta=180^\circ,\quad\cos\theta=-1"></span></div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=-|\underset{\sim}{a}||\underset{\sim}{b}|"></span></div></div></div><p>Compare with the <strong>full product of the magnitudes</strong>. The sign alone does not establish parallelism.</p>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 52</div>
+
+::: notes
+Recall the special values from Lesson 5, now used as a second test for parallelism. When components are known, checking one common scalar multiple is usually quickest. When the scalar product and magnitudes are given, use this test directly.
+:::

@@ -1,0 +1,11 @@
+## Example 6.13 {#iv6-example-6-13 .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>Determine whether the points <span data-math="A(0,2,2)"></span> and <span data-math="B(4,10,18)"></span>, <span data-math="C(6,14,26)"></span> are collinear.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\overrightarrow{AB}=\begin{bmatrix}4-0\\10-2\\18-2\end{bmatrix}=\begin{bmatrix}4\\8\\16\end{bmatrix}"></span></div><div class="a-eq"><span data-math="\overrightarrow{AC}=\begin{bmatrix}6-0\\14-2\\26-2\end{bmatrix}=\begin{bmatrix}6\\12\\24\end{bmatrix}=\frac32\overrightarrow{AB}"></span></div><p>The vectors are parallel and share <span data-math="A"></span>, so <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> are collinear.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 51</div>
+
+::: notes
+Additional application, retained with full head-minus-tail calculations. B lies between A and C.
+:::

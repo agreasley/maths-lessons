@@ -1,0 +1,67 @@
+/* Lesson 6: readable worked examples and static native-SVG diagrams. */
+.reveal .angles-lesson h2{font-size:43px;margin-bottom:20px}
+.reveal .angles-lesson p{font-size:27px;line-height:1.4;margin:14px 0}
+.reveal .angles-lesson h3{font-size:29px;margin:20px 0 16px}
+.reveal .angles-lesson .a-eq{font-size:29px;line-height:1.5;margin:15px 0}
+.reveal .angles-lesson .a-cols{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start;margin:20px 0}
+.reveal .angles-lesson .a-cols>div{min-width:0}
+.reveal .angles-lesson .a-cols .a-eq{font-size:25px}
+.reveal .angles-lesson .a-cols p{font-size:25px}
+.reveal .angles-lesson .a-reveal{margin-top:18px}
+.reveal .angles-lesson .panel-answer{border-left:4px solid var(--teal);padding:2px 0 2px 18px;margin-top:12px}
+.reveal .angles-lesson .panel-answer .a-eq{margin:11px 0}
+.reveal .angles-lesson .booklet-cue{margin-top:22px;font-size:18px}
+.reveal .a-svg{display:block;width:100%;height:auto;max-width:none;max-height:none;margin:0;overflow:visible}
+.reveal .a-figure .a-svg{height:245px}
+.reveal #iv6-opening .cover-title{font-size:64px;max-width:1000px}
+.reveal #iv6-opening .cover-subtitle{font-size:29px;max-width:620px}
+.reveal #iv6-opening .a-cover-figure{position:absolute;right:25px;top:350px;width:410px}
+.reveal #iv6-objective h3{margin-top:50px}
+.reveal #iv6-angle-formula .a-eq{font-size:38px;margin:32px 0}
+.reveal .a-steps{display:flex;gap:22px;margin:30px 0;padding:18px 0;border-top:2px solid var(--teal);border-bottom:1px solid var(--rule);font-size:24px}
+.reveal #iv6-unit-vectors>.a-eq{font-size:37px;margin:30px 0}
+.reveal #iv6-unit-vectors .a-figure .a-svg{height:315px}
+.reveal .a-pair .a-cols .a-eq{font-size:23px}
+.reveal .a-pair .a-cols{margin-top:12px}
+.reveal .a-pair .panel-answer{padding-left:12px}
+.reveal .a-cube{display:block;width:100%;height:390px;object-fit:contain;max-height:none;margin:0}
+.reveal .angles-lesson .a-cube-layout{grid-template-columns:.7fr 1.3fr;gap:34px}
+.reveal .a-cube-layout .a-eq{font-size:24px!important}
+.reveal .a-cube-layout p{font-size:24px!important;margin:10px 0}
+.reveal .a-options{display:grid;grid-template-columns:1fr 1fr;gap:8px 30px;margin:20px 0}
+.reveal .a-options>div{display:flex;align-items:center;gap:25px}
+.reveal .a-options .a-eq{margin:6px 0}
+.reveal .a-source{font-size:20px!important;color:var(--muted)}
+.reveal .a-mc .panel-answer .a-cols{margin:0}
+.reveal .a-mc .panel-answer .a-eq{font-size:24px;margin:8px 0}
+.reveal .a-dense p{font-size:24px}
+.reveal .a-dense .a-cols p{font-size:23px;margin:9px 0}
+.reveal .a-dense .a-cols .a-eq{font-size:22px;margin:9px 0;line-height:1.35}
+.reveal .a-dense>.a-eq{font-size:26px;margin:12px 0}
+.reveal .a-dense .a-cols{gap:28px;margin:12px 0}
+.reveal .a-dense .a-reveal{margin-top:12px}
+.reveal .a-dense .panel-answer{padding-left:12px;margin-top:9px}
+.reveal #iv6-example-6-8-cd .a-figure .a-svg{height:210px}
+.reveal #iv6-example-6-9 .a-figure .a-svg{height:300px}
+.reveal #iv6-example-6-9 .a-cols{grid-template-columns:.85fr 1.3fr}
+.reveal #iv6-example-6-9 .a-cols .a-eq{font-size:22px}
+.reveal #iv6-parallel-multiple .a-figure .a-svg{height:130px}
+.reveal .a-row-parts>div{display:grid;grid-template-columns:1fr 1.05fr;gap:24px;border-top:1px solid var(--rule);padding:8px 0}
+.reveal .a-rows .a-eq{font-size:23px;margin:9px 0}
+.reveal .a-rows p{font-size:24px;margin:7px 0}
+.reveal .a-rows .a-reveal{margin:0}
+.reveal .a-rows .panel-answer{margin-top:6px;padding-left:12px}
+.reveal #iv6-example-6-11 .a-row-parts .a-eq{font-size:21px;line-height:1.25;margin:6px 0}
+.reveal #iv6-example-6-11 .a-row-parts p{font-size:22px;margin:5px 0}
+.reveal #iv6-collinear .a-figure .a-svg{height:220px}
+.reveal .a-wide .a-eq{font-size:25px}
+.reveal .a-dot-pair .a-cols .a-eq{font-size:22px}
+.reveal .a-dot-pair .a-cols p{font-size:24px}
+.reveal .a-key-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 35px}
+.reveal .a-key-grid>div{border-top:2px solid var(--teal);padding-top:10px}
+.reveal .a-key-grid h3{font-size:27px;margin:5px 0 14px}
+.reveal .a-key-grid .a-eq{font-size:25px;margin:13px 0}
+.reveal .a-key-grid p{font-size:23px;margin:12px 0}
+.reveal #iv6-homework table{font-size:26px;line-height:1.5;margin-top:30px}
+.reveal #iv6-homework td,.reveal #iv6-homework th{padding:20px 15px;text-align:left}
+.reveal #iv6-homework td:first-child{font-weight:700;width:110px}

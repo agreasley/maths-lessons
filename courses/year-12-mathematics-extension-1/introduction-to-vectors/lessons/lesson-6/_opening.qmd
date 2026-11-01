@@ -1,0 +1,15 @@
+## Angles, perpendicularity and parallelism {#iv6-opening .vector-lesson .magnitude-lesson .angles-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 1 · Introduction to Vectors · Lesson 6</div>
+<div class="cover-title">Angles, perpendicularity<br>and parallelism</div>
+<div class="cover-subtitle">Calculate angles and identify<br>geometric relationships.</div>
+<div data-angles="cover" class="a-cover-figure"></div>
+<div class="cover-foot">Booklet Section 6 · Examples 6.1–6.15 · Homework 5</div>
+```
+
+
+
+::: notes
+One 50-minute teaching period. All original examples are retained, with complete manually revealed solutions; select examples during teaching. Suggested route: selected parts of 6.1, 6.2, 6.4, 6.9, 6.11, selected parts of 6.12 and 6.15. Use the slide map to skip additional examples. No hinge or timer, as explicitly requested. Timing: opening 3; angles 12; perpendicularity 9; quarter turns 6; parallelism 16; summary/homework 4 minutes.
+:::

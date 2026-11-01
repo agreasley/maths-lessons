@@ -1,0 +1,11 @@
+## Example 6.15 · Part (c) {#iv6-example-6-15-c .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>For each pair of vectors, calculate <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}"></span> and <span data-math="|\underset{\sim}{a}||\underset{\sim}{b}|"></span>. Hence determine whether the vectors are parallel in the same direction, parallel in opposite directions, or not parallel.</p><p>c)</p><div class="a-eq"><span data-math="\underset{\sim}{a}=3\underset{\sim}{i}+4\underset{\sim}{j},\quad\underset{\sim}{b}=4\underset{\sim}{i}+3\underset{\sim}{j}."></span></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (c)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=3(4)+4(3)=24"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{a}||\underset{\sim}{b}|=\sqrt{9+16}\sqrt{16+9}=5(5)=25"></span></div><div class="a-eq"><span data-math="24\ne25\quad\text{and}\quad24\ne-25"></span></div><p>Not parallel: no single multiplier works.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 52</div>
+
+::: notes
+These are the same pairs as Example 6.11. Both methods must give the same classifications. In part (c), a positive dot product does not establish parallelism: 24 is neither 25 nor -25.
+:::

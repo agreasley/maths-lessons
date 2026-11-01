@@ -1,0 +1,11 @@
+## Example 6.7 {#iv6-example-6-7 .vector-lesson .magnitude-lesson .angles-lesson .a-dense}
+
+```{=html}
+<p>Find unit vectors perpendicular to both <span data-math="\underset{\sim}{u}=2\underset{\sim}{i}-3\underset{\sim}{j}+6\underset{\sim}{k}"></span> and <span data-math="\underset{\sim}{v}=-6\underset{\sim}{i}+2\underset{\sim}{j}+3\underset{\sim}{k}"></span>.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-cols "><div><p>Let <span data-math="\underset{\sim}{n}=x\underset{\sim}{i}+y\underset{\sim}{j}+z\underset{\sim}{k}"></span>. Then</p><div class="a-eq"><span data-math="\begin{aligned}2x-3y+6z&=0\quad(1)\\-6x+2y+3z&=0\quad(2)\end{aligned}"></span></div><p>Add <span data-math="3\times(1)"></span> to <span data-math="(2)"></span>:</p><div class="a-eq"><span data-math="-7y+21z=0\quad\Longrightarrow\quad y=3z"></span></div><p>Substitute into (1):</p><div class="a-eq"><span data-math="2x-9z+6z=0\quad\Longrightarrow\quad x=\frac32z"></span></div></div><div><p>Put <span data-math="z=2t"></span>. Then <span data-math="x=3t"></span>, <span data-math="y=6t"></span>:</p><div class="a-eq"><span data-math="\underset{\sim}{n}=t(3\underset{\sim}{i}+6\underset{\sim}{j}+2\underset{\sim}{k})"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{n}|=|t|\sqrt{9+36+4}=7|t|"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{n}|=1\quad\Longrightarrow\quad t=\pm\frac17"></span></div><div class="a-eq"><span data-math="\boxed{\underset{\sim}{n}=\pm\frac17(3\underset{\sim}{i}+6\underset{\sim}{j}+2\underset{\sim}{k})}"></span></div><p>Check: <span data-math="6-18+12=0"></span>, <span data-math="-18+12+6=0"></span>, and the magnitude is <span data-math="7/7=1"></span>.</p></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 46</div>
+
+::: notes
+Additional application, with all algebra included. Use simultaneous equations followed by normalisation; no cross product. The two answers have opposite directions. Setting z=2t parametrises all solutions, including the zero solution before the unit-length condition removes it.
+:::

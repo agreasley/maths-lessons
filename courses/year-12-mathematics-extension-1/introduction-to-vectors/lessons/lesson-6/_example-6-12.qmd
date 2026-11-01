@@ -1,0 +1,11 @@
+## Example 6.12 {#iv6-example-6-12 .vector-lesson .magnitude-lesson .angles-lesson .a-pair}
+
+```{=html}
+<p>Find the value of <span data-math="m"></span> so that <span data-math="\begin{bmatrix}2\\-3\end{bmatrix}"></span> is parallel to:</p><div class="a-cols "><div><div class="a-eq"><span data-math="\text{a) }\begin{bmatrix}5\\m\end{bmatrix}"></span></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\begin{bmatrix}5\\m\end{bmatrix}=\lambda\begin{bmatrix}2\\-3\end{bmatrix}"></span></div><div class="a-eq"><span data-math="5=2\lambda\quad\Longrightarrow\quad\lambda=\frac52"></span></div><div class="a-eq"><span data-math="m=-3\lambda=-\frac{15}{2}"></span></div><p><span data-math="\lambda>0"></span>: same direction.</p></div></div></div><div><div class="a-eq"><span data-math="\text{b) }\begin{bmatrix}-1\\m\end{bmatrix}"></span></div><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\begin{bmatrix}-1\\m\end{bmatrix}=\lambda\begin{bmatrix}2\\-3\end{bmatrix}"></span></div><div class="a-eq"><span data-math="-1=2\lambda\quad\Longrightarrow\quad\lambda=-\frac12"></span></div><div class="a-eq"><span data-math="m=-3\lambda=\frac32"></span></div><p><span data-math="\lambda<0"></span>: opposite directions.</p></div></div></div></div><p>Which vectors in parts (a) and (b) are in the same direction as <span data-math="\begin{bmatrix}2\\-3\end{bmatrix}"></span>?</p>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 50</div>
+
+::: notes
+Select a part if time is short. Part (a) only is in the same direction. This contrasts parallel conditions with the zero dot-product equation used for perpendicularity.
+:::

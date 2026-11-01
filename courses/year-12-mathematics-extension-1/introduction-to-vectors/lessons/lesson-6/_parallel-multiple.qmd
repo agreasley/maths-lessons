@@ -1,0 +1,11 @@
+## Parallel vectors: scalar multiples {#iv6-parallel-multiple .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>For two non-zero vectors:</p><div class="a-eq"><span data-math="\boxed{\underset{\sim}{a}\parallel\underset{\sim}{b}\quad\Longleftrightarrow\quad\underset{\sim}{a}=\lambda\underset{\sim}{b},\quad\lambda\ne0}"></span></div><div class="a-cols "><div><div data-angles="same" class="a-figure"></div><div class="a-eq"><span data-math="\lambda>0\quad\text{same direction}"></span></div></div><div><div data-angles="opposite" class="a-figure"></div><div class="a-eq"><span data-math="\lambda<0\quad\text{opposite directions}"></span></div></div></div><p><strong>The same multiplier must work for every corresponding component.</strong></p>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 49</div>
+
+::: notes
+Preferred method when components are known. Check every component; avoid component ratios when a denominator is zero. Solve a=lambda b instead. The zero vector is excluded from geometric direction classifications.
+:::

@@ -2,7 +2,7 @@
 
 ## Sequence and sources
 
-This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–5 have been built. Lesson 4 is planned as one 50-minute teaching period, as explicitly requested.
+This topic follows the user's revised seven-deck sequence. Original program Lessons 1 and 2 remain combined in Lesson 1. Booklet Section 3 is now split: Lesson 2 ends at Example 3.7, and Lesson 3 covers position vectors. Lessons 1–6 have been built. Lesson 4 is planned as one 50-minute teaching period, as explicitly requested.
 
 | Revised lesson | Booklet coverage | Homework |
 |---|---|---|
@@ -27,7 +27,7 @@ Plan for roughly 70–90 minutes in total, depending on discussion and student w
 - Triangle/parallelogram addition, Example 2.1, subtraction, Example 2.2 and hinge.
 - Closed paths and scalar multiplication, then Examples 2.3–2.4, the illustrated Key Ideas summary and Homework 1.
 
-A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2, 6 and 7 may each need two teaching periods; avoid forcing seven decks into seven periods.
+A natural stopping point is **after Scaling and parallel vectors**, before Example 2.3. If continuing next period, retrieve what reversal and a negative multiplier mean, trace A→O→B again, and ask students to predict the result with A and B interchanged. This can be done on the existing hinge slide using Reset; collect a fresh explanation. Then proceed to the midpoint/path applications. Keep a single lesson deck and retain the full homework selection. Lessons 2 and 7 may each need two teaching periods. Lesson 6 is explicitly one 50-minute period, with examples selected during teaching; all worked examples remain in the deck.
 
 ## Hook and the purpose of the unit
 
@@ -224,3 +224,40 @@ Preview: quarto preview courses/year-12-mathematics-extension-1/introduction-to-
 Prior full-content validation: rendered all 18 slides and checked full Next/Previous navigation, scaffolded proof visibility, the formula-sheet image, individual answer reveals, the hinge immediately after Example 5.2, and assignment-only homework. Chromium and WebKit both passed touch checks at 1024×768 and 1194×834, portrait rotation and return, slide-map state, and timer pause/expiry/manual reveal. Tested angles 0°,30°,60°,90°,120°,150°,180° with lengths (2,5), (5,1), (1,5), (3.5,2.5), plus presets and reset. No JavaScript errors, external network requests, unrendered mathematics, SVG label drift or content overflow. Reviewed screenshots of the proof, angle definition, calculation methods, formula sheet, magnitude expansion and sign activity in both engines. Lesson 4's cover was also re-rendered and checked. These are browser-engine checks, not a physical-iPad test.
 
 Validation of the 19-slide revision: Chromium and WebKit passed full Next/Previous navigation including both fragment steps, initially hidden/revealed/reversed method panels, slide-map previews and return, portrait rotation, and both independently controlled hinges (60-second default, pause on leaving, timer expiry without reveal, wrong/correct choice mapping and reset). Checked all slides with answers visible at 1024×768 and 1194×834; no overflow, JavaScript errors, unrendered maths or external requests. Reviewed the fully worked Example 5.1(c), both method reveals including the reflex-angle note on slide 7, the Extension 2 distributivity note on slide 15, and the second hinge in both engines. The self-contained download passed both engines. No physical-iPad test.
+
+
+## Lesson 6: angles, perpendicularity and parallelism
+
+One **50-minute lesson**, 31 slides, covering Section 6, Examples 6.1–6.15 (printed pp. 41–53). The user explicitly requested **no hinge**. Example 6.6 remains an ordinary multiple-choice worked example with no timer, quiz module or simultaneous-response routine. Its original A–D choices appear as 1–4 in the same order; D/4 is correct.
+
+All original examples and subparts are retained, with complete, manually revealed and reversible solutions. The teacher chooses which examples to teach; use the slide map to move past additional applications. Suggested route: selected parts of 6.1, 6.2, 6.4, 6.9, 6.11, selected parts of 6.12 and 6.15. Opening 3 minutes; angles 12; perpendicularity 9; quarter turns 6; parallelism 16; Key Ideas and homework 4. No planned second period or homework split.
+
+Move quickly from the known geometric scalar product to theta=arccos((a·b)/(|a||b|)). Calculate the scalar product, calculate both magnitudes, substitute, then use inverse cosine in degree mode, keeping exact values until the final step. Report the smaller tail-to-tail angle in [0°,180°]. The unit-vector identity cos theta=â·b̂ is justified by applying the geometric formula to two unit vectors: normalising preserves directions and the angle, and both magnitudes are one. Do not assume distributivity or scalar-factor laws, which are studied later in Extension 2.
+
+Recall a·b=0 for perpendicular non-zero vectors rather than reteaching it at length. Example 6.9 explicitly verifies the two quarter turns using component products and magnitudes. The 2D shortcut is (a,b)→(-b,a) or (b,-a), not an unchanged 3D rule. For parallelism, prefer one common scalar multiplier when components are available, and compare the dot product with the full product of magnitudes when those quantities are given. The sign of the dot product alone does not establish parallelism. Example 6.15 revisits exactly the pairs in 6.11 so the methods can be compared.
+
+Diagrams are static and use native SVG mathematical labels. Example 6.3 uses the exact original cube diagram cropped from the booklet, with font glyphs as paths; do not measure spatial angles from its perspective view. The support diagram for 6.8 is a new construction at the given coordinates. There is no 3D interactive or new diagram control. Shared Show/Hide solution controls preserve answers when moving through the slide map.
+
+### Lesson 6 worked checks
+
+- **6.1:** (a) dot 11, magnitudes sqrt(13), sqrt(17), angle approximately 42.27°; (b) dot -20, magnitudes sqrt(10), sqrt(40), angle 180°; (c) dot 0, magnitudes sqrt(13), sqrt(52), angle 90°; (d) dot -1, magnitudes sqrt(2), sqrt(5), angle approximately 108.43°.
+- **6.2:** dot -3, both magnitudes sqrt(6), angle 120°.
+- **6.3:** (a) CB=i, AB=j, CG=k; (b) OF=i+j+k, OG=j+k; (c) OF=i+j+k, AG=-i+j+k; (d) dot 1, both lengths sqrt(3), angle arccos(1/3) approximately 70.53°. This is already the requested acute intersection angle. Reversing one direction gives 109.47°, whose supplement is 70.53°.
+- **6.4:** 2b-3=0, so b=3/2.
+- **6.5:** 10-6-4=0, so the two non-zero vectors are perpendicular.
+- **6.6:** dot products for original A–D / screen 1–4 are -10, 10, -5, 0. D/4 is correct. No timed hinge.
+- **6.7:** 2x-3y+6z=0 and -6x+2y+3z=0. Adding three times the first to the second gives y=3z, then x=3z/2. Write z=2t to get n=t(3,6,2); length 7|t|=1 gives the two unit vectors ±(3,6,2)/7. Verify both dot products vanish. No cross product.
+- **6.8:** (a) PQ=(-4,2), RQ=(4,8), dot zero. (b) RP=(8,6), dot with RQ=80, lengths 10 and 4sqrt(5); angle PRQ approximately 26.57°. (c) S=(3,7). (d) QS=(0,-5), RS=(4,3), both length 5. SP=(4,3), SQ=(0,5), dot 15, giving angle PSQ=arccos(3/5), approximately 53.13°. Use vectors starting at the named vertex.
+- **6.9:** a(-b)+ba=0 and ab+b(-a)=0; each magnitude is sqrt(a²+b²). The assumed non-zero original vector ensures all three have direction.
+- **6.10:** (4,3) and (-4,-3), both perpendicular to (3,-4), all length 5.
+- **6.11:** (a) b=3a, same direction; (b) b=-2a, opposite; (c) component multipliers 4/3 and 3/4 disagree, so not parallel.
+- **6.12:** (a) multiplier 5/2 gives m=-15/2, same direction; (b) multiplier -1/2 gives m=3/2, opposite direction. Only (a) has the same direction as the original vector.
+- **6.13:** AB=(4,8,16), AC=(6,12,24)=(3/2)AB; common point A establishes collinearity.
+- **6.14:** (a) distances AB=sqrt(14), BC=3sqrt(14), AC=4sqrt(14), so AB+BC=AC and B lies on segment AC. (b) AB=(1,-3,2), BC=(3,-9,6)=3AB; the consecutive vectors have the same direction, so ABC is straight. AC=4AB is an equivalent vector proof.
+- **6.15:** (a) dot 15, magnitude product 15, same direction; (b) dot -18, magnitude product 18, opposite; (c) dot 24, magnitude product 25, not parallel. These agree with 6.11.
+
+Homework 5 is unchanged and is not split. Mild: 9B Q10,Q12; 9C Q3,Q7,Q10(a); 9E Q10; 9F Q1,Q4(c),Q5. Medium: 9B Q10–12; 9C Q3,Q7,Q10–12; 9E Q10; 9F Q1–2,Q4(c),Q5–7,Q17(a). Spicy: 9B Q10–12,Q16; 9C Q3,Q7,Q10–12; 9E Q10; 9F Q1–2,Q4(c),Q5–7,Q17–18. The final slide contains only the assignment heading, table and source reference.
+
+Preview: quarto preview courses/year-12-mathematics-extension-1/introduction-to-vectors/lessons/lesson-6.qmd. Assets: angles.css, angles.js, media/example-6-3.svg, and the existing shared navigation, answer panels and SVG maths renderer.
+
+Validation: rendered all 31 slides without warnings. Chromium and WebKit passed touch checks at 1024×768 and 1194×834, complete Next/Previous navigation, all 29 reversible solution panels, slide-map jumps/state preservation, and portrait rotation and return. Inspected screenshots of the cover, angle formula, unit-vector connection, original cube, longer solutions, quarter turns, parallelism summary and homework. All mathematics rendered; no overflowing slide content, JavaScript errors, SVG foreignObject elements or external network requests. The standalone download passed both engines offline. Arithmetic checks independently verified angles, perpendicular unit vectors, triangle results and scalar multiples. These are browser-engine checks, not a physical-iPad test.

@@ -1,0 +1,11 @@
+## Example 6.3 · Part (d) {#iv6-example-6-3-d .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p><span data-math="OABCDEFG"></span> is a cube with side length 1 unit. Take <span data-math="O"></span> as the origin.</p><div class="a-cols a-cube-layout"><div><img class="a-cube" src="../media/example-6-3.svg" alt="Original booklet cube OABCDEFG. O is the origin; OA, OC and OD lie along positive x, y and z respectively, each of length one."></div><div><p>d) Calculate the acute angle at which the diagonals <span data-math="OF"></span> and <span data-math="AG"></span> intersect.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\overrightarrow{OF}=\begin{bmatrix}1\\1\\1\end{bmatrix},\quad\overrightarrow{AG}=\begin{bmatrix}-1\\1\\1\end{bmatrix}"></span></div><div class="a-eq"><span data-math="\overrightarrow{OF}\cdot\overrightarrow{AG}=-1+1+1=1"></span></div><div class="a-eq"><span data-math="|\overrightarrow{OF}|=|\overrightarrow{AG}|=\sqrt3"></span></div><div class="a-eq"><span data-math="\cos\theta=\frac{1}{\sqrt3\sqrt3}=\frac13"></span></div><div class="a-eq"><span data-math="\theta=\cos^{-1}\!\left(\frac13\right)\approx70.53^\circ"></span></div><p>This is the acute intersection angle.</p></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 42</div>
+
+::: notes
+The directed vectors chosen give the acute angle. Reversing one vector gives 109.47°, whose supplement is 70.53°. Explain the distinction between an angle between directed vectors and the requested acute angle between intersecting lines. Do not measure angles from this perspective drawing.
+:::

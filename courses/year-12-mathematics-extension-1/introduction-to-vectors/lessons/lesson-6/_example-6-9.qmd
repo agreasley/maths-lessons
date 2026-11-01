@@ -1,0 +1,11 @@
+## Example 6.9 {#iv6-example-6-9 .vector-lesson .magnitude-lesson .angles-lesson .a-dense}
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{v}=\begin{bmatrix}a\\b\end{bmatrix}"></span> be a non-zero vector in two dimensions. Consider the vectors <span data-math="\underset{\sim}{u}=\begin{bmatrix}-b\\a\end{bmatrix}"></span> and <span data-math="\underset{\sim}{w}=\begin{bmatrix}b\\-a\end{bmatrix}"></span>.</p><div class="a-cols "><div><div data-angles="turns" class="a-figure"></div><p>Swap the components and change one sign: a <span data-math="90^\circ"></span> turn preserves length.</p></div><div><p>a) Explain why both vectors are perpendicular to <span data-math="\underset{\sim}{v}"></span>.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (a)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\underset{\sim}{v}\cdot\underset{\sim}{u}=a(-b)+ba=-ab+ab=0"></span></div><div class="a-eq"><span data-math="\underset{\sim}{v}\cdot\underset{\sim}{w}=ab+b(-a)=ab-ab=0"></span></div><p>All three vectors are non-zero, so <span data-math="\underset{\sim}{u}\perp\underset{\sim}{v}"></span> and <span data-math="\underset{\sim}{w}\perp\underset{\sim}{v}"></span>.</p></div></div><p>b) Show that <span data-math="|\underset{\sim}{u}|=|\underset{\sim}{w}|=|\underset{\sim}{v}|"></span>.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show (b)</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="|\underset{\sim}{u}|=\sqrt{(-b)^2+a^2}=\sqrt{a^2+b^2}"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{w}|=\sqrt{b^2+(-a)^2}=\sqrt{a^2+b^2}=|\underset{\sim}{v}|"></span></div></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 48</div>
+
+::: notes
+Core syllabus point, taught quickly. Derive using component calculations; no dot-product algebraic laws are assumed. The representative diagram shows v=(a,b), u=(-b,a) anticlockwise, w=(b,-a) clockwise, at identical scale. This shortcut is specifically for two-component vectors.
+:::

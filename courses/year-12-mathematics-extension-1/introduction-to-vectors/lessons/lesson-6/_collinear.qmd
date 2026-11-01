@@ -1,0 +1,11 @@
+## Using parallel vectors to show collinearity {#iv6-collinear .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>Three distinct points are <strong>collinear</strong> when they lie on the same straight line.</p><div data-angles="collinear" class="a-figure"></div><div class="a-eq"><span data-math="\overrightarrow{AC}=\lambda\overrightarrow{AB}"></span></div><p>The vectors share the point <span data-math="A"></span>. If one is a scalar multiple of the other, <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> lie on the same line.</p>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 51</div>
+
+::: notes
+Brief context for the retained applications. Parallel vectors alone may lie on different parallel lines; the common point is what establishes collinearity.
+:::

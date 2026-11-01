@@ -1,0 +1,11 @@
+## Previously: the scalar product {#iv6-previously .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<div class="a-cols "><div><h3>From components</h3><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y"></span></div><p>In 3D, include the third component:</p><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=a_xb_x+a_yb_y+a_zb_z"></span></div></div><div><h3>From lengths and angle</h3><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div><div data-angles="angle" class="a-figure"></div></div></div><p>Both expressions calculate the same scalar product.</p>
+```
+
+
+
+::: notes
+Keep retrieval brief. Remind students that dot products are scalars and that the geometric angle is measured tail-to-tail.
+:::

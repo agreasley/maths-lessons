@@ -1,0 +1,15 @@
+## Homework 5 {#iv6-homework .vector-lesson .magnitude-lesson .angles-lesson }
+
+| Level | Questions |
+|---|---|
+| Mild | **9B:** Q10, Q12. **9C:** Q3, Q7, Q10(a).<br>**9E:** Q10. **9F:** Q1, Q4(c), Q5. |
+| Medium | **9B:** Q10–12. **9C:** Q3, Q7, Q10–12.<br>**9E:** Q10. **9F:** Q1–2, Q4(c), Q5–7, Q17(a). |
+| Spicy | **9B:** Q10–12, Q16. **9C:** Q3, Q7, Q10–12.<br>**9E:** Q10. **9F:** Q1–2, Q4(c), Q5–7, Q17–18. |
+
+<div class="booklet-cue">Booklet Homework 5 · p. 53 · Cambridge Mathematics Extension 1 Year 12, Second Edition</div>
+
+
+
+::: notes
+
+:::

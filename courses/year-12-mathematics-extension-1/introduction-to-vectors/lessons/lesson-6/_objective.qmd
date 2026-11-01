@@ -1,0 +1,14 @@
+## Today's learning {#iv6-objective .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<h3>Learning objective</h3>
+<p>We are learning to use the scalar product and scalar multiples to calculate angles and identify perpendicular and parallel vectors.</p>
+<h3>Success criterion</h3>
+<p>I can calculate angles between vectors in 2D and 3D and justify whether vectors are perpendicular or parallel.</p>
+```
+
+
+
+::: notes
+A short application lesson. Previous lessons established both scalar-product expressions and their special cases. Do not repeat the Lesson 5 proof or assume dot-product algebraic properties.
+:::

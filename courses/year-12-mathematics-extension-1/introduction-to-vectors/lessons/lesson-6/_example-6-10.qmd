@@ -1,0 +1,11 @@
+## Example 6.10 {#iv6-example-6-10 .vector-lesson .magnitude-lesson .angles-lesson }
+
+```{=html}
+<p>Find two vectors perpendicular to <span data-math="\underset{\sim}{a}=3\underset{\sim}{i}-4\underset{\sim}{j}"></span> that have the same magnitude as <span data-math="\underset{\sim}{a}"></span>. Verify your answers using scalar products and magnitudes.</p><div data-module="reveal-panel" class="a-reveal"><button class="toggle-panel" aria-pressed="false">Show solution</button><div class="panel-answer" hidden><div class="a-eq"><span data-math="\begin{bmatrix}3\\-4\end{bmatrix}\quad\longrightarrow\quad\underset{\sim}{u}=\begin{bmatrix}4\\3\end{bmatrix},\qquad\underset{\sim}{w}=\begin{bmatrix}-4\\-3\end{bmatrix}"></span></div><div class="a-cols "><div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{u}=3(4)+(-4)(3)=0"></span></div><div class="a-eq"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{w}=3(-4)+(-4)(-3)=0"></span></div></div><div><div class="a-eq"><span data-math="|\underset{\sim}{a}|=\sqrt{9+16}=5"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{u}|=\sqrt{16+9}=5"></span></div><div class="a-eq"><span data-math="|\underset{\sim}{w}|=\sqrt{16+9}=5"></span></div></div></div><div class="a-eq"><span data-math="\boxed{4\underset{\sim}{i}+3\underset{\sim}{j}\quad\text{and}\quad-4\underset{\sim}{i}-3\underset{\sim}{j}}"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6 · p. 49</div>
+
+::: notes
+Optional quick practice after 6.9. The two perpendicular vectors are negatives of each other; both have the required magnitude.
+:::

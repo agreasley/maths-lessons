@@ -57,6 +57,8 @@ format:
 
 {{< include lesson-6/_example-6-9.qmd >}}
 
+{{< include lesson-6/_perpendicular-rule.qmd >}}
+
 {{< include lesson-6/_example-6-10.qmd >}}
 
 {{< include lesson-6/_parallel-multiple.qmd >}}

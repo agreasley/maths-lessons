@@ -65,3 +65,34 @@
 .reveal #iv6-homework table{font-size:26px;line-height:1.5;margin-top:30px}
 .reveal #iv6-homework td,.reveal #iv6-homework th{padding:20px 15px;text-align:left}
 .reveal #iv6-homework td:first-child{font-weight:700;width:110px}
+
+/* Concise statements and staged collinearity. */
+.reveal #iv6-angle-formula .math.display{font-size:43px;margin:55px 0 45px}
+.reveal .a-syllabus-note{border-left:5px solid var(--teal);padding:12px 24px;margin:36px 0 25px}
+.reveal #iv6-angle-formula .a-syllabus-note .a-eq{font-size:39px;margin:12px 0}
+.reveal #iv6-unit-vectors .a-unit-factor{font-size:38px;margin:30px 0}
+.reveal #iv6-unit-vectors .a-extension-note{font-size:26px;color:var(--muted);margin:26px 0}
+.reveal .a-unit-equivalence{border-top:2px solid var(--teal);padding-top:20px;margin-top:36px}
+.reveal #iv6-unit-vectors .a-unit-equivalence .a-eq{font-size:37px;margin:26px 0}
+.reveal #iv6-perpendicular .a-cols{align-items:center;margin-top:65px}
+.reveal #iv6-perpendicular .a-cols .a-eq{font-size:40px}
+.reveal #iv6-perpendicular-rule .a-cols{align-items:center;grid-template-columns:1.1fr 1fr;gap:38px}
+.reveal #iv6-perpendicular-rule .a-figure .a-svg{height:350px}
+.reveal #iv6-perpendicular-rule .a-eq{font-size:34px;margin:24px 0}
+.reveal .a-collinear-figure .a-svg{height:285px}
+.reveal .a-collinear-condition p{font-size:30px}
+.reveal .a-collinear-conclusion{border-left:4px solid var(--teal);padding-left:20px;margin-top:22px}
+.a-collinear-vectors,.a-collinear-line,.a-collinear-shared{opacity:0;visibility:hidden}
+[data-angles="collinear"] .a-draw-stroke{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .8s ease-out}
+[data-angles="collinear"][data-stage="1"] .a-collinear-vectors,
+[data-angles="collinear"][data-stage="2"] .a-collinear-vectors,
+[data-angles="collinear"][data-stage="2"] .a-collinear-line,
+[data-angles="collinear"][data-stage="2"] .a-collinear-shared{opacity:1;visibility:visible}
+[data-angles="collinear"][data-stage="1"] .a-collinear-vectors .a-draw-stroke,
+[data-angles="collinear"][data-stage="2"] .a-draw-stroke{stroke-dashoffset:0}
+.a-collinear-vectors>g>path:not(.a-draw-stroke),.a-collinear-vectors .a-vector-labels{opacity:0;transition:opacity .2s .55s}
+[data-stage="1"] .a-collinear-vectors>g>path:not(.a-draw-stroke),
+[data-stage="2"] .a-collinear-vectors>g>path:not(.a-draw-stroke),
+[data-stage="1"] .a-collinear-vectors .a-vector-labels,
+[data-stage="2"] .a-collinear-vectors .a-vector-labels{opacity:1}
+@media(prefers-reduced-motion:reduce){[data-angles="collinear"] .a-draw-stroke,.a-collinear-vectors>g>path,.a-collinear-vectors .a-vector-labels{transition:none}}

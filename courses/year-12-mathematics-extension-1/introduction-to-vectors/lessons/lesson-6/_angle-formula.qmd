@@ -1,19 +1,17 @@
 ## Finding the angle between vectors {#iv6-angle-formula .vector-lesson .magnitude-lesson .angles-lesson .a-formula}
 
-```{=html}
-<p>For two non-zero vectors in 2D or 3D:</p>
-```
+For two non-zero vectors in 2D or 3D:
 
 $$
 \cos\theta=\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{a}||\underset{\sim}{b}|}
 $$
 
 ```{=html}
-<div class="a-eq"><span data-math="\boxed{\theta=\cos^{-1}\!\left(\frac{\underset{\sim}{a}\cdot\underset{\sim}{b}}{|\underset{\sim}{a}||\underset{\sim}{b}|}\right)}"></span></div><div class="a-steps"><span>1. Scalar product</span><span>2. Magnitudes</span><span>3. Substitute and use inverse cosine</span></div><p>Measure from a common tail and report <span data-math="0^\circ\leq\theta\leq180^\circ"></span>. Use degree mode.</p>
+<div class="a-syllabus-note"><p>The syllabus specifies that the angle between vectors is stated in the range</p><div class="a-eq"><span data-math="0^\circ\leq\theta\leq180^\circ"></span>.</div></div>
 ```
 
 <div class="booklet-cue">Booklet Section 6 · p. 41</div>
 
 ::: notes
-Preserve exact square roots until the last step. A negative dot product gives an obtuse angle or 180°, so use the sign to check the result. The reflex angle gives the same cosine but is not the angle reported here. No repeated derivation from the cosine rule.
+State the cosine relationship directly. Do not add a procedure, an inverse-cosine formula or a degree-mode reminder. Emphasise the syllabus convention: report the smaller tail-to-tail angle in [0°,180°]. The worked examples retain their complete calculations.
 :::

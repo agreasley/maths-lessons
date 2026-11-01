@@ -1,11 +1,14 @@
-## Using parallel vectors to show collinearity {#iv6-collinear .vector-lesson .magnitude-lesson .angles-lesson }
+## Using parallel vectors to show collinearity {#iv6-collinear .vector-lesson .magnitude-lesson .angles-lesson}
 
 ```{=html}
-<p>Three distinct points are <strong>collinear</strong> when they lie on the same straight line.</p><div data-angles="collinear" class="a-figure"></div><div class="a-eq"><span data-math="\overrightarrow{AC}=\lambda\overrightarrow{AB}"></span></div><p>The vectors share the point <span data-math="A"></span>. If one is a scalar multiple of the other, <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> lie on the same line.</p>
+<p>Consider three distinct points <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span>.</p>
+<div data-angles="collinear" data-stage="0" class="a-figure a-collinear-figure"></div>
+<div class="fragment a-collinear-condition" data-fragment-index="0" data-collinear-stage="1"><p>If <span data-math="\overrightarrow{AC}=\lambda\overrightarrow{AB}"></span>, the vectors are <strong>parallel</strong>.</p></div>
+<div class="fragment a-collinear-conclusion" data-fragment-index="1" data-collinear-stage="2"><p>They also share the point <span data-math="A"></span>, so <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> lie on one straight line: they are <strong>collinear</strong>.</p></div>
 ```
 
 <div class="booklet-cue">Booklet Section 6 · p. 51</div>
 
 ::: notes
-Brief context for the retained applications. Parallel vectors alone may lie on different parallel lines; the common point is what establishes collinearity.
+Initially show only the three labelled points. First Next click draws AB and AC from their shared tail and reveals the scalar-multiple condition for parallelism. Second Next click highlights the common point A, draws the straight line through all three points and reveals the conclusion. Previous reverses the stages; returning to the initial state allows the animation to replay. The diagram illustrates the case in which parallelism has been established; do not infer that any three points are collinear. Parallel vectors on different lines do not alone establish collinearity: the common point matters. All geometry and mathematical labels share native SVG coordinates, including slide-map previews.
 :::

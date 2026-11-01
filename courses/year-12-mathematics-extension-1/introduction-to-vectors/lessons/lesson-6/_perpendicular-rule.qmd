@@ -1,0 +1,16 @@
+## Finding a perpendicular vector in 2D {#iv6-perpendicular-rule .vector-lesson .magnitude-lesson .angles-lesson}
+
+```{=html}
+<p>To find <strong>a vector</strong> perpendicular to a non-zero 2D vector, <strong>swap the two components and change one sign</strong>.</p>
+<div class="a-cols"><div><div data-angles="turns" class="a-figure"></div></div><div>
+<div class="a-eq"><span data-math="\begin{bmatrix}a\\b\end{bmatrix}\perp\begin{bmatrix}-b\\a\end{bmatrix}"></span></div>
+<div class="a-eq"><span data-math="\begin{bmatrix}a\\b\end{bmatrix}\perp\begin{bmatrix}b\\-a\end{bmatrix}"></span></div>
+<p>Both choices also have the <strong>same magnitude</strong> as the original vector.</p>
+</div></div>
+```
+
+<div class="booklet-cue">Booklet Section 6.3 · Example 6.9 · p. 48</div>
+
+::: notes
+State this syllabus result explicitly after Example 6.9 and before Example 6.10. Swapping components and changing exactly one sign produces a 90° rotation. It finds a perpendicular vector, not a unique perpendicular vector. The two displayed choices have the original magnitude and opposite directions. This shortcut is for 2D; do not apply it unchanged in 3D.
+:::

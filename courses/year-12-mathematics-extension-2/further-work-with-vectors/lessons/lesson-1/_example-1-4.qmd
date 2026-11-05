@@ -1,0 +1,11 @@
+## Example 1.4 {#fv1-example-1-4 .fv-lesson }
+
+```{=html}
+<p>Given two non-zero vectors <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span>, use scalar products to show that if</p><div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|=|\underset{\sim}{a}-\underset{\sim}{b}|,"></span></div><p>then <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> are perpendicular.</p>
+```
+
+<div class="booklet-cue">Booklet Example 1.4 · p. 5</div>
+
+::: {.notes}
+Square both sides and replace squared magnitudes with self-products. Expansion gives |a|²+2a·b+|b|²=|a|²−2a·b+|b|², hence 4a·b=0. Since both vectors are non-zero, a·b=0 implies perpendicularity. If needed ask: how can a squared magnitude be written as a dot product?
+:::

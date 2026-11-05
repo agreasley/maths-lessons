@@ -1,0 +1,26 @@
+---
+title: "Further Work with Vectors"
+description: "Use scalar products to prove results and vector equations to describe lines, circles, spheres and curves."
+metadata-files: [../../../_site-page.yml]
+topic-order: 1
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Extension 2</a></li><li><span aria-current="page">Further Work with Vectors</span></li></ol></nav>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Extension 2</p><h1>Further Work with Vectors</h1><p class="intro-copy">From familiar algebra to geometric proof and curves in three dimensions.</p><div class="topic-tags"><span>1 lesson available</span><span>Extension 1 vectors assumed</span><span>Homework 1</span></div></header>
+<figure style="margin:0 0 32px;background:#152e3b;border-radius:12px;display:grid;place-items:center"><img src="media/spherical-spiral.svg" alt="A spiral makes three turns around the surface of a sphere, from the bottom pole to the top pole." style="display:block;width:min(100%,480px);height:auto;margin:0"></figure>
+<div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Connect algebra and geometry.</h2><p>Lesson 1 covers Chapter 1 of the Further Work with Vectors booklet: scalar-product properties, standard unit vectors, vector identities and the triangle inequality, through Examples 1.1–1.7. Worked examples are completed in class. Follow the Homework 1 allocation at the end of the lesson.</p></div></div>
+```

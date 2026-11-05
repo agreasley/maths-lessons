@@ -1,0 +1,11 @@
+## Standard unit vectors {#fv1-unit-vectors .fv-lesson }
+
+```{=html}
+<p>The standard unit vectors <span data-math="\underset{\sim}{i}"></span>, <span data-math="\underset{\sim}{j}"></span> and <span data-math="\underset{\sim}{k}"></span> each have magnitude 1 and are mutually perpendicular.</p><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{i}\cdot\underset{\sim}{i}=1\times1\times\cos0^\circ=1"></span></div><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{i}\cdot\underset{\sim}{j}=1\times1\times\cos90^\circ=0"></span></div><div data-module="reveal-panel"><button class="toggle-panel" aria-pressed="false">Show all unit-vector products</button><div class="panel-answer" hidden><table class="fv-unit-table"><thead><tr><th>Dot product</th><th><span data-math="\underset{\sim}{i}"></span></th><th><span data-math="\underset{\sim}{j}"></span></th><th><span data-math="\underset{\sim}{k}"></span></th></tr></thead><tbody><tr><th><span data-math="\underset{\sim}{i}"></span></th><td>1</td><td>0</td><td>0</td></tr><tr><th><span data-math="\underset{\sim}{j}"></span></th><td>0</td><td>1</td><td>0</td></tr><tr><th><span data-math="\underset{\sim}{k}"></span></th><td>0</td><td>0</td><td>1</td></tr></tbody></table></div></div>
+```
+
+<div class="booklet-cue">Booklet §1.2 · p. 3</div>
+
+::: {.notes}
+Use the geometric definition. The angle between a unit vector and itself is 0°; between distinct standard unit vectors it is 90°. Ask students to anticipate the table, then reveal it. The diagonal entries are 1 and all off-diagonal entries are 0.
+:::

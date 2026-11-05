@@ -1,0 +1,11 @@
+## The same algebraic patterns {#fv1-properties .fv-lesson }
+
+```{=html}
+<div class="fv-law"><h3>Commutative</h3><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}\cdot\underset{\sim}{b}=\underset{\sim}{b}\cdot\underset{\sim}{a}"></span></div></div><div class="fv-law"><h3>Scalar multiplication</h3><div class="fv-equation"><span data-math="\displaystyle m(\underset{\sim}{a}\cdot\underset{\sim}{b})=(m\underset{\sim}{a})\cdot\underset{\sim}{b}=\underset{\sim}{a}\cdot(m\underset{\sim}{b}),\quad m\in\mathbb R"></span></div></div><div class="fv-law"><h3>Distributive</h3><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}\cdot(\underset{\sim}{b}+\underset{\sim}{c})=\underset{\sim}{a}\cdot\underset{\sim}{b}+\underset{\sim}{a}\cdot\underset{\sim}{c}"></span></div></div>
+```
+
+<div class="booklet-cue">Booklet §1.1 · p. 1</div>
+
+::: {.notes}
+Connect each rule to the preceding number/algebra examples. The scalar-multiplication rule contains one scalar and two vectors. Commutativity is also immediate from |a||b|cosθ. If a brief check is needed, the already-known component definition verifies distribution and scalar multiplication term by term. No separate associativity caveat or new routine.
+:::

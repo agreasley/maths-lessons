@@ -1,0 +1,11 @@
+## Homework 1 · Properties of the scalar product {#fv1-homework .fv-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2 · Exercise 4F</p><div class="homework-level"><strong>Mild</strong><span>Q1(a,d), Q4(a), Q6, Q8, Q10(a).</span></div><div class="homework-level"><strong>Medium</strong><span>Q1, Q2, Q4, Q5–8, Q10(a), Q14.</span></div><div class="homework-level"><strong>Spicy</strong><span>Q2, Q4(b), Q5–8, Q10(a), Q14, Q18, Q19.</span></div>
+```
+
+<div class="booklet-cue">Booklet Homework 1 · p. 10</div>
+
+::: {.notes}
+Homework 1 is copied from the supplied booklet, printed pages iv and 10. No textbook questions have been reallocated.
+:::

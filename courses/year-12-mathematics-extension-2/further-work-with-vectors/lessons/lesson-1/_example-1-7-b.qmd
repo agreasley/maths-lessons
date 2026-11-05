@@ -1,0 +1,11 @@
+## Example 1.7 · Lower bound {#fv1-example-1-7-b .fv-lesson }
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> be vectors in two or three dimensions.</p><p>b) Hence prove that</p><div class="fv-equation"><span data-math="\displaystyle \bigl||\underset{\sim}{a}|-|\underset{\sim}{b}|\bigr|\leq|\underset{\sim}{a}+\underset{\sim}{b}|."></span></div>
+```
+
+<div class="booklet-cue">Booklet Example 1.7(b) · p. 8</div>
+
+::: {.notes}
+Use part (a) with a=(a+b)+(−b): |a|≤|a+b|+|b|, so |a|−|b|≤|a+b|. Exchange a and b to get |b|−|a|≤|a+b|. Together these give the absolute-value lower bound. Keep the rearrangement a=(a+b)+(−b) as an optional oral prompt, not extra student instructions.
+:::

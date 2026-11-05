@@ -1,0 +1,11 @@
+## Example 1.7 · Triangle inequality {#fv1-example-1-7-a .fv-lesson }
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> be vectors in two or three dimensions.</p><p>a) By expanding <span data-math="(\underset{\sim}{a}+\underset{\sim}{b})\cdot(\underset{\sim}{a}+\underset{\sim}{b})"></span>, prove that</p><div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|\leq|\underset{\sim}{a}|+|\underset{\sim}{b}|."></span></div>
+```
+
+<div class="booklet-cue">Booklet Example 1.7(a) · p. 8</div>
+
+::: {.notes}
+Work in OneNote. If either vector is zero, equality is immediate. Otherwise |a+b|²=|a|²+2a·b+|b|²=|a|²+2|a||b|cosθ+|b|²≤(|a|+|b|)² since cosθ≤1. Both sides are non-negative, so taking square roots proves the result. This is an application of dot-product expansion; do not assume Cauchy–Schwarz, which belongs to Lesson 2.
+:::

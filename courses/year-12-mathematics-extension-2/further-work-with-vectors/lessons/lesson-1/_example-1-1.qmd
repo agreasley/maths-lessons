@@ -1,0 +1,11 @@
+## Example 1.1 {#fv1-example-1-1 .fv-lesson }
+
+```{=html}
+<p>It is known that <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{c}=3"></span> and <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=-2"></span>.</p><p>Find:</p><div class="fv-parts"><p>a) <span data-math="(2\underset{\sim}{a})\cdot(5\underset{\sim}{c})"></span></p><p>b) <span data-math="\underset{\sim}{c}\cdot\underset{\sim}{a}"></span></p><p>c) <span data-math="\underset{\sim}{a}\cdot(\underset{\sim}{b}+\underset{\sim}{c})"></span></p></div>
+```
+
+<div class="booklet-cue">Booklet Example 1.1 · p. 2</div>
+
+::: {.notes}
+Work in OneNote. a) 2×5×3=30 by scalar multiplication. b) 3 by commutativity. c) −2+3=1 by distributivity. Ask which property is useful before calculating.
+:::

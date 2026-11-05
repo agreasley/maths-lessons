@@ -1,0 +1,11 @@
+## Example 1.3 {#fv1-example-1-3 .fv-lesson .fv-compact}
+
+```{=html}
+<p>Given <span data-math="\underset{\sim}{a}\cdot(\underset{\sim}{b}+\underset{\sim}{c})=\underset{\sim}{a}\cdot\underset{\sim}{b}+\underset{\sim}{a}\cdot\underset{\sim}{c}"></span></p><p>a) Show that</p><div class="fv-equation"><span data-math="\displaystyle (\underset{\sim}{a}+\underset{\sim}{b})\cdot(\underset{\sim}{c}+\underset{\sim}{d})=(\underset{\sim}{a}\cdot\underset{\sim}{c})+(\underset{\sim}{a}\cdot\underset{\sim}{d})+(\underset{\sim}{b}\cdot\underset{\sim}{c})+(\underset{\sim}{b}\cdot\underset{\sim}{d})"></span></div><div data-module="reveal-panel"><button class="toggle-panel" aria-pressed="false">Show part b</button><div class="panel-answer" hidden><p>b) Hence show that</p><div class="fv-equation"><span data-math="\displaystyle (\underset{\sim}{a}+\underset{\sim}{b})\cdot(\underset{\sim}{a}-\underset{\sim}{b})=|\underset{\sim}{a}|^2-|\underset{\sim}{b}|^2"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 1.3 · p. 4</div>
+
+::: {.notes}
+a) Distribute in each argument, using commutativity when needed. b) a·a−a·b+b·a−b·b. The mixed terms cancel by commutativity, and self-products become squared magnitudes. Ask which property justifies the cancellation.
+:::

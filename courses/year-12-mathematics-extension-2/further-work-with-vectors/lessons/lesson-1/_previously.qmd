@@ -1,0 +1,13 @@
+## Previously · The scalar product {#fv1-previously .fv-lesson }
+
+$$
+\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta
+$$
+
+```{=html}
+<div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}\cdot\underset{\sim}{a}=|\underset{\sim}{a}|^2"></span></div><p>For non-zero vectors, <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span> exactly when the vectors are perpendicular.</p><div class="takeaway">The dot product of two vectors is a scalar.</div>
+```
+
+::: {.notes}
+Students have completed the Extension 1 introduction to vectors. Briefly recall the component and geometric definitions, self-products and perpendicularity; avoid reteaching these. Ask orally what kind of object a dot product produces.
+:::

@@ -1,0 +1,11 @@
+## Example 1.5 {#fv1-example-1-5 .fv-lesson .fv-compact}
+
+```{=html}
+<p>Prove that</p><div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}+\underset{\sim}{c}|^2=|\underset{\sim}{a}|^2+|\underset{\sim}{b}|^2+|\underset{\sim}{c}|^2+2\bigl(\underset{\sim}{a}\cdot\underset{\sim}{b}+\underset{\sim}{a}\cdot\underset{\sim}{c}+\underset{\sim}{b}\cdot\underset{\sim}{c}\bigr)."></span></div>
+```
+
+<div class="booklet-cue">Kambala Extension 1, 2024 Task 1, Q7(c) · 2 marks · Booklet p. 6</div>
+
+::: {.notes}
+Kambala Extension 1, 2024 Task 1, Q7(c), 2 marks. Short independent expansion, then compare in OneNote. Expand (a+b+c)·(a+b+c); three self-products and six cross-products result. Pair each cross-product with its reverse using commutativity.
+:::

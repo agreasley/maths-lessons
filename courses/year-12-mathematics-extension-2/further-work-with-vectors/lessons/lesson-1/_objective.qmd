@@ -1,0 +1,5 @@
+## Today’s learning {#fv1-objective .fv-lesson }
+
+```{=html}
+<h3>Learning objective</h3><p>We are learning to use the algebraic properties of the scalar product.</p><h3>Success criterion</h3><p>I can use scalar product properties to simplify expressions and justify vector identities.</p>
+```

@@ -1,0 +1,11 @@
+## Associative · Change the grouping {#fv1-associative .fv-lesson }
+
+```{=html}
+<p>An operation is <strong>associative</strong> when changing the grouping does not change the result.</p><div class="fv-equation"><span data-math="\displaystyle (2\times3)\times4=2\times(3\times4)"></span></div><div data-module="reveal-panel"><button class="toggle-panel" aria-pressed="false">Show result</button><div class="panel-answer" hidden><div class="fv-equation"><span data-math="\displaystyle 6\times4=2\times12=24"></span></div></div></div><div class="fv-equation"><span data-math="\displaystyle m(ab)=(ma)b=a(mb)"></span></div>
+```
+
+<div class="booklet-cue">Booklet §1.1 · p. 1</div>
+
+::: {.notes}
+About one minute. In the numerical example the order 2,3,4 stays fixed; the brackets change. Pure associativity is m(ab)=(ma)b. The final form a(mb) also uses commutativity of real multiplication. Connect this to moving one scalar factor in the vector rule; do not add a discussion of a three-vector dot product.
+:::

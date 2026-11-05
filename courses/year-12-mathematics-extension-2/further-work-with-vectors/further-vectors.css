@@ -1,0 +1,19 @@
+/* Topic styles; shared controls and navigation remain in assets/lesson.css. */
+.reveal .fv-lesson .fv-equation{margin:25px 0;line-height:1.5}
+.reveal .fv-lesson .fv-law h3{font-size:25px;margin:14px 0 6px;color:var(--teal)}
+.reveal .fv-lesson .fv-law .fv-equation{margin:6px 0 24px}
+.reveal .fv-lesson .fv-parts p{margin:33px 0}
+.reveal .fv-lesson .panel-answer{padding-top:6px}
+.reveal .fv-lesson .fv-unit-table{max-width:650px;font-size:25px}
+.reveal .fv-compact{font-size:27px}
+.reveal .fv-compact .fv-equation{font-size:27px;margin:20px 0}
+.reveal .fv-compact p{margin:14px 0}
+.reveal .fv-cover-image{position:absolute;right:12px;top:145px;width:480px;height:480px;max-width:none;max-height:none;margin:0}
+.reveal .fv-lesson.cover .cover-title{font-size:66px;max-width:720px;position:relative;z-index:1;margin-top:85px}
+.reveal .fv-lesson.cover .cover-subtitle{font-size:28px;max-width:700px}
+.reveal .fv-lesson .fv-triangle-layout{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.reveal .fv-triangle-diagram svg{width:100%;height:300px;display:block}
+.reveal .fv-lesson .choices .choice{font-size:23px;gap:12px}
+.reveal .fv-lesson .hinge-question{font-size:29px}
+.reveal .fv-lesson .hinge-explanation{font-size:22px}
+.reveal .fv-lesson .homework-level{font-size:28px;padding:24px 0}

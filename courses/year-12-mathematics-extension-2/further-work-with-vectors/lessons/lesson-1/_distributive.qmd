@@ -1,0 +1,11 @@
+## Distributive · Multiply each term {#fv1-distributive .fv-lesson }
+
+```{=html}
+<p>Multiplication <strong>distributes over addition</strong>: multiply each term in the sum.</p><div class="fv-equation"><span data-math="\displaystyle 2(3+4)=2\times3+2\times4"></span></div><div class="fv-equation"><span data-math="\displaystyle a(b+c)=ab+ac"></span></div><div data-module="reveal-panel"><button class="toggle-panel" aria-pressed="false">Show two brackets</button><div class="panel-answer" hidden><div class="fv-equation"><span data-math="\displaystyle (a+b)(c+d)=ac+ad+bc+bd"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet §1.1 · p. 1</div>
+
+::: {.notes}
+About two minutes. Point to the repeated factor and each term it multiplies. The two-bracket extension prepares Example 1.3; keep the numerical arithmetic brief.
+:::

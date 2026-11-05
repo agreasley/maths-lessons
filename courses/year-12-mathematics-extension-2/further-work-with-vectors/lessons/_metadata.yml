@@ -1,0 +1,36 @@
+format:
+  revealjs:
+    theme: simple
+    css:
+      - ../../../../assets/lesson.css
+      - ../further-vectors.css
+    include-in-header:
+      text: |
+        <meta name="lesson-topic-url" content="../index.html">
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../../../year-12-mathematics-extension-1/introduction-to-vectors/diagram-math-config.js"></script>
+        <script src="../../../../assets/vendor/mathjax-3.2.2/tex-svg.js"></script>
+        <script src="../../../year-12-mathematics-extension-1/introduction-to-vectors/diagram-math.js"></script>
+        <script src="../further-vectors.js"></script>
+    width: 1280
+    height: 800
+    margin: 0.09
+    center: false
+    transition: none
+    background-transition: none
+    controls: false
+    touch: false
+    hash: true
+    history: true
+    slide-number: c/t
+    progress: true
+    menu: false
+    overview: true
+    title-slide: false
+    embed-resources: true
+    self-contained-math: true
+    html-math-method: katex
+    navigation-mode: linear
+    slide-level: 2

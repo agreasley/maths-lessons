@@ -1,0 +1,9 @@
+## Key ideas {#fv1-finish .fv-lesson }
+
+```{=html}
+<p>Use commutativity, scalar multiplication and distributivity to work with dot products.</p><div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|^2=(\underset{\sim}{a}+\underset{\sim}{b})\cdot(\underset{\sim}{a}+\underset{\sim}{b})"></span></div><p>Standard unit-vector products simplify expansions; squared magnitudes connect dot products to geometric results.</p><div class="takeaway">I can use scalar product properties to simplify expressions and justify vector identities.</div>
+```
+
+::: {.notes}
+Very brief return to the success criterion. The triangle inequality is the concluding application. Move directly to Homework 1; no additional exit routine.
+:::

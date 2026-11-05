@@ -1,0 +1,11 @@
+## Example 1.6 {#fv1-example-1-6 .fv-lesson .fv-compact}
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{u}"></span> and <span data-math="\underset{\sim}{v}"></span> be unit vectors with angle <span data-math="\theta"></span> between them, where <span data-math="0\leq\theta\leq\pi"></span>.</p><p>Suppose</p><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}=x\underset{\sim}{u}+y\underset{\sim}{v},\qquad \underset{\sim}{b}=p\underset{\sim}{u}+q\underset{\sim}{v},"></span></div><p>where <span data-math="x,y,p,q\in\mathbb R"></span>.</p><p>a) Show that</p><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}\cdot\underset{\sim}{b}=xp+yq+(xq+yp)\cos\theta."></span></div><p>b) Find the value of <span data-math="\theta"></span> for which <span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=xp+yq"></span> for all real values of <span data-math="x,y,p,q"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 1.6 · p. 7</div>
+
+::: {.notes}
+a) Expand xp(u·u)+xq(u·v)+yp(v·u)+yq(v·v), then use u·u=v·v=1 and u·v=v·u=cosθ. b) For all coefficients requires cosθ=0 (for example choose x=q=1,y=p=0); 0≤θ≤π gives θ=π/2. A particular coefficient choice may cancel the cross-term without perpendicularity: emphasise “for all”. Brief pair prompt if useful: which terms disappear for standard unit vectors, and why?
+:::

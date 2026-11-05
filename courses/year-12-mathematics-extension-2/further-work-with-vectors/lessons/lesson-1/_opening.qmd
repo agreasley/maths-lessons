@@ -1,0 +1,9 @@
+## Properties of the scalar product {#fv1-opening .fv-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 1</div><div class="cover-title">Properties of<br>the scalar product</div><div class="cover-subtitle">Further Work with Vectors<br>From familiar algebra to vector identities.</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A three-turn spiral winding around the surface of a translucent sphere."><div class="cover-foot">Booklet Chapter 1 · Examples 1.1–1.7 · Homework 1</div>
+```
+
+::: {.notes}
+The unit image previews Example 3.38. It is drawn from x=√(9−t²) cos(π(t+3)), y=√(9−t²) sin(π(t+3)), z=t, −3≤t≤3. Its points lie on a sphere of radius 3 and its azimuth makes exactly three turns. No curve investigation in this lesson.
+:::

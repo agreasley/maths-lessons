@@ -1,0 +1,11 @@
+## Example 1.2 {#fv1-example-1-2 .fv-lesson }
+
+```{=html}
+<p>If <span data-math="\underset{\sim}{a}=x_1\underset{\sim}{i}+y_1\underset{\sim}{j}+z_1\underset{\sim}{k}"></span> and <span data-math="\underset{\sim}{b}=x_2\underset{\sim}{i}+y_2\underset{\sim}{j}+z_2\underset{\sim}{k}"></span>, by applying the distributive property of the scalar product prove that</p><div class="fv-equation"><span data-math="\displaystyle \underset{\sim}{a}\cdot\underset{\sim}{b}=x_1x_2+y_1y_2+z_1z_2"></span></div>
+```
+
+<div class="booklet-cue">Booklet Example 1.2 · p. 3</div>
+
+::: {.notes}
+Expand all nine products in OneNote. The terms x₁x₂(i·i), y₁y₂(j·j), z₁z₂(k·k) survive; the six mixed unit-vector products vanish. Use scalar multiplication to take out the coefficients. This justifies the familiar component formula from the unit-vector results.
+:::

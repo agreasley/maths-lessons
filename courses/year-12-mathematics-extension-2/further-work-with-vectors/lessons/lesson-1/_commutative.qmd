@@ -1,11 +1,11 @@
 ## Commutative · Change the order {#fv1-commutative .fv-lesson }
 
 ```{=html}
-<p>An operation is <strong>commutative</strong> when changing the order does not change the result.</p><div class="fv-equation"><span data-math="\displaystyle \textcolor{#217864}{3}\times\textcolor{#ad6e32}{5}=\textcolor{#ad6e32}{5}\times\textcolor{#217864}{3}"></span></div><div class="fv-equation"><span data-math="\displaystyle ab=ba"></span></div>
+<p>An operation is <strong>commutative</strong> when changing the order does not change the result.</p><div class="fv-equation"><span data-math="\displaystyle \textcolor{#217864}{3}\times\textcolor{#ad6e32}{5}=\textcolor{#ad6e32}{5}\times\textcolor{#217864}{3}"></span></div><div class="fv-equation"><span data-math="\displaystyle \textcolor{#217864}{a}\textcolor{#ad6e32}{b}=\textcolor{#ad6e32}{b}\textcolor{#217864}{a}"></span></div>
 ```
 
 <div class="booklet-cue">Booklet §1.1 · p. 1</div>
 
 ::: {.notes}
-About one minute. The factors exchange positions. Multiplication of real numbers is commutative. Keep the definition distinct from changing brackets.
+About one minute. Each factor keeps its colour as it changes position. Multiplication of real numbers is commutative. Keep changing order distinct from changing brackets. All content is visible immediately.
 :::

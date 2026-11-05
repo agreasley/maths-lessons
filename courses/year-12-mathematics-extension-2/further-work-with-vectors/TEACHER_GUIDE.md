@@ -8,7 +8,7 @@ Objective: We are learning to use the algebraic properties of the scalar product
 
 Success criterion: I can use scalar product properties to simplify expressions and justify vector identities.
 
-The shared cover and objective precede the recap. The lesson has 20 slides, including separate cover, key-ideas and homework slides. For approximately 50 minutes: opening/recap 4; algebra properties and transfer 7; hinge and Example 1.1 5; unit vectors and Example 1.2 7; Examples 1.3–1.6 15; triangle inequality proof and interpretation 10; close/homework 2. This is a full lesson: keep the numerical illustrations brief and Example 1.5 a short independent expansion. The final triangle-inequality slide is static with a brief explanation, with no routine or slider. Example wording, values, notation, subparts and numbering are preserved. Solutions and optional prompts are in presenter notes for OneNote working.
+The shared cover and objective precede the recap. The lesson has 21 slides, including separate cover, key-ideas and homework slides. For approximately 50 minutes: opening/recap 4; algebra properties and transfer 7; hinge and Example 1.1 5; unit vectors and Example 1.2 7; Examples 1.3–1.6 15; triangle inequality proof and interpretation 10; close/homework 2. This is a full lesson: keep the numerical illustrations brief and Example 1.5 a short independent expansion. The two final triangle-inequality slides give separate static interpretations of the upper and lower bounds, with no routine or slider. Example wording, values, notation, subparts and numbering are preserved. Solutions and optional prompts are in presenter notes for OneNote working.
 
 ## Mathematical checks
 
@@ -33,7 +33,7 @@ Cambridge Year 12 Extension 2, Exercise 4F. Mild: Q1(a,d), Q4(a), Q6, Q8, Q10(a)
 
 ## Unit image and diagrams
 
-The reusable cover asset is `media/spherical-spiral.svg`, also shown on the topic landing page. It plots (√(9−t²)cos(π(t+3)), √(9−t²)sin(π(t+3)), t), −3≤t≤3, on the radius-3 sphere, with three full turns. This is an exact mathematical illustration inspired by Example 3.38, with no coordinate labels or instructional task on the cover.
+The reusable cover asset is `media/spherical-spiral.svg`, used only on presentation covers; the topic contents page has no graphic. It plots (√(9−t²)cos(π(t+3)), √(9−t²)sin(π(t+3)), t), −3≤t≤3, on the radius-3 sphere, with three full turns. This is an exact mathematical illustration inspired by Example 3.38, with no coordinate labels or instructional task on the cover.
 
 The static triangle reuses the existing Extension 1 `VectorDiagramMath` helper and local MathJax SVG renderer. Diagram labels and arrows share one SVG coordinate system; no foreignObject labels. Student text and equations use the shared local KaTeX rendering.
 
@@ -43,8 +43,14 @@ From the repository root, run `quarto preview courses/year-12-mathematics-extens
 
 ## Validation completed
 
-Rendered the lesson, topic page, course page and homepage using Quarto 1.10.18. The rendered lesson contains 20 top-level slides and no unintended nested slides. Chromium checks covered every slide with Next and Previous, slide-map jumps, initial answer hiding, numbered option mapping, a complete 30-second expiry with the answer still hidden, Pause/Resume, Reset, adjustable duration, pausing on opening the slide map, the unit-vector table reveal and Example 1.3(b) reveal. All KaTeX expressions and three native SVG labels rendered without errors. Representative cover, hinge, unit-vector table, Example 1.6 and triangle-inequality layouts were visually reviewed at the available 1363×936 browser viewport. Course → topic → lesson links resolve to rendered HTML.
+Rendered the lesson, topic page, course page and homepage using Quarto 1.10.18. The rendered lesson contains 21 top-level slides and no unintended nested slides. Chromium checks covered every slide with Next and Previous, slide-map jumps, initial answer hiding, numbered option mapping, a complete 30-second expiry with the answer still hidden, Pause/Resume, Reset, adjustable duration, pausing on opening the slide map, the unit-vector table reveal and Example 1.3(b) reveal. All KaTeX expressions and six native SVG labels rendered without errors. Representative cover, hinge, unit-vector table, Example 1.6 and triangle-inequality layouts were visually reviewed at the available 1363×936 browser viewport. Course → topic → lesson links resolve to rendered HTML.
 
 WebKit, touch-device emulation at 1024×768 and 1194×834, orientation changes and a physical iPad were not available in this environment; those checks remain outstanding. No device-specific offsets or HTML foreignObject labels were introduced.
 
 The environment's static preview server injects live-reload code at literal closing HTML tags, including tags inside the embedded Reveal presenter-notes string. For this local preview and the standalone HTML copy, closing body/head/html tags inside script strings were escaped as `<\/body>`, `<\/head>` and `<\/html>`, leaving the JavaScript runtime strings unchanged. This is a generated-preview workaround, not a source or publishing change; GitHub Pages does not use that preview server.
+
+## Requested refinements
+
+Definitions and all numerical/algebraic results on the commutative, associative and distributive slides are visible immediately; colour tracks repeated factors. The upper-bound interpretation states that the shortest distance between two points is a straight line. The lower-bound interpretation uses cancellation in opposite directions and a separate static diagram. The unit cover remains on the presentation opening slide only.
+
+Refinement checks: re-rendered the lesson and topic page; verified 21 top-level slides, zero maths-rendering errors, six SVG labels, zero buttons in the three definition slides, zero images on the topic contents page, and the retained lesson link. Visually checked the coloured associative/distributive identities and both triangle-bound slides in Chromium; the new lower-bound slide fits without clipping.

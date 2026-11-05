@@ -1,11 +1,11 @@
 ## Distributive · Multiply each term {#fv1-distributive .fv-lesson }
 
 ```{=html}
-<p>Multiplication <strong>distributes over addition</strong>: multiply each term in the sum.</p><div class="fv-equation"><span data-math="\displaystyle 2(3+4)=2\times3+2\times4"></span></div><div class="fv-equation"><span data-math="\displaystyle a(b+c)=ab+ac"></span></div><div data-module="reveal-panel"><button class="toggle-panel" aria-pressed="false">Show two brackets</button><div class="panel-answer" hidden><div class="fv-equation"><span data-math="\displaystyle (a+b)(c+d)=ac+ad+bc+bd"></span></div></div></div>
+<p>Multiplication <strong>distributes over addition</strong>: multiply each term in the sum.</p><div class="fv-equation"><span data-math="\displaystyle \textcolor{#217864}{2}(\textcolor{#ad6e32}{3}+\textcolor{#315985}{4})=\textcolor{#217864}{2}\times\textcolor{#ad6e32}{3}+\textcolor{#217864}{2}\times\textcolor{#315985}{4}"></span></div><div class="fv-equation"><span data-math="\displaystyle \textcolor{#217864}{a}(\textcolor{#ad6e32}{b}+\textcolor{#315985}{c})=\textcolor{#217864}{a}\textcolor{#ad6e32}{b}+\textcolor{#217864}{a}\textcolor{#315985}{c}"></span></div><div class="fv-equation"><span data-math="\displaystyle (\textcolor{#217864}{a}+\textcolor{#ad6e32}{b})(c+d)=\textcolor{#217864}{a}c+\textcolor{#217864}{a}d+\textcolor{#ad6e32}{b}c+\textcolor{#ad6e32}{b}d"></span></div>
 ```
 
 <div class="booklet-cue">Booklet §1.1 · p. 1</div>
 
 ::: {.notes}
-About two minutes. Point to the repeated factor and each term it multiplies. The two-bracket extension prepares Example 1.3; keep the numerical arithmetic brief.
+About two minutes. The multiplying factor keeps its colour each time it is distributed. In the final identity, colour a and b to track the two sets of products. Keep the arithmetic brief. All results are visible, with no reveal buttons.
 :::

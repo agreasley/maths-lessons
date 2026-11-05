@@ -14,7 +14,6 @@ listing:
 ```{=html}
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Extension 2</a></li><li><span aria-current="page">Further Work with Vectors</span></li></ol></nav>
 <header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Extension 2</p><h1>Further Work with Vectors</h1><p class="intro-copy">From familiar algebra to geometric proof and curves in three dimensions.</p><div class="topic-tags"><span>1 lesson available</span><span>Extension 1 vectors assumed</span><span>Homework 1</span></div></header>
-<figure style="margin:0 0 32px;background:#152e3b;border-radius:12px;display:grid;place-items:center"><img src="media/spherical-spiral.svg" alt="A spiral makes three turns around the surface of a sphere, from the bottom pole to the top pole." style="display:block;width:min(100%,480px);height:auto;margin:0"></figure>
 <div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
 ```
 

@@ -1,0 +1,11 @@
+## Triangle inequality · The lower bound {#fv1-triangle-lower .fv-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\displaystyle \bigl||\underset{\sim}{a}|-|\underset{\sim}{b}|\bigr|\leq|\underset{\sim}{a}+\underset{\sim}{b}|"></span></div><div class="fv-triangle-layout"><div class="fv-lower-diagram" role="img" aria-label="Opposite vectors cancel part of each other. The remaining displacement has length equal to the difference of their magnitudes."></div><div><p><strong>The most cancellation occurs when vectors point in opposite directions.</strong></p><p class="small">For fixed magnitudes, the resultant cannot be shorter than the difference of the two lengths.</p><p class="small">Equality holds when non-zero vectors point in <strong>opposite directions</strong>.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet §1.3 · p. 9</div>
+
+::: {.notes}
+Brief static interpretation. The aligned arrows are separated into rows for clarity; all vectors lie along the same horizontal direction. The diagram illustrates |a|>|b|, but the absolute value also covers |b|>|a|. Explain cancellation: the shorter vector cancels the same amount of the longer one, leaving the difference in lengths. Equal, opposite vectors give a zero resultant. If either vector is zero, equality also holds. No extra activity or timer.
+:::

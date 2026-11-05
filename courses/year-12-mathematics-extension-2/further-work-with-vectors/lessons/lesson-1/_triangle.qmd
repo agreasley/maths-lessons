@@ -1,11 +1,11 @@
-## The triangle inequality {#fv1-triangle .fv-lesson }
+## Triangle inequality · The upper bound {#fv1-triangle .fv-lesson }
 
 ```{=html}
-<div class="fv-equation"><span data-math="\displaystyle \bigl||\underset{\sim}{a}|-|\underset{\sim}{b}|\bigr|\leq|\underset{\sim}{a}+\underset{\sim}{b}|\leq|\underset{\sim}{a}|+|\underset{\sim}{b}|"></span></div><div class="fv-triangle-layout"><div class="fv-triangle-diagram" role="img" aria-label="Two vectors placed head to tail form a triangle; their sum is the direct displacement."></div><div><p>The direct distance cannot exceed the total distance along the two vectors.</p><p class="small">For non-zero vectors:<br><strong>Same direction:</strong> upper bound.<br><strong>Opposite directions:</strong> lower bound.</p></div></div>
+<div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|\leq|\underset{\sim}{a}|+|\underset{\sim}{b}|"></span></div><div class="fv-triangle-layout"><div class="fv-triangle-diagram" role="img" aria-label="Two vectors placed head to tail form a triangle. Their sum is the straight-line displacement between the endpoints."></div><div><p><strong>The shortest distance between two points is a straight line.</strong></p><p class="small">The direct displacement is no longer than the route along the two vectors.</p><p class="small">Equality holds when non-zero vectors point in the <strong>same direction</strong>.</p></div></div>
 ```
 
 <div class="booklet-cue">Booklet §1.3 · p. 9</div>
 
 ::: {.notes}
-Brief explanation only: no routine, slider, response activity or timer. Read the two bounds and relate the upper bound to the static head-to-tail diagram. Equality at the upper bound occurs for vectors in the same direction; equality at the lower bound occurs for opposite directions. If either vector is zero, both bounds are attained.
+Brief explanation only; no routine or controls. The blue resultant is the straight-line route between the same endpoints as the green then gold journey. Connect its length |a+b| to the total length |a|+|b|. Equality occurs for non-zero vectors in the same direction, and also if either vector is zero. This is the upper bound; the lower bound has its own slide.
 :::

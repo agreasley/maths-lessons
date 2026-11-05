@@ -1,0 +1,11 @@
+## Example 2.13 {#fv2-example-2-13 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Prove Pythagoras theorem in the right-angled triangle <span data-math="\triangle ABC"></span>, where <span data-math="AB"></span> is the hypotenuse and <span data-math="\overrightarrow{AC}=\underset{\sim}{c}"></span> and <span data-math="\overrightarrow{CB}=\underset{\sim}{b}"></span>.</p><div class="proof-diagram " data-proof-diagram="pythagoras" role="img" aria-label="Right-angled triangle ABC with right angle at C, AC vector c and CB vector b."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.13 · p. 30</div>
+
+::: {.notes}
+AB=AC+CB=c+b. Since AC and CB are perpendicular, c·b=0. Then |AB|²=(c+b)·(c+b)=|c|²+2c·b+|b|²=|AC|²+|CB|². This proves Pythagoras. Use the given directions AC and CB; both make a head-to-tail route along the legs.
+:::

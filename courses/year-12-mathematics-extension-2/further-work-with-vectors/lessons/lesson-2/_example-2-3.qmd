@@ -1,0 +1,11 @@
+## Example 2.3 {#fv2-example-2-3 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>In triangle <span data-math="ABC"></span>, <span data-math="AD"></span>, <span data-math="CF"></span> and <span data-math="EB"></span> are medians. Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB}"></span> and <span data-math="\underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="median-example" role="img" aria-label="Triangle ABC with medians AD, CF and EB meeting at M."></div></div><div><p>Let <span data-math="M"></span> be the point of intersection of the lines <span data-math="AD"></span> and <span data-math="BE"></span>. Using a vector approach show that</p><div class="fv-equation"><span data-math="\frac{|\overrightarrow{AM}|}{|\overrightarrow{AD}|}=\frac23."></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.3 · p. 16</div>
+
+::: {.notes}
+Source: adapted from Kambala Extension 2 Trial 2024, Q12(c)(i). AD=(a+b)/2 and BE=b/2−a. Since M is on AD and BE, write AM=t(a+b)/2 and AM=a+s(b/2−a). As a,b are non-parallel, compare coefficients: t/2=1−s and t/2=s/2, so t=s and 3t/2=1. Thus AM=(2/3)AD, and the magnitude ratio is 2/3. Do not assume the centroid ratio. Matching coefficients is justified by independence, not by perpendicularity.
+:::

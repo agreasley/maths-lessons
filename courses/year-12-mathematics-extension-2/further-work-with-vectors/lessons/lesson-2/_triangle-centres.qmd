@@ -1,0 +1,11 @@
+## Medians and altitudes meet {#fv2-triangle-centres .fv-lesson .proof-lesson }
+
+```{=html}
+<div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="centroid" role="img" aria-label="Three medians meet at the centroid G with AG:GD equal to 2:1."></div></div><div><h3>Centroid</h3><p>The medians are concurrent; the centroid divides each median in the ratio <span data-math="2:1"></span> from the vertex.</p><div class="fv-equation"><span data-math="\overrightarrow{AG}=\frac23\overrightarrow{AD}"></span></div><h3>Orthocentre</h3><p>The altitudes are concurrent: inside an acute triangle, at the right-angle vertex, or outside an obtuse triangle.</p></div></div><p><strong>A result you are asked to prove must be justified.</strong></p>
+```
+
+<div class="booklet-cue">Booklet p. 15</div>
+
+::: {.notes}
+Concurrent means meeting at a common point. These are reference results and vocabulary, not permission to quote the centroid ratio when it is the conclusion of Example 2.3. In that example establish the ratio from midpoint information and independent vector coefficients. Altitudes may need extension to meet.
+:::

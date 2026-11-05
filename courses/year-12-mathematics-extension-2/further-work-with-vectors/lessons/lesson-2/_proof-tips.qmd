@@ -1,0 +1,11 @@
+## Finding a starting point {#fv2-proof-tips .fv-lesson .proof-lesson }
+
+```{=html}
+<ol class="proof-tips"><li>Draw and label a diagram.</li><li>Choose two non-parallel vectors in a plane, or three non-coplanar vectors in space.</li><li>Express the required vectors using those choices; check their directions.</li><li>Rewrite the required-to-prove statement (RTP) in vector notation.</li><li>Recall the geometric properties of the dot product.</li></ol>
+```
+
+<div class="booklet-cue">Booklet §2.2 · p. 13 · teacher’s proof tips</div>
+
+::: {.notes}
+A fixed pair of non-parallel vectors spans its plane: every vector in that plane is αa+βb. Three non-coplanar vectors span three-dimensional space. Pairwise non-parallel is insufficient in 3D, because all three might still lie in one plane. If a spatial problem is planar, two spanning vectors suffice. Choosing vectors from a common vertex often simplifies paths. AB=−BA; head-minus-tail for position vectors. Establish the conditions you need rather than assuming the required conclusion. The vectors need not be perpendicular or unit length.
+:::

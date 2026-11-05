@@ -1,0 +1,11 @@
+## Construct a median {#fv2-construct-median .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="median" role="img" aria-label="Median AM joins vertex A to the midpoint M of BC."></div></div><div><p>Find the midpoint <span data-math="M"></span> of <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AM}=\frac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></div><p>Join <span data-math="A"></span> to <span data-math="M"></span>.</p></div></div>
+```
+
+<div class="booklet-cue">Supports booklet p. 14</div>
+
+::: {.notes}
+Take A as the origin. The midpoint position vector is the average of the position vectors of B and C, so AM=(a+b)/2. Equivalently AM=AB+BM=a+(b−a)/2. This is the actual vector to the midpoint, not just a parallel direction. Use a scalene triangle so the median is visibly different from the altitude and angle bisector.
+:::

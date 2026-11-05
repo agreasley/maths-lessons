@@ -35,3 +35,34 @@
 .reveal .fv-bound-summary h3{font-size:28px;color:#217864;margin:0 0 10px}
 .reveal .fv-bound-summary p{font-size:27px}
 .reveal .fv-bound-summary .small{font-size:23px}
+/* Lesson 2 proof diagrams and concise construction panels. */
+.reveal .proof-lesson{font-size:28px}
+.reveal .proof-lesson p{line-height:1.35;margin:16px 0}
+.reveal .proof-lesson .fv-equation{margin:20px 0;line-height:1.55}
+.reveal .proof-lesson.cover .cover-title{font-size:62px;max-width:800px}
+.reveal .proof-split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
+.reveal .proof-diagram svg,.reveal .cauchy-diagram svg{width:100%;height:310px;display:block}
+.reveal .proof-lesson>.proof-diagram svg{height:335px;max-width:700px;margin:auto}
+.reveal .proof-lesson .marks{font-size:23px;color:#52656d}
+.reveal .proof-lesson h3{font-size:26px;color:#217864;margin:10px 0}
+.reveal .proof-tips{font-size:27px;line-height:1.45;margin:20px 0 0 35px}
+.reveal .proof-tips li{margin:14px 0;padding-left:8px}
+.reveal .proof-table{font-size:25px;width:100%;line-height:1.4}
+.reveal .proof-table th,.reveal .proof-table td{padding:13px 18px}
+.reveal .proof-four{display:grid;grid-template-columns:1fr 1fr;gap:16px 30px}
+.reveal .proof-four>div{display:grid;grid-template-columns:42% 58%;align-items:center;border-bottom:1px solid #d5dcda}
+.reveal .proof-four h3{grid-column:1 / -1;font-size:25px;margin:4px 0}
+.reveal .proof-four .proof-diagram svg{height:155px}
+.reveal .proof-four p{font-size:23px;line-height:1.3}
+.reveal .proof-properties{display:grid;grid-template-columns:1fr 1fr;gap:22px 36px}
+.reveal .proof-properties p{font-size:25px;margin:8px 0}
+.reveal .proof-prompt{font-size:24px;line-height:1.4;padding:15px 18px;border-left:4px solid #217864;background:#eaf1ec;margin:20px 0}
+.reveal .proof-compact{font-size:25px}
+.reveal .proof-compact .fv-equation{font-size:25px;margin:17px 0}
+.reveal .proof-key{font-size:30px;color:#217864;margin:40px 0}
+.reveal [data-cauchy-visual] label{display:flex;justify-content:space-between;align-items:center;font-size:24px}
+.reveal [data-cauchy-visual] input{display:block;width:100%;height:44px;accent-color:#315985;touch-action:pan-y}
+.reveal .cauchy-buttons{display:flex;gap:12px;margin:10px 0 22px}
+.reveal .cauchy-buttons button{font:inherit;font-size:23px;min-width:75px;min-height:44px;padding:6px 14px;border:1px solid #aab8bb;background:#f3f6f5;border-radius:7px;color:#152e3b;cursor:pointer}
+.reveal .cauchy-values{font-size:25px;line-height:1.9}
+.reveal .cauchy-values p{font-size:23px;line-height:1.3}

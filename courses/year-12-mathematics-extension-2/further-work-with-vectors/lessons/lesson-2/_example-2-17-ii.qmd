@@ -1,0 +1,11 @@
+## Example 2.17 · ii {#fv2-example-2-17-ii .fv-lesson .proof-lesson }
+
+```{=html}
+<p>(ii) In the trapezium <span data-math="ABCD"></span>, <span data-math="BC"></span> is parallel to <span data-math="AD"></span> and <span data-math="|\overrightarrow{AC}|=|\overrightarrow{BD}|"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="trapezium-diagonals" role="img" aria-label="Trapezium ABCD with BC parallel to AD and equal diagonals AC and BD; not to scale."></div></div><div><p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB}"></span>, <span data-math="\underset{\sim}{b}=\overrightarrow{BC}"></span> and <span data-math="\overrightarrow{AD}=k\overrightarrow{BC}"></span>, where <span data-math="k&gt;0"></span>.</p><p>Using part (i), or otherwise, show</p><div class="fv-equation"><span data-math="2\underset{\sim}{a}\cdot\underset{\sim}{b}+(1-k)|\underset{\sim}{b}|^2=0."></span></div><p><span class="marks">[3 marks]</span></p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.17 · p. 34</div>
+
+::: {.notes}
+AC=a+b and BD=AD−AB=kb−a. Equal diagonal magnitudes give |a+b|²=|kb−a|². Expand using (i): |a|²+2a·b+|b|²=k²|b|²−2ka·b+|a|². Rearranging gives 2(1+k)a·b+(1−k²)|b|²=0. Factor 1+k and divide, allowed since k>0, to obtain 2a·b+(1−k)|b|²=0. Do not divide by 1−k: k=1 is allowed. Diagram not to scale, as in the source.
+:::

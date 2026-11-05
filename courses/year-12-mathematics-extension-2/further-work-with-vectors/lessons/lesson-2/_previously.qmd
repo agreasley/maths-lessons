@@ -1,0 +1,11 @@
+## Previously · Our vector tools {#fv2-previously .fv-lesson .proof-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{a}\cdot(\underset{\sim}{b}+\underset{\sim}{c})=\underset{\sim}{a}\cdot\underset{\sim}{b}+\underset{\sim}{a}\cdot\underset{\sim}{c}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{a}=|\underset{\sim}{a}|^2"></span></div><p>A zero dot product identifies perpendicular non-zero vectors.</p>
+```
+
+<div class="booklet-cue">Extension 1 vectors · Lesson 1</div>
+
+::: {.notes}
+Orally retrieve that the dot product is a scalar, and that the geometric formula uses an angle only when both vectors are non-zero. Recall the triangle inequality briefly: fixed lengths restrict the possible magnitude of the resultant. Today fixed lengths also restrict the dot product.
+:::

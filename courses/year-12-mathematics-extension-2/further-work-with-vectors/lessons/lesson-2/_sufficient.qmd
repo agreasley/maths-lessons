@@ -1,0 +1,11 @@
+## Choose sufficient conditions {#fv2-sufficient .fv-lesson .proof-lesson }
+
+```{=html}
+<table class="proof-table"><thead><tr><th>To prove it is a…</th><th>One sufficient route</th></tr></thead><tbody><tr><td>Trapezium</td><td>One pair of opposite sides parallel.</td></tr><tr><td>Kite</td><td>Two pairs of adjacent sides equal.</td></tr><tr><td>Parallelogram</td><td>One pair of opposite sides both equal and parallel.</td></tr><tr><td>Rhombus</td><td>A parallelogram with two adjacent sides equal.</td></tr><tr><td>Rectangle</td><td>A parallelogram with one right angle.</td></tr><tr><td>Square</td><td>A rectangle with two adjacent sides equal.</td></tr></tbody></table><p>Use the vertices in order around a non-degenerate quadrilateral.</p>
+```
+
+<div class="booklet-cue">Booklet §2.2.3 · p. 20</div>
+
+::: {.notes}
+Each row is one sufficient route, not the only one. The booklet lists alternatives. For the parallelogram route, account for direction: for vertices A,B,C,D in order, AB=DC. Showing just that one pair of opposite sides is parallel is insufficient. For a rectangle, equal diagonals alone are insufficient unless the remaining conditions establish a parallelogram. Avoid circular arguments.
+:::

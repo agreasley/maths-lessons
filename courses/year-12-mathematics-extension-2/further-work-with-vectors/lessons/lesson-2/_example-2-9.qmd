@@ -1,0 +1,11 @@
+## Example 2.9 {#fv2-example-2-9 .fv-lesson .proof-lesson .proof-compact}
+
+```{=html}
+<p><span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> are points with position vectors</p><div class="fv-equation"><span data-math="\underset{\sim}{p}-\underset{\sim}{q},\qquad\lambda(\underset{\sim}{p}+\underset{\sim}{q})\qquad\text{and}\qquad\underset{\sim}{p}+\lambda\underset{\sim}{q}"></span></div><p>respectively, where <span data-math="\lambda\in\mathbb R"></span> and <span data-math="\underset{\sim}{p}"></span> and <span data-math="\underset{\sim}{q}"></span> are non-parallel vectors.</p><p>a) Obtain expressions for <span data-math="\overrightarrow{AB}"></span> and <span data-math="\overrightarrow{AC}"></span>.</p><p>b) Given that <span data-math="A"></span>, <span data-math="B"></span> and <span data-math="C"></span> are collinear, find the possible values of <span data-math="\lambda"></span> and state whether the three points are distinct</p>
+```
+
+<div class="booklet-cue">Booklet Example 2.9 · p. 26</div>
+
+::: {.notes}
+(a) AB=(λ−1)p+(λ+1)q; AC=(λ+1)q. (b) If λ≠−1, AC is non-zero. Collinearity and independence force λ−1=0, so λ=1. Then B=C=p+q. Separately λ=−1 gives A=C=p−q and B=−p−q. Both values give coincident points and hence a line containing the positions, but neither gives three distinct points. Do not divide by λ+1 without treating λ=−1. There is no solution with three distinct points.
+:::

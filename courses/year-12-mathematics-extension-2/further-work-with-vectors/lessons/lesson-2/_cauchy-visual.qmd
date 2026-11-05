@@ -1,0 +1,11 @@
+## How large can a dot product be? {#fv2-cauchy-visual .fv-lesson .proof-lesson }
+
+```{=html}
+<p>The vector lengths are fixed: <span data-math="|\underset{\sim}{a}|=2,\quad |\underset{\sim}{b}|=3"></span>.</p><div data-cauchy-visual></div>
+```
+
+<div class="booklet-cue">Additional visual · prepares Example 2.1</div>
+
+::: {.notes}
+Ask students to predict the largest and smallest signed dot products before changing the angle. Controls: one angle slider, 0–180 degrees, and presets for 0, 90 and 180 degrees. Notice that a·b varies from 6 to −6, while |a·b| never exceeds 6. Follow-up: Why does the absolute-value bound have equality for both the same and opposite directions? This is a short demonstration, not a timed routine.
+:::

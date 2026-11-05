@@ -1,0 +1,11 @@
+## Construct an internal angle bisector {#fv2-construct-angle .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="unit-bisector" role="img" aria-label="Two unit vectors along AB and AC form a rhombus. Their sum points along the internal angle bisector."></div></div><div><p>Make both side vectors unit length, then add them.</p><div class="fv-equation"><span data-math="\widehat{\underset{\sim}{a}}+\widehat{\underset{\sim}{b}}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|}+\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span></div><p>Their sum gives the <strong>direction</strong> of the internal angle bisector.</p></div></div>
+```
+
+<div class="booklet-cue">Supports booklet p. 14 · unit vectors</div>
+
+::: {.notes}
+Equal-length arrows form a rhombus, whose diagonal visually explains the angle bisector. For a vector justification set u=a/|a|, v=b/|b| and w=u+v. Then w·u=1+u·v=w·v. Since |u|=|v|=1 and w≠0 in a non-degenerate triangle, w makes equal angles with u and v. Because it is a positive combination, w points inside the angle. The tip of w is not in general on BC; only its direction is used. The drawn equal-length arrows are a common scaled representation of unit vectors. Do not assume that a+b bisects the angle when |a|≠|b|.
+:::

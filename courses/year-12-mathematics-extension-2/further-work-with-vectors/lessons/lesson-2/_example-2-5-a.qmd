@@ -1,0 +1,11 @@
+## Example 2.5 · a {#fv2-example-2-5-a .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Consider a rhombus <span data-math="OABC"></span>, where <span data-math="O"></span> is <span data-math="(0,0)"></span>.<br>Prove that the diagonals <span data-math="OB"></span> and <span data-math="AC"></span> are perpendicular by</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="rhombus-coordinates" role="img" aria-label="Rhombus OABC with A vertically above O and both diagonals drawn."></div></div><div><p>a) defining <span data-math="A"></span> as having the coordinates <span data-math="(0,a)"></span>.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.5 · p. 21</div>
+
+::: {.notes}
+Choose C=(u,v). Then B=(u,a+v), because opposite sides of the rhombus are parallel and equal. Equal adjacent lengths imply u²+v²=a². OB=(u,a+v) and AC=(u,v−a), so OB·AC=u²+v²−a²=0. The diagonals are non-zero. This avoids undefined gradients for vertical or horizontal diagonals. Ask students to propose coordinates and write the final condition before expanding. Retain the source scalar a, distinct from the under-tilde vector a in part (b).
+:::

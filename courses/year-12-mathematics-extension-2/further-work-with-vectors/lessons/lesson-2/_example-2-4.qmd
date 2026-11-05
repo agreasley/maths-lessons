@@ -1,0 +1,11 @@
+## Example 2.4 {#fv2-example-2-4 .fv-lesson .proof-lesson }
+
+```{=html}
+<p><span data-math="OACD"></span> is a trapezium made from three equilateral triangles. Let <span data-math="\underset{\sim}{a}=\overrightarrow{OA}"></span> and <span data-math="\underset{\sim}{b}=\overrightarrow{OB}"></span>. <span data-math="BM"></span> is a median of triangle <span data-math="BCD"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="trapezium-triangles" role="img" aria-label="Trapezium OACD made of equilateral triangles OAB, ABC and BCD; M is the midpoint of CD."></div></div><div><p>a) Write <span data-math="\overrightarrow{AB}"></span> in terms of <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span>.</p><p>b) Show that <span data-math="\overrightarrow{OC}"></span> is parallel to <span data-math="\overrightarrow{BM}"></span>.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.4 · p. 17</div>
+
+::: {.notes}
+AB=b−a. The diagram gives OC=a+b and OD=2b. M is the midpoint of CD, so OM=(a+3b)/2. Hence BM=OM−OB=(a+b)/2=OC/2, establishing parallelism. Refer to equal sides and angles in the equilateral triangles when identifying AC=OB=b and BD=OB=b. The diagram’s O,B,D are collinear and A,C are the upper vertices.
+:::

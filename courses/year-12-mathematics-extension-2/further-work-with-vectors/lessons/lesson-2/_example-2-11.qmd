@@ -1,0 +1,11 @@
+## Example 2.11 {#fv2-example-2-11 .fv-lesson .proof-lesson }
+
+```{=html}
+<p><span data-math="OAB"></span> is a triangle. <span data-math="P"></span> and <span data-math="Q"></span> are the midpoints of <span data-math="OA"></span> and <span data-math="OB"></span> respectively. The point <span data-math="X"></span> lies on the line segment <span data-math="PB"></span> and <span data-math="PX:XB"></span> is in the ratio <span data-math="1:2"></span>. Show that <span data-math="QX"></span> is parallel to <span data-math="QA"></span>.</p><div class="proof-diagram " data-proof-diagram="ratio-triangle" role="img" aria-label="Triangle OAB with P and Q the midpoints of OA and OB, and X one third of the way from P to B."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.11 · p. 28</div>
+
+::: {.notes}
+Let a=OA,b=OB. OP=a/2, OQ=b/2. Since PX:XB=1:2, PX=(1/3)PB, not (1/2)PB. OX=OP+(1/3)(OB−OP)=(a+b)/3. QX=OX−OQ=a/3−b/6=(1/3)(a−b/2)=(1/3)QA. Thus QX is parallel to QA. In fact Q,X,A are collinear. This is an additional supporting diagram; the booklet has no diagram.
+:::

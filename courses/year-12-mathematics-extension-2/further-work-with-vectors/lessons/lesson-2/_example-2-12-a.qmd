@@ -1,0 +1,11 @@
+## Example 2.12 · a {#fv2-example-2-12-a .fv-lesson .proof-lesson }
+
+```{=html}
+<p>In the triangle <span data-math="OAB"></span> below. Let <span data-math="\underset{\sim}{a}=\overrightarrow{OA}"></span> and <span data-math="\underset{\sim}{b}=\overrightarrow{OB}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="midpoint-parallelogram" role="img" aria-label="Triangle OAB with midpoint M on OA and midpoint Q on AB."></div></div><div><p>a) Find the following vectors in terms of <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span></p><p>i) <span data-math="\overrightarrow{MA}"></span>, where <span data-math="M"></span> is the midpoint of <span data-math="OA"></span></p><p>ii) <span data-math="\overrightarrow{BA}"></span></p><p>iii) <span data-math="\overrightarrow{AQ}"></span>, where <span data-math="Q"></span> is the midpoint of <span data-math="AB"></span></p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.12 · p. 29</div>
+
+::: {.notes}
+MA=a/2, BA=a−b, AQ=(b−a)/2. The letters M,Q follow the supplied diagram; N is introduced in part (b).
+:::

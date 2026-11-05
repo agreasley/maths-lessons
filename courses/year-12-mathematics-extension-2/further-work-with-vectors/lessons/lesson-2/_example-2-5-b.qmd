@@ -1,0 +1,11 @@
+## Example 2.5 · b {#fv2-example-2-5-b .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Consider a rhombus <span data-math="OABC"></span>, where <span data-math="O"></span> is <span data-math="(0,0)"></span>.<br>Prove that the diagonals <span data-math="OB"></span> and <span data-math="AC"></span> are perpendicular by</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="rhombus-vectors" role="img" aria-label="Rhombus OABC with OA labelled vector a and OC labelled vector c."></div></div><div><p>b) defining <span data-math="\underset{\sim}{a}=\overrightarrow{OA}"></span> and <span data-math="\overrightarrow{OC}=\underset{\sim}{c}"></span>.</p><div class="proof-prompt">Choose your vectors. Write the statement that would finish the proof. Identify the given fact that will make it true.</div></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.5 · p. 21</div>
+
+::: {.notes}
+OB=a+c and AC=c−a. Since OABC is a rhombus, |a|=|c|. Therefore OB·AC=(a+c)·(c−a)=|c|²−|a|²=0, using commutativity to cancel the mixed terms. Both diagonals are non-zero. Use a 2–3 minute partner planning conversation before OneNote working. Partner prompt: “What makes that enough to prove the geometric claim?” This adapts Project Zero’s What Makes You Say That? routine to evidence-based mathematical justification: https://pz.harvard.edu/resources/what-makes-you-say . Intended understanding: the goal is a zero diagonal dot product, and equal side lengths provide the decisive given fact. Keep the complete worked proof in notes.
+:::

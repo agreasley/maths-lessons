@@ -1,0 +1,11 @@
+## Example 2.12 · b {#fv2-example-2-12-b .fv-lesson .proof-lesson }
+
+```{=html}
+<p>In the triangle <span data-math="OAB"></span>, let <span data-math="\underset{\sim}{a}=\overrightarrow{OA}"></span> and <span data-math="\underset{\sim}{b}=\overrightarrow{OB}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="midpoint-parallelogram-n" role="img" aria-label="Triangle OAB with midpoints M on OA, N on OB and Q on AB."></div></div><div><p>b) Let <span data-math="N"></span> be the midpoint of the line segment <span data-math="OB"></span>. Use a vector method to prove that the quadrilateral <span data-math="MNQA"></span> is a parallelogram</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.12 · p. 29</div>
+
+::: {.notes}
+M=a/2, N=b/2, Q=(a+b)/2, A=a. MN=(b−a)/2=AQ. Thus one pair of opposite sides is equal and parallel with the proper directed orientation, enough to prove MNQA is a parallelogram. Alternatively NQ=a/2=MA also verifies the other pair. Keep vertices in the order M,N,Q,A.
+:::

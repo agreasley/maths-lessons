@@ -1,0 +1,11 @@
+## Homework 2 · Vector proof {#fv2-homework .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4F: Q3. Exercise 4G: Q1–3, Q7. Exercise 4H: Q1.</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4F: Q3, Q18. Exercise 4G: Q4–8. Exercise 4H: Q1, Q10.</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4F: Q18. Exercise 4G: Q7, Q8, Q16, Q17. Exercise 4H: Q5, Q10.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 2 · p. 35</div>
+
+::: {.notes}
+Preserve the complete differentiated allocation. The teacher determines timing if the deck is spread across two teaching periods; there is no imposed homework split.
+:::

@@ -1,0 +1,11 @@
+## Example 2.8 · a {#fv2-example-2-8-a .fv-lesson .proof-lesson }
+
+```{=html}
+<p><span data-math="ABCD"></span> is a parallelogram whose diagonals meet at <span data-math="E"></span>. <span data-math="M"></span> is the midpoint of <span data-math="DC"></span>. Given that <span data-math="\overrightarrow{AB}=\underset{\sim}{p}"></span> and <span data-math="\overrightarrow{AD}=\underset{\sim}{q}"></span></p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="parallelogram-midpoints" role="img" aria-label="Parallelogram ABCD with diagonal intersection E and M the midpoint of DC."></div></div><div><p>a) express in terms of <span data-math="\underset{\sim}{p}"></span> and <span data-math="\underset{\sim}{q}"></span></p><p>i) <span data-math="\overrightarrow{AE}"></span></p><p>ii) <span data-math="\overrightarrow{BD}"></span></p><p>iii) <span data-math="\overrightarrow{MB}"></span></p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.8 · p. 25</div>
+
+::: {.notes}
+Take A as origin. B=p, D=q, C=p+q, E=(p+q)/2 and M=q+p/2. Thus AE=(p+q)/2; BD=q−p; MB=p/2−q. Check the direction of MB, which is the negative of BM.
+:::

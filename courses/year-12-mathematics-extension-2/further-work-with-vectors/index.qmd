@@ -13,7 +13,7 @@ listing:
 
 ```{=html}
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Extension 2</a></li><li><span aria-current="page">Further Work with Vectors</span></li></ol></nav>
-<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Extension 2</p><h1>Further Work with Vectors</h1><p class="intro-copy">From familiar algebra to geometric proof and curves in three dimensions.</p><div class="topic-tags"><span>1 lesson available</span><span>Extension 1 vectors assumed</span><span>Homework 1</span></div></header>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Extension 2</p><h1>Further Work with Vectors</h1><p class="intro-copy">From familiar algebra to geometric proof and curves in three dimensions.</p><div class="topic-tags"><span>2 lessons available</span><span>Extension 1 vectors assumed</span><span>Homework 1–2</span></div></header>
 <div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
 ```
 
@@ -21,5 +21,5 @@ listing:
 :::
 
 ```{=html}
-<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Connect algebra and geometry.</h2><p>Lesson 1 covers Chapter 1 of the Further Work with Vectors booklet: scalar-product properties, standard unit vectors, vector identities and the triangle inequality, through Examples 1.1–1.7. Worked examples are completed in class. Follow the Homework 1 allocation at the end of the lesson.</p></div></div>
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Connect algebra and geometry.</h2><p>Lesson 1 covers Chapter 1 of the Further Work with Vectors booklet: scalar-product properties, standard unit vectors, vector identities and the triangle inequality, through Examples 1.1–1.7. Lesson 2 covers Cauchy–Schwarz, triangle constructions and every geometric-proof example in Chapter 2 (Examples 2.1–2.17), in one deck that can be taught across two periods. Worked examples are completed in class. Follow the homework allocation at the end of each deck.</p></div></div>
 ```

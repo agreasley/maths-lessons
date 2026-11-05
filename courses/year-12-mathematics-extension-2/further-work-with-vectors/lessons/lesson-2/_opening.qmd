@@ -1,0 +1,9 @@
+## Vector inequalities and geometric proof {#fv2-opening .fv-lesson .proof-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 2</div><div class="cover-title">Vector inequalities<br>and geometric proof</div><div class="cover-subtitle">Further Work with Vectors<br>Choose vectors. Translate the claim. Build a proof.</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet Chapter 2 · Examples 2.1–2.17 · Homework 2</div>
+```
+
+::: {.notes}
+One deck containing every example and subpart, in booklet order. The teacher chooses which examples to teach or skip and whether to spread the material over two periods. There is no prescribed lesson break or optional-example appendix. Use the slide map to select examples. Source: supplied Further Vectors booklet, printed pp. 11–35, and supplied lesson sequence. Students have completed Extension 1 vectors and Lesson 1 scalar-product properties, including the triangle inequality. Cover illustration is shared with the unit.
+:::

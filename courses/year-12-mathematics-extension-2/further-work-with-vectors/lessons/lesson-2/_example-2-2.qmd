@@ -1,0 +1,11 @@
+## Example 2.2 {#fv2-example-2-2 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>By applying the Cauchy-Schwarz inequality, consider real numbers <span data-math="x"></span> and <span data-math="y"></span> satisfying</p><div class="fv-equation"><span data-math="x^2+y^2=4,"></span></div><p>find the largest possible value of <span data-math="3x+4y"></span> and the corresponding values of <span data-math="x"></span> and <span data-math="y"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 2.2 · p. 12</div>
+
+::: {.notes}
+Choose vectors $(x,y)$ and $(3,4)$. Cauchy–Schwarz gives $|3x+4y|\leq\sqrt{x^2+y^2}\sqrt{3^2+4^2}=10$, so $3x+4y\leq10$. To attain the positive maximum, $(x,y)=t(3,4)$ with $t>0$. Then $25t^2=4$, so $t=2/5$ and $(x,y)=(6/5,8/5)$. These values satisfy the constraint and attain 10. An upper bound alone does not prove it is the maximum; verify attainment. Opposite alignment attains −10, the minimum.
+:::

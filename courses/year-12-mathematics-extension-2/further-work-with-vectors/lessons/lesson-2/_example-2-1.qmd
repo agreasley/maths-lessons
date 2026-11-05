@@ -1,0 +1,11 @@
+## Example 2.1 {#fv2-example-2-1 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>By considering</p><div class="fv-equation"><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=|\underset{\sim}{a}||\underset{\sim}{b}|\cos\theta"></span></div><p>for non-zero vectors, prove the Cauchy–Schwarz inequality</p><div class="fv-equation"><span data-math="|\underset{\sim}{a}\cdot\underset{\sim}{b}|\leq|\underset{\sim}{a}||\underset{\sim}{b}|."></span></div><p>Explain why the inequality also holds if either vector is zero, and state when equality holds.</p>
+```
+
+<div class="booklet-cue">Booklet Example 2.1 · p. 11</div>
+
+::: {.notes}
+For non-zero vectors, $|a\cdot b|=|a||b||\cos\theta|\leq|a||b|$ since $|\cos\theta|\leq1$. If either vector is zero, both sides are zero. For non-zero vectors equality holds exactly when $\theta=0^\circ$ or $180^\circ$: parallel vectors in either direction. Equality also holds when either vector is zero. In component notation this gives $|a_1b_1+a_2b_2+a_3b_3|\leq\sqrt{a_1^2+a_2^2+a_3^2}\sqrt{b_1^2+b_2^2+b_3^2}$. Do not use an angle for a zero vector. Complete the proof in OneNote.
+:::

@@ -1,0 +1,11 @@
+## Example 2.10 {#fv2-example-2-10 .fv-lesson .proof-lesson }
+
+```{=html}
+<p><span data-math="OPQR"></span> is a parallelogram. <span data-math="M"></span> is the midpoint of diagonal <span data-math="OQ"></span>. Let <span data-math="\overrightarrow{OP}=2\underset{\sim}{p}"></span> and <span data-math="\overrightarrow{OR}=2\underset{\sim}{r}"></span>. Use vectors to prove that diagonals <span data-math="OQ"></span> and <span data-math="PR"></span> bisect each other.</p><div class="proof-diagram " data-proof-diagram="parallelogram-centre" role="img" aria-label="Parallelogram OPQR with diagonal midpoint M."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.10 · p. 27</div>
+
+::: {.notes}
+OQ=2p+2r, so OM=p+r. The midpoint of P and R has position (2p+2r)/2=p+r, also M. Equivalently PM=r−p=MR. Thus M is the midpoint of both diagonals. Do not simply quote the parallelogram diagonal-bisection property, since that is the requested result.
+:::

@@ -1,0 +1,11 @@
+## What would be enough to prove it? {#fv2-translate .fv-lesson .proof-lesson }
+
+```{=html}
+<table class="proof-table"><thead><tr><th>Geometric claim</th><th>A useful vector target</th></tr></thead><tbody><tr><td>Perpendicular directions</td><td><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span></td></tr><tr><td>Parallel directions</td><td><span data-math="\underset{\sim}{a}=k\underset{\sim}{b}"></span></td></tr><tr><td>Equal lengths</td><td><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{a}=\underset{\sim}{b}\cdot\underset{\sim}{b}"></span></td></tr><tr><td>Same length and direction</td><td><span data-math="\underset{\sim}{a}=\underset{\sim}{b}"></span></td></tr></tbody></table><p>Which statement would finish your proof?</p>
+```
+
+<div class="booklet-cue">Additional proof-planning prompt</div>
+
+::: {.notes}
+Assume the direction vectors are non-zero. For parallel vectors k≠0. For equal lengths, equality of squared magnitudes is sufficient since magnitudes are non-negative. For collinearity of distinct A,B,C one can show AB=kBC. Ask students to name the target before calculating. A dot product equal to +|a||b| means the same direction; −|a||b| means opposite directions. Absolute equality encompasses both.
+:::

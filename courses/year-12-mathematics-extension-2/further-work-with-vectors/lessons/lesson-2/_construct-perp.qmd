@@ -1,0 +1,11 @@
+## Construct a perpendicular bisector {#fv2-construct-perp .fv-lesson .proof-lesson }
+
+```{=html}
+<div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="perp-bisector" role="img" aria-label="Line through midpoint M parallel to the altitude AH, within the plane of triangle ABC."></div></div><div><p>Find the midpoint <span data-math="M"></span> of <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AM}=\frac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></div><p>Draw through <span data-math="M"></span> a line parallel to <span data-math="AH"></span>.</p><p>It passes through the midpoint and is perpendicular to <span data-math="BC"></span>.</p></div></div>
+```
+
+<div class="booklet-cue">Supports booklet p. 14</div>
+
+::: {.notes}
+Use the altitude direction h from the previous slide. The perpendicular bisector is the line through M parallel to h, within the triangle’s plane. These two defining conditions are enough. In 3D the whole locus equidistant from B and C is a plane; here we explicitly mean the perpendicular-bisector line in the triangle’s plane. Do not introduce the perpendicular-bisector plane or line equations in this lesson.
+:::

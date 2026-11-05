@@ -1,0 +1,11 @@
+## Example 2.17 · i {#fv2-example-2-17-i .fv-lesson .proof-lesson }
+
+```{=html}
+<p>(i) For vector <span data-math="\underset{\sim}{v}"></span>, show that <span data-math="\underset{\sim}{v}\cdot\underset{\sim}{v}=|\underset{\sim}{v}|^2"></span>.</p><p><span class="marks">[1 mark]</span></p>
+```
+
+<div class="booklet-cue">Booklet Example 2.17 · p. 34</div>
+
+::: {.notes}
+Source: 2021 HSC Mathematics Extension 1, Q14(c). For v≠0 the angle with itself is 0°, so v·v=|v||v|cos0°=|v|². For v=0 both sides are zero. A component proof also works in two or three dimensions. Retain part (i), even though the result has already been used.
+:::

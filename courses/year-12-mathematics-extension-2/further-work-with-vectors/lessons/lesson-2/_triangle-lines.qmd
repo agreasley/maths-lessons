@@ -1,0 +1,11 @@
+## Four lines associated with a triangle {#fv2-triangle-lines .fv-lesson .proof-lesson }
+
+```{=html}
+<div class="proof-four"><div><h3>Median</h3><div class="proof-diagram " data-proof-diagram="median" role="img" aria-label="Joins a vertex to the midpoint of the opposite side."></div><p>Joins a vertex to the midpoint of the opposite side.</p></div><div><h3>Altitude</h3><div class="proof-diagram " data-proof-diagram="altitude" role="img" aria-label="A perpendicular from a vertex to the line containing the opposite side."></div><p>A perpendicular from a vertex to the line containing the opposite side.</p></div><div><h3>Perpendicular bisector</h3><div class="proof-diagram " data-proof-diagram="perp-bisector" role="img" aria-label="Passes through a side’s midpoint and is perpendicular to that side."></div><p>Passes through a side’s midpoint and is perpendicular to that side.</p></div><div><h3>Internal angle bisector</h3><div class="proof-diagram " data-proof-diagram="angle-bisector" role="img" aria-label="Divides an interior angle into two equal angles."></div><p>Divides an interior angle into two equal angles.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet §2.2.1 · p. 14</div>
+
+::: {.notes}
+Keep definitions visible. Ask which lines must pass through a vertex, which use a midpoint and which require perpendicularity. A perpendicular bisector need not pass through the opposite vertex. An altitude may meet an extension of the opposite side. A median is not generally perpendicular and does not generally bisect the vertex angle. Four individual construction slides follow.
+:::

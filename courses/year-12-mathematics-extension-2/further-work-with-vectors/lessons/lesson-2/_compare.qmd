@@ -1,0 +1,11 @@
+## Where does each proof use the rhombus? {#fv2-compare .fv-lesson .proof-lesson }
+
+```{=html}
+<div class="proof-split"><div><h3>Coordinates</h3><div class="fv-equation"><span data-math="u^2+v^2=a^2"></span></div><p>The equal sides become an equation between coordinates.</p></div><div><h3>Vectors</h3><div class="fv-equation"><span data-math="|\underset{\sim}{a}|^2=|\underset{\sim}{c}|^2"></span></div><p>The equal sides become an equality of squared magnitudes.</p></div></div><p>Both arguments finish with a zero dot product between the diagonals.</p>
+```
+
+<div class="booklet-cue">Compare Example 2.5(a–b)</div>
+
+::: {.notes}
+Return to the two completed OneNote arguments. Ask students to point to the line that uses the rhombus condition. The cancellation identity comes from Lesson 1. The method is general: express the target vectors, expand, and use a given geometric fact to simplify.
+:::

@@ -1,0 +1,11 @@
+## Example 2.16 {#fv2-example-2-16 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Prove that the sum of the squares of the lengths of the diagonals of any parallelogram is equal to the sum of the squares of the lengths of the sides.</p><div class="proof-diagram " data-proof-diagram="parallelogram-law" role="img" aria-label="Parallelogram with adjacent side vectors a and b and diagonals a+b and b−a."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.16 · p. 33</div>
+
+::: {.notes}
+Let adjacent sides be a,b. The diagonals have vectors a+b and b−a. Their squared lengths sum to (a+b)·(a+b)+(b−a)·(b−a)=2|a|²+2|b|² because the mixed terms cancel. The four sides have lengths |a|,|b|,|a|,|b|, whose squared sum is the same. State the geometric conclusion after the algebra.
+:::

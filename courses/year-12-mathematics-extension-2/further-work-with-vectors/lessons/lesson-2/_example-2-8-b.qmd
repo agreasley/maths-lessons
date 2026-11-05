@@ -1,0 +1,11 @@
+## Example 2.8 · b {#fv2-example-2-8-b .fv-lesson .proof-lesson }
+
+```{=html}
+<p><span data-math="ABCD"></span> is a parallelogram whose diagonals meet at <span data-math="E"></span>. <span data-math="M"></span> is the midpoint of <span data-math="DC"></span>. Given that <span data-math="\overrightarrow{AB}=\underset{\sim}{p}"></span> and <span data-math="\overrightarrow{AD}=\underset{\sim}{q}"></span></p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="parallelogram-extended" role="img" aria-label="AD extended to N so AD equals DN; N, M and B lie on one line."></div></div><div><p>b) Consider extending the line <span data-math="AD"></span> to a point <span data-math="N"></span>, such that <span data-math="AD=DN"></span>. Prove, using a vector method, that <span data-math="N"></span>, <span data-math="M"></span> and <span data-math="B"></span> are collinear.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.8 · p. 25</div>
+
+::: {.notes}
+With A as origin, N=2q and M=q+p/2. NM=M−N=p/2−q=MB from (a). Therefore the consecutive vectors NM and MB have the same direction and length: N,M,B are collinear and M is the midpoint of NB. State the conclusion explicitly. The source scalar equality AD=DN refers to lengths, and the extension specifies direction.
+:::

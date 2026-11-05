@@ -1,0 +1,11 @@
+## Example 2.6 {#fv2-example-2-6 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>By considering a triangle <span data-math="OAB"></span>, where the midpoint of <span data-math="OA"></span> is <span data-math="M"></span> and the midpoint of <span data-math="OB"></span> is <span data-math="N"></span>. Prove that the interval that connects the midpoint of two sides is parallel and half as long as the third side.</p><div class="proof-diagram " data-proof-diagram="midpoint-triangle" role="img" aria-label="Triangle OAB with midpoints M on OA and N on OB."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.6 · p. 22</div>
+
+::: {.notes}
+Let a=OA and b=OB. MN=ON−OM=b/2−a/2=(b−a)/2=AB/2. This proves both parallelism and the half-length relationship, because the multiplier is positive 1/2. Ask students to write this one vector target first. No dot product is necessary.
+:::

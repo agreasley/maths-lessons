@@ -1,0 +1,11 @@
+## Construct an altitude {#fv2-construct-altitude .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="altitude-components" role="img" aria-label="AB is decomposed into AH perpendicular to BC and HB parallel to BC."></div></div><div><p>Let <span data-math="\underset{\sim}{d}=\overrightarrow{BC}=\underset{\sim}{b}-\underset{\sim}{a}"></span>.</p><p>Remove from <span data-math="\underset{\sim}{a}"></span> its component parallel to <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AH}=\underset{\sim}{a}-\frac{\underset{\sim}{a}\cdot\underset{\sim}{d}}{\underset{\sim}{d}\cdot\underset{\sim}{d}}\underset{\sim}{d}"></span></div><p><span data-math="\overrightarrow{AH}\cdot\underset{\sim}{d}=0"></span></p></div></div>
+```
+
+<div class="booklet-cue">Supports booklet p. 14 · Extension 1 projection</div>
+
+::: {.notes}
+The parallel component of AB is proj_d a=((a·d)/(d·d))d. Subtract it from AB to obtain AH, perpendicular to BC. H lies on the supporting line because AH=a+t d for t=−(a·d)/(d·d). Thus this is the altitude from A, including when H is outside segment BC. The displayed decomposition is AB=AH+HB, with HB parallel to BC. In this diagram the projection coefficient is negative; projection direction may oppose d. No new line-equation terminology is needed. For a non-degenerate triangle d≠0 and AH≠0.
+:::

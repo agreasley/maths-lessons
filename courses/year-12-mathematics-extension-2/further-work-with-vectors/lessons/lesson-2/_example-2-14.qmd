@@ -1,0 +1,11 @@
+## Example 2.14 {#fv2-example-2-14 .fv-lesson .proof-lesson }
+
+```{=html}
+<p>Prove that an angle inscribed in a semicircle, <span data-math="\angle ACB"></span>, is a right angle.</p><div class="proof-diagram " data-proof-diagram="semicircle" role="img" aria-label="Semicircle with diameter AB and centre O. OA, OB and OC have position vectors a, b and c."></div>
+```
+
+<div class="booklet-cue">Booklet Example 2.14 · p. 31</div>
+
+::: {.notes}
+Use the diagram’s a=OA,b=OB,c=OC. Since AB is a diameter, b=−a; since A,C are on the circle, |a|=|c|. CA=a−c and CB=b−c=−a−c. Thus CA·CB=(a−c)·(−a−c)=|c|²−|a|²=0. C is distinct from the diameter endpoints, so the vectors are non-zero and ∠ACB=90°. Do not assume the angle-in-a-semicircle theorem in the argument.
+:::

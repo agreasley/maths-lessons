@@ -1,0 +1,11 @@
+## Example 2.7 · ii {#fv2-example-2-7-ii .fv-lesson .proof-lesson .proof-compact}
+
+```{=html}
+<p>(ii) It can be shown that</p><div class="fv-equation"><span data-math="\overrightarrow{MQ}=\frac12(\underset{\sim}{b}-\underset{\sim}{c}+\underset{\sim}{d})\quad\text{and}\quad\overrightarrow{NR}=\frac12(\underset{\sim}{b}+\underset{\sim}{c}-\underset{\sim}{d})."></span></div><p><strong>(Do NOT prove these.)</strong></p><p>Prove that</p><div class="fv-equation"><span data-math="\begin{aligned}|\overrightarrow{AB}|^2+|\overrightarrow{AC}|^2+|\overrightarrow{AD}|^2&amp;+|\overrightarrow{BC}|^2+|\overrightarrow{BD}|^2+|\overrightarrow{CD}|^2\\&amp;=4\bigl[|\overrightarrow{LP}|^2+|\overrightarrow{MQ}|^2+|\overrightarrow{NR}|^2\bigr].\end{aligned}"></span></div><p><span class="marks">(3 marks)</span></p><div class="proof-prompt">Prepare one expansion, then combine the results.</div>
+```
+
+<div class="booklet-cue">Booklet Example 2.7 · p. 23–24</div>
+
+::: {.notes}
+Keep the definitions and diagram from part (i) available via Previous or the slide map. Do not prove the two supplied vector expressions. Assign different pairs one of the three expressions 4|LP|², 4|MQ|² or 4|NR|². Each becomes |b|²+|c|²+|d|², with mixed-term signs respectively (−,−,+), (−,+,−), (+,−,−) for 2b·c, 2b·d, 2c·d. Their sum is 3(|b|²+|c|²+|d|²)−2(b·c+b·d+c·d). Independently, BC=c−b, BD=d−b, CD=d−c; expanding the six squared edge lengths gives the same expression. The mixed terms do not all disappear: their total coefficients are −2. This shared expansion highlights structure while the teacher assembles the logical proof in OneNote.
+:::

@@ -1,11 +1,12 @@
-## Triangle inequality · The upper bound {#fv1-triangle .fv-lesson }
+## Triangle inequality · The upper bound {#fv1-triangle .fv-lesson .fv-triangle-slide }
 
 ```{=html}
-<div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|\leq|\underset{\sim}{a}|+|\underset{\sim}{b}|"></span></div><div class="fv-triangle-layout"><div class="fv-triangle-diagram" role="img" aria-label="Two vectors placed head to tail form a triangle. Their sum is the straight-line displacement between the endpoints."></div><div><p><strong>The shortest distance between two points is a straight line.</strong></p><p class="small">The direct displacement is no longer than the route along the two vectors.</p><p class="small">Equality holds when non-zero vectors point in the <strong>same direction</strong>.</p></div></div>
+<div class="fv-equation"><span data-math="\displaystyle |\underset{\sim}{a}+\underset{\sim}{b}|\leq|\underset{\sim}{a}|+|\underset{\sim}{b}|"></span></div>
+<div data-fv-triangle="upper"></div>
 ```
 
 <div class="booklet-cue">Booklet §1.3 · p. 9</div>
 
 ::: {.notes}
-Brief explanation only; no routine or controls. The blue resultant is the straight-line route between the same endpoints as the green then gold journey. Connect its length |a+b| to the total length |a|+|b|. Equality occurs for non-zero vectors in the same direction, and also if either vector is zero. This is the upper bound; the lower bound has its own slide.
+Keep this a brief demonstration. Change the angle while holding the lengths fixed, then use the same/opposite direction buttons to show the endpoints. The solid green then gold arrows form the head-to-tail route; the dashed blue arrow is the direct displacement. At collinear endpoints the arrows intentionally overlap on the same geometric line, with differing stroke widths and labels on separate rows. Values are rounded to two decimal places; equality messages use the exact geometric cases. Use equal lengths and opposite directions to show a zero resultant. Magnitudes can be zero: the angle is then undefined and its control is disabled; both bounds give equality. Reset restores lengths 4 and 3 and the initial angle. No additional routine or timer. The two interpretations are followed by a combined-bounds slide.
 :::

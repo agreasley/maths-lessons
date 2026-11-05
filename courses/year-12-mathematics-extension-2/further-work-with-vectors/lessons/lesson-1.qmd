@@ -45,6 +45,8 @@ homework: "1 · Exercise 4F"
 
 {{< include lesson-1/_triangle-lower.qmd >}}
 
+{{< include lesson-1/_triangle-combined.qmd >}}
+
 {{< include lesson-1/_finish.qmd >}}
 
 {{< include lesson-1/_homework.qmd >}}

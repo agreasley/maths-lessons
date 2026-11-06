@@ -1,11 +1,24 @@
-## Construct an altitude {#fv2-construct-altitude .fv-lesson .proof-lesson }
+## Construct an altitude {#fv2-construct-altitude .fv-lesson .proof-lesson .construction-slide }
 
 ```{=html}
-<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="altitude-components" role="img" aria-label="AB is decomposed into AH perpendicular to BC and HB parallel to BC."></div></div><div><p>Let <span data-math="\underset{\sim}{d}=\overrightarrow{BC}=\underset{\sim}{b}-\underset{\sim}{a}"></span>.</p><p>Remove from <span data-math="\underset{\sim}{a}"></span> its component parallel to <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AH}=\underset{\sim}{a}-\frac{\underset{\sim}{a}\cdot\underset{\sim}{d}}{\underset{\sim}{d}\cdot\underset{\sim}{d}}\underset{\sim}{d}"></span></div><p><span data-math="\overrightarrow{AH}\cdot\underset{\sim}{d}=0"></span></p></div></div>
+<div data-vector-construction="altitude" data-initial-text="Start with the two known side vectors.">
+<p class="construction-given">Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p>
+<div class="construction-layout">
+<div class="construction-diagram" role="img" aria-label="Triangle ABC with side vectors a and b."></div>
+<ol class="construction-steps" aria-label="Construction working">
+<li hidden data-step-text="Find a direction vector along BC."><span class="construction-step-label">1. Find a direction vector along BC.</span><span data-math="\underset{\sim}{d}=\overrightarrow{BC}=\overrightarrow{BA}+\overrightarrow{AC}=\underset{\sim}{b}-\underset{\sim}{a}"></span></li>
+<li hidden data-step-text="Place the parallel component so that its head is at B."><span class="construction-step-label">2. Place the parallel component so that its head is at B.</span><span data-math="\underset{\sim}{p}=\operatorname{proj}_{\underset{\sim}{d}}\underset{\sim}{a}=\frac{\underset{\sim}{a}\cdot \underset{\sim}{d}}{\underset{\sim}{d}\cdot \underset{\sim}{d}}\underset{\sim}{d}"></span></li>
+<li hidden data-step-text="Call its tail H. Follow A to H to B."><span class="construction-step-label">3. Call its tail H. Follow A to H to B.</span><span data-math="\overrightarrow{AB}=\overrightarrow{AH}+\overrightarrow{HB},\quad \overrightarrow{HB}=\underset{\sim}{p}"></span></li>
+<li hidden data-step-text="Subtract the parallel component."><span class="construction-step-label">4. Subtract the parallel component.</span><span data-math="\overrightarrow{AH}=\underset{\sim}{a}-\underset{\sim}{p}=\underset{\sim}{a}-\frac{\underset{\sim}{a}\cdot \underset{\sim}{d}}{\underset{\sim}{d}\cdot \underset{\sim}{d}}\underset{\sim}{d}"></span></li>
+<li hidden data-step-text="Check: the remaining vector is perpendicular to BC."><span class="construction-step-label">5. Check: the remaining vector is perpendicular to BC.</span><span data-math="\overrightarrow{AH}\cdot \underset{\sim}{d}=\underset{\sim}{a}\cdot \underset{\sim}{d}-\frac{\underset{\sim}{a}\cdot \underset{\sim}{d}}{\underset{\sim}{d}\cdot \underset{\sim}{d}}(\underset{\sim}{d}\cdot \underset{\sim}{d})"></span><span data-math="\hphantom{\overrightarrow{AH}\cdot\underset{\sim}{d}}=0"></span></li>
+</ol>
+</div>
+<div class="construction-controls"></div>
+</div>
 ```
 
 <div class="booklet-cue">Supports booklet p. 14 · Extension 1 projection</div>
 
 ::: {.notes}
-The parallel component of AB is proj_d a=((a·d)/(d·d))d. Subtract it from AB to obtain AH, perpendicular to BC. H lies on the supporting line because AH=a+t d for t=−(a·d)/(d·d). Thus this is the altitude from A, including when H is outside segment BC. The displayed decomposition is AB=AH+HB, with HB parallel to BC. In this diagram the projection coefficient is negative; projection direction may oppose d. No new line-equation terminology is needed. For a non-degenerate triangle d≠0 and AH≠0.
+Step 1 uses BC=BA+AC=b−a. Step 2 recalls the Extension 1 projection: p=proj_d a=((a·d)/(d·d))d. Place this vector with its head at B, along the supporting line BC; its tail is H. In this scalene triangle the coefficient is negative, so p points opposite to d. Step 3 names H and shows AB=AH+HB. Step 4 gives AH=a−p. Step 5 expands AH·d and obtains zero, justifying the right-angle marker. Because H=B−p and p is parallel to BC, H lies on its supporting line; this also works if the foot lies outside segment BC. For a non-degenerate triangle d≠0 and AH≠0. Earlier equations remain visible; no new line-equation terminology is needed.
 :::

@@ -1,11 +1,24 @@
-## Construct a perpendicular bisector {#fv2-construct-perp .fv-lesson .proof-lesson }
+## Construct a perpendicular bisector {#fv2-construct-perp .fv-lesson .proof-lesson .construction-slide }
 
 ```{=html}
-<div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="perp-bisector" role="img" aria-label="Line through midpoint M parallel to the altitude AH, within the plane of triangle ABC."></div></div><div><p>Find the midpoint <span data-math="M"></span> of <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AM}=\frac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></div><p>Draw through <span data-math="M"></span> a line parallel to <span data-math="AH"></span>.</p><p>It passes through the midpoint and is perpendicular to <span data-math="BC"></span>.</p></div></div>
+<div data-vector-construction="perp" data-initial-text="First find the midpoint, then a perpendicular direction.">
+<p class="construction-given">Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p>
+<div class="construction-layout">
+<div class="construction-diagram" role="img" aria-label="Triangle ABC with side vectors a and b."></div>
+<ol class="construction-steps" aria-label="Construction working">
+<li hidden data-step-text="Find CB using the two side vectors."><span class="construction-step-label">1. Find CB using the two side vectors.</span><span data-math="\overrightarrow{CB}=\overrightarrow{CA}+\overrightarrow{AB}=\underset{\sim}{a}-\underset{\sim}{b}"></span></li>
+<li hidden data-step-text="Halve CB to reach M."><span class="construction-step-label">2. Halve CB to reach M.</span><span data-math="\overrightarrow{CM}=\tfrac12\overrightarrow{CB}=\tfrac12(\underset{\sim}{a}-\underset{\sim}{b})"></span></li>
+<li hidden data-step-text="Locate the midpoint from A."><span class="construction-step-label">3. Locate the midpoint from A.</span><span data-math="\overrightarrow{AM}=\overrightarrow{AC}+\overrightarrow{CM}"></span><span data-math="\phantom{\overrightarrow{AM}}=\underset{\sim}{b}+\tfrac12(\underset{\sim}{a}-\underset{\sim}{b})=\tfrac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></li>
+<li hidden data-step-text="Use the altitude direction from the previous slide."><span class="construction-step-label">4. Use the altitude direction from the previous slide.</span><span data-math="\underset{\sim}{h}=\overrightarrow{AH}=\underset{\sim}{a}-\frac{\underset{\sim}{a}\cdot \underset{\sim}{d}}{\underset{\sim}{d}\cdot \underset{\sim}{d}}\underset{\sim}{d}"></span><span class="construction-step-note">where <span data-math="\underset{\sim}{d}=\underset{\sim}{b}-\underset{\sim}{a}"></span>.</span></li>
+<li hidden data-step-text="Draw through M a line parallel to AH, in the triangle’s plane."><span class="construction-step-label">5. Draw through M a line parallel to AH, in the triangle’s plane.</span><span data-math="\underset{\sim}{h}\cdot(\underset{\sim}{b}-\underset{\sim}{a})=0"></span><span class="construction-step-note">Through the midpoint; perpendicular to the side.</span></li>
+</ol>
+</div>
+<div class="construction-controls"></div>
+</div>
 ```
 
 <div class="booklet-cue">Supports booklet p. 14</div>
 
 ::: {.notes}
-Use the altitude direction h from the previous slide. The perpendicular bisector is the line through M parallel to h, within the triangle’s plane. These two defining conditions are enough. In 3D the whole locus equidistant from B and C is a plane; here we explicitly mean the perpendicular-bisector line in the triangle’s plane. Do not introduce the perpendicular-bisector plane or line equations in this lesson.
+Steps 1–3 repeat the complete median construction: CB=a−b; CM=(a−b)/2; AM=AC+CM=(a+b)/2. Step 4 reuses the fully derived altitude direction h=a−((a·d)/(d·d))d with d=b−a. Step 5 translates that direction to a line through M; the altitude and new line are parallel. The line is perpendicular to BC since h·(b−a)=0. Equal ticks on CM and MB mark the midpoint. These are the two defining conditions of the perpendicular bisector. The line is within the triangle’s plane. In 3D the whole locus equidistant from B and C is a plane, but that is not the construction here. Do not introduce line equations or the perpendicular-bisector plane in this lesson.
 :::

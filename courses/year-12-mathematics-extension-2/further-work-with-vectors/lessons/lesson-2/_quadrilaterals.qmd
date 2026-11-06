@@ -1,11 +1,19 @@
-## Useful quadrilateral properties {#fv2-quadrilaterals .fv-lesson .proof-lesson }
+## Quadrilateral properties · a square {#fv2-quadrilaterals .fv-lesson .proof-lesson }
 
 ```{=html}
-<div class="proof-properties"><div><h3>Trapezium</h3><p>One pair of opposite sides parallel.</p></div><div><h3>Kite</h3><p>Two pairs of adjacent sides equal; diagonals perpendicular.</p></div><div><h3>Parallelogram</h3><p>Opposite sides equal and parallel; diagonals bisect each other.</p></div><div><h3>Rhombus</h3><p>All sides equal; a parallelogram with perpendicular diagonals.</p></div><div><h3>Rectangle</h3><p>A parallelogram with right angles and equal diagonals.</p></div><div><h3>Square</h3><p>A rectangle with all sides equal.</p></div></div>
+<p class="proof-reference">Refer to <strong>§2.2.2, pp. 18–19</strong> for the full properties of all six quadrilaterals.</p>
+<div class="proof-split"><div><div class="proof-diagram" data-proof-diagram="square-properties" role="img" aria-label="Square ABCD with equal sides, right angles and diagonals meeting at O."></div></div><div>
+<h3>If we know it is a square…</h3>
+<p>Opposite sides are parallel; all four sides are equal.</p>
+<p>All four angles are right angles.</p>
+<p>The diagonals are equal and perpendicular, bisect each other and bisect the opposite angles.</p>
+<p>Area <span data-math="=s^2"></span>, where <span data-math="s"></span> is the side length.</p>
+</div></div>
+<p class="proof-expectation">Know the properties of every shape in the notes; the square is our case study.</p>
 ```
 
 <div class="booklet-cue">Booklet §2.2.2 · pp. 18–19</div>
 
 ::: {.notes}
-A concise reference to properties used in proofs. The booklet contains additional angle and area properties. Know what is given and what must be established: do not quote the perpendicular diagonals of a rhombus when that is exactly what Example 2.5 asks you to prove. The trapezium convention follows the supplied booklet.
+Refer students to the complete booklet reference for trapezium, kite, parallelogram, rhombus, rectangle and square. The slides use a square to examine the direction of reasoning: being given a square allows us to use its properties. All square properties listed on p. 19 are represented here, including area. Ask students to point to one property about sides, one about angles and one about diagonals. They are expected to know the relevant details for all six quadrilaterals, not just the square. When a question asks for a vector proof of a property, establish that property rather than quoting the required conclusion. For example, do not quote perpendicular rhombus diagonals in Example 2.5.
 :::

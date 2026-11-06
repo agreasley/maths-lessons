@@ -1,11 +1,18 @@
-## Choose sufficient conditions {#fv2-sufficient .fv-lesson .proof-lesson }
+## Proving a square · sufficient conditions {#fv2-sufficient .fv-lesson .proof-lesson }
 
 ```{=html}
-<table class="proof-table"><thead><tr><th>To prove it is a…</th><th>One sufficient route</th></tr></thead><tbody><tr><td>Trapezium</td><td>One pair of opposite sides parallel.</td></tr><tr><td>Kite</td><td>Two pairs of adjacent sides equal.</td></tr><tr><td>Parallelogram</td><td>One pair of opposite sides both equal and parallel.</td></tr><tr><td>Rhombus</td><td>A parallelogram with two adjacent sides equal.</td></tr><tr><td>Rectangle</td><td>A parallelogram with one right angle.</td></tr><tr><td>Square</td><td>A rectangle with two adjacent sides equal.</td></tr></tbody></table><p>Use the vertices in order around a non-degenerate quadrilateral.</p>
+<p class="proof-reference">Refer to <strong>§2.2.3, p. 20</strong> for sufficient conditions for <strong>all six shapes</strong>.</p>
+<div class="proof-split"><div><div class="proof-diagram" data-proof-diagram="square-proof" role="img" aria-label="Vertices A, B, C and D in order, with a = AB and b = AD. The square drawing is a target, not a given."></div><p class="proof-diagram-note">Target shape — prove the conditions.</p></div><div>
+<h3>One route: parallelogram → rectangle → square</h3>
+<p><span data-math="\overrightarrow{AB}=\overrightarrow{DC}"></span><br><span class="proof-route-note">One pair of opposite sides equal and parallel.</span></p>
+<p><span data-math="\underset{\sim}{a}\cdot\underset{\sim}{b}=0"></span><br><span class="proof-route-note">A right angle makes it a rectangle.</span></p>
+<p><span data-math="|\underset{\sim}{a}|=|\underset{\sim}{b}|"></span><br><span class="proof-route-note">Equal adjacent sides make it a square.</span></p>
+</div></div>
+<p class="proof-alternatives"><strong>Other routes:</strong> four equal sides and one right angle; <strong>or</strong> diagonals that are equal, bisect each other and meet at right angles.</p>
 ```
 
 <div class="booklet-cue">Booklet §2.2.3 · p. 20</div>
 
 ::: {.notes}
-Each row is one sufficient route, not the only one. The booklet lists alternatives. For the parallelogram route, account for direction: for vertices A,B,C,D in order, AB=DC. Showing just that one pair of opposite sides is parallel is insufficient. For a rectangle, equal diagonals alone are insufficient unless the remaining conditions establish a parallelogram. Avoid circular arguments.
+Take vertices A,B,C,D in order around a non-degenerate quadrilateral, with a=AB and b=AD. The diagram shows the target shape and must not be taken as evidence. First show AB=DC: the direction is essential. One pair of opposite sides equal and parallel establishes a parallelogram. Next show a·b=0; one right angle makes the parallelogram a rectangle. Finally show |a|=|b|; a rectangle with equal adjacent sides is a square. No markings on the target diagram assume these conclusions. The alternatives at the bottom reproduce the other two sufficient routes for squares on p. 20. Students should know the booklet's conditions for every shape; these slides are not an exhaustive classification of quadrilaterals or of proof methods. Ask “Which route uses the information we have?” rather than trying to establish every property. Equal diagonals alone do not establish a rectangle or square; perpendicular diagonals alone do not establish a rhombus or square.
 :::

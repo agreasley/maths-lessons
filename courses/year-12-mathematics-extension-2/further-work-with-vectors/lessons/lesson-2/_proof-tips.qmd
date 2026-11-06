@@ -1,11 +1,16 @@
 ## Finding a starting point {#fv2-proof-tips .fv-lesson .proof-lesson }
 
 ```{=html}
-<ol class="proof-tips"><li>Draw and label a diagram.</li><li>Choose two non-parallel vectors in a plane, or three non-coplanar vectors in space.</li><li>Express the required vectors using those choices; check their directions.</li><li>Rewrite the required-to-prove statement (RTP) in vector notation.</li><li>Recall the geometric properties of the dot product.</li></ol>
+<div class="proof-basis">
+<div><h3>In a plane</h3><p><strong>Two non-parallel vectors</strong></p><span data-math="\alpha\underset{\sim}{a}+\beta\underset{\sim}{b}"></span></div>
+<div><h3>In 3D space</h3><p><strong>Three non-coplanar vectors</strong></p><span data-math="\alpha\underset{\sim}{a}+\beta\underset{\sim}{b}+\gamma\underset{\sim}{c}"></span></div>
+</div>
+<p><strong>Express every required vector using the same chosen vectors.</strong></p>
+<ol class="proof-tips proof-tips-short"><li>Draw and label a diagram.</li><li>Check the direction of each vector.</li><li>Rewrite the required-to-prove statement (RTP) in vector notation.</li><li>Recall the geometric properties of the dot product.</li></ol>
 ```
 
 <div class="booklet-cue">Booklet §2.2 · p. 13 · teacher’s proof tips</div>
 
 ::: {.notes}
-A fixed pair of non-parallel vectors spans its plane: every vector in that plane is αa+βb. Three non-coplanar vectors span three-dimensional space. Pairwise non-parallel is insufficient in 3D, because all three might still lie in one plane. If a spatial problem is planar, two spanning vectors suffice. Choosing vectors from a common vertex often simplifies paths. AB=−BA; head-minus-tail for position vectors. Establish the conditions you need rather than assuming the required conclusion. The vectors need not be perpendicular or unit length.
+Choose a fixed pair of non-parallel vectors for a plane: every vector in that plane is αa+βb. Choose three non-coplanar vectors for three-dimensional space: every vector is αa+βb+γc. Pairwise non-parallel is insufficient in 3D because all three might still lie in one plane. If a spatial problem is planar, two spanning vectors suffice. Choosing vectors from a common vertex often simplifies paths; the three edges from A in the triangular pyramid in Example 2.7 provide the spatial version. AB=−BA; head-minus-tail for position vectors. Establish the conditions you need rather than assuming the required conclusion. The chosen vectors need not be perpendicular or unit length.
 :::

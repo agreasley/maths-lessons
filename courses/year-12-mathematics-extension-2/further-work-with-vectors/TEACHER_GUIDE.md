@@ -108,7 +108,7 @@ Spicy: Exercise 4F Q18; 4G Q7, Q8, Q16, Q17; 4H Q5, Q10.
 
 ## Implementation
 
-The shared unit cover appears only on the presentation opening slide. The existing numbered hinge, timer and slide map are reused. New vector diagrams use native SVG paths and the existing VectorDiagramMath label helper, with no foreignObject labels. Geometry diagrams remain static; the Cauchy–Schwarz visual has one touch-sized angle slider and presets. All required assets are local and embedded into the standalone HTML. Detailed worked solutions remain in presenter notes for OneNote teaching.
+The shared unit cover appears only on the presentation opening slide. The existing numbered hinge, timer and slide map are reused. New vector diagrams use native SVG paths and the existing VectorDiagramMath label helper, with no foreignObject labels. The four triangle construction slides now use teacher-controlled step animations and cumulative algebra; other geometry diagrams remain static. The Cauchy–Schwarz visual has one touch-sized angle slider and presets. All required assets are local and embedded into the standalone HTML. Detailed example solutions remain in presenter notes for OneNote teaching; the construction working is explicitly shown on the four construction slides.
 
 ## Lesson 2 validation
 
@@ -117,3 +117,19 @@ Rendered with Quarto 1.10.18. Verified all 40 top-level slides, every example nu
 Construction perpendicularity and equal-angle identities were checked numerically, and the pyramid squared-length identity was verified on 100 integer-vector cases. Worked arguments were reviewed against the source questions, including the coincident-point cases in Example 2.9 and the ratio in Example 2.11.
 
 Available browser: Chromium at 1363×936. WebKit, touch emulation, rotation and physical-iPad testing remain unavailable. The lesson uses native SVG coordinates and touch-sized controls without device-specific offsets. The established generated-preview escaping workaround was applied after rendering; repository source is unchanged by that preview workaround.
+
+
+## Construction and proof-guidance revisions
+
+The median, altitude, perpendicular-bisector and internal-angle-bisector slides each begin with the known triangle and provide five construction steps. Next step animates new SVG segments and reveals the associated algebra; earlier equations stay visible. Previous step and Reset construction allow retracing, independently of slide navigation. Returning to a slide or closing the slide map preserves its current step. The controls are at least 48 CSS pixels high, and the animation respects reduced-motion preferences. Diagram labels use native SVG throughout.
+
+- Median: CB=CA+AB=a−b; CM=CB/2; AM=AC+CM; substitution; full simplification to (a+b)/2.
+- Altitude: d=BC=b−a; project a onto d; place the projection with its head at B and call its tail H; subtract to find AH; expand AH·d to verify zero. The projection points opposite to d in the displayed triangle.
+- Perpendicular bisector: construct M with the same midpoint working, reuse the altitude direction h, then draw the parallel line through M in the triangle’s plane. The final diagram suppresses the temporary midpoint-path arrowheads for clarity.
+- Internal angle bisector: normalise both side vectors, translate and add them, expand both dot products with the two unit directions, then divide by the length of their sum to show equal cosines. Extend that direction to BC; the sum vector itself need not end on BC.
+
+The quadrilateral slides now use a square as a case study. The properties slide points to the full six-shape reference in §2.2.2, printed pp. 18–19. The sufficient-conditions slide points to §2.2.3, p. 20, develops one vector route (parallelogram → rectangle → square), and includes the booklet’s two other square routes. Students are expected to know the reference for every shape. The target-square diagram has no markings that assume the conclusions.
+
+The vector-choice tip is prominent: two non-parallel vectors for a plane; three non-coplanar vectors for space. Every required vector should be expressed using the same chosen set. Example 2.7 repeats the spatial choice explicitly. Its triangular pyramid now has two lightly shaded visible faces, one dashed hidden edge and only LP across its interior; all six original midpoint labels remain. Question wording, numerical values, subparts and the supplied formulas in part (ii) are unchanged.
+
+Revision checks: rendered with Quarto 1.10.18; all 40 slides passed forward and backward navigation in Chromium at 1363×936. Exercised all five forward steps on each construction, all reverse steps on the altitude/perpendicular-bisector/angle-bisector components, and reset on all four. The median retained step 4 and its four visible working rows in the slide-map preview and on return. Completed construction layouts fit within the slide bounds; native SVG labels and equations rendered without errors or foreignObject elements. Visually reviewed the four constructions, square properties, square sufficient conditions, strengthened vector-choice guidance and simplified pyramid. The final controls measured 46.5 screen pixels high at the available viewport. Checked median, altitude and equal-angle identities on 200 deterministic random 2D/3D vector cases. WebKit, touch emulation, orientation changes and physical-iPad checks remain unavailable.

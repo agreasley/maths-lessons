@@ -1,11 +1,24 @@
-## Construct a median {#fv2-construct-median .fv-lesson .proof-lesson }
+## Construct a median {#fv2-construct-median .fv-lesson .proof-lesson .construction-slide }
 
 ```{=html}
-<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="median" role="img" aria-label="Median AM joins vertex A to the midpoint M of BC."></div></div><div><p>Find the midpoint <span data-math="M"></span> of <span data-math="BC"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{AM}=\frac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></div><p>Join <span data-math="A"></span> to <span data-math="M"></span>.</p></div></div>
+<div data-vector-construction="median" data-initial-text="Start with the two known side vectors.">
+<p class="construction-given">Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p>
+<div class="construction-layout">
+<div class="construction-diagram" role="img" aria-label="Triangle ABC with side vectors a and b."></div>
+<ol class="construction-steps" aria-label="Construction working">
+<li hidden data-step-text="Go from C to B via A."><span class="construction-step-label">1. Go from C to B via A.</span><span data-math="\overrightarrow{CB}=\overrightarrow{CA}+\overrightarrow{AB}=-\underset{\sim}{b}+\underset{\sim}{a}=\underset{\sim}{a}-\underset{\sim}{b}"></span></li>
+<li hidden data-step-text="Halve CB to reach its midpoint M."><span class="construction-step-label">2. Halve CB to reach its midpoint M.</span><span data-math="\overrightarrow{CM}=\tfrac12\overrightarrow{CB}=\tfrac12(\underset{\sim}{a}-\underset{\sim}{b})"></span></li>
+<li hidden data-step-text="Go from A to M via C."><span class="construction-step-label">3. Go from A to M via C.</span><span data-math="\overrightarrow{AM}=\overrightarrow{AC}+\overrightarrow{CM}"></span></li>
+<li hidden data-step-text="Substitute the two known vectors."><span class="construction-step-label">4. Substitute the two known vectors.</span><span data-math="\overrightarrow{AM}=\underset{\sim}{b}+\tfrac12(\underset{\sim}{a}-\underset{\sim}{b})"></span></li>
+<li hidden data-step-text="Simplify: this is the vector from A to the midpoint M."><span class="construction-step-label">5. Simplify: this is the vector from A to the midpoint M.</span><span data-math="\overrightarrow{AM}=\underset{\sim}{b}+\tfrac12\underset{\sim}{a}-\tfrac12\underset{\sim}{b}"></span><span data-math="\phantom{\overrightarrow{AM}}=\tfrac12\underset{\sim}{a}+\tfrac12\underset{\sim}{b}=\tfrac12(\underset{\sim}{a}+\underset{\sim}{b})"></span></li>
+</ol>
+</div>
+<div class="construction-controls"></div>
+</div>
 ```
 
 <div class="booklet-cue">Supports booklet p. 14</div>
 
 ::: {.notes}
-Take A as the origin. The midpoint position vector is the average of the position vectors of B and C, so AM=(a+b)/2. Equivalently AM=AB+BM=a+(b−a)/2. This is the actual vector to the midpoint, not just a parallel direction. Use a scalene triangle so the median is visibly different from the altitude and angle bisector.
+Take A as the origin, with a=AB and b=AC. Use Next step to trace C→A→B, giving CB=CA+AB=−b+a=a−b. Then mark M halfway from C to B, so CM=(a−b)/2. Trace A→C→M before replacing the two vectors and simplifying. The green arrow is a, gold is b, purple is the side/midpoint construction, and blue is the resulting median vector. The blue arrow ends at M: it is the actual median vector, not just a parallel direction. A scalene triangle distinguishes this median from the altitude and angle bisector. All earlier equations remain visible. Previous step and Reset construction undo the reveals without changing slides.
 :::

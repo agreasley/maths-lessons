@@ -1,11 +1,24 @@
-## Construct an internal angle bisector {#fv2-construct-angle .fv-lesson .proof-lesson }
+## Construct an internal angle bisector {#fv2-construct-angle .fv-lesson .proof-lesson .construction-slide }
 
 ```{=html}
-<p>Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p><div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="unit-bisector" role="img" aria-label="Two unit vectors along AB and AC form a rhombus. Their sum points along the internal angle bisector."></div></div><div><p>Make both side vectors unit length, then add them.</p><div class="fv-equation"><span data-math="\widehat{\underset{\sim}{a}}+\widehat{\underset{\sim}{b}}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|}+\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span></div><p>Their sum gives the <strong>direction</strong> of the internal angle bisector.</p></div></div>
+<div data-vector-construction="angle" data-initial-text="Use equal lengths along the two sides.">
+<p class="construction-given">Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p>
+<div class="construction-layout">
+<div class="construction-diagram" role="img" aria-label="Triangle ABC with side vectors a and b."></div>
+<ol class="construction-steps" aria-label="Construction working">
+<li hidden data-step-text="Make a unit vector along AB."><span class="construction-step-label">1. Make a unit vector along AB.</span><span data-math="\underset{\sim}{u}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|},\qquad |\underset{\sim}{u}|=1"></span></li>
+<li hidden data-step-text="Make a unit vector along AC."><span class="construction-step-label">2. Make a unit vector along AC.</span><span data-math="\underset{\sim}{v}=\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|},\qquad |\underset{\sim}{v}|=1"></span></li>
+<li hidden data-step-text="Translate and add the two unit vectors."><span class="construction-step-label">3. Translate and add the two unit vectors.</span><span data-math="\underset{\sim}{w}=\underset{\sim}{u}+\underset{\sim}{v}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|}+\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span></li>
+<li hidden data-step-text="Check the dot products with the two unit directions."><span class="construction-step-label">4. Check the dot products with the two unit directions.</span><span data-math="\underset{\sim}{w}\cdot \underset{\sim}{u}=1+\underset{\sim}{u}\cdot \underset{\sim}{v}"></span><span data-math="\underset{\sim}{w}\cdot \underset{\sim}{v}=\underset{\sim}{u}\cdot \underset{\sim}{v}+1=\underset{\sim}{w}\cdot \underset{\sim}{u}"></span></li>
+<li hidden data-step-text="Extend the ray in direction w to meet BC at D."><span class="construction-step-label">5. Extend the ray in direction <span data-math="\underset{\sim}{w}"></span> to meet BC at D.</span><span data-math="\frac{\underset{\sim}{w}\cdot \underset{\sim}{u}}{|\underset{\sim}{w}|}=\frac{\underset{\sim}{w}\cdot \underset{\sim}{v}}{|\underset{\sim}{w}|}"></span><span data-math="\therefore\ \cos\angle BAD=\cos\angle DAC"></span><span class="construction-step-note">The two angles are equal.</span></li>
+</ol>
+</div>
+<div class="construction-controls"></div>
+</div>
 ```
 
 <div class="booklet-cue">Supports booklet p. 14 · unit vectors</div>
 
 ::: {.notes}
-Equal-length arrows form a rhombus, whose diagonal visually explains the angle bisector. For a vector justification set u=a/|a|, v=b/|b| and w=u+v. Then w·u=1+u·v=w·v. Since |u|=|v|=1 and w≠0 in a non-degenerate triangle, w makes equal angles with u and v. Because it is a positive combination, w points inside the angle. The tip of w is not in general on BC; only its direction is used. The drawn equal-length arrows are a common scaled representation of unit vectors. Do not assume that a+b bisects the angle when |a|≠|b|.
+Step 1 draws u=a/|a|, and step 2 draws v=b/|b|. Both have unit length; the diagram represents them at the same common scale. Step 3 translates v to the head of u, and u to the head of v, forming a rhombus; its diagonal is w=u+v. Step 4 expands the dot products, using u·u=v·v=1 and commutativity, to show w·u=w·v. Step 5 divides both by |w|. Since |u|=|v|=1, these are the cosines of the angles made by w with the two sides. Cosine is one-to-one on 0°–180°, so those angles are equal. The positive sum points inside the angle; w≠0 for a non-degenerate triangle. Extend this ray to the side BC and call the intersection D. The tip of w is not generally on BC; w gives a direction, not the actual vector AD. Do not assume a+b bisects an angle when |a|≠|b|. No line-equation calculation for D is needed.
 :::

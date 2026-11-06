@@ -1,0 +1,18 @@
+## Altitudes meet at the orthocentre {#fv2-orthocentre .fv-lesson .proof-lesson }
+
+```{=html}
+<p>The three altitudes, extended where necessary, are concurrent at the <strong>orthocentre</strong> <span data-math="H"></span>.</p>
+<div class="orthocentre-cases">
+<div><h3>Acute-angled triangle</h3><div class="proof-diagram" data-proof-diagram="orthocentre-acute" role="img" aria-label="An acute triangle ABC with all three altitudes intersecting at H inside the triangle."></div><p><span data-math="H"></span> is <strong>inside</strong> the triangle.</p></div>
+<div><h3>Right-angled triangle</h3><div class="proof-diagram" data-proof-diagram="orthocentre-right" role="img" aria-label="Triangle ABC is right-angled at B. Two altitudes lie along its perpendicular sides, and all three meet at H = B."></div><p><span data-math="H"></span> is the <strong>right-angle vertex</strong>.</p></div>
+<div><h3>Obtuse-angled triangle</h3><div class="proof-diagram" data-proof-diagram="orthocentre-obtuse" role="img" aria-label="An obtuse triangle ABC with all three altitude lines intersecting at H outside the triangle. Dashed lines show extensions of sides and altitudes."></div><p><span data-math="H"></span> is <strong>outside</strong> the triangle.</p></div>
+</div>
+<p class="orthocentre-key">Coloured lines show the altitudes; dashed segments show extensions.</p>
+<p><strong>A result you are asked to prove must be justified.</strong></p>
+```
+
+<div class="booklet-cue">Booklet p. 15 · altitudes and orthocentre</div>
+
+::: {.notes}
+Trace the three coloured altitude lines in each diagram. Each is perpendicular to the line containing the opposite side; right-angle markers indicate the feet. In the acute triangle, H lies inside. In the right-angled triangle, the two perpendicular sides themselves are altitudes, so H is the right-angle vertex B. In the obtuse triangle, extend the appropriate sides to locate the perpendicular feet and extend the altitudes to their common point outside the triangle. Grey dashed segments extend sides; coloured dashed segments extend altitudes. Compare this with the centroid, which always lies inside. These are reference facts: if concurrency or another property is the required conclusion of a vector proof, it must be established rather than quoted.
+:::

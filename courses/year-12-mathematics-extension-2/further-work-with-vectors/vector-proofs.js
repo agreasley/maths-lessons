@@ -44,6 +44,9 @@
     }
     const builders={
       'centroid':F=>medianDiagram(F,true), 'median-example':F=>medianDiagram(F,false),
+      'orthocentre-acute':F=>orthocentreDiagram(F,'acute'),
+      'orthocentre-right':F=>orthocentreDiagram(F,'right'),
+      'orthocentre-obtuse':F=>orthocentreDiagram(F,'obtuse'),
       'trapezium-triangles':({poly,line,point,label})=>{const O=[45,270],A=[145,96.795],B=[245,270],D=[445,270],Cpt=[345,96.795],Mpt=mid(Cpt,D);poly([O,A,Cpt,D]);line(A,B);line(B,Cpt);line(B,Mpt,C.c);line(O,A,C.a,true);line(O,B,C.b,true);[[O,'O',[-16,15]],[A,'A',[0,-20]],[B,'B',[0,20]],[Cpt,'C',[0,-20]],[D,'D',[16,15]],[Mpt,'M',[20,-3]]].forEach(([P,n,o])=>point(P,n,o));label([75,175],v('a'),C.a);label([135,305],v('b'),C.b);},
       'rhombus-coordinates':F=>rhombus(F,false), 'rhombus-vectors':F=>rhombus(F,true),
       'midpoint-triangle':({poly,line,point})=>{const O=[90,55],A=[60,270],B=[460,270],Mpt=mid(O,A),N=mid(O,B);poly([O,A,B]);line(Mpt,N,C.c,true);[[O,'O',[0,-20]],[A,'A',[-12,18]],[B,'B',[12,18]],[Mpt,'M',[-20,0]],[N,'N',[15,-15]]].forEach(([P,n,o])=>point(P,n,o));},
@@ -79,8 +82,38 @@
     }
     function medianDiagram({poly,line,point,label},centre){
       const A=[175,45],B=[55,275],Cpt=[455,275],D=mid(B,Cpt),E=mid(Cpt,A),F=mid(A,B),G=mul(add(add(A,B),Cpt),1/3);
-      poly([A,B,Cpt]);line(A,D,C.c);line(B,E,C.purple);line(Cpt,F,C.muted);[[A,'A',[0,-20]],[B,'B',[-15,12]],[Cpt,'C',[15,12]],[D,'D',[0,22]],[E,'E',[20,-4]],[F,'F',[-20,-4]],[G,centre?'G':'M',[22,-7]]].forEach(([P,n,o])=>point(P,n,o));
+      poly([A,B,Cpt]);line(A,D,C.c);line(B,E,C.purple);line(Cpt,F,centre?C.a:C.muted);[[A,'A',[0,-20]],[B,'B',[-15,12]],[Cpt,'C',[15,12]],[D,'D',[0,22]],[E,'E',[20,-4]],[F,'F',[-20,-4]],[G,centre?'G':'M',centre?[36,34]:[22,-7]]].forEach(([P,n,o])=>point(P,n,o));
       if(!centre){line(A,B,C.a,true);line(A,Cpt,C.b,true);label([80,155],v('a'),C.a);label([345,135],v('b'),C.b);}else{label([176,130],'2k',C.c);label([226,239],'k',C.c);}
+    }
+    function orthocentreDiagram({poly,line,point,label,right},kind){
+      const vertices=kind==='right'?[[100,50],[100,290],[440,290]]:
+        [[235,kind==='acute'?50:145],[90,290],[450,290]];
+      const [A,B,Cpt]=vertices,d1=sub(Cpt,B),d2=sub(A,Cpt);
+      const q1=dot(A,d1),q2=dot(B,d2),det=d1[0]*d2[1]-d1[1]*d2[0];
+      const H=[(q1*d2[1]-d1[1]*q2)/det,(d1[0]*q2-q1*d2[0])/det];
+      const feet=vertices.map((P,i)=>{
+        const U=vertices[(i+1)%3],V=vertices[(i+2)%3],side=sub(V,U);
+        const t=dot(sub(P,U),side)/dot(side,side),foot=add(U,mul(side,t));
+        if(t<0)line(foot,U,C.muted,false,true,2);
+        if(t>1)line(V,foot,C.muted,false,true,2);
+        return {P,U,V,foot};
+      });
+      poly(vertices);
+      feet.forEach(({P,U,V,foot},i)=>{
+        const colour=[C.c,C.a,C.b][i],alt=sub(foot,P),t=dot(sub(H,P),alt)/dot(alt,alt);
+        line(P,foot,colour,false,false,3.5);
+        if(t>1+1e-9)line(foot,H,colour,false,true,3.5);
+        if(t< -1e-9)line(P,H,colour,false,true,3.5);
+        // At a right-angle vertex, choose the other endpoint to avoid a zero direction.
+        if(!(kind==='right'&&i===2))right(foot,P,norm(sub(U,foot))>1e-9?U:V);
+      });
+      vertices.forEach((P,i)=>{
+        point(P);
+        const name=kind==='right'&&i===1?'B=H':['A','B','C'][i];
+        const offset=i===0?(kind==='obtuse'?[-28,9]:[0,-23]):(kind==='right'&&i===1?[0,27]:(i===1?[-22,15]:[22,15]));
+        label(add(P,offset),name,C.ink,29);
+      });
+      if(kind!=='right'){point(H);label(add(H,kind==='acute'?[45,0]:[25,-14]),'H',C.ink,30);}
     }
     function rhombus({poly,line,point,label},vectors){const O=[110,280],A=[110,120],Cpt=[248.564,200],B=[248.564,40];poly([O,A,B,Cpt]);line(O,B,C.c);line(A,Cpt,C.purple);point(O,vectors?'O':'O(0,0)',[-15,25]);point(A,vectors?'A':'A(0,a)',[-30,-18]);point(B,'B',[15,-18]);point(Cpt,'C',[20,8]);if(vectors){line(O,A,C.a,true);line(O,Cpt,C.b,true);label([75,200],v('a'),C.a);label([200,267],v('c'),C.b);}}
     function paraDiagram({poly,line,point,label},kind){

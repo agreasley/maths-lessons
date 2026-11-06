@@ -37,6 +37,8 @@ homework: "2 · Exercises 4F–4H"
 
 {{< include lesson-2/_triangle-centres.qmd >}}
 
+{{< include lesson-2/_orthocentre.qmd >}}
+
 {{< include lesson-2/_example-2-3.qmd >}}
 
 {{< include lesson-2/_example-2-4.qmd >}}

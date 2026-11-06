@@ -66,18 +66,18 @@ Validation: 22 top-level slides; Chromium checked default diagrams, same/opposit
 
 ## Approved scope and delivery
 
-All Examples 2.1–2.17 and every subpart from booklet Chapter 2, printed pp. 11–35, appear in their original order in one 40-slide deck. The teacher chooses examples and stopping points and may spread the deck across two periods. No examples are relegated to an appendix and no homework split is imposed. Example 2.12 has two slides for legibility, adding one slide to the approximate 39-slide overview.
+All Examples 2.1–2.17 and every subpart from booklet Chapter 2, printed pp. 11–35, appear in their original order in one 41-slide deck. The teacher chooses examples and stopping points and may spread the deck across two periods. No examples are relegated to an appendix and no homework split is imposed. Example 2.12 has two slides for legibility. The centroid and orthocentre now have separate slides, with acute, right-angled and obtuse diagrams on the orthocentre slide.
 
 Objective: We are learning to use vectors to prove inequalities and geometric results. Success criterion: I can translate a mathematical claim into vector notation and construct a justified proof. Prior learning: Extension 1 vectors, including unit vectors and projections, plus Lesson 1 scalar-product properties and triangle inequality.
 
 ## Sequence
 
 1–7: shared cover, objective, recall, angle-controlled Cauchy–Schwarz visual, Example 2.1, hinge, Example 2.2.
-8–15: proof tips, vector RTP targets, four definitions, median construction, altitude via projection, in-plane perpendicular bisector, internal angle bisector via unit vectors, centroid/orthocentre reference.
-16–19: Examples 2.3–2.4, concise quadrilateral properties and sufficient conditions.
-20–25: Example 2.5(a–b), compare approaches, Example 2.6, Example 2.7(i–ii).
-26–38: Examples 2.8–2.17 in order, with splits for 2.8, 2.12 and 2.17.
-39–40: key ideas, Homework 2.
+8–16: proof tips, vector RTP targets, four definitions, median construction, altitude via projection, in-plane perpendicular bisector, internal angle bisector via unit vectors, separate centroid and orthocentre references.
+17–20: Examples 2.3–2.4, concise quadrilateral properties and sufficient conditions.
+21–26: Example 2.5(a–b), compare approaches, Example 2.6, Example 2.7(i–ii).
+27–39: Examples 2.8–2.17 in order, with splits for 2.8, 2.12 and 2.17.
+40–41: key ideas, Homework 2.
 
 ## Mathematical and teaching notes
 
@@ -137,3 +137,10 @@ Revision checks: rendered with Quarto 1.10.18; all 40 slides passed forward and 
 The altitude and internal-angle-bisector constructions were subsequently shortened to four steps as requested. Both algebraic verification steps were removed. The initial geometric reminder correctly names a rhombus, and the final angle-bisector vector is AD=k(u+v), k>0.
 
 Shortened-construction checks: re-rendered the 40-slide deck; in Chromium verified the initial rhombus reminder, each of the four steps on both changed slides, disabled Next step at the new final step, Previous step and Reset, diagram labels and final layouts. No mathematical-rendering errors or foreignObject elements. Both slides fit within the slide bounds. Existing WebKit/iPad testing limitations remain.
+
+
+## Separate triangle-centre slides
+
+Slide 15 now shows only the medians and centroid, with all three medians coloured and the vertex-to-centroid ratio 2:1. Its existing identifier is preserved. New slide 16 compares acute, right-angled and obtuse triangles, each with all three altitude lines and perpendicular-foot markers. Grey dashed segments extend sides; coloured dashed segments extend altitudes. The right-angle case explicitly identifies H=B and shows two altitudes along the perpendicular sides. Orthocentres and feet are calculated from the triangle vertices, not placed by eye. The deck now has 41 slides; examples and homework are unchanged.
+
+Triangle-centre revision checks: all 41 slides passed forward and reverse navigation in Chromium at 1363×936. The slide map contains both separate slides and all three orthocentre diagrams in its preview. Visually reviewed both slides and adjusted centroid/apex/orthocentre labels to avoid lines. Checked all nine altitude perpendicularities and the three orthocentre coordinates numerically; no invalid SVG path coordinates, mathematical-rendering errors or clipping. WebKit, touch emulation and physical-iPad checks remain unavailable.

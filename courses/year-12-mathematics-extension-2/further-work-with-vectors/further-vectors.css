@@ -97,3 +97,11 @@
 .reveal .proof-basis p{font-size:27px;margin:8px 0 14px}
 .reveal .proof-lesson .proof-tips-short li{margin:12px 0}
 .reveal .proof-vector-choice{font-size:22px;color:#217864;padding:8px 0}
+.reveal .centroid-layout{grid-template-columns:1.1fr 1fr}
+.reveal .centroid-layout .proof-diagram svg{height:380px}
+.reveal .orthocentre-cases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;margin:22px 0 12px}
+.reveal .orthocentre-cases>div{border-top:3px solid #217864;padding-top:10px}
+.reveal .orthocentre-cases h3{font-size:26px;text-align:center;margin:8px 0}
+.reveal .orthocentre-cases .proof-diagram svg{height:285px}
+.reveal .orthocentre-cases p{font-size:24px;line-height:1.3;text-align:center;margin:8px 0}
+.reveal .proof-lesson .orthocentre-key{font-size:22px;color:#52656d;margin:10px 0 18px}

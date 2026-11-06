@@ -1,11 +1,18 @@
-## Medians and altitudes meet {#fv2-triangle-centres .fv-lesson .proof-lesson }
+## Medians meet at the centroid {#fv2-triangle-centres .fv-lesson .proof-lesson }
 
 ```{=html}
-<div class="proof-split"><div><div class="proof-diagram " data-proof-diagram="centroid" role="img" aria-label="Three medians meet at the centroid G with AG:GD equal to 2:1."></div></div><div><h3>Centroid</h3><p>The medians are concurrent; the centroid divides each median in the ratio <span data-math="2:1"></span> from the vertex.</p><div class="fv-equation"><span data-math="\overrightarrow{AG}=\frac23\overrightarrow{AD}"></span></div><h3>Orthocentre</h3><p>The altitudes are concurrent: inside an acute triangle, at the right-angle vertex, or outside an obtuse triangle.</p></div></div><p><strong>A result you are asked to prove must be justified.</strong></p>
+<div class="proof-split centroid-layout">
+<div class="proof-diagram" data-proof-diagram="centroid" role="img" aria-label="Triangle ABC with midpoints D, E and F. Three coloured medians meet at centroid G, with AG:GD = 2:1."></div>
+<div><p>The three medians are <strong>concurrent</strong>: they meet at the <strong>centroid</strong> <span data-math="G"></span>.</p>
+<p>The centroid is always <strong>inside</strong> the triangle.</p>
+<p>It divides each median in the ratio <span data-math="2:1"></span>, measured from the vertex.</p>
+<div class="fv-equation"><span data-math="AG:GD=2:1"></span><br><span data-math="\overrightarrow{AG}=\frac23\overrightarrow{AD}"></span></div></div>
+</div>
+<p><strong>A result you are asked to prove must be justified.</strong></p>
 ```
 
-<div class="booklet-cue">Booklet p. 15</div>
+<div class="booklet-cue">Booklet p. 15 · medians and centroid</div>
 
 ::: {.notes}
-Concurrent means meeting at a common point. These are reference results and vocabulary, not permission to quote the centroid ratio when it is the conclusion of Example 2.3. In that example establish the ratio from midpoint information and independent vector coefficients. Altitudes may need extension to meet.
+Concurrent means meeting at a common point. Point to the midpoint of each opposite side, then follow each of the three coloured medians to G. The centroid is inside every non-degenerate triangle, including right-angled and obtuse triangles. The 2:1 ratio is measured from the vertex: AG is the longer part, and GD is the shorter part. These are reference results and vocabulary, not permission to quote the centroid ratio when it is the conclusion of Example 2.3. In that example establish the ratio from midpoint information and independent vector coefficients. The existing slide identifier fv2-triangle-centres is retained for shared links.
 :::

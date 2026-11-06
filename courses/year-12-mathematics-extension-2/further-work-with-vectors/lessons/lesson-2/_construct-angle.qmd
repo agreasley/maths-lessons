@@ -2,15 +2,15 @@
 
 ```{=html}
 <div data-vector-construction="angle" data-initial-text="Use equal lengths along the two sides.">
+<p class="construction-given"><strong>Recall:</strong> A diagonal of a rhombus bisects its opposite angles.</p>
 <p class="construction-given">Let <span data-math="\underset{\sim}{a}=\overrightarrow{AB},\quad \underset{\sim}{b}=\overrightarrow{AC}"></span>.</p>
 <div class="construction-layout">
 <div class="construction-diagram" role="img" aria-label="Triangle ABC with side vectors a and b."></div>
 <ol class="construction-steps" aria-label="Construction working">
 <li hidden data-step-text="Make a unit vector along AB."><span class="construction-step-label">1. Make a unit vector along AB.</span><span data-math="\underset{\sim}{u}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|},\qquad |\underset{\sim}{u}|=1"></span></li>
 <li hidden data-step-text="Make a unit vector along AC."><span class="construction-step-label">2. Make a unit vector along AC.</span><span data-math="\underset{\sim}{v}=\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|},\qquad |\underset{\sim}{v}|=1"></span></li>
-<li hidden data-step-text="Translate and add the two unit vectors."><span class="construction-step-label">3. Translate and add the two unit vectors.</span><span data-math="\underset{\sim}{w}=\underset{\sim}{u}+\underset{\sim}{v}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|}+\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span></li>
-<li hidden data-step-text="Check the dot products with the two unit directions."><span class="construction-step-label">4. Check the dot products with the two unit directions.</span><span data-math="\underset{\sim}{w}\cdot \underset{\sim}{u}=1+\underset{\sim}{u}\cdot \underset{\sim}{v}"></span><span data-math="\underset{\sim}{w}\cdot \underset{\sim}{v}=\underset{\sim}{u}\cdot \underset{\sim}{v}+1=\underset{\sim}{w}\cdot \underset{\sim}{u}"></span></li>
-<li hidden data-step-text="Extend the ray in direction w to meet BC at D."><span class="construction-step-label">5. Extend the ray in direction <span data-math="\underset{\sim}{w}"></span> to meet BC at D.</span><span data-math="\frac{\underset{\sim}{w}\cdot \underset{\sim}{u}}{|\underset{\sim}{w}|}=\frac{\underset{\sim}{w}\cdot \underset{\sim}{v}}{|\underset{\sim}{w}|}"></span><span data-math="\therefore\ \cos\angle BAD=\cos\angle DAC"></span><span class="construction-step-note">The two angles are equal.</span></li>
+<li hidden data-step-text="Translate and add the two unit vectors."><span class="construction-step-label">3. Translate and add the two unit vectors.</span><span data-math="\underset{\sim}{u}+\underset{\sim}{v}=\frac{\underset{\sim}{a}}{|\underset{\sim}{a}|}+\frac{\underset{\sim}{b}}{|\underset{\sim}{b}|}"></span><span class="construction-step-note">The equal-length sides form a rhombus.</span></li>
+<li hidden data-step-text="Scale the diagonal to meet BC at D."><span class="construction-step-label">4. Scale the diagonal to meet BC at D.</span><span data-math="\overrightarrow{AD}=k(\underset{\sim}{u}+\underset{\sim}{v}),\quad k>0"></span><span class="construction-step-note">Choose <span data-math="k"></span> so that <span data-math="D"></span> lies on <span data-math="BC"></span>.</span></li>
 </ol>
 </div>
 <div class="construction-controls"></div>
@@ -20,5 +20,5 @@
 <div class="booklet-cue">Supports booklet p. 14 · unit vectors</div>
 
 ::: {.notes}
-Step 1 draws u=a/|a|, and step 2 draws v=b/|b|. Both have unit length; the diagram represents them at the same common scale. Step 3 translates v to the head of u, and u to the head of v, forming a rhombus; its diagonal is w=u+v. Step 4 expands the dot products, using u·u=v·v=1 and commutativity, to show w·u=w·v. Step 5 divides both by |w|. Since |u|=|v|=1, these are the cosines of the angles made by w with the two sides. Cosine is one-to-one on 0°–180°, so those angles are equal. The positive sum points inside the angle; w≠0 for a non-degenerate triangle. Extend this ray to the side BC and call the intersection D. The tip of w is not generally on BC; w gives a direction, not the actual vector AD. Do not assume a+b bisects an angle when |a|≠|b|. No line-equation calculation for D is needed.
+Begin by recalling that a diagonal of a rhombus bisects its opposite angles. This does not hold for a general parallelogram. Step 1 draws u=a/|a|, and step 2 draws v=b/|b|. Both have unit length; the diagram represents them at the same common scale. Step 3 translates v to the head of u, and u to the head of v, forming a rhombus. Its diagonal u+v therefore bisects the angle at A. Step 4 scales that direction until it reaches BC at D: AD=k(u+v), where k>0 is chosen for this intersection. No calculation of k or dot-product verification is needed. The sum u+v gives the direction; its tip need not be on BC. Do not assume a+b bisects the angle when |a|≠|b|.
 :::

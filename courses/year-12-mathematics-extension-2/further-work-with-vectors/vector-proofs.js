@@ -138,14 +138,14 @@
             stage(1,()=>{if(step===1){arrow(B,Cpt,C.purple);label([405,120],v('d'),C.purple);}});
             stage(2,()=>{arrow(H,B,C.purple);label([412,151],v('p'),C.purple);});
             stage(3,()=>{point(H,'H',[8,-21]);arrow(A,H,C.c);label([85,175],'\\overrightarrow{AH}',C.c);});
-            stage(5,()=>right(H,A,B));
+            stage(4,()=>right(H,A,B));
           }else if(kind==='angle'){
             const u=mul(a,120/norm(a)),vb=mul(b,120/norm(b)),U=add(A,u),V=add(A,vb),W=add(U,vb);
             const D=mul(add(mul(B,norm(b)),mul(Cpt,norm(a))),1/(norm(a)+norm(b)));
             stage(1,()=>{arrow(A,U,C.a);point(U);label(add(mid(A,U),[0,25]),v('u'),C.a);});
             stage(2,()=>{arrow(A,V,C.b);point(V);label(add(mid(A,V),[-25,0]),v('v'),C.b);});
-            stage(3,()=>{arrow(U,W,C.b);line(V,W,C.a,true,true);arrow(A,W,C.c);point(W);label(add(W,[21,7]),v('w'),C.c);});
-            stage(5,()=>{
+            stage(3,()=>{arrow(U,W,C.b);line(V,W,C.a,true,true);arrow(A,W,C.c);point(W);label(add(W,[32,18]),`${v('u')}+${v('v')}`,C.c,20);});
+            stage(4,()=>{
               line(W,D,C.c,true,false,3.5);point(D,'D',[21,0]);
               const ang=Math.atan2(D[1]-A[1],D[0]-A[0]),ang2=Math.atan2(b[1],b[0]);
               const arc=(t0,t1,r)=>path(`M${A[0]+r*Math.cos(t0)} ${A[1]+r*Math.sin(t0)} A${r} ${r} 0 0 0 ${A[0]+r*Math.cos(t1)} ${A[1]+r*Math.sin(t1)}`,C.c);

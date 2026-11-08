@@ -11,6 +11,7 @@
 <div class="fragment" data-fragment-index="0" data-distance-reveal="1">
 <p>At the closest point, <span data-math="P=H"></span> and <span data-math="PA\perp\ell"></span>.</p>
 <div class="fv-equation inter-distance-condition"><span data-math="(\underset{\sim}{u}-t\underset{\sim}{d})\cdot\underset{\sim}{d}=0"></span></div>
+<p>Use the non-zero direction vector <span data-math="\underset{\sim}{d}"></span>.</p>
 <p>Solve for <span data-math="t"></span>, substitute into <span data-math="\overrightarrow{PA}"></span>, then take its magnitude.</p>
 </div>
 </div></div>
@@ -22,6 +23,8 @@
 B is the known point given by r(0); OB is exactly the constant vector in the line equation. Do not draw origin arrows: focus on triangle BPA. A is the given point, P(t) is an arbitrary point on the line, and H is reserved for the perpendicular foot. Use BP+PA=BA to establish PA=BA−BP=u−td. Initially the gold joining vector is oblique. Next changes P to H and reveals the perpendicularity equation and right-angle marker. The given A and base point B stay fixed. Previous restores the general point.
 
 Students already know the shortest-distance/perpendicularity fact from Extension 1. The new connection is using the line parameter to express the joining vector. Solving (u−td)·d=0 gives t=(u·d)/(d·d), hence BH=td is the same vector found by projection on the preceding slide. Either direction of the joining vector works, provided signs are consistent.
+
+Why use d rather than td? At the closest point, both dot products vanish. But (u−td)·(td)=t[(u−td)·d]=0 also holds automatically at t=0, where BP=0 has no direction. If t is known to be non-zero, dividing by t gives the same perpendicularity condition. Using the fixed non-zero d directly avoids the extra t=0 candidate and still works if B itself is the perpendicular foot. For Example 3.20, the equation with td becomes t(2−24t)=0; t=0 is the extra candidate, while t=1/12 gives the minimum. At t=0 the squared distance is 13, compared with 77/6 at the foot.
 
 Optional calculus connection, not an additional student method slide: D²(t)=|u−td|²=u·u−2t(u·d)+t²(d·d). Its derivative is −2u·d+2t(d·d), and its second derivative is 2(d·d)>0 for a non-zero direction. Minimising squared distance therefore gives the same parameter and a unique global minimum. Minimising D² is simpler than differentiating the square root.
 :::

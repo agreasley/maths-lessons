@@ -1,0 +1,11 @@
+## Example 3.19 {#fv5-example-3-19 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Line <span data-math="L_1"></span> passes through the points <span data-math="(1,-2,4)"></span> and <span data-math="(5,3,-2)"></span> while <span data-math="L_2"></span> passes through the points <span data-math="(3,8,-2)"></span> and <span data-math="(a,-2,10)"></span> where <span data-math="a\in\mathbb R"></span>. Find the values of <span data-math="a"></span> if</p><div class="inter-questions"><p>a) <span data-math="L_1"></span> is parallel to <span data-math="L_2"></span>.</p><p>b) the direction vectors of <span data-math="L_1"></span> and <span data-math="L_2"></span> are perpendicular. Do the lines intersect?</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.19(a–b) · p. 66</div>
+
+::: {.notes}
+Use d1=(4,5,−6), d2=(a−3,−10,12). a) The y and z components fix the multiplier at −2, so a−3=−8 and a=−5. b) d1·d2=4(a−3)−50−72=4a−134=0, giving a=67/2. To test intersection, write L1=(1,−2,4)+t(4,5,−6), L2=(3,8,−2)+s(a−3,−10,12). The y equation requires t+2s=2, while z requires t+2s=1. They cannot both hold, so there is no intersection. This contradiction avoids unnecessarily large fractions. The directions are orthogonal but the lines are skew. Preserve the explicit source wording “direction vectors”.
+:::

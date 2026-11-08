@@ -1,0 +1,11 @@
+## Concurrent lines {#fv5-concurrent .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Three or more lines are <strong>concurrent</strong> if they all pass through a common point, called the <strong>point of concurrency</strong>.</p><div class="inter-concurrent-layout"><div data-concurrent-diagram></div><div><p>Find the intersection of two lines.</p><p>Then test whether that point lies on every other line.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet definition · p. 60</div>
+
+::: {.notes}
+Use the supplied definition. For three lines, intersect two and use Lesson 4’s point-membership test on the third. A separate parameter is allowed for each line. Pairwise intersections at different points do not establish concurrency. The diagram is schematic, with all three lines meeting at exactly P.
+:::

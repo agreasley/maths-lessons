@@ -1,0 +1,11 @@
+## Example 3.15 {#fv5-example-3-15 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Determine whether the lines</p><div class="inter-line-pair"><div class="fv-equation"><span data-math="\underset{\sim}{r_1}(s)=\begin{bmatrix}1\\0\\2\end{bmatrix}+s\begin{bmatrix}1\\2\\-1\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r_2}(t)=\begin{bmatrix}0\\3\\1\end{bmatrix}+t\begin{bmatrix}2\\-1\\1\end{bmatrix}"></span></div></div><div class="fv-equation"><span data-math="s,t\in\mathbb R,"></span></div><p>intersect. If they do, find the point of intersection.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.15 · p. 62</div>
+
+::: {.notes}
+1+s=2t and 2s=3−t give s=t=1. Then the first line has z=2−1=1, whereas the second has z=1+1=2. They do not intersect. Their directions (1,2,−1) and (2,−1,1) are not scalar multiples, so they are skew. The booklet asks whether they intersect; skewness is a useful verbal conclusion. The coincident numerical values s=t=1 here are incidental, not a required condition.
+:::

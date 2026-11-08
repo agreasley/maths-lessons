@@ -1,0 +1,9 @@
+## Intersections of vector lines {#fv5-opening .fv-lesson .intersection-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 5</div><div class="cover-title">Intersections<br>of vector lines</div><div class="cover-subtitle">Further Work with Vectors</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet §3.4 · Examples 3.14–3.20 · Homework 5</div>
+```
+
+::: {.notes}
+Approved scope: all of §3.4, printed pp. 59–68 of 12MAX2 – Further Vectors(1).pdf, plus the supplied Further Vectors Lesson Sequence. Students know line equations, point membership and collinearity from Lessons 3–4. They already know minimum distance from a point to a line from Extension 1; the new connection is expressing the perpendicularity condition using r(t). This is a full 20-slide deck for about 50 minutes: opening 4, 2D intersections 7, 3D consistency/skew/hinge 10, Examples 3.15–3.19 and classification 20, concurrency/distance 7, close 2. Keep all examples available and carry the final application over if needed. Complete booklet solutions in OneNote.
+:::

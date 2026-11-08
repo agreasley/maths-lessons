@@ -1,0 +1,11 @@
+## One point, consistent coordinates {#fv5-finish .fv-lesson .intersection-lesson }
+
+```{=html}
+<p class="inter-finish-equation"><span data-math="\underset{\sim}{r_1}(s)=\underset{\sim}{r_2}(t)"></span></p><p class="inter-key">The same pair of parameter values must satisfy every component.</p><p>Non-parallel lines in space can intersect or be skew.</p><p>For a perpendicular intersection, also check <span data-math="\underset{\sim}{d_1}\cdot\underset{\sim}{d_2}=0"></span>.</p><div class="inter-success"><strong>Success criteria</strong><p>I can justify whether two vector lines intersect and find their common point when it exists.</p></div>
+```
+
+<div class="booklet-cue">Booklet §3.4 · Key ideas</div>
+
+::: {.notes}
+Ask: “Why was solving two component equations enough in 2D but only a candidate test in 3D?” Use a short oral response to revisit the success criterion. The final distance application uses the same consistency principle for a point constrained to a line.
+:::

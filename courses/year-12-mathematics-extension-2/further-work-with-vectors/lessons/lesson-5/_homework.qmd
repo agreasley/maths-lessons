@@ -1,0 +1,11 @@
+## Homework 5 · Intersections of vector lines {#fv5-homework .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4B: Q3, Q5(a), Q10, Q11(a).<br>Exercise 4C: Q8(b)(i), Q9, Q11.</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4B: Q3, Q5, Q10–14.<br>Exercise 4C: Q5, Q8(b), Q9, Q11.</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4B: Q5(b), Q11–13, Q15, Q18, Q19.<br>Exercise 4C: Q8(b), Q10–Q11, Q13.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 5 · p. 68</div>
+
+::: {.notes}
+Homework copied unchanged from the supplied booklet. No additional tasks or homework split are imposed.
+:::

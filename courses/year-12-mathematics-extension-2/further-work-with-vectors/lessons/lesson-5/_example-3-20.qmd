@@ -1,0 +1,11 @@
+## Example 3.20 {#fv5-example-3-20 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p class="inter-source">2026 Kambala Mathematics Extension 2 Task 2, Q7(b)(i) · 3 marks</p><p>Consider the point <span data-math="A(4,2,5)"></span> and the line <span data-math="\ell"></span> with vector equation</p><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=\begin{bmatrix}1\\2\\3\end{bmatrix}+t\begin{bmatrix}-2\\2\\4\end{bmatrix}."></span></div><p>Find the minimum distance between the point <span data-math="A"></span> and the line <span data-math="\ell"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.20 · p. 67</div>
+
+::: {.notes}
+H(t)=(1−2t,2+2t,3+4t), so AH=(−3−2t,2t,−2+4t). Require AH·(−2,2,4)=0: 6+4t+4t−8+16t=24t−2=0, hence t=1/12. H=(5/6,13/6,10/3) and AH=(−19/6,1/6,−5/3). The minimum distance is sqrt(77/6)=sqrt(462)/6. Suggested 3-mark guide, not an official marking scheme: 1 mark for AH and the perpendicularity condition; 1 mark for t=1/12 and the corresponding vector or foot; 1 mark for the exact minimum distance. An alternative valid approach projects (3,0,2) onto direction (−2,2,4), then takes the magnitude of the perpendicular remainder.
+:::

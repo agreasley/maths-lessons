@@ -264,3 +264,64 @@ Revision check: re-rendered the 17-slide deck after replacing slide 4's numerica
 Quarto 1.10.18 rendered the lesson and its topic listing. Chromium at 1363×936 passed full forward and backward navigation across 17 top-level slides, with no unintended nested slides, maths-rendering errors or foreignObject elements. Checked distinct/coincident presets, Reset and state retention through the slide map. Checked the 60-second default, changed duration to 30 seconds, Start/Pause/Resume, pause on opening the slide map, a complete expiry with the answer still hidden, deliberate reveal, correct/incorrect option mapping and Reset restoring a hidden answer. Reviewed cover, recap, direction comparisons, point test, line diagrams, coordinate planes, collinearity, hinge before/after reveal and homework layouts. All content fits the available slide bounds. Numerical solutions and the unique hinge answer were independently checked with exact rational arithmetic. The topic shows four lessons and links to the new deck.
 
 WebKit, touch-device emulation, iPad landscape viewport/orientation controls and physical-iPad testing are unavailable here. These checks remain outstanding; native SVG labels and source controls of at least 48 pixels follow the existing conventions. The established generated-preview script closing-tag workaround was applied only to rendered HTML, not to the tracked source.
+
+## Lesson 5: Intersections of vector lines
+
+Approved coverage: booklet §3.4, printed pp. 59–68, all Examples 3.14–3.20 and every subpart. The source is 12MAX2 – Further Vectors(1).pdf, with syllabus scope from the supplied Further Vectors Lesson Sequence. The 20-slide deck includes the booklet's unnumbered 3D worked illustration, concurrency definition and Homework 5. Assume about 50 minutes; keep the final minimum-distance application available if it needs to carry over.
+
+Objective: We are learning to determine how lines meet in two and three dimensions.
+
+Success criterion: I can justify whether two vector lines intersect and find their common point when it exists.
+
+Students know how to form vector/parametric/Cartesian line equations, compare directions and test point membership. They already know the minimum-distance/perpendicularity idea from Extension 1. The distance connection therefore introduces AH=r(t)−p=a+td−p and the dot-product equation, without rediscovering shortest distance.
+
+### Lesson 5 sequence and interactions
+
+1–3: unit cover, objective/success criterion, concise conceptual recap.
+4–5: two independent parameters on Example 3.14's lines, followed by the unchanged question.
+6–9: 3D worked illustration with the third-coordinate check on the next click, a fixed 3D intersecting/skew comparison, hinge, Example 3.15.
+10–15: Example 3.16, classification table, Example 3.17, Example 3.18 split into (a–b) and (c–d), Example 3.19.
+16–20: concurrency, minimum-distance connection, Example 3.20, summary, Homework 5.
+
+The independent-parameter visual has separate s and t sliders, local axis scales of equal unit length, a common-point preset and Reset. Blue r1(s)=(1,2)+s(2,1) and green r2(t)=(6,1)+t(−1,3) share (5,4) at s=2,t=1. Ask whether the parameters or position vectors must be equal. Reset restores s=t=0; values remain independent when either slider moves.
+
+The skew visual uses r1(s)=(s,1,0), r2(t)=(2,t,h), with h=0 or 2. The fixed camera, coordinate axes and pale xy-plane show the spatial setting. Both states have non-parallel directions. The unique pair s=2,t=1 matches x and y; changing the height changes whether z matches. Presets and Reset are touch-sized. No rotation or external applet is required.
+
+The concurrency diagram has three lines through exactly one P. The distance diagram has both position vectors starting at O, and AH running from A to H. Its right-angle marker is geometrically accurate. The dot-product connection appears on the next presentation click. All SVG maths labels use the shared native-path renderer; no foreignObject. No named thinking routine is forced into this lesson.
+
+### Lesson 5 mathematical checks and presenter answers
+
+- Example 3.14: 2s+t=5 and s−3t=−1 give s=2,t=1 and intersection (5,4).
+- Worked illustration, p. 59: the first two component equations give s=2,t=1; both z values are 5, so the intersection is (5,0,5). Use two independent equations, then check the remaining one with the same pair.
+- Example 3.15: x,y give s=t=1, but the points are (2,2,1) and (2,2,2). No intersection; non-parallel directions imply skew.
+- Example 3.16: direction vectors (b1,d1,f1),(b2,d2,f2). Parallel directions are non-zero scalar multiples; distinguish coincidence if distinct parallel lines are intended. Intersection requires one pair s,t satisfying all three equalities. Perpendicular lines meet and have b1b2+d1d2+f1f2=0.
+- Example 3.17: directions are not multiples. x,y give t=−3,s=−5/2, with points (−4,−2,10),(−4,−2,7). No intersection, hence skew. Direction dot product 10, so not perpendicular.
+- Example 3.18(a): d2=−(2/3)d1; the lines are distinct. (b) t=−1/9,u=7/3 gives (2/3,4/3,4/3). (c) d1·d3=0 and part (b) establishes intersection, so perpendicular. (d) d2·d3=0, but s=1/6,u=4/3 from x,y gives z=7/3 and 1/3. L2,L3 are skew with orthogonal directions.
+- Example 3.19: d1=(4,5,−6), d2=(a−3,−10,12). (a) a=−5. (b) a=67/2. The y equation requires t+2s=2 and z requires t+2s=1, so no intersection. Preserve the distinction in the source between perpendicular directions and lines meeting at right angles.
+- Example 3.20: AH=(−3−2t,2t,−2+4t). AH·d=24t−2=0 gives t=1/12, H=(5/6,13/6,10/3), AH=(−19/6,1/6,−5/3), minimum distance sqrt(77/6)=sqrt(462)/6. Suggested, not official, 3-mark guide is in presenter notes.
+
+### Lesson 5 hinge
+
+Two non-parallel direction vectors are given. The only parameter pair matching x,y is s=2,t=1; the position vectors are (5,0,5),(5,0,7). Choices: 1 intersect at (5,0,5); 2 skew; 3 distinct parallel; 4 cannot decide because s,t differ. Correct choice 2. Distractors diagnose checking only two coordinates, equating non-intersection with parallelism, and requiring independent parameters to match.
+
+Use the existing 60-second adjustable timer, Start/Pause/Resume, Reset and separate answer reveal. Expiry must not reveal the answer. Students respond simultaneously with 1–4 fingers. Ready: Example 3.15. Divided: compare the points and revote. Needs explanation: return briefly to the skew-lines visual.
+
+### Homework 5
+
+Cambridge Year 12 Extension 2, copied from booklet p. 68.
+
+- Mild: 4B Q3, Q5(a), Q10, Q11(a). 4C Q8(b)(i), Q9, Q11.
+- Medium: 4B Q3, Q5, Q10–14. 4C Q5, Q8(b), Q9, Q11.
+- Spicy: 4B Q5(b), Q11–13, Q15, Q18, Q19. 4C Q8(b), Q10–Q11, Q13.
+
+### Lesson 5 preview and publishing
+
+Render courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-5.qmd. The topic lists five lessons and Homework 1–5. Commit source to main, then run the manual Publish Quarto lessons workflow to update GitHub Pages.
+
+### Lesson 5 validation
+
+Quarto 1.10.18 rendered the lesson and its topic/course listings. Chromium at 1363×936 passed full forward and backward navigation through all 20 top-level slides, including both staged reveals; there are no unintended nested slides, unrendered equations, KaTeX errors or foreignObject elements. Course → topic → Lesson 5 and the return link work. All booklet cues fit above the navigation; the revealed hinge retains 45 pixels of clearance.
+
+Checked independent s/t sliders at zero, negative and positive values, common-point preset, Reset and state retention through the slide map. Reviewed both intersecting/skew presets, Reset, native SVG label placement, concurrency and the minimum-distance diagram. Verified the third-coordinate and dot-product reveals. The hinge defaults to 60 seconds; changing duration, Start/Pause/Resume, expiry without an answer reveal, deliberate reveal, wrong/correct choice mapping and Reset all passed. Reviewed examples, summary and the exact Homework 5 allocation. Numerical answers were independently checked using exact rational arithmetic.
+
+WebKit, touch-device emulation, iPad viewport/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. Diagram labels use native SVG paths in the same coordinate system and controls follow the existing touch-sized conventions. The existing script closing-tag workaround was applied to generated preview HTML only, not the tracked source.

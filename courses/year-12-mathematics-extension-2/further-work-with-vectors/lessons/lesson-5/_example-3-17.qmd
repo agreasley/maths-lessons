@@ -1,0 +1,11 @@
+## Example 3.17 {#fv5-example-3-17 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>For the lines</p><div class="fv-equation"><span data-math="x=2+2t,\qquad y=1+t,\qquad z=4-2t"></span></div><p>and</p><div class="fv-equation"><span data-math="x=1+2s,\qquad y=3+2s,\qquad z=2-2s"></span></div><p>determine whether they</p><div class="inter-four-parts"><p>a) are parallel</p><p>b) intersect</p><p>c) are skew</p><p>d) are perpendicular</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.17(a–d) · p. 64</div>
+
+::: {.notes}
+Give students 1–2 minutes to choose the tests before taking responses. a) Directions (2,1,−2),(2,2,−2) are not multiples. b) The x and y equations give t=−3,s=−5/2. Both give x=−4,y=−2, but z=10 and z=7, respectively. No intersection. c) Non-parallel and non-intersecting, so skew. d) They do not meet; also the directions have dot product 10 rather than zero. Ask students to explain which earlier calculation supports each conclusion, rather than repeating all calculations.
+:::

@@ -1,0 +1,11 @@
+## Same point, different parameters {#fv5-independent-parameters .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>At an intersection, both vector equations point to <strong>the same point</strong>.</p><div data-independent-parameters></div>
+```
+
+<div class="booklet-cue">Booklet §3.4 · p. 59 · Lines from Example 3.14</div>
+
+::: {.notes}
+Predict: “Do the two parameters have to be equal?” Move s and t independently. The blue point follows r1(s)=(1,2)+s(2,1); the green point follows r2(t)=(6,1)+t(−1,3). Show common point sets s=2 and t=1, giving (5,4) on both lines. Ask: “What is equal here: the parameters or the position vectors?” The vectors are equal. Different starting points and direction vectors give different parameter values for the same point. Reset restores s=t=0. This is a brief prediction, not a new procedure or named thinking routine.
+:::

@@ -1,0 +1,11 @@
+## Four relationships in space {#fv5-relationships .fv-lesson .intersection-lesson }
+
+```{=html}
+<table class="inter-relationship-table"><thead><tr><th></th><th>A common point</th><th>No common point</th></tr></thead><tbody><tr><th>Parallel directions</th><td><strong>Coincident</strong><br>Every point is common.</td><td><strong>Distinct parallel</strong></td></tr><tr><th>Non-parallel directions</th><td><strong>Intersecting</strong><br>One common point.</td><td><strong>Skew</strong></td></tr></tbody></table><p class="inter-key">Perpendicular lines intersect and have <span data-math="\underset{\sim}{d_1}\cdot\underset{\sim}{d_2}=0"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet key result · p. 63</div>
+
+::: {.notes}
+Use this to consolidate Example 3.16, rather than introduce another numerical method. Direction vectors are non-zero. The table classifies infinite straight lines in 3D. In 2D, non-parallel lines always intersect, so the skew cell is unavailable. The non-parallel/common-point cell contains the perpendicular case as a special case. Keep “parallel directions” as the row label because coincident lines also have parallel direction vectors.
+:::

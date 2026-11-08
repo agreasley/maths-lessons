@@ -244,3 +244,70 @@
 .reveal .relation-point-demo p{margin:15px 0}
 .reveal .relation-test-working{display:grid;gap:16px;margin:18px 0}
 .reveal .relation-point-demo .relation-test-conclusion{font-size:25px;font-weight:600;margin-top:24px}
+
+/* Lesson 5: intersections and the common-point condition. */
+.reveal .intersection-lesson{font-size:28px}
+.reveal .intersection-lesson p{line-height:1.4;margin:20px 0}
+.reveal .intersection-lesson h3{font-size:25px;color:#217864;margin:12px 0}
+.reveal .intersection-lesson.cover .cover-title{font-size:66px;max-width:700px;margin-top:105px}
+.reveal .intersection-lesson .fv-equation{line-height:1.5;margin:24px 0}
+.reveal .inter-recap{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin-top:42px}
+.reveal .inter-recap>div{border-top:3px solid #217864;padding:16px 8px}
+.reveal .inter-line-pair{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin:24px 0}
+.reveal .inter-line-pair .fv-equation{margin:10px 0}
+.reveal .inter-line-pair>.fv-equation:first-child{color:#315985}
+.reveal .inter-line-pair>.fv-equation:last-child{color:#217864}
+.reveal .inter-live-layout{display:grid;grid-template-columns:minmax(0,51fr) minmax(0,49fr);gap:30px;align-items:center}
+.reveal .inter-live-graph svg{display:block;width:100%;height:365px}
+.reveal .inter-live-algebra{font-size:23px}
+.reveal .inter-live-algebra>.inter-line-blue,.reveal .inter-live-algebra>.inter-line-green{margin:9px 0 14px}
+.reveal .inter-line-blue{color:#315985}
+.reveal .inter-line-green{color:#217864}
+.reveal .inter-parameter-controls label{display:flex;justify-content:space-between;align-items:center;font-size:23px;margin:0}
+.reveal .inter-parameter-controls input{display:block;width:100%;height:44px;margin:0;accent-color:#315985;touch-action:pan-y}
+.reveal .inter-parameter-controls #fv5-t{accent-color:#217864}
+.reveal .inter-live-values{display:grid;grid-template-columns:1fr 1fr;gap:18px;font-size:23px;margin:10px 0 0;min-height:74px}
+.reveal .inter-controls{display:flex;gap:12px;align-items:center;margin:16px 0}
+.reveal .inter-controls button{font:inherit;font-size:22px;min-height:48px;padding:8px 17px;border:1px solid #aab8bb;background:#f3f6f5;border-radius:7px;color:#152e3b;cursor:pointer;touch-action:manipulation}
+.reveal .inter-controls button[aria-pressed=true]{background:#e4edf3;border-color:#315985}
+.reveal .inter-controls button:focus-visible{outline:3px solid #ad6e32;outline-offset:3px}
+.reveal .inter-live-status{font-size:24px;margin-left:16px}
+.reveal .inter-third-layout{display:grid;grid-template-columns:minmax(0,42fr) minmax(0,58fr);gap:45px;margin-top:24px}
+.reveal .inter-third-layout p{font-size:25px;margin:14px 0}
+.reveal .inter-third-layout .fv-equation{font-size:26px;margin:18px 0}
+.reveal .inter-key{border-left:4px solid #217864;padding:12px 20px;background:#eaf1ec;font-size:27px}
+.reveal .inter-skew-layout{display:grid;grid-template-columns:minmax(0,53fr) minmax(0,47fr);gap:30px;align-items:center}
+.reveal .inter-skew-graph svg{width:100%;height:355px;display:block}
+.reveal .inter-skew-explanation{font-size:25px;min-height:300px}
+.reveal .inter-skew-explanation p{margin:15px 0}
+.reveal #fv5-hinge .hinge-question{font-size:24px}
+.reveal #fv5-hinge .hinge-question p{margin:8px 0;line-height:1.3}
+.reveal #fv5-hinge .fv-equation{font-size:23px;margin:8px 0}
+.reveal #fv5-hinge .hinge-toolbar{margin:10px 0}
+.reveal #fv5-hinge .choices{gap:10px}
+.reveal #fv5-hinge .choice{font-size:23px;min-height:76px;padding:10px 16px}
+.reveal #fv5-hinge .hinge-bottom p{font-size:22px;margin:10px 0}
+.reveal #fv5-hinge .hinge-explanation{font-size:21px;line-height:1.3}
+.reveal .inter-questions{margin-top:30px}
+.reveal .inter-questions p{margin:27px 0}
+.reveal #fv5-example-3-16{font-size:26px}
+.reveal #fv5-example-3-16 .fv-equation{font-size:27px;margin:14px 0}
+.reveal #fv5-example-3-16 .inter-questions p{margin:20px 0}
+.reveal .inter-relationship-table{width:100%;font-size:26px;margin:45px 0 35px}
+.reveal .inter-relationship-table th,.reveal .inter-relationship-table td{padding:22px 20px;line-height:1.4;vertical-align:middle}
+.reveal .inter-relationship-table td strong{color:#217864}
+.reveal .inter-four-parts{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;margin-top:25px}
+.reveal .inter-four-parts p{margin:15px 0}
+.reveal .inter-three-lines{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;font-size:24px;margin:30px 0 20px}
+.reveal .inter-three-lines .fv-equation{margin:10px 0}
+.reveal .inter-concurrent-layout{display:grid;grid-template-columns:52% 48%;gap:15px;align-items:center;margin:25px 0}
+.reveal [data-concurrent-diagram] svg{display:block;width:100%;height:340px}
+.reveal .inter-distance-layout{display:grid;grid-template-columns:minmax(0,46fr) minmax(0,54fr);gap:25px;align-items:center;margin:20px 0}
+.reveal [data-distance-connection] svg{width:100%;height:355px;display:block}
+.reveal .inter-distance-layout p{font-size:25px;margin:15px 0}
+.reveal .inter-distance-layout .fv-equation{font-size:26px;margin:18px 0}
+.reveal .inter-source{font-size:23px;color:#52656d;border-bottom:1px solid #d5dcda;padding-bottom:20px}
+.reveal .inter-finish-equation{font-size:38px;margin:35px 0}
+.reveal .inter-success{border-top:1px solid #d5dcda;padding-top:22px;margin-top:32px;font-size:25px}
+.reveal .inter-success p{margin:12px 0}
+.reveal #fv5-homework .homework-level{font-size:25px;padding:14px 0;line-height:1.4}

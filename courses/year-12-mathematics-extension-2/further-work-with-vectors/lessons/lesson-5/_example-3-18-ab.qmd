@@ -1,0 +1,11 @@
+## Example 3.18(a–b) {#fv5-example-3-18-ab .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Consider the lines</p><div class="inter-three-lines"><div class="fv-equation"><span data-math="L_1:\ \underset{\sim}{r_1}(t)=\begin{bmatrix}1\\2\\1\end{bmatrix}+t\begin{bmatrix}3\\6\\-3\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="L_2:\ \underset{\sim}{r_2}(s)=\begin{bmatrix}2\\1\\2\end{bmatrix}+s\begin{bmatrix}-2\\-4\\2\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="L_3:\ \underset{\sim}{r_3}(u)=\begin{bmatrix}3\\-1\\-1\end{bmatrix}+u\begin{bmatrix}-1\\1\\1\end{bmatrix}"></span></div></div><div class="fv-equation"><span data-math="t,s,u\in\mathbb R."></span></div><div class="inter-questions"><p>a) Show that <span data-math="L_1\parallel L_2"></span>.</p><p>b) Show that <span data-math="L_1"></span> and <span data-math="L_3"></span> intersect.</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.18(a–b) · p. 65</div>
+
+::: {.notes}
+a) d2=−(2/3)d1. The lines are distinct: the point (2,1,2) on L2 is not on L1, since x would require t=1/3 but y would require t=−1/6. b) Equating L1 and L3 gives 1+3t=3−u, 2+6t=−1+u, 1−3t=−1+u. The first two give t=−1/9,u=7/3; the third holds. The common point is (2/3,4/3,4/3). Keep the three separate parameters t,s,u as supplied.
+:::

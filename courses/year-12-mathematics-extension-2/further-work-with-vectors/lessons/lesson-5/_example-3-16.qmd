@@ -1,0 +1,11 @@
+## Example 3.16 {#fv5-example-3-16 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Given line <span data-math="L_1"></span> with parametric equations</p><div class="fv-equation"><span data-math="x=a_1+b_1t,\qquad y=c_1+d_1t,\qquad z=e_1+f_1t"></span></div><p>and line <span data-math="L_2"></span> with parametric equations</p><div class="fv-equation"><span data-math="x=a_2+b_2s,\qquad y=c_2+d_2s,\qquad z=e_2+f_2s"></span></div><div class="inter-questions"><p>a) What is the algebraic relationship required to be true so that <span data-math="L_1"></span> and <span data-math="L_2"></span> are parallel?</p><p>b) What is the algebraic relationship required to be true if <span data-math="L_1"></span> and <span data-math="L_2"></span> intersect?</p><p>c) What is the algebraic relationship required to be true if <span data-math="L_1"></span> and <span data-math="L_2"></span> are perpendicular?</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.16(a–c) · p. 63</div>
+
+::: {.notes}
+For (a), the non-zero direction vectors (b1,d1,f1) and (b2,d2,f2) are scalar multiples. This is the parallel-direction criterion; if “parallel” means distinct parallel lines, also exclude coincidence. For (b), there exist s,t satisfying all three component equalities a1+b1t=a2+b2s, c1+d1t=c2+d2s, e1+f1t=e2+f2s simultaneously. For (c), the lines intersect and b1b2+d1d2+f1f2=0. Orthogonal direction vectors alone do not ensure that the lines meet. Preserve the booklet’s notation, where b,d,f are direction components.
+:::

@@ -1,0 +1,11 @@
+## Minimum distance using a line equation {#fv5-distance-connection .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Let <span data-math="A"></span> have position vector <span data-math="\underset{\sim}{p}"></span>, and let <span data-math="H"></span> lie on <span data-math="\underset{\sim}{r}(t)=\underset{\sim}{a}+t\underset{\sim}{d}"></span>.</p><div class="inter-distance-layout"><div data-distance-connection></div><div><p>The vector from <span data-math="A"></span> to <span data-math="H"></span> is</p><div class="fv-equation"><span data-math="\overrightarrow{AH}=\underset{\sim}{r}(t)-\underset{\sim}{p}"></span></div><div class="fv-equation"><span data-math="\phantom{\overrightarrow{AH}}=\underset{\sim}{a}+t\underset{\sim}{d}-\underset{\sim}{p}"></span></div><div class="fragment" data-fragment-index="0"><p>At the closest point, <span data-math="AH\perp\ell"></span>.</p><div class="fv-equation"><span data-math="(\underset{\sim}{a}+t\underset{\sim}{d}-\underset{\sim}{p})\cdot\underset{\sim}{d}=0"></span></div><p>Solve for <span data-math="t"></span>, then find <span data-math="|\overrightarrow{AH}|"></span>.</p></div></div></div>
+```
+
+<div class="booklet-cue">Connection to Extension 1 · leads to Example 3.20</div>
+
+::: {.notes}
+Students already know that the shortest distance from a point to a line is perpendicular; do not reteach or rediscover that fact. The new connection is that the position vector of H is r(t), so AH=r(t)−p=a+td−p. The diagram shows the perpendicular position, with both position vectors drawn from O. Click Next to translate the familiar perpendicularity condition into the dot-product equation. This finds the parameter of the foot, after which they can find H and |AH|. If A lies on the line, this procedure gives distance zero; no division by a coordinate is necessary. Direction d must be non-zero.
+:::

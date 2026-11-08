@@ -1,0 +1,11 @@
+## Example 3.14 {#fv5-example-3-14 .fv-lesson .intersection-lesson }
+
+```{=html}
+<p>Find the point of intersection of the lines</p><div class="inter-line-pair"><div class="fv-equation"><span data-math="\underset{\sim}{r_1}(s)=\begin{bmatrix}1\\2\end{bmatrix}+s\begin{bmatrix}2\\1\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r_2}(t)=\begin{bmatrix}6\\1\end{bmatrix}+t\begin{bmatrix}-1\\3\end{bmatrix}"></span></div></div><div class="fv-equation"><span data-math="s,t\in\mathbb R."></span></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.14 · p. 61</div>
+
+::: {.notes}
+Equate components: 1+2s=6−t and 2+s=1+3t. Hence 2s+t=5 and s−3t=−1. Solve to obtain s=2, t=1. Substituting into either vector equation gives (5,4). The preceding visual established the meaning; this example records the algebra in OneNote. Preserve the independent s and t notation.
+:::

@@ -1,0 +1,11 @@
+## Previously {#fv5-previously .fv-lesson .intersection-lesson }
+
+```{=html}
+<div class="inter-recap"><div><h3>Parallel directions</h3><div class="fv-equation"><span data-math="\underset{\sim}{d_2}=k\underset{\sim}{d_1},\qquad k\ne0"></span></div><p>A common point distinguishes coincident lines from distinct parallel lines.</p></div><div><h3>A point on a line</h3><div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{a}+\lambda\underset{\sim}{d}"></span></div><p>One parameter value must give every coordinate of the point.</p></div></div>
+```
+
+<div class="booklet-cue">Previously · Lessons 3–4</div>
+
+::: {.notes}
+Ask for the geometric meaning of each test, without redoing component arithmetic. Today we will look for a point that belongs to two lines simultaneously.
+:::

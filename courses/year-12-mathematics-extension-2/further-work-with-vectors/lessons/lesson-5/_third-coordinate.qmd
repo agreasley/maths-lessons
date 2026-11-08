@@ -1,0 +1,11 @@
+## What changes in three dimensions? {#fv5-third-coordinate .fv-lesson .intersection-lesson }
+
+```{=html}
+<div class="inter-line-pair"><div class="fv-equation"><span data-math="\underset{\sim}{r_1}(s)=\begin{bmatrix}1\\2\\-1\end{bmatrix}+s\begin{bmatrix}2\\-1\\3\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r_2}(t)=\begin{bmatrix}4\\-2\\3\end{bmatrix}+t\begin{bmatrix}1\\2\\2\end{bmatrix}"></span></div></div><div class="inter-third-layout"><div><h3>Equating components</h3><div class="fv-equation"><span data-math="\begin{aligned}1+2s&=4+t\\2-s&=-2+2t\\-1+3s&=3+2t\end{aligned}"></span></div></div><div><p>The first two equations give <span data-math="s=2"></span> and <span data-math="t=1"></span>.</p><p>Do these values also give the same <span data-math="z"></span>-coordinate?</p><div class="fragment" data-fragment-index="0"><div class="fv-equation"><span data-math="-1+3(2)=5=3+2(1)"></span></div><p class="inter-key">All three equations hold.</p><div class="fv-equation"><span data-math="\underset{\sim}{r_1}(2)=\underset{\sim}{r_2}(1)=\begin{bmatrix}5\\0\\5\end{bmatrix}"></span></div></div></div></div>
+```
+
+<div class="booklet-cue">Booklet worked illustration · p. 59</div>
+
+::: {.notes}
+This is the booklet’s worked illustration, not an additional numbered example. Students can use their simultaneous-equation techniques to obtain s=2 and t=1 from the first two independent equations. Pause before clicking Next to reveal the third-coordinate check and common position vector. In 3D, two equations give only a candidate pair. All three must hold for that same pair. If a chosen pair of equations is dependent, use another independent pair; do not claim that any two equations always determine the parameters.
+:::

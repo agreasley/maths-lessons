@@ -1,0 +1,11 @@
+## Example 3.18(c–d) {#fv5-example-3-18-cd .fv-lesson .intersection-lesson }
+
+```{=html}
+<div class="inter-three-lines"><div class="fv-equation"><span data-math="L_1:\ \underset{\sim}{r_1}(t)=\begin{bmatrix}1\\2\\1\end{bmatrix}+t\begin{bmatrix}3\\6\\-3\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="L_2:\ \underset{\sim}{r_2}(s)=\begin{bmatrix}2\\1\\2\end{bmatrix}+s\begin{bmatrix}-2\\-4\\2\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="L_3:\ \underset{\sim}{r_3}(u)=\begin{bmatrix}3\\-1\\-1\end{bmatrix}+u\begin{bmatrix}-1\\1\\1\end{bmatrix}"></span></div></div><div class="fv-equation"><span data-math="t,s,u\in\mathbb R."></span></div><div class="inter-questions"><p>c) Is <span data-math="L_1"></span> perpendicular to <span data-math="L_3"></span>?</p><p>d) What can you say about <span data-math="L_2"></span> and <span data-math="L_3"></span>?</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.18(c–d) · p. 65</div>
+
+::: {.notes}
+c) (3,6,−3)·(−1,1,1)=−3+6−3=0, and part (b) established intersection. Hence L1 is perpendicular to L3. d) (−2,−4,2)·(−1,1,1)=2−4+2=0, so their direction vectors are perpendicular. They are not parallel. The first two component equations give s=1/6,u=4/3, producing (5/3,1/3,7/3) on L2 and (5/3,1/3,1/3) on L3. Thus they are skew, with perpendicular direction vectors. Ask: “What extra fact made the conclusion in (c) possible?” This comparison exposes why a zero dot product alone is insufficient.
+:::

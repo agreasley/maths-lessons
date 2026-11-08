@@ -1,0 +1,11 @@
+## Skew lines {#fv5-skew .fv-lesson .intersection-lesson }
+
+```{=html}
+<p><strong>Skew lines</strong> are non-parallel lines in three dimensions that do not intersect.</p><div data-skew-visual></div>
+```
+
+<div class="booklet-cue">Booklet §3.4 · p. 59 · Additional illustration</div>
+
+::: {.notes}
+Begin with the intersecting preset. Both directions remain fixed. Switch to Skew to raise the green line while keeping it parallel to its original position. The lines are r1(s)=(s,1,0) and r2(t)=(2,t,h), with h=0 or 2. Only s=2,t=1 match x and y. With h=2, z differs, so no common point exists. Ask: “Why does non-parallel no longer guarantee an intersection?” The lines need not lie in one plane. A fixed camera and pale xy-plane establish depth without rotation controls. Reset returns to the intersecting preset.
+:::

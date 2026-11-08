@@ -74,48 +74,107 @@
       }));
       draw();
     });
+    const fmt=x=>String(Math.round(x*100)/100);
     document.querySelectorAll('[data-line-construction]').forEach(el=>{
-      let step=0,lambda=1;
-      const map=(x,y)=>[80+42*x,235-42*y];
-      el.innerHTML='<div class="line-construction-layout"><div class="line-construction-graph"></div><div class="line-construction-working" aria-live="polite"></div></div><div class="line-controls"><button data-step="previous">Previous step</button><button data-step="next" class="primary">Next step</button><button data-step="reset">Reset</button><output></output></div><div class="line-presets" hidden><span>'+math('\\lambda')+':</span>'+[-1,0,1,2].map(t=>'<button data-lambda="'+t+'">'+math(String(t))+'</button>').join('')+'</div>';
+      let lambda=1;
+      const map=(x,y)=>[80+42*x,215-42*y];
+      el.innerHTML='<div class="line-live-construction"><div class="line-construction-graph"></div><div class="line-live-algebra"><p>Take the fixed point '+math('A(3,0)')+' and direction '+math(v('d')+'=-'+v('i')+'+2'+v('j'))+'.</p><div class="fv-equation">'+math(v('r')+'=\\overrightarrow{OA}+\\lambda'+v('d'))+'</div><div class="fv-equation">'+math(v('r')+'=3'+v('i')+'+\\lambda(-'+v('i')+'+2'+v('j')+')')+'</div><p>As '+math('\\lambda')+' varies, the tip of '+math(v('r'))+' traces a line through '+math('A')+'.</p><div class="line-construction-value" aria-live="polite"></div></div></div><div class="line-slider"><label for="fv3-construction-lambda"><span>Adjust '+math('\\lambda')+'</span><output></output></label><input id="fv3-construction-lambda" aria-label="Construction parameter lambda" type="range" min="-1" max="2" step="0.05" value="1"></div><div class="line-controls">'+[-1,0,1,2].map(t=>'<button data-lambda="'+t+'">'+math('\\lambda='+t)+'</button>').join('')+'<button data-reset>Reset</button></div>';
       function draw(){
-        const O=map(0,0),A=map(3,0),P=map(3-lambda,2*lambda),B=map(2,2);
-        let g=segment(map(4.2,-2.4),map(.5,5),C.grey,3)+dot(O,C.ink)+label(O[0]-17,O[1]+20,'O')+arrow(O,A,'green','fv3construct',6)+dot(A,C.green)+label(A[0],A[1]+24,'A',C.green)+label((O[0]+A[0])/2,O[1]+26,v('a'),C.green);
-        if(step===1)g+=arrow(A,B,'gold','fv3construct')+label((A[0]+B[0])/2+30,(A[1]+B[1])/2,v('d'),C.gold);
-        if(step>=2){
-          g+=arrow(A,P,'gold','fv3construct',5)+dot(P,C.gold);
-          if(lambda!==0)g+=label(P[0]+27,P[1], 'P',C.gold)+label((A[0]+P[0])/2+35,(A[1]+P[1])/2,'\\lambda'+v('d'),C.gold,21);
-          else g+=label(A[0]+47,A[1]-19,'P=A',C.gold,20);
+        const O=map(0,0),A=map(3,0),P=map(3-lambda,2*lambda);
+        let g=segment(map(4.2,-2.4),map(.5,5),C.grey,3);
+        g+=arrow(O,A,'green','fv3construct',6)+arrow(A,P,'gold','fv3construct',5)+arrow(O,P,'blue','fv3construct',3);
+        g+=dot(O,C.ink)+dot(A,C.green)+dot(P,C.gold)+label(O[0]-17,O[1]+20,'O');
+        g+=label((O[0]+A[0])/2,O[1]+(lambda<0?-25:26),'\\overrightarrow{OA}',C.green,22);
+        if(Math.abs(lambda)<.001)g+=label(A[0]+39,A[1]-20,'P=A',C.gold,21);
+        else{
+          g+=label(A[0],A[1]+23,'A',C.green);
+          g+=label(P[0]+(Math.abs(lambda)<.5?42:25),P[1]-12,'P',C.gold);
+          g+=label((A[0]+P[0])/2+37,(A[1]+P[1])/2+(Math.abs(lambda)<.5?26:3),'\\lambda'+v('d'),C.gold,22);
         }
-        if(step>=3){
-          g+=arrow(O,P,'blue','fv3construct',3);
-          g+=label((O[0]+P[0])/2-17,(O[1]+P[1])/2+(lambda<0?27:-25),v('r'),C.blue,24);
-        }
-        el.querySelector('.line-construction-graph').innerHTML=svg(g,'fv3construct',400,360,'Known point A on a line. The vector OA plus lambda times direction d gives the position vector OP.');
-        const work=[
-          '<p class="line-green">Known point '+math('A(3,0)')+'</p>'+math(v('a')+'=\\overrightarrow{OA}=3'+v('i')),
-          '<p class="line-gold">Choose a direction parallel to the line.</p>'+math(v('d')+'=-'+v('i')+'+2'+v('j')),
-          '<p>Every point '+math('P')+' on the line satisfies</p>'+math('\\overrightarrow{AP}=\\lambda'+v('d')),
-          '<p class="line-blue">The position vector points from '+math('O')+' to '+math('P')+'.</p>'+math(v('r')+'=\\overrightarrow{OA}+\\overrightarrow{AP}')+'<br>'+math(v('r')+'='+v('a')+'+\\lambda'+v('d'))
-        ];
-        el.querySelector('.line-construction-working').innerHTML=work.slice(0,step+1).map((x,i)=>'<div class="'+(i===step?'current':'')+'">'+x+'</div>').join('');
-        el.querySelector('[data-step="previous"]').disabled=step===0;
-        el.querySelector('[data-step="next"]').disabled=step===3;
-        el.querySelector('output').textContent='Step '+step+' of 3';
-        el.querySelector('.line-presets').hidden=step<2;
+        g+=label((O[0]+P[0])/2-17,(O[1]+P[1])/2+(lambda<0?29:-25),v('r'),C.blue,25);
+        el.querySelector('.line-construction-graph').innerHTML=svg(g,'fv3construct',400,350,'The fixed vector OA plus lambda times d gives the blue position vector OP. Lambda is '+fmt(lambda)+'.');
+        el.querySelector('.line-construction-value').innerHTML=math('P('+fmt(3-lambda)+','+fmt(2*lambda)+')');
+        el.querySelector('output').innerHTML=math('\\lambda='+fmt(lambda));
+        el.querySelector('input').value=String(lambda);
         el.querySelectorAll('[data-lambda]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.lambda===lambda)));
-        el.dataset.step=String(step);el.dataset.lambda=String(lambda);
+        el.dataset.lambda=fmt(lambda);
       }
-      el.querySelectorAll('[data-step]').forEach(b=>b.addEventListener('click',()=>{step=b.dataset.step==='reset'?0:b.dataset.step==='next'?Math.min(3,step+1):Math.max(0,step-1);if(b.dataset.step==='reset')lambda=1;draw();}));
+      el.querySelector('input').addEventListener('input',e=>{lambda=+e.target.value;draw();});
       el.querySelectorAll('[data-lambda]').forEach(b=>b.addEventListener('click',()=>{lambda=+b.dataset.lambda;draw();}));
+      el.querySelector('[data-reset]').addEventListener('click',()=>{lambda=1;draw();});
       draw();
     });
     document.querySelectorAll('[data-line-two-points]').forEach(el=>{
-      const O=[90,245],P=[270,205],Q=[430,80];
-      let g=segment([220,244],[480,41],C.grey,3)+arrow(O,P,'green','fv3two')+arrow(O,Q,'blue','fv3two')+arrow(P,Q,'gold','fv3two')+dot(O,C.ink)+dot(P,C.green)+dot(Q,C.blue);
-      g+=label(70,260,'O')+label(288,228,'P',C.green)+label(448,63,'Q',C.blue);
-      g+=label(175,245,v('p'),C.green)+label(235,134,v('q'),C.blue)+label(385,157,v('q')+'-'+v('p'),C.gold);
-      el.innerHTML=svg(g,'fv3two',570,290,'Position vectors p and q from O to P and Q, with direction vector PQ equal to q minus p.');
+      let shown=false;
+      el.innerHTML='<div class="line-two-points-layout"><div class="line-two-points-graph"></div><div class="line-two-points-answer" aria-live="polite"></div></div><div class="line-controls"><button data-direction-reveal class="primary">Show a direction vector</button></div>';
+      function draw(){
+        const O=[80,250],P=[240,210],Q=[400,80];
+        let g=segment([200,242.5],[455,35.3],C.grey,3)+arrow(O,P,'green','fv3two')+arrow(O,Q,'blue','fv3two');
+        if(shown)g+=arrow(P,Q,'gold','fv3two')+label(350,168,v('q')+'-'+v('p'),C.gold,22);
+        g+=dot(O,C.ink)+dot(P,C.green)+dot(Q,C.blue)+label(60,266,'O')+label(255,235,'P',C.green)+label(416,65,'Q',C.blue);
+        g+=label(153,250,v('p'),C.green)+label(220,139,v('q'),C.blue);
+        el.querySelector('.line-two-points-graph').innerHTML=svg(g,'fv3two',510,300,'The line passes through P and Q, with position vectors p and q.'+(shown?' Its direction PQ is q minus p.':''));
+        el.querySelector('.line-two-points-answer').innerHTML=shown?'<p>One direction vector is</p><div class="fv-equation">'+math('\\overrightarrow{PQ}='+v('q')+'-'+v('p'))+'</div><p>Using '+math('P')+' as the fixed point:</p><div class="fv-equation">'+math(v('r')+'='+v('p')+'+\\lambda('+v('q')+'-'+v('p')+')')+'</div>':'';
+        el.querySelector('button').textContent=shown?'Hide direction vector':'Show a direction vector';
+        el.querySelector('button').setAttribute('aria-expanded',String(shown));
+        el.dataset.revealed=String(shown);
+      }
+      el.querySelector('button').addEventListener('click',()=>{shown=!shown;draw();});draw();
+    });
+    document.querySelectorAll('[data-line-constant]').forEach(el=>{
+      // A fixed linear projection keeps all three labelled points exactly on the plane.
+      const project=(x,y,z)=>[210-45*x+68*y,310+22*x+8*y-95*z];
+      const polygon=(vertices,fill,opacity)=>'<polygon points="'+vertices.map(a=>project(...a).join(',')).join(' ')+'" fill="'+fill+'" fill-opacity="'+opacity+'" stroke="'+fill+'" stroke-opacity=".35" stroke-width="1.5"/>';
+      let g=polygon([[0,0,0],[2.5,0,0],[2.5,2.5,0],[0,2.5,0]],C.grey,.12);
+      g+=polygon([[-.3,-.3,1],[2.5,-.3,1],[2.5,2.5,1],[-.3,2.5,1]],C.green,.13);
+      const O=project(0,0,0);
+      for(const a of [[3,0,0],[0,3.3,0],[0,0,2.4]])g+=segment(O,project(...a),'#82959d',1.5);
+      g+=label(62,383,'x',C.ink,20)+label(449,337,'y',C.ink,20)+label(210,68,'z',C.ink,20)+label(193,323,'O',C.ink,20);
+      g+=label(184,215,'1',C.green,20)+label(425,166,'z=1',C.green,25);
+      g+=segment(project(-.3,2.3,1),project(2.3,-.3,1),C.blue,4);
+      const points=[[0,2,1],[1,1,1],[2,0,1]],offsets=[[7,-25],[50,33],[-15,28]];
+      points.forEach((pt,i)=>{const pos=project(...pt);g+=dot(pos,C.blue)+label(pos[0]+offsets[i][0],pos[1]+offsets[i][1],'('+pt.join(',')+')',C.blue,21);});
+      g+=segment(project(1,1,1),project(1,1,0),C.green,1.5,'stroke-dasharray="4 5"');
+      g+=label(318,364,'z=0','#66777f',20);
+      el.innerHTML=svg(g,'fv3constant',480,405,'The line x plus y equals 2 lies in the plane z equals 1, above the xy-plane. Points zero two one, one one one and two zero one all have height one.');
+    });
+    document.querySelectorAll('[data-line-position]').forEach(el=>{
+      let lambda=.5;
+      const project=(x,y,z)=>[170-35*x+65*y,290+18*x-80*z];
+      const point=t=>project(1,1+3*t,1+t),O=project(0,0,0),P=point(0),Q=point(1);
+      el.innerHTML='<div class="line-position-layout"><div class="line-position-graph"></div><div class="line-position-details" aria-live="polite"></div></div><div class="line-slider"><label for="fv3-position-lambda"><span>Adjust '+math('\\lambda')+'</span><output></output></label><input id="fv3-position-lambda" aria-label="Position parameter lambda" type="range" min="-0.75" max="1.75" step="0.05" value="0.5"></div><div class="line-controls">'+[-.5,0,.5,1,1.5].map(t=>'<button data-position="'+t+'">'+math('\\lambda='+(t===.5?'\\frac12':t))+'</button>').join('')+'<button data-reset>Reset</button></div>';
+      function draw(){
+        const R=point(lambda),atP=Math.abs(lambda)<1e-8,atQ=Math.abs(lambda-1)<1e-8,inside=lambda>0&&lambda<1;
+        let g='';
+        for(const a of [[3.2,0,0],[0,6,0],[0,0,3]])g+=segment(O,project(...a),'#c3cdd2',1.5);
+        g+=label(44,355,'x','#75868e',19)+label(575,290,'y','#75868e',19)+label(170,36,'z','#75868e',19)+label(O[0]-16,O[1]+19,'O',C.ink,20);
+        g+=segment(point(-.9),point(1.9),'#9eafb8',2.5)+segment(P,Q,C.green,7);
+        g+=arrow(P,R,'gold','fv3position',4)+arrow(O,R,'blue','fv3position',3);
+        g+=dot(P,C.green)+dot(Q,C.green)+dot(R,C.gold);
+        g+=label(P[0]-12,P[1]+26,atP?'P=R':'P',atP?C.gold:C.green,23);
+        g+=label(Q[0]+18,Q[1]+25,atQ?'Q=R':'Q',atQ?C.gold:C.green,23);
+        if(!atP&&!atQ)g+=label(R[0]+14,R[1]+((Math.abs(lambda)<.15||Math.abs(lambda-1)<.15)?-27:24),'R',C.gold,23);
+        g+=label((O[0]+R[0])/2+(lambda<0?-15:18),(O[1]+R[1])/2+(lambda<0?18:21),v('r'),C.blue,24);
+        const region=(t,tex,active)=>{const a=point(t);return label(a[0],a[1]-32,tex,active?C.gold:'#75868e',21);};
+        g+=region(-.5,'\\lambda<0',lambda<0)+region(.5,'0<\\lambda<1',inside)+region(1.5,'\\lambda>1',lambda>1);
+        el.querySelector('.line-position-graph').innerHTML=svg(g,'fv3position',610,365,'Fixed spatial view of P and Q on a line. R has parameter '+fmt(lambda)+'. The green segment is PQ and the blue arrow is its position vector OR.');
+        let message=atP?'At '+math('P')+': '+math('R=P')+'.':atQ?'At '+math('Q')+': '+math('R=Q')+'.':lambda<0?'Beyond '+math('P')+', away from '+math('Q')+'.':lambda>1?'Beyond '+math('Q')+', away from '+math('P')+'.':'Between '+math('P')+' and '+math('Q')+'.';
+        let ratio='';
+        if(inside){
+          const n=Math.round(lambda*20),gcd=(a,b)=>b?gcd(b,a%b):a,k=gcd(n,20-n);
+          ratio='<p>'+math('PR:RQ=\\lambda:(1-\\lambda)')+'</p><div class="fv-equation">'+math('PR:RQ='+n/k+':'+(20-n)/k)+'</div>';
+          if(Math.abs(lambda-.5)<1e-8)ratio+='<p>'+math('R')+' is the midpoint.</p>';
+        }
+        el.querySelector('.line-position-details').innerHTML='<div class="fv-equation">'+math('\\overrightarrow{PR}=\\lambda\\overrightarrow{PQ}')+'</div><p class="line-position-message">'+message+'</p>'+ratio;
+        el.querySelector('output').innerHTML=math('\\lambda='+fmt(lambda));
+        el.querySelector('input').value=String(lambda);
+        el.querySelectorAll('[data-position]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.position===lambda)));
+        el.dataset.lambda=fmt(lambda);el.dataset.region=atP?'P':atQ?'Q':inside?'between':lambda<0?'before':'beyond';
+      }
+      el.querySelector('input').addEventListener('input',e=>{lambda=+e.target.value;draw();});
+      el.querySelectorAll('[data-position]').forEach(b=>b.addEventListener('click',()=>{lambda=+b.dataset.position;draw();}));
+      el.querySelector('[data-reset]').addEventListener('click',()=>{lambda=.5;draw();});
+      draw();
     });
     document.querySelectorAll('[data-line-parameter]').forEach(el=>{
       const vals=[-1,0,1/3,1,2], tex=['-1','0','\\frac13','1','2'];

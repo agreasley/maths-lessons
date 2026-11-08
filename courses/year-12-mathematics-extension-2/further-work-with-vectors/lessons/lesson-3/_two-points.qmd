@@ -1,11 +1,11 @@
-## A line through two points {#fv3-two-points .fv-lesson .line-lesson }
+## A line through two points {#fv3-two-points .fv-lesson .line-lesson}
 
 ```{=html}
-<p>Let <span data-math="P"></span> and <span data-math="Q"></span> have position vectors <span data-math="\underset{\sim}{p}"></span> and <span data-math="\underset{\sim}{q}"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{PQ}=\underset{\sim}{q}-\underset{\sim}{p}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{p}+\lambda(\underset{\sim}{q}-\underset{\sim}{p}),\qquad\lambda\in\mathbb R"></span></div><div data-line-two-points class="line-static-diagram"></div>
+<p>A line passes through the distinct points <span data-math="P"></span> and <span data-math="Q"></span>. <strong>What direction vector could describe this line?</strong></p><p>Let their position vectors be <span data-math="\underset{\sim}{p}"></span> and <span data-math="\underset{\sim}{q}"></span>.</p><div data-line-two-points></div>
 ```
 
 <div class="booklet-cue">Booklet §3.2 · pp. 38–40</div>
 
 ::: {.notes}
-P and Q are distinct, so q−p is non-zero. Choose a known point, then subtract endpoint minus starting point for the direction. λ=0 gives P; λ=1 gives Q.
+Pause for students to suggest a direction vector before using Show a direction vector. PQ=q−p is one choice. QP=p−q and any non-zero scalar multiple are equally valid. P and Q must be distinct. The reveal adds PQ to the diagram and gives r=p+λ(q−p). Ask why λ=0 gives P and λ=1 gives Q. Complete the reasoning with the class rather than giving a recipe.
 :::

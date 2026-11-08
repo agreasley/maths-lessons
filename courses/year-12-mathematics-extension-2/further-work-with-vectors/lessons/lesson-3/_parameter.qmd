@@ -1,11 +1,11 @@
-## What does the parameter tell us? {#fv3-parameter .fv-lesson .line-lesson }
+## What does the parameter tell us? {#fv3-parameter .fv-lesson .line-lesson}
 
 ```{=html}
-<div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{p}+\lambda(\underset{\sim}{q}-\underset{\sim}{p})=(1-\lambda)\underset{\sim}{p}+\lambda\underset{\sim}{q}"></span></div><table class="line-parameter-table"><tbody><tr><th><span data-math="\lambda&lt;0"></span></th><td>Beyond <span data-math="P"></span>, away from <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda=0"></span></th><td>At <span data-math="P"></span></td></tr><tr><th><span data-math="0&lt;\lambda&lt;1"></span></th><td>Between <span data-math="P"></span> and <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda=1"></span></th><td>At <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda&gt;1"></span></th><td>Beyond <span data-math="Q"></span>, away from <span data-math="P"></span></td></tr></tbody></table><p>The segment <span data-math="PQ"></span> is described by <span data-math="0\leq\lambda\leq1"></span>.</p>
+<div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{p}+\lambda(\underset{\sim}{q}-\underset{\sim}{p})=(1-\lambda)\underset{\sim}{p}+\lambda\underset{\sim}{q}"></span></div><div data-line-position></div><p class="line-segment-note">For the line segment <span data-math="PQ"></span>, restrict the parameter to <span data-math="0\leq\lambda\leq1"></span>.</p>
 ```
 
 <div class="booklet-cue">Booklet §3.2 · p. 46</div>
 
 ::: {.notes}
-The interpretation depends on this parameterisation. For an interior point, PR:RQ=λ:(1−λ). λ=1/2 gives the midpoint with position vector (p+q)/2.
+Use the fixed spatial view to connect with the booklet diagram. P and Q stay fixed; R and its position vector change as λ changes. The relation PR=λPQ holds for every λ. Explore negative values, zero, an interior value, one and values greater than one. The interior ratio is PR:RQ=λ:(1−λ); at λ=1/2 R is the midpoint. Endpoint states explicitly show R=P and R=Q. The slider samples −0.75≤λ≤1.75, not the whole parameter domain. The equation describes the full line for λ in R. No camera rotation is needed.
 :::

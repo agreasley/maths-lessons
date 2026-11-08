@@ -1,11 +1,11 @@
-## Today · Constructing a straight line {#fv3-construct .fv-lesson .line-lesson }
+## Constructing a straight line {#fv3-construct .fv-lesson .line-lesson}
 
 ```{=html}
-<p>Today we will construct vector equations of <strong>straight lines</strong> and connect them to Cartesian equations.</p><div data-line-construction></div>
+<p>How could we construct <span data-math="\underset{\sim}{r}"></span> so that its tip traces a line through <span data-math="A"></span>?</p><div data-line-construction></div>
 ```
 
 <div class="booklet-cue">Booklet §§3.1–3.2 · pp. 36–38</div>
 
 ::: {.notes}
-We will explore other curves later in the unit. Begin with O and A=(3,0). Step 1: choose d=(−1,2), parallel to the line. Step 2: AP=λd; show positive, zero and negative multiples. Step 3: OP=OA+AP=a+λd. The position vector always begins at O. What is enough to construct a line? One point and one non-zero direction vector. Connect to (3−t)i+2tj=3i+t(−i+2j).
+Begin with the fixed position vector OA and a non-zero vector d parallel to the line. Ask how to construct r before moving the slider. Show r=OA+λd as one vector sum. Adjust λ to move the tip of r along the line, while OA stays fixed. At λ=0 the tip is A; positive and negative values reach both sides of A. The same equation describes the entire line as λ ranges over all real numbers. The slider samples −1≤λ≤2; its range is not the domain of the line. The points and arrows share exact coordinates. Connect the equation to the opening example x=3−t, y=2t. No construction-step sequence is used.
 :::

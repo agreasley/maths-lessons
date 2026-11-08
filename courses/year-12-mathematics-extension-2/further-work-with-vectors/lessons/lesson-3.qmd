@@ -29,6 +29,8 @@ homework: "3 · Exercise 4A"
 
 {{< include lesson-3/_hinge.qmd >}}
 
+{{< include lesson-3/_cartesian-method.qmd >}}
+
 {{< include lesson-3/_cartesian-2d.qmd >}}
 
 {{< include lesson-3/_cartesian-3d.qmd >}}

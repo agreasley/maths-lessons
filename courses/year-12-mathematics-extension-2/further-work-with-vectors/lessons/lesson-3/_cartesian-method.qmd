@@ -1,0 +1,11 @@
+## Finding a Cartesian equation {#fv3-cartesian-method .fv-lesson .line-lesson}
+
+```{=html}
+<p>For a vector equation in three dimensions:</p><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=f(t)\underset{\sim}{i}+g(t)\underset{\sim}{j}+h(t)\underset{\sim}{k}"></span></div><ol class="line-method"><li>Let <span data-math="\underset{\sim}{r}=x\underset{\sim}{i}+y\underset{\sim}{j}+z\underset{\sim}{k}"></span>.</li><li>Equate corresponding components.<div class="fv-equation"><span data-math="x=f(t),\qquad y=g(t),\qquad z=h(t)"></span></div></li><li>Use your parametric-equation techniques to <strong>eliminate the parameter</strong>.</li></ol><p class="line-method-general">This method connects vector and Cartesian equations for lines and other curves.</p>
+```
+
+<div class="booklet-cue">Booklet §§3.1–3.2.1 · pp. 36–42</div>
+
+::: {.notes}
+In 2D omit z and k. This is the familiar Year 11 process after matching components. Use the same parameter in all coordinate equations. Preserve any parameter restrictions when interpreting the Cartesian result; eliminating a parameter can otherwise add unwanted points. A Cartesian representation may require simultaneous equations or restrictions, and not every general curve has a simple explicit Cartesian equation. For straight lines the process is straightforward.
+:::

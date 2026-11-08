@@ -11,7 +11,7 @@
     <div class="relation-test-working"><span data-math="y=-1+2(2)=3"></span><span data-math="z=1-2=-1"></span></div>
     <p class="relation-test-conclusion"><span data-math="P"></span> lies on the line.</p>
   </div>
-  <div class="relation-test-off">
+  <div class="relation-test-off fragment" data-fragment-index="0">
     <h3>Test <span data-math="Q(4,3,0)"></span></h3>
     <p><span data-math="x=4\quad\Rightarrow\quad\lambda=2"></span></p>
     <p>With <span data-math="\lambda=2"></span>:</p>
@@ -24,5 +24,7 @@
 <div class="booklet-cue">Booklet §3.3 · p. 51 · Additional worked demonstration</div>
 
 ::: {.notes}
+Initially show only the successful test for P. The next click (Next or right arrow) reveals Q and its failed coordinate check alongside P; Previous hides Q again. No separate reveal button is needed.
+
 Connect to Lesson 3: each parameter value gives one position vector, pointing to one point on the line. Use one coordinate to find a candidate parameter, then check every remaining coordinate with that value. For P, x=4 gives λ=2; this also gives y=3 and z=−1, so P lies on the line. Q has the same x and y coordinates, but at λ=2 the line has z=−1 rather than 0. There is no different parameter that can repair z while keeping x=4, so Q does not lie on the line. The deliberately matched x and y coordinates show why checking only two coordinates is insufficient in 3D. This demonstration is additional, not a booklet example; students then apply the method to Example 3.9. If a direction component is zero, its coordinate is constant and the point must have that coordinate; use a non-zero component to find the parameter. In 2D, check both coordinates.
 :::

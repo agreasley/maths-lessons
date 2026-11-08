@@ -225,7 +225,7 @@ The 2D line comparison keeps ℓ1: r=(1,2)+λ(2,1) fixed. The second line has di
 
 Slide 4 uses a fixed 3D projection of two parallel lines, with a pale xy-plane for context and coloured direction arrows. The arrows point in opposite senses to emphasise that this still gives parallel directions. Their actual vectors are proportional; no numerical comparison is displayed. Slide 5 stays geometric, with no coordinate-by-coordinate parameter explanation.
 
-Slide 6 demonstrates r=(2,−1,1)+λ(1,2,−1). For P=(4,3,−1), x=4 gives λ=2, which also produces the required y and z coordinates. For Q=(4,3,0), the same x fixes λ=2 and y matches, but z=−1 differs from the required 0. This makes the need to check all three coordinates explicit. Both cases are visible side by side, with no reveal controls. These are additional teaching examples; Example 3.9 remains unchanged for student application.
+Slide 6 demonstrates r=(2,−1,1)+λ(1,2,−1). For P=(4,3,−1), x=4 gives λ=2, which also produces the required y and z coordinates. For Q=(4,3,0), the same x fixes λ=2 and y matches, but z=−1 differs from the required 0. This makes the need to check all three coordinates explicit. The successful test for P is visible first. One click of Next (or the right arrow) reveals Q and its failed test beside P; Previous hides Q again. The reveal uses the existing presentation navigation, with no extra button. These are additional teaching examples; Example 3.9 remains unchanged for student application.
 
 Coordinate-plane diagrams use one fixed linear projection; yz means x=0, xz means y=0 and xy means z=0. The collinearity diagram draws AB and AC from exactly the same starting point. Native SVG maths labels share the diagram coordinate system; no foreignObject or 3D rotation is used. The cover illustration occurs only on the title slide.
 
@@ -256,6 +256,8 @@ Cambridge Year 12 Extension 2, copied unchanged from booklet p. 58.
 Render or preview `courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-4.qmd`. The topic lists four lessons and Homework 1–4. Once the source reaches main, run the manual Publish Quarto lessons workflow to update GitHub Pages.
 
 ### Lesson 4 validation
+
+Staged point-test revision: Chromium confirmed Q is initially hidden, Next reveals it without changing slides, Previous hides it again, and the following Next advances to Example 3.9(a). Both states were visually checked, followed by full forward/backward navigation through all 17 slides.
 
 Revision check: re-rendered the 17-slide deck after replacing slide 4's numerical comparisons with the fixed 3D diagram, simplifying both states of slide 5, and adding the two worked point tests on slide 6. Chromium at 1363×936 passed full forward/backward navigation, both line presets, Reset and state retention through the slide map. Screenshots of all three revised slides showed readable labels and no clipping; the worked demonstration fits above the footer/navigation. No nested slides, maths-rendering errors or foreignObject elements were present. Exact rational arithmetic confirms parameter values (2,2,2) for P and (2,2,1) for Q. Booklet example files, hinge and homework were unchanged.
 

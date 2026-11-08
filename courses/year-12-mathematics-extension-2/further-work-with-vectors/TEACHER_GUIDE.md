@@ -157,7 +157,7 @@ The deck contains 24 slides. Suggested 50-minute pacing: cover/objective/recap 3
 
 ### Visuals
 
-- The opening table reveals coordinates and position vectors for the four specified t values. Previous points remain on accurately scaled axes; the latest position vector starts at O. Predict each point before revealing it. Ask how the coordinates change when t increases by 1.
+- The opening table uses two separate reveals for each of the four specified t values: show the amber point and coordinates first, then the blue position vector. Previous points remain on accurately scaled axes; the latest position vector starts at O. Predict each point before revealing it. Ask how the coordinates change when t increases by 1.
 - A three-step construction starts with A=(3,0), chooses d=(−1,2), shows AP=λd, and combines OA+AP to give OP. Presets λ=−1,0,1,2 expose the whole-line idea. Previous step and Reset retrace the construction.
 - Example 3.5 has touch-sized presets in booklet order, with points revealed only when selected. Ask why λ=1/3 gives PR:RQ=1:2. The follow-up distinguishes the line from the segment 0≤λ≤1.
 - All diagram labels use the shared native SVG maths renderer. No external applet or 3D rotation is used.
@@ -187,3 +187,9 @@ Use the standard Quarto preview command with courses/year-12-mathematics-extensi
 Rendered the lesson and navigation pages with Quarto 1.10.18. Chromium at 1363×936 passed full forward/back navigation across 24 top-level slides, with no nested slides, mathematical-rendering errors or SVG foreignObject labels. Checked all four opening parameter values, the three construction steps and negative/zero/positive presets, all five Example 3.5 points, resets and retention through the slide map. Checked the hinge duration control, Start/Pause/Resume, a full 30-second expiry with the answer hidden, deliberate reveal and Reset, plus the Example 3.6 answer reveal. Reviewed representative cover, opening table, completed construction, 3D conversion, parameter diagram and homework layouts. All slide content fitted the available bounds. Topic navigation and the new lesson card were checked. Coordinate calculations and shared-parameter identities were checked independently.
 
 WebKit is not installed, and this browser does not expose touch emulation or viewport/orientation controls. WebKit, iPad landscape sizes and physical-iPad checks remain outstanding. Native SVG labels and 48-pixel source controls follow the existing iPad compatibility conventions. The established generated-preview closing-tag escaping workaround was applied only to the rendered HTML.
+
+### Separate point and position-vector reveals
+
+Slide 4 now has eight teacher-controlled steps: point, then position vector, for each of t=0, 0.5, 1 and 2. Amber identifies the point and its coordinate entry. Blue identifies the position-vector arrow, its table entry and the matching r(t)=… label beneath the graph. The vector entry remains hidden during the point step. Earlier points and completed table entries remain visible; only the current vector is drawn. Previous step retraces one reveal and Reset clears all eight steps.
+
+Separate-reveal checks: Chromium verified all eight forward and reverse steps. Every point step has no arrow, caption or current vector-table entry; each vector step has one blue arrow and the correct r(t) label. Reset clears the graph and table, and the slide map retains the selected point-only phase. Reviewed point-only, t=0 vector and completed t=2 layouts. The final content fits within the slide, with no maths errors. Existing WebKit/iPad testing limitations remain.

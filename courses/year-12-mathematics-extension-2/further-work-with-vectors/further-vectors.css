@@ -126,7 +126,7 @@
 .reveal .line-parameter-table{font-size:26px;width:90%;margin:20px 0}
 .reveal .line-parameter-table td,.reveal .line-parameter-table th{padding:12px 20px}
 .reveal .line-points-layout{display:grid;grid-template-columns:43% 57%;gap:15px;align-items:center}
-.reveal .line-points-graph svg{height:355px;width:100%;display:block}
+.reveal .line-points-graph svg{height:330px;width:100%;display:block}
 .reveal .line-calculation{font-size:25px;line-height:1.5;min-height:120px}
 .reveal .line-points-table{font-size:23px;width:100%}
 .reveal .line-points-table td,.reveal .line-points-table th{padding:9px 12px}
@@ -157,3 +157,6 @@
 .reveal #fv3-hinge .hinge-explanation{font-size:21px}
 .reveal #fv3-finish .fv-equation{margin:16px 0;font-size:27px}
 .reveal #fv3-finish .line-key{font-size:27px;margin:20px 0;padding:14px 20px}
+
+.reveal .line-position-caption{color:#315985;font-size:26px;text-align:center;min-height:44px;line-height:1.6}
+.reveal .line-points-table td.line-blue{white-space:nowrap;font-size:22px}

@@ -30,27 +30,48 @@
     }
     document.querySelectorAll('[data-line-points]').forEach(el=>{
       const values=[0,.5,1,2], vectors=['3'+v('i'),'2.5'+v('i')+'+'+v('j'),'2'+v('i')+'+2'+v('j'),v('i')+'+4'+v('j')];
-      let index=-1;
-      el.innerHTML='<div class="line-points-layout"><div class="line-points-graph"></div><div><div class="line-calculation" aria-live="polite"></div><table class="line-points-table"><thead><tr><th>'+math('t')+'</th><th>Point</th><th>Position vector</th></tr></thead><tbody></tbody></table></div></div><div class="line-controls"><button data-action="previous">Previous value</button><button data-action="next" class="primary">Next value</button><button data-action="reset">Reset</button><output></output></div>';
+      // Two separate reveals per parameter: first the point, then its position vector.
+      let step=0;
+      el.innerHTML='<div class="line-points-layout"><div><div class="line-points-graph"></div><div class="line-position-caption" aria-live="polite"></div></div><div><div class="line-calculation" aria-live="polite"></div><table class="line-points-table"><thead><tr><th>'+math('t')+'</th><th class="line-gold">Point</th><th class="line-blue">Position vector</th></tr></thead><tbody></tbody></table></div></div><div class="line-controls"><button data-action="previous">Previous step</button><button data-action="next" class="primary">Show point</button><button data-action="reset">Reset</button><output></output></div>';
       const map=(x,y)=>[70+52*x,300-52*y];
       function draw(){
+        const index=Math.ceil(step/2)-1, vectorShown=step>0&&step%2===0;
         let g=axes(map,-1,6,-1,5);
-        for(let j=0;j<=index;j++){const t=values[j],x=3-t,y=2*t;g+=dot(map(x,y),j===index?C.blue:C.grey);}
+        if(step===8)g+=segment(map(.5,5),map(3.5,-1),C.grey,2,'stroke-dasharray="6 6"');
         if(index>=0) {
           const t=values[index],x=3-t,y=2*t,O=map(0,0),P=map(x,y);
-          g+=arrow(O,P,'blue','fv3points')+dot(P);
-          g+=label(P[0]+43,P[1]-20,'('+x+','+y+')',C.blue,21);
-          if(index===3)g+=segment(map(.5,5),map(3.5,-1),C.blue,2,'stroke-dasharray="6 6"');
+          if(vectorShown)g+=arrow(O,P,'blue','fv3points');
+          // Draw the amber point over the blue arrowhead so they remain distinct.
+          for(let j=0;j<=index;j++){
+            const q=map(3-values[j],2*values[j]);
+            g+='<g opacity="'+(j===index?'1':'.5')+'">'+dot(q,C.gold)+'</g>';
+          }
+          g+=label(P[0]+43,P[1]-20,'('+x+','+y+')',C.gold,21);
           el.querySelector('.line-calculation').innerHTML=math('t='+t)+':<br>'+math('x=3-'+t+'='+x)+'<br>'+math('y=2('+t+')='+y);
-        } else el.querySelector('.line-calculation').innerHTML='Start with '+math('t=0')+'.<br>What point will the vector point to?';
-        el.querySelector('.line-points-graph').innerHTML=svg(g,'fv3points',445,370,'Coordinate axes with previously calculated points and the current position vector from the origin.');
-        el.querySelector('tbody').innerHTML=values.map((t,j)=>'<tr class="'+(j===index?'current':'')+'"><td>'+math(String(t))+'</td><td>'+(j<=index?math('('+(3-t)+','+(2*t)+')'):'—')+'</td><td>'+(j<=index?math(vectors[j]):'—')+'</td></tr>').join('');
-        el.querySelector('[data-action="previous"]').disabled=index<0;
-        el.querySelector('[data-action="next"]').disabled=index===3;
-        el.querySelector('output').textContent=index<0?'Predict, then reveal.':'Value '+(index+1)+' of 4';
-        el.dataset.step=String(index+1);
+          el.querySelector('.line-position-caption').innerHTML=vectorShown?math(v('r')+'('+t+')='+vectors[index]):'';
+        } else {
+          el.querySelector('.line-calculation').innerHTML='Start with '+math('t=0')+'.<br>What are the coordinates of the point?';
+          el.querySelector('.line-position-caption').innerHTML='';
+        }
+        const description=index<0?'Coordinate axes. Predict the first point.':vectorShown?'Amber point and blue position vector from the origin, with its parameter label below.':'Amber point only. The position vector is not yet shown.';
+        el.querySelector('.line-points-graph').innerHTML=svg(g,'fv3points',445,370,description);
+        el.querySelector('tbody').innerHTML=values.map((t,j)=>{
+          const pointRevealed=step>=2*j+1, vectorRevealed=step>=2*j+2;
+          return '<tr class="'+(j===index?'current':'')+'"><td>'+math(String(t))+'</td><td class="line-gold">'+(pointRevealed?math('('+(3-t)+','+(2*t)+')'):'—')+'</td><td class="line-blue">'+(vectorRevealed?math(v('r')+'('+t+')='+vectors[j]):'—')+'</td></tr>';
+        }).join('');
+        el.querySelector('[data-action="previous"]').disabled=step===0;
+        const next=el.querySelector('[data-action="next"]');
+        next.disabled=step===8;
+        next.textContent=step===8?'Complete':step%2===0?'Show point':'Show position vector';
+        next.setAttribute('aria-label',step===8?'Complete':step%2===0?'Show point for t = '+values[step/2]:'Show position vector for t = '+values[index]);
+        el.querySelector('output').innerHTML=index<0?'Predict, then reveal.':math('t='+values[index])+' · '+(vectorShown?'Position vector':'Point');
+        el.dataset.step=String(step);
+        el.dataset.phase=step===0?'initial':vectorShown?'vector':'point';
       }
-      el.querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',()=>{index=b.dataset.action==='reset'?-1:b.dataset.action==='next'?Math.min(3,index+1):Math.max(-1,index-1);draw();}));
+      el.querySelectorAll('[data-action]').forEach(b=>b.addEventListener('click',()=>{
+        step=b.dataset.action==='reset'?0:b.dataset.action==='next'?Math.min(8,step+1):Math.max(0,step-1);
+        draw();
+      }));
       draw();
     });
     document.querySelectorAll('[data-line-construction]').forEach(el=>{

@@ -7,5 +7,5 @@
 <div class="booklet-cue">Booklet §3.1 · p. 36</div>
 
 ::: {.notes}
-Predict coordinates before each Next value. Use t=0,0.5,1,2 in order. Answers: (3,0), (2.5,1), (2,2), (1,4). The latest position vector starts at the origin; previous points remain. Connect each coordinate to its matching component. Ask: when t increases by 1, how do x and y change? −1 and +2.
+For each t=0,0.5,1,2, reveal the point first and pause before revealing its position vector. The point and coordinates are amber; the position vector, its table entry and the label r(t) beneath the diagram are blue. Answers: (3,0), (2.5,1), (2,2), (1,4). Each position vector starts at the origin. Previous points remain visible, but only the current vector is drawn. Ask students to name the vector before revealing it, then connect each coordinate to its matching component. Previous step reverses one reveal; Reset returns to the empty table.
 :::

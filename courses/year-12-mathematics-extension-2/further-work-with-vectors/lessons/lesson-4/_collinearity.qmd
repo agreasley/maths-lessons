@@ -1,0 +1,11 @@
+## Are three points collinear? {#fv4-collinearity .fv-lesson .relation-lesson }
+
+```{=html}
+<p><strong>Collinear</strong> points lie on the same straight line.</p><div class="relation-collinear-layout"><div data-collinearity-diagram></div><div><p>Form two vectors with the same starting point:</p><div class="fv-equation"><span data-math="\overrightarrow{AB},\qquad\overrightarrow{AC}"></span></div><p>Then test whether</p><div class="fv-equation"><span data-math="\overrightarrow{AC}=k\overrightarrow{AB}"></span></div></div></div><p class="relation-key">One scalar must work in every component.</p>
+```
+
+<div class="booklet-cue">Booklet §3.3 · pp. 55–56</div>
+
+::: {.notes}
+Take A and B distinct, so AB is non-zero. If AC=kAB, then C lies on the line through A and B; conversely a point on that line gives such a scalar. Use a common starting point to make the connection visible. In the schematic C lies beyond B, but k can also be negative or between 0 and 1. For three distinct points k is neither 0 nor 1. Do not compare the position vectors OA, OB and OC: the line need not pass through the origin. The same test works in 2D and 3D.
+:::

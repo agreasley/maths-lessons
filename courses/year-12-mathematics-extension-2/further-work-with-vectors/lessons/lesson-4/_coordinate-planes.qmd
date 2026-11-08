@@ -1,0 +1,11 @@
+## Meeting a coordinate plane {#fv4-coordinate-planes .fv-lesson .relation-lesson }
+
+```{=html}
+<p>A point in a coordinate plane has one coordinate equal to zero.</p><div class="relation-plane-grid"><div><h3><span data-math="yz"></span>-plane</h3><div data-coordinate-plane="yz"></div><div class="fv-equation"><span data-math="x=0"></span></div></div><div><h3><span data-math="xz"></span>-plane</h3><div data-coordinate-plane="xz"></div><div class="fv-equation"><span data-math="y=0"></span></div></div><div><h3><span data-math="xy"></span>-plane</h3><div data-coordinate-plane="xy"></div><div class="fv-equation"><span data-math="z=0"></span></div></div></div><p>Set the relevant coordinate equal to zero, find the parameter, then find the point.</p>
+```
+
+<div class="booklet-cue">Supports Booklet Example 3.10 · p. 54</div>
+
+::: {.notes}
+These are fixed spatial reference diagrams, with common axes and projection. The coloured region is the named coordinate plane; the omitted coordinate is zero everywhere in that plane. Contrast an axis, which requires two coordinates to be zero. For the following example each plane is met at one point. In general a line can be parallel to a plane with no crossing, or lie entirely in it; avoid implying that every line has exactly one crossing. Students already met coordinate planes in Extension 1.
+:::

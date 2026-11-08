@@ -1,0 +1,11 @@
+## Homework 4 · Relationships between lines {#fv4-homework .fv-lesson .relation-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4A: Q10(a,c), Q11.<br>Exercise 4B: Q1(b), Q2, Q8, Q9.</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4A: Q10, Q11, Q13–15.<br>Exercise 4B: Q1, Q2, Q8, Q9.</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4A: Q13–15. Exercise 4B: Q2, Q8, Q9.<br>Exercise 4E: Q9.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 4 · p. 58</div>
+
+::: {.notes}
+Homework allocation copied unchanged from the supplied booklet. No split across lessons is imposed.
+:::

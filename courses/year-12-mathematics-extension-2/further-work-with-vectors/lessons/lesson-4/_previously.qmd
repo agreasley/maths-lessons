@@ -1,0 +1,11 @@
+## Previously · Example 3.8 {#fv4-previously .fv-lesson .relation-lesson }
+
+```{=html}
+<p>A point and a non-zero direction vector determine a line.</p><div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{a}+\lambda\underset{\sim}{d}"></span></div><p><strong>Example 3.8</strong><br>Find a vector equation of each line:</p><div class="relation-three-parts"><p>a) <span data-math="y=-\frac32x+4"></span></p><p>b) <span data-math="y=-2"></span></p><p>c) <span data-math="x=5"></span></p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.8 · p. 49</div>
+
+::: {.notes}
+Ask what can be read from each Cartesian equation: a convenient point and a direction. Possible answers: (a) $\underset{\sim}{r}=\begin{bmatrix}0\\4\end{bmatrix}+\lambda\begin{bmatrix}2\\-3\end{bmatrix}$; (b) $\underset{\sim}{r}=\begin{bmatrix}0\\-2\end{bmatrix}+\lambda\begin{bmatrix}1\\0\end{bmatrix}$; (c) $\underset{\sim}{r}=\begin{bmatrix}5\\0\end{bmatrix}+\lambda\begin{bmatrix}0\\1\end{bmatrix}$, with $\lambda\in\mathbb R$. Non-zero multiples are equally valid directions. Avoid trying to assign a finite gradient to the vertical line. Keep this recap brief.
+:::

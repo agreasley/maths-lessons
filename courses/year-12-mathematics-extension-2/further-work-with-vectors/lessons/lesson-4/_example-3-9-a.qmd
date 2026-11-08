@@ -1,0 +1,11 @@
+## Example 3.9(a) {#fv4-example-3-9-a .fv-lesson .relation-lesson }
+
+```{=html}
+<p>a) Find the parametric equations of the line through <span data-math="(-2,1,2)"></span> that is parallel to <span data-math="\underset{\sim}{v}=2\underset{\sim}{i}-\underset{\sim}{j}+3\underset{\sim}{k}"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.9(a) · p. 53</div>
+
+::: {.notes}
+Use the point as the fixed position vector and (2,−1,3) as the direction. $\underset{\sim}{r}=(-2,1,2)+\lambda(2,-1,3)$, so $x=-2+2\lambda$, $y=1-\lambda$, $z=2+3\lambda$, $\lambda\in\mathbb R$. Keep the same parameter in all three equations. Work in OneNote.
+:::

@@ -1,0 +1,11 @@
+## Example 3.10 {#fv4-example-3-10 .fv-lesson .relation-lesson }
+
+```{=html}
+<p>Find the coordinates of the points where the line</p><div class="fv-equation"><span data-math="\underset{\sim}{r}=(1+\lambda)\underset{\sim}{i}+(4-2\lambda)\underset{\sim}{j}+(3+\lambda)\underset{\sim}{k}"></span></div><p>cuts the coordinate planes.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.10 · p. 54</div>
+
+::: {.notes}
+yz-plane: x=0 gives λ=−1, hence (0,6,2). xz-plane: y=0 gives λ=2, hence (3,0,5). xy-plane: z=0 gives λ=−3, hence (−2,10,0). The three planes have different intersection points and therefore different parameter values. For each individual point, the same value is substituted into all coordinates. Full working in OneNote; no additional interactive is needed.
+:::

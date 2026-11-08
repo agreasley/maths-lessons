@@ -1,0 +1,9 @@
+## Parallel lines, points on lines and collinearity {#fv4-opening .fv-lesson .relation-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 4</div><div class="cover-title">Parallel lines,<br>points on lines<br>and collinearity</div><div class="cover-subtitle">Further Work with Vectors</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet §3.3 · Examples 3.8–3.13 · Homework 4</div>
+```
+
+::: {.notes}
+Sources: supplied 12MAX2 – Further Vectors(1).pdf, printed pp. 49–58, and Further Vectors Lesson Sequence.pdf. Lesson 4 follows the approved sequence: parallel lines, point membership and collinearity. Example 3.8 is included as a recap because it was just beyond Lesson 3 coverage. Intersections of two vector lines and skew-line tests remain for Lesson 5. Approximately 50 minutes: opening/recap 6; parallel/coincident 7; point membership, Example 3.9 and hinge 12; coordinate planes and Example 3.10 7; collinearity and Examples 3.11–3.13 15; finish/homework 3. Use OneNote for complete worked examples.
+:::

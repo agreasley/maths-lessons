@@ -1,0 +1,11 @@
+## Example 3.12 {#fv4-example-3-12 .fv-lesson .relation-lesson }
+
+```{=html}
+<p>Determine whether the points <span data-math="A(0,2,2)"></span>, <span data-math="B(4,10,18)"></span> and <span data-math="C(6,14,26)"></span> are collinear.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.12 · p. 56</div>
+
+::: {.notes}
+Give a short independent attempt, then ask students to compare which vectors they formed and which scalar worked. $\overrightarrow{AB}=(4,8,16)$ and $\overrightarrow{AC}=(6,12,24)=\frac32\overrightarrow{AB}$, hence collinear. An alternative is BC=(2,4,8)=AB/2. Require an explicit scalar relation and a geometric conclusion; a bare “yes” is not enough. This is ordinary independent practice, not a named thinking routine.
+:::

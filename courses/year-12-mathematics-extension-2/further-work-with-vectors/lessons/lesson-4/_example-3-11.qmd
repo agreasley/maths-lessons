@@ -1,0 +1,11 @@
+## Example 3.11 {#fv4-example-3-11 .fv-lesson .relation-lesson }
+
+```{=html}
+<p>Show that the points <span data-math="A(1,-1,3)"></span>, <span data-math="B(2,-4,5)"></span> and <span data-math="C(5,-13,11)"></span> are collinear.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.11 · p. 55</div>
+
+::: {.notes}
+$\overrightarrow{AB}=(1,-3,2)$ and $\overrightarrow{AC}=(4,-12,8)=4\overrightarrow{AB}$. Both vectors start at A, so the three points are collinear. Alternatively test C in r=A+λAB: λ=4 satisfies every component. Use this as the guided example and connect both methods. Preserve the booklet’s “Show that” wording; full working in OneNote.
+:::

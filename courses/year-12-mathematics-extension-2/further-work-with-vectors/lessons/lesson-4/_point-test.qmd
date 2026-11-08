@@ -1,0 +1,11 @@
+## Does a point lie on a line? {#fv4-point-test .fv-lesson .relation-lesson }
+
+```{=html}
+<p>For <span data-math="\underset{\sim}{r}=\begin{bmatrix}a_1\\a_2\\a_3\end{bmatrix}+\lambda\begin{bmatrix}d_1\\d_2\\d_3\end{bmatrix}"></span>, test the point <span data-math="P(x_0,y_0,z_0)"></span>.</p><div class="relation-point-layout"><div><div class="fv-equation"><span data-math="x_0=a_1+\lambda d_1"></span></div><div class="fv-equation"><span data-math="y_0=a_2+\lambda d_2"></span></div><div class="fv-equation"><span data-math="z_0=a_3+\lambda d_3"></span></div></div><div><p class="relation-key">One value of <span data-math="\lambda"></span> must satisfy <strong>every</strong> equation.</p><p>If one coordinate stays constant, the point must have that coordinate.</p></div></div>
+```
+
+<div class="booklet-cue">Booklet §3.3 · p. 51</div>
+
+::: {.notes}
+Connect directly to Lesson 3: one parameter value gives one point. Substitute the coordinates into the parametric equations, solve a component with a non-zero direction component, and check that value in every remaining equation. Different components cannot choose different parameter values. Zero direction components produce constant-coordinate conditions; do not divide by zero. Two dimensions use the first two equations only.
+:::

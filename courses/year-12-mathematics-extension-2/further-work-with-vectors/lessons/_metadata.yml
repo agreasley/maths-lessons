@@ -16,6 +16,7 @@ format:
         <script src="../further-vectors.js"></script>
         <script src="../vector-proofs.js"></script>
         <script src="../vector-lines.js"></script>
+        <script src="../vector-line-relations.js"></script>
     width: 1280
     height: 800
     margin: 0.09

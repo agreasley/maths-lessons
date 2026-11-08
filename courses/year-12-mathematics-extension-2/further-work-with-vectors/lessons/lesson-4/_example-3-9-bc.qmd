@@ -1,0 +1,11 @@
+## Example 3.9(b–c) {#fv4-example-3-9-bc .fv-lesson .relation-lesson }
+
+```{=html}
+<p class="relation-context">The line from part (a): through <span data-math="(-2,1,2)"></span>, parallel to <span data-math="2\underset{\sim}{i}-\underset{\sim}{j}+3\underset{\sim}{k}"></span>.</p><div class="relation-example-parts"><p>b) Do either of the points <span data-math="(1,2,3)"></span> or <span data-math="(-6,3,-4)"></span> lie on this line?</p><p>c) Find the coordinates of two points that lie on the line defined in part (a).</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.9(b–c) · p. 53</div>
+
+::: {.notes}
+For (1,2,3), the component equations imply λ=3/2, −1 and 1/3 respectively, so the point is not on the line. For (−6,3,−4), λ=−2 satisfies all three equations, so it is on the line. For (c), choose any two different real parameter values, e.g. λ=0 and λ=1 give (−2,1,2) and (0,0,5). Many answers are valid. Contrast testing an existing point with generating a point by choosing a parameter.
+:::

@@ -1,0 +1,11 @@
+## Using a consistent scalar {#fv4-finish .fv-lesson .relation-lesson }
+
+```{=html}
+<table class="relation-summary"><thead><tr><th>Question</th><th>What to check</th></tr></thead><tbody><tr><td>Parallel directions?</td><td><span data-math="\underset{\sim}{d_2}=k\underset{\sim}{d_1},\ k\ne0"></span></td></tr><tr><td>Distinct parallel or coincident?</td><td>With parallel directions, test a fixed point on the other line.</td></tr><tr><td>Point on a line?</td><td>One parameter satisfies every component.</td></tr><tr><td>Three points collinear?</td><td><span data-math="\overrightarrow{AC}=k\overrightarrow{AB}"></span>, with <span data-math="\overrightarrow{AB}\ne\underset{\sim}{0}"></span>.</td></tr></tbody></table><p><strong>I can justify whether lines are parallel or points lie on a common line.</strong></p>
+```
+
+<div class="booklet-cue">Booklet Key Ideas · p. 58</div>
+
+::: {.notes}
+Briefly revisit the success criterion. Ask students to explain why checking just one component is insufficient. Connect the final two tests: AC=kAB is exactly the point-membership statement C=A+kAB. Distinct parallel lines have no common point, whereas one common point plus parallel directions proves coincidence. Keep intersections and skew-line calculations for Lesson 5.
+:::

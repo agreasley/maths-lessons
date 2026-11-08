@@ -1,0 +1,9 @@
+## Today’s learning {#fv4-objective .fv-lesson .relation-lesson }
+
+```{=html}
+<div class="objective"><h3>Lesson objective</h3><p>We are learning to use vector equations to determine relationships between points and lines.</p><h3>Success criteria</h3><p>I can justify whether lines are parallel or points lie on a common line.</p></div>
+```
+
+::: {.notes}
+Students have completed Lesson 3: constructing vector equations from a point and direction or from two points, converting to parametric and Cartesian form, and interpreting a shared parameter. Read the statements briefly.
+:::

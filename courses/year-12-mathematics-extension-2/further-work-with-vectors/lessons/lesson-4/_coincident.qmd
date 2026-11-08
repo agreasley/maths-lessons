@@ -1,0 +1,11 @@
+## Distinct parallel lines or the same line? {#fv4-coincident .fv-lesson .relation-lesson }
+
+```{=html}
+<p>The direction vectors are scalar multiples. <strong>Must these be the same line?</strong></p><div data-parallel-lines></div>
+```
+
+<div class="booklet-cue">Booklet §3.3 · pp. 51–52 · Additional illustration</div>
+
+::: {.notes}
+Use a short prediction before changing the fixed point. The fixed line is $\ell_1:\ \underset{\sim}{r}=\begin{bmatrix}1\\2\end{bmatrix}+\lambda\begin{bmatrix}2\\1\end{bmatrix}$. The other line has direction $(-4,-2)=-2(2,1)$ and independent parameter $\mu$. With B=(1,3), it is distinct and parallel: the x equation of the first line gives λ=0, but the y equation gives λ=1. With B=(5,4), λ=2 works in both equations, so the lines coincide. The dashed green line overlays the blue line in the coincident state. Ask: “What information did the direction vectors give us, and what extra information did checking the point give us?” Distinct parallel lines have no common point; coincident lines share every point. The buttons are touch-sized and Reset restores the distinct-lines state. No camera rotation or simultaneous-parameter solving is required.
+:::

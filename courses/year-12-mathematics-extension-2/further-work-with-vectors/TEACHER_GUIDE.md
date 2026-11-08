@@ -203,3 +203,56 @@ Separate-reveal checks: Chromium verified all eight forward and reverse steps. E
 The requested revision replaces the construction steps with a live vector sum, adds the two-point direction prompt and reveal, adds the general component-matching method, and illustrates the constant coordinate with a fixed spatial graph. The parameter interpretation now has a slider, presets, endpoint states and an interior-ratio display modelled on the booklet diagram.
 
 Validation: Quarto 1.10.18 rendered 25 top-level slides with no nested slides. Chromium at 1363×936 checked the complete forward and backward sequence, slide-map jumps and state retention, the direction reveal/hide, negative/zero/positive construction presets, both slider endpoints and fractional increments, parameter regions and endpoint states, Reset and the interior ratio 1:3 at λ=1/4. Reviewed the revised construction, direction, conversion, constant-coordinate and parameter layouts; content fits the slide bounds. No maths-rendering errors or SVG foreignObject elements were found. Independently checked the coordinate and vector identities. Booklet examples, opening point/vector reveals, homework and existing hinge controls are retained. WebKit, touch emulation, iPad viewport/orientation and physical-iPad checks remain unavailable.
+
+## Lesson 4: Parallel lines, points on lines and collinearity
+
+Approved coverage: booklet §3.3, Examples 3.9–3.13, printed pp. 51–58, with Example 3.8 (p. 49) carried into the opening recap so it is not skipped after Lesson 3. Source wording, values, numbering and every subpart are retained. Intersections of two lines and skew-line tests remain for Lesson 5. The 17-slide deck assumes approximately 50 minutes and keeps worked solutions in presenter notes for OneNote.
+
+Objective: We are learning to use vector equations to determine relationships between points and lines.
+
+Success criterion: I can justify whether lines are parallel or points lie on a common line.
+
+### Lesson 4 sequence and visuals
+
+1–3: shared unit cover, learning statements, prerequisite recap with all of Example 3.8.
+4–6: proportional direction vectors in 2D/3D, distinct parallel versus coincident lines, the common-parameter test for a point.
+7–9: Example 3.9(a), Example 3.9(b–c), diagnostic hinge.
+10–11: three fixed coordinate-plane reference diagrams and Example 3.10.
+12–15: common-starting-point collinearity diagram, Examples 3.11–3.13.
+16–17: key tests and success criterion, Homework 4.
+
+The 2D line comparison keeps ℓ1: r=(1,2)+λ(2,1) fixed. The second line has direction (−4,−2), a non-zero multiple of the first. Its fixed point toggles between B=(1,3), giving distinct parallel lines, and B=(5,4), giving coincident lines. Students predict before changing the preset, then explain what direction comparison and point membership each establish. The coincident state uses a dashed green line over the solid blue line so both remain visible. Reset restores distinct lines. The two lines have independent parameters. This is a short mathematical prediction and explanation, not a named Project Zero routine.
+
+Coordinate-plane diagrams use one fixed linear projection; yz means x=0, xz means y=0 and xy means z=0. The collinearity diagram draws AB and AC from exactly the same starting point. Native SVG maths labels share the diagram coordinate system; no foreignObject or 3D rotation is used. The cover illustration occurs only on the title slide.
+
+### Lesson 4 mathematical checks and answers
+
+- Example 3.8: possible vector equations are (0,4)+λ(2,−3), (0,−2)+λ(1,0) and (5,0)+λ(0,1), respectively; λ is real. The gradient in (a) is −3/2.
+- Parallel directions mean d2=k d1 for one non-zero scalar. A common point then establishes coincidence; without one, the lines are distinct and parallel. Direction vectors must be non-zero. Avoid dividing by zero components.
+- Example 3.9(a): x=−2+2λ, y=1−λ, z=2+3λ. (b) (1,2,3) implies incompatible values 3/2, −1 and 1/3; (−6,3,−4) works at λ=−2. (c) λ=0 and 1 give (−2,1,2) and (0,0,5), among many valid answers.
+- Example 3.10: yz-plane (0,6,2), xz-plane (3,0,5), xy-plane (−2,10,0), at λ=−1, 2 and −3 respectively. Different points may use different parameters; every component of an individual point uses the same parameter.
+- Example 3.11: AB=(1,−3,2), AC=(4,−12,8)=4AB, hence collinear.
+- Example 3.12: AB=(4,8,16), AC=(6,12,24)=(3/2)AB, hence collinear. Use as a brief independent attempt before comparing reasoning.
+- Example 3.13(i): r=(3,5,−4)+λ(4,−5,6). (ii) C gives λ=7/4, 0 and 1/3, so is not on the line. Any explicit inconsistency suffices. Retain supplied 1-mark and 2-mark allocations.
+
+### Lesson 4 hinge
+
+Additional diagnostic: which point lies on r=(1,−2,3)+λ(2,1,−1)? Choices 1 (5,0,2), 2 (4,2,−2), 3 (5,0,1), 4 (3,−1,4). Correct choice 3 uses λ=2 in every component. Choice 1 checks only x and y; choice 2 omits the fixed position vector; choice 4 uses the wrong sign for the z component. The shared timer defaults to 60 seconds with adjustable duration, Start/Pause/Resume and Reset. Teacher-controlled answer reveal is separate from expiry. Use the shared fist-on-chest, 1–4 fingers routine. Ready: coordinate planes. Divided: compare the values implied by each coordinate and revote. Needs explanation: substitute one shared value into all three equations, then recheck.
+
+### Homework 4
+
+Cambridge Year 12 Extension 2, copied unchanged from booklet p. 58.
+
+- Mild: Exercise 4A Q10(a,c), Q11. Exercise 4B Q1(b), Q2, Q8, Q9.
+- Medium: Exercise 4A Q10, Q11, Q13–15. Exercise 4B Q1, Q2, Q8, Q9.
+- Spicy: Exercise 4A Q13–15. Exercise 4B Q2, Q8, Q9. Exercise 4E Q9.
+
+### Lesson 4 preview and publishing
+
+Render or preview `courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-4.qmd`. The topic lists four lessons and Homework 1–4. Once the source reaches main, run the manual Publish Quarto lessons workflow to update GitHub Pages.
+
+### Lesson 4 validation
+
+Quarto 1.10.18 rendered the lesson and its topic listing. Chromium at 1363×936 passed full forward and backward navigation across 17 top-level slides, with no unintended nested slides, maths-rendering errors or foreignObject elements. Checked distinct/coincident presets, Reset and state retention through the slide map. Checked the 60-second default, changed duration to 30 seconds, Start/Pause/Resume, pause on opening the slide map, a complete expiry with the answer still hidden, deliberate reveal, correct/incorrect option mapping and Reset restoring a hidden answer. Reviewed cover, recap, direction comparisons, point test, line diagrams, coordinate planes, collinearity, hinge before/after reveal and homework layouts. All content fits the available slide bounds. Numerical solutions and the unique hinge answer were independently checked with exact rational arithmetic. The topic shows four lessons and links to the new deck.
+
+WebKit, touch-device emulation, iPad landscape viewport/orientation controls and physical-iPad testing are unavailable here. These checks remain outstanding; native SVG labels and source controls of at least 48 pixels follow the existing conventions. The established generated-preview script closing-tag workaround was applied only to rendered HTML, not to the tracked source.

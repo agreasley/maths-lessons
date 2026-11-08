@@ -194,3 +194,42 @@
 .reveal .line-position-details .fv-equation{margin:16px 0}
 .reveal .line-position-message{color:#ad6e32;font-weight:600}
 .reveal .line-segment-note{font-size:24px}
+
+/* Lesson 4: scalar consistency and relationships between points and lines. */
+.reveal .relation-lesson{font-size:28px}
+.reveal .relation-lesson p{line-height:1.4;margin:20px 0}
+.reveal .relation-lesson h3{font-size:25px;color:#217864;margin:12px 0}
+.reveal .relation-lesson .fv-equation{margin:23px 0;line-height:1.5}
+.reveal .relation-lesson.cover .cover-title{font-size:60px;line-height:1.1;max-width:700px;margin-top:72px}
+.reveal .relation-lesson.cover .cover-subtitle{margin-top:30px}
+.reveal .relation-three-parts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:35px;margin:30px 0}
+.reveal .relation-split{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin:25px 0}
+.reveal .relation-key{font-size:28px;border-left:4px solid #217864;padding:14px 20px;background:#eaf1ec}
+.reveal .relation-point-layout{display:grid;grid-template-columns:minmax(0,45fr) minmax(0,55fr);gap:40px;align-items:center}
+.reveal .relation-point-layout>.relation-key{margin:0}
+.reveal .relation-compare-layout{display:grid;grid-template-columns:minmax(0,51fr) minmax(0,49fr);gap:28px;align-items:center}
+.reveal .relation-compare-graph svg{width:100%;height:375px;display:block}
+.reveal .relation-compare-working{font-size:25px}
+.reveal .relation-line-one{color:#315985;margin-bottom:20px}
+.reveal .relation-line-two{color:#217864;margin-bottom:18px}
+.reveal .relation-line-result{font-size:23px;min-height:175px}
+.reveal .relation-line-result p{margin:11px 0}
+.reveal .relation-line-result h3{color:#152e3b}
+.reveal .relation-context{font-size:24px;color:#52656d;border-bottom:1px solid #d5dcda;padding-bottom:20px}
+.reveal .relation-example-parts p{margin:40px 0}
+.reveal .relation-marks{white-space:nowrap;font-size:23px;color:#52656d;margin-left:12px}
+.reveal #fv4-hinge .relation-hinge-question{display:flex;align-items:center;gap:30px;font-size:27px}
+.reveal #fv4-hinge .relation-hinge-question p,.reveal #fv4-hinge .relation-hinge-question .fv-equation{margin:5px 0 14px}
+.reveal #fv4-hinge .choice{min-height:76px;font-size:27px}
+.reveal #fv4-hinge .hinge-bottom p{margin:10px 0;font-size:23px}
+.reveal #fv4-hinge .hinge-explanation{font-size:22px}
+.reveal .relation-plane-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:25px 0}
+.reveal .relation-plane-grid>div{text-align:center}
+.reveal .relation-plane-grid svg{width:100%;height:250px;display:block}
+.reveal .relation-plane-grid .fv-equation{margin:12px 0}
+.reveal .relation-collinear-layout{display:grid;grid-template-columns:minmax(0,50fr) minmax(0,50fr);gap:30px;align-items:center}
+.reveal [data-collinearity-diagram] svg{height:300px;width:100%;display:block}
+.reveal .relation-summary{font-size:25px;width:100%;margin:30px 0}
+.reveal .relation-summary td,.reveal .relation-summary th{padding:18px 16px;vertical-align:middle;line-height:1.4}
+.reveal .relation-summary td:first-child{width:37%;color:#217864;font-weight:600}
+.reveal #fv4-homework .homework-level{font-size:25px;padding:15px 0;line-height:1.4}

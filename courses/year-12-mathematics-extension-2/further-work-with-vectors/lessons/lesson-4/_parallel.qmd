@@ -1,11 +1,19 @@
 ## Parallel directions {#fv4-parallel .fv-lesson .relation-lesson }
 
 ```{=html}
-<p>Two lines have parallel directions when their non-zero direction vectors satisfy</p><div class="fv-equation"><span data-math="\underset{\sim}{d_2}=k\underset{\sim}{d_1},\qquad k\ne0"></span></div><div class="relation-split"><div><h3>In two dimensions</h3><div class="fv-equation"><span data-math="\color{#315985}{\begin{bmatrix}-6\\3\end{bmatrix}}=\color{#ad6e32}{-3}\color{#217864}{\begin{bmatrix}2\\-1\end{bmatrix}}"></span></div></div><div><h3>In three dimensions</h3><div class="fv-equation"><span data-math="\color{#315985}{\begin{bmatrix}-4\\2\\-6\end{bmatrix}}=\color{#ad6e32}{-2}\color{#217864}{\begin{bmatrix}2\\-1\\3\end{bmatrix}}"></span></div></div></div><p class="relation-key">One scalar multiplies <strong>every</strong> component.</p><p>A negative scalar reverses the direction; the lines still have parallel directions.</p>
+<p>Parallel lines have <strong>parallel direction vectors</strong>.</p>
+<div class="relation-direction-layout">
+  <div data-parallel-directions></div>
+  <div>
+    <div class="fv-equation"><span data-math="\color{#217864}{\underset{\sim}{d_2}}=k\color{#315985}{\underset{\sim}{d_1}},\qquad k\ne0"></span></div>
+    <p>The vectors can point in the same or opposite directions.</p>
+    <p>The same idea applies in two or three dimensions.</p>
+  </div>
+</div>
 ```
 
 <div class="booklet-cue">Booklet §3.3 · pp. 51–52</div>
 
 ::: {.notes}
-The two numerical comparisons are additional illustrations, not booklet examples. Non-zero direction vectors are required. Explain that proportional directions alone do not distinguish distinct parallel lines from coincident lines; the next slide checks a fixed point. Do not use component-by-component division when a direction component is zero: test multiplication by the same scalar instead. In both 2D and 3D the criterion is the same.
+Connect to the known criterion for parallel vectors; no component calculation is needed here. The fixed 3D projection shows two distinct parallel lines with their direction arrows in opposite senses. The blue arrow represents d1 and the green arrow represents d2=−2d1. No coordinates are required. Direction vectors must be non-zero. Parallel directions alone do not distinguish distinct parallel lines from coincident lines; the next slide develops that geometric distinction. Ask: “Would reversing an arrow change the direction of the line?” The pale xy-plane and vertical z-axis provide spatial context; there is no camera to manipulate.
 :::

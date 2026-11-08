@@ -233,3 +233,14 @@
 .reveal .relation-summary td,.reveal .relation-summary th{padding:18px 16px;vertical-align:middle;line-height:1.4}
 .reveal .relation-summary td:first-child{width:37%;color:#217864;font-weight:600}
 .reveal #fv4-homework .homework-level{font-size:25px;padding:15px 0;line-height:1.4}
+.reveal .relation-direction-layout{display:grid;grid-template-columns:minmax(0,55fr) minmax(0,45fr);gap:32px;align-items:center}
+.reveal [data-parallel-directions] svg{display:block;width:100%;height:410px}
+.reveal .relation-direction-layout p{font-size:27px;margin:26px 0}
+.reveal .relation-demo-line{display:flex;gap:28px;align-items:center;font-size:24px;margin:20px 0 25px}
+.reveal .relation-point-demo{display:grid;grid-template-columns:1fr 1fr;gap:45px;font-size:25px}
+.reveal .relation-point-demo>div{border-top:3px solid #217864;padding:8px 20px 0}
+.reveal .relation-point-demo .relation-test-off{border-color:#ad6e32}
+.reveal .relation-point-demo .relation-test-off h3{color:#ad6e32}
+.reveal .relation-point-demo p{margin:15px 0}
+.reveal .relation-test-working{display:grid;gap:16px;margin:18px 0}
+.reveal .relation-point-demo .relation-test-conclusion{font-size:25px;font-weight:600;margin-top:24px}

@@ -12,6 +12,24 @@
     const dot = (p,c=C.ink) => '<circle cx="'+p[0]+'" cy="'+p[1]+'" r="5" fill="'+c+'"/>';
     const svg = (body,w,h,description) => '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+description+'">'+body+'</svg>';
 
+    document.querySelectorAll('[data-parallel-directions]').forEach(el => {
+      const project = ([x,y,z]) => [220-42*x+52*y,350+20*x+8*y-58*z];
+      const A=[1,0,1],B=[0,0,3],d=[.5,1.4,.75];
+      const along=(a,t)=>project(a.map((x,i)=>x+t*d[i]));
+      const O=project([0,0,0]);
+      let g='<defs>'+['blue','green'].map(n=>'<marker id="fv4-direction-'+n+'" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10Z" fill="'+C[n]+'"/></marker>').join('')+'</defs>';
+      g+='<polygon points="'+[[0,0,0],[3,0,0],[3,4,0],[0,4,0]].map(p=>project(p).join(',')).join(' ')+'" fill="#edf1f2" stroke="#dbe3e5" stroke-width="1"/>';
+      for(const endpoint of [[3.5,0,0],[0,5,0],[0,0,5.5]]) g+=path(O,project(endpoint),'#b0bec4',1.5);
+      g+=label(61,430,'x','#72858d',21)+label(492,394,'y','#72858d',21)+label(220,17,'z','#72858d',21)+label(204,368,'O','#72858d',19);
+      g+=path(along(A,-1.8),along(A,4.8),C.blue,2.5)+path(along(B,-1.8),along(B,4.8),C.green,2.5);
+      g+=path(along(A,1),along(A,2),C.blue,6,'marker-end="url(#fv4-direction-blue)"');
+      g+=path(along(B,3.4),along(B,1.4),C.green,6,'marker-end="url(#fv4-direction-green)"');
+      const blueLabel=along(A,1.5),greenLabel=along(B,2.4);
+      g+=label(blueLabel[0]+10,blueLabel[1]+29,v('d_1'),C.blue,28)+label(greenLabel[0],greenLabel[1]-30,v('d_2'),C.green,28);
+      g+=label(450,198,'\\ell_1',C.blue,25)+label(492,62,'\\ell_2',C.green,25);
+      el.innerHTML=svg(g,560,460,'Two parallel lines in three-dimensional space. The blue direction vector points along the lower line; the green direction vector points oppositely along the upper line. Their vectors are parallel.');
+    });
+
     document.querySelectorAll('[data-parallel-lines]').forEach(el => {
       let onLine = false;
       const map = (x,y) => [80+42*x,360-42*y];
@@ -35,7 +53,7 @@
         el.querySelector('.relation-compare-graph').innerHTML=svg(g,560,420,onLine?'The dashed green line and blue line coincide. A is one two and B is five four.':'Two distinct parallel lines. A is one two on the blue line and B is one three on the dashed green line.');
         el.querySelector('.relation-line-one').innerHTML=math('\\ell_1:\\quad '+v('r_1')+'='+col(1,2)+'+\\lambda'+col(2,1));
         el.querySelector('.relation-line-two').innerHTML=math('\\ell_2:\\quad '+v('r_2')+'='+col(onLine?5:1,onLine?4:3)+'+\\mu'+col(-4,-2));
-        el.querySelector('.relation-line-result').innerHTML=onLine?'<h3>Coincident lines</h3><p>'+math('B')+' lies on '+math('\\ell_1')+': '+math('\\lambda=2')+' works in both components.</p><p>Every point is common to both lines.</p>':'<h3>Distinct parallel lines</h3><p>For '+math('B')+' on '+math('\\ell_1')+': '+math('x')+' gives '+math('\\lambda=0')+', but '+math('y')+' gives '+math('\\lambda=1')+'.</p><p>There is no common point.</p>';
+        el.querySelector('.relation-line-result').innerHTML=onLine?'<h3>Coincident lines</h3><p>Parallel directions and a shared point: the lines coincide.</p><p>Every point is common to both lines.</p>':'<h3>Distinct parallel lines</h3><p>Parallel directions, but '+math('B')+' is off '+math('\\ell_1')+'.</p><p>The lines have no common point.</p>';
         el.querySelectorAll('[data-line-state]').forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.lineState==='on')===onLine)));
         el.dataset.state=onLine?'coincident':'distinct';
       }

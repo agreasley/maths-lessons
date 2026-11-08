@@ -1,0 +1,9 @@
+## One line, three representations {#fv3-finish .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\underset{\sim}{r}=\begin{bmatrix}x_0\\y_0\\z_0\end{bmatrix}+\lambda\begin{bmatrix}a\\b\\c\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="x=x_0+\lambda a,\quad y=y_0+\lambda b,\quad z=z_0+\lambda c"></span></div><div class="fv-equation"><span data-math="\frac{x-x_0}{a}=\frac{y-y_0}{b}=\frac{z-z_0}{c}\qquad(a,b,c\ne0)"></span></div><p>Retain any constant coordinate separately.</p><div class="line-key">As the parameter varies, the position vector points to every point on the line.</div><p><strong>I can</strong> construct a vector equation of a line and express it in parametric and Cartesian form.</p>
+```
+
+::: {.notes}
+What two ingredients define the vector equation? A point and a non-zero direction vector. Match components and eliminate the common parameter. In the symmetric formula each denominator must be non-zero; a direction vector requires at least one non-zero component. Later we will use vector equations for other curves.
+:::

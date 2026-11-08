@@ -1,0 +1,11 @@
+## A line through two points {#fv3-two-points .fv-lesson .line-lesson }
+
+```{=html}
+<p>Let <span data-math="P"></span> and <span data-math="Q"></span> have position vectors <span data-math="\underset{\sim}{p}"></span> and <span data-math="\underset{\sim}{q}"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{PQ}=\underset{\sim}{q}-\underset{\sim}{p}"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{p}+\lambda(\underset{\sim}{q}-\underset{\sim}{p}),\qquad\lambda\in\mathbb R"></span></div><div data-line-two-points class="line-static-diagram"></div>
+```
+
+<div class="booklet-cue">Booklet §3.2 · pp. 38–40</div>
+
+::: {.notes}
+P and Q are distinct, so q−p is non-zero. Choose a known point, then subtract endpoint minus starting point for the direction. λ=0 gives P; λ=1 gives Q.
+:::

@@ -1,0 +1,11 @@
+## Previously · Parametric equations {#fv3-previously .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="x=f(t),\qquad y=g(t)"></span></div><p>Each value of <span data-math="t"></span> gives a point <span data-math="P(x,y)"></span>.</p><div class="fv-equation"><span data-math="\overrightarrow{OP}=x\underset{\sim}{i}+y\underset{\sim}{j}"></span></div><p>The position vector points from the origin to <span data-math="P"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet §3.1 · p. 36</div>
+
+::: {.notes}
+Recall Year 11 parametrics and the Extension 1 definition of a position vector. Both coordinates use the same parameter value.
+:::

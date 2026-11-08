@@ -1,0 +1,11 @@
+## Example 3.1 {#fv3-example-3-1 .fv-lesson .line-lesson }
+
+```{=html}
+<p>For the straight line with the equation <span data-math="\underset{\sim}{r}(\lambda)=\underset{\sim}{a}+\lambda\underset{\sim}{b}"></span>, where <span data-math="\underset{\sim}{a}=\underset{\sim}{i}+\underset{\sim}{j}+\underset{\sim}{k}"></span> and <span data-math="\underset{\sim}{b}=\underset{\sim}{i}-\underset{\sim}{j}"></span>, find the coordinates of the points on the line for which:</p><div class="line-parts"><p>a) <span data-math="\lambda=0"></span></p><p>b) <span data-math="\lambda=3"></span></p><p>c) <span data-math="\lambda=100"></span></p><p>d) <span data-math="\lambda=-5"></span></p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.1 · p. 39</div>
+
+::: {.notes}
+r=(1+λ,1−λ,1). Answers (a) (1,1,1); (b) (4,−2,1); (c) (101,−99,1); (d) (−4,6,1). Use the same λ in each component. The third coordinate is always 1.
+:::

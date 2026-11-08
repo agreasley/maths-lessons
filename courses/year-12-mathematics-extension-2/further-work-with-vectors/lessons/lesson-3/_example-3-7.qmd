@@ -1,0 +1,11 @@
+## Example 3.7 {#fv3-example-3-7 .fv-lesson .line-lesson }
+
+```{=html}
+<p>Let <span data-math="\ell_1"></span> be the line with equation</p><div class="fv-equation"><span data-math="\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}-1\\7\end{bmatrix}+\lambda\begin{bmatrix}3\\2\end{bmatrix},\qquad\lambda\in\mathbb R."></span></div><p>The line <span data-math="\ell_2"></span> passes through the point <span data-math="A(-6,5)"></span> and is parallel to <span data-math="\ell_1"></span>.</p><p>Find the equation of the line <span data-math="\ell_2"></span> in the form <span data-math="y=mx+c"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.7 · p. 48 · 2022 HSC Extension 2 Q11(e) (2 marks)</div>
+
+::: {.notes}
+Common direction gives $m=2/3$. Through A: $y-5=\frac23(x+6)$, hence $y=\frac23x+9$. Alternatively r=(−6,5)+μ(3,2), then eliminate μ. Use the required point A.
+:::

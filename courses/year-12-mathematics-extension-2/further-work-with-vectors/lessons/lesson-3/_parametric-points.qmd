@@ -1,0 +1,11 @@
+## Coordinates and position vectors {#fv3-parametric-points .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="x=3-t,\qquad y=2t,\qquad t\in\mathbb R"></span></div><div data-line-points></div>
+```
+
+<div class="booklet-cue">Booklet §3.1 · p. 36</div>
+
+::: {.notes}
+Predict coordinates before each Next value. Use t=0,0.5,1,2 in order. Answers: (3,0), (2.5,1), (2,2), (1,4). The latest position vector starts at the origin; previous points remain. Connect each coordinate to its matching component. Ask: when t increases by 1, how do x and y change? −1 and +2.
+:::

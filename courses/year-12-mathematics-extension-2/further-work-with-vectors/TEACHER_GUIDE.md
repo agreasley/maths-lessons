@@ -144,3 +144,46 @@ Shortened-construction checks: re-rendered the 40-slide deck; in Chromium verifi
 Slide 15 now shows only the medians and centroid, with all three medians coloured and the vertex-to-centroid ratio 2:1. Its existing identifier is preserved. New slide 16 compares acute, right-angled and obtuse triangles, each with all three altitude lines and perpendicular-foot markers. Grey dashed segments extend sides; coloured dashed segments extend altitudes. The right-angle case explicitly identifies H=B and shows two altitudes along the perpendicular sides. Orthocentres and feet are calculated from the triangle vertices, not placed by eye. The deck now has 41 slides; examples and homework are unchanged.
 
 Triangle-centre revision checks: all 41 slides passed forward and reverse navigation in Chromium at 1363×936. The slide map contains both separate slides and all three orthocentre diagrams in its preview. Visually reviewed both slides and adjusted centroid/apex/orthocentre labels to avoid lines. Checked all nine altitude perpendicularities and the three orthocentre coordinates numerically; no invalid SVG path coordinates, mathematical-rendering errors or clipping. WebKit, touch emulation and physical-iPad checks remain unavailable.
+
+## Lesson 3: Vector equations of lines
+
+Approved coverage: §§3.1–3.2, printed pp. 36–48, Examples 3.1–3.7, Homework 3. The opening uses the booklet's x=3−t, y=2t and t=0, 0.5, 1, 2. Students know Year 11 parametrics and Extension 1 position vectors. Each parameter value gives a position vector from the origin; its tip traces the curve as the parameter varies. Today specialises that general idea to straight lines; other curves come later. Use “a multiple of a direction vector” for the vector added to the fixed position vector.
+
+Objective: We are learning to construct vector equations of straight lines and connect them to Cartesian equations.
+
+Success criterion: I can construct a vector equation of a line and express it in parametric and Cartesian form.
+
+The deck contains 24 slides. Suggested 50-minute pacing: cover/objective/recap 3; point-to-position-vector bridge and line construction 9; Examples 3.1–3.3 and hinge 9; conversions and Example 3.4 12; Example 3.5 and parameter interpretation 8; gradient and Examples 3.6–3.7 7; finish/homework 2. Keep the single-mark questions brief; use OneNote for full working. All booklet subparts are retained in order. Worked solutions appear in presenter notes.
+
+### Visuals
+
+- The opening table reveals coordinates and position vectors for the four specified t values. Previous points remain on accurately scaled axes; the latest position vector starts at O. Predict each point before revealing it. Ask how the coordinates change when t increases by 1.
+- A three-step construction starts with A=(3,0), chooses d=(−1,2), shows AP=λd, and combines OA+AP to give OP. Presets λ=−1,0,1,2 expose the whole-line idea. Previous step and Reset retrace the construction.
+- Example 3.5 has touch-sized presets in booklet order, with points revealed only when selected. Ask why λ=1/3 gives PR:RQ=1:2. The follow-up distinguishes the line from the segment 0≤λ≤1.
+- All diagram labels use the shared native SVG maths renderer. No external applet or 3D rotation is used.
+
+### Mathematical and hinge notes
+
+- Example 3.1: (1,1,1), (4,−2,1), (101,−99,1), (−4,6,1). Revisit the constant z coordinate when introducing Cartesian equations.
+- Example 3.2: AB=(−8,2,−5); λ=2 gives (−11,6,−4).
+- Example 3.3 is the timed hinge. Screen choices 1–4 correspond to source A–D; correct 4 (D). Choice 1 swaps direction components, choice 2 uses a point vector as direction and an incorrect fixed point, choice 3 swaps the point and direction roles. Ready: continue to conversion. Divided: identify both ingredients and revote. Needs explanation: draw AB and calculate B−A. Default 60 seconds, adjustable; answer remains hidden until deliberately revealed. Use the shared fist-on-chest, 1–4 fingers response.
+- The 2D bridge gives y=6−2x. In 3D all coordinate expressions use the same λ. Both equalities of the symmetric form must hold simultaneously. A constant coordinate remains a separate equation, e.g. x+y=2 together with z=1. Never divide by a zero direction component.
+- Example 3.4(a): r=(−2,1,4)+λ(2,1,−2); Cartesian (x+2)/2=y−1=(z−4)/(−2). (b): r=(1,3,2)+λ(2,2,−2), or use direction (1,1,−1).
+- Example 3.5: r=(1,2)+λ(6,3)=(1−λ)(1,2)+λ(7,5). Points (−5,−1), (1,2), (3,3), (7,5), (13,8). Ratio 1:2.
+- Example 3.6: correct screen 3, source C, y+2x=5. Correct point alone does not exclude choice 1; the direction is essential.
+- Example 3.7: y=(2/3)x+9. Use A as the required point, not the fixed point from the original line.
+- Non-zero scalar multiples give equally valid direction vectors. The equation is not unique. The parameter interpretation is tied to the chosen parameterisation.
+
+### Homework 3
+
+Cambridge Year 12 Extension 2, Exercise 4A. Mild: Q1, Q2, Q4, Q6, Q8, Q9, Q17. Medium: Q3–Q6, Q8, Q9, Q16, Q18–Q20. Spicy: Q3–Q6, Q8(a), Q9(a), Q16, Q18–Q21. Preserved unchanged from the booklet.
+
+### Lesson 3 publishing
+
+Use the standard Quarto preview command with courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-3.qmd. The topic listing now shows three lessons and Homework 1–3. After source changes reach main, run the repository's manual Publish Quarto lessons workflow to update GitHub Pages.
+
+### Lesson 3 validation
+
+Rendered the lesson and navigation pages with Quarto 1.10.18. Chromium at 1363×936 passed full forward/back navigation across 24 top-level slides, with no nested slides, mathematical-rendering errors or SVG foreignObject labels. Checked all four opening parameter values, the three construction steps and negative/zero/positive presets, all five Example 3.5 points, resets and retention through the slide map. Checked the hinge duration control, Start/Pause/Resume, a full 30-second expiry with the answer hidden, deliberate reveal and Reset, plus the Example 3.6 answer reveal. Reviewed representative cover, opening table, completed construction, 3D conversion, parameter diagram and homework layouts. All slide content fitted the available bounds. Topic navigation and the new lesson card were checked. Coordinate calculations and shared-parameter identities were checked independently.
+
+WebKit is not installed, and this browser does not expose touch emulation or viewport/orientation controls. WebKit, iPad landscape sizes and physical-iPad checks remain outstanding. Native SVG labels and 48-pixel source controls follow the existing iPad compatibility conventions. The established generated-preview closing-tag escaping workaround was applied only to the rendered HTML.

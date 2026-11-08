@@ -1,0 +1,56 @@
+---
+pagetitle: "Lesson 3 — Vector equations of lines"
+lesson-title: "Vector equations of lines"
+description: "Connect parametric coordinates to position vectors, construct straight lines, and convert between vector, parametric and Cartesian equations."
+lesson-order: 3
+booklet: "§§3.1–3.2 · Examples 3.1–3.7"
+homework: "3 · Exercise 4A"
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_objective.qmd >}}
+
+{{< include lesson-3/_previously.qmd >}}
+
+{{< include lesson-3/_parametric-points.qmd >}}
+
+{{< include lesson-3/_curve.qmd >}}
+
+{{< include lesson-3/_construct.qmd >}}
+
+{{< include lesson-3/_line-form.qmd >}}
+
+{{< include lesson-3/_example-3-1.qmd >}}
+
+{{< include lesson-3/_two-points.qmd >}}
+
+{{< include lesson-3/_example-3-2.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_cartesian-2d.qmd >}}
+
+{{< include lesson-3/_cartesian-3d.qmd >}}
+
+{{< include lesson-3/_constant-coordinate.qmd >}}
+
+{{< include lesson-3/_example-3-4-a.qmd >}}
+
+{{< include lesson-3/_example-3-4-b.qmd >}}
+
+{{< include lesson-3/_example-3-5-ab.qmd >}}
+
+{{< include lesson-3/_example-3-5-cd.qmd >}}
+
+{{< include lesson-3/_parameter.qmd >}}
+
+{{< include lesson-3/_gradient.qmd >}}
+
+{{< include lesson-3/_example-3-6.qmd >}}
+
+{{< include lesson-3/_example-3-7.qmd >}}
+
+{{< include lesson-3/_finish.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

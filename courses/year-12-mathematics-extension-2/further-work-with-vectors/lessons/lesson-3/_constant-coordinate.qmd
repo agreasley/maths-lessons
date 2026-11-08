@@ -1,0 +1,11 @@
+## When a coordinate stays constant {#fv3-constant-coordinate .fv-lesson .line-lesson }
+
+```{=html}
+<p>Revisit Example 3.1:</p><div class="fv-equation"><span data-math="\underset{\sim}{r}=\begin{bmatrix}1\\1\\1\end{bmatrix}+\lambda\begin{bmatrix}1\\-1\\0\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="x=1+\lambda,\qquad y=1-\lambda,\qquad z=1"></span></div><p>Eliminate <span data-math="\lambda"></span> from the changing coordinates:</p><div class="fv-equation"><span data-math="\boxed{x+y=2,\qquad z=1}"></span></div><p>Keep the constant coordinate as a separate equation.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.1 and §3.2.1 · pp. 39, 42</div>
+
+::: {.notes}
+A zero direction component means that coordinate stays fixed. Never put zero in a denominator. Both x+y=2 and z=1 are needed to identify this 3D line.
+:::

@@ -1,0 +1,11 @@
+## What does the parameter tell us? {#fv3-parameter .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{p}+\lambda(\underset{\sim}{q}-\underset{\sim}{p})=(1-\lambda)\underset{\sim}{p}+\lambda\underset{\sim}{q}"></span></div><table class="line-parameter-table"><tbody><tr><th><span data-math="\lambda&lt;0"></span></th><td>Beyond <span data-math="P"></span>, away from <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda=0"></span></th><td>At <span data-math="P"></span></td></tr><tr><th><span data-math="0&lt;\lambda&lt;1"></span></th><td>Between <span data-math="P"></span> and <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda=1"></span></th><td>At <span data-math="Q"></span></td></tr><tr><th><span data-math="\lambda&gt;1"></span></th><td>Beyond <span data-math="Q"></span>, away from <span data-math="P"></span></td></tr></tbody></table><p>The segment <span data-math="PQ"></span> is described by <span data-math="0\leq\lambda\leq1"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet §3.2 · p. 46</div>
+
+::: {.notes}
+The interpretation depends on this parameterisation. For an interior point, PR:RQ=λ:(1−λ). λ=1/2 gives the midpoint with position vector (p+q)/2.
+:::

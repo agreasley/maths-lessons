@@ -15,6 +15,7 @@ format:
         <script src="../../../year-12-mathematics-extension-1/introduction-to-vectors/diagram-math.js"></script>
         <script src="../further-vectors.js"></script>
         <script src="../vector-proofs.js"></script>
+        <script src="../vector-lines.js"></script>
     width: 1280
     height: 800
     margin: 0.09

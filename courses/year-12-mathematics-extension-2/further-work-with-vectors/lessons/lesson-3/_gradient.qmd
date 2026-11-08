@@ -1,0 +1,11 @@
+## Direction vectors and gradient {#fv3-gradient .fv-lesson .line-lesson }
+
+```{=html}
+<div class="line-split"><div><div class="fv-equation"><span data-math="\underset{\sim}{d}=\begin{bmatrix}d_x\\d_y\end{bmatrix}"></span></div><div class="fv-equation"><span data-math="m=\frac{d_y}{d_x}\quad(d_x\ne0)"></span></div><p>The gradient is the vertical change divided by the horizontal change.</p></div><div><div class="fv-equation"><span data-math="y=mx+c"></span></div><div class="fv-equation"><span data-math="\underset{\sim}{r}=\begin{bmatrix}0\\c\end{bmatrix}+\lambda\begin{bmatrix}1\\m\end{bmatrix}"></span></div><p>Choose the point <span data-math="(0,c)"></span> and a direction vector <span data-math="\begin{bmatrix}1\\m\end{bmatrix}"></span>.</p></div></div><div class="line-note">A vertical line <span data-math="x=k"></span> has direction <span data-math="\begin{bmatrix}0\\1\end{bmatrix}"></span> and no defined gradient.</div>
+```
+
+<div class="booklet-cue">Booklet §3.2 · p. 47</div>
+
+::: {.notes}
+Reverse conversion from Cartesian to vector form. Here λ can be x. More generally y=y0+(dy/dx)(x−x0). A vertical line is r=(k,0)+λ(0,1). In 3D a single gradient is insufficient.
+:::

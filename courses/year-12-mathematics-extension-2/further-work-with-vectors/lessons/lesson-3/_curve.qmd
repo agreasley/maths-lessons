@@ -1,0 +1,11 @@
+## A vector equation describes a curve {#fv3-curve .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=\overrightarrow{OP}=f(t)\underset{\sim}{i}+g(t)\underset{\sim}{j}"></span></div><p>For each value of <span data-math="t"></span>, the vector points to a point on the curve.</p><div class="line-key">As the parameter varies, the tip of the position vector traces the curve.</div><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=(3-t)\underset{\sim}{i}+2t\underset{\sim}{j}"></span></div><p><strong>Today: straight lines.</strong> We will explore other curves later in the unit.</p>
+```
+
+<div class="booklet-cue">Booklet §3.1 · p. 36</div>
+
+::: {.notes}
+Each parameter value gives one position vector. The set of tips over the parameter domain is the curve. A single fixed vector does not point to all points simultaneously. In 3D r(t)=f(t)i+g(t)j+h(t)k. This general idea also applies to other curves.
+:::

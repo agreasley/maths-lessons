@@ -1,0 +1,11 @@
+## Example 3.4(b) {#fv3-example-3-4-b .fv-lesson .line-lesson }
+
+```{=html}
+<p>Find the vector, parametric and Cartesian equations of the line:</p><p>b) through the point <span data-math="A(1,3,2)"></span> and parallel to the line which passes through <span data-math="B(1,2,3)"></span> and <span data-math="C(3,4,1)"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.4(b) · p. 42</div>
+
+::: {.notes}
+$\overrightarrow{BC}=(2,2,-2)$. Vector: r=(1,3,2)+λ(2,2,−2). Parametric: x=1+2λ, y=3+2λ, z=2−2λ. Cartesian: (x−1)/2=(y−3)/2=(z−2)/(−2). Direction (1,1,−1) is equally valid, giving x−1=y−3=2−z. Use A as the fixed point.
+:::

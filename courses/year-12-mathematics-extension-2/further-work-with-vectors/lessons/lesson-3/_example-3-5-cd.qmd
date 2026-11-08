@@ -1,0 +1,11 @@
+## Example 3.5(c–d) {#fv3-example-3-5-cd .fv-lesson .line-lesson }
+
+```{=html}
+<p><span data-math="P(1,2),\quad Q(7,5),\quad \underset{\sim}{r}=\begin{bmatrix}1\\2\end{bmatrix}+\lambda\begin{bmatrix}6\\3\end{bmatrix}"></span></p><p>c) Find the coordinates of <span data-math="R"></span> when <span data-math="\lambda=-1,\ 0,\ \frac13,\ 1,\ 2"></span>.</p><p>d) Sketch the line and mark the positions found in part (c). State the ratio <span data-math="PR:RQ"></span> when <span data-math="\lambda=\frac13"></span>.</p><div data-line-parameter></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.5(c–d) · p. 44</div>
+
+::: {.notes}
+Compute before selecting each preset. Coordinates: (−5,−1), (1,2), (3,3), (7,5), (13,8). At λ=1/3, PR:RQ=1:2. Point labels appear when selected and remain visible. Why 1:2 rather than 1:3? The whole PQ is three equal parts; PR is one and RQ is two. Reset clears revealed points.
+:::

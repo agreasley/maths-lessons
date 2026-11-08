@@ -1,0 +1,9 @@
+## Today’s learning {#fv3-objective .fv-lesson .line-lesson }
+
+```{=html}
+<div class="objective"><h3>Lesson objective</h3><p>We are learning to construct vector equations of straight lines and connect them to Cartesian equations.</p><h3>Success criteria</h3><p>I can construct a vector equation of a line and express it in parametric and Cartesian form.</p></div>
+```
+
+::: {.notes}
+Read the learning statements briefly. Reconnect familiar parametric coordinates with position vectors.
+:::

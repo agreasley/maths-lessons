@@ -1,0 +1,11 @@
+## The same line in familiar Cartesian form {#fv3-cartesian-2d .fv-lesson .line-lesson }
+
+```{=html}
+<div class="line-forms"><div><h3>Vector</h3><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=(3-t)\underset{\sim}{i}+2t\underset{\sim}{j}"></span></div></div><div><h3>Parametric</h3><div class="fv-equation"><span data-math="x=3-t,\qquad y=2t"></span></div></div><div><h3>Cartesian</h3><div class="fv-equation"><span data-math="t=3-x\quad\Longrightarrow\quad y=2(3-x)"></span></div><div class="fv-equation"><span data-math="\boxed{y=6-2x}"></span></div></div></div>
+```
+
+<div class="booklet-cue">Booklet §3.1 · p. 36</div>
+
+::: {.notes}
+Ask how they eliminated a parameter in Year 11. Match components, then substitute t=3−x into y=2t. These are three representations of the same line.
+:::

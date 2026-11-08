@@ -1,0 +1,11 @@
+## Cartesian equations in three dimensions {#fv3-cartesian-3d .fv-lesson .line-lesson }
+
+```{=html}
+<div class="fv-equation"><span data-math="\underset{\sim}{r}=\begin{bmatrix}1\\-1\\4\end{bmatrix}+\lambda\begin{bmatrix}2\\3\\-1\end{bmatrix}"></span></div><table class="line-conversion"><thead><tr><th>Match components</th><th>Rearrange for the same parameter</th></tr></thead><tbody><tr><td><span data-math="x=1+2\lambda"></span></td><td><span data-math="\lambda=\dfrac{x-1}{2}"></span></td></tr><tr><td><span data-math="y=-1+3\lambda"></span></td><td><span data-math="\lambda=\dfrac{y+1}{3}"></span></td></tr><tr><td><span data-math="z=4-\lambda"></span></td><td><span data-math="\lambda=4-z"></span></td></tr></tbody></table><div class="fv-equation"><span data-math="\boxed{\frac{x-1}{2}=\frac{y+1}{3}=4-z}"></span></div><p>This is the <strong>symmetric Cartesian form</strong>. Both equalities hold simultaneously.</p>
+```
+
+<div class="booklet-cue">Booklet §3.2.1 · p. 42</div>
+
+::: {.notes}
+Every expression equals the same λ. The equations hold simultaneously. Do not assign a separate parameter to each coordinate. 4−z=(z−4)/(−1), so the final direction component is −1. Reading backwards recovers point (1,−1,4) and direction (2,3,−1).
+:::

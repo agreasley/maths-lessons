@@ -1,0 +1,11 @@
+## Example 3.5(a–b) {#fv3-example-3-5-ab .fv-lesson .line-lesson }
+
+```{=html}
+<p>The points <span data-math="P"></span> and <span data-math="Q"></span> have coordinates <span data-math="(1,2)"></span> and <span data-math="(7,5)"></span> respectively. A point <span data-math="R"></span> on the line through <span data-math="P"></span> and <span data-math="Q"></span> has position vector <span data-math="\underset{\sim}{r}"></span>.</p><p>a) Write a vector equation of the line in the form <span data-math="\underset{\sim}{r}=\overrightarrow{OP}+\lambda\overrightarrow{PQ},\ \lambda\in\mathbb R"></span>.</p><p>b) Show that your equation can also be written as</p><div class="fv-equation"><span data-math="\underset{\sim}{r}=(1-\lambda)\begin{bmatrix}1\\2\end{bmatrix}+\lambda\begin{bmatrix}7\\5\end{bmatrix}."></span></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.5(a–b) · p. 44</div>
+
+::: {.notes}
+(a) PQ=(6,3), so r=(1,2)+λ(6,3). (b) r=p+λ(q−p)=(1−λ)p+λq. Expand and collect coefficients using the vector properties studied previously.
+:::

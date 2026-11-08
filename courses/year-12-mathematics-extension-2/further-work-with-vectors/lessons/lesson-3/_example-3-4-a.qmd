@@ -1,0 +1,11 @@
+## Example 3.4(a) {#fv3-example-3-4-a .fv-lesson .line-lesson }
+
+```{=html}
+<p>Find the vector, parametric and Cartesian equations of the line:</p><p>a) through the point <span data-math="A(-2,1,4)"></span> parallel to the vector <span data-math="\underset{\sim}{b}=2\underset{\sim}{i}+\underset{\sim}{j}-2\underset{\sim}{k}"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.4(a) · p. 42</div>
+
+::: {.notes}
+$\underset{\sim}{r}=(-2,1,4)+\lambda(2,1,-2)$. Parametric: $x=-2+2\lambda,\ y=1+\lambda,\ z=4-2\lambda$. Cartesian: $(x+2)/2=y-1=(z-4)/(-2)$. Equivalently the last expression is (4−z)/2. λ ranges over all real numbers.
+:::

@@ -1,0 +1,11 @@
+## Example 3.2 {#fv3-example-3-2 .fv-lesson .line-lesson }
+
+```{=html}
+<p>Find the vector equation, <span data-math="\underset{\sim}{r}"></span>, of the straight line joining the points <span data-math="A(5,2,6)"></span> and <span data-math="B(-3,4,1)"></span>. Hence, find the coordinates of the point on the line <span data-math="AB"></span> where <span data-math="\lambda=2"></span> when <span data-math="\underset{\sim}{r}=\overrightarrow{OA}+\lambda\overrightarrow{AB}"></span>.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.2 · p. 40</div>
+
+::: {.notes}
+$\overrightarrow{AB}=(-8,2,-5)$, so $\underset{\sim}{r}=\begin{bmatrix}5\\2\\6\end{bmatrix}+\lambda\begin{bmatrix}-8\\2\\-5\end{bmatrix}$. At λ=2: (−11,6,−4), beyond B. Use the specified parameterisation for this part.
+:::

@@ -1,0 +1,11 @@
+## The vector equation of a line {#fv3-line-form .fv-lesson .line-lesson }
+
+```{=html}
+<p>A <strong>direction vector</strong> is any non-zero vector parallel to the line.</p><div class="fv-equation"><span data-math="\underset{\sim}{r}=\underset{\sim}{r}_0+\lambda \underset{\sim}{d},\qquad\lambda\in\mathbb R"></span></div><dl class="line-definitions"><dt><span data-math="\underset{\sim}{r}_0"></span></dt><dd>Position vector of a known point on the line</dd><dt><span data-math="\underset{\sim}{d}"></span></dt><dd>A direction vector</dd><dt><span data-math="\underset{\sim}{r}"></span></dt><dd>Position vector of any point on the line</dd></dl><div class="fv-equation"><span data-math="\begin{bmatrix}x\\y\\z\end{bmatrix}=\begin{bmatrix}x_0\\y_0\\z_0\end{bmatrix}+\lambda\begin{bmatrix}a\\b\\c\end{bmatrix}"></span></div><p>As <span data-math="\lambda"></span> ranges over all real numbers, the vector points to every point on the line.</p>
+```
+
+<div class="booklet-cue">Booklet §3.2 · pp. 37–39</div>
+
+::: {.notes}
+The same construction works in 2D and 3D. The direction (a,b,c) must be non-zero. Any non-zero scalar multiple is also a direction vector; changing it can change the parameter at a given point. Neither the direction nor the vector equation is unique.
+:::

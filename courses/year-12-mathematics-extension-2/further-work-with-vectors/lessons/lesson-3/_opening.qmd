@@ -1,0 +1,9 @@
+## Vector equations of lines {#fv3-opening .fv-lesson .line-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 3</div><div class="cover-title">Vector equations<br>of lines</div><div class="cover-subtitle">Further Work with Vectors<br>Position vectors and Cartesian equations</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet §§3.1–3.2 · Examples 3.1–3.7 · Homework 3</div>
+```
+
+::: {.notes}
+Source: supplied Further Vectors booklet, printed pp. 36–48, and lesson sequence. Students already know Year 11 parametric equations and Extension 1 position vectors. Full worked examples are for OneNote; solutions are in these notes. Aim for approximately 50 minutes, keeping Examples 3.1, 3.3 and 3.6 brief.
+:::

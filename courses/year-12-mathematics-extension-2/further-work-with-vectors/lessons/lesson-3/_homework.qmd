@@ -1,0 +1,11 @@
+## Homework 3 · Equations of lines {#fv3-homework .fv-lesson .line-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2 · Exercise 4A</p><div class="homework-level"><strong>Mild</strong><br>Q1, Q2, Q4, Q6, Q8, Q9, Q17</div><div class="homework-level"><strong>Medium</strong><br>Q3–Q6, Q8, Q9, Q16, Q18–Q20</div><div class="homework-level"><strong>Spicy</strong><br>Q3–Q6, Q8(a), Q9(a), Q16, Q18–Q21</div>
+```
+
+<div class="booklet-cue">Booklet Homework 3</div>
+
+::: {.notes}
+Copied unchanged from supplied Homework 3.
+:::

@@ -267,13 +267,13 @@ WebKit, touch-device emulation, iPad landscape viewport/orientation controls and
 
 ## Lesson 5: Intersections of vector lines
 
-Approved coverage: booklet §3.4, printed pp. 59–68, all Examples 3.14–3.20 and every subpart. The source is 12MAX2 – Further Vectors(1).pdf, with syllabus scope from the supplied Further Vectors Lesson Sequence. The 20-slide deck includes the booklet's unnumbered 3D worked illustration, concurrency definition and Homework 5. Assume about 50 minutes; keep the final minimum-distance application available if it needs to carry over.
+Approved coverage: booklet §3.4, printed pp. 59–68, all Examples 3.14–3.20 and every subpart. The source is 12MAX2 – Further Vectors(1).pdf, with syllabus scope from the supplied Further Vectors Lesson Sequence. The 21-slide deck includes the booklet's unnumbered 3D worked illustration, concurrency definition and Homework 5. Assume about 50 minutes; keep the final minimum-distance application available if it needs to carry over.
 
 Objective: We are learning to determine how lines meet in two and three dimensions.
 
 Success criterion: I can justify whether two vector lines intersect and find their common point when it exists.
 
-Students know how to form vector/parametric/Cartesian line equations, compare directions and test point membership. They already know the minimum-distance/perpendicularity idea from Extension 1. The distance connection therefore introduces AH=r(t)−p=a+td−p and the dot-product equation, without rediscovering shortest distance.
+Students know how to form vector/parametric/Cartesian line equations, compare directions and test point membership. They already know the minimum-distance/perpendicularity idea from Extension 1. The distance connection starts with A as the given point, B as a known point on the line and u=BA. It shows both projection and a dot-product equation, without rediscovering shortest distance.
 
 ### Lesson 5 sequence and interactions
 
@@ -281,13 +281,13 @@ Students know how to form vector/parametric/Cartesian line equations, compare di
 4–5: two independent parameters on Example 3.14's lines, followed by the unchanged question.
 6–9: 3D worked illustration with the third-coordinate check on the next click, a fixed 3D intersecting/skew comparison, hinge, Example 3.15.
 10–15: Example 3.16, classification table, Example 3.17, Example 3.18 split into (a–b) and (c–d), Example 3.19.
-16–20: concurrency, minimum-distance connection, Example 3.20, summary, Homework 5.
+16–21: concurrency, minimum distance by projection, minimum distance by perpendicularity, Example 3.20, summary, Homework 5.
 
 The independent-parameter visual has separate s and t sliders, local axis scales of equal unit length, a common-point preset and Reset. Blue r1(s)=(1,2)+s(2,1) and green r2(t)=(6,1)+t(−1,3) share (5,4) at s=2,t=1. Ask whether the parameters or position vectors must be equal. Reset restores s=t=0; values remain independent when either slider moves.
 
 The skew visual uses r1(s)=(s,1,0), r2(t)=(2,t,h), with h=0 or 2. The fixed camera, coordinate axes and pale xy-plane show the spatial setting. Both states have non-parallel directions. The unique pair s=2,t=1 matches x and y; changing the height changes whether z matches. Presets and Reset are touch-sized. No rotation or external applet is required.
 
-The concurrency diagram has three lines through exactly one P. The distance diagram has both position vectors starting at O, and AH running from A to H. Its right-angle marker is geometrically accurate. The dot-product connection appears on the next presentation click. All SVG maths labels use the shared native-path renderer; no foreignObject. No named thinking routine is forced into this lesson.
+The concurrency diagram has three lines through exactly one P. The distance diagrams use A as the given point, B as a known point on the line and H as the perpendicular foot. They omit the origin and position-vector arrows. Projection first reveals BH and then the perpendicular remainder HA=BA−BH. The perpendicularity slide starts with a general P(t), BP=td and PA=u−td; Next changes P to H and reveals (u−td)·d=0. Blue u, green parallel parts and gold joining/perpendicular vectors are consistent across both diagrams. The right-angle markers are geometrically accurate; Previous reverses each stage. All SVG maths labels use the shared native-path renderer; no foreignObject. No named thinking routine is forced into this lesson.
 
 ### Lesson 5 mathematical checks and presenter answers
 
@@ -298,7 +298,7 @@ The concurrency diagram has three lines through exactly one P. The distance diag
 - Example 3.17: directions are not multiples. x,y give t=−3,s=−5/2, with points (−4,−2,10),(−4,−2,7). No intersection, hence skew. Direction dot product 10, so not perpendicular.
 - Example 3.18(a): d2=−(2/3)d1; the lines are distinct. (b) t=−1/9,u=7/3 gives (2/3,4/3,4/3). (c) d1·d3=0 and part (b) establishes intersection, so perpendicular. (d) d2·d3=0, but s=1/6,u=4/3 from x,y gives z=7/3 and 1/3. L2,L3 are skew with orthogonal directions.
 - Example 3.19: d1=(4,5,−6), d2=(a−3,−10,12). (a) a=−5. (b) a=67/2. The y equation requires t+2s=2 and z requires t+2s=1, so no intersection. Preserve the distinction in the source between perpendicular directions and lines meeting at right angles.
-- Example 3.20: AH=(−3−2t,2t,−2+4t). AH·d=24t−2=0 gives t=1/12, H=(5/6,13/6,10/3), AH=(−19/6,1/6,−5/3), minimum distance sqrt(77/6)=sqrt(462)/6. Suggested, not official, 3-mark guide is in presenter notes.
+- Example 3.20: B=(1,2,3), d=(−2,2,4), u=BA=(3,0,2). Projection gives BH=(u·d)/(d·d)d=(−1/6,1/6,1/3), then HA=(19/6,−1/6,5/3). Alternatively PA=u−td=(3+2t,−2t,2−4t) and PA·d=2−24t=0 give t=1/12 and the same HA. H=(5/6,13/6,10/3), minimum distance sqrt(77/6)=sqrt(462)/6. Both worked solutions and suggested, not official, 3-mark guides are in presenter notes. The optional calculus alternative minimises D²=24t²−4t+13, again at t=1/12; it is kept in notes.
 
 ### Lesson 5 hinge
 
@@ -320,8 +320,11 @@ Render courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons
 
 ### Lesson 5 validation
 
-Quarto 1.10.18 rendered the lesson and its topic/course listings. Chromium at 1363×936 passed full forward and backward navigation through all 20 top-level slides, including both staged reveals; there are no unintended nested slides, unrendered equations, KaTeX errors or foreignObject elements. Course → topic → Lesson 5 and the return link work. All booklet cues fit above the navigation; the revealed hinge retains 45 pixels of clearance.
+Initial 20-slide build: Quarto 1.10.18 rendered the lesson and its topic/course listings. Chromium at 1363×936 passed full forward and backward navigation through all 20 top-level slides, including both staged reveals; there are no unintended nested slides, unrendered equations, KaTeX errors or foreignObject elements. Course → topic → Lesson 5 and the return link work. All booklet cues fit above the navigation; the revealed hinge retains 45 pixels of clearance.
 
 Checked independent s/t sliders at zero, negative and positive values, common-point preset, Reset and state retention through the slide map. Reviewed both intersecting/skew presets, Reset, native SVG label placement, concurrency and the minimum-distance diagram. Verified the third-coordinate and dot-product reveals. The hinge defaults to 60 seconds; changing duration, Start/Pause/Resume, expiry without an answer reveal, deliberate reveal, wrong/correct choice mapping and Reset all passed. Reviewed examples, summary and the exact Homework 5 allocation. Numerical answers were independently checked using exact rational arithmetic.
 
 WebKit, touch-device emulation, iPad viewport/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. Diagram labels use native SVG paths in the same coordinate system and controls follow the existing touch-sized conventions. The existing script closing-tag workaround was applied to generated preview HTML only, not the tracked source.
+
+
+Minimum-distance revision: the deck now has 21 slides. Chromium at 1363×936 passed complete forward and backward navigation, including projection stages 0/1/2 and perpendicularity stages 0/1. Visually reviewed every state of both revised native SVG diagrams; labels remain attached and the right-angle markers and arrow directions are correct. The revealed diagrams retain their state through the slide map. Both revised slides fit above navigation (booklet cues at 738 and 682 pixels; navigation starts at 880). There are 21 top-level slides, no nested slides, no unrendered mathematics or KaTeX errors, and no foreignObject elements. Example 3.20’s student-facing question is byte-for-byte unchanged. Exact rational arithmetic verified the projection, perpendicular remainder, zero dot product and squared distance 77/6; the calculus expression agrees. Existing hinge and other interactions were unchanged, so their earlier validation still applies. WebKit and physical-iPad checks remain unavailable.

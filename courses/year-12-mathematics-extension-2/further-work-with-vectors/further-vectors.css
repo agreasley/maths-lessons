@@ -303,7 +303,7 @@
 .reveal .inter-concurrent-layout{display:grid;grid-template-columns:52% 48%;gap:15px;align-items:center;margin:25px 0}
 .reveal [data-concurrent-diagram] svg{display:block;width:100%;height:340px}
 .reveal .inter-distance-layout{display:grid;grid-template-columns:minmax(0,46fr) minmax(0,54fr);gap:25px;align-items:center;margin:20px 0}
-.reveal [data-distance-connection] svg{width:100%;height:355px;display:block}
+.reveal [data-distance-projection] svg,.reveal [data-distance-perpendicularity] svg{width:100%;height:395px;display:block}
 .reveal .inter-distance-layout p{font-size:25px;margin:15px 0}
 .reveal .inter-distance-layout .fv-equation{font-size:26px;margin:18px 0}
 .reveal .inter-source{font-size:23px;color:#52656d;border-bottom:1px solid #d5dcda;padding-bottom:20px}
@@ -311,3 +311,12 @@
 .reveal .inter-success{border-top:1px solid #d5dcda;padding-top:22px;margin-top:32px;font-size:25px}
 .reveal .inter-success p{margin:12px 0}
 .reveal #fv5-homework .homework-level{font-size:25px;padding:14px 0;line-height:1.4}
+
+/* Minimum distance: the same joining vector in two methods. */
+.reveal .inter-distance-intro{font-size:25px}
+.reveal .inter-distance-layout{grid-template-columns:minmax(0,44fr) minmax(0,56fr);align-items:center;margin:14px 0}
+.reveal .inter-distance-working p{font-size:24px;margin:11px 0}
+.reveal .inter-distance-working .fv-equation{font-size:25px;margin:13px 0;line-height:1.45}
+.reveal .inter-distance-gold{color:#ad6e32}
+.reveal .inter-distance-result{border-left:4px solid #ad6e32;padding:8px 15px;background:#f4efe6}
+.reveal .inter-distance-condition{border-left:4px solid #217864;padding:10px 18px;background:#eaf1ec}

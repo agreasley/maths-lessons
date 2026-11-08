@@ -7,5 +7,11 @@
 <div class="booklet-cue">Booklet Example 3.20 · p. 67</div>
 
 ::: {.notes}
-H(t)=(1−2t,2+2t,3+4t), so AH=(−3−2t,2t,−2+4t). Require AH·(−2,2,4)=0: 6+4t+4t−8+16t=24t−2=0, hence t=1/12. H=(5/6,13/6,10/3) and AH=(−19/6,1/6,−5/3). The minimum distance is sqrt(77/6)=sqrt(462)/6. Suggested 3-mark guide, not an official marking scheme: 1 mark for AH and the perpendicularity condition; 1 mark for t=1/12 and the corresponding vector or foot; 1 mark for the exact minimum distance. An alternative valid approach projects (3,0,2) onto direction (−2,2,4), then takes the magnitude of the perpendicular remainder.
+Preserve the booklet question and its label A. Work the example in OneNote; both methods use B=(1,2,3), d=(−2,2,4), u=BA=(3,0,2). Thus u·d=2 and d·d=24.
+
+Method 1 — projection. BH=proj_d u=(2/24)d=(−1/6,1/6,1/3). HA=BA−BH=(19/6,−1/6,5/3). Minimum distance |HA|=sqrt(361/36+1/36+25/9)=sqrt(77/6)=sqrt(462)/6. Suggested, not official, 3-mark guide: 1 mark for the joining vector and its projection; 1 mark for the perpendicular remainder; 1 mark for its exact magnitude.
+
+Method 2 — perpendicularity. P(t)=(1−2t,2+2t,3+4t), so PA=u−td=(3+2t,−2t,2−4t). Require PA·d=−6−4t−4t+8−16t=2−24t=0, hence t=1/12. H=(5/6,13/6,10/3) and HA=(19/6,−1/6,5/3), giving the same minimum distance sqrt(462)/6. Suggested, not official, 3-mark guide: 1 mark for PA and the perpendicularity condition; 1 mark for t and the corresponding joining vector or foot; 1 mark for the exact minimum distance.
+
+Optional calculus alternative: D²(t)=(3+2t)²+(−2t)²+(2−4t)²=24t²−4t+13. Its derivative 48t−4 is zero at t=1/12; the positive quadratic coefficient establishes the minimum. D²(1/12)=77/6. This agrees with projection and perpendicularity. Keep this in notes unless useful for a student question.
 :::

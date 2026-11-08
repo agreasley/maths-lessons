@@ -1,0 +1,27 @@
+## Minimum distance · Perpendicularity {#fv5-distance-perpendicularity .fv-lesson .intersection-lesson }
+
+```{=html}
+<p class="inter-distance-intro">Write the line as <span data-math="\underset{\sim}{r}(t)=\overrightarrow{OB}+t\underset{\sim}{d}"></span>, and keep <span data-math="\underset{\sim}{u}=\overrightarrow{BA}"></span>.</p>
+<div class="inter-distance-layout">
+<div data-distance-perpendicularity></div>
+<div class="inter-distance-working">
+<p>Let <span data-math="P(t)"></span> be a general point on the line.</p>
+<div class="fv-equation inter-line-green"><span data-math="\overrightarrow{BP}=t\underset{\sim}{d}"></span></div>
+<div class="fv-equation inter-distance-gold"><span data-math="\overrightarrow{PA}=\overrightarrow{BA}-\overrightarrow{BP}=\underset{\sim}{u}-t\underset{\sim}{d}"></span></div>
+<div class="fragment" data-fragment-index="0" data-distance-reveal="1">
+<p>At the closest point, <span data-math="P=H"></span> and <span data-math="PA\perp\ell"></span>.</p>
+<div class="fv-equation inter-distance-condition"><span data-math="(\underset{\sim}{u}-t\underset{\sim}{d})\cdot\underset{\sim}{d}=0"></span></div>
+<p>Solve for <span data-math="t"></span>, substitute into <span data-math="\overrightarrow{PA}"></span>, then take its magnitude.</p>
+</div>
+</div></div>
+```
+
+<div class="booklet-cue">Using the vector equation of a line · leads to Example 3.20</div>
+
+::: {.notes}
+B is the known point given by r(0); OB is exactly the constant vector in the line equation. Do not draw origin arrows: focus on triangle BPA. A is the given point, P(t) is an arbitrary point on the line, and H is reserved for the perpendicular foot. Use BP+PA=BA to establish PA=BA−BP=u−td. Initially the gold joining vector is oblique. Next changes P to H and reveals the perpendicularity equation and right-angle marker. The given A and base point B stay fixed. Previous restores the general point.
+
+Students already know the shortest-distance/perpendicularity fact from Extension 1. The new connection is using the line parameter to express the joining vector. Solving (u−td)·d=0 gives t=(u·d)/(d·d), hence BH=td is the same vector found by projection on the preceding slide. Either direction of the joining vector works, provided signs are consistent.
+
+Optional calculus connection, not an additional student method slide: D²(t)=|u−td|²=u·u−2t(u·d)+t²(d·d). Its derivative is −2u·d+2t(d·d), and its second derivative is 2(d·d)>0 for a non-zero direction. Minimising squared distance therefore gives the same parameter and a unique global minimum. Minimising D² is simpler than differentiating the square root.
+:::

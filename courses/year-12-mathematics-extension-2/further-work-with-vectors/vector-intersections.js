@@ -81,19 +81,46 @@
       el.innerHTML=svg(g,540,370,'Three lines concurrent at the same point P.');
     });
 
-    document.querySelectorAll('[data-distance-connection]').forEach(el=>{
-      const O=[65,330],A=[140,90],H=[360,200];
-      let g='<defs>'+marker('fv5-position-blue',C.blue)+marker('fv5-position-green',C.green)+marker('fv5-distance-gold',C.gold)+marker('fv5-direction-ink',C.ink)+'</defs>';
-      g+=path([283,354],[437,46],C.ink,2.5);
-      g+=path(O,A,C.blue,3,'marker-end="url(#fv5-position-blue)"')+path(O,H,C.green,3,'marker-end="url(#fv5-position-green)"')+path(A,H,C.gold,3.5,'marker-end="url(#fv5-distance-gold)"');
-      g+=path([377.5,165],[405.5,109],C.ink,5,'marker-end="url(#fv5-direction-ink)"');
-      const u=[-2/Math.sqrt(5),-1/Math.sqrt(5)],w=[1/Math.sqrt(5),-2/Math.sqrt(5)];
-      const p=[H[0]+18*u[0],H[1]+18*u[1]],q=[p[0]+18*w[0],p[1]+18*w[1]],r=[H[0]+18*w[0],H[1]+18*w[1]];
-      g+=path(p,q,C.ink,1.5)+path(q,r,C.ink,1.5);
-      g+=dot(O,C.ink,4)+dot(A,C.blue,4)+dot(H,C.green,4);
-      g+=label(45,349,'O')+label(123,69,'A',C.blue)+label(381,215,'H',C.green)+label(454,41,'\\ell');
-      g+=label(79,203,v('p'),C.blue,27)+label(229,283,v('r')+'(t)',C.green,27)+label(242,122,'\\overrightarrow{AH}',C.gold,27)+label(431,145,v('d'),C.ink,27);
-      el.innerHTML=svg(g,510,385,'Point A and its perpendicular foot H on line ell. Position vectors p and r of t start at O. Vector AH equals r of t minus p and is perpendicular to direction d.');
-    });
+    // The line is drawn horizontally in the plane containing the line and A.
+    // HTML fragments control matching SVG stages; no SVG foreignObject is used.
+    function distanceDiagram(el,projection){
+      const section=el.closest('section');
+      const B=[65,300],A=[340,85],H=[340,300];
+      const prefix=projection?'fv5-projection':'fv5-perpendicularity';
+      const arrow=(a,b,c,name,width=3.5)=>path(a,b,c,width,'marker-end="url(#'+prefix+'-'+name+')"');
+      function draw(){
+        const visible=[...section.querySelectorAll('[data-distance-reveal].visible')];
+        const stage=visible.reduce((n,f)=>Math.max(n,Number(f.dataset.distanceReveal)),0);
+        let g='<defs>'+marker(prefix+'-blue',C.blue)+marker(prefix+'-green',C.green)+marker(prefix+'-gold',C.gold)+marker(prefix+'-ink',C.ink)+'</defs>';
+        g+=path([25,300],[490,300],C.ink,2);
+        g+=arrow([400,300],[465,300],C.ink,'ink',4)+label(432,274,v('d'),C.ink,25)+label(503,300,'\\ell');
+        g+=arrow(B,A,C.blue,'blue')+dot(B,C.ink,4)+dot(A,C.blue,4);
+        g+=label(53,330,'B',C.ink,25)+label(359,65,'A',C.blue,25)+label(171,164,v('u')+'=\\overrightarrow{BA}',C.blue,24);
+        if(projection){
+          if(stage>=1){
+            g+=arrow(B,H,C.green,'green',4)+dot(H,C.green,4)+label(350,330,'H',C.green,25)+label(200,332,'\\overrightarrow{BH}',C.green,25);
+            g+=stage>=2?arrow(H,A,C.gold,'gold',4):path(H,A,C.grey,2,'stroke-dasharray="6 5"');
+            g+=path([324,300],[324,284],stage>=2?C.gold:C.grey,1.5)+path([324,284],[340,284],stage>=2?C.gold:C.grey,1.5);
+          }
+          if(stage>=2)g+=label(380,192,'\\overrightarrow{HA}',C.gold,27);
+        }else{
+          const P=stage?H:[210,300];
+          g+=arrow(B,P,C.green,'green',4)+arrow(P,A,C.gold,'gold',4)+dot(P,C.green,4);
+          g+=label(stage?350:217,330,stage?'H':'P(t)',C.green,25);
+          g+=label(stage?200:134,354,stage?'\\overrightarrow{BH}=t'+v('d'):'\\overrightarrow{BP}=t'+v('d'),C.green,24);
+          g+=label(stage?380:310,204,stage?'\\overrightarrow{HA}':'\\overrightarrow{PA}',C.gold,27);
+          if(stage)g+=path([324,300],[324,284],C.gold,1.5)+path([324,284],[340,284],C.gold,1.5);
+        }
+        el.dataset.stage=String(stage);
+        const desc=projection?(stage===0?'Vector BA joins known point B on the line to given point A.':stage===1?'BH is the projection of BA onto the line; H is the perpendicular foot.':'BA equals BH plus HA. The minimum distance is the magnitude of perpendicular vector HA.'):(stage?'The closest point is H. HA equals u minus t d and is perpendicular to the line.':'General point P of t lies on the line. BP equals t d and PA equals u minus t d.');
+        el.innerHTML=svg(g,530,400,desc);
+      }
+      const observer=new MutationObserver(draw);
+      section.querySelectorAll('[data-distance-reveal]').forEach(f=>observer.observe(f,{attributes:true,attributeFilter:['class']}));
+      draw();
+    }
+    document.querySelectorAll('[data-distance-projection]').forEach(el=>distanceDiagram(el,true));
+    document.querySelectorAll('[data-distance-perpendicularity]').forEach(el=>distanceDiagram(el,false));
+
   });
 })();

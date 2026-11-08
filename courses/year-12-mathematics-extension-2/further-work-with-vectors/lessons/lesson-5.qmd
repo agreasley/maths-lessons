@@ -41,6 +41,8 @@ homework: "5 · Exercises 4B–4C"
 
 {{< include lesson-5/_distance-connection.qmd >}}
 
+{{< include lesson-5/_distance-perpendicularity.qmd >}}
+
 {{< include lesson-5/_example-3-20.qmd >}}
 
 {{< include lesson-5/_finish.qmd >}}

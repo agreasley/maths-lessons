@@ -1,11 +1,29 @@
-## Minimum distance using a line equation {#fv5-distance-connection .fv-lesson .intersection-lesson }
+## Minimum distance · Projection {#fv5-distance-connection .fv-lesson .intersection-lesson }
 
 ```{=html}
-<p>Let <span data-math="A"></span> have position vector <span data-math="\underset{\sim}{p}"></span>, and let <span data-math="H"></span> lie on <span data-math="\underset{\sim}{r}(t)=\underset{\sim}{a}+t\underset{\sim}{d}"></span>.</p><div class="inter-distance-layout"><div data-distance-connection></div><div><p>The vector from <span data-math="A"></span> to <span data-math="H"></span> is</p><div class="fv-equation"><span data-math="\overrightarrow{AH}=\underset{\sim}{r}(t)-\underset{\sim}{p}"></span></div><div class="fv-equation"><span data-math="\phantom{\overrightarrow{AH}}=\underset{\sim}{a}+t\underset{\sim}{d}-\underset{\sim}{p}"></span></div><div class="fragment" data-fragment-index="0"><p>At the closest point, <span data-math="AH\perp\ell"></span>.</p><div class="fv-equation"><span data-math="(\underset{\sim}{a}+t\underset{\sim}{d}-\underset{\sim}{p})\cdot\underset{\sim}{d}=0"></span></div><p>Solve for <span data-math="t"></span>, then find <span data-math="|\overrightarrow{AH}|"></span>.</p></div></div></div>
+<p class="inter-distance-intro"><span data-math="A"></span> is the given point; <span data-math="B"></span> is a known point on the line with direction <span data-math="\underset{\sim}{d}"></span>.</p>
+<div class="inter-distance-layout">
+<div data-distance-projection></div>
+<div class="inter-distance-working">
+<p>Join the point on the line to the given point.</p>
+<div class="fv-equation inter-line-blue"><span data-math="\underset{\sim}{u}=\overrightarrow{BA}"></span></div>
+<div class="fragment" data-fragment-index="0" data-distance-reveal="1">
+<p>Project onto the line’s direction.</p>
+<div class="fv-equation inter-line-green"><span data-math="\overrightarrow{BH}=\operatorname{proj}_{\underset{\sim}{d}}\underset{\sim}{u}=\frac{\underset{\sim}{u}\cdot\underset{\sim}{d}}{\underset{\sim}{d}\cdot\underset{\sim}{d}}\underset{\sim}{d}"></span></div>
+</div>
+<div class="fragment" data-fragment-index="1" data-distance-reveal="2">
+<p>The remaining vector is perpendicular.</p>
+<div class="fv-equation"><span data-math="\overrightarrow{BA}=\overrightarrow{BH}+\overrightarrow{HA}"></span></div>
+<div class="fv-equation inter-distance-gold"><span data-math="\overrightarrow{HA}=\underset{\sim}{u}-\overrightarrow{BH}"></span></div>
+<p class="inter-distance-result">Minimum distance: <span data-math="|\overrightarrow{HA}|"></span>.</p>
+</div>
+</div></div>
 ```
 
 <div class="booklet-cue">Connection to Extension 1 · leads to Example 3.20</div>
 
 ::: {.notes}
-Students already know that the shortest distance from a point to a line is perpendicular; do not reteach or rediscover that fact. The new connection is that the position vector of H is r(t), so AH=r(t)−p=a+td−p. The diagram shows the perpendicular position, with both position vectors drawn from O. Click Next to translate the familiar perpendicularity condition into the dot-product equation. This finds the parameter of the foot, after which they can find H and |AH|. If A lies on the line, this procedure gives distance zero; no division by a coordinate is necessary. Direction d must be non-zero.
+A is the given point off the line; B is a known point on the line, obtained by setting the line parameter to zero. H is the perpendicular foot. Use the same labels and vector directions in both methods. There is no lower-case a or origin arrow in the diagram.
+
+Initially show only the joining vector u=BA. Ask what part of u lies along the line. Next reveals BH=proj_d u, H and a dashed perpendicular guide. The next click reveals HA and the identity BA=BH+HA. The distance is the magnitude of the perpendicular remainder, not the magnitude of the projection. Colours: u blue, parallel part green, perpendicular remainder gold. Previous reverses these reveals. The drawn line is schematic, in the plane containing A and the line; the method applies equally in 2D or 3D. A projection may point opposite to d, and H can lie on either side of B. The direction vector is non-zero. If A lies on the line, the remainder is zero.
 :::

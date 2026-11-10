@@ -1,0 +1,11 @@
+## Where does it start? Which direction? {#fv6-tracing .fv-lesson .circle-lesson }
+
+```{=html}
+<p>Predict the starting point and direction for each equation.</p><div data-circle-tracing></div>
+```
+
+<div class="booklet-cue">Supporting comparison · Booklet §3.5</div>
+
+::: {.notes}
+Additional comparison, not a booklet example. Use the two equation buttons to select cos/sin or sin/cos. Reveal successive quarter-turn points; the initial view has no point or trace. Standard order starts (3,0) and traces anticlockwise. Swapped order starts (0,3) and traces clockwise. Each preset resets the reveal so students can predict afresh. Ask: is the direction determined by “t increases”, or by how the coordinates change? Use t=0 then t=π/2 as a reliable check.
+:::

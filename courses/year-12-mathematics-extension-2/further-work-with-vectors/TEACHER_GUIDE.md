@@ -333,3 +333,63 @@ Minimum-distance revision: the deck now has 21 slides. Chromium at 1363×936 pas
 Angled-distance diagram revision: both diagrams now use a 20-degree rising line. All endpoints, direction arrows and right-angle markers undergo the same rigid rotation and translation; mathematical labels remain upright at their transformed anchors. The perpendicularity slide now explicitly says to use the non-zero direction vector d. Its notes explain that (u−td)·(td)=0 is equivalent only when t≠0; otherwise it includes the automatic zero-vector solution t=0. For Example 3.20 this gives t(2−24t)=0, so t=0 must not be accepted as the closest point.
 
 Angled-diagram validation: Chromium at 1363×936 reviewed all five diagram states, upright labels, accurate right-angle markers, diagram state retention through the slide map and complete forward/backward navigation through 21 slides. No unrendered mathematics, KaTeX errors or foreignObject elements. The expanded perpendicularity slide fits above navigation. A numerical geometry check confirmed that the rigid rotation preserves dot products and lengths. WebKit and physical-iPad testing remain unavailable.
+
+
+## Lesson 6 — Vector equations of circles
+
+Coverage: booklet §3.5, Examples 3.21–3.23, printed pages 69–73; Homework 6. A single approximately 50-minute lesson. Spheres are reserved for Lesson 7. Students already know parametric equations and position vectors. The objective is “We are learning to describe circles using vector equations.” The success criterion is “I can identify a circle and describe how it is traced from its vector equation.”
+
+### Sequence and delivery
+
+1–3: cover, objective/success criteria, and a line-to-circle recap. The unit graphic appears on the cover only.
+4–6: connect x=R cos θ, y=R sin θ to r(θ); construct the translated circle; compare cos/sin and sin/cos tracing.
+7: diagnostic hinge. 8–9: Example 3.21 split into its original parts (a) and (b).
+10–12: fixed-distance form, Example 3.22(a–b), and Example 3.23.
+13–15: one-minute partner prompt on reversing tracing, connected representations, and Homework 6.
+
+Suggested pacing: 15 minutes for recap and concepts, 3 for hinge, 10 for Example 3.21, 17 for fixed-distance form and Examples 3.22–3.23, 5 for consolidation and homework. Worked solutions are in presenter notes; use OneNote for class working. Additional comparison and partner questions are explicitly distinguished from booklet examples. No named thinking routine is forced into the lesson.
+
+The first circle visual starts with axes and a circle: Show point reveals the amber point and its coordinates, then Show position vector adds the blue arrow from O. Its parameter label r(θ) is below the graph. Quarter-turn buttons and a continuous angle slider support prediction before changing the point. Reset restores θ=0 and hides both reveals.
+
+The translated-circle visual uses C=(2,−1), R=3, initially θ=π/3. Reveal OC=c in teal, then CP in gold, then OP=r in blue. Previous reverses these stages; Reset hides all arrows and restores the initial angle. At the final stage, move the angle to see r point to every point of the circle. The equal-scale graph and labels use native SVG paths, with no foreignObject. Point coordinates remain amber and the position-vector caption remains blue.
+
+The tracing visual compares r(t)=3cos(t)i+3sin(t)j with r(t)=3sin(t)i+3cos(t)j. Choose an equation, predict the start, then reveal the start and successive quarter-turn points. Switching equations resets the prediction; a completed turn lists five parameter values including the repeated endpoint. The route traces anticlockwise for cos/sin and clockwise for sin/cos. The fixed-distance visual keeps |CP|=3 while |OP| varies, making the distinction between r and r−c visible.
+
+### Answers and mathematical checks
+
+- Example 3.21(a): x=cos t−sin t, y=2−cos t−sin t. Squaring and adding gives x²+(y−2)²=2, centre (0,2), radius √2. Alternatively eliminate cos t and sin t using the Pythagorean identity. A general c+a cos t+b sin t is not necessarily a circle; here a,b have equal length and are perpendicular.
+- Example 3.21(b): t=0,π/2,π,3π/2,2π give (1,1),(−1,1),(−1,3),(1,3),(1,1). This is clockwise about (0,2).
+- Example 3.22: (x−x₀)²+(y−y₀)²=λ², with λ>0. Sketch centre (x₀,y₀), radius λ. The source’s p denotes the fixed centre position vector and is preserved.
+- Example 3.23: centre (3,4), radius 5, Cartesian equation (x−3)²+(y−4)²=25. Extreme points (−2,4),(8,4),(3,−1),(3,9). Optional axis intercepts (0,0),(6,0),(0,8).
+- Partner prompt: replacing t by −t gives r(t)=(3+5cos t)i+(4−5sin t)j, with 0≤t≤2π, tracing the same circle clockwise. Its start is (8,4), followed by (3,−1) at t=π/2. Other valid clockwise parameterisations can have a different start.
+- The fixed-distance and Cartesian forms specify a locus. The parameterised form additionally specifies its tracing. Use R for a positive scalar radius and r for the position vector.
+
+### Hinge
+
+Given r(t)=(2+3sin t)i+(−1+3cos t)j, 0≤t≤2π: where does it start and in which direction is it traced as t increases?
+1. (5,−1), anticlockwise. 2. (2,2), anticlockwise. 3. (2,2), clockwise. 4. (5,−1), clockwise.
+Correct answer 3: t=0 gives the top point (2,2); t=π/2 gives the rightmost point (5,−1). Distractor 1 assumes the usual cos/sin order; 2 assumes increasing t always means anticlockwise; 4 finds the direction but the wrong start. Ready: Example 3.21. Divided: compare t=0 and t=π/2 and revote. Needs explanation: revisit the swapped-order visual.
+
+Everyone answers simultaneously with 1–4 fingers: “Fist on chest. Think quietly. On ‘show’, hold up 1–4 fingers.” Default adjustable timer 60 seconds; Start/Pause/Resume, Reset and separate teacher answer reveal. Expiry must not reveal the answer.
+
+### Homework 6
+
+Cambridge Year 12 Extension 2; copied unchanged from booklet p. 73.
+- Mild: 4D Q1, Q3(a), Q5(a), Q10.
+- Medium: 4D Q1, Q3(a), Q4, Q5(a), Q9, Q10, Q16.
+- Spicy: 4D Q1, Q5(a), Q9, Q10, Q16; 4E Q15.
+
+### Preview and publishing
+
+Render courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-6.qmd. The topic lists six lessons and Homework 1–6. Source is pushed to main; run the manual Publish Quarto lessons workflow to update GitHub Pages. Existing lesson URLs are retained.
+
+
+### Lesson 6 validation
+
+Quarto 1.10.18 rendered the 15-slide lesson and topic/course/home listings. Chromium at 1363×936 passed complete forward and backward navigation through every slide. Course → topic → Lesson 6 and the return link work; the topic lists six lessons. No nested slides, unrendered data-math, KaTeX errors or foreignObject elements were found.
+
+Reviewed all slides, the separate point/vector reveals, all translated-circle construction stages, both tracing sequences through a complete turn, and fixed-distance readouts. Checked quarter-turn presets, continuous slider movement, Previous, Reset and state retention through the slide map. Captions distinguish blue r from the amber point; approximate vector coordinates use ≈. Native SVG labels share the diagram coordinate system. Diagram axis units are equal. The final construction’s booklet cue ends at 830 pixels, above navigation at 880 pixels.
+
+The hinge starts at 60 seconds. Changing to 30 seconds, Start/Pause/Resume, expiry without revealing the answer, deliberate answer reveal, wrong/correct option highlighting and Reset passed. Correct option 3 and all misconception notes were reviewed. Exact symbolic checks verified Example 3.21’s Cartesian equation and quarter-turn points, the general fixed-distance equation, and the reverse-tracing circle. Homework matches the supplied booklet allocation.
+
+Buttons are at least 46 CSS pixels high and require no hover. WebKit, touch-device emulation, iPad viewport/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. The existing preview-server script closing-tag workaround was applied only to generated HTML, not tracked source. Source publication and the manual Pages deployment are separate.

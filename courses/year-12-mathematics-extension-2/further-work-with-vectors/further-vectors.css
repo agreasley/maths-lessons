@@ -1,4 +1,54 @@
 /* Topic styles; shared controls and navigation remain in assets/lesson.css. */
+/* Lesson 6: circles, with separate point and position-vector reveals. */
+.reveal .circle-lesson{font-size:28px}
+.reveal .circle-lesson p{line-height:1.4;margin:16px 0}
+.reveal .circle-lesson h3{font-size:28px;color:#217864;margin:12px 0}
+.reveal .circle-lesson .fv-equation{margin:28px 0;line-height:1.65}
+.reveal .circle-lesson .circle-task{margin-top:40px}
+.reveal .circle-top-form{font-size:27px;line-height:1.5;margin:10px 0}
+.reveal .circle-layout{display:grid;grid-template-columns:minmax(0,45fr) minmax(0,55fr);gap:30px;align-items:center}
+.reveal .circle-graph svg{width:100%;height:340px;display:block}
+.reveal .circle-point-caption{font-size:24px;color:#ad6e32;text-align:center;min-height:32px;line-height:1.35}
+.reveal .circle-vector-caption{font-size:23px;color:#315985;text-align:center;min-height:49px;line-height:1.7}
+.reveal .circle-algebra{font-size:25px;line-height:1.45}
+.reveal .circle-algebra p{margin:10px 0}
+.reveal .circle-blue{color:#315985}.reveal .circle-green{color:#217864}.reveal .circle-gold{color:#ad6e32}
+.reveal .circle-construction-row{border-left:3px solid currentColor;padding:2px 12px;margin:15px 0;font-size:23px}
+.reveal .circle-construction-row p{font-size:21px;margin:3px 0}
+.reveal .circle-construction-row[hidden]{display:none!important}
+.reveal .circle-slider{margin:0}
+.reveal .circle-slider label{display:flex;justify-content:space-between;align-items:center;font-size:23px;line-height:1.3}
+.reveal .circle-slider input{display:block;width:100%;height:38px;accent-color:#315985;touch-action:pan-y;margin:0}
+.reveal .circle-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:9px 0 0}
+.reveal .circle-controls button{font:inherit;font-size:21px;min-height:46px;min-width:60px;padding:7px 15px;border:1px solid #aab8bb;border-radius:7px;background:#f3f6f5;color:#152e3b;cursor:pointer;touch-action:manipulation}
+.reveal .circle-controls button.primary{background:#315985;color:white;border-color:#315985}
+.reveal .circle-controls button[aria-pressed=true]{background:#e3ecf5;border-color:#315985}
+.reveal .circle-controls button:disabled{opacity:.45;cursor:default}
+.reveal .circle-controls button:focus-visible{outline:3px solid #ad6e32;outline-offset:3px}
+.reveal .circle-quarters{display:inline-flex;margin-right:16px}
+.reveal .circle-reveals{display:inline-flex}
+.reveal .circle-quarters button{min-width:84px}
+.reveal .circle-comparison{display:grid;grid-template-columns:1fr 1fr;gap:45px;margin-top:28px}
+.reveal .circle-comparison svg{width:100%;height:240px;display:block}
+.reveal .circle-comparison p{font-size:26px}
+.reveal .circle-comparison .fv-equation,.reveal .circle-recap-spacer{height:50px;margin:10px 0}
+.reveal .circle-distance-key{border-top:1px solid #b6c4c9;padding-top:15px;margin-top:18px;font-size:29px}
+.reveal .circle-distance-key p{font-size:24px}
+.reveal .circle-equation-presets{gap:20px;margin:20px 0}
+.reveal .circle-equation-presets button{font-size:24px;min-height:56px;padding:10px 20px}
+.reveal .circle-trace-record table{font-size:25px;width:85%;line-height:1.2}
+.reveal .circle-trace-record th,.reveal .circle-trace-record td{padding:8px 16px}
+.reveal .circle-trace-record .current{background:#e9f0ed}
+.reveal .circle-trace-record p{font-size:26px}
+.reveal .circle-prompt{padding:18px 24px;border-left:5px solid #217864;background:#eaf1ec;margin:26px 0;line-height:1.5;font-size:27px}
+.reveal .circle-lesson .circle-small{font-size:23px;color:#52656d}
+.reveal .circle-forms{margin:24px 0}
+.reveal .circle-forms>div{display:grid;grid-template-columns:245px 1fr;align-items:center;padding:22px 0;border-bottom:1px solid #cad4d7;gap:15px;font-size:27px}
+.reveal .circle-forms strong{font-size:24px;color:#217864}
+.reveal #fv6-hinge .hinge-question{font-size:26px}
+.reveal #fv6-hinge .hinge-question .fv-equation{font-size:27px;margin:12px 0 16px}
+.reveal #fv6-hinge .choice{font-size:24px;min-height:85px}
+.reveal #fv6-hinge .hinge-explanation{font-size:23px}
 .reveal .fv-lesson .fv-equation{margin:25px 0;line-height:1.5}
 .reveal .fv-lesson .fv-law h3{font-size:25px;margin:14px 0 6px;color:var(--teal)}
 .reveal .fv-lesson .fv-law .fv-equation{margin:6px 0 24px}

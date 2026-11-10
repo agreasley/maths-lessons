@@ -1,0 +1,11 @@
+## A circle is a fixed distance from its centre {#fv6-fixed-distance .fv-lesson .circle-lesson }
+
+```{=html}
+<div data-circle-visual="distance"></div>
+```
+
+<div class="booklet-cue">Booklet §3.5 · p. 69</div>
+
+::: {.notes}
+Start with the translated circle C=(2,−1), R=3. Move the point: |OP| varies, while |CP|=3 always. The position vector is r=OP; the radius vector is CP=r−c. Ask “Which vector has constant length?” The special case c=0 gives |r|=R. Point out that in two dimensions |r−c|=R describes the entire circle without specifying a starting point or direction. The parameterised equation additionally describes how it is traced. The slider is a supporting illustration, not a required calculation.
+:::

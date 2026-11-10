@@ -1,0 +1,11 @@
+## Example 3.22 {#fv6-example-3-22 .fv-lesson .circle-lesson }
+
+```{=html}
+<p><strong>a)</strong> Determine the Cartesian equation of</p><div class="fv-equation"><span data-math="\left|\underset{\sim}{r}-\underset{\sim}{p}\right|=\lambda"></span></div><p>Where <span data-math="\underset{\sim}{r}"></span> represents every point (in 2 dimensions) <span data-math="(x,y)"></span> on the locus and <span data-math="\underset{\sim}{p}"></span> is a position vector <span data-math="\underset{\sim}{p}=(x_0,y_0)"></span> and <span data-math="\lambda>0"></span> is a constant.</p><p class="circle-task"><strong>b)</strong> Sketch the graph.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.22(a–b) · p. 71</div>
+
+::: {.notes}
+Work in OneNote. Let r=(x,y), p=(x₀,y₀). The joining vector r−p=(x−x₀,y−y₀) has magnitude λ. Squaring gives (x−x₀)²+(y−y₀)²=λ². As λ>0 this is a circle with centre (x₀,y₀) and radius λ. Sketch and label the centre and a radius. The booklet uses p for the fixed centre position vector; it plays the same role as c in the development slides. Retain its notation.
+:::

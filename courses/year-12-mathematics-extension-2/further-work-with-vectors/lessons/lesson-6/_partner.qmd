@@ -1,0 +1,11 @@
+## Same circle, opposite direction {#fv6-partner .fv-lesson .circle-lesson }
+
+```{=html}
+<p>The circle in Example 3.23 can be traced by</p><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=(3+5\cos t)\underset{\sim}{i}+(4+5\sin t)\underset{\sim}{j},\quad 0\le t\le2\pi."></span></div><div class="circle-prompt"><p>Change the equation so that it traces the <strong>same circle in the opposite direction</strong>.</p><p>Compare with a partner: what stayed the same, and how can you justify the direction?</p></div><p class="circle-small">1 minute · Additional question</p>
+```
+
+<div class="booklet-cue">Additional question · Builds on Example 3.23</div>
+
+::: {.notes}
+Purpose: separate the locus from the way it is traced. One answer is r(t)=(3+5cos t)i+(4−5sin t)j, 0≤t≤2π: t=0 gives (8,4), t=π/2 gives (3,−1), hence clockwise. The Cartesian equation is still (x−3)²+(y−4)²=25. More generally replace t by −t. Swapping sin and cos also traces this circle clockwise, with a different start; accept if justified. Ask one pair to compare two successive points. This is a short partner prompt, not a named thinking routine. Keep solutions in notes for discussion.
+:::

@@ -1,0 +1,9 @@
+## Previously · Where does the vector point? {#fv6-previously .fv-lesson .circle-lesson }
+
+```{=html}
+<div class="circle-comparison"><div><h3>A straight line</h3><div class="fv-equation"><span data-math="\underset{\sim}{r}(t)=\underset{\sim}{a}+t\underset{\sim}{d}"></span></div><div data-circle-recap="line"></div><p>Vary the parameter: the tip of <span data-math="\underset{\sim}{r}"></span> traces the line.</p></div><div><h3>Today: a circle</h3><div class="circle-recap-spacer"></div><div data-circle-recap="circle"></div><p>How could the tip of <span data-math="\underset{\sim}{r}"></span> trace a circle?</p></div></div>
+```
+
+::: {.notes}
+Briefly recall that the vector equation supplies the position vector of every point on the line. The arrow always starts at the origin. Ask students to recall the parametric equations of a circle before advancing. Do not use “displacement”.
+:::

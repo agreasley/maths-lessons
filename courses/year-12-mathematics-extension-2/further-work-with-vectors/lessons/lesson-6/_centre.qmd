@@ -1,0 +1,11 @@
+## What changes when we move the centre? {#fv6-centre .fv-lesson .circle-lesson }
+
+```{=html}
+<div class="circle-top-form"><span data-math="\underset{\sim}{r}(\theta)=\underset{\sim}{c}+R\cos\theta\,\underset{\sim}{i}+R\sin\theta\,\underset{\sim}{j}"></span></div><div data-circle-visual="centre"></div>
+```
+
+<div class="booklet-cue">Booklet §3.5 · p. 69</div>
+
+::: {.notes}
+Use Next construction to show OC=c (teal), then CP (gold), then OP=r (blue). The point is amber; coordinate captions sit below the graph. C=(2,−1), R=3. Ask: which part is fixed, and which part changes with θ? The radius vector rotates with constant length R. Adding it to c gives a vector pointing to every point of the translated circle. At a complete construction, move the angle slider and follow the endpoint. Previous reverses each reveal; Reset returns to θ=π/3 and no vectors.
+:::

@@ -1,0 +1,9 @@
+## One circle, connected representations {#fv6-finish .fv-lesson .circle-lesson }
+
+```{=html}
+<p>For a circle with centre <span data-math="C(h,k)"></span> and radius <span data-math="R>0"></span>:</p><div class="circle-forms"><div><strong>Parametric vector</strong><span data-math="\underset{\sim}{r}(\theta)=(h+R\cos\theta)\underset{\sim}{i}+(k+R\sin\theta)\underset{\sim}{j}"></span></div><div><strong>Fixed distance</strong><span data-math="|\underset{\sim}{r}-\underset{\sim}{c}|=R,\qquad \underset{\sim}{c}=h\underset{\sim}{i}+k\underset{\sim}{j}"></span></div><div><strong>Cartesian</strong><span data-math="(x-h)^2+(y-k)^2=R^2"></span></div></div><p class="circle-small">For the parametric form, <span data-math="0\le\theta\le2\pi"></span> gives one complete turn.</p><div class="circle-prompt">I can identify a circle and describe how it is traced from its vector equation.</div>
+```
+
+::: {.notes}
+Exit check orally: which forms tell us how the circle is traced? The parameterised vector equation does; the magnitude and Cartesian equations specify the locus. For the displayed standard parameterisation the start is (h+R,k), anticlockwise as θ increases. Link to the success criteria without adding another multi-part task.
+:::

@@ -1,0 +1,11 @@
+## From coordinates to a position vector {#fv6-parametric .fv-lesson .circle-lesson }
+
+```{=html}
+<div class="circle-top-form"><span data-math="x=R\cos\theta,\qquad y=R\sin\theta,\qquad R>0"></span></div><div data-circle-visual="origin"></div>
+```
+
+<div class="booklet-cue">Booklet §3.5 · p. 69</div>
+
+::: {.notes}
+Start with θ=0. Reveal the amber point and its coordinates before revealing the blue position vector. Use quarter-turn presets or the angle slider; ask students to predict the next coordinates before changing θ. The caption r(θ) appears below the graph, separately from the point. Reset hides both reveals. One turn 0≤θ≤2π; θ=0 and θ=2π locate the same point. The graph uses R=3 and equal horizontal and vertical units.
+:::

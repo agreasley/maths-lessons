@@ -1,0 +1,11 @@
+## Example 3.21 · Cartesian equation {#fv6-example-3-21a .fv-lesson .circle-lesson }
+
+```{=html}
+<p>Consider the vector equation <span data-math="\underset{\sim}{r}(t)=\underset{\sim}{c}+\underset{\sim}{a}\cos t+\underset{\sim}{b}\sin t"></span> where</p><div class="fv-equation"><span data-math="\underset{\sim}{a}=\begin{bmatrix}1\\-1\end{bmatrix},\quad \underset{\sim}{b}=\begin{bmatrix}-1\\-1\end{bmatrix},\quad \underset{\sim}{c}=\begin{bmatrix}0\\2\end{bmatrix}."></span></div><p class="circle-task"><strong>a)</strong> Show that this is a circle by finding its Cartesian equation</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.21(a) · p. 70</div>
+
+::: {.notes}
+Complete the working in OneNote. Let r=xi+yj and equate components: x=cos t−sin t, y=2−cos t−sin t. Then x²+(y−2)²=(cos t−sin t)²+(−cos t−sin t)²=2. Alternatively solve cos t=(x−y+2)/2, sin t=(2−x−y)/2, then use cos²t+sin²t=1. The Cartesian equation is x²+(y−2)²=2, centre (0,2), radius √2. This is a circle because the two coefficient vectors are perpendicular and equal in length; do not assume every expression c+a cos t+b sin t is a circle. Mention that only if useful; general ellipses are outside today’s scope.
+:::

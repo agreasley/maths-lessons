@@ -1,0 +1,11 @@
+## Example 3.21 · Tracing the circle {#fv6-example-3-21b .fv-lesson .circle-lesson }
+
+```{=html}
+<p>Consider the vector equation <span data-math="\underset{\sim}{r}(t)=\underset{\sim}{c}+\underset{\sim}{a}\cos t+\underset{\sim}{b}\sin t"></span> where</p><div class="fv-equation"><span data-math="\underset{\sim}{a}=\begin{bmatrix}1\\-1\end{bmatrix},\quad \underset{\sim}{b}=\begin{bmatrix}-1\\-1\end{bmatrix},\quad \underset{\sim}{c}=\begin{bmatrix}0\\2\end{bmatrix}."></span></div><p class="circle-task"><strong>b)</strong> Where on the circle is <span data-math="t=0"></span>, and in which direction is the circle traversed as <span data-math="t"></span> increases?</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.21(b) · p. 70</div>
+
+::: {.notes}
+OneNote: t=0 gives (1,1); t=π/2 gives (−1,1); t=π gives (−1,3); t=3π/2 gives (1,3). Relative to C=(0,2), the route goes lower-right → lower-left → upper-left → upper-right: clockwise. Ask students to justify direction with at least two successive parameter values. Do not infer direction just from the plus signs in the vector equation.
+:::

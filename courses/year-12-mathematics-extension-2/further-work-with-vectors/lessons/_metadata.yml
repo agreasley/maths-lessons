@@ -18,6 +18,7 @@ format:
         <script src="../vector-lines.js"></script>
         <script src="../vector-line-relations.js"></script>
         <script src="../vector-intersections.js"></script>
+        <script src="../vector-circles.js"></script>
     width: 1280
     height: 800
     margin: 0.09

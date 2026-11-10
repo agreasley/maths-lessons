@@ -1,0 +1,11 @@
+## Homework 6 · Vector equations of circles {#fv6-homework .fv-lesson .circle-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4D: Q1, Q3(a), Q5(a), Q10.</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4D: Q1, Q3(a), Q4, Q5(a), Q9, Q10, Q16.</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4D: Q1, Q5(a), Q9, Q10, Q16.<br>Exercise 4E: Q15.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 6 · p. 73</div>
+
+::: {.notes}
+Copied unchanged from the supplied booklet. No additional homework allocation.
+:::

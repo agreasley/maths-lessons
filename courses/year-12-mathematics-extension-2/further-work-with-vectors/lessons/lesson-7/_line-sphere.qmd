@@ -1,0 +1,11 @@
+## How many times can a line meet a sphere? {#fv7-line-sphere .fv-lesson .sphere-lesson }
+
+```{=html}
+<p class="sphere-lead">Predict the number of intersection points before moving the line.</p><div data-sphere-line></div>
+```
+
+<div class="booklet-cue">Supporting visual · Example 3.29</div>
+
+::: {.notes}
+The drawing is a central cross-section in a plane containing the sphere’s centre and the entire line. Thus its circle–line intersections are exactly the sphere–line intersections. The line is angled at 25°, with a slider for its perpendicular distance D from C, 0≤D≤4; sphere radius R=3. Presets D=0,2,3,4. Fixed camera, equal unit scales, a correct right-angle marker, touch-sized controls and Reset. Compare D<R, D=R, D>R and two/one/no real parameter values of the substitution quadratic (discriminant >0,=0,<0). The distance connection recalls Lesson 5 without reteaching projection. Follow-up: what do these pictures tell us about the quadratic we obtain by substituting the line into the sphere? A tangent corresponds to one repeated real root and one geometric point, not two points. A non-zero line direction ensures the quadratic coefficient is positive.
+:::

@@ -1,0 +1,11 @@
+## Example 3.27 {#fv7-example-3-27 .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>A sphere has the vector equation</p><div class="fv-equation"><span data-math="(\underset{\sim}{r}-(\underset{\sim}{i}+\underset{\sim}{j}-\underset{\sim}{k}))\cdot(\underset{\sim}{r}-(\underset{\sim}{i}+\underset{\sim}{j}-\underset{\sim}{k}))=20."></span></div><p>Find the Cartesian equation of the sphere</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.27 · p. 77</div>
+
+::: {.notes}
+OneNote: r−(i+j−k)=(x−1)i+(y−1)j+(z+1)k. Dotting with itself gives (x−1)²+(y−1)²+(z+1)²=20. Centre (1,1,−1), radius 2√5. Expanded form x²+y²+z²−2x−2y+2z−17=0 is equivalent, but the completed-square form reveals the geometry. Prompt: what does a vector dotted with itself measure?
+:::

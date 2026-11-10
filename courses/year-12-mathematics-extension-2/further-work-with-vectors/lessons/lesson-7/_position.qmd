@@ -1,0 +1,11 @@
+## Inside, on or outside? {#fv7-position .fv-lesson .sphere-lesson }
+
+```{=html}
+<div class="sphere-split"><div data-sphere-static="classification"></div><div><p>Compare the distance from <span data-math="C"></span> with the radius <span data-math="R"></span>.</p><div class="sphere-comparisons"><p><strong>Inside</strong> <span data-math="|\underset{\sim}{r}-\underset{\sim}{c}|^2<R^2"></span></p><p><strong>On</strong> <span data-math="|\underset{\sim}{r}-\underset{\sim}{c}|^2=R^2"></span></p><p><strong>Outside</strong> <span data-math="|\underset{\sim}{r}-\underset{\sim}{c}|^2>R^2"></span></p></div><p class="sphere-small">Squared distances give the same comparison.</p></div></div>
+```
+
+<div class="booklet-cue">Supporting interpretation · Example 3.28</div>
+
+::: {.notes}
+The diagram is explicitly a central cross-section containing the three sample points. It illustrates the distance comparison without using the A,B,C labels from the next example (where C denotes one of the supplied points). Compare non-negative distances using their squares; no square root is needed. Briefly ask which relation describes the sphere itself: equality.
+:::

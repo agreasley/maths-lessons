@@ -1,0 +1,11 @@
+## Example 3.28 {#fv7-example-3-28 .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>A sphere <span data-math="S"></span> has vector equation</p><div class="fv-equation"><span data-math="\left|\underset{\sim}{r}-\begin{bmatrix}1\\-2\\3\end{bmatrix}\right|=3."></span></div><div class="sphere-parts"><p><strong>a)</strong> State the centre and radius of <span data-math="S"></span>.</p><p><strong>b)</strong> Determine whether each of the points <span data-math="A(2,-1,4)"></span>, <span data-math="B(3,-1,5)"></span> and <span data-math="C(5,-2,3)"></span> lies inside, on or outside <span data-math="S"></span>. Justify your answers.</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.28(a–b) · p. 78</div>
+
+::: {.notes}
+OneNote: centre (1,−2,3), radius 3, radius squared 9. From the centre, A has joining vector (1,1,1), squared distance 3<9, so inside; B has (2,1,2), squared distance 9, so on; C has (4,0,0), squared distance 16>9, so outside. Preserve point C from the question: call the sphere’s centre “the centre” or use a separate label such as O_S in working to avoid confusing it with the supplied point C. Natural stopping point if spreading this deck across two periods; no on-slide instruction imposes a split.
+:::

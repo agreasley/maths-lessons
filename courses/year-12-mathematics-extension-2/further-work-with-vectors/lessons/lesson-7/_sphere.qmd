@@ -1,0 +1,11 @@
+## The same condition in three dimensions {#fv7-sphere .fv-lesson .sphere-lesson }
+
+```{=html}
+<div class="sphere-split"><div data-sphere-static="sphere"></div><div><p>Allow <span data-math="P(x,y,z)"></span> to vary in space.</p><div class="fv-equation"><span data-math="\lvert\underset{\sim}{r}-\underset{\sim}{c}\rvert=R"></span></div><p>Every point stays the same distance <span data-math="R"></span> from <span data-math="C"></span>.</p><div class="sphere-key">The locus is the <strong>surface of a sphere</strong>.</div></div></div>
+```
+
+<div class="booklet-cue">Booklet §3.6 · p. 74</div>
+
+::: {.notes}
+Use the same notation and colours as the preceding circle. The third coordinate allows points in all directions from C. The equation with equality describes the surface; points inside are closer to C and do not satisfy it. The sphere diagram is a fixed orthographic view with a dashed hidden equator, not a rotatable scene. R denotes the positive scalar radius, keeping it distinct from the vector r.
+:::

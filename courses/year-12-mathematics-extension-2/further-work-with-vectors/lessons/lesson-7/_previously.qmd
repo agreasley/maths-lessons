@@ -1,0 +1,11 @@
+## Previously · A fixed distance from a centre {#fv7-previously .fv-lesson .sphere-lesson }
+
+```{=html}
+<div class="sphere-split"><div data-sphere-static="circle"></div><div><p>In two dimensions,</p><div class="fv-equation"><span data-math="\lvert\underset{\sim}{r}-\underset{\sim}{c}\rvert=R"></span></div><p>describes a circle with centre <span data-math="C"></span> and radius <span data-math="R>0"></span>.</p><div class="sphere-key"><span data-math="\overrightarrow{CP}=\underset{\sim}{r}-\underset{\sim}{c}"></span></div></div></div><p class="sphere-recall">Recall: <span data-math="\underset{\sim}{u}\cdot\underset{\sim}{u}=\lvert\underset{\sim}{u}\rvert^2"></span>.</p>
+```
+
+<div class="booklet-cue">Previously · Lesson 6</div>
+
+::: {.notes}
+Recall Lesson 6: r points from the origin to P; r−c points from the centre C to P. Ask which vector has constant length. The diagram distinguishes blue OP from gold CP and teal OC. The dot product with itself is a squared magnitude; recall this now so the hinge and Example 3.27 use familiar content.
+:::

@@ -1,0 +1,11 @@
+## Homework 7 · Spheres and applications {#fv7-homework .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4D: Q2, Q3(b), Q5(b), Q7, Q8, Q12, Q13.</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4D: Q2, Q3(b), Q5(b), Q6–8, Q11–14.</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4D: Q5(b), Q7, Q8, Q11–15, Q17.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 7 · p. 82</div>
+
+::: {.notes}
+Copied unchanged from the supplied booklet, p. 82. No additional tasks or homework split.
+:::

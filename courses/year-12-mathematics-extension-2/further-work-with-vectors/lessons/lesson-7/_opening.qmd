@@ -1,0 +1,5 @@
+## Spheres and applications {#fv7-opening .fv-lesson .sphere-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 7</div><div class="cover-title">Spheres and<br>applications</div><div class="cover-subtitle">Further Work with Vectors</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet §3.6 · Examples 3.24–3.31 · Homework 7</div>
+```

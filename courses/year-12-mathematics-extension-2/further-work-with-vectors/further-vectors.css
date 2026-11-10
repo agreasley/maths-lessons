@@ -1,4 +1,51 @@
 /* Topic styles; shared controls and navigation remain in assets/lesson.css. */
+/* Lesson 7: spheres and their planar cross-sections. */
+.reveal .sphere-lesson{font-size:28px}
+.reveal .sphere-lesson p{line-height:1.4;margin:18px 0}
+.reveal .sphere-lesson h3{font-size:25px;color:#217864;margin:8px 0}
+.reveal .sphere-lesson .fv-equation{margin:28px 0;line-height:1.6}
+.reveal .sphere-split{display:grid;grid-template-columns:minmax(0,45fr) minmax(0,55fr);gap:35px;align-items:center}
+.reveal .sphere-split svg{width:100%;height:360px;display:block}
+.reveal .sphere-key{border-left:4px solid #217864;background:#eaf1ec;padding:16px 22px;margin:22px 0;font-size:29px;line-height:1.7}
+.reveal .sphere-recall{border-top:1px solid #cad4d7;padding-top:22px}
+.reveal .sphere-lesson .sphere-small{font-size:23px;color:#52656d}
+.reveal .sphere-centred{text-align:center}
+.reveal .sphere-task{margin-top:35px!important}
+.reveal .sphere-parts p{margin:30px 0}
+.reveal .sphere-prompt{font-size:27px;background:#eaf1ec;border-left:4px solid #217864;padding:18px 22px;line-height:1.45;margin:22px 0}
+.reveal .sphere-paired{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.reveal .sphere-paired h3{text-align:center;font-size:24px}
+.reveal .sphere-paired svg{height:340px;width:100%;display:block}
+.reveal .sphere-section-status{font-size:25px;min-height:49px;line-height:1.7;padding:8px 0;color:#217864}
+.reveal .sphere-slider label{display:flex;justify-content:space-between;align-items:center;font-size:23px}
+.reveal .sphere-slider input{display:block;width:100%;height:42px;margin:0;accent-color:#315985;touch-action:pan-y}
+.reveal .sphere-controls{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 0;align-items:center}
+.reveal .sphere-controls button{font:inherit;font-size:21px;min-height:48px;min-width:80px;padding:8px 15px;border:1px solid #aab8bb;border-radius:7px;background:#f3f6f5;color:#152e3b;cursor:pointer;touch-action:manipulation}
+.reveal .sphere-controls button.primary{background:#315985;border-color:#315985;color:white}
+.reveal .sphere-controls button[aria-pressed=true]{background:#e3ecf5;border-color:#315985}
+.reveal .sphere-controls button:disabled{opacity:.45;cursor:default}
+.reveal .sphere-controls button:focus-visible{outline:3px solid #ad6e32;outline-offset:3px}
+.reveal .sphere-example-visual svg{height:275px}
+.reveal .sphere-comparisons p{display:grid;grid-template-columns:125px 1fr;align-items:center;border-bottom:1px solid #d6dfdf;padding:12px 0;margin:10px 0}
+.reveal .sphere-comparisons strong{font-size:25px;color:#217864}
+.reveal .sphere-line-cases>div{font-size:26px;border-left:4px solid transparent;padding:14px 18px;margin:6px 0;line-height:1.4}
+.reveal .sphere-line-cases>div.current{border-color:#217864;background:#eaf1ec}
+.reveal .sphere-line-cases span{font-size:22px}
+.reveal .sphere-line-graph svg{height:320px}
+.reveal .sphere-line-cases+.sphere-small{margin:8px 0}
+.reveal .sphere-forms>div{display:grid;grid-template-columns:275px 1fr;gap:20px;align-items:center;padding:20px 0;border-bottom:1px solid #cad4d7;font-size:27px}
+.reveal .sphere-forms strong{font-size:24px;color:#217864}
+.reveal #fv7-hinge .hinge-question{font-size:25px}
+.reveal #fv7-hinge .hinge-question p{margin:9px 0}
+.reveal #fv7-hinge .hinge-question .fv-equation{font-size:25px;margin:10px 0;line-height:1.3}
+.reveal #fv7-hinge .choice{font-size:22px;min-height:90px;padding:10px 16px}
+.reveal #fv7-hinge .hinge-toolbar{margin:8px 0;padding:0 0 6px}
+.reveal #fv7-hinge .hinge-bottom p{margin:8px 0;font-size:22px}
+.reveal #fv7-hinge .choices{margin:12px 0}
+.reveal #fv7-hinge .booklet-cue{margin-top:14px}
+.reveal #fv7-hinge .hinge-explanation{font-size:22px}
+.reveal #fv7-finish .sphere-small{font-size:22px;margin:18px 0}
+.reveal #fv7-finish .sphere-prompt{font-size:25px;margin-top:16px}
 /* Lesson 6: circles, with separate point and position-vector reveals. */
 .reveal .circle-lesson{font-size:28px}
 .reveal .circle-lesson p{line-height:1.4;margin:16px 0}

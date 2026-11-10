@@ -1,0 +1,11 @@
+## A sphere described by a diameter {#fv7-diameter .fv-lesson .sphere-lesson }
+
+```{=html}
+<p><span data-math="\overrightarrow{AP}\cdot\overrightarrow{BP}=0"></span>: how does the right angle determine the locus?</p><div data-sphere-diameter></div>
+```
+
+<div class="booklet-cue">Booklet §3.6.1 · pp. 80–81; Example 2.14</div>
+
+::: {.notes}
+Recall Example 2.14: the angle subtended by a diameter at a point on a circle is a right angle. The first stage shows a circle with fixed diameter AB and a right-angle triangle APB. Reveal the sphere to show circles in different planes through the same AB; their union is the sphere with diameter AB. Every P distinct from A and B on the sphere gives a right angle. At P=A or B one vector is zero, so the dot-product equation still holds even though the angle is undefined. The second stage reveals centre (a+b)/2 and radius |b−a|/2. Previous and Reset restore the circle. This prepares the geometric route while Example 3.30(a) still requires algebra. Do not conflate the diameter form (r−a)·(r−b)=0 with the centre form (r−c)·(r−c)=R².
+:::

@@ -393,3 +393,74 @@ Reviewed all slides, the separate point/vector reveals, all translated-circle co
 The hinge starts at 60 seconds. Changing to 30 seconds, Start/Pause/Resume, expiry without revealing the answer, deliberate answer reveal, wrong/correct option highlighting and Reset passed. Correct option 3 and all misconception notes were reviewed. Exact symbolic checks verified Example 3.21’s Cartesian equation and quarter-turn points, the general fixed-distance equation, and the reverse-tracing circle. Homework matches the supplied booklet allocation.
 
 Buttons are at least 46 CSS pixels high and require no hover. WebKit, touch-device emulation, iPad viewport/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. The existing preview-server script closing-tag workaround was applied only to generated HTML, not tracked source. Source publication and the manual Pages deployment are separate.
+
+
+## Lesson 7 — Spheres and applications
+
+Approved coverage: §3.6, Examples 3.24–3.31, every subpart in original order, printed pp. 74–82; Homework 7. One 21-slide deck. Approximately 65–75 minutes for all class working, with a natural stopping point after Example 3.28 if used across two periods. No homework split is imposed. Source wording, numerical values, labels and notation are preserved. Students have completed the circle lesson and already know scalar products, parametric equations and vector lines.
+
+Objective: We are learning to use vector equations of spheres to solve geometric problems.
+Success criterion: I can use a sphere’s equation to find its centre, radius and intersections.
+
+### Sequence and teaching approach
+
+1–4: cover, objective, fixed-distance recap and extension from a circle to a sphere.
+5–7: Examples 3.24–3.25 and the hinge.
+8–10: plane–sphere cross-section visual, then Example 3.26 split into parts (a) and (b).
+11–13: Example 3.27, inside/on/outside comparison, Example 3.28.
+14–15: angled line–sphere intersection visual and Example 3.29.
+16–19: staged diameter interpretation, Example 3.30 split into (a) and (b), Example 3.31.
+20–21: connected representations, Homework 7.
+
+Keep full working in OneNote; solutions and prompts are in presenter notes. Supporting visuals are short prediction/discussion opportunities, not additional named thinking routines. R is a positive scalar radius, r a position vector, and ρ a cross-section radius. The sphere equation is a surface condition; its interior satisfies an inequality.
+
+### Visuals and controls
+
+Circle and sphere introduction: the same fixed-distance geometry with blue OP, teal OC and gold CP. No free rotation. Native SVG mathematical labels remain in the same coordinate system as the geometry. The sphere silhouette is circular under a true orthographic projection; hidden equator arcs are dashed.
+
+Plane–sphere visual: x²+y²+z²=9 and plane z=h, −4≤h≤4. Left: fixed orthographic view; right: face-on view in the plane z=h at the same unit scale. Predict the section before changing h. Presets h=0,2,3,4, continuous slider, Reveal/Hide relationship and Reset. A circle for |h|<3; a point for |h|=3; none for |h|>3. Reveal ρ²+h²=R² and ρ²=9−h²; outside states state no real radius. Reset restores h=0 and hides the algebra. Follow-up: relate the section radius to the sphere radius and distance from the centre. This is a view in z=h, not in the xy-plane except when h=0.
+
+Example 3.26 diagram: spheres of radii 3 and 4 with centres at z=0 and z=4, shown transparently, sharing a highlighted horizontal circle. No numerical solution is revealed in the diagram. Students must retain z=9/8 alongside x²+y²=495/64; omitting the plane condition describes a cylinder in 3D.
+
+Inside/on/outside diagram: a central cross-section with three points, compared by squared distances. In Example 3.28 the given point C is not the centre, so avoid reusing C for the centre in the working.
+
+Line–sphere visual: central plane containing the whole line and the centre, radius 3, line angle 25°. Slider 0≤D≤4 sets perpendicular distance, with presets 0,2,3,4 and Reset to D=2. Correct right-angle marker. Two intersections for D<R, tangency for D=R, none for D>R. Connect these to positive/zero/negative quadratic discriminant and two/one/no real parameter values. Tangency has one repeated root and one point. This recalls minimum distance without reteaching projection.
+
+Diameter visual: first a right-angle triangle on the circle with diameter AB, then circles in different planes through AB forming a sphere. Reveal sphere, Previous and Reset. The centre is (a+b)/2; radius |b−a|/2. For P=A or P=B, the dot product is still zero but the angle is undefined; the endpoints remain part of the locus.
+
+### Mathematical answers
+
+- 3.24: (x−x₀)²+(y−y₀)²+(z−z₀)²=λ², centre (x₀,y₀,z₀), radius λ>0.
+- 3.25: (x+3)²+(y−2)²+(z+1)²=8, centre (−3,2,−1), radius 2√2.
+- 3.26(a): subtract to obtain −8z+16=7, so z=9/8. (b): x²+y²=495/64 AND z=9/8, centre (0,0,9/8), radius 3√55/8.
+- 3.27: (x−1)²+(y−1)²+(z+1)²=20, centre (1,1,−1), radius 2√5.
+- 3.28: centre (1,−2,3), radius 3. Squared distances are 3,9,16 for A,B,C: inside, on, outside respectively.
+- 3.29: substitution gives 9(λ+1)²=36, so λ=1 or −3; points (7,0,−5),(−1,4,3). Suggested, not official, marks: 1 substitution, 1 both parameter values, 1 both points. This particular line passes through the centre (λ=−1), so its intersections form a diameter.
+- 3.30(a): (x−1)(x−3)+(y−2)(y+1)+(z−3)(z+3)=0 becomes (x−2)²+(y−1/2)²+z²=49/4. Centre (2,1/2,0), radius 7/2. (b): diameter AB, midpoint (2,1/2,0), |AB|=7, radius 7/2; use the diameter theorem in the plane APB and allow that plane to vary. Include A,B via zero-vector cases.
+- 3.31: diameter endpoints (1,1,−1),(3,−1,−5), centre (2,0,−3), radius √6. Cartesian form (x−2)²+y²+(z+3)²=6.
+
+### Hinge
+
+For a variable 3D position vector r, (r−c)·(r−c)=16 with c=(1,−2,3). Choices: 1 sphere centre (1,−2,3), radius 4; 2 same centre, radius 16; 3 centre (−1,2,−3), radius 4; 4 all points inside or on the sphere centre (1,−2,3), radius 4. Correct answer 1. Distractors confuse radius squared with radius, reverse the centre signs, and mistake equality for inequality. Ready: cross-sections. Divided: rewrite as |r−c|²=16 and revote. Needs explanation: compare points at distances 3,4,5 from the centre. Shared 1–4 fingers routine, 60-second adjustable timer, Start/Pause/Resume, Reset and separate teacher-controlled answer reveal; expiry does not reveal.
+
+### Homework 7
+
+Cambridge Year 12 Extension 2, Exercise 4D, copied unchanged from booklet p. 82.
+- Mild: Q2, Q3(b), Q5(b), Q7, Q8, Q12, Q13.
+- Medium: Q2, Q3(b), Q5(b), Q6–8, Q11–14.
+- Spicy: Q5(b), Q7, Q8, Q11–15, Q17.
+
+### Preview and publishing
+
+Render courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons/lesson-7.qmd. The topic lists seven lessons and Homework 1–7. Commit source to main; the manual Publish Quarto lessons workflow updates GitHub Pages. Existing URLs are retained.
+
+
+### Lesson 7 validation
+
+Quarto 1.10.18 rendered the 21-slide lesson and topic/course/home listings. Chromium at 1363×936 passed complete forward and backward navigation through all slides. Course → topic → Lesson 7 and the return link work; the topic lists seven lessons. There are no nested slides, unrendered data-math elements, KaTeX errors or foreignObject elements.
+
+Reviewed every slide, the circle/sphere vector diagrams, all plane-section cases (including negative heights), both diameter stages, and secant/tangent/exterior line states. Presets, continuous slider changes, Previous, Reset and independent relationship reveals work. The slice state and reveal survive opening the slide map and returning; native SVG labels remain attached in map previews. The final hinge cue ends at 854 pixels and the cross-section cue at 850 pixels, above navigation at 880 pixels.
+
+The hinge defaults to 60 seconds. Duration adjustment to 30 seconds, Start/Pause/Resume, expiry with the answer still hidden, deliberate answer reveal, wrong-option feedback and Reset passed. Correct option 1 and the three misconception checks were reviewed. Exact symbolic calculations verified the sphere completions, the two-sphere intersection plane and circle, both line–sphere intersection points, both diameter forms and the orthographic projection basis. All eight booklet examples, subparts and Homework 7 allocations were checked.
+
+Controls require no hover, and new buttons have a 48 CSS-pixel minimum height. WebKit, touch emulation, iPad landscape/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. The existing preview-server script closing-tag workaround was applied only to generated HTML, not tracked source. Source publication and the manual Pages deployment remain separate.

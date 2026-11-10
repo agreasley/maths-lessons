@@ -1,0 +1,11 @@
+## Example 3.30 · Geometric interpretation {#fv7-example-3-30b .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>Let <span data-math="P"></span> be a variable point in three-dimensional space, and <span data-math="A=(1,2,3)"></span> and <span data-math="B=(3,-1,-3)"></span> such that</p><div class="fv-equation"><span data-math="\overrightarrow{AP}\cdot\overrightarrow{BP}=0"></span></div><p><strong>b)</strong> By using the result shown in Example 2.14 show how the result in (a) could be determined geometrically.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.30(b) · p. 80</div>
+
+::: {.notes}
+OneNote: for P distinct from A,B, AP·BP=0 implies PA⊥PB (both directions can be reversed together), so ∠APB=90°. In the plane APB, P lies on the circle with diameter AB. As that plane varies, the locus is the sphere with diameter AB; A and B are also included by the dot-product condition. Its centre is (A+B)/2=(2,1/2,0). AB=(2,−3,−6) has length √(4+9+36)=7, so radius 7/2. This gives the same Cartesian equation as part (a). The forward and converse diameter theorem give the full locus, not just one inclusion.
+:::

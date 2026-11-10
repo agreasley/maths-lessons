@@ -1,0 +1,11 @@
+## What happens when a plane cuts a sphere? {#fv7-cross-section .fv-lesson .sphere-lesson }
+
+```{=html}
+<p class="sphere-lead">Predict how the cross-section changes as the plane moves away from the centre.</p><div data-sphere-section></div>
+```
+
+<div class="booklet-cue">Booklet §3.6 · p. 76</div>
+
+::: {.notes}
+Supporting visual: sphere x²+y²+z²=9, with a horizontal plane z=h. Fixed orthographic view on the left, face-on cross-section on the right, both using the same geometric unit scale. Slider h ranges −4 to 4; presets include h=0,2,3,4 and Reset. A circle occurs for |h|<3, one point for |h|=3, no intersection for |h|>3. Ask students to predict before moving. Follow-up: how does the section radius ρ relate to R and the plane’s distance from the centre? Use Reveal relationship to show ρ²+h²=R², then ρ²=9−h² and the current radius. For h outside the sphere, state no real radius rather than evaluating a negative square root. Distinguish the sphere radius R from section radius ρ. The right panel is a view within z=h, not the xy-plane except when h=0. Reset returns h=0 and hides the algebra. Keep this to 2–3 minutes.
+:::

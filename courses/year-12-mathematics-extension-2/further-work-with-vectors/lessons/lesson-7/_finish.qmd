@@ -1,0 +1,9 @@
+## Different equations, the same geometry {#fv7-finish .fv-lesson .sphere-lesson }
+
+```{=html}
+<div class="sphere-forms"><div><strong>Centre and radius</strong><span data-math="|\underset{\sim}{r}-\underset{\sim}{c}|=R"></span></div><div><strong>Squared distance</strong><span data-math="(\underset{\sim}{r}-\underset{\sim}{c})\cdot(\underset{\sim}{r}-\underset{\sim}{c})=R^2"></span></div><div><strong>Cartesian form</strong><span data-math="(x-x_0)^2+(y-y_0)^2+(z-z_0)^2=R^2"></span></div><div><strong>Diameter endpoints</strong><span data-math="(\underset{\sim}{r}-\underset{\sim}{a})\cdot(\underset{\sim}{r}-\underset{\sim}{b})=0"></span></div></div><p class="sphere-small"><span data-math="\underset{\sim}{c}=(x_0,y_0,z_0)"></span>; <span data-math="R>0"></span>. In the diameter form, <span data-math="\underset{\sim}{a}"></span> and <span data-math="\underset{\sim}{b}"></span> are the distinct endpoint position vectors.</p><div class="sphere-prompt">I can use a sphere’s equation to find its centre, radius and intersections.</div>
+```
+
+::: {.notes}
+Brief exit discussion: which form makes the centre clear? Which gives two diameter endpoints? For an intersection, satisfy both equations simultaneously. For two spheres, retain the plane condition when describing their circle of intersection. For line–sphere intersection, return from parameter values to points. These are prompts, not an extra routine.
+:::

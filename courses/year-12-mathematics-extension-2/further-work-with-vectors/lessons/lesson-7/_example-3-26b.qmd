@@ -1,0 +1,11 @@
+## Example 3.26 · The circle of intersection {#fv7-example-3-26b .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>The spheres <span data-math="x^2+y^2+z^2=9"></span> and <span data-math="x^2+y^2+(z-4)^2=16"></span> intersect. Find</p><p><strong>b)</strong> the equation of the circle which they intersect, giving the coordinates of the centre and the radius</p><div class="sphere-split sphere-example-visual"><div data-sphere-static="two-spheres"></div><p class="sphere-prompt">A circle in space needs its plane as well as its radius and centre.</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.26(b) · p. 76</div>
+
+::: {.notes}
+Preserve the original wording. OneNote: substitute z=9/8 into x²+y²+z²=9 to obtain x²+y²=495/64. State both x²+y²=495/64 AND z=9/8. Centre (0,0,9/8), radius √495/8=3√55/8. Without the fixed z condition, x²+y²=495/64 in 3D is a cylinder, not the required circle. The supporting transparent diagram uses the actual radii 3 and 4 with centres (0,0,0),(0,0,4); it highlights the common circle without printing its numerical answers. In the diagram the height h denotes the value found in part (a).
+:::

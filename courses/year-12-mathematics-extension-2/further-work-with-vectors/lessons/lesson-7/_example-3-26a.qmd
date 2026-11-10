@@ -1,0 +1,11 @@
+## Example 3.26 · The plane of intersection {#fv7-example-3-26a .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>The spheres <span data-math="x^2+y^2+z^2=9"></span> and <span data-math="x^2+y^2+(z-4)^2=16"></span> intersect. Find</p><p class="sphere-task"><strong>a)</strong> the value of <span data-math="z"></span> where they intersect</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.26(a) · p. 76</div>
+
+::: {.notes}
+OneNote: subtract the first sphere equation from the second: (z−4)²−z²=16−9, hence −8z+16=7 and z=9/8. Common points therefore lie in the horizontal plane z=9/8. Emphasise that this plane is a necessary condition, not the entire intersection: points must also satisfy either sphere equation. Do not use the term “radical plane” unless helpful; it is not required here.
+:::

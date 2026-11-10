@@ -1,0 +1,11 @@
+## Example 3.31 {#fv7-example-3-31 .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>A sphere has the vector equation</p><div class="fv-equation"><span data-math="(\underset{\sim}{r}-(\underset{\sim}{i}+\underset{\sim}{j}-\underset{\sim}{k}))\cdot(\underset{\sim}{r}-(3\underset{\sim}{i}-\underset{\sim}{j}-5\underset{\sim}{k}))=0."></span></div><p>Find the Cartesian equation of the sphere</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.31 · p. 81</div>
+
+::: {.notes}
+Geometric route in OneNote: diameter endpoints A=(1,1,−1), B=(3,−1,−5). Centre (2,0,−3); diameter length √(4+4+16)=2√6, radius √6. Thus (x−2)²+y²+(z+3)²=6. Algebraic check: (x−1)(x−3)+(y−1)(y+1)+(z+1)(z+5)=0 gives x²+y²+z²−4x+6z+7=0, the same sphere. Prompt students to identify the fixed points before expanding; either valid method is acceptable.
+:::

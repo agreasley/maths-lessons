@@ -1,0 +1,11 @@
+## Example 3.24 {#fv7-example-3-24 .fv-lesson .sphere-lesson }
+
+```{=html}
+<p>Extend Example 3.22 to three dimensions by taking <span data-math="\underset{\sim}{r}=(x,y,z)"></span> and <span data-math="\underset{\sim}{p}=(x_0,y_0,z_0)"></span>. Determine the Cartesian equation of <span data-math="|\underset{\sim}{r}-\underset{\sim}{p}|=\lambda"></span>, where <span data-math="\lambda>0"></span>, and describe the graph.</p>
+```
+
+<div class="booklet-cue">Booklet Example 3.24 · p. 74</div>
+
+::: {.notes}
+OneNote: r−p=(x−x₀,y−y₀,z−z₀). Its magnitude is sqrt((x−x₀)²+(y−y₀)²+(z−z₀)²)=λ. Squaring gives (x−x₀)²+(y−y₀)²+(z−z₀)²=λ², a sphere with centre (x₀,y₀,z₀), radius λ. The source uses p and λ for the fixed centre vector and positive radius; retain these. Ask what changed from Example 3.22: one additional squared component, while the geometric meaning is unchanged.
+:::

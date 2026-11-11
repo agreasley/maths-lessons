@@ -69,9 +69,9 @@
     });
 
     document.querySelectorAll('[data-sphere-section]').forEach(el=>{
-      let height=0,revealed=false;
+      let height=0;
       const id='fv7-section',origin=[240,225],scale=38;
-      el.innerHTML='<div class="sphere-paired"><div><h3>Sphere of radius 3</h3><div class="sphere-section-graph"></div></div><div><h3>View within the plane</h3><div class="sphere-face-graph"></div></div></div><div class="sphere-section-status" aria-live="polite"></div><div class="sphere-slider"><label for="fv7-height"><span>Plane height '+math('h')+'</span><output></output></label><input id="fv7-height" type="range" min="-4" max="4" step="0.05" value="0" aria-label="Plane height h"></div><div class="sphere-controls">'+[0,2,3,4].map(x=>'<button data-height="'+x+'">'+math('h='+x)+'</button>').join('')+'<button data-section-reveal class="primary">Reveal relationship</button><button data-section-reset>Reset</button></div>';
+      el.innerHTML='<div class="sphere-paired"><div><h3>Sphere and cutting plane</h3><div class="sphere-section-graph"></div></div><div><h3>View within the plane</h3><div class="sphere-face-graph"></div></div></div><div class="sphere-section-status" aria-live="polite"></div><div class="sphere-slider"><label for="fv7-height"><span>Plane height '+math('z')+'</span><output></output></label><input id="fv7-height" type="range" min="-4" max="4" step="0.05" value="0" aria-label="Plane height z"></div><div class="sphere-controls">'+[0,1,2,3,4].map(x=>'<button data-height="'+x+'">'+math('z='+x)+'</button>').join('')+'<button data-section-reset>Reset</button></div>';
       function draw(){
         const has=height*height<=9+1e-9,rho=has?Math.sqrt(Math.max(0,9-height*height)):0;
         let left=ball(origin,scale,3,id);
@@ -84,25 +84,25 @@
         let right=seg([95,225],[385,225],C.grey,1)+seg([240,80],[240,370],C.grey,1);
         right+=label([402,225],'x',C.ink,22)+label([240,65],'y',C.ink,22);
         if(has&&rho>1e-6){
-          right+=circle(origin,rho*scale,C.gold,3)+dot(origin,C.ink,3)+seg(origin,[240+rho*scale,225],C.gold,3)+label([240+rho*scale/2,204],'\\rho',C.gold,24);
+          right+=circle(origin,rho*scale,C.gold,3)+dot(origin,C.ink,3);
           right+=label([240,395],'z='+fmt(height),C.blue,23);
         }else if(has){right+=dot(origin,C.gold,6)+label([240,268],'(0,0,'+fmt(height)+')',C.gold,23);}
         else right+=text([240,200],'No intersection',C.ink,25);
         const state=!has?'No intersection':rho<1e-6?'One point':'Circle';
         el.querySelector('.sphere-section-graph').innerHTML=svg(left,id,'Sphere of radius 3 cut by plane z='+fmt(height)+'. '+state+'.');
         el.querySelector('.sphere-face-graph').innerHTML=svg(right,id+'-face','Face-on cross-section in z='+fmt(height)+'. '+state+'. The same unit scale is used as in the sphere view.');
-        let status=state+'. '+(has&&rho>1e-6?'How does its radius depend on the height?':has?'The plane is tangent to the sphere.':'The plane is outside the sphere.');
-        if(revealed)status=math('\\rho^2+h^2=R^2')+'; '+math('\\rho^2=9-h^2')+'. '+(has?math('\\rho'+(Math.abs(rho-Math.round(rho))<1e-9?'=':'\\approx ')+fmt(rho)): 'No real cross-section radius.');
-        el.querySelector('.sphere-section-status').innerHTML=status;
-        el.querySelector('output').innerHTML=math('h='+fmt(height));el.querySelector('input').value=height;
+        // Height has two decimal places, so the exact squared remainder needs at most four.
+        const remainder=Math.round((9-height*height)*10000)/10000;
+        const substitution='x^2+y^2+('+fmt(height)+')^2=9\\quad\\Longrightarrow\\quad x^2+y^2='+remainder;
+        const interpretation=has&&rho>1e-6?'A circle in the plane '+math('z='+fmt(height))+'.':has?'Only '+math('(0,0,'+fmt(height)+')')+': the plane is tangent to the sphere.':math('x^2+y^2')+' cannot be negative, so there is no intersection.';
+        el.querySelector('.sphere-section-status').innerHTML='<div>Substitute '+math('z='+fmt(height))+': &nbsp;'+math(substitution)+'</div><div class="sphere-section-interpretation">'+interpretation+'</div>';
+        el.querySelector('output').innerHTML=math('z='+fmt(height));el.querySelector('input').value=height;
         el.querySelectorAll('[data-height]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.height===height)));
-        el.querySelector('[data-section-reveal]').textContent=revealed?'Hide relationship':'Reveal relationship';
-        el.dataset.height=height;el.dataset.radius=has?fmt(rho):'none';el.dataset.revealed=revealed;
+        el.dataset.height=height;el.dataset.radius=has?fmt(rho):'none';el.dataset.remainder=remainder;
       }
       el.querySelector('input').addEventListener('input',e=>{height=+e.target.value;draw();});
       el.querySelectorAll('[data-height]').forEach(b=>b.addEventListener('click',()=>{height=+b.dataset.height;draw();}));
-      el.querySelector('[data-section-reveal]').addEventListener('click',()=>{revealed=!revealed;draw();});
-      el.querySelector('[data-section-reset]').addEventListener('click',()=>{height=0;revealed=false;draw();});draw();
+      el.querySelector('[data-section-reset]').addEventListener('click',()=>{height=0;draw();});draw();
     });
 
     document.querySelectorAll('[data-sphere-line]').forEach(el=>{

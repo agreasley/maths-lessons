@@ -15,8 +15,9 @@
 .reveal .sphere-prompt{font-size:27px;background:#eaf1ec;border-left:4px solid #217864;padding:18px 22px;line-height:1.45;margin:22px 0}
 .reveal .sphere-paired{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 .reveal .sphere-paired h3{text-align:center;font-size:24px}
-.reveal .sphere-paired svg{height:340px;width:100%;display:block}
-.reveal .sphere-section-status{font-size:25px;min-height:49px;line-height:1.7;padding:8px 0;color:#217864}
+.reveal .sphere-paired svg{height:285px;width:100%;display:block}
+.reveal .sphere-section-status{font-size:25px;min-height:95px;line-height:1.6;padding:8px 0;color:#217864}
+.reveal .sphere-section-status .sphere-section-interpretation{font-size:23px;color:#152e3b;margin-top:6px}
 .reveal .sphere-slider label{display:flex;justify-content:space-between;align-items:center;font-size:23px}
 .reveal .sphere-slider input{display:block;width:100%;height:42px;margin:0;accent-color:#315985;touch-action:pan-y}
 .reveal .sphere-controls{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 0;align-items:center}

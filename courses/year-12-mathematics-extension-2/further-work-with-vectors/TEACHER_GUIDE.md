@@ -412,13 +412,13 @@ Success criterion: I can use a sphere’s equation to find its centre, radius an
 16–19: staged diameter interpretation, Example 3.30 split into (a) and (b), Example 3.31.
 20–21: connected representations, Homework 7.
 
-Keep full working in OneNote; solutions and prompts are in presenter notes. Supporting visuals are short prediction/discussion opportunities, not additional named thinking routines. R is a positive scalar radius, r a position vector, and ρ a cross-section radius. The sphere equation is a surface condition; its interior satisfies an inequality.
+Keep full working in OneNote; solutions and prompts are in presenter notes. Supporting visuals are short prediction/discussion opportunities, not additional named thinking routines. R is a positive scalar radius and r a position vector. The sphere equation is a surface condition; its interior satisfies an inequality.
 
 ### Visuals and controls
 
 Circle and sphere introduction: the same fixed-distance geometry with blue OP, teal OC and gold CP. No free rotation. Native SVG mathematical labels remain in the same coordinate system as the geometry. The sphere silhouette is circular under a true orthographic projection; hidden equator arcs are dashed.
 
-Plane–sphere visual: x²+y²+z²=9 and plane z=h, −4≤h≤4. Left: fixed orthographic view; right: face-on view in the plane z=h at the same unit scale. Predict the section before changing h. Presets h=0,2,3,4, continuous slider, Reveal/Hide relationship and Reset. A circle for |h|<3; a point for |h|=3; none for |h|>3. Reveal ρ²+h²=R² and ρ²=9−h²; outside states state no real radius. Reset restores h=0 and hides the algebra. Follow-up: relate the section radius to the sphere radius and distance from the centre. This is a view in z=h, not in the xy-plane except when h=0.
+Plane–sphere visual: begin with x²+y²+z²=9 and substitute a selected z-value. Left: fixed orthographic view; right: face-on view in that plane at the same unit scale. Presets z=0,1,2,3,4, continuous slider −4≤z≤4 and Reset to z=0. The Cartesian substitution and simplified equation update automatically and remain visible. For z=2, show x²+y²+(2)²=9 ⇒ x²+y²=5: a circle in the plane z=2. For z=−2 the size is the same but the plane differs. For z=3, x²+y²=0 gives only (0,0,3); for z=4, x²+y²=−7 has no real solutions. Ask students to predict the equation before selecting another z-value. No auxiliary radius formula or reveal button is used. Keep the plane condition with each circle equation; the right-hand view is only the xy-plane when z=0.
 
 Example 3.26 diagram: spheres of radii 3 and 4 with centres at z=0 and z=4, shown transparently, sharing a highlighted horizontal circle. No numerical solution is revealed in the diagram. Students must retain z=9/8 alongside x²+y²=495/64; omitting the plane condition describes a cylinder in 3D.
 
@@ -459,8 +459,15 @@ Render courses/year-12-mathematics-extension-2/further-work-with-vectors/lessons
 
 Quarto 1.10.18 rendered the 21-slide lesson and topic/course/home listings. Chromium at 1363×936 passed complete forward and backward navigation through all slides. Course → topic → Lesson 7 and the return link work; the topic lists seven lessons. There are no nested slides, unrendered data-math elements, KaTeX errors or foreignObject elements.
 
-Reviewed every slide, the circle/sphere vector diagrams, all plane-section cases (including negative heights), both diameter stages, and secant/tangent/exterior line states. Presets, continuous slider changes, Previous, Reset and independent relationship reveals work. The slice state and reveal survive opening the slide map and returning; native SVG labels remain attached in map previews. The final hinge cue ends at 854 pixels and the cross-section cue at 850 pixels, above navigation at 880 pixels.
+Reviewed every slide, the circle/sphere vector diagrams, all plane-section cases (including negative heights), both diameter stages, and secant/tangent/exterior line states. Presets, continuous slider changes, Previous, Reset and diameter reveals work. The slice state survives opening the slide map and returning; native SVG labels remain attached in map previews. The final hinge cue ends at 854 pixels, above navigation at 880 pixels. The revised cross-section layout is checked separately below.
 
 The hinge defaults to 60 seconds. Duration adjustment to 30 seconds, Start/Pause/Resume, expiry with the answer still hidden, deliberate answer reveal, wrong-option feedback and Reset passed. Correct option 1 and the three misconception checks were reviewed. Exact symbolic calculations verified the sphere completions, the two-sphere intersection plane and circle, both line–sphere intersection points, both diameter forms and the orthographic projection basis. All eight booklet examples, subparts and Homework 7 allocations were checked.
 
 Controls require no hover, and new buttons have a 48 CSS-pixel minimum height. WebKit, touch emulation, iPad landscape/orientation controls and physical-iPad testing are unavailable here; those checks remain outstanding. The existing preview-server script closing-tag workaround was applied only to generated HTML, not tracked source. Source publication and the manual Pages deployment remain separate.
+
+
+### Cartesian cross-section revision
+
+Replaced the auxiliary radius relationship with direct substitution into x²+y²+z²=9. The selected z-value, substituted equation, simplified equation and plane interpretation are always visible. Removed the relationship reveal and the ρ diagram label; added a z=1 preset. Decimal slider values retain up to four places in 9−z² so displayed equalities stay exact.
+
+Quarto render and Chromium checks passed for presets 0,1,2,3,4, negative z=−2, decimal z=1.95, Reset and state retention through the slide map. Circle, tangent and no-intersection diagrams match the equations. Full forward/backward navigation still visits 21 slides; no nested slides, KaTeX errors, unrendered data-math or foreignObject elements. At 1363×936 the revised booklet cue ends at 842 pixels, above navigation at 880. WebKit and physical-iPad checks remain unavailable.

@@ -1,11 +1,11 @@
 ## What happens when a plane cuts a sphere? {#fv7-cross-section .fv-lesson .sphere-lesson }
 
 ```{=html}
-<p class="sphere-lead">Predict how the cross-section changes as the plane moves away from the centre.</p><div data-sphere-section></div>
+<p class="sphere-lead">Start with the sphere <span data-math="x^2+y^2+z^2=9"></span>. Fix a value of <span data-math="z"></span>.</p><div data-sphere-section></div>
 ```
 
 <div class="booklet-cue">Booklet §3.6 · p. 76</div>
 
 ::: {.notes}
-Supporting visual: sphere x²+y²+z²=9, with a horizontal plane z=h. Fixed orthographic view on the left, face-on cross-section on the right, both using the same geometric unit scale. Slider h ranges −4 to 4; presets include h=0,2,3,4 and Reset. A circle occurs for |h|<3, one point for |h|=3, no intersection for |h|>3. Ask students to predict before moving. Follow-up: how does the section radius ρ relate to R and the plane’s distance from the centre? Use Reveal relationship to show ρ²+h²=R², then ρ²=9−h² and the current radius. For h outside the sphere, state no real radius rather than evaluating a negative square root. Distinguish the sphere radius R from section radius ρ. The right panel is a view within z=h, not the xy-plane except when h=0. Reset returns h=0 and hides the algebra. Keep this to 2–3 minutes.
+Supporting visual: start with x²+y²+z²=9 and substitute the selected z-value directly. The substitution and resulting Cartesian equation stay visible and update with the diagrams. For z=0: x²+y²+0²=9 gives x²+y²=9. For z=1: x²+y²+1²=9 gives x²+y²=8. For z=2: x²+y²+2²=9 gives x²+y²=5, a circle in the plane z=2. Ask students to predict the equation before selecting another height. Negative values are squared in brackets; z=−2 gives the same circle size as z=2, in a different plane. At z=3, x²+y²=0 gives only (0,0,3); at z=4, x²+y²=−7 has no real solutions. Keep the plane condition with the circle equation: the right panel is a view within the selected plane, not the xy-plane except when z=0. Fixed orthographic view on the left, face-on cross-section on the right, both using the same geometric unit scale. Slider z ranges −4 to 4; presets z=0,1,2,3,4 and Reset to z=0. No auxiliary radius relationship or answer reveal is needed. Keep this to 2–3 minutes.
 :::

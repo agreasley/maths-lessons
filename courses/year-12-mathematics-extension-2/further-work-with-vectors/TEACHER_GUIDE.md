@@ -408,7 +408,7 @@ Success criterion: I can use a sphere’s equation to find its centre, radius an
 5–7: Examples 3.24–3.25 and the hinge.
 8–10: plane–sphere cross-section visual, then Example 3.26 split into parts (a) and (b).
 11–13: Example 3.27, inside/on/outside comparison, Example 3.28.
-14–15: angled line–sphere intersection visual and Example 3.29.
+14–15: Example 3.29 to find intersection coordinates, then the angled line–sphere visual as a conceptual follow-up.
 16–19: staged diameter interpretation, Example 3.30 split into (a) and (b), Example 3.31.
 20–21: connected representations, Homework 7.
 
@@ -424,7 +424,7 @@ Example 3.26 diagram: spheres of radii 3 and 4 with centres at z=0 and z=4, show
 
 Inside/on/outside diagram: a central cross-section with three points, compared by squared distances. In Example 3.28 the given point C is not the centre, so avoid reusing C for the centre in the working.
 
-Line–sphere visual: central plane containing the whole line and the centre, radius 3, line angle 25°. Slider 0≤D≤4 sets perpendicular distance, with presets 0,2,3,4 and Reset to D=2. Correct right-angle marker. Two intersections for D<R, tangency for D=R, none for D>R. Connect these to positive/zero/negative quadratic discriminant and two/one/no real parameter values. Tangency has one repeated root and one point. This recalls minimum distance without reteaching projection.
+Line–sphere visual follows Example 3.29. Complete the example by substituting the line components into the sphere, solving for the parameter and substituting back to obtain both points. Then connect the number of parameter values to the possible geometric outcomes. The visual is a general model with radius 3 (the example has radius 6), not a plot of the example’s particular geometry. It uses a central plane containing the whole line and the centre, radius 3, line angle 25°. Slider 0≤D≤4 sets perpendicular distance, with presets 0,2,3,4 and Reset to D=2. Correct right-angle marker. Two intersections for D<R, tangency for D=R, none for D>R. Connect these to positive/zero/negative quadratic discriminant and two/one/no real parameter values. Tangency has one repeated root and one point. This recalls minimum distance without reteaching projection.
 
 Diameter visual: first a right-angle triangle on the circle with diameter AB, then circles in different planes through AB forming a sphere. Reveal sphere, Previous and Reset. The centre is (a+b)/2; radius |b−a|/2. For P=A or P=B, the dot product is still zero but the angle is undefined; the endpoints remain part of the locus.
 
@@ -471,3 +471,8 @@ Controls require no hover, and new buttons have a 48 CSS-pixel minimum height. W
 Replaced the auxiliary radius relationship with direct substitution into x²+y²+z²=9. The selected z-value, substituted equation, simplified equation and plane interpretation are always visible. Removed the relationship reveal and the ρ diagram label; added a z=1 preset. Decimal slider values retain up to four places in 9−z² so displayed equalities stay exact.
 
 Quarto render and Chromium checks passed for presets 0,1,2,3,4, negative z=−2, decimal z=1.95, Reset and state retention through the slide map. Circle, tangent and no-intersection diagrams match the equations. Full forward/backward navigation still visits 21 slides; no nested slides, KaTeX errors, unrendered data-math or foreignObject elements. At 1363×936 the revised booklet cue ends at 842 pixels, above navigation at 880. WebKit and physical-iPad checks remain unavailable.
+
+
+### Line–sphere follow-up sequence revision
+
+Example 3.29 is now slide 14, the number-of-intersections visual is slide 15, and the diameter interpretation remains slide 16. The follow-up prompt begins “We found two intersection points. What other outcomes are possible?” The example’s wording and numbers are unchanged; presenter notes emphasise finding coordinates before interpreting the number of solutions. Quarto render and complete forward/backward navigation through all 21 slides passed in Chromium. The updated follow-up fits above navigation (cue bottom 800 px, navigation top 880 px at 1363×936). No nested slides or KaTeX errors. Existing WebKit/iPad limitations remain.

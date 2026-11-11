@@ -33,9 +33,9 @@ homework: "7 · Exercise 4D"
 
 {{< include lesson-7/_example-3-28.qmd >}}
 
-{{< include lesson-7/_line-sphere.qmd >}}
-
 {{< include lesson-7/_example-3-29.qmd >}}
+
+{{< include lesson-7/_line-sphere.qmd >}}
 
 {{< include lesson-7/_diameter.qmd >}}
 

@@ -1,11 +1,11 @@
 ## How many times can a line meet a sphere? {#fv7-line-sphere .fv-lesson .sphere-lesson }
 
 ```{=html}
-<p class="sphere-lead">Predict the number of intersection points before moving the line.</p><div data-sphere-line></div>
+<p class="sphere-lead">We found two intersection points. What other outcomes are possible?</p><div data-sphere-line></div>
 ```
 
-<div class="booklet-cue">Supporting visual · Example 3.29</div>
+<div class="booklet-cue">Follow-up to Example 3.29 · Interpreting the solutions</div>
 
 ::: {.notes}
-The drawing is a central cross-section in a plane containing the sphere’s centre and the entire line. Thus its circle–line intersections are exactly the sphere–line intersections. The line is angled at 25°, with a slider for its perpendicular distance D from C, 0≤D≤4; sphere radius R=3. Presets D=0,2,3,4. Fixed camera, equal unit scales, a correct right-angle marker, touch-sized controls and Reset. Compare D<R, D=R, D>R and two/one/no real parameter values of the substitution quadratic (discriminant >0,=0,<0). The distance connection recalls Lesson 5 without reteaching projection. Follow-up: what do these pictures tell us about the quadratic we obtain by substituting the line into the sphere? A tangent corresponds to one repeated real root and one geometric point, not two points. A non-zero line direction ensures the quadratic coefficient is positive.
+Use after students have found both intersection points in Example 3.29. First connect its two parameter values to its two points, then ask students to predict other possible outcomes before moving the line. This is a general concept visual, not a plot of the example's specific line and sphere: the visual has radius 3, whereas Example 3.29 has radius 6. The drawing is a central cross-section in a plane containing the sphere’s centre and the entire line. Thus its circle–line intersections are exactly the sphere–line intersections. The line is angled at 25°, with a slider for its perpendicular distance D from C, 0≤D≤4; sphere radius R=3. Presets D=0,2,3,4. Fixed camera, equal unit scales, a correct right-angle marker, touch-sized controls and Reset. Compare D<R, D=R, D>R and two/one/no real parameter values of the substitution quadratic (discriminant >0,=0,<0). The distance connection recalls Lesson 5 without reteaching projection. Follow-up: how would the solutions of our quadratic change in each case? A tangent corresponds to one repeated real root and one geometric point, not two points. A non-zero line direction ensures the quadratic coefficient is positive. Example 3.29 passes through the centre; D=0 illustrates that special case and provides an optional bridge to the diameter interpretation next.
 :::

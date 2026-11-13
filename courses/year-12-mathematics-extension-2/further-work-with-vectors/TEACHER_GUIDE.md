@@ -476,3 +476,55 @@ Quarto render and Chromium checks passed for presets 0,1,2,3,4, negative z=−2,
 ### Line–sphere follow-up sequence revision
 
 Example 3.29 is now slide 14, the number-of-intersections visual is slide 15, and the diameter interpretation remains slide 16. The follow-up prompt begins “We found two intersection points. What other outcomes are possible?” The example’s wording and numbers are unchanged; presenter notes emphasise finding coordinates before interpreting the number of solutions. Quarto render and complete forward/backward navigation through all 21 slides passed in Chromium. The updated follow-up fits above navigation (cue bottom 800 px, navigation top 880 px at 1363×936). No nested slides or KaTeX errors. Existing WebKit/iPad limitations remain.
+
+## Lesson 8 — Vector equations of curves
+
+### Coverage and pacing
+
+Approved twelve-slide sequence: cover, brief component recap, objective/success criterion, Example 3.32, hinge, Example 3.33, Example 3.34, planar spiral, helix, widening spiral, finish, Homework 8. Preserve all source wording and subparts from the current booklet. Coverage is §3.7–3.8.1, printed pp. 83–87. The opening order follows the specifically approved overview.
+
+This is largely consolidation of Year 11 parametric techniques and earlier vector lessons. Allow about 50 minutes: opening/recap 4; Example 3.32 8; hinge 3; Example 3.33 10; Example 3.34 6; visual spiral introduction 12; finish/homework 2; flexible working 5. Keep extra routines out of the lesson. Complete working in OneNote. Each example graph starts hidden; reveal it after the class working to check the sketch.
+
+Objective: We are learning to connect vector equations with the curves they trace.
+
+Success criterion: I can use the components and parameter interval to describe the curve traced.
+
+### Mathematical answers and restrictions
+
+- Example 3.32: let r=xi+yj and equate components: x=1−t,y=t². Hence y=(1−x)², x≤1, with range y≥0. Starts (1,0), moves left/up through (0,1),(−1,4),(−2,9). The slider only displays 0≤t≤3; the actual path continues for all t≥0.
+- Example 3.33(a): cos2t=1−2sin²t gives x=1−2y², −1≤y≤1; x-domain [−1,1]. (b): r(t)=cos(2t)i+sin(t)j, t≥0. (c): bounded sideways parabola through (−1,1),(1,0),(−1,−1), endpoints included. t=0,π/2,π,3π/2,2π gives (1,0),(−1,1),(1,0),(−1,−1),(1,0). Increasing t does not extend the locus beyond these bounds; parts are retraced. The period is 2π. Nonnegative t does not imply nonnegative y.
+- Example 3.34: x²+y²=4 AND z=1; radius 2, centre (0,0,1), in a horizontal plane. Starts (2,0,1), anticlockwise viewed from positive z. A vector representation is r(t)=2cos(t)i+2sin(t)j+k, t≥0. The plane condition is essential: x²+y²=4 alone is a cylinder in 3D. The slider shows one period of the repeating path.
+
+### Visual introduction to spirals
+
+All three comparisons use 0≤t≤4π. Start with the simpler curve, predict, then select the changed equation and trace. Point and position-vector toggles are independent: amber point, blue vector from the origin, its label beneath the graph. Play/Pause, Reset, slider and presets are touch-friendly; there is no hover interaction. Reset restores t=0 and the original equation, clears the point/vector reveals and returns to the 3D view where relevant. Animations pause when navigating, opening the slide map or backgrounding the tab. Example graphs also have a Show/Hide graph control. A faint full-parabola comparison is available for Examples 3.32–3.33.
+
+1. Circle → planar spiral: replace 2 with t in both circular components. Ask: “What will happen if the 2 becomes t in both components?” Then: “Which part makes the curve turn, and which part makes it widen?” The multiplier controls distance from the origin; sine/cosine turn the point.
+2. Circle → helix: keep radius 2 and change z=0 to z=t/π. Ask: “Will this still close up into a circle if z keeps increasing?” Then: “Which coordinate prevents the curve returning to the same point after a full turn?” Name the helix, often informally called a 3D spiral. Top view isolates the circular projection.
+3. Helix → widening spiral: replace radius 2 with t, keeping z=t/π. Ask: “Which part would you change to make it widen as it rises?” Then connect turning, widening and rising to the components. Fixed equal scales within each comparison; no vertical exaggeration. The orthographic projection uses orthonormal screen directions; no free rotation or opaque enclosing surface.
+
+Do not begin Example 3.35 in this deck. Formal radius–height relationships, containing-surface equations, §3.8.2 and the GeoGebra design investigation belong to Lesson 9. No external applet or named thinking routine is needed here.
+
+### Hinge
+
+Additional diagnostic question: r(t)=(2−t)i+t²j, t≥0. Which describes exactly the path? Choices all use y=(2−x)², with restrictions (1) x∈R, (2) x≤2, (3) x≥2, (4) 0≤x≤2. Correct answer 2, because t=2−x≥0. Distractor 1 drops the parameter restriction; 3 reverses the inequality; 4 assumes x must be nonnegative. Ready: Example 3.33. Divided: rewrite t=2−x≥0 and revote. Needs explanation: compare t=0,1,3 and their x-values. Shared simultaneous 1–4 fingers routine, adjustable 60-second timer, Start/Pause/Resume, Reset and separate teacher-controlled answer reveal. Expiry does not reveal the answer.
+
+### Homework 8
+
+Cambridge Year 12 Extension 2, Exercise 4E, unchanged from booklet p. 85:
+
+- Mild: Q1, Q3, Q4, Q6(a), Q10(a).
+- Medium: Q2–6, Q10, Q13(a,b).
+- Spicy: Q5, Q6, Q10, Q13, Q14.
+
+The introductory spiral content does not add Homework 9 or change this allocation.
+
+### Lesson 8 validation and publishing
+
+Quarto 1.10.18 rendered the twelve-slide deck and the updated topic listing. Chromium at 1363×936 passed full forward/backward navigation, course → topic → Lesson 8 navigation and the Topic lessons return link. The topic displays eight lessons and Homework 1–8. No nested slides, unrendered data-math, KaTeX errors or SVG foreignObject elements were found. All slide layouts were reviewed, including revealed example graphs, the hinge explanation, three spiral comparisons, slide-map previews and homework. Revealed example cues remain above the navigation; the hinge explanation cue ends at 826 px with navigation starting at 880 px.
+
+Checked point and vector controls independently, presets, a non-preset slider value, fixed/changing radius, fixed/rising height, 3D/top views and resets. Example 3.33 returns to (1,0) at 2π after reaching (−1,−1) at 3π/2. At 4π the helix reaches (2,0,4), and the widening spiral reaches (4π,0,4). Play traces the curves, and pause on navigation and slide-map entry passed after fixing a late-created slide-map listener. State is retained when returning from the map.
+
+The hinge default is 60 seconds; duration adjustment, Start/Pause/Resume, timer expiry with the answer still hidden, deliberate reveal of correct option 2, wrong-option feedback and Reset passed. Numerical checks independently confirmed the two Cartesian relations and their restrictions, the fixed/changing-radius coordinates, and the orthonormal projection basis. Questions and Homework 8 were checked against the supplied booklet.
+
+WebKit, touch-emulated iPad viewports/orientation and physical-iPad testing are unavailable in this environment; these remain unverified. Native SVG labels and controls with no hover dependency follow the existing compatibility approach. Preview-server closing-tag escaping is applied only to generated HTML, not source. Commit source to main; the manual Publish Quarto lessons workflow updates GitHub Pages.

@@ -1,0 +1,11 @@
+## What if the height changes instead? {#fv8-helix .fv-lesson .curve-lesson}
+
+```{=html}
+<div data-curve-visual="helix"></div>
+```
+
+<div class="booklet-cue">Booklet §3.8.1 · p. 87 · Visual introduction</div>
+
+::: {.notes}
+Begin with a radius-2 circle at z=0. Exact prompt: Will this still close up into a circle if z keeps increasing? Select Rising height to use r(t)=2cos(t)i+2sin(t)j+(t/π)k for 0≤t≤4π. Trace to see it turn and rise while retaining the same distance from the z-axis. Name this a helix, often informally called a spiral in three dimensions. Top view shows the circular projection; 3D view shows the rise. Follow-up: Which coordinate prevents the curve returning to the same point after a full turn? No pitch formula, formal counting task or enclosing-cylinder derivation. Students should connect components to visible features.
+:::

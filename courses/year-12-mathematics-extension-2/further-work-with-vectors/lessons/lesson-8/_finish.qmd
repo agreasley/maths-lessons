@@ -1,0 +1,9 @@
+## The components determine the curve {#fv8-finish .fv-lesson .curve-lesson}
+
+```{=html}
+<div class="curve-summary-grid"><div><h3>Circle</h3><div data-curve-thumbnail="circle"></div><p>Turning with a fixed radius.</p></div><div><h3>Planar spiral</h3><div data-curve-thumbnail="planar"></div><p>Turning with a changing radius.</p></div><div><h3>Helix</h3><div data-curve-thumbnail="helix"></div><p>Turning while the height changes.</p></div></div><div class="curve-key">The components give the coordinates. The parameter interval selects the part traced.</div><p class="curve-success">I can use the components and parameter interval to describe the curve traced.</p>
+```
+
+::: {.notes}
+Briefly ask students to explain one diagram using its component functions. Return to the success criterion. A full Cartesian equation may include extra points, so retain restrictions. In three dimensions a plane condition can also be essential. The spiral examples are an informal introduction; the next lesson develops the formal construction and Example 3.35. This preview belongs in notes, not the homework slide.
+:::

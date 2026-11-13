@@ -410,6 +410,53 @@
 .reveal .inter-success p{margin:12px 0}
 .reveal #fv5-homework .homework-level{font-size:25px;padding:14px 0;line-height:1.4}
 
+/* Lesson 8: general curves and an informal introduction to spirals. */
+.reveal .curve-lesson{font-size:28px}
+.reveal .curve-lesson p{line-height:1.4;margin:18px 0}
+.reveal .curve-lesson h3{font-size:26px;color:#217864;margin:10px 0}
+.reveal .curve-key{border-left:4px solid #217864;padding:15px 20px;background:#eaf1ec;font-size:27px;margin:28px 0}
+.reveal .curve-example-layout{display:grid;grid-template-columns:minmax(0,47fr) minmax(0,53fr);gap:34px;align-items:start}
+.reveal .curve-example-layout>div:first-child{padding-top:10px}
+.reveal .curve-equation{font-size:28px;margin:20px 0;line-height:1.5}
+.reveal .curve-parts p{font-size:27px;margin:27px 0}
+.reveal .curve-placeholder{display:flex;align-items:center;justify-content:center;text-align:center;min-height:300px;border:1px dashed #bac9ca;border-radius:12px;padding:30px;color:#64767d;font-size:24px;margin:15px 0}
+.reveal .curve-placeholder[hidden],.reveal .curve-body[hidden]{display:none}
+.reveal .curve-controls,.reveal .curve-presets,.reveal .curve-modes,.reveal .curve-options{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:8px 0}
+.reveal .curve-lesson button{font:inherit;font-size:21px;min-height:48px;padding:7px 14px;border:1px solid #aababc;background:#f3f6f5;border-radius:7px;color:#152e3b;touch-action:manipulation;cursor:pointer}
+.reveal .curve-lesson button[aria-pressed=true]{background:#e3efeb;border-color:#217864}
+.reveal .curve-lesson button:focus-visible,.reveal .curve-lesson input:focus-visible{outline:3px solid #ad6e32;outline-offset:3px}
+.reveal .curve-reveal{margin:6px 0}
+.reveal .curve-graph svg{display:block;width:100%;height:300px;overflow:visible}
+.reveal .curve-readouts{display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:60px;font-size:21px;line-height:1.35}
+.reveal .curve-point-value{color:#ad6e32;min-height:26px}
+.reveal .curve-vector-value{color:#315985;min-height:28px}
+.reveal .curve-slider label{display:flex;justify-content:space-between;align-items:center;font-size:23px;margin:0}
+.reveal .curve-slider input{display:block;width:100%;height:30px;margin:0;accent-color:#217864;touch-action:pan-y}
+.reveal .curve-presets button{flex:1;padding:5px 9px}
+.reveal .curve-options{justify-content:space-between;margin-bottom:0}
+.reveal .curve-compare{display:flex;align-items:center;font-size:19px;gap:8px;min-height:44px}
+.reveal .curve-compare input{width:23px;height:23px;accent-color:#217864}
+.reveal .curve-window{font-size:17px;color:#64767d}
+.reveal .curve-visual-layout{display:grid;grid-template-columns:minmax(0,51fr) minmax(0,49fr);gap:35px;align-items:start;margin-top:20px}
+.reveal .curve-wide .curve-graph svg{height:420px}
+.reveal .curve-wide .curve-readouts{font-size:25px;min-height:75px}
+.reveal .curve-formula{font-size:26px;margin:23px 0 12px;min-height:45px}
+.reveal .curve-interval{font-size:23px;color:#64767d}
+.reveal .curve-wide .curve-prompt{font-size:26px;margin:22px 0 12px;min-height:75px}
+.reveal .curve-wide .curve-description{font-size:24px;color:#217864;min-height:66px;margin:12px 0}
+.reveal .curve-summary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;margin-top:28px;text-align:center}
+.reveal .curve-summary-grid svg{height:230px;width:100%;display:block}
+.reveal .curve-summary-grid p{font-size:24px;min-height:70px}
+.reveal .curve-success{font-size:25px;color:#52656d}
+.reveal #fv8-hinge .hinge-question{font-size:26px}
+.reveal #fv8-hinge .hinge-question p{margin:8px 0}
+.reveal #fv8-hinge .curve-equation{margin:12px 0}
+.reveal #fv8-hinge .choice{font-size:26px;min-height:80px}
+.reveal #fv8-hinge .hinge-toolbar{margin:12px 0}
+.reveal #fv8-hinge .hinge-bottom p{font-size:23px;margin:12px 0}
+.reveal #fv8-hinge .booklet-cue{margin-top:12px}
+.reveal #fv8-homework .homework-level{font-size:27px;padding:22px 0}
+
 /* Minimum distance: the same joining vector in two methods. */
 .reveal .inter-distance-intro{font-size:25px}
 .reveal .inter-distance-layout{grid-template-columns:minmax(0,44fr) minmax(0,56fr);align-items:center;margin:14px 0}

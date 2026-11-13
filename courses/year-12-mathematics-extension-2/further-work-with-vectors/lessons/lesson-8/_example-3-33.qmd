@@ -1,0 +1,13 @@
+## Example 3.33 {#fv8-example-3-33 .fv-lesson .curve-lesson}
+
+```{=html}
+<div class="curve-example-layout"><div><p>The parametric equations of a curve are</p><div class="curve-equation"><span data-math="x=\cos(2t),\qquad y=\sin t"></span></div><p>where <span data-math="t\ge0"></span>.</p><div class="curve-parts"><p>a) Find the Cartesian equation of the curve</p><p>b) Find the vector equation of the curve</p><p>c) Sketch the curve</p></div></div><div data-curve-visual="bounded" data-concealed="true"></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.33 · p. 84</div>
+
+::: {.notes}
+OneNote (a): cos2t=1−2sin²t, so x=1−2y². Since y=sin t with t≥0, −1≤y≤1; the x-domain is −1≤x≤1. Every y-value in [−1,1] occurs. (b) r(t)=cos(2t)i+sin(t)j, t≥0. (c) Sketch the bounded portion of the sideways parabola, vertex (1,0), endpoints (−1,1) and (−1,−1), all included. At t=0,π/2,π,3π/2,2π the points are (1,0),(−1,1),(1,0),(−1,−1),(1,0). The upper arc is retraced before the lower arc; the full motion repeats every 2π. t≥0 does not imply y≥0.
+
+After students work, Show graph and use quarter-turn presets/Play to check. The slider shows one full period, not the entire allowed t-domain. Ask: Why does increasing t indefinitely not produce the whole parabola? The full-parabola comparison illustrates the excluded sections outside −1≤y≤1. Keep this a brief check; omit the previously proposed separate error-analysis routine.
+:::

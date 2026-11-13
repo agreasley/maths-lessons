@@ -1,0 +1,11 @@
+## From a circle to a spiral {#fv8-planar .fv-lesson .curve-lesson}
+
+```{=html}
+<div data-curve-visual="planar"></div>
+```
+
+<div class="booklet-cue">Booklet §3.8.1 · p. 87 · Visual introduction</div>
+
+::: {.notes}
+Purpose: connect familiar circular components to a changing distance from the origin. Begin in Circle mode, predict, then choose Changing radius and Play. Exact prompt: What will happen if the 2 becomes t in both components? A planar spiral turns around the origin while moving further from it. Trace 0≤t≤4π. Use equal unit scales in both modes, so the size comparison is meaningful. No general spiral formula or formal derivation here. Follow-up: Which part makes the curve turn, and which part makes it widen? Students can say cos t/sin t provide turning while the common multiplier t grows. Allow 1–2 minutes of predictions and discussion. Keep point and blue position vector independently controlled, with r(t) below the graph. Teacher may switch to the circle again at the same t for comparison.
+:::

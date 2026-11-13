@@ -1,0 +1,5 @@
+## Vector equations of curves {#fv8-opening .fv-lesson .curve-lesson .cover}
+
+```{=html}
+<div class="eyebrow">Year 12 Mathematics Extension 2 · Lesson 8</div><div class="cover-title">Vector equations<br>of curves</div><div class="cover-subtitle">Further Work with Vectors</div><img class="fv-cover-image" src="../media/spherical-spiral.svg" alt="A spiral winding around a translucent sphere."><div class="cover-foot">Booklet §3.7–3.8.1 · Examples 3.32–3.34 · Homework 8</div>
+```

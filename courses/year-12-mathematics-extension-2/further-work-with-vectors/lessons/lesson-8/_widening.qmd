@@ -1,0 +1,11 @@
+## What if it widens as it rises? {#fv8-widening .fv-lesson .curve-lesson}
+
+```{=html}
+<div data-curve-visual="widening"></div>
+```
+
+<div class="booklet-cue">Booklet §3.8.1 · p. 87 · Visual introduction</div>
+
+::: {.notes}
+Begin with the constant-radius helix. Exact prompt: Which part of the equation would you change to make it widen as it rises? Select Widening radius to change both circular multipliers from 2 to t, keeping z=t/π. Trace 0≤t≤4π. Follow-up: Which components make it turn, widen and rise? Common multiplier t gives increasing horizontal distance from the z-axis; t/π increases height. Keep this descriptive. The radius–height equation, containing cone, general construction and Example 3.35 investigation belong to Lesson 9. The same true orthographic projection and scale are used for both states; top view isolates the changing radius.
+:::

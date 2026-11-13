@@ -1,0 +1,13 @@
+## Example 3.32 {#fv8-example-3-32 .fv-lesson .curve-lesson}
+
+```{=html}
+<div class="curve-example-layout"><div><p>The position vector of a body at time <span data-math="t"></span> is given by</p><div class="curve-equation"><span data-math="\underset{\sim}{r}(t)=(1-t)\underset{\sim}{i}+t^2\underset{\sim}{j},"></span></div><p>where <span data-math="t\ge0"></span>.</p><div class="curve-parts"><p>a) Find the Cartesian equation of the path of the body and state the domain</p><p>b) Sketch the path of the body.</p></div></div><div data-curve-visual="parabola" data-concealed="true"></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.32 · p. 83</div>
+
+::: {.notes}
+Preserve the source body/time wording; no velocity or acceleration is introduced. OneNote: let r=xi+yj. Equating components gives x=1−t and y=t². Thus t=1−x, so y=(1−x)². Since t≥0, x≤1; range y≥0. The path starts at (1,0), then moves left/up through (0,1), (−1,4), (−2,9). The curve continues beyond the displayed slider interval 0≤t≤3.
+
+Complete the algebra and sketch before selecting Show graph. Reveal point and position vector independently; amber is the point, blue is r(t), whose label is below the graph. Play or drag t to check the path. The faint full parabola can be toggled to compare the excluded branch. Ask: Where does x≤1 come from? Which extra points would we include if we omitted it? The comparison is a follow-up check, not another lengthy activity.
+:::

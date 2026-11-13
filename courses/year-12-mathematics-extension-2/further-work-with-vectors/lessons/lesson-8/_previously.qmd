@@ -1,0 +1,17 @@
+## Previously · Components give coordinates {#fv8-previously .fv-lesson .curve-lesson}
+
+The position vector points from the origin to a point on the curve.
+
+$$\underset{\sim}{r}(t)=f(t)\underset{\sim}{i}+g(t)\underset{\sim}{j}$$
+
+$$x=f(t),\qquad y=g(t)$$
+
+As $t$ varies, the endpoint traces the curve.
+
+::: {.curve-key}
+Equate components, eliminate the parameter, and keep the restrictions.
+:::
+
+::: {.notes}
+Brief recap only, approximately 2 minutes. Students know parametric equations from Year 11, vector equations of lines from Lesson 3, and circles from Lesson 6. The same position-vector interpretation applies to general curves. Let r=xi+yj and equate components. Avoid the term displacement. Ask which familiar parametric techniques can eliminate t: substitution or a trigonometric identity. Do not re-teach these as a long procedure.
+:::

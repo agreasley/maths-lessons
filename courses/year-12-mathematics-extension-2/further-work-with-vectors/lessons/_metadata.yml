@@ -20,6 +20,7 @@ format:
         <script src="../vector-intersections.js"></script>
         <script src="../vector-circles.js"></script>
         <script src="../vector-spheres.js"></script>
+        <script src="../vector-curves.js"></script>
     width: 1280
     height: 800
     margin: 0.09

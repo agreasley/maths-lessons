@@ -1,0 +1,9 @@
+## Today’s learning {#fv8-objective .fv-lesson .curve-lesson}
+
+```{=html}
+<div class="objective"><h3>Lesson objective</h3><p>We are learning to connect vector equations with the curves they trace.</p><h3>Success criteria</h3><p>I can use the components and parameter interval to describe the curve traced.</p></div>
+```
+
+::: {.notes}
+Approximately 50 minutes: opening/recap 4; Example 3.32 8; hinge and response 3; Example 3.33 10; Example 3.34 6; three visual spiral comparisons 12; finish/homework 2, leaving 5 minutes flexible working time. Most techniques are familiar. Preserve the approved twelve-slide sequence and keep the recap short. All booklet questions and subparts are included. Students work in the booklet while the teacher works in OneNote; solutions are in notes. The visual spiral introduction uses §3.8.1 only. Defer Example 3.35, §3.8.2, formal radius–height relationships, containing-surface derivations and designing arbitrary spirals to Lesson 9.
+:::

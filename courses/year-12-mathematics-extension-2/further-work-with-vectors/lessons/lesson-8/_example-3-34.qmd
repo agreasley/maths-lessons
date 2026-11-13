@@ -1,0 +1,13 @@
+## Example 3.34 {#fv8-example-3-34 .fv-lesson .curve-lesson}
+
+```{=html}
+<div class="curve-example-layout"><div><p>Sketch the curve that has parametric equations given by</p><div class="curve-equation"><span data-math="x=2\cos t,\quad y=2\sin t,"></span></div><div class="curve-equation"><span data-math="z=1\quad\text{for }t\ge0."></span></div></div><div data-curve-visual="horizontal" data-concealed="true"></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.34 · p. 86</div>
+
+::: {.notes}
+OneNote: x²+y²=4 AND z=1. A circle with centre (0,0,1), radius 2, in the plane z=1, parallel to the xy-plane. The plane condition matters; x²+y²=4 alone describes a cylinder in three dimensions. Starts at (2,0,1), turns anticlockwise when viewed from the positive z-axis, and repeats. One possible vector equation is r(t)=2cos(t)i+2sin(t)j+k for t≥0. This is a connection, not an extra source subpart.
+
+Work before Show graph. The shaded plane stays at z=1; the dashed vertical segment locates its centre. Ask what stays fixed and what changes. The slider traces one revolution; the source domain t≥0 includes repeated revolutions. Separate point and vector reveals remain available. Fixed orthographic view with a top-view option; no free rotation or opaque enclosing surface.
+:::

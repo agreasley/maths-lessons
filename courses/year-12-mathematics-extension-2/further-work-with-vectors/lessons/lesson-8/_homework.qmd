@@ -1,0 +1,11 @@
+## Homework 8 · Vector equations of curves {#fv8-homework .fv-lesson .curve-lesson}
+
+```{=html}
+<p>Cambridge Year 12 Extension 2</p><div class="homework-level"><strong>Mild</strong><br>Exercise 4E: Q1, Q3, Q4, Q6(a), Q10(a).</div><div class="homework-level"><strong>Medium</strong><br>Exercise 4E: Q2–6, Q10, Q13(a,b).</div><div class="homework-level"><strong>Spicy</strong><br>Exercise 4E: Q5, Q6, Q10, Q13, Q14.</div>
+```
+
+<div class="booklet-cue">Booklet Homework 8 · p. 85</div>
+
+::: {.notes}
+Copied unchanged from booklet p. 85. Informal spiral coverage does not add Homework 9 or alter this allocation.
+:::

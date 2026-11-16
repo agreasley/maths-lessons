@@ -457,6 +457,55 @@
 .reveal #fv8-hinge .booklet-cue{margin-top:12px}
 .reveal #fv8-homework .homework-level{font-size:27px;padding:22px 0}
 
+/* Lesson 9: student investigation followed by optional visual hints. */
+.reveal .spiral-lesson{font-size:28px}
+.reveal .spiral-lesson p{line-height:1.4;margin:20px 0}
+.reveal .spiral-lesson h3{font-size:25px;color:#217864;margin:10px 0 15px}
+.reveal .spiral-key{background:#eaf1ec;border-left:4px solid #217864;padding:14px 20px;margin:25px 0;font-size:26px}
+.reveal .spiral-desmos{background:#edf2ef;border:1px solid #ccdad3;border-radius:12px;padding:22px 28px;margin:30px 0}
+.reveal .spiral-input{font-size:34px;margin:18px 0}
+.reveal .spiral-link{display:inline-block;background:#217864;color:white;padding:11px 18px;border-radius:7px;font-size:24px;min-height:48px;box-sizing:border-box}
+.reveal .spiral-routine{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:40px 0}
+.reveal .spiral-routine>div{border-top:4px solid #217864;padding:20px 15px}
+.reveal .spiral-routine p{font-size:27px;line-height:1.45}
+.reveal .spiral-task p{font-size:26px;line-height:1.4;margin:22px 0}
+.reveal .spiral-task strong{color:#217864}
+.reveal .spiral-two{display:grid;grid-template-columns:minmax(0,51fr) minmax(0,49fr);gap:35px;align-items:start;margin-top:23px}
+.reveal .spiral-graph svg{display:block;width:100%;height:430px}
+.reveal .spiral-slice-text>div:not(.spiral-key){font-size:32px;margin:20px 0}
+.reveal .spiral-gold{color:#ad6e32}
+.reveal .spiral-diagrams{display:grid;grid-template-columns:1fr 1fr;gap:35px;text-align:center}
+.reveal .spiral-diagrams h3{font-size:22px;margin:2px 0}
+.reveal .spiral-diagrams svg{display:block;width:100%;height:315px}
+.reveal .spiral-working{min-height:98px;border-left:4px solid #217864;background:#eaf1ec;padding:8px 20px;margin:10px 0;font-size:27px;box-sizing:border-box}
+.reveal .spiral-working p{font-size:23px;margin:0 0 8px}
+.reveal .spiral-working>div{min-height:35px}
+.reveal .spiral-bottom{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center;margin-top:10px}
+.reveal .spiral-slider label{display:flex;justify-content:space-between;align-items:center;font-size:24px;margin:0}
+.reveal .spiral-slider input{display:block;width:100%;height:38px;margin:0;accent-color:#217864;touch-action:pan-y}
+.reveal .spiral-controls,.reveal .spiral-shapes{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:8px 0}
+.reveal .spiral-lesson button{font:inherit;font-size:22px;min-height:48px;padding:8px 15px;border:1px solid #aababc;background:#f3f6f5;border-radius:7px;color:#152e3b;touch-action:manipulation;cursor:pointer}
+.reveal .spiral-lesson button[aria-pressed=true]{background:#e3efeb;border-color:#217864}
+.reveal .spiral-lesson button:disabled{opacity:.4;cursor:default}
+.reveal .spiral-lesson button:focus-visible,.reveal .spiral-lesson input:focus-visible{outline:3px solid #ad6e32;outline-offset:3px}
+.reveal .spiral-formula{font-size:25px;margin:15px 0 28px}
+.reveal .spiral-predict{font-size:24px}
+.reveal .spiral-period{font-size:26px;color:#217864;margin-top:14px}
+.reveal .spiral-period p{font-size:23px;margin:9px 0}
+.reveal .spiral-cartesian{font-size:26px;margin:10px 0 24px}
+.reveal .spiral-explanation{font-size:23px;line-height:1.4;margin-top:15px;color:#315985}
+.reveal .spiral-explanation p{font-size:23px;margin:12px 0}
+.reveal .spiral-refine{display:grid;grid-template-columns:130px 1fr;gap:12px 24px;align-items:baseline;margin:40px 0}
+.reveal .spiral-refine p{margin:18px 0}
+.reveal .spiral-finish-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:55px 0}
+.reveal .spiral-finish-grid>div{border-top:3px solid #217864;padding:20px 10px}
+.reveal #fv9-cone .booklet-cue,.reveal #fv9-sphere .booklet-cue{margin-top:12px}
+.reveal #fv9-surface .spiral-graph svg{height:365px}
+.reveal #fv9-surface .spiral-two{margin-top:8px}
+.reveal #fv9-surface .spiral-two p{font-size:25px}
+.reveal #fv9-surface .spiral-key{margin:16px 0}
+.reveal #fv9-homework p{margin:50px 0;font-size:30px}
+
 /* Minimum distance: the same joining vector in two methods. */
 .reveal .inter-distance-intro{font-size:25px}
 .reveal .inter-distance-layout{grid-template-columns:minmax(0,44fr) minmax(0,56fr);align-items:center;margin:14px 0}

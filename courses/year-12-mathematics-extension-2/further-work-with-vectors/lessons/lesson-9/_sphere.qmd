@@ -1,0 +1,13 @@
+## Hint · A sphere {#fv9-sphere .fv-lesson .spiral-lesson}
+
+What should the horizontal radius be at the bottom, equator and top?
+
+```{=html}
+<div data-spiral-radius="sphere"></div>
+```
+
+<div class="booklet-cue">Additional support for Example 3.35 · Pythagoras</div>
+
+::: {.notes}
+Sphere centred at the origin, fixed radius R. Here z is a signed height relative to the centre; the vertical side length is |z|. In the central section, the right triangle gives ρ²+z²=R². Because ρ is a distance, take the nonnegative square root: ρ=sqrt(R²−z²), −R≤z≤R. Model R=2. Radius is zero at both poles, maximum 2 at the equator, and equal at opposite heights. Reveal Pythagoras, then the radius function, then substitute z=t/π. This gives ρ(t)=sqrt(4−(t/π)²), −2π≤t≤2π. One curve uses that same multiplier in both cos(t)i and sin(t)j components and third component t/π. The interval changes to cover the whole sphere from south to north; [0,4π] from the starter cannot be retained. The curve lies on the surface, not through the solid ball. At the equator or poles the triangle degenerates and the right-angle marker is hidden. No division or undefined square roots occur at the endpoints.
+:::

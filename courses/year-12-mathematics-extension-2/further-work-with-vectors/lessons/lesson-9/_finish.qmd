@@ -1,0 +1,9 @@
+## Choose the radius, height and turns {#fv9-finish .fv-lesson .spiral-lesson}
+
+```{=html}
+<div class="spiral-finish-grid"><div><h3>Radius</h3><p>How far from the axis at each height?</p></div><div><h3>Height</h3><p>Which heights will the parameter cover?</p></div><div><h3>Turns</h3><p>How quickly does the angle change relative to the height?</p></div></div><div class="spiral-key">The Cartesian relationship describes the containing surface.<br>The vector equation specifies the path along it.</div><p>I can explain how my equation controls a spiral’s radius, height and turns.</p>
+```
+
+::: {.notes}
+Revisit the objective and success criterion through one student explanation. “The Cartesian relationship” refers to the radial identities derived for the spirals in this lesson; this is not a universal rule about Cartesian descriptions. All prompts and exact mathematical relationships are in the notes for later consolidation. No hinge or multiple-choice check has been included, following the teacher’s explicit request.
+:::

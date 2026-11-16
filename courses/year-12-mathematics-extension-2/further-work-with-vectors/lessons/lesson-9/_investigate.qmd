@@ -1,0 +1,13 @@
+## Example 3.35 · Design and investigate {#fv9-investigate .fv-lesson .spiral-lesson}
+
+Can you create spirals that wind around the surfaces of different three-dimensional shapes?
+
+```{=html}
+<div class="spiral-task"><p><strong>a)</strong> Sketch two different shapes you would like your spirals to follow. Choose at least one shape different from those already illustrated in the notes.</p><p><strong>b)</strong> Adapt the vector equation to create your first spiral. Before plotting each change, predict its effect. Use Desmos to test your prediction and refine your equation.</p><p><strong>c)</strong> Record your final vector equation and parameter interval. Explain how the distance from the axis changes with height, and how this produces your intended shape.</p><p><strong>d)</strong> Repeat for your second shape. Compare your two equations: which features have you changed, and which have you retained?</p></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.35 · p. 89 · Adapted for Desmos 3D</div>
+
+::: {.notes}
+All four source parts retained; “GeoGebra” becomes “Desmos” in part b, as requested. Keep this slide displayed for about 15 minutes. Students choose and sketch their own shapes, predict before plotting, and record revisions. At least one design must differ from shapes already illustrated in the notes. Cone/sphere hints are support models, not a replacement task assigning those two shapes to everyone. Circulate and ask: What is fixed at a particular height? Which component did you change? What did you expect? Use later slides selectively if needed, then allow students to return to their designs.
+:::

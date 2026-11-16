@@ -1,0 +1,36 @@
+---
+pagetitle: "Lesson 9 — Designing spirals"
+lesson-title: "Designing spirals"
+description: "Investigate spirals in Desmos 3D, connect horizontal radius to height, and distinguish a curve from its containing surface."
+lesson-order: 9
+booklet: "§3.8.2 · Example 3.35"
+homework: "Complete Example 3.35"
+---
+
+{{< include lesson-9/_opening.qmd >}}
+
+{{< include lesson-9/_objective.qmd >}}
+
+{{< include lesson-9/_previously.qmd >}}
+
+{{< include lesson-9/_setup.qmd >}}
+
+{{< include lesson-9/_thinking.qmd >}}
+
+{{< include lesson-9/_investigate.qmd >}}
+
+{{< include lesson-9/_slice.qmd >}}
+
+{{< include lesson-9/_cone.qmd >}}
+
+{{< include lesson-9/_sphere.qmd >}}
+
+{{< include lesson-9/_turns.qmd >}}
+
+{{< include lesson-9/_surface.qmd >}}
+
+{{< include lesson-9/_refine.qmd >}}
+
+{{< include lesson-9/_finish.qmd >}}
+
+{{< include lesson-9/_homework.qmd >}}

@@ -1,0 +1,11 @@
+## Return to your design {#fv9-refine .fv-lesson .spiral-lesson}
+
+```{=html}
+<div class="spiral-refine"><h3>Refine</h3><p>Use a hint to improve one of your spirals. Predict the effect before changing the equation.</p><h3>Record</h3><p>Write the final vector equation and parameter interval for each design.</p><h3>Explain</h3><p>Show a partner how the radius depends on height and how you control the number of turns.</p></div><div class="spiral-key">Which features have you changed, and which have you retained?</div>
+```
+
+<div class="booklet-cue">Return to Example 3.35 · Design and investigate (c–d)</div>
+
+::: {.notes}
+Return to the original two-shape task; at least one differs from the shapes already in the notes. Allow about 9 minutes, adjusting to how many hints were used. Each student should be able to explain a radius–height relationship and one deliberate change. Partners can check that the same horizontal radius multiplies both circular components, the square root remains real if used, the parameter interval selects the intended heights, and the Cartesian surface alone does not specify the spiral. This is a concise return to the investigation, not an additional named thinking routine.
+:::

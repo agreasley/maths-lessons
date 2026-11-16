@@ -528,3 +528,46 @@ Checked point and vector controls independently, presets, a non-preset slider va
 The hinge default is 60 seconds; duration adjustment, Start/Pause/Resume, timer expiry with the answer still hidden, deliberate reveal of correct option 2, wrong-option feedback and Reset passed. Numerical checks independently confirmed the two Cartesian relations and their restrictions, the fixed/changing-radius coordinates, and the orthonormal projection basis. Questions and Homework 8 were checked against the supplied booklet.
 
 WebKit, touch-emulated iPad viewports/orientation and physical-iPad testing are unavailable in this environment; these remain unverified. Native SVG labels and controls with no hover dependency follow the existing compatibility approach. Preview-server closing-tag escaping is applied only to generated HTML, not source. Commit source to main; the manual Publish Quarto lessons workflow updates GitHub Pages.
+
+
+## Lesson 9 — Designing spirals
+
+### Coverage and pacing
+
+Fourteen slides: cover; objective/success criterion; brief Lesson 8 recap; Desmos setup; Example 3.35 See–Think–Wonder; full design investigation; horizontal-radius hint; cone hint; sphere hint; period/turns hint; curve versus surface; refinement; finish; homework. Coverage is §3.8.2, printed pp. 88–89. Example 3.35 wording, values, notation, numbering and subparts are retained, except the explicitly requested change from GeoGebra to Desmos. Examples 3.36–3.38 and the final spiral homework allocation are deferred. No hinge is included, following the teacher’s explicit instruction.
+
+Allow approximately 50 minutes: opening/recap 4; setup 3; See–Think–Wonder 5; initial investigation 15; selective hints 12; refinement 9; finish/homework 2. Keep students investigating before revealing the hints. The cone and sphere are optional supports, not two designs for students to copy: the booklet requires at least one shape different from the illustrated notes. Use student predictions and explanations while circulating. Worked algebra can be completed in OneNote.
+
+Objective: We are learning to construct vector equations for spirals on different surfaces.
+
+Success criterion: I can explain how my equation controls a spiral’s radius, height and turns.
+
+### Investigation and resources
+
+Use https://www.desmos.com/3d with coordinate triple (2cos(t),2sin(t),t/pi), and set the parameter bounds below the expression to 0≤t≤4π. This reproduces r(t)=2cos(t)i+2sin(t)j+(t/π)k: horizontal radius 2, height 0 to 4, two turns and rise 2 per turn. Students rotate their own Desmos view. The slide contains a direct link rather than an embed or a fabricated saved graph.
+
+See–Think–Wonder is the Project Zero routine already specified in Example 3.35. Attribution: https://www.pz.harvard.edu/resources/see-think-wonder. Preserve all three prompts: describe distance from the axis, height and spacing; explain features using components; propose questions arising from changing the equation or interval. Desmos support: https://help.desmos.com/hc/en-us/articles/25042283517069-Desmos-3D-User-Guide.
+
+### Radius, height and turns
+
+The amber ρ is horizontal distance from the z-axis, not the magnitude of the position vector. At a chosen height, x=ρcosθ and y=ρsinθ. Use the shape’s radius–height relationship first, then substitute the chosen z(t). The height slider moves the horizontal slice; the side-by-side vertical sections expose the similar triangles or right triangle. Hints begin hidden and use Next hint, Previous hint and Reset; the slider remains independent of the reveal stage.
+
+- Cone: apex at the origin, height H=4, top radius R=2. For z>0, ρ/z=R/H. Hence ρ=(R/H)z=z/2 for 0≤z≤4, including the apex. With z=t/π, ρ(t)=t/(2π), 0≤t≤4π. One valid design is r(t)=[t/(2π)]cos(t)i+[t/(2π)]sin(t)j+(t/π)k. The initial similarity ratio is not used at z=0.
+- Sphere: centre at the origin, fixed radius R=2. The right triangle has legs ρ and |z|, so ρ²+z²=R² and ρ=√(4−z²), −2≤z≤2. Substituting z=t/π gives ρ(t)=√(4−(t/π)²), −2π≤t≤2π. One valid design uses this coefficient in front of both cos(t)i and sin(t)j, with (t/π)k. Adjusting the interval is essential: retaining 0≤t≤4π would miss the lower hemisphere and request non-real radii above z=2. At either pole ρ=0; at the equator ρ=2. Degenerate right-angle markers and zero-length labels are suppressed at endpoints.
+- Turns: r(t)=2cos(nt)i+2sin(nt)j+(t/π)k,0≤t≤4π. Change only the circular arguments, retaining the height function and interval. For positive integer n, period of the circular components T=2π/n, number of turns 2n, and rise per turn T/π=2/n. The full space curve is not periodic, since height keeps increasing. The slider ranges from n=1 to n=6; the period/spacing reveal is separate. Replacing every t, including in height, with nt would be a different change.
+
+### Curve and containing surface
+
+In OneNote, x²+y²=ρ(t)²[cos²(nt)+sin²(nt)]=ρ(t)². The presets yield x²+y²=4 with 0≤z≤4; x²+y²=z²/4 with 0≤z≤4; and x²+y²+z²=4. Each is a containing surface for these spirals. The cylinder and cone refer only to their curved surfaces, not filled solids or end discs. Squaring and adding removes the angle–height relationship. It does not produce a complete Cartesian description of the one-dimensional curve. Avoid generalising that parameter elimination always gives a surface.
+
+Reveal the translucent surface, change n, and notice that the surface remains fixed. Surface and curve visibility are independent. At any intermediate height, the spiral selects one point on the surface’s circular cross-section. For the original cylinder, (−2,0,0) satisfies the surface conditions but is not on the spiral: z=0 forces t=0 and (2,0,0). The optional explanation shows this after discussion. The new 3D diagrams use equal spatial scales with an orthographic projection, not free rotation. Fine rear lines remain visible through the translucent surface. Use Desmos for student rotation. In Desmos, x²+y²=4 may initially display as a plane circle: use Extend to 3D or enter x²+y²+0z=4 with restriction {0≤z≤4}.
+
+### Homework and publication
+
+Complete Example 3.35 — Design and investigate, parts (a–d), booklet p. 89. No additional Cambridge questions are allocated here. Homework 1–8 remain unchanged. The topic lists nine lessons and “Homework 1–8 + spiral investigation”. Render lessons/lesson-9.qmd, commit source to main, and run the manual Publish Quarto lessons workflow when ready to update GitHub Pages. Existing lesson URLs remain unchanged.
+
+### Lesson 9 validation
+
+Quarto 1.10.18 rendered the fourteen-slide lesson and topic listing. Chromium at 1363×936 passed full forward/backward navigation, course → topic → lesson navigation, and slide-map entry/return with interactive state retained. Reviewed all slides, three recap thumbnails, horizontal-radius slider, each cone/sphere hint stage, cone tip/base, sphere negative heights and both poles, period/spacing reveal, three surface presets and independent surface/curve toggles. Reset restores the initial controls and hidden explanations. Surface explanation fits above navigation (cue bottom 862 px, navigation top 880 px); the period reveal cue ends at 837 px. Native SVG math labels remain attached in slide-map previews. No nested slides, unrendered data-math, KaTeX errors or SVG foreignObject elements were found. No hinge was created.
+
+New controls have a 48 CSS-pixel minimum button height and require no hover. WebKit, touch emulation, iPad landscape/orientation and physical-iPad testing are unavailable here and remain unverified. Preview-server closing-tag escaping is applied only to generated HTML, not source. The standalone preview uses the public topic URL for return navigation; source uses its existing relative link. Publishing source to main does not trigger the manual Pages workflow.

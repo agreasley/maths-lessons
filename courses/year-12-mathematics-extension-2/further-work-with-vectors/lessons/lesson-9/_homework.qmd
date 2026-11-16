@@ -1,0 +1,9 @@
+## Homework · Complete the investigation {#fv9-homework .fv-lesson .spiral-lesson}
+
+Further Work with Vectors booklet · p. 89
+
+**Example 3.35 — Design and investigate, parts (a–d).**
+
+::: {.notes}
+Homework is to finish and record both designs in Example 3.35, as approved in the overview. The booklet’s final Cambridge Exercise 4E allocation (printed p. 95) remains for the lesson covering Examples 3.36–3.38; it is not assigned or altered here. No extra advice or next-lesson preview appears on the homework slide.
+:::

@@ -1,0 +1,13 @@
+## Example 3.35 · See–Think–Wonder {#fv9-thinking .fv-lesson .spiral-lesson}
+
+```{=html}
+<div class="spiral-routine"><div><h3>a) See</h3><p>Describe what you notice about the curve. Consider its distance from the axis, height and spacing between turns.</p></div><div><h3>b) Think</h3><p>How do the components of the vector equation explain these features? Support your ideas using the equation.</p></div><div><h3>c) Wonder</h3><p>What questions could you investigate by changing the equation or the parameter interval?</p></div></div>
+```
+
+<div class="booklet-cue">Booklet Example 3.35 · p. 89</div>
+
+::: {.notes}
+Retain the three booklet prompts. Allow a minute of individual observation, then pairs and brief class sharing (about 5 minutes total). Separate observations from explanations: constant radius 2; height 0 to 4; two turns; equal vertical spacing. Explanations should refer to the components; sine/cosine provide turning, common amplitude 2 fixes horizontal radius, and t/π increases height linearly. Wonder questions should lead to changes students can test. Avoid supplying the upcoming cone/sphere formulas at this point.
+
+Attribution: The See, Think, Wonder thinking routine was developed by Project Zero, a research centre at the Harvard Graduate School of Education. Source: https://www.pz.harvard.edu/resources/see-think-wonder. The mathematics-specific prompts here are those in the supplied booklet. The routine encourages careful observation and evidence-supported interpretation before inquiry.
+:::

@@ -1,0 +1,13 @@
+## Hint · Think about a horizontal slice {#fv9-slice .fv-lesson .spiral-lesson}
+
+At height $z$, what radius must the spiral have?
+
+```{=html}
+<div data-spiral-slice></div>
+```
+
+<div class="booklet-cue">Additional support for Example 3.35</div>
+
+::: {.notes}
+Define ρ as the horizontal distance from the z-axis, not the magnitude of the position vector OP. The diagram deliberately separates the amber horizontal radius from the teal vertical height and the faint dashed OP. A horizontal circle at height z has coordinates x=ρcosθ,y=ρsinθ. The construction problem is to choose ρ as a function of z, then substitute the chosen height function z=z(t). This slide uses a fixed radius 2 while the height slider moves the circle; the next two hints show how a shape determines a changing radius. No displacement terminology. Follow-up: Does raising this circle change its radius? What would a cone or sphere require instead?
+:::

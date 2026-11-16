@@ -1,0 +1,9 @@
+## Previously · Turning, radius and height {#fv9-previously .fv-lesson .spiral-lesson .curve-lesson}
+
+```{=html}
+<div class="curve-summary-grid"><div><h3>Circle</h3><div data-curve-thumbnail="circle"></div><p>Fixed radius and height.</p></div><div><h3>Planar spiral</h3><div data-curve-thumbnail="planar"></div><p>Changing radius.</p></div><div><h3>Helix</h3><div data-curve-thumbnail="helix"></div><p>Changing height.</p></div></div><div class="spiral-key">How could we choose the components to make a spiral follow a shape?</div>
+```
+
+::: {.notes}
+One-minute recap from Lesson 8. Students already connected cos/sin to turning, a common multiplier to horizontal radius, and the third component to height. Do not present the cone or sphere construction before the investigation. These small comparison sketches show shape only; no common numerical scale is implied.
+:::

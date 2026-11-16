@@ -1,0 +1,13 @@
+## Hint · A cone {#fv9-cone .fv-lesson .spiral-lesson}
+
+How does the radius of a horizontal slice depend on its height?
+
+```{=html}
+<div data-spiral-radius="cone"></div>
+```
+
+<div class="booklet-cue">Additional support for Example 3.35 · Similar triangles</div>
+
+::: {.notes}
+This additional model has apex at z=0 and maximum radius R at height H; the cone widens as z increases. Interactive numerical model: R=2,H=4,0≤z≤4. Similar triangles give ρ/z=R/H for z>0, hence ρ=(R/H)z; this final relationship also holds at z=0. Reveal the ratio, then the radius function, then substitution of z=t/π. For this example ρ=z/2=t/(2π),0≤t≤4π. A possible curve is r(t)=[t/(2π)]cos(t)i+[t/(2π)]sin(t)j+(t/π)k. Put full working in OneNote; the slide shows the radius function and leaves students to adapt their own components. The side view is a central vertical section; half of it supplies the similar triangles. Height slider, Previous hint, Next hint and Reset are touch controls. Do not divide by z at the apex; retain the z>0 qualifier for the ratio stage.
+:::

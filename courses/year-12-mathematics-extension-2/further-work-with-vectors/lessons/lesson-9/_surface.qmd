@@ -1,0 +1,15 @@
+## The spiral and its containing surface {#fv9-surface .fv-lesson .spiral-lesson}
+
+```{=html}
+<div data-spiral-surface></div>
+```
+
+<div class="booklet-cue">Additional consolidation for Example 3.35</div>
+
+::: {.notes}
+Start with the original cylinder spiral visible and the surface hidden. Reveal the translucent surface, then vary n while retaining the radius and height functions. Every new spiral remains on the same surface. Shape presets: cylinder radius 2, 0≤z≤4; cone radius z/2,0≤z≤4; sphere radius 2,−2≤z≤2. All use z=t/π; intervals are [0,4π] for cylinder/cone and [−2π,2π] for sphere. The parameterised curve is a subset of the displayed surface. x²+y²=4 (with the height restriction) describes the curved cylinder surface only, not the solid or two filled end discs. Cone: x²+y²=z²/4,0≤z≤4. Sphere: x²+y²+z²=4. Equal-height circles on each surface contain many points; the spiral picks one angle at each height.
+
+For OneNote: x²+y²=ρ(t)²(cos²(nt)+sin²(nt))=ρ(t)². Substitute ρ=2, ρ=z/2 or ρ=√(4−z²) to obtain each displayed surface.
+
+Eliminating t by summing the squared circular components loses the angle–height relationship. In these examples the resulting Cartesian equation describes a containing surface, not a complete Cartesian description of the curve. Do not make the false generalisation that eliminating a parameter always gives a surface. Counterexample for the original helix: (−2,0,0) satisfies the cylinder conditions but is not on the spiral, since z=0 forces t=0 and hence (2,0,0). The optional explanation reveal shows this after discussion. If demonstrating the cylinder directly in Desmos, use Extend to 3D or enter x²+y²+0z=4 with restriction {0≤z≤4}; without Extend to 3D, Desmos can default to a plane circle. Official guide cited in setup notes. This is a discussion, not a hinge or timed multiple-choice item.
+:::

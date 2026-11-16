@@ -1,0 +1,11 @@
+## Hint · More turns in the same height {#fv9-turns .fv-lesson .spiral-lesson}
+
+```{=html}
+<div data-spiral-turns></div>
+```
+
+<div class="booklet-cue">Booklet §3.8.2 · p. 88 · Support for Example 3.35</div>
+
+::: {.notes}
+Use r(t)=2cos(kt)i+2sin(kt)j+(t/π)k,0≤t≤4π, with scalar multiplier k>0 distinct from unit vector k (underlined notation distinguishes them). Explain the notation explicitly if needed. The slider changes only the arguments of sine/cosine. Radius, height function and t-interval remain fixed. The period of the circular components is T=2π/k, not a period of the full 3D vector function, whose height keeps increasing. The vertical rise per turn is T/π=2/k. Total turns across 0≤t≤4π is 2k. For k=1,2,3,4,5,6 there are 2,4,6,8,10,12 turns. Use multiplier n on the student-facing slide to avoid confusing k with the unit vector. Predict before changing n, then reveal period and rise formulas. Increasing n tightens spacing without changing the containing cylinder. Increasing the parameter interval instead changes the height range. Replacing t everywhere can just reparameterise the curve; change only the circular arguments here.
+:::

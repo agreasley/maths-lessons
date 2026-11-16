@@ -1,0 +1,17 @@
+## Example 3.35 · Get started {#fv9-setup .fv-lesson .spiral-lesson}
+
+In Desmos’s 3D Calculator, create the curve
+
+$$\underset{\sim}{r}(t)=2\cos t\,\underset{\sim}{i}+2\sin t\,\underset{\sim}{j}+\frac{t}{\pi}\underset{\sim}{k},\qquad 0\le t\le4\pi.$$
+
+```{=html}
+<div class="spiral-desmos"><h3>Enter in Desmos 3D</h3><div class="spiral-input"><span data-math="(2\cos(t),\;2\sin(t),\;t/\pi)"></span></div><p>Set the parameter bounds beneath the expression to <span data-math="0\le t\le4\pi"></span>.</p><a class="spiral-link" href="https://www.desmos.com/3d" target="_blank" rel="noopener">Open Desmos 3D</a></div>
+```
+
+Rotate the view to examine the curve from different directions.
+
+<div class="booklet-cue">Booklet Example 3.35 · p. 89 · Adapted for Desmos 3D</div>
+
+::: {.notes}
+Original title is “GeoGebra investigation: designing spirals”. Platform change is teacher-authorised; the original vector equation and interval are unchanged. Desmos uses a coordinate triple and bounds beneath the expression, not GeoGebra’s Curve(...) command. Plain keyboard entry: (2cos(t),2sin(t),t/pi). Ensure radians and manually change the default parameter domain [0,1] to [0,4π]. No sign-in is needed to work; students may record equations in the booklet. Official guide: https://help.desmos.com/hc/en-us/articles/25042283517069-Desmos-3D-User-Guide. Direct calculator link: https://www.desmos.com/3d. Both verified during planning. No invented applet ID or iframe dependency.
+:::

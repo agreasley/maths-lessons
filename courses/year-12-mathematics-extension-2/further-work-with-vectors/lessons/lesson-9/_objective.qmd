@@ -1,0 +1,9 @@
+## Today’s learning {#fv9-objective .fv-lesson .spiral-lesson}
+
+```{=html}
+<div class="objective"><h3>Lesson objective</h3><p>We are learning to construct vector equations for spirals on different surfaces.</p><h3>Success criteria</h3><p>I can explain how my equation controls a spiral’s radius, height and turns.</p></div>
+```
+
+::: {.notes}
+About 50 minutes: opening/recap 4; Desmos setup 3; See–Think–Wonder 5; initial investigation 15; selective hints 12; refinement/sharing 9; finish/homework 2. Hints follow the task and are optional to reveal. No hinge, explicitly requested by the teacher. Example 3.35 is the focus; Examples 3.36–3.38 remain for the following lesson. Homework is to finish the investigation, with the final Cambridge Exercise 4E allocation deferred. Preserve the mathematical task, replacing only GeoGebra-specific wording and syntax with Desmos 3D equivalents. Students work on their own devices; the deck’s diagrams support discussion.
+:::

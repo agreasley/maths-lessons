@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "/courses/year-12-mathematics-extension-1/differential-calculus/lessons/lesson-1.html"
 pagetitle: "Lesson 1 — Differentiating exponential functions"
 lesson-title: "Differentiating exponential functions"
 description: "Rewrite other exponential bases using e, apply the chain rule and combine exponential derivatives with products and quotients."

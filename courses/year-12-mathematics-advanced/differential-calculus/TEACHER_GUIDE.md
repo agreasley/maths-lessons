@@ -2,7 +2,7 @@
 
 ## Lesson 1: Differentiating exponential functions
 
-Year 12 Mathematics Extension 1. Approved coverage: booklet pp. 1–7, Examples 1.1–1.8. Allow approximately 50 minutes with routine subparts completed independently; working every subpart together will take longer.
+Year 12 Mathematics Advanced. Approved coverage: booklet pp. 1–7, Examples 1.1–1.8. Allow approximately 50 minutes with routine subparts completed independently; working every subpart together will take longer.
 
 Opening format: What / Why / Prior learning. The purpose is grounded in a hypothetical medicine-concentration model, and the same question is revisited at the end. For later lessons, choose a real-world purpose, a mathematical capability or a verified historical motivation as appropriate; avoid a generic abstract “why”.
 
@@ -123,3 +123,7 @@ Exact allocation from booklet p. 7. Homework 1 includes BOTH Exercises 5B and 5F
 ## Publish
 
 Review and merge the lesson branch, then manually run Actions → Publish Quarto lessons → main. As documented in the repository README, merging alone does not publish the site. The new topic is discovered automatically by the existing course listing; no existing URLs were changed.
+
+## Course placement
+
+This topic belongs to Year 12 Mathematics Advanced. Homework retains the assigned Cambridge Year 12 Extension 1 textbook references. Topic and lesson aliases preserve the former Extension 1 URLs.

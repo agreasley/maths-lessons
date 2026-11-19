@@ -1,0 +1,9 @@
+## Example 1.8 · HSC application {#dc1-example-1-8 .dc-lesson}
+
+<div class="eyebrow">2018 Advanced HSC 11g · 2 marks</div>
+<p>Differentiate <span data-math="\frac{e^x}{x+1}"></span>.</p>
+<p class="booklet-cue">Booklet p. 6 · Example 1.8</p>
+
+::: notes
+Preserve the booklet's source label “2018 Advanced HSC 11g”; the original examination has not been independently rechecked. Allow a short independent attempt before OneNote discussion. y'=[(x+1)e^x−e^x]/(x+1)²=xe^x/(x+1)², x≠−1. Teacher checking guide, not an official marking scheme: correct quotient-rule substitution, then correct simplification. About three minutes. No automatic worked-answer reveal.
+:::

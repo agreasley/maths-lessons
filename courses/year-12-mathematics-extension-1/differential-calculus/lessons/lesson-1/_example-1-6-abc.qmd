@@ -1,0 +1,8 @@
+## Example 1.6 · Composite exponentials {#dc1-example-1-6-abc .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>
+<div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=3e^{x^2+3}"></span></div><div><span class="part">b)</span><span data-math="y=2^{4x-1}"></span></div><div><span class="part">c)</span><span data-math="y=e^{\sqrt{x}}"></span></div></div><p class="booklet-cue">Booklet p. 5 · Example 1.6(a–c)</p>
+
+::: notes
+(a) y'=6xe^(x²+3). (b) y'=4(ln2)2^(4x-1). (c) y'=e^(sqrt(x))/(2sqrt(x)), for x>0; the original function is defined at x=0 but has no finite derivative there. In (a), distinguish the outside 3 from the +3 inside the exponent. In (b), the base is 2 and the exponent is 4x−1; ln2 remains as a constant factor. Ask students to name the inner function and its derivative. About four minutes.
+:::

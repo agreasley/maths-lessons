@@ -1,0 +1,9 @@
+## Example 1.5 · Composite exponential functions {#dc1-example-1-5 .dc-lesson}
+
+<p>Let <span data-math="y=e^{f(x)}"></span>. Let <span data-math="u=f(x)"></span>. Use the chain rule <span data-math="\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}"></span> to prove that <span data-math="\frac{dy}{dx}=f'(x)e^{f(x)}"></span>.</p>
+<div class="takeaway">The exponent can now be any differentiable function.</div>
+<div data-dc-steps class="dc-stepper "><div aria-live="polite"><div class="dc-step" hidden><span data-math="\frac{dy}{du}=e^u,\qquad\frac{du}{dx}={\color{#b55224}f\prime(x)}"></span></div><div class="dc-step" hidden><span data-math="\frac{dy}{dx}=e^u{\color{#b55224}f\prime(x)}={\color{#b55224}f\prime(x)}e^{f(x)}"></span></div></div><div class="dc-step-controls"><button type="button" class="dc-step-back">Hide last step</button><button type="button" class="dc-step-next primary">Reveal next step</button><button type="button" class="dc-step-reset">Reset</button><span class="dc-step-count" aria-live="polite"></span></div></div><p class="booklet-cue">Booklet p. 4 · Example 1.5</p>
+
+::: notes
+The statement to prove is part of the original question and remains visible. Complete the short proof in OneNote, then optionally reveal the two lines to consolidate. The entire exponent remains inside the exponential. Differentiate it separately and multiply. Follow-up for the next slide: “If the base were a rather than e, which extra constant would appear?” ln a. About three minutes.
+:::

@@ -1,0 +1,13 @@
+## Example 1.1 · Linear exponents {#dc1-example-1-1 .dc-lesson}
+
+<p>Consider the function <span data-math="y=e^{ax+b}"></span> where <span data-math="a"></span> and <span data-math="b"></span> are constants and <span data-math="a\ne0"></span>.</p>
+<ol class="dc-source-parts" type="a">
+<li>Let <span data-math="u=ax+b"></span>. Find <span data-math="\frac{du}{dx}"></span>.</li>
+<li>Write <span data-math="y"></span> in terms of <span data-math="u"></span> and find <span data-math="\frac{dy}{du}"></span>.</li>
+<li>Use the chain rule <span data-math="\frac{dy}{dx}=\frac{dy}{du}\times\frac{du}{dx}"></span> to deduce the derivative.</li>
+</ol>
+<p class="booklet-cue">Booklet p. 1 · Example 1.1(a–c)</p>
+
+::: notes
+Preserve all parts. Work in OneNote. (a) du/dx=a. (b) y=e^u, dy/du=e^u. (c) dy/dx=e^u×a=ae^(ax+b). The exponent stays unchanged. The multiplier is the derivative of the entire exponent, not the exponent itself. b has derivative zero, but still remains in the exponent of the final answer. About three minutes.
+:::

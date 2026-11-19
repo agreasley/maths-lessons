@@ -1,0 +1,8 @@
+## Example 1.7 · Product rule {#dc1-example-1-7-a .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>
+<div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=xe^{2x}"></span></div></div><p class="booklet-cue">Booklet p. 6 · Example 1.7(a)</p>
+
+::: notes
+Identify the outer structure as a product before differentiating. Let u=x and v=e^(2x); u'=1 and v'=2e^(2x). y'=e^(2x)+2xe^(2x)=e^(2x)(1+2x). Product rule supplies two terms; chain rule is needed within the derivative of v. Ask which rule acts on the whole expression and which rule acts inside one factor. Work in OneNote. About three minutes.
+:::

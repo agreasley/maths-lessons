@@ -1,0 +1,9 @@
+## Example 1.3 · Differentiate, then change back {#dc1-example-1-3-differentiate .dc-lesson}
+
+<p class="dc-prompt"><strong>b)</strong> By letting <span data-math="k=\ln a"></span>, differentiate <span data-math="y=e^{kx}"></span> using the chain rule result above.</p>
+<p class="dc-prompt"><strong>c)</strong> Hence, express the derivative in terms of base <span data-math="a"></span>.</p>
+<div data-dc-steps class="dc-stepper dc-compact-stepper"><div aria-live="polite"><div class="dc-step" hidden><p class="dc-step-label">The exponent has constant derivative.</p><span data-math="k={\color{#b55224}\ln a},\qquad\frac{d}{dx}(kx)={\color{#b55224}\ln a}"></span></div><div class="dc-step" hidden><span data-math="\frac{dy}{dx}=ke^{kx}={\color{#b55224}(\ln a)}e^{x\ln a}"></span></div><div class="dc-step" hidden><span data-math="\boxed{\frac{d}{dx}(a^x)={\color{#b55224}(\ln a)}a^x}"></span></div></div><div class="dc-step-controls"><button type="button" class="dc-step-back">Hide last step</button><button type="button" class="dc-step-next primary">Reveal next step</button><button type="button" class="dc-step-reset">Reset</button><span class="dc-step-count" aria-live="polite"></span></div></div><p class="booklet-cue">Booklet p. 3 · Example 1.3(b–c)</p>
+
+::: notes
+Connect the multiplier to the derivative of x ln a. ln a is a constant, not a logarithmic function of x; do not use a logarithmic differentiation formula. The final step uses e^(x ln a)=a^x again. Ask “Why does this recover our familiar result when a=e?” Because ln e=1. For 0<a<1, ln a<0, so the derivative is negative. For a=1, ln 1=0, giving the derivative of a constant. About five minutes for the two Example 1.3 slides.
+:::

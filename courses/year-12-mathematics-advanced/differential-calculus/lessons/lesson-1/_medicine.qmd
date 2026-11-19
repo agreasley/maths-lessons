@@ -1,43 +1,57 @@
-## Medicine concentration {#dc1-medicine .dc-lesson .dc-medicine}
+## Why timing matters {#dc1-medicine .dc-lesson .dc-medicine}
 
-In a model, a medicine’s concentration is initially **80 mg/L** and halves every **4 hours**.
+For some medicines, keeping blood concentration above a target level helps maintain their effect.
 
-$$C(t)=80\left(\frac12\right)^{t/4},\qquad t\ge0$$
-
-<p class="small-note"><span data-math="t"></span> is time in hours; <span data-math="C(t)"></span> is concentration in mg/L.</p>
-
-**How quickly is the concentration falling initially and after 8 hours?**
-
-::: {.fragment data-fragment-index="0"}
-
-<div class="dc-medicine-derivative">
-
-$$C'(t)=80\left(\frac12\right)^{t/4}\ln\left(\frac12\right)\times\frac14
-=-20\ln2\left(\frac12\right)^{t/4}$$
-
+<div class="dc-medicine-layout">
+<div>
+<svg class="dc-medicine-graph" viewBox="0 0 660 460" role="img" aria-label="Blood concentration falls exponentially from 80 mg per litre. Reveal the target level and tangent with Next." xmlns="http://www.w3.org/2000/svg">
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#607078">
+<text x="72" y="28" fill="#152e3b">Blood concentration (mg/L)</text>
+<line x1="72" x2="620" y1="380.00" y2="380.00" stroke="#d7d8ce" stroke-width="1"/>
+<text x="58" y="387.00" text-anchor="end">0</text>
+<line x1="72" x2="620" y1="307.78" y2="307.78" stroke="#d7d8ce" stroke-width="1"/>
+<text x="58" y="314.78" text-anchor="end">20</text>
+<line x1="72" x2="620" y1="235.56" y2="235.56" stroke="#d7d8ce" stroke-width="1"/>
+<text x="58" y="242.56" text-anchor="end">40</text>
+<line x1="72" x2="620" y1="163.33" y2="163.33" stroke="#d7d8ce" stroke-width="1"/>
+<text x="58" y="170.33" text-anchor="end">60</text>
+<line x1="72" x2="620" y1="91.11" y2="91.11" stroke="#d7d8ce" stroke-width="1"/>
+<text x="58" y="98.11" text-anchor="end">80</text>
+<line x1="72.00" x2="72.00" y1="380" y2="387" stroke="#607078"/>
+<text x="72.00" y="410" text-anchor="middle">0</text>
+<line x1="254.67" x2="254.67" y1="380" y2="387" stroke="#607078"/>
+<text x="254.67" y="410" text-anchor="middle">4</text>
+<line x1="437.33" x2="437.33" y1="380" y2="387" stroke="#607078"/>
+<text x="437.33" y="410" text-anchor="middle">8</text>
+<line x1="620.00" x2="620.00" y1="380" y2="387" stroke="#607078"/>
+<text x="620.00" y="410" text-anchor="middle">12</text>
+<path d="M72 55V380H620" fill="none" stroke="#607078" stroke-width="2"/>
+<text x="346" y="450" text-anchor="middle" fill="#152e3b">Hours after absorption</text>
+<path d="M72.00,91.11 L74.28,93.60 L76.57,96.07 L78.85,98.52 L81.13,100.95 L83.42,103.36 L85.70,105.75 L87.98,108.11 L90.27,110.46 L92.55,112.78 L94.83,115.09 L97.12,117.37 L99.40,119.64 L101.68,121.88 L103.97,124.11 L106.25,126.32 L108.53,128.51 L110.82,130.68 L113.10,132.83 L115.38,134.96 L117.67,137.07 L119.95,139.17 L122.23,141.25 L124.52,143.31 L126.80,145.35 L129.08,147.37 L131.37,149.38 L133.65,151.37 L135.93,153.34 L138.22,155.30 L140.50,157.24 L142.78,159.16 L145.07,161.06 L147.35,162.95 L149.63,164.82 L151.92,166.68 L154.20,168.52 L156.48,170.35 L158.77,172.15 L161.05,173.95 L163.33,175.72 L165.62,177.49 L167.90,179.23 L170.18,180.97 L172.47,182.68 L174.75,184.39 L177.03,186.07 L179.32,187.75 L181.60,189.40 L183.88,191.05 L186.17,192.68 L188.45,194.29 L190.73,195.90 L193.02,197.49 L195.30,199.06 L197.58,200.62 L199.87,202.17 L202.15,203.70 L204.43,205.22 L206.72,206.73 L209.00,208.23 L211.28,209.71 L213.57,211.18 L215.85,212.63 L218.13,214.08 L220.42,215.51 L222.70,216.93 L224.98,218.33 L227.27,219.73 L229.55,221.11 L231.83,222.48 L234.12,223.84 L236.40,225.19 L238.68,226.52 L240.97,227.85 L243.25,229.16 L245.53,230.46 L247.82,231.75 L250.10,233.03 L252.38,234.30 L254.67,235.56 L256.95,236.80 L259.23,238.04 L261.52,239.26 L263.80,240.48 L266.08,241.68 L268.37,242.87 L270.65,244.06 L272.93,245.23 L275.22,246.39 L277.50,247.54 L279.78,248.69 L282.07,249.82 L284.35,250.94 L286.63,252.06 L288.92,253.16 L291.20,254.25 L293.48,255.34 L295.77,256.41 L298.05,257.48 L300.33,258.54 L302.62,259.59 L304.90,260.62 L307.18,261.65 L309.47,262.67 L311.75,263.69 L314.03,264.69 L316.32,265.69 L318.60,266.67 L320.88,267.65 L323.17,268.62 L325.45,269.58 L327.73,270.53 L330.02,271.48 L332.30,272.41 L334.58,273.34 L336.87,274.26 L339.15,275.17 L341.43,276.08 L343.72,276.97 L346.00,277.86 L348.28,278.74 L350.57,279.62 L352.85,280.48 L355.13,281.34 L357.42,282.19 L359.70,283.04 L361.98,283.87 L364.27,284.70 L366.55,285.52 L368.83,286.34 L371.12,287.15 L373.40,287.95 L375.68,288.74 L377.97,289.53 L380.25,290.31 L382.53,291.08 L384.82,291.85 L387.10,292.61 L389.38,293.37 L391.67,294.11 L393.95,294.85 L396.23,295.59 L398.52,296.32 L400.80,297.04 L403.08,297.75 L405.37,298.46 L407.65,299.17 L409.93,299.86 L412.22,300.56 L414.50,301.24 L416.78,301.92 L419.07,302.59 L421.35,303.26 L423.63,303.92 L425.92,304.58 L428.20,305.23 L430.48,305.88 L432.77,306.52 L435.05,307.15 L437.33,307.78 L439.62,308.40 L441.90,309.02 L444.18,309.63 L446.47,310.24 L448.75,310.84 L451.03,311.44 L453.32,312.03 L455.60,312.61 L457.88,313.20 L460.17,313.77 L462.45,314.34 L464.73,314.91 L467.02,315.47 L469.30,316.03 L471.58,316.58 L473.87,317.13 L476.15,317.67 L478.43,318.21 L480.72,318.74 L483.00,319.27 L485.28,319.79 L487.57,320.31 L489.85,320.83 L492.13,321.34 L494.42,321.84 L496.70,322.35 L498.98,322.84 L501.27,323.34 L503.55,323.82 L505.83,324.31 L508.12,324.79 L510.40,325.27 L512.68,325.74 L514.97,326.21 L517.25,326.67 L519.53,327.13 L521.82,327.59 L524.10,328.04 L526.38,328.49 L528.67,328.93 L530.95,329.37 L533.23,329.81 L535.52,330.24 L537.80,330.67 L540.08,331.10 L542.37,331.52 L544.65,331.94 L546.93,332.35 L549.22,332.76 L551.50,333.17 L553.78,333.57 L556.07,333.97 L558.35,334.37 L560.63,334.76 L562.92,335.16 L565.20,335.54 L567.48,335.93 L569.77,336.31 L572.05,336.68 L574.33,337.06 L576.62,337.43 L578.90,337.79 L581.18,338.16 L583.47,338.52 L585.75,338.88 L588.03,339.23 L590.32,339.58 L592.60,339.93 L594.88,340.28 L597.17,340.62 L599.45,340.96 L601.73,341.30 L604.02,341.63 L606.30,341.96 L608.58,342.29 L610.87,342.62 L613.15,342.94 L615.43,343.26 L617.72,343.57 L620.00,343.89" fill="none" stroke="#007f78" stroke-width="4"/>
+<g class="fragment" data-fragment-index="0">
+<line x1="72" x2="620" y1="271.67" y2="271.67" stroke="#b55224" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="620" y="258.67" text-anchor="end" fill="#b55224">Target minimum: 30 mg/L</text>
+<line x1="330.48" x2="330.48" y1="271.67" y2="380" stroke="#b55224" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="330.48" y="410" text-anchor="middle" fill="#b55224" font-weight="700">5.7</text>
+<line x1="243.71" x2="417.25" y1="236.00" y2="307.33" stroke="#3b66a8" stroke-width="4"/>
+<circle cx="330.48" cy="271.67" r="6" fill="#b55224" stroke="#f7f5ef" stroke-width="2"/>
+</g></g></svg>
+<p class="dc-model-caption">Illustrative model after absorption: <span data-math="C(t)=80\left(\frac12\right)^{t/4}"></span></p>
+</div>
+<div class="dc-medicine-story fragment" data-fragment-index="0">
+<h3 class="dc-threshold-text">About 5.7 hours</h3>
+<p>The concentration reaches the target minimum of <strong>30 mg/L</strong>.</p>
+<h3 class="dc-rate-text">Falling by 5.2 mg/L per hour</h3>
+<p>Differentiation tells us how quickly it is dropping at that point.</p>
+<p class="dc-rate-maths"><span data-math="C'(5.66)\approx-5.20"></span></p>
+<p class="takeaway">Models like this help inform the time between doses.</p>
+</div>
 </div>
 
-::: {.split .dc-medicine-rates}
-::: {.column-block}
-<h3>Initially</h3>
-
-$$C'(0)=-20\ln2\approx-13.86$$
-
-Falling at **13.86 mg/L per hour**.
-:::
-::: {.column-block}
-<h3>After 8 hours</h3>
-
-$$C'(8)=-5\ln2\approx-3.47$$
-
-Falling at **3.47 mg/L per hour**.
-:::
-:::
-
-<p class="takeaway">After 8 hours, the concentration is falling at <strong>one quarter</strong> of its initial rate.</p>
-
-:::
-
 ::: notes
-Additional hypothetical model, not a booklet example. Revisit the opening prediction: an initial concentration of 80 mg/L halves every four hours. The units of C'(t) are mg/L per hour, equivalently mg L^(-1) h^(-1). Invite students to differentiate the model in OneNote before pressing Next. One press reveals the derivative, both numerical rates and the comparison together; Previous hides that whole worked chunk. The chain-rule factor is 1/4 and ln(1/2)=-ln2. C'(0)=-20ln2≈-13.86294361 and C'(8)=-5ln2≈-3.46573590. The negative signs indicate decreasing concentration. C(8)=20 mg/L and C'(8)=C'(0)/4, so |C'(8)|/|C'(0)|=1/4. Distinguish the instantaneous rate after eight hours from the average change over the first eight hours, (20-80)/8=-7.5 mg/L per hour. The same percentage decrease over equal intervals does not imply a constant absolute rate. This is a mathematical model, not a statement about a particular medicine or dosage. Allow about three minutes.
+A brief teacher-led demonstration of relevance, not a student exercise or a booklet example. Allow about one minute. Say: “Once a medicine has been absorbed, its concentration can fall as the body clears it. For some medicines we want to keep that concentration above a target level.” Show the model and curve, then press Next ONCE: the target line, crossing time, tangent and all explanatory text appear together. Previous hides the entire annotation chunk. No questions, subparts or independent calculation are assigned.
+
+All numbers are illustrative: C(t)=80(1/2)^(t/4) mg/L, with t measured in hours after absorption is effectively complete. The target is 30 mg/L. Solving C(t)=30 gives t*=4ln(30/80)/ln(1/2)=5.660149997 hours. C'(t)=[ln(1/2)/4]C(t), so C'(t*)=30ln(1/2)/4=-5.198603854 mg/L per hour, approximately -5.20. The displayed C'(5.66) is also -5.20 to two decimal places. The blue tangent has this slope on the labelled scales. The graph runs from zero to twelve hours, with a vertical scale from zero to ninety mg/L.
+
+Connect to the opening Why: concentration models show when a target is crossed; differentiation supplies the rate of change. The threshold crossing uses logarithms, not differentiation. Do not describe 5.7 hours as a prescribed time for a second dose: actual dose timing also depends on absorption, accumulation with repeated doses, the medicine and the patient. Keep these qualifications in the spoken explanation if relevant rather than turning the slide into a clinical exercise. Source for the modelling context: D. J. Birkett, Pharmacokinetics made easy 11: Designing dose regimens, Australian Prescriber (1996), https://australianprescriber.tg.org.au/articles/pharmacokinetics-made-easy-11-designing-dose-regimens.html. The model parameters are invented for this demonstration, not taken from the article.
 :::

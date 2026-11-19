@@ -45,12 +45,13 @@
 .reveal .dc-lesson .dc-sheet-generalisation{font-size:25px;padding:2px 0}
 .reveal .dc-lesson .dc-sheet-generalisation .small-note{font-size:19px}
 
-.reveal .dc-medicine>p{font-size:27px;line-height:1.4;margin:16px 0}
-.reveal .dc-medicine>.katex-display{font-size:29px;margin:20px 0 10px}
-.reveal .dc-medicine>p.small-note{font-size:20px;margin:6px 0 22px}
-.reveal .dc-medicine-derivative .katex-display{font-size:27px;margin:24px 0}
-.reveal .dc-medicine-rates{margin:24px 0 0;gap:42px}
-.reveal .dc-medicine-rates h3{font-size:26px;color:var(--teal);margin:0 0 12px}
-.reveal .dc-medicine-rates .katex-display{font-size:26px;margin:12px 0}
-.reveal .dc-medicine-rates p{font-size:25px;margin:10px 0}
-.reveal .dc-medicine .takeaway{font-size:26px;margin:25px 0 0;padding:8px 0 8px 20px}
+.reveal .dc-medicine>p{font-size:29px;line-height:1.4;margin:18px 0 28px}
+.reveal .dc-medicine-layout{display:grid;grid-template-columns:660px 1fr;gap:40px;align-items:start}
+.reveal .dc-medicine-graph{display:block;width:660px;height:460px;max-height:none;max-width:none;margin:0;overflow:visible}
+.reveal .dc-medicine .dc-model-caption{font-size:20px;color:var(--muted);margin:20px 0 0;line-height:1.5}
+.reveal .dc-medicine-story h3{font-size:31px;margin:16px 0 12px;line-height:1.2}
+.reveal .dc-medicine-story h3.dc-rate-text{margin-top:36px;color:var(--blue)}
+.reveal .dc-medicine-story .dc-threshold-text{color:var(--orange)}
+.reveal .dc-medicine-story p{font-size:27px;line-height:1.4;margin:12px 0}
+.reveal .dc-medicine-story .dc-rate-maths{font-size:25px;color:var(--blue)}
+.reveal .dc-medicine-story .takeaway{font-size:27px;margin:32px 0 0;padding:8px 0 8px 20px}

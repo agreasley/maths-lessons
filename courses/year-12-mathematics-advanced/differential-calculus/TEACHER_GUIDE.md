@@ -32,7 +32,7 @@ Allow about 50 minutes with brief proofs and some routine subparts completed ind
 
 ### What, why and prior learning
 
-The new opening intentionally replaces the usual objective/success-criteria pair. Success criterion, revisited near the end: I can select and apply the appropriate differentiation rules to an exponential function. Use the medicine as a hypothetical exponential-decay model, not a claim that every medicine behaves this way. Ask orally: “A model starts at 80 mg/L and the concentration halves every four hours. Will it be falling at the same rate after eight hours as initially?” Take predictions without solving yet. Intended distinction: constant percentage decrease versus changing absolute rate of decrease. Return to the question near the end. No medical decisions or dosage calculations are involved.
+The opening replaces the usual objective/success-criteria pair. Success criterion, revisited near the end: I can select and apply the appropriate differentiation rules to an exponential function. Briefly introduce the relevance: concentration models and their rates of change help inform dose timing. No calculation or prediction is required from students here. The final slide is a short teacher-led illustration with a hypothetical concentration model, a target minimum and a tangent showing the rate of decrease. The crossing time is found with logarithms; differentiation gives the instantaneous rate. Actual dose schedules also depend on absorption, repeated doses and patient-specific factors. Source context is recorded in the final slide notes.
 
 ### Previously · The natural exponential
 
@@ -98,9 +98,13 @@ Preserve the booklet's source label “2018 Advanced HSC 11g”; the original ex
 
 Invite students to explain the role of each factor rather than memorise a string of symbols. Ask a student to contrast Example 1.6(b), Example 1.7(a) and Example 1.7(b). Evidence of success: identifies the expression's structure, keeps the original exponential factor and includes all necessary derivative factors. Record concise key ideas in the booklet. About one minute.
 
-### Medicine concentration
+### Why timing matters
 
-Additional hypothetical model, not a booklet example. Revisit the opening prediction: an initial concentration of 80 mg/L halves every four hours. The units of C'(t) are mg/L per hour, equivalently mg L^(-1) h^(-1). Invite students to differentiate the model in OneNote before pressing Next. One press reveals the derivative, both numerical rates and the comparison together; Previous hides that whole worked chunk. The chain-rule factor is 1/4 and ln(1/2)=-ln2. C'(0)=-20ln2≈-13.86294361 and C'(8)=-5ln2≈-3.46573590. The negative signs indicate decreasing concentration. C(8)=20 mg/L and C'(8)=C'(0)/4, so |C'(8)|/|C'(0)|=1/4. Distinguish the instantaneous rate after eight hours from the average change over the first eight hours, (20-80)/8=-7.5 mg/L per hour. The same percentage decrease over equal intervals does not imply a constant absolute rate. This is a mathematical model, not a statement about a particular medicine or dosage. Allow about three minutes.
+A brief teacher-led demonstration of relevance, not a student exercise or a booklet example. Allow about one minute. Say: “Once a medicine has been absorbed, its concentration can fall as the body clears it. For some medicines we want to keep that concentration above a target level.” Show the model and curve, then press Next ONCE: the target line, crossing time, tangent and all explanatory text appear together. Previous hides the entire annotation chunk. No questions, subparts or independent calculation are assigned.
+
+All numbers are illustrative: C(t)=80(1/2)^(t/4) mg/L, with t measured in hours after absorption is effectively complete. The target is 30 mg/L. Solving C(t)=30 gives t*=4ln(30/80)/ln(1/2)=5.660149997 hours. C'(t)=[ln(1/2)/4]C(t), so C'(t*)=30ln(1/2)/4=-5.198603854 mg/L per hour, approximately -5.20. The displayed C'(5.66) is also -5.20 to two decimal places. The blue tangent has this slope on the labelled scales. The graph runs from zero to twelve hours, with a vertical scale from zero to ninety mg/L.
+
+Connect to the opening Why: concentration models show when a target is crossed; differentiation supplies the rate of change. The threshold crossing uses logarithms, not differentiation. Do not describe 5.7 hours as a prescribed time for a second dose: actual dose timing also depends on absorption, accumulation with repeated doses, the medicine and the patient. Keep these qualifications in the spoken explanation if relevant rather than turning the slide into a clinical exercise. Source for the modelling context: D. J. Birkett, Pharmacokinetics made easy 11: Designing dose regimens, Australian Prescriber (1996), https://australianprescriber.tg.org.au/articles/pharmacokinetics-made-easy-11-designing-dose-regimens.html. The model parameters are invented for this demonstration, not taken from the article.
 
 ### Homework 1 · Exercise 5B
 
@@ -139,3 +143,9 @@ The complete-page image proportions and red-outline placement were checked in Ch
 Example titles now show only their number and relevant subparts; the hinge title is simply “Hinge question”. Plain content on the shared background, teal headings and light separators replace the white content panels. Derivation working reveals as a whole chunk on Next. The medicine application now displays C(t)=80(1/2)^(t/4) with units, its derivative and quantified rates at zero and eight hours.
 
 Latest checks: rendered all 21 slides with Quarto 1.10.18; checked the numerical medicine rates and their 1:4 ratio; confirmed every booklet example expression is unchanged. In Chromium at 1363 × 936, checked the single-chunk Next/Previous behaviour for both Example 1.3 slides and Example 1.5, the medicine reveal and its equation layout, the simplified opening and reference-sheet appearance, and no maths-renderer errors. Safari/WebKit and physical-iPad testing remain unavailable.
+
+## Relevance demonstration
+
+The ending is now a one-minute teacher demonstration with a concentration graph, a 30 mg/L target, a crossing at approximately 5.7 hours and a tangent rate of approximately -5.2 mg/L per hour. One Next click reveals the annotations and explanation together. It does not ask students to calculate a dosing schedule. The opening Why statement uses the same rationale.
+
+Validation of the relevance demonstration: recalculated the threshold crossing and derivative, rendered with Quarto 1.10.18, and checked the graph, tangent, labels, single-click reveal and Previous hide in Chromium at 1363 × 936. No maths errors or measured slide overflow. SVG labels use native text in the same coordinate system as the graph, with no foreignObject. Safari/WebKit and physical-iPad testing were unavailable.

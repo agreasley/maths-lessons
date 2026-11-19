@@ -1,4 +1,4 @@
-## Example 1.4 · Other bases {#dc1-example-1-4 .dc-lesson}
+## Example 1.4 {#dc1-example-1-4 .dc-lesson}
 
 <div class="dc-result"><span data-math="\frac{d}{dx}(a^x)=(\ln a)a^x\qquad(a>0)"></span></div>
 <p>Differentiate the following functions:</p>

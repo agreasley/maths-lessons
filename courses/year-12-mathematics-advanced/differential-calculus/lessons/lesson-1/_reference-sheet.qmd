@@ -1,4 +1,4 @@
-## Using the HSC reference sheet {#dc1-reference-sheet .dc-lesson}
+## HSC reference sheet {#dc1-reference-sheet .dc-lesson}
 
 <div class="dc-sheet-layout">
 <figure class="dc-sheet-page">

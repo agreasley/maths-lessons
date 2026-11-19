@@ -1,4 +1,4 @@
-## Example 1.7 · Quotient rule {#dc1-example-1-7-b .dc-lesson}
+## Example 1.7(b) {#dc1-example-1-7-b .dc-lesson}
 
 <p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>
 <div class="dc-problem-list"><div><span class="part">b)</span><span data-math="y=\frac{e^x}{x^2}"></span></div></div><p class="booklet-cue">Booklet p. 6 · Example 1.7(b)</p>

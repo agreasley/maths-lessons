@@ -1,38 +1,35 @@
 .reveal .dc-lesson .dc-intentions{display:grid;gap:16px}
-.reveal .dc-lesson .dc-intention{display:grid;grid-template-columns:220px 1fr;gap:25px;padding:20px 24px;background:white;border-left:5px solid var(--teal);font-size:29px;line-height:1.35}
+.reveal .dc-lesson .dc-intention{display:grid;grid-template-columns:220px 1fr;gap:25px;padding:20px 0;border-bottom:1px solid var(--rule);font-size:29px;line-height:1.35}
 .reveal .dc-lesson .dc-intention strong{color:var(--teal)}
 .reveal .dc-lesson .dc-intention p{margin:0}
 .reveal .dc-lesson .dc-intention.dc-prior{font-size:25px}
 .reveal .dc-cover .cover-title{font-size:68px;margin-top:30px;max-width:850px}
 .reveal .dc-cover .cover-subtitle{max-width:760px}
 .reveal .dc-cover-figure{position:absolute;right:55px;bottom:125px;width:320px;height:210px}
-.reveal .dc-lesson .dc-context{font-size:37px;line-height:1.4;padding:28px;border:2px solid var(--teal);background:#fff;max-width:1100px}
 .reveal .dc-lesson .dc-problem-list{display:grid;gap:28px;font-size:35px;margin-top:30px}
 .reveal .dc-lesson .dc-problem-list>div{display:flex;align-items:center;gap:24px;min-height:78px}
 .reveal .dc-lesson .dc-problem-list .part{font-size:27px;color:var(--muted);min-width:35px}
 .reveal .dc-lesson .dc-source-parts{font-size:27px;line-height:1.4}
 .reveal .dc-lesson .dc-source-parts li{margin:18px 0}
 .reveal .dc-lesson .dc-source-parts .katex{font-size:1.06em}
-.reveal .dc-lesson .dc-result{padding:18px 23px;background:white;border-left:5px solid var(--teal);font-size:30px;margin:20px 0}
+.reveal .dc-lesson .dc-result{padding:10px 0;font-size:30px;margin:20px 0}
 .reveal .dc-lesson .dc-result .katex-display{margin:10px 0}
-.reveal .dc-lesson .dc-stepper{margin:20px 0}
-.reveal .dc-lesson .dc-step{padding:13px 20px;margin:10px 0;border-left:4px solid var(--teal);background:#fff;font-size:30px;line-height:1.35}
+.reveal .dc-lesson .dc-working{margin:26px 0}
+.reveal .dc-lesson .dc-step{padding:8px 0;margin:20px 0;font-size:30px;line-height:1.35}
 .reveal .dc-lesson .dc-step p{margin:5px 0}
 .reveal .dc-lesson .dc-step .katex-display{margin:8px 0}
 .reveal .dc-lesson .dc-step-label{font-size:20px;color:var(--muted)}
-.reveal .dc-lesson .dc-step-controls{display:flex;gap:12px;align-items:center;margin-top:18px}
-.reveal .dc-lesson .dc-step-count{font-size:19px;color:var(--muted)}
 .reveal .dc-lesson .dc-prompt{font-size:28px;color:var(--ink);margin:16px 0}
 .reveal .dc-lesson .dc-sheet-source{font-size:19px;margin:15px 0;color:var(--muted)}
 .reveal .dc-lesson .dc-key-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.reveal .dc-lesson .dc-key-grid>div{padding:20px;background:white;border-top:4px solid var(--teal)}
-.reveal .dc-lesson .dc-key-grid h3{font-size:25px;margin:0 0 18px}
+.reveal .dc-lesson .dc-key-grid>div{padding:10px 0}
+.reveal .dc-lesson .dc-key-grid h3{font-size:25px;color:var(--teal);margin:0 0 18px}
 .reveal .dc-lesson .dc-key-grid .katex{font-size:1em}
 .reveal .dc-homework .homework-level{grid-template-columns:120px 1fr;font-size:25px;padding:15px 0}
 .reveal .dc-homework .homework-level p{margin:6px 0;line-height:1.4}
 .reveal .dc-homework .homework-level .dc-exercise{font-size:20px;font-weight:700;color:var(--muted)}
-.reveal .dc-lesson .dc-compact-stepper .dc-step{font-size:27px;padding:10px 17px}
-.reveal .dc-lesson .dc-compact-stepper .dc-step .katex-display{margin:5px 0}
+.reveal .dc-lesson .dc-compact-working .dc-step{font-size:27px;padding:8px 0}
+.reveal .dc-lesson .dc-compact-working .dc-step .katex-display{margin:5px 0}
 
 .reveal .dc-lesson .dc-sheet-layout{display:grid;grid-template-columns:420px 1fr;gap:48px;align-items:start}
 .reveal .dc-lesson .dc-sheet-page{margin:0;width:420px}
@@ -42,8 +39,18 @@
 .reveal .dc-lesson .dc-sheet-highlight-e{top:46.4%;height:3.8%}
 .reveal .dc-lesson .dc-sheet-highlight-a{top:56.8%;height:3.8%}
 .reveal .dc-lesson .dc-sheet-page figcaption{font-size:16px;line-height:1.3;margin-top:8px;color:var(--muted)}
-.reveal .dc-lesson .dc-sheet-rule{padding:14px 22px;margin:0 0 20px;background:#fff;border-left:4px solid var(--teal)}
-.reveal .dc-lesson .dc-sheet-rule h3{font-size:26px;margin:0 0 12px}
+.reveal .dc-lesson .dc-sheet-rule{padding:8px 0 20px;margin:0 0 20px;border-bottom:1px solid var(--rule)}
+.reveal .dc-lesson .dc-sheet-rule h3{font-size:26px;color:var(--teal);margin:0 0 12px}
 .reveal .dc-lesson .dc-sheet-rule p{font-size:25px;margin:10px 0}
 .reveal .dc-lesson .dc-sheet-generalisation{font-size:25px;padding:2px 0}
 .reveal .dc-lesson .dc-sheet-generalisation .small-note{font-size:19px}
+
+.reveal .dc-medicine>p{font-size:27px;line-height:1.4;margin:16px 0}
+.reveal .dc-medicine>.katex-display{font-size:29px;margin:20px 0 10px}
+.reveal .dc-medicine>p.small-note{font-size:20px;margin:6px 0 22px}
+.reveal .dc-medicine-derivative .katex-display{font-size:27px;margin:24px 0}
+.reveal .dc-medicine-rates{margin:24px 0 0;gap:42px}
+.reveal .dc-medicine-rates h3{font-size:26px;color:var(--teal);margin:0 0 12px}
+.reveal .dc-medicine-rates .katex-display{font-size:26px;margin:12px 0}
+.reveal .dc-medicine-rates p{font-size:25px;margin:10px 0}
+.reveal .dc-medicine .takeaway{font-size:26px;margin:25px 0 0;padding:8px 0 8px 20px}

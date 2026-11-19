@@ -1,4 +1,4 @@
-## Example 1.2 · Linear exponential derivatives {#dc1-example-1-2-abc .dc-lesson}
+## Example 1.2(a–c) {#dc1-example-1-2-abc .dc-lesson}
 
 <div class="dc-result"><span data-math="\frac{d}{dx}(ke^{ax})=kae^{ax}\qquad\frac{d}{dx}(e^{ax+b})=ae^{ax+b}"></span></div>
 <p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>

@@ -1,4 +1,4 @@
-## Example 1.6 · Negative and reciprocal exponents {#dc1-example-1-6-def .dc-lesson}
+## Example 1.6(d–f) {#dc1-example-1-6-def .dc-lesson}
 
 <p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>
 <div class="dc-problem-list"><div><span class="part">d)</span><span data-math="y=e^{-x^2+2x}"></span></div><div><span class="part">e)</span><span data-math="y=e^{\frac1x}"></span></div><div><span class="part">f)</span><span data-math="y=5^{1-x^2}"></span></div></div><p class="booklet-cue">Booklet p. 5 · Example 1.6(d–f)</p>

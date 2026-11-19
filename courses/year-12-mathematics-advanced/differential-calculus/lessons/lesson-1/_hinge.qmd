@@ -1,4 +1,4 @@
-## Hinge question · Which factors do we need? {#dc1-hinge .dc-lesson}
+## Hinge question {#dc1-hinge .dc-lesson}
 
 <div data-module="hinge" data-correct="3" class="hinge numeric-choices">
 <p class="hinge-question">For <span data-math="y=3^{2x+1}"></span>, which expression is <span data-math="\frac{dy}{dx}"></span>?</p>

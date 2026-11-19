@@ -1,4 +1,4 @@
-## Example 1.1 · Linear exponents {#dc1-example-1-1 .dc-lesson}
+## Example 1.1 {#dc1-example-1-1 .dc-lesson}
 
 <p>Consider the function <span data-math="y=e^{ax+b}"></span> where <span data-math="a"></span> and <span data-math="b"></span> are constants and <span data-math="a\ne0"></span>.</p>
 <ol class="dc-source-parts" type="a">

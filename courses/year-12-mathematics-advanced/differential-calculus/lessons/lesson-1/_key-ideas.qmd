@@ -1,4 +1,4 @@
-## Key ideas · Base, exponent and structure {#dc1-key-ideas .dc-lesson}
+## Key ideas {#dc1-key-ideas .dc-lesson}
 
 <div class="dc-key-grid">
 <div><h3>Base <span data-math="e"></span></h3><span data-math="\frac{d}{dx}e^{f(x)}=f'(x)e^{f(x)}"></span></div>

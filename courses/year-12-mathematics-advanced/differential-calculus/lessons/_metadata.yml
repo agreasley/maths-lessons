@@ -10,7 +10,6 @@ format:
     include-after-body:
       text: |
         <script src="../../../../assets/lesson.js"></script>
-        <script src="../differential-calculus.js"></script>
     width: 1280
     height: 800
     margin: 0.09

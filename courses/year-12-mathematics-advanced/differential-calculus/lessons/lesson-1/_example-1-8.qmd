@@ -1,4 +1,4 @@
-## Example 1.8 · HSC application {#dc1-example-1-8 .dc-lesson}
+## Example 1.8 {#dc1-example-1-8 .dc-lesson}
 
 <div class="eyebrow">2018 Advanced HSC 11g · 2 marks</div>
 <p>Differentiate <span data-math="\frac{e^x}{x+1}"></span>.</p>

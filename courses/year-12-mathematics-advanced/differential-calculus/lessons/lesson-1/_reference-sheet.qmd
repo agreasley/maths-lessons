@@ -1,10 +1,34 @@
 ## Using the HSC reference sheet {#dc1-reference-sheet .dc-lesson}
 
-<div class="dc-sheet-row"><figure><img src="../media/reference-base-e.png" alt="Reference sheet: y equals e to the f(x), derivative equals f prime(x) times e to the f(x)"></figure><p>The base-<span data-math="e"></span> rule already includes the chain-rule factor.</p></div>
-<div class="dc-sheet-row"><figure><img src="../media/reference-base-a.png" alt="Reference sheet: y equals a to the x, derivative equals ln(a) times a to the x"></figure><p>The general-base rule shows an exponent of <span data-math="x"></span> only.</p></div>
-<p class="dc-prompt">For <span data-math="a^{f(x)}"></span>, we still need to apply the chain rule.</p>
-<div data-dc-steps class="dc-stepper "><div aria-live="polite"><div class="dc-step" hidden><span data-math="\boxed{\frac{d}{dx}a^{f(x)}={\color{#b55224}f\prime(x)}(\ln a)a^{f(x)}}"></span><p class="dc-step-label">Our extension of the printed formula, for constant <span data-math="a&gt;0"></span>.</p></div></div><div class="dc-step-controls"><button type="button" class="dc-step-back">Hide last step</button><button type="button" class="dc-step-next primary">Reveal next step</button><button type="button" class="dc-step-reset">Reset</button><span class="dc-step-count" aria-live="polite"></span></div></div><p class="dc-sheet-source">NESA · 2027 Mathematics Advanced reference sheet · p. 2 · <a href="https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf" target="_blank" rel="noopener">Open full reference sheet</a></p>
+<div class="dc-sheet-layout">
+<figure class="dc-sheet-page">
+<div class="dc-sheet-image">
+<img src="../media/reference-sheet-page-2.png" alt="Complete page 2 of the NESA Mathematics Advanced reference sheet, including the differential calculus, integral calculus and statistical analysis sections. Red outlines mark the exponential derivative rows.">
+<span class="dc-sheet-highlight dc-sheet-highlight-e" aria-hidden="true"></span>
+<span class="dc-sheet-highlight dc-sheet-highlight-a" aria-hidden="true"></span>
+</div>
+<figcaption>Full page · exponential rules outlined in red</figcaption>
+</figure>
+<div class="dc-sheet-commentary">
+<div class="dc-sheet-rule">
+<h3>Base <span data-math="e"></span></h3>
+<p><span data-math="\frac{d}{dx}e^{f(x)}=f\prime(x)e^{f(x)}"></span></p>
+<p>The printed rule already includes the chain-rule factor.</p>
+</div>
+<div class="dc-sheet-rule">
+<h3>Other bases</h3>
+<p><span data-math="\frac{d}{dx}a^x=(\ln a)a^x"></span></p>
+<p>The printed rule has an exponent of <span data-math="x"></span> only.</p>
+</div>
+<div class="dc-sheet-generalisation fragment" data-fragment-index="0">
+<p>For <span data-math="a^{f(x)}"></span>, apply the chain rule:</p>
+<p><span data-math="\frac{d}{dx}a^{f(x)}={\color{#b55224}f\prime(x)}(\ln a)a^{f(x)}"></span></p>
+<p class="small-note">Our extension of the printed rule, for constant <span data-math="a>0"></span>.</p>
+</div>
+</div>
+</div>
+<p class="dc-sheet-source">NESA · 2027 Mathematics Advanced reference sheet · p. 2 · <a href="https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf" target="_blank" rel="noopener">Open full reference sheet</a></p>
 
 ::: notes
-The two images are actual unmodified row extracts from the official sheet, verified on 19 November 2026. The displayed generalisation is our annotation, not text printed on the reference sheet. Derive by y=a^u, u=f(x): dy/du=(ln a)a^u and du/dx=f'(x), so dy/dx=f'(x)(ln a)a^(f(x)). Alternatively rewrite a^(f(x))=e^(f(x)ln a). Make both origins explicit: ln a from the base and f'(x) from the exponent. The chain rule still applies even though the a^x row does not print a composite version. The cropped extracts are embedded for offline use; the full-sheet link requires internet. About three minutes.
+Show the complete, uncropped page 2 of the official sheet. The red outlines are teaching annotations over the two exponential derivative rows; the underlying page image is unchanged. The formulas alongside the image are enlarged for readability. Point out the surrounding rules so students can locate the exponential entries on their own sheet. Press Next to reveal the composite base-a rule. This generalisation is our annotation, not text printed on the reference sheet. Derive by y=a^u, u=f(x): dy/du=(ln a)a^u and du/dx=f'(x), so dy/dx=f'(x)(ln a)a^(f(x)). Alternatively rewrite a^(f(x))=e^(f(x)ln a). Make both origins explicit: ln a from the base and f'(x) from the exponent. The chain rule still applies even though the a^x row does not print a composite version. The full page image is embedded for offline use; the full-sheet link requires internet. About three minutes.
 :::

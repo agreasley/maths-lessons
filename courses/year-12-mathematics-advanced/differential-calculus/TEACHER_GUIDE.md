@@ -15,14 +15,14 @@ Confirmed prior learning: derivative of e^x. Assumed prerequisites: index/logari
 ## Sources and fidelity
 
 - Supplied `12MAX - Differential Calculus.pdf`, Section 1, printed pp. 1–7. The original example numbering, expressions, prompts, subparts and homework question selections are retained. Blank working spaces are replaced by oral prompts/OneNote work. Split slides retain their original part letters.
-- Official NESA Mathematics Advanced reference sheet (2027), page 2: https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf (checked 19 November 2026). The two PNGs in `media/` are row crops of that PDF, not reconstructed formulae. The composite base-a rule is explicitly labelled as an extension, not part of the printed extract.
+- Official NESA Mathematics Advanced reference sheet (2027), page 2: https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf (checked 19 November 2026). `media/reference-sheet-page-2.png` is the complete, uncropped page 2. Red CSS outlines mark the two exponential rows without modifying the source image. Enlarged formulas beside the page aid readability. The composite base-a rule is explicitly labelled as an extension, not part of the printed sheet.
 - The hinge, medicine context and base-a composite generalisation are additional supporting material.
 - The supplied booklet's source label for Example 1.8 is retained; the original 2018 exam paper was not rechecked. Homework labels and selections are checked against the booklet, not a separately supplied textbook.
 - No new syllabus quotations or historical claims have been added.
 
 ## Presentation and controls
 
-Use OneNote for the worked examples. Tap-to-reveal derivations have Reveal next step / Hide last step / Reset; all answer steps start hidden. The shared hinge uses numbered options 1–4, the existing finger icons, adjustable timer, Start/Pause/Resume, Reset and separate answer reveal. Timer expiry must not reveal answers. Opening the slide map or leaving the hinge pauses its timer. Homework is on two slides (Exercises 5B and 5F); both are part of Homework 1.
+Use OneNote for the worked examples. The two Example 1.3 derivation slides use standard Reveal fragments: Next shows one step at a time, and Previous hides the most recent step. No separate answer/reveal buttons appear on these slides. The reference-sheet generalisation also reveals on Next. The Example 1.5 and medicine activities retain their separate step controls; all answer steps start hidden. The shared hinge uses numbered options 1–4, the existing finger icons, adjustable timer, Start/Pause/Resume, Reset and separate answer reveal. Timer expiry must not reveal answers. Opening the slide map or leaving the hinge pauses its timer. Homework is on two slides (Exercises 5B and 5F); both are part of Homework 1.
 
 ## Slide notes and worked checks
 
@@ -52,11 +52,11 @@ Preserve all parts. Work in OneNote. (a) du/dx=a. (b) y=e^u, dy/du=e^u. (c) dy/d
 
 ### Example 1.3 · Rewrite using base $e$
 
-Each tap reveals one step. Ask students to predict the next line, then justify it using an inverse identity or an index law. Orange identifies the same constant ln a in every line. a>0 ensures ln a is defined. Even a=1 is allowed: it gives the constant function 1. This is an equivalent expression for the same function, not an approximation or a change of function. Follow-up: “We now have base e. What is the derivative of its exponent?” Answers remain hidden until deliberately revealed. Use Hide last step or Reset to repeat.
+Each press of the normal Next control reveals one step; Previous hides the most recent step. Ask students to predict the next line, then justify it using an inverse identity or an index law. Orange identifies the same constant ln a in every line. a>0 ensures ln a is defined. Even a=1 is allowed: it gives the constant function 1. This is an equivalent expression for the same function, not an approximation or a change of function. Follow-up: “We now have base e. What is the derivative of its exponent?” Answers remain hidden until deliberately revealed. Use Previous to revisit the steps; after the final step, Next advances to the next slide.
 
 ### Example 1.3 · Differentiate, then change back
 
-Connect the multiplier to the derivative of x ln a. ln a is a constant, not a logarithmic function of x; do not use a logarithmic differentiation formula. The final step uses e^(x ln a)=a^x again. Ask “Why does this recover our familiar result when a=e?” Because ln e=1. For 0<a<1, ln a<0, so the derivative is negative. For a=1, ln 1=0, giving the derivative of a constant. About five minutes for the two Example 1.3 slides.
+The normal Next control reveals the three lines in order; Previous hides them in reverse order. Connect the multiplier to the derivative of x ln a. ln a is a constant, not a logarithmic function of x; do not use a logarithmic differentiation formula. The final step uses e^(x ln a)=a^x again. Ask “Why does this recover our familiar result when a=e?” Because ln e=1. For 0<a<1, ln a<0, so the derivative is negative. For a=1, ln 1=0, giving the derivative of a constant. About five minutes for the two Example 1.3 slides.
 
 ### Example 1.4 · Other bases
 
@@ -68,7 +68,7 @@ The statement to prove is part of the original question and remains visible. Com
 
 ### Using the HSC reference sheet
 
-The two images are actual unmodified row extracts from the official sheet, verified on 19 November 2026. The displayed generalisation is our annotation, not text printed on the reference sheet. Derive by y=a^u, u=f(x): dy/du=(ln a)a^u and du/dx=f'(x), so dy/dx=f'(x)(ln a)a^(f(x)). Alternatively rewrite a^(f(x))=e^(f(x)ln a). Make both origins explicit: ln a from the base and f'(x) from the exponent. The chain rule still applies even though the a^x row does not print a composite version. The cropped extracts are embedded for offline use; the full-sheet link requires internet. About three minutes.
+Show the complete, uncropped page 2 of the official sheet. The red outlines are teaching annotations over the two exponential derivative rows; the underlying page image is unchanged. The formulas alongside the image are enlarged for readability. Point out the surrounding rules so students can locate the exponential entries on their own sheet. Press Next to reveal the composite base-a rule. This generalisation is our annotation, not text printed on the reference sheet. Derive by y=a^u, u=f(x): dy/du=(ln a)a^u and du/dx=f'(x), so dy/dx=f'(x)(ln a)a^(f(x)). Alternatively rewrite a^(f(x))=e^(f(x)ln a). Make both origins explicit: ln a from the base and f'(x) from the exponent. The chain rule still applies even though the a^x row does not print a composite version. The full page image is embedded for offline use; the full-sheet link requires internet. About three minutes.
 
 ### Hinge question · Which factors do we need?
 
@@ -127,3 +127,9 @@ Review and merge the lesson branch, then manually run Actions → Publish Quarto
 ## Course placement
 
 This topic belongs to Year 12 Mathematics Advanced. Homework retains the assigned Cambridge Year 12 Extension 1 textbook references. Topic and lesson aliases preserve the former Extension 1 URLs.
+
+## Reference-sheet and reveal revision
+
+The formula-sheet slide now keeps all of page 2 visible, with red outlines over the exponential derivative rows and enlarged formulas alongside. Example 1.3(a–c) uses Next/Previous fragments instead of separate reveal/hide/reset buttons. The reference-sheet chain-rule extension also uses Next.
+
+Validation: rendered the revised 21-slide lesson with Quarto 1.10.18. In Chromium at 1363 × 936, verified initially hidden conversion steps, all five Next reveals across the two slides, reverse-order hiding with Previous, the reference-sheet reveal, the uncropped image proportions and red-outline placement, and no maths-renderer errors. Safari/WebKit and physical-iPad checks remain unavailable.

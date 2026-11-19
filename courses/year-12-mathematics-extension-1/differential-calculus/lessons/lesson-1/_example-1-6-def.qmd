@@ -1,0 +1,8 @@
+## Example 1.6 · Negative and reciprocal exponents {#dc1-example-1-6-def .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p>
+<div class="dc-problem-list"><div><span class="part">d)</span><span data-math="y=e^{-x^2+2x}"></span></div><div><span class="part">e)</span><span data-math="y=e^{\frac1x}"></span></div><div><span class="part">f)</span><span data-math="y=5^{1-x^2}"></span></div></div><p class="booklet-cue">Booklet p. 5 · Example 1.6(d–f)</p>
+
+::: notes
+(d) y'=(-2x+2)e^(-x²+2x). (e) y'=-e^(1/x)/x², x≠0. (f) y'=-2x(ln5)5^(1-x²). In (e), rewrite 1/x as x^-1 to find the inner derivative. In (f), both the -2x and ln5 factors are essential. Ask: “Which part of your answer comes from the exponent? Which comes from the base?” About four minutes.
+:::

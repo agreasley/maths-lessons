@@ -1,0 +1,13 @@
+## Key ideas · Base, exponent and structure {#dc1-key-ideas .dc-lesson}
+
+<div class="dc-key-grid">
+<div><h3>Base <span data-math="e"></span></h3><span data-math="\frac{d}{dx}e^{f(x)}=f'(x)e^{f(x)}"></span></div>
+<div><h3>Any positive constant base</h3><span data-math="\frac{d}{dx}a^{f(x)}=f'(x)(\ln a)a^{f(x)}"></span></div>
+</div>
+<p class="takeaway">Identify the base, differentiate the exponent, and check whether the whole expression is a product or quotient.</p>
+<p><strong>I can</strong> select and apply the appropriate differentiation rules to an exponential function.</p>
+<p class="booklet-cue">Booklet p. 7 · Key Ideas</p>
+
+::: notes
+Invite students to explain the role of each factor rather than memorise a string of symbols. Ask a student to contrast Example 1.6(b), Example 1.7(a) and Example 1.7(b). Evidence of success: identifies the expression's structure, keeps the original exponential factor and includes all necessary derivative factors. Record concise key ideas in the booklet. About one minute.
+:::

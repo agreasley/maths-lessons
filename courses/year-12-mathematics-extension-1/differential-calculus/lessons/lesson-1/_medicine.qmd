@@ -1,0 +1,8 @@
+## Return to the question · How quickly is it falling? {#dc1-medicine .dc-lesson}
+
+<div class="dc-context">A medicine’s concentration halves every four hours.<br>Is it falling just as quickly after eight hours as it was at the start?</div>
+<div data-dc-steps class="dc-stepper "><div aria-live="polite"><div class="dc-step" hidden><p>No. In this exponential model, the concentration is falling <strong>more slowly</strong> after eight hours.</p></div><div class="dc-step" hidden><p>After two half-lives, the concentration is one quarter of its initial value. The <strong>magnitude of its rate of decrease is also one quarter</strong> of the initial rate.</p></div></div><div class="dc-step-controls"><button type="button" class="dc-step-back">Hide last step</button><button type="button" class="dc-step-next primary">Reveal next step</button><button type="button" class="dc-step-reset">Reset</button><span class="dc-step-count" aria-live="polite"></span></div></div><p class="small-note">A hypothetical exponential-decay model.</p>
+
+::: notes
+Additional context, not a booklet example. Revisit the opening predictions before revealing. Let C(t)=C0(1/2)^(t/4), C0>0. Then C'(t)=(ln(1/2)/4)C(t). C(8)=C0/4, hence C'(8)=C'(0)/4 and |C'(8)|=|C'(0)|/4. The signed derivative becomes less negative; its magnitude is smaller. The same percentage decrease over equal time intervals does not mean the same concentration decrease per hour. Keep the formal model in notes unless students ask for a calculation. Do not discuss actual medicines or doses. About one minute.
+:::

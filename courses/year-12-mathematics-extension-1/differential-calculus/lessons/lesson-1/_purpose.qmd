@@ -1,0 +1,11 @@
+## What, why and prior learning {#dc1-purpose .dc-lesson}
+
+<div class="dc-intentions">
+<div class="dc-intention"><strong>What?</strong><p>We are learning to differentiate exponential functions with any positive base.</p></div>
+<div class="dc-intention"><strong>Why?</strong><p>An exponential model can tell us how much medicine remains in the body. Differentiation tells us how quickly that amount is falling at a particular moment.</p></div>
+<div class="dc-intention dc-prior"><strong>Prior learning</strong><p>The derivative of <span data-math="e^x"></span>, index and logarithm laws, and the chain, product and quotient rules.<br><span data-math="\frac{d}{dx}(e^x)=e^x\qquad e^{\ln a}=a\;(a>0)"></span></p></div>
+</div>
+
+::: notes
+The new opening intentionally replaces the usual objective/success-criteria pair. Success criterion, revisited near the end: I can select and apply the appropriate differentiation rules to an exponential function. Use the medicine as a hypothetical exponential-decay model, not a claim that every medicine behaves this way. Ask orally: “A medicine’s concentration halves every four hours. Is it falling just as quickly after eight hours as it was at the start?” Take predictions without solving yet. Intended distinction: constant percentage decrease versus changing absolute rate of decrease. Return to the question near the end. No medical decisions or dosage calculations are involved.
+:::

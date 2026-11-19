@@ -1,0 +1,15 @@
+## Previously · The natural exponential {#dc1-previously .dc-lesson}
+
+::: {.dc-result}
+
+$$\frac{d}{dx}(e^x)=e^x$$
+
+:::
+<p>At each point on <span data-math="y=e^x"></span>, the tangent gradient equals the <span data-math="y"></span>-coordinate.</p>
+<div class="takeaway">What changes when the exponent is more complicated than <span data-math="x"></span>?</div>
+<p>Keep this connection ready: <span data-math="e^{\ln a}=a\quad(a>0)"></span>.</p>
+<p class="booklet-cue">Booklet p. 1 · Recap</p>
+
+::: notes
+About two minutes. The derivative of e^x is confirmed prior learning. Ask what differentiation tells us: instantaneous rate of change / gradient of the tangent. Do not re-derive e^x from first principles. Recall that natural logarithms and exponentials undo each other. a is a positive constant; this identity will allow any positive base to be rewritten with base e.
+:::

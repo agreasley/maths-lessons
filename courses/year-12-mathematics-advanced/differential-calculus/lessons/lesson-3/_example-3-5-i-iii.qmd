@@ -1,0 +1,7 @@
+## Example 3.5 {#dc3-example-3-5-i-iii .dc-lesson }
+
+<p><strong>a)</strong> Differentiate the following functions:</p><div class="dc-problem-list"><div><span class="part">i)</span><span data-math="y=5\tan x"></span></div><div><span class="part">ii)</span><span data-math="y=-2\sec x"></span></div><div><span class="part">iii)</span><span data-math="y=\frac12\cot x"></span></div></div><p class="booklet-cue">Booklet p. 20 · Example 3.5(a)(i–iii)</p>
+
+::: notes
+(i) 5 sec²x. (ii) -2 sec x tan x. (iii) -(1/2)cosec²x. Results hold on the corresponding function domains. Emphasise signs and constant multiples. About three minutes across both (a) slides.
+:::

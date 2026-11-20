@@ -1,0 +1,9 @@
+## Example 3.3 {#dc3-example-3-3-a .dc-lesson .dc-proof}
+
+<p><strong>a)</strong> Let $y=\tan x=\dfrac{\sin x}{\cos x}$. Use the quotient rule to show that $\dfrac{dy}{dx}=\sec^2x$.</p>
+<div class="dc-proof-layout"><div class="dc-proof-prompts"><p><span data-math="u=\sin x\quad\Rightarrow\quad u^{\prime}=\ldots"></span></p><p><span data-math="v=\cos x\quad\Rightarrow\quad v^{\prime}=\ldots"></span></p><p><span data-math="\frac{dy}{dx}=\frac{vu^{\prime}-uv^{\prime}}{v^2}"></span></p></div>
+<div class="dc-proof-working fragment" data-fragment-index="0"><p><span data-math="\frac{dy}{dx}=\frac{\cos x\cos x-\sin x(-\sin x)}{\cos^2x}"></span></p><p><span data-math="=\frac{\cos^2x+\sin^2x}{\cos^2x}"></span></p><p class="dc-final-rule"><span data-math="=\frac1{\cos^2x}=\sec^2x"></span></p></div></div><p class="booklet-cue">Booklet p. 18 · Example 3.3(a)</p>
+
+::: notes
+u'=cos x, v'=-sin x. Subtraction of the negative term produces a plus; use sin²x+cos²x=1. All equalities hold where cos x is nonzero. The booklet's fill-in scaffold is represented by the prompts and the complete proof is one Next reveal, after OneNote working. About two minutes.
+:::

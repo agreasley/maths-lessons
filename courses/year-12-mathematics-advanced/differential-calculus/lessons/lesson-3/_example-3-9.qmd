@@ -1,0 +1,8 @@
+## Example 3.9 {#dc3-example-3-9 .dc-lesson }
+
+<div class="eyebrow">2022 Advanced HSC Q25 · 3 marks</div>
+<p>Let $f(x)=\sin(2x)$.</p><p>Find the value of $x$, for $0\lt x\lt\pi$, for which $f^{\prime}(x)=-\sqrt3$ <strong>AND</strong> $f^{\prime\prime}(x)=2$.</p><p class="booklet-cue">Booklet p. 24 · Example 3.9</p>
+
+::: notes
+Booklet attribution retained; the original examination paper has not been independently checked. f'=2 cos(2x), f''=-4 sin(2x). Therefore cos(2x)=-sqrt(3)/2 and sin(2x)=-1/2, with 0<2x<2pi. Both conditions hold at 2x=7pi/6, so x=7pi/12. Checking only the first derivative also gives 5pi/12, which fails f''=2. Verify the common solution in both derivatives. Link verbally to the spring model: the second derivative describes how the rate itself changes. No full solution reveal is needed; use OneNote. About four minutes.
+:::

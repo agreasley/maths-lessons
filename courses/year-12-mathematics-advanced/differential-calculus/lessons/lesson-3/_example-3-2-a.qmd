@@ -1,0 +1,7 @@
+## Example 3.2 {#dc3-example-3-2-a .dc-lesson }
+
+<p><strong>a)</strong> Differentiate the following functions:</p><div class="dc-problem-list"><div><span class="part">i)</span><span data-math="y=3\sin x"></span></div><div><span class="part">ii)</span><span data-math="y=-\frac12\cos x"></span></div><div><span class="part">iii)</span><span data-math="y=2\sin x+4\cos x"></span></div><div><span class="part">iv)</span><span data-math="y=x^2-\cos x"></span></div></div><p class="booklet-cue">Booklet p. 17 · Example 3.2(a)</p>
+
+::: notes
+(i) 3 cos x. (ii) (1/2) sin x: two negative signs cancel. (iii) 2 cos x-4 sin x. (iv) 2x+sin x. Work in OneNote. All domains are real. About three minutes, selecting some parts for independent practice.
+:::

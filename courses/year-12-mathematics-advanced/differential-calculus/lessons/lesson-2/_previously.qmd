@@ -1,0 +1,11 @@
+## Previously {#dc2-previously .dc-lesson}
+
+<div class="dc-result"><span data-math="\frac{d}{dx}e^{f(x)}=f^{\prime}(x)e^{f(x)}"></span></div>
+<p>Exponential and logarithmic functions undo each other:</p>
+<div class="dc-result"><span data-math="e^{\ln x}=x\qquad(x>0)"></span></div>
+<p>We can also change the base:</p>
+<div class="dc-result"><span data-math="\log_a x=\frac{\ln x}{\ln a}\qquad(x>0,\ a>0,\ a\ne1)"></span></div>
+
+::: notes
+About two minutes. Recall the chain-rule factor in the derivative of an exponential from Lesson 1. The inverse identity is the starting point for Example 2.1. In the change-of-base identity, a is a constant, so ln a is constant. Do not anticipate the new logarithm derivative before students reason through the proof.
+:::

@@ -1,0 +1,12 @@
+## Key ideas {#dc2-key-ideas .dc-lesson}
+
+<div class="dc-key-grid"><div><h3>Natural logarithms</h3><span data-math="\frac{d}{dx}\ln f(x)=\frac{f^{\prime}(x)}{f(x)}"></span></div><div><h3>Other bases</h3><span data-math="\frac{d}{dx}\log_a x=\frac1{x\ln a}"></span></div></div>
+<p class="takeaway">Keep the logarithm’s argument in the denominator; differentiate it in the numerator.</p>
+<p>Use logarithm laws where helpful, then choose the chain, product or quotient rule.</p>
+<p class="dc-domain">Logarithm arguments must be positive; constant bases satisfy <span data-math="a>0,\ a\ne1"></span>.</p>
+<p><strong>I can</strong> select and apply the appropriate rules to differentiate a logarithmic function.</p>
+<p class="booklet-cue">Booklet p. 15 · Key Ideas</p>
+
+::: notes
+Consolidate in the booklet. Ask students to contrast the structures of Examples 2.5, 2.6 and 2.7. If useful, refer verbally to the opening sound graph: differentiating 80-20log_10 r gives -20/(r ln10); the reciprocal dependence explains why the curve becomes less steep as r increases. No repeated context slide or additional student calculation is needed. Around one minute.
+:::

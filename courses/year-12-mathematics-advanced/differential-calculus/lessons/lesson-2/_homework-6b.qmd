@@ -1,0 +1,7 @@
+## Homework 2 · Exercise 6B {#dc2-homework-6b .dc-lesson .dc-homework}
+
+<div class="eyebrow">Cambridge Year 12 Extension 1 – Exercise 6B</div><div class="homework-level"><strong>Mild</strong><span>Q1(a,c,e), Q2(d), Q4(a,c), Q7(a,c), Q8(b), Q9(a), Q10(a), Q11(a,d), Q16(a,c).</span></div><div class="homework-level"><strong>Medium</strong><span>Q1(c,e), Q4(d,f), Q7(b,c), Q8(b,d), Q9(b), Q10(b), Q11(b,e), Q16(b,d), Q17(a,b).</span></div><div class="homework-level"><strong>Spicy</strong><span>Q4(f), Q7(e,f), Q8(c), Q9(d), Q10(d), Q11(e,f), Q13(c–f), Q16(c,e,f), Q17(a,c).</span></div>
+
+::: notes
+Exact allocation from booklet p. 15 and the Homework 2 summary. Homework 2 includes BOTH Exercises 6B and 6F, shown on consecutive slides. All Mild, Medium and Spicy selections are retained. Textbook question content has not been independently inspected. No advice or extra tasks are added to the homework slide.
+:::

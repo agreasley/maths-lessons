@@ -1,0 +1,7 @@
+## Example 2.7(b) {#dc2-example-2-7-b .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p><div class="dc-problem-list"><div><span class="part">b)</span><span data-math="y=\frac{\ln x}{x^3}"></span></div></div><p class="booklet-cue">Booklet p. 14 · Example 2.7(b)</p>
+
+::: notes
+Quotient rule: y'=[x^3(1/x)-3x^2 ln x]/x^6=(1-3 ln x)/x^4, x>0. The numerator order matters. Alternatively write x^(-3) ln x and apply the product rule. Ask which structure students recognise before starting. Preserve the original quotient on the question slide.
+:::

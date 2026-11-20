@@ -1,0 +1,8 @@
+## Example 2.6 {#dc2-example-2-6 .dc-lesson}
+
+<p>For <span data-math="x>0"></span>, consider the function <span data-math="y=\ln\left(\frac{2x}{x+1}\right)"></span>.</p>
+<ol type="a" class="dc-source-parts"><li>Expand the expression using logarithm laws.</li><li>Differentiate the expanded expression and combine into a single fraction.</li></ol><p class="booklet-cue">Booklet p. 13 · Example 2.6</p>
+
+::: notes
+(a) y=ln2+lnx-ln(x+1). The stated x>0 ensures all separate logarithm arguments are positive. (b) y'=1/x-1/(x+1)=1/[x(x+1)]. ln2 differentiates to zero. The chain rule combined with the quotient rule also works but is less direct. Ask: “Which logarithm law saves us a quotient-rule calculation?” The original function also exists on x<-1, but the question explicitly restricts x>0; preserve that condition rather than silently extending this expansion. Around four minutes; solutions remain in notes for OneNote.
+:::

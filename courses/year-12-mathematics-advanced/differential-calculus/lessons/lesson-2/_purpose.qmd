@@ -1,0 +1,11 @@
+## What, why and prior learning {#dc2-purpose .dc-lesson}
+
+<div class="dc-intentions">
+<div class="dc-intention"><strong>What?</strong><p>We are learning to differentiate logarithmic functions.</p></div>
+<div class="dc-intention"><strong>Why?</strong><p>Predict how quickly sound levels fall as you move away from a speaker.</p></div>
+<div class="dc-intention dc-prior"><strong>Prior learning</strong><p>Differentiating exponential functions; logarithm laws; the chain, product and quotient rules.</p></div>
+</div>
+
+::: notes
+Success criterion, revisited in Key ideas: I can select and apply the appropriate rules to differentiate a logarithmic function. Introduce sound level as a logarithmic measurement, then move straight to the speaker hook. Prior differentiation of composite exponentials is established by Lesson 1; logarithm laws and product/quotient rules were also used there.
+:::

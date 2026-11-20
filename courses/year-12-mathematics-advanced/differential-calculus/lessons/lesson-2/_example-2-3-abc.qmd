@@ -1,0 +1,7 @@
+## Example 2.3(a–c) {#dc2-example-2-3-abc .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=4\ln x"></span></div><div><span class="part">b)</span><span data-math="y=\log_{10}x"></span></div><div><span class="part">c)</span><span data-math="y=\frac{\ln x}{5}"></span></div></div><p class="booklet-cue">Booklet p. 10 · Example 2.3(a–c)</p>
+
+::: notes
+Solutions: (a) $y'=4/x$; (b) $y'=1/(x\ln10)$; (c) $y'=1/(5x)$. All have domain x>0. Distinguish an outside coefficient from a logarithm base. Keep exact logarithms in denominators. Work in OneNote; no answers reveal on this slide. Around five minutes for both Example 2.3 slides, with selected parts independent.
+:::

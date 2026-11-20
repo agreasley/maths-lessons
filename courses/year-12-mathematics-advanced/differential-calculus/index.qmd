@@ -15,7 +15,7 @@ listing:
 
 ```{=html}
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Advanced</a></li><li><span aria-current="page">Differential Calculus</span></li></ol></nav>
-<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Advanced</p><h1>Differential Calculus</h1><p class="intro-copy">Use familiar rules to understand how exponential, logarithmic and trigonometric functions change.</p><div class="topic-tags"><span>1 lesson available</span><span>Exponential derivatives</span><span>Homework 1</span></div></header>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Advanced</p><h1>Differential Calculus</h1><p class="intro-copy">Use familiar rules to understand how exponential, logarithmic and trigonometric functions change.</p><div class="topic-tags"><span>2 lessons available</span><span>Exponential and logarithmic derivatives</span><span>Homework 1–2</span></div></header>
 <div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
 ```
 
@@ -23,5 +23,5 @@ listing:
 :::
 
 ```{=html}
-<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Connect, differentiate and explain.</h2><p>Lesson 1 builds on the derivative of the natural exponential function. Rewrite other bases using the natural exponential, apply the chain rule, and combine exponential functions with products and quotients. Follow Examples 1.1–1.8 on pages 1–6 of the Differential Calculus booklet, then complete Homework 1 on page 7.</p></div></div>
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>Connect, differentiate and explain.</h2><p>Lesson 1 builds on the derivative of the natural exponential function. Rewrite other bases using the natural exponential, apply the chain rule, and combine exponential functions with products and quotients. Follow Examples 1.1–1.8 on pages 1–6 of the Differential Calculus booklet, then complete Homework 1 on page 7.</p><p>Lesson 2 derives the logarithmic rules and applies the chain, product and quotient rules. Follow Examples 2.1–2.8 on pages 8–14, then complete Homework 2 on page 15.</p></div></div>
 ```

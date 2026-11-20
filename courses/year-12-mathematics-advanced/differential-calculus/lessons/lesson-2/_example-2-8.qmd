@@ -1,0 +1,7 @@
+## Example 2.8 {#dc2-example-2-8 .dc-lesson}
+
+<div class="eyebrow">2015 Advanced HSC 11f · 2 marks</div><p>Differentiate <span data-math="y=(x+4)\ln x"></span>.</p><p class="booklet-cue">Booklet p. 14 · Example 2.8</p>
+
+::: notes
+Booklet source attribution retained: 2015 Advanced HSC 11f (2 marks). The original examination paper has not been independently rechecked. Product rule gives y'=ln x+(x+4)/x=ln x+1+4/x, x>0. A useful informal two-mark guide is one mark for correct product-rule substitution and one for the correct derivative; this is not claimed to reproduce the official marking guidelines. Use as a short independent consolidation before collecting a response. Around three minutes.
+:::

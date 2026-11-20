@@ -1,0 +1,7 @@
+## Example 2.3(d–f) {#dc2-example-2-3-def .dc-lesson}
+
+<p>Differentiate the following expressions with respect to <span data-math="x"></span>.</p><div class="dc-problem-list"><div><span class="part">d)</span><span data-math="y=\log_2x"></span></div><div><span class="part">e)</span><span data-math="y=2x^3-3\ln x"></span></div><div><span class="part">f)</span><span data-math="y=2\log_5x"></span></div></div><p class="booklet-cue">Booklet p. 10 · Example 2.3(d–f)</p>
+
+::: notes
+Solutions: (d) $y'=1/(x\ln2)$; (e) $y'=6x^2-3/x$; (f) $y'=2/(x\ln5)$. Domains x>0. ln 2 and ln 5 are constants. Retain the original numbers and subpart labels; no answers are shown on the student slide.
+:::

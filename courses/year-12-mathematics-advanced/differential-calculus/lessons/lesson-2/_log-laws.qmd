@@ -1,0 +1,25 @@
+## Simplify before differentiating {#dc2-log-laws .dc-lesson}
+
+<p>Logarithm laws can turn a product or quotient <strong>inside the logarithm</strong> into a sum or difference.</p>
+<p class="dc-domain">For positive, differentiable functions <span data-math="f=f(x)"></span> and <span data-math="g=g(x)"></span>:</p>
+<div class="dc-key-grid">
+<div><h3>A product inside</h3><span data-math="\ln(fg)=\ln f+\ln g"></span></div>
+<div><h3>A quotient inside</h3><span data-math="\ln\!\left(\frac fg\right)=\ln f-\ln g"></span></div>
+</div>
+<div class="fragment" data-fragment-index="0">
+<div class="dc-key-grid dc-working">
+<div><span data-math="\frac{d}{dx}\ln(fg)=\frac{f^{\prime}}f+\frac{g^{\prime}}g"></span></div>
+<div><span data-math="\frac{d}{dx}\ln\!\left(\frac fg\right)=\frac{f^{\prime}}f-\frac{g^{\prime}}g"></span></div>
+</div>
+<p class="takeaway">Expand first to avoid applying the product or quotient rule to the whole argument.</p>
+<p>Differentiate the simpler logarithms separately, using the chain rule where needed.</p>
+</div>
+<p class="booklet-cue">Booklet p. 13 · Using logarithm laws</p>
+
+::: notes
+Additional explanation immediately between Examples 2.5 and 2.6. Allow one to two minutes. Ask: “If we apply the chain rule directly, what rule would we need to differentiate the argument?” For ln(fg), the inner derivative would use the product rule; for ln(f/g), it would use the quotient rule. Expanding with logarithm laws first makes the outer expression a sum or difference of simpler logarithms. One Next click reveals both derivatives and the explanation together; Previous hides the whole group.
+
+These are applications of the known logarithm laws and chain rule, not extra formulas to memorise. The direct methods remain valid: (f'g+fg')/(fg)=f'/f+g'/g, and [(f'g-fg')/g^2]/(f/g)=f'/f-g'/g. Each simpler argument may still require differentiation, including a product or quotient rule if that simpler argument itself has one. The positive-function assumption permits the displayed real logarithm expansions; do not infer that a positive product or ratio alone makes each separate logarithm defined.
+
+Log laws apply to a product or quotient inside one logarithm. They do not remove the product rule for x^2 ln x or the quotient rule for (ln x)/x^3 in Example 2.7. There is no law that splits ln(f+g). Keep Example 2.6's particular expansion and solution for the following slide and OneNote working.
+:::

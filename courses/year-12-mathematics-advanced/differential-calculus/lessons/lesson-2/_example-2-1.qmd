@@ -1,0 +1,17 @@
+## Example 2.1 {#dc2-example-2-1 .dc-lesson .dc-proof}
+
+<p>Consider the inverse identity <span data-math="e^{\ln x}=x"></span> for <span data-math="x>0"></span>.</p>
+<div class="dc-proof-layout"><div class="dc-proof-prompts">
+<p><strong>a)</strong> Differentiate both sides of the equation with respect to <span data-math="x"></span>. Use the chain rule <span data-math="\frac{d}{dx}\left(e^{f(x)}\right)=f^{\prime}(x)e^{f(x)}"></span> on the left-hand side:</p>
+<p><span data-math="\frac{d}{dx}\left(e^{\ln x}\right)=\frac{d}{dx}(x)"></span></p>
+<p><strong>b)</strong> Substitute <span data-math="e^{\ln x}=x"></span> back into the equation:</p>
+<p><strong>c)</strong> Rearrange the resulting equation to make <span data-math="\frac{d}{dx}(\ln x)"></span> the subject:</p>
+</div><div class="dc-proof-working fragment" data-fragment-index="0">
+<p><span data-math="\frac{d}{dx}(\ln x)\cdot e^{\ln x}=1"></span></p>
+<p><span data-math="\frac{d}{dx}(\ln x)\cdot x=1"></span></p>
+<p class="dc-final-rule"><span data-math="\frac{d}{dx}(\ln x)=\frac1x\qquad(x>0)"></span></p>
+</div></div><p class="booklet-cue">Booklet p. 8 · Example 2.1</p>
+
+::: notes
+Keep the derivative of ln x as an unknown while differentiating the composition. (a) $(d(\ln x)/dx)e^{\ln x}=1$. (b) Substitute the inverse identity to obtain $(d(\ln x)/dx)x=1$. (c) Divide by x, which is positive and therefore nonzero. Work in OneNote, then reveal the complete proof in one Next click; Previous hides it. The booklet's scaffold blanks are completed in the grouped reveal. Do not claim this proves differentiability from first principles; this is the syllabus-style chain-rule derivation. About four minutes.
+:::

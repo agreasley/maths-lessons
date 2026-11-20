@@ -149,3 +149,110 @@ Latest checks: rendered all 21 slides with Quarto 1.10.18; checked the numerical
 The ending is now a one-minute teacher demonstration with a concentration graph, a 30 mg/L target, a crossing at approximately 5.7 hours and a tangent rate of approximately -5.2 mg/L per hour. One Next click reveals the annotations and explanation together. It does not ask students to calculate a dosing schedule. The opening Why statement uses the same rationale.
 
 Validation of the relevance demonstration: recalculated the threshold crossing and derivative, rendered with Quarto 1.10.18, and checked the graph, tangent, labels, single-click reveal and Previous hide in Chromium at 1363 × 936. No maths errors or measured slide overflow. SVG labels use native text in the same coordinate system as the graph, with no foreignObject. Safari/WebKit and physical-iPad testing were unavailable.
+
+
+## Lesson 2: Differentiating logarithmic functions
+
+Year 12 Mathematics Advanced. Approved coverage: booklet pp. 8–15, Examples 2.1–2.8, unchanged Homework 2. User-approved refinement: move the speaker context from the end to the opening as a hook. Sequence: cover, What / Why / Prior learning, speaker hook, Previously, Examples 2.1–2.4, full reference sheet, hinge, Examples 2.5–2.8, Key ideas, Homework 2. Nineteen slides, approximately 50 minutes with selected routine subparts independent.
+
+Objective: We are learning to differentiate logarithmic functions.
+
+Success criterion: I can select and apply the appropriate rules to differentiate a logarithmic function.
+
+Source fidelity: supplied `12MAX - Differential Calculus.pdf`, Section 2. Example wording, numbers, notation and subparts are retained; scaffold blanks are completed through grouped proof reveals. The booklet's Extension 1 headers do not change the user-confirmed Advanced course placement. Homework still names the supplied Cambridge Year 12 Extension 1 textbook. No new syllabus quotations are added. Reference sheet is the same complete NESA page 2 used in Lesson 1; red outline positions now identify the logarithmic rows. The supporting sound hook, hinge and composite other-base generalisation are additional material.
+
+All proof reveals use ordinary Next/Previous, with the entire proof appearing together. The sound hook's two tangents and both rate explanations share one fragment index. No custom reveal widgets have been added; the shared hinge retains a separate deliberate answer reveal and adjustable timer. Existing shared files and Lesson 1 content are unchanged; new CSS is scoped to new classes or adds new highlight classes.
+
+### Differentiating logarithmic functions
+
+Allow approximately 50 minutes, using selected routine subparts as independent practice. Every supplied example and subpart is retained. Work in OneNote; solutions and domain details are in presenter notes. The cover curve is schematic. The speaker context appears at the start as a one-minute hook, immediately after What / Why / Prior learning, as requested.
+
+### What, why and prior learning
+
+Success criterion, revisited in Key ideas: I can select and apply the appropriate rules to differentiate a logarithmic function. Introduce sound level as a logarithmic measurement, then move straight to the speaker hook. Prior differentiation of composite exponentials is established by Lesson 1; logarithm laws and product/quotient rules were also used there.
+
+### Moving away from a speaker
+
+Additional context, not a booklet example. Keep this to about one minute: ask for an informal prediction, then press Next once to reveal both tangents and rates together. Previous hides them together. This is a demonstration of relevance, not a student calculation task. The orange and blue points correspond to two and ten metres. The graph's vertical axis starts at 55 dB and is labelled accordingly; distances have a linear scale. The tangent slopes are correctly scaled.
+
+The illustrative model has a sound level of 80 dB at one metre. For distances measured numerically in metres, $L(r)=80-20\log_{10}r$, so $L'(r)=-20/(r\ln10)$. At two metres the rate is approximately -4.3429 dB per metre; at ten metres it is approximately -0.8686 dB per metre. These are instantaneous rates, not the exact changes over the next whole metre. Do not equate decibel level with perceived loudness. The derivative formula can be mentioned verbally as the tool we will learn; no working is required at the hook.
+
+The simplified outdoor model assumes a compact sound source at distances large relative to its size, with negligible reflections and other attenuation. It is not intended to model a reverberant classroom or a large concert speaker array. Source for the inverse-square/distance relationship: UNSW School of Physics, “dB: What is a decibel?”, sections “Intensity, radiation and dB” and “Example problems”, https://animations.physics.unsw.edu.au/jw/dB.htm (checked 20 November 2026). The reference level and calculated tangent values are our illustrative choices. Follow-up: the curve falls at both points, but which tangent has the larger magnitude? Connect its flattening to the reciprocal in the derivative later. As requested, there is no second context slide at the end.
+
+### Previously
+
+About two minutes. Recall the chain-rule factor in the derivative of an exponential from Lesson 1. The inverse identity is the starting point for Example 2.1. In the change-of-base identity, a is a constant, so ln a is constant. Do not anticipate the new logarithm derivative before students reason through the proof.
+
+### Example 2.1
+
+Keep the derivative of ln x as an unknown while differentiating the composition. (a) $(d(\ln x)/dx)e^{\ln x}=1$. (b) Substitute the inverse identity to obtain $(d(\ln x)/dx)x=1$. (c) Divide by x, which is positive and therefore nonzero. Work in OneNote, then reveal the complete proof in one Next click; Previous hides it. The booklet's scaffold blanks are completed in the grouped reveal. Do not claim this proves differentiability from first principles; this is the syllabus-style chain-rule derivation. About four minutes.
+
+### Example 2.2
+
+(a) Change base to ln x/ln a. (b) The factor 1/ln a is constant because a is constant; its derivative is not needed. (c) The derivative is 1/(x ln a). Domains: x>0, a>0, a≠1. For a=e, ln e=1 recovers 1/x. Compare Lesson 1: exponential derivatives multiply by ln a; logarithmic derivatives divide by ln a. The conversion and all differentiation working reveal together on Next, after students attempt them in OneNote. Previous hides the whole group. About four minutes.
+
+### Example 2.3(a–c)
+
+Solutions: (a) $y'=4/x$; (b) $y'=1/(x\ln10)$; (c) $y'=1/(5x)$. All have domain x>0. Distinguish an outside coefficient from a logarithm base. Keep exact logarithms in denominators. Work in OneNote; no answers reveal on this slide. Around five minutes for both Example 2.3 slides, with selected parts independent.
+
+### Example 2.3(d–f)
+
+Solutions: (d) $y'=1/(x\ln2)$; (e) $y'=6x^2-3/x$; (f) $y'=2/(x\ln5)$. Domains x>0. ln 2 and ln 5 are constants. Retain the original numbers and subpart labels; no answers are shown on the student slide.
+
+### Example 2.4
+
+Outer derivative is 1/u; inner derivative is f'(x). Substitute u=f(x) after multiplying: f'(x)/f(x). Keep the entire argument in the denominator. Reveal the complete proof as one chunk on Next. The orange numerator is the derivative of the whole argument. The function is ln f(x), defined where f(x)>0, and f must be differentiable there. Do not change the question to ln|f(x)|; the booklet explicitly distinguishes the later integral result involving an absolute value. About three minutes.
+
+### HSC reference sheet
+
+The full reference-sheet page is unchanged and uncropped. Red outlines highlight only the two logarithmic derivative rows. Enlarged formulas alongside reproduce the printed derivatives. The composite other-base rule appears as a single Next reveal and is clearly labelled as our extension of the sheet. Domains: argument positive; constant base positive and not one. All primes use superscript prime notation. The original page is embedded for offline use; the link requires internet. About two minutes.
+
+### Hinge question
+
+Additional diagnostic, not a booklet example. Correct choice 3: y'=5/(5x)=1/x for x>0. Choice 1 omits the chain-rule multiplier. Choice 2 incorrectly uses x in the denominator while retaining the inner derivative 5. Choice 4 differentiates only the argument, ignoring the outer logarithm. Equivalent reasoning: ln(5x)=ln5+lnx, with ln5 constant. Default 60 seconds. Fist on chest; think quietly; simultaneous 1–4 fingers on the teacher's “show” cue. Timer expiry must not reveal the answer. Ready: proceed to Example 2.5. Divided: compare the chain-rule calculation with the logarithm-law expansion and revote. Needs explanation: identify outer ln u and inner u=5x; write dy/du=1/u and du/dx=5 before substituting, then retry. About three minutes including discussion.
+
+### Example 2.5
+
+(a) y'=3/(3x-2), original domain x>2/3. (b) y'=2x/(x^2+1), all real x. (c) y'=e^x/(1+e^x), all real x. The numerator is the derivative of the entire argument; the denominator keeps the entire argument. In (b), the function is defined even for negative x because x^2+1>0. For (c), keep the sum intact; ln(1+e^x) is not ln1+ln(e^x). Work in OneNote; around five minutes.
+
+### Example 2.6
+
+(a) y=ln2+lnx-ln(x+1). The stated x>0 ensures all separate logarithm arguments are positive. (b) y'=1/x-1/(x+1)=1/[x(x+1)]. ln2 differentiates to zero. The chain rule combined with the quotient rule also works but is less direct. Ask: “Which logarithm law saves us a quotient-rule calculation?” The original function also exists on x<-1, but the question explicitly restricts x>0; preserve that condition rather than silently extending this expansion. Around four minutes; solutions remain in notes for OneNote.
+
+### Example 2.7(a)
+
+The source uses log_e x; preserve that notation, then identify it with ln x in the working. Product rule: y'=2x ln x+x^2(1/x)=2x ln x+x=x(2 ln x+1). Domain x>0. Do not multiply the two derivatives. Around four minutes across both Example 2.7 slides.
+
+### Example 2.7(b)
+
+Quotient rule: y'=[x^3(1/x)-3x^2 ln x]/x^6=(1-3 ln x)/x^4, x>0. The numerator order matters. Alternatively write x^(-3) ln x and apply the product rule. Ask which structure students recognise before starting. Preserve the original quotient on the question slide.
+
+### Example 2.8
+
+Booklet source attribution retained: 2015 Advanced HSC 11f (2 marks). The original examination paper has not been independently rechecked. Product rule gives y'=ln x+(x+4)/x=ln x+1+4/x, x>0. A useful informal two-mark guide is one mark for correct product-rule substitution and one for the correct derivative; this is not claimed to reproduce the official marking guidelines. Use as a short independent consolidation before collecting a response. Around three minutes.
+
+### Key ideas
+
+Consolidate in the booklet. Ask students to contrast the structures of Examples 2.5, 2.6 and 2.7. If useful, refer verbally to the opening sound graph: differentiating 80-20log_10 r gives -20/(r ln10); the reciprocal dependence explains why the curve becomes less steep as r increases. No repeated context slide or additional student calculation is needed. Around one minute.
+
+### Homework 2 · Exercise 6B
+
+Exact allocation from booklet p. 15 and the Homework 2 summary. Homework 2 includes BOTH Exercises 6B and 6F, shown on consecutive slides. All Mild, Medium and Spicy selections are retained. Textbook question content has not been independently inspected. No advice or extra tasks are added to the homework slide.
+
+### Homework 2 · Exercise 6F
+
+Exact allocation from booklet p. 15 and the Homework 2 summary. Homework 2 includes BOTH Exercises 6B and 6F, shown on consecutive slides. All Mild, Medium and Spicy selections are retained. Textbook question content has not been independently inspected. No advice or extra tasks are added to the homework slide.
+
+### Lesson 2 validation
+
+- Rendered the nineteen-slide lesson and topic listing with Quarto 1.10.18.
+- Symbolically verified fifteen derivative results: every routine booklet derivative, the hinge and the sound model. Recomputed both sound rates.
+- Chromium at 1363 × 936: navigated the full sequence forward and backward, including grouped proof reveals and Previous hiding them. No mathematical renderer errors, unrendered data-math spans, nested slide sections or measured slide overflow.
+- Visually reviewed the opening, sound graph, change-of-base proof, full reference-sheet page and red outlines, hinge and homework. Native SVG graph labels stay in the same coordinate system; no foreignObject is used.
+- Confirmed both sound tangents and both rate explanations reveal together on one Next press, and hide together on Previous.
+- Exercised hinge Start/Pause, reset, duration selection, expiry with answer hidden, incorrect selection and deliberate answer reveal. Opening the slide map pauses the timer; returning shows Resume and keeps the answer hidden after reset.
+- Confirmed course → topic → Lesson 2 navigation and the return-to-topic link; both lessons appear under Mathematics Advanced.
+- WebKit, exact iPad viewport/touch emulation and physical-iPad testing were unavailable in the supplied browser interface. Do not describe this as iPad-tested.
+- Standalone HTML embeds all local assets and mathematics. Its Topic lessons link points to the existing hosted topic. The preview/export alone escapes literal closing body/html tags inside Quarto's notes script to avoid the managed preview relay's live-reload injection conflict; source and GitHub Pages rendering are unaffected.
+
+Publication remains manual: after merging the lesson branch, run Actions → Publish Quarto lessons → main. A branch or PR alone does not publish the lesson.

@@ -1,0 +1,46 @@
+---
+pagetitle: "Lesson 2 — Differentiating logarithmic functions"
+lesson-title: "Differentiating logarithmic functions"
+description: "Derive logarithmic differentiation rules, use the chain rule, and combine logarithms with products and quotients."
+lesson-order: 2
+booklet: "Section 2 · Examples 2.1–2.8 · pp. 8–15"
+homework: "2 · Cambridge Year 12 Extension 1 – Exercises 6B and 6F"
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_purpose.qmd >}}
+
+{{< include lesson-2/_speaker.qmd >}}
+
+{{< include lesson-2/_previously.qmd >}}
+
+{{< include lesson-2/_example-2-1.qmd >}}
+
+{{< include lesson-2/_example-2-2.qmd >}}
+
+{{< include lesson-2/_example-2-3-abc.qmd >}}
+
+{{< include lesson-2/_example-2-3-def.qmd >}}
+
+{{< include lesson-2/_example-2-4.qmd >}}
+
+{{< include lesson-2/_reference-sheet.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_example-2-5.qmd >}}
+
+{{< include lesson-2/_example-2-6.qmd >}}
+
+{{< include lesson-2/_example-2-7-a.qmd >}}
+
+{{< include lesson-2/_example-2-7-b.qmd >}}
+
+{{< include lesson-2/_example-2-8.qmd >}}
+
+{{< include lesson-2/_key-ideas.qmd >}}
+
+{{< include lesson-2/_homework-6b.qmd >}}
+
+{{< include lesson-2/_homework-6f.qmd >}}

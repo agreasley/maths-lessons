@@ -55,3 +55,26 @@
 .reveal .dc-medicine-story p{font-size:27px;line-height:1.4;margin:12px 0}
 .reveal .dc-medicine-story .dc-rate-maths{font-size:25px;color:var(--blue)}
 .reveal .dc-medicine-story .takeaway{font-size:27px;margin:32px 0 0;padding:8px 0 8px 20px}
+
+/* Lesson 2: proofs, logarithm rows and the opening sound demonstration. */
+.reveal .dc-lesson .dc-sheet-highlight-ln{top:51.6%;height:3.8%}
+.reveal .dc-lesson .dc-sheet-highlight-log{top:61.8%;height:3.8%}
+.reveal .dc-proof>p{font-size:28px;line-height:1.4}
+.reveal .dc-proof-layout{display:grid;grid-template-columns:1.08fr 1fr;gap:44px;margin:18px 0}
+.reveal .dc-proof-prompts{font-size:25px;line-height:1.5}
+.reveal .dc-proof-prompts p{margin:14px 0 24px}
+.reveal .dc-proof-prompts .katex{font-size:1.04em}
+.reveal .dc-proof-working{border-left:2px solid var(--rule);padding:0 0 0 30px;font-size:28px}
+.reveal .dc-proof-working p{margin:24px 0 36px}
+.reveal .dc-proof-working .katex{font-size:1.04em}
+.reveal .dc-proof-working .dc-final-rule{color:var(--teal)}
+.reveal .dc-lesson .dc-domain{font-size:24px;color:var(--muted)}
+.reveal .dc-sound>p{font-size:29px;margin:16px 0 20px}
+.reveal .dc-sound-layout{display:grid;grid-template-columns:660px 1fr;gap:40px;align-items:start}
+.reveal .dc-sound-graph{display:block;width:660px;height:450px;max-width:none;max-height:none;margin:0;overflow:visible}
+.reveal .dc-sound-model{font-size:20px;color:var(--muted);line-height:1.5;margin:12px 0}
+.reveal .dc-sound-story h3{font-size:31px;margin:28px 0 14px}
+.reveal .dc-sound-story .dc-near{color:var(--orange)}
+.reveal .dc-sound-story .dc-far{color:var(--blue);margin-top:38px}
+.reveal .dc-sound-story p{font-size:27px;line-height:1.45;margin:12px 0}
+.reveal .dc-sound-story .takeaway{font-size:26px;margin-top:34px}

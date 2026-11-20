@@ -1,0 +1,7 @@
+## Example 3.8 {#dc3-example-3-8-abc .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=e^{\sin x}"></span></div><div><span class="part">b)</span><span data-math="y=\ln(\tan x)"></span></div><div><span class="part">c)</span><span data-math="y=\ln(\sin x)"></span></div></div><p class="booklet-cue">Booklet p. 23 · Example 3.8(a–c)</p>
+
+::: notes
+(a) e^(sin x) cos x, all real x. (b) sec²x/tan x on intervals where tan x>0 (and defined). (c) cos x/sin x=cot x, on intervals where sin x>0. Simplifying the derivative does not enlarge the original logarithm domain. About four minutes across both slides.
+:::

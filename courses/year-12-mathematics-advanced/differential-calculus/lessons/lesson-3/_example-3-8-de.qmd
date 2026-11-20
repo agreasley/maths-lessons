@@ -1,0 +1,7 @@
+## Example 3.8 {#dc3-example-3-8-de .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">d)</span><span data-math="y=\sin(e^{-x})"></span></div><div><span class="part">e)</span><span data-math="y=\cos(\ln x)"></span></div></div><p class="booklet-cue">Booklet p. 23 · Example 3.8(d–e)</p>
+
+::: notes
+(d) -e^(-x) cos(e^(-x)), all real x. (e) -sin(ln x)/x for x>0. Compare (a) with (d): the outer function changes. Students should identify the structure before differentiating.
+:::

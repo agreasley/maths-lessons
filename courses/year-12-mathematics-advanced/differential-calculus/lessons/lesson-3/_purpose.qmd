@@ -1,0 +1,10 @@
+## What, why and prior learning {#dc3-purpose .dc-lesson }
+
+<div class="dc-intentions">
+<div class="dc-intention"><strong>What?</strong><p>We are learning to differentiate trigonometric functions.</p></div>
+<div class="dc-intention"><strong>Why?</strong><p>Use trigonometric models to find velocity and acceleration in simple harmonic motion.</p></div>
+<div class="dc-intention dc-prior"><strong>Prior learning</strong><p>Differentiating exponential and logarithmic functions; the chain, product and quotient rules.</p></div></div>
+
+::: notes
+Success criterion, revisited at the end: I can select and apply the appropriate rules to differentiate a trigonometric function. Connect directly to the spring hook. Radians, trigonometric graphs and reciprocal identities are prerequisite recall rather than claims about the previous lesson.
+:::

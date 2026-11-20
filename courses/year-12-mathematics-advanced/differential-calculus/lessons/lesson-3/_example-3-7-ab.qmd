@@ -1,0 +1,7 @@
+## Example 3.7 {#dc3-example-3-7-ab .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=\tan^2x"></span></div><div><span class="part">b)</span><span data-math="y=\sin^4x"></span></div></div><p class="booklet-cue">Booklet p. 22 · Example 3.7(a–b)</p>
+
+::: notes
+(a) 2 tan x sec²x, where cos x != 0. (b) 4 sin³x cos x. Rewrite powers as [tan x]² and [sin x]⁴ if needed. The exponent belongs to the whole trigonometric value. About four minutes across both slides.
+:::

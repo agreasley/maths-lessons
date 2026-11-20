@@ -1,0 +1,7 @@
+## Example 3.10 {#dc3-example-3-10-a .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=e^x\cos x"></span></div></div><p class="booklet-cue">Booklet p. 25 · Example 3.10(a)</p>
+
+::: notes
+Product rule gives dy/dx=e^x cos x-e^x sin x=e^x(cos x-sin x), all real x. Ask whether the function is a product or composition. About three minutes across both slides.
+:::

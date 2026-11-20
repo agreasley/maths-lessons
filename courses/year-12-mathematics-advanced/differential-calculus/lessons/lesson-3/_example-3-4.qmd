@@ -1,0 +1,8 @@
+## Example 3.4 {#dc3-example-3-4 .dc-lesson .dc-proof}
+
+<div class="dc-key-grid dc-reciprocal-proofs"><div><p><strong>a)</strong> Let $y=\operatorname{cosec}x=(\sin x)^{-1}$. Use the chain rule to derive $\dfrac{dy}{dx}$.</p><div class="fragment" data-fragment-index="0"><p><span data-math="\frac{dy}{dx}=-(\sin x)^{-2}\cos x"></span></p><p><span data-math="=-\frac1{\sin x}\cdot\frac{\cos x}{\sin x}"></span></p><p class="dc-final-rule"><span data-math="=-\operatorname{cosec}x\cot x"></span></p></div></div>
+<div><p><strong>b)</strong> Let $y=\cot x=(\tan x)^{-1}$. Use the chain rule to derive $\dfrac{dy}{dx}$.</p><div class="fragment" data-fragment-index="0"><p><span data-math="\frac{dy}{dx}=-(\tan x)^{-2}\sec^2x"></span></p><p><span data-math="=-\frac{\cos^2x}{\sin^2x}\times\frac1{\cos^2x}"></span></p><p class="dc-final-rule"><span data-math="=-\operatorname{cosec}^2x"></span></p></div></div></div><p class="booklet-cue">Booklet p. 19 · Example 3.4(a–b)</p>
+
+::: notes
+Work both proofs in OneNote before one Next reveals both complete chunks. (a) requires sin x nonzero. (b) Source qualification: cot x=1/tan x is only valid where tan x exists and is nonzero. The displayed chain-rule proof therefore excludes x=pi/2+k pi, even though cot x is defined there. To justify the final derivative on cotangent's full domain, use cot x=cos x/sin x and the quotient rule: [-sin²x-cos²x]/sin²x=-cosec²x for sin x != 0. Preserve the supplied question; do not silently replace it. Negative exponents denote reciprocals, not inverse trigonometric functions. About three minutes.
+:::

@@ -1,0 +1,7 @@
+## Example 3.7 {#dc3-example-3-7-cde .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">c)</span><span data-math="y=\cos4x"></span></div><div><span class="part">d)</span><span data-math="y=\sin^3(2x)"></span></div><div><span class="part">e)</span><span data-math="y=\sin(3x^2)"></span></div></div><p class="booklet-cue">Booklet p. 22 · Example 3.7(c–e)</p>
+
+::: notes
+(c) -4 sin 4x. (d) 6 sin²(2x) cos(2x). (e) 6x cos(3x²). All real x. In (d), identify the outer cube, then sine, then 2x. In (e), retain the entire argument 3x² after differentiating the sine.
+:::

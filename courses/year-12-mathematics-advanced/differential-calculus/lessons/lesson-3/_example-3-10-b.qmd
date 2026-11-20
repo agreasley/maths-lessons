@@ -1,0 +1,7 @@
+## Example 3.10 {#dc3-example-3-10-b .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">b)</span><span data-math="y=\frac{\sin x}{x}"></span></div></div><p class="booklet-cue">Booklet p. 25 · Example 3.10(b)</p>
+
+::: notes
+Quotient rule: y'=(x cos x-sin x)/x² for x!=0. Alternatively write x^(-1) sin x and use the product rule. Keep the numerator order consistent. The original function is not defined at zero; no extension by continuity is requested.
+:::

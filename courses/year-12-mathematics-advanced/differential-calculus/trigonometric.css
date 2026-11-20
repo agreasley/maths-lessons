@@ -1,0 +1,36 @@
+/* Lesson 3 only; reuse the paper background, typography and shared controls. */
+.reveal .dc-spring>p{font-size:28px;margin:8px 0 15px}
+.reveal .dc-shm-layout{display:grid;grid-template-columns:660px 1fr;gap:36px}
+.reveal .dc-shm-diagram{display:block;width:660px;height:350px;max-width:none;max-height:none;margin:0}
+.reveal .dc-shm .toolbar{gap:8px;margin:8px 0}
+.reveal .dc-shm .toolbar button{font-size:18px;padding:8px 10px}
+.reveal .dc-slider-label{display:flex;align-items:center;gap:15px;font-size:20px;white-space:nowrap}
+.reveal .dc-shm .small-note{font-size:18px;margin:5px 0}
+.reveal .dc-shm-maths h3{font-size:27px;color:var(--teal);margin:18px 0 8px}
+.reveal .dc-shm-maths p{font-size:27px;margin:10px 0}
+.reveal .dc-shm-maths .katex{font-size:1.02em}
+.reveal .dc-shm-maths .dc-velocity-colour{color:var(--blue)}
+.reveal .dc-shm-maths .dc-acceleration-colour{color:var(--orange)}
+.reveal .dc-shm-takeaway{font-size:28px;margin:16px 0;padding-top:8px;padding-bottom:8px}
+.reveal .dc-graph-lesson h2{margin-bottom:12px;padding-bottom:12px}
+.reveal .dc-graph-intro{font-size:21px;margin:8px 0}
+.reveal .dc-graph-prompts{font-size:24px;line-height:1.35}
+.reveal .dc-graph-prompts p{margin:8px 0;line-height:1.35}
+.reveal .dc-trig-svg{display:block;width:1140px;height:265px;max-width:none;max-height:none;margin:8px 0 0}
+.reveal .dc-graph-controls{display:flex;align-items:center;gap:12px;margin:0}
+.reveal .dc-graph-controls label{display:flex;align-items:center;gap:18px;width:560px;padding-right:15px}
+.reveal .dc-graph-controls button{min-width:90px}
+.reveal .dc-graph-controls button .katex{font-size:1em}
+.reveal .dc-lesson .dc-gradient-table{margin:10px 0;font-size:23px;table-layout:fixed}
+.reveal .dc-gradient-table th:first-child{width:28%}
+.reveal .dc-gradient-table th,.reveal .dc-gradient-table td{padding:7px 8px}
+.reveal .dc-graph-result{font-size:28px;color:var(--teal);margin:12px 0}
+.reveal .dc-graph-lesson .booklet-cue{margin-top:12px;padding-top:10px}
+.reveal .dc-reciprocal-proofs{gap:45px;font-size:27px}
+.reveal .dc-reciprocal-proofs p{margin:20px 0;line-height:1.55}
+.reveal .dc-final-rule{color:var(--teal)}
+.reveal .dc-chain-proof p{font-size:25px;margin:20px 0 26px}
+.reveal .dc-lesson .dc-sheet-highlight-sin{top:31.8%;height:3.8%}
+.reveal .dc-lesson .dc-sheet-highlight-cos{top:36.9%;height:3.8%}
+.reveal .dc-lesson .dc-sheet-highlight-tan{top:41.8%;height:3.8%}
+.reveal .dc-trig-summary p{font-size:28px;margin:18px 0}

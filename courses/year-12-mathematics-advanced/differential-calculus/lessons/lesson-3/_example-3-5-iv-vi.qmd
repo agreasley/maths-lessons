@@ -1,0 +1,7 @@
+## Example 3.5 {#dc3-example-3-5-iv-vi .dc-lesson }
+
+<p><strong>a)</strong> Differentiate the following functions:</p><div class="dc-problem-list"><div><span class="part">iv)</span><span data-math="y=4\operatorname{cosec}x"></span></div><div><span class="part">v)</span><span data-math="y=\sec x+\tan x"></span></div><div><span class="part">vi)</span><span data-math="y=\operatorname{cosec}x-\tan x"></span></div></div><p class="booklet-cue">Booklet p. 20 · Example 3.5(a)(iv–vi)</p>
+
+::: notes
+(iv) -4 cosec x cot x. (v) sec x tan x+sec²x. (vi) -cosec x cot x-sec²x. Use the domains of the original functions. In (vi) both terms have negative signs after differentiating.
+:::

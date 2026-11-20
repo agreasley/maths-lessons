@@ -31,6 +31,8 @@ homework: "2 · Cambridge Year 12 Extension 1 – Exercises 6B and 6F"
 
 {{< include lesson-2/_example-2-5.qmd >}}
 
+{{< include lesson-2/_log-laws.qmd >}}
+
 {{< include lesson-2/_example-2-6.qmd >}}
 
 {{< include lesson-2/_example-2-7-a.qmd >}}

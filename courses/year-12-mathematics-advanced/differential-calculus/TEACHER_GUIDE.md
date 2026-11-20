@@ -153,7 +153,7 @@ Validation of the relevance demonstration: recalculated the threshold crossing a
 
 ## Lesson 2: Differentiating logarithmic functions
 
-Year 12 Mathematics Advanced. Approved coverage: booklet pp. 8–15, Examples 2.1–2.8, unchanged Homework 2. User-approved refinement: move the speaker context from the end to the opening as a hook. Sequence: cover, What / Why / Prior learning, speaker hook, Previously, Examples 2.1–2.4, full reference sheet, hinge, Examples 2.5–2.8, Key ideas, Homework 2. Nineteen slides, approximately 50 minutes with selected routine subparts independent.
+Year 12 Mathematics Advanced. Approved coverage: booklet pp. 8–15, Examples 2.1–2.8, unchanged Homework 2. User-approved refinement: move the speaker context from the end to the opening as a hook. Sequence: cover, What / Why / Prior learning, speaker hook, Previously, Examples 2.1–2.4, full reference sheet, hinge, Example 2.5, logarithm-law simplification, Examples 2.6–2.8, Key ideas, Homework 2. Twenty slides, approximately 50 minutes with selected routine subparts independent.
 
 Objective: We are learning to differentiate logarithmic functions.
 
@@ -215,6 +215,14 @@ Additional diagnostic, not a booklet example. Correct choice 3: y'=5/(5x)=1/x fo
 
 (a) y'=3/(3x-2), original domain x>2/3. (b) y'=2x/(x^2+1), all real x. (c) y'=e^x/(1+e^x), all real x. The numerator is the derivative of the entire argument; the denominator keeps the entire argument. In (b), the function is defined even for negative x because x^2+1>0. For (c), keep the sum intact; ln(1+e^x) is not ln1+ln(e^x). Work in OneNote; around five minutes.
 
+### Simplify before differentiating
+
+Additional explanation immediately between Examples 2.5 and 2.6. Allow one to two minutes. Ask: “If we apply the chain rule directly, what rule would we need to differentiate the argument?” For ln(fg), the inner derivative would use the product rule; for ln(f/g), it would use the quotient rule. Expanding with logarithm laws first makes the outer expression a sum or difference of simpler logarithms. One Next click reveals both derivatives and the explanation together; Previous hides the whole group.
+
+These are applications of the known logarithm laws and chain rule, not extra formulas to memorise. The direct methods remain valid: (f'g+fg')/(fg)=f'/f+g'/g, and [(f'g-fg')/g^2]/(f/g)=f'/f-g'/g. Each simpler argument may still require differentiation, including a product or quotient rule if that simpler argument itself has one. The positive-function assumption permits the displayed real logarithm expansions; do not infer that a positive product or ratio alone makes each separate logarithm defined.
+
+Log laws apply to a product or quotient inside one logarithm. They do not remove the product rule for x^2 ln x or the quotient rule for (ln x)/x^3 in Example 2.7. There is no law that splits ln(f+g). Keep Example 2.6's particular expansion and solution for the following slide and OneNote working.
+
 ### Example 2.6
 
 (a) y=ln2+lnx-ln(x+1). The stated x>0 ensures all separate logarithm arguments are positive. (b) y'=1/x-1/(x+1)=1/[x(x+1)]. ln2 differentiates to zero. The chain rule combined with the quotient rule also works but is less direct. Ask: “Which logarithm law saves us a quotient-rule calculation?” The original function also exists on x<-1, but the question explicitly restricts x>0; preserve that condition rather than silently extending this expansion. Around four minutes; solutions remain in notes for OneNote.
@@ -256,3 +264,9 @@ Exact allocation from booklet p. 15 and the Homework 2 summary. Homework 2 inclu
 - Standalone HTML embeds all local assets and mathematics. Its Topic lessons link points to the existing hosted topic. The preview/export alone escapes literal closing body/html tags inside Quarto's notes script to avoid the managed preview relay's live-reload injection conflict; source and GitHub Pages rendering are unaffected.
 
 Publication remains manual: after merging the lesson branch, run Actions → Publish Quarto lessons → main. A branch or PR alone does not publish the lesson.
+
+### Logarithm-law transition revision
+
+Added “Simplify before differentiating” immediately after Example 2.5 and before Example 2.6. It contrasts a product and quotient inside a logarithm, shows the log-law expansion first, and reveals both differentiated forms and the explanation together on Next. Notes distinguish this from the product/quotient rules still needed for the outer expressions in Example 2.7. The positive-function assumptions are explicit.
+
+Rendered the revised twenty-slide lesson and topic listing with Quarto 1.10.18. Checked both displayed derivative identities symbolically. Chromium at 1363 × 936: verified the insertion order, single-chunk reveal and Previous hide, full forward/back navigation, and no maths-renderer errors or overflow on the added slide. No new interactive diagram or control was introduced; the previously validated hinge is unchanged. WebKit and physical-iPad testing remain unavailable.

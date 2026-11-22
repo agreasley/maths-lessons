@@ -1,0 +1,20 @@
+## Sine and cosine {#dc3-sine-cosine-summary .dc-lesson .dc-sin-cos-summary}
+
+<div class="dc-sin-cos-rules">
+<p><span data-math="\frac{d}{dx}(\sin x)={\color{#007f78}+}\cos x"></span></p>
+<p><span data-math="\frac{d}{dx}(\cos x)={\color{#b55224}-}\sin x"></span></p>
+</div>
+<p class="takeaway"><strong>Cosine changes the sign.</strong></p>
+<figure class="dc-reference-detail"><div class="dc-reference-crop dc-sin-cos-crop">
+<img src="../media/reference-sheet-page-2.png" alt="The two original sine and cosine rows from the NESA reference sheet: the sine derivative uses positive cosine, and the cosine derivative includes a minus sign.">
+<span class="dc-crop-highlight dc-crop-highlight-sin" aria-hidden="true"></span><span class="dc-crop-highlight dc-crop-highlight-cos" aria-hidden="true"></span>
+</div><figcaption>The sheet uses general forms. Here, <span data-math="f(x)=x"></span> and <span data-math="f^{\prime}(x)=1"></span>.</figcaption></figure>
+<p class="dc-summary-footer">Angles in radians. <span>Booklet p. 17 · Fundamental Derivative Results</span></p>
+
+::: notes
+Quick summary immediately after both parts of Example 3.1, before Example 3.2. Allow 30–60 seconds. Say: “Sine becomes cosine; cosine becomes minus sine. Cosine changes the sign.” The explicit plus sign emphasises +cos x versus -sin x; it does not mean the numerical gradient is always positive or negative. If a student is unsure about the minus sign, recall that cos x has gradient -1 at x=pi/2, matching -sin(pi/2).
+
+The snapshot is a precise viewport onto the unchanged reference-sheet image, showing only the complete sine and cosine rows. Red outlines retain the established reference-sheet treatment. The sheet prints composite forms; briefly read f(x)=x and f'(x)=1, without developing the trigonometric chain rule yet. The composite results are developed later in Example 3.6. Everything on this summary is visible immediately; no extra reveal is needed.
+
+Optional memory aid for later repeated derivatives: sin x → cos x → -sin x → -cos x → sin x, with each arrow meaning differentiate. This four-function cycle is also used in the University of Waterloo CEMC lesson “Derivatives of Sine and Cosine Functions”: https://courseware.cemc.uwaterloo.ca/11/assignments/193/9. Keep it in notes rather than adding another task to this quick summary. “Cosine changes the sign” is an informal cue, not a proof. NESA source: https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf, page 2.
+:::

@@ -1,0 +1,77 @@
+---
+pagetitle: "Lesson 3 — Differentiating trigonometric functions"
+lesson-title: "Differentiating trigonometric functions"
+description: "Explore trigonometric gradients and apply the chain, product and quotient rules."
+lesson-order: 3
+booklet: "Section 3 · Examples 3.1–3.11 · pp. 16–26"
+homework: "3 · Cambridge Year 12 Extension 1 – Exercise 7B"
+format:
+  revealjs:
+    css:
+      - ../trigonometric.css
+    include-after-body:
+      text: |
+        <script src="../../../../assets/lesson.js"></script>
+        <script src="../../../year-12-mathematics-extension-1/introduction-to-vectors/diagram-math-config.js"></script>
+        <script src="../../../../assets/vendor/mathjax-3.2.2/tex-svg.js"></script>
+        <script src="../../../year-12-mathematics-extension-1/introduction-to-vectors/diagram-math.js"></script>
+        <script src="../trigonometric.js"></script>
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_purpose.qmd >}}
+
+{{< include lesson-3/_spring.qmd >}}
+
+{{< include lesson-3/_previously.qmd >}}
+
+{{< include lesson-3/_example-3-1-sin.qmd >}}
+
+{{< include lesson-3/_example-3-1-cos.qmd >}}
+
+{{< include lesson-3/_sine-cosine-summary.qmd >}}
+
+{{< include lesson-3/_example-3-2-a.qmd >}}
+
+{{< include lesson-3/_example-3-2-b.qmd >}}
+
+{{< include lesson-3/_example-3-3-a.qmd >}}
+
+{{< include lesson-3/_example-3-3-b.qmd >}}
+
+{{< include lesson-3/_example-3-4.qmd >}}
+
+{{< include lesson-3/_example-3-5-i-iii.qmd >}}
+
+{{< include lesson-3/_example-3-5-iv-vi.qmd >}}
+
+{{< include lesson-3/_example-3-5-b.qmd >}}
+
+{{< include lesson-3/_example-3-6.qmd >}}
+
+{{< include lesson-3/_reference-sheet.qmd >}}
+
+{{< include lesson-3/_derivatives-overview.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_example-3-7-ab.qmd >}}
+
+{{< include lesson-3/_example-3-7-cde.qmd >}}
+
+{{< include lesson-3/_example-3-8-abc.qmd >}}
+
+{{< include lesson-3/_example-3-8-de.qmd >}}
+
+{{< include lesson-3/_example-3-9.qmd >}}
+
+{{< include lesson-3/_example-3-10-a.qmd >}}
+
+{{< include lesson-3/_example-3-10-b.qmd >}}
+
+{{< include lesson-3/_example-3-11.qmd >}}
+
+{{< include lesson-3/_key-ideas.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

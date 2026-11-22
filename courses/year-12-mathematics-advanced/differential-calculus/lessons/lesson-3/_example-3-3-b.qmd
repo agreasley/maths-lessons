@@ -1,0 +1,8 @@
+## Example 3.3 {#dc3-example-3-3-b .dc-lesson .dc-proof}
+
+<p><strong>b)</strong> Let $y=\sec x=(\cos x)^{-1}$. Use the chain rule to show that $\dfrac{dy}{dx}=\sec x\tan x$.</p>
+<div class="dc-proof-layout"><div class="dc-proof-prompts"><p>Differentiate the power, then multiply by the derivative of the inside.</p><p><span data-math="\frac{dy}{dx}=\ldots\times\ldots"></span></p></div><div class="dc-proof-working fragment" data-fragment-index="0"><p><span data-math="\frac{dy}{dx}=-(\cos x)^{-2}(-\sin x)"></span></p><p><span data-math="=\frac{\sin x}{\cos^2x}=\frac1{\cos x}\cdot\frac{\sin x}{\cos x}"></span></p><p class="dc-final-rule"><span data-math="=\sec x\tan x"></span></p></div></div><p class="booklet-cue">Booklet p. 18 · Example 3.3(b)</p>
+
+::: notes
+The negative exponent means reciprocal, not the inverse cosine function. Differentiate the outer power and inner cosine. The negatives cancel. Domain cos x != 0. Complete proof reveals in one chunk after working. About two minutes.
+:::

@@ -1,0 +1,11 @@
+## Key ideas {#dc3-key-ideas .dc-lesson }
+
+<div class="dc-key-grid dc-trig-summary"><div><h3>Fundamental rules</h3><p><span data-math="(\sin x)^{\prime}=\cos x"></span></p><p><span data-math="(\cos x)^{\prime}=-\sin x"></span></p><p><span data-math="(\tan x)^{\prime}=\sec^2x"></span></p></div><div><h3>Reciprocal functions</h3><p><span data-math="(\sec x)^{\prime}=\sec x\tan x"></span></p><p><span data-math="(\operatorname{cosec}x)^{\prime}=-\operatorname{cosec}x\cot x"></span></p><p><span data-math="(\cot x)^{\prime}=-\operatorname{cosec}^2x"></span></p></div></div>
+<p class="takeaway">For a composite function, multiply by the derivative of the inside.</p>
+<p class="dc-domain">Angles in radians; work where the original function is defined.</p>
+<p><strong>I can</strong> select and apply the appropriate rules to differentiate a trigonometric function.</p>
+<p class="booklet-cue">Booklet p. 26 · Key Ideas</p>
+
+::: notes
+Consolidate in the booklet. The product and quotient rules still apply when trigonometric functions are multiplied or divided by other functions. Briefly reconnect to the spring: x(t) gives position relative to equilibrium, x-prime(t) gives velocity and x-double-prime(t) gives acceleration. No additional exercise is needed. Approximately one minute.
+:::

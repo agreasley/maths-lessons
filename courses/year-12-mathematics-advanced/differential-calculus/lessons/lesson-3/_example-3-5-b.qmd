@@ -1,0 +1,7 @@
+## Example 3.5 {#dc3-example-3-5-b .dc-lesson }
+
+<p><strong>b)</strong> Find the exact gradient of the tangent to the curve $y=3\tan x$ at the point where $x=\dfrac\pi4$.</p><p class="booklet-cue">Booklet p. 20 · Example 3.5(b)</p>
+
+::: notes
+dy/dx=3 sec²x. At pi/4, sec²(pi/4)=2, so the gradient is 6. Distinguish sec²x from sec(x²). About one minute.
+:::

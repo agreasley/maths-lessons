@@ -1,0 +1,23 @@
+## A mass on a spring {#dc3-spring .dc-lesson .dc-spring}
+
+<p>A mass moves back and forth. When does it move fastest — and what turns it around?</p>
+<div class="dc-shm" data-dc-shm>
+<div class="dc-shm-layout"><div>
+<svg class="dc-shm-diagram" viewBox="0 0 660 350" role="img" aria-label="A mass on a spring, with equilibrium and displacement marked. After the reveal, arrows show velocity and acceleration."></svg>
+<div class="toolbar"><button class="dc-shm-play primary" aria-pressed="false">Play</button><button class="dc-shm-reset">Reset</button><button data-phase="0">Start</button><button data-phase="0.25">¼ cycle</button><button data-phase="0.5">½ cycle</button><button data-phase="0.75">¾ cycle</button></div>
+<label class="dc-slider-label">Position in cycle<input class="dc-shm-slider" type="range" min="0" max="1000" value="0" aria-label="Position in oscillation cycle"></label>
+<p class="small-note">An ideal spring: no friction or damping.</p>
+</div><div class="dc-shm-maths">
+<h3>Displacement</h3><p><span data-math="x(t)=A\cos(\omega t)"></span></p>
+<div class="fragment dc-shm-result" data-fragment-index="0">
+<h3 class="dc-velocity-colour">Velocity</h3><p><span data-math="v(t)=-A\omega\sin(\omega t)"></span></p>
+<h3 class="dc-acceleration-colour">Acceleration</h3><p><span data-math="a(t)=-A\omega^2\cos(\omega t)"></span></p><p><span data-math="\phantom{a(t)}=-\omega^2x(t)"></span></p>
+</div></div></div>
+<p class="fragment takeaway dc-shm-takeaway" data-fragment-index="0">Acceleration points back towards equilibrium, and its size is proportional to displacement.</p>
+</div>
+
+::: notes
+Additional hook, approximately two minutes. A>0 and omega>0 are constants; x measures signed displacement from equilibrium, not distance travelled. Play or drag the cycle slider; quarter-cycle buttons give exact turning points and equilibrium crossings. Pause at the right turning point, then at equilibrium. Ask students to notice where the mass is fastest, rather than calculate.
+
+One Next reveals velocity, acceleration, their arrows and the takeaway together. Differentiate with respect to t twice: v=-A omega sin(omega t), a=-A omega^2 cos(omega t)=-omega^2 x. At either turning point v=0 but acceleration is largest in magnitude. At equilibrium acceleration is zero and speed is greatest. The acceleration always points towards equilibrium when displacement is nonzero. This proportional restoring acceleration defines simple harmonic motion. Arrows are schematic and separately scaled; do not compare lengths of displacement, velocity and acceleration as though they had the same units. No damping or driving force is modelled. Motion starts only on Play and pauses when leaving the slide, opening the slide map or hiding the tab. Reset returns to the right turning point but preserves the teacher-controlled reveal state. This is a relevance demonstration, not an extra student exercise. No reference to another course is needed.
+:::

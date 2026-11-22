@@ -1,0 +1,7 @@
+## Example 3.11 {#dc3-example-3-11 .dc-lesson }
+
+<div class="eyebrow">2019 Advanced HSC 11b · 2 marks</div><p>Differentiate $x^2\sin x$ with respect to $x$.</p><p class="booklet-cue">Booklet p. 25 · Example 3.11</p>
+
+::: notes
+Booklet attribution retained; the original examination paper has not been independently checked. Product rule: 2x sin x+x² cos x. All real x. Use as short independent consolidation, around two minutes. Do not multiply the separate derivatives.
+:::

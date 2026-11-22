@@ -1,0 +1,10 @@
+## Previously {#dc3-previously .dc-lesson }
+
+<div class="dc-key-grid"><div><h3>Exponential functions</h3><p><span data-math="\frac{d}{dx}e^{f(x)}=f^{\prime}(x)e^{f(x)}"></span></p></div><div><h3>Logarithmic functions</h3><p><span data-math="\frac{d}{dx}\ln f(x)=\frac{f^{\prime}(x)}{f(x)}"></span></p><p class="small-note">For <span data-math="f(x)>0"></span>.</p></div></div>
+<p class="takeaway">Identify the outer function and the inner function.</p>
+<h3>Recall</h3><p><span data-math="\tan x=\frac{\sin x}{\cos x},\quad\sec x=\frac1{\cos x},\quad\operatorname{cosec}x=\frac1{\sin x},\quad\cot x=\frac{\cos x}{\sin x}"></span></p>
+<p><strong>Angles are measured in radians throughout this lesson.</strong></p>
+
+::: notes
+The first two rules were covered in Lessons 1 and 2. Ask which factor comes from differentiating the inside, then briefly recall when to use the product and quotient rules. The trigonometric identities and radians are prerequisite recall. Use each reciprocal identity only where its denominator is nonzero. Approximately two minutes.
+:::

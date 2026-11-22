@@ -1,0 +1,10 @@
+## Homework 3 · Exercise 7B {#dc3-homework .dc-lesson .dc-homework}
+
+<div class="eyebrow">Cambridge Year 12 Extension 1 – Exercise 7B</div>
+<div class="homework-level"><strong>Mild</strong><span>Q1(d,g,k,n,q,t), Q2(e,g), Q4(a,c), Q8(a,c,e,g), Q11(a,d), Q18.</span></div>
+<div class="homework-level"><strong>Medium</strong><span>Q1(h,n,s), Q2(a,f,k), Q4(b,d), Q8(b,d,f,h), Q11(b,c,e), Q12(b,d), Q18, Q20.</span></div>
+<div class="homework-level"><strong>Spicy</strong><span>Q2(j,l), Q8(d,h), Q11(b,c,f), Q12(c,d,f), Q17–18, Q20–21.</span></div>
+
+::: notes
+Exact Homework 3 allocation from booklet p. 26. The textbook title remains Cambridge Year 12 Extension 1 as assigned; this lesson is listed under Year 12 Mathematics Advanced. All Mild, Medium and Spicy selections are preserved. Textbook question content has not been independently inspected.
+:::

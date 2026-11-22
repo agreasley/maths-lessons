@@ -270,3 +270,154 @@ Publication remains manual: after merging the lesson branch, run Actions → Pub
 Added “Simplify before differentiating” immediately after Example 2.5 and before Example 2.6. It contrasts a product and quotient inside a logarithm, shows the log-law expansion first, and reveals both differentiated forms and the explanation together on Next. Notes distinguish this from the product/quotient rules still needed for the outer expressions in Example 2.7. The positive-function assumptions are explicit.
 
 Rendered the revised twenty-slide lesson and topic listing with Quarto 1.10.18. Checked both displayed derivative identities symbolically. Chromium at 1363 × 936: verified the insertion order, single-chunk reveal and Previous hide, full forward/back navigation, and no maths-renderer errors or overflow on the added slide. No new interactive diagram or control was introduced; the previously validated hinge is unchanged. WebKit and physical-iPad testing remain unavailable.
+
+
+## Lesson 3 — Differentiating trigonometric functions
+Approved scope: Year 12 Mathematics Advanced, Section 3, Examples 3.1–3.11 (pp. 16–25), Key Ideas and Homework 3 (p. 26). Twenty-nine slides. The spring context shows the purpose of trig derivatives without referring to future study in another course. Approximately 60 minutes if selected routine subparts are completed independently; working every subpart together will take longer.
+Source fidelity: all supplied example numbers, subparts, expressions, values and homework selections are retained. Fill-in proof scaffolds are supported by complete, grouped Next reveals. The informal graphing application and spring demonstration are additional teaching aids. No new syllabus attribution is inferred from the booklet’s Extension 1 headings.
+
+### Differentiating trigonometric functions
+
+Allow approximately 60 minutes with selected routine subparts completed independently. All booklet examples and subparts are included. Use OneNote for working; routine solutions are in notes. The spring hook is an additional context, not a booklet exercise. It does not assume any later course enrolment.
+
+### What, why and prior learning
+
+Success criterion, revisited at the end: I can select and apply the appropriate rules to differentiate a trigonometric function. Connect directly to the spring hook. Radians, trigonometric graphs and reciprocal identities are prerequisite recall rather than claims about the previous lesson.
+
+### A mass on a spring
+
+Additional hook, approximately two minutes. A>0 and omega>0 are constants; x measures signed displacement from equilibrium, not distance travelled. Play or drag the cycle slider; quarter-cycle buttons give exact turning points and equilibrium crossings. Pause at the right turning point, then at equilibrium. Ask students to notice where the mass is fastest, rather than calculate.
+
+One Next reveals velocity, acceleration, their arrows and the takeaway together. Differentiate with respect to t twice: v=-A omega sin(omega t), a=-A omega^2 cos(omega t)=-omega^2 x. At either turning point v=0 but acceleration is largest in magnitude. At equilibrium acceleration is zero and speed is greatest. The acceleration always points towards equilibrium when displacement is nonzero. This proportional restoring acceleration defines simple harmonic motion. Arrows are schematic and separately scaled; do not compare lengths of displacement, velocity and acceleration as though they had the same units. No damping or driving force is modelled. Motion starts only on Play and pauses when leaving the slide, opening the slide map or hiding the tab. Reset returns to the right turning point but preserves the teacher-controlled reveal state. This is a relevance demonstration, not an extra student exercise. No reference to another course is needed.
+
+### Previously
+
+The first two rules were covered in Lessons 1 and 2. Ask which factor comes from differentiating the inside, then briefly recall when to use the product and quotient rules. The trigonometric identities and radians are prerequisite recall. Use each reciprocal identity only where its denominator is nonzero. Approximately two minutes.
+
+### Example 3.1
+
+Booklet Example 3.1: (a)–(b). The exact five angles and gradient values are retained. Move the tangent using the slider or angle buttons. The graph uses equal horizontal and vertical unit scales, so the tangent angle represents its gradient faithfully. Students estimate and record the gradients first; the right-hand axes and table are deliberately blank. Next reveals the completed table, linked derivative curve and derivative rule simultaneously. Previous hides them together. The derivative graph includes the five recorded points and the current gradient point; its values agree with the slope of the tangent on the left. Gradients: 1, 0, -1, 0, 1. Match cosine. This local graphing application supports part (d); five sample points alone do not prove the rule for every x. The plotted derivative is the exact derivative curve, providing an informal graphical verification rather than a formal proof. Radians are essential. Allow about five minutes across both slides.
+
+### Example 3.1
+
+Booklet Example 3.1: (c)–(d). The exact five angles and gradient values are retained. Move the tangent using the slider or angle buttons. The graph uses equal horizontal and vertical unit scales, so the tangent angle represents its gradient faithfully. Students estimate and record the gradients first; the right-hand axes and table are deliberately blank. Next reveals the completed table, linked derivative curve and derivative rule simultaneously. Previous hides them together. The derivative graph includes the five recorded points and the current gradient point; its values agree with the slope of the tangent on the left. Gradients: 0, -1, 0, 1, 0. Match negative sine. Ask why the derivative of cosine needs a minus sign. This local graphing application supports part (d); five sample points alone do not prove the rule for every x. The plotted derivative is the exact derivative curve, providing an informal graphical verification rather than a formal proof. Radians are essential. Allow about five minutes across both slides.
+
+### Example 3.2
+
+(i) 3 cos x. (ii) (1/2) sin x: two negative signs cancel. (iii) 2 cos x-4 sin x. (iv) 2x+sin x. Work in OneNote. All domains are real. About three minutes, selecting some parts for independent practice.
+
+### Example 3.2
+
+Differentiate first: dy/dx=2 cos x. At pi/6, gradient=2(sqrt(3)/2)=sqrt(3). Distinguish the function value 1 from the gradient sqrt(3). Keep the exact value. About one minute.
+
+### Example 3.3
+
+u'=cos x, v'=-sin x. Subtraction of the negative term produces a plus; use sin²x+cos²x=1. All equalities hold where cos x is nonzero. The booklet's fill-in scaffold is represented by the prompts and the complete proof is one Next reveal, after OneNote working. About two minutes.
+
+### Example 3.3
+
+The negative exponent means reciprocal, not the inverse cosine function. Differentiate the outer power and inner cosine. The negatives cancel. Domain cos x != 0. Complete proof reveals in one chunk after working. About two minutes.
+
+### Example 3.4
+
+Work both proofs in OneNote before one Next reveals both complete chunks. (a) requires sin x nonzero. (b) Source qualification: cot x=1/tan x is only valid where tan x exists and is nonzero. The displayed chain-rule proof therefore excludes x=pi/2+k pi, even though cot x is defined there. To justify the final derivative on cotangent's full domain, use cot x=cos x/sin x and the quotient rule: [-sin²x-cos²x]/sin²x=-cosec²x for sin x != 0. Preserve the supplied question; do not silently replace it. Negative exponents denote reciprocals, not inverse trigonometric functions. About three minutes.
+
+### Example 3.5
+
+(i) 5 sec²x. (ii) -2 sec x tan x. (iii) -(1/2)cosec²x. Results hold on the corresponding function domains. Emphasise signs and constant multiples. About three minutes across both (a) slides.
+
+### Example 3.5
+
+(iv) -4 cosec x cot x. (v) sec x tan x+sec²x. (vi) -cosec x cot x-sec²x. Use the domains of the original functions. In (vi) both terms have negative signs after differentiating.
+
+### Example 3.5
+
+dy/dx=3 sec²x. At pi/4, sec²(pi/4)=2, so the gradient is 6. Distinguish sec²x from sec(x²). About one minute.
+
+### Example 3.6
+
+The argument f(x) remains intact; multiply by its derivative. Orange highlights the inner derivative, with proper superscript prime typography. All three completed results appear in one Next reveal, after working. Assume f is differentiable, angles in radians; the tangent rule holds where cos f(x) != 0. About three minutes.
+
+### HSC reference sheet
+
+Entire unchanged page 2 is embedded, with red outlines on the sine, cosine and tangent rows. The enlarged formulas retain the printed composite forms. Reciprocal derivatives are not printed; the preceding proofs recover them. This sheet image and source link are the same supplied/verified resource used in Lessons 1 and 2. Around one minute.
+
+### Hinge question
+
+Additional diagnostic, not a booklet example. Correct choice 3: y=[sin(3x)]², so y'=2 sin(3x)·cos(3x)·3. Choice 1 omits the inner factor 3. Choice 2 differentiates sine then squares the derivative instead of applying the power rule. Choice 4 omits the cosine factor from differentiating sine. Show 1–4 fingers simultaneously using the on-screen routine. 60-second timer; expiry does not reveal the answer. Ready: proceed to Example 3.7. Divided: rewrite [sin(3x)]², identify the square, sine and linear layers, then revote. Needs explanation: differentiate the square, sine and 3x separately before combining and retrying. Around three minutes.
+
+### Example 3.7
+
+(a) 2 tan x sec²x, where cos x != 0. (b) 4 sin³x cos x. Rewrite powers as [tan x]² and [sin x]⁴ if needed. The exponent belongs to the whole trigonometric value. About four minutes across both slides.
+
+### Example 3.7
+
+(c) -4 sin 4x. (d) 6 sin²(2x) cos(2x). (e) 6x cos(3x²). All real x. In (d), identify the outer cube, then sine, then 2x. In (e), retain the entire argument 3x² after differentiating the sine.
+
+### Example 3.8
+
+(a) e^(sin x) cos x, all real x. (b) sec²x/tan x on intervals where tan x>0 (and defined). (c) cos x/sin x=cot x, on intervals where sin x>0. Simplifying the derivative does not enlarge the original logarithm domain. About four minutes across both slides.
+
+### Example 3.8
+
+(d) -e^(-x) cos(e^(-x)), all real x. (e) -sin(ln x)/x for x>0. Compare (a) with (d): the outer function changes. Students should identify the structure before differentiating.
+
+### Example 3.9
+
+Booklet attribution retained; the original examination paper has not been independently checked. f'=2 cos(2x), f''=-4 sin(2x). Therefore cos(2x)=-sqrt(3)/2 and sin(2x)=-1/2, with 0<2x<2pi. Both conditions hold at 2x=7pi/6, so x=7pi/12. Checking only the first derivative also gives 5pi/12, which fails f''=2. Verify the common solution in both derivatives. Link verbally to the spring model: the second derivative describes how the rate itself changes. No full solution reveal is needed; use OneNote. About four minutes.
+
+### Example 3.10
+
+Product rule gives dy/dx=e^x cos x-e^x sin x=e^x(cos x-sin x), all real x. Ask whether the function is a product or composition. About three minutes across both slides.
+
+### Example 3.10
+
+Quotient rule: y'=(x cos x-sin x)/x² for x!=0. Alternatively write x^(-1) sin x and use the product rule. Keep the numerator order consistent. The original function is not defined at zero; no extension by continuity is requested.
+
+### Example 3.11
+
+Booklet attribution retained; the original examination paper has not been independently checked. Product rule: 2x sin x+x² cos x. All real x. Use as short independent consolidation, around two minutes. Do not multiply the separate derivatives.
+
+### Key ideas
+
+Consolidate in the booklet. The product and quotient rules still apply when trigonometric functions are multiplied or divided by other functions. Briefly reconnect to the spring: x(t) gives position relative to equilibrium, x-prime(t) gives velocity and x-double-prime(t) gives acceleration. No additional exercise is needed. Approximately one minute.
+
+### Homework 3 · Exercise 7B
+
+Exact Homework 3 allocation from booklet p. 26. The textbook title remains Cambridge Year 12 Extension 1 as assigned; this lesson is listed under Year 12 Mathematics Advanced. All Mild, Medium and Spicy selections are preserved. Textbook question content has not been independently inspected.
+
+### Lesson 3 validation
+
+- Rendered Lesson 3 and the updated topic listing with Quarto 1.10.18: 27 slides, one ordered include per slide, no nested slide sections.
+- Symbolically checked 28 derivative results, both exact-gradient calculations, both simultaneous derivative conditions in Example 3.9 and both spring derivatives. Domain qualifications remain in the presenter notes.
+- Chromium at 1363 × 936: navigated the complete sequence forward and backward, including grouped proof reveals and Previous hiding the complete groups. Checked for mathematical rendering errors, missing inline maths and measured layout overflow across the example, reference, hinge and final slides.
+- Visually reviewed the cover, spring in positive and negative displacement states, sine exploration before and after its reveal, complete reference-sheet page with all three red outlines, composite and reciprocal proofs, hinge, key ideas and homework.
+- Verified all five sine and cosine sample gradients, moving tangent controls and simultaneous table/derivative reveals. Native SVG paths keep mathematical labels in the same coordinate system as their diagrams; no foreignObject is present.
+- Exercised spring Play/Pause, quarter-cycle positions, slider, Reset and slide-map pause. At turning points velocity is zero and acceleration opposes displacement; at equilibrium acceleration is zero and speed is greatest. Reset returns to the right turning point and preserves reveal state.
+- Hinge: verified answer 3, every distractor, adjustable duration, Start/Pause/Resume, Reset, incorrect selection, deliberate answer reveal and timer expiry with the answer still hidden.
+- Checked the topic return link and the Mathematics Advanced topic listing with all three lessons. Existing URLs and Lessons 1–2 are unchanged.
+- WebKit could not run because its required host libraries are unavailable. Exact iPad viewport/touch emulation, portrait/landscape rotation and physical-device tests were not available through the supplied browser interface. This is a Chromium check, not an iPad compatibility certification.
+- The standalone export embeds all local assets and maths. Its return link points to the existing hosted topic. The local preview/export escapes literal closing body/html tags inside Quarto's notes script to prevent the preview relay injecting its reload script there; normal source and GitHub Pages rendering are unchanged.
+
+Publish after merging by running Actions → Publish Quarto lessons → main. A draft PR does not publish the lesson.
+
+
+### Lesson 3 reference-sheet summaries
+
+Added a short sine/cosine summary immediately after Example 3.1, and a complete enlarged Differential calculus section immediately before the hinge. The existing full-page reference slide remains unchanged. The lesson now contains 29 slides.
+
+#### Sine and cosine
+
+Quick summary immediately after both parts of Example 3.1, before Example 3.2. Allow 30–60 seconds. Say: “Sine becomes cosine; cosine becomes minus sine. Cosine changes the sign.” The explicit plus sign emphasises +cos x versus -sin x; it does not mean the numerical gradient is always positive or negative. If a student is unsure about the minus sign, recall that cos x has gradient -1 at x=pi/2, matching -sin(pi/2).
+
+The snapshot is a precise viewport onto the unchanged reference-sheet image, showing only the complete sine and cosine rows. Red outlines retain the established reference-sheet treatment. The sheet prints composite forms; briefly read f(x)=x and f'(x)=1, without developing the trigonometric chain rule yet. The composite results are developed later in Example 3.6. Everything on this summary is visible immediately; no extra reveal is needed.
+
+Optional memory aid for later repeated derivatives: sin x → cos x → -sin x → -cos x → sin x, with each arrow meaning differentiate. This four-function cycle is also used in the University of Waterloo CEMC lesson “Derivatives of Sine and Cosine Functions”: https://courseware.cemc.uwaterloo.ca/11/assignments/193/9. Keep it in notes rather than adding another task to this quick summary. “Cosine changes the sign” is an informal cue, not a proof. NESA source: https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf, page 2.
+
+#### Differentiation rules
+
+Quick overview immediately before the hinge. The complete Differential calculus section from page 2 is enlarged and arranged in two columns: first the four general differentiation rules, then all seven function rows in their original order. These are viewports onto the original image, not recreated or altered formulas. All row contents are visible, including the last log_a x derivative. The integral-calculus and statistics sections are intentionally outside this zoom; the preceding slide still retains the complete, uncropped page.
+
+Read left column then right column. Connect the familiar power, product, chain and quotient rules to the exponential and logarithmic derivatives from Lessons 1–2 and the trigonometric derivatives just covered. “Every differentiation rule on the sheet” refers to these printed rows; secant, cosecant and cotangent derivatives were also derived but are not printed on this sheet. No need to reteach individual rules here. Transition straight to choosing and combining the appropriate rules in the hinge. About 30 seconds. No answer reveal or new activity is added.
+
+Rendered the revised lesson and topic listing with Quarto 1.10.18. Chromium at 1363 × 936: visually checked both new slides, their complete formula rows and red outlines, no measured overflow, and no maths-renderer errors. Confirmed the summary sits between Example 3.1 and Example 3.2; the full derivatives overview follows the existing whole-page reference slide and leads directly to the hinge with its answer hidden. Navigated the full revised sequence forwards and backwards and checked slide-map return. The new slides are static; existing animations and hinge code are unchanged. WebKit and physical-iPad checks remain unavailable.

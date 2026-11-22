@@ -1,0 +1,10 @@
+## Key ideas {#dc4-key-ideas .dc-lesson }
+
+<div class="dc4-key-lines"><p><strong>Read the structure.</strong> Simplify first when it helps.</p><p><strong>Combine the rules.</strong> A product or quotient may contain a composition.</p><p><strong>Use the gradient.</strong> The tangent and normal share a point, but have different gradients.</p></div>
+<p class="takeaway">For the fading spring, finding velocity means differentiating both changing factors.</p>
+<p class="dc4-success">I can select the required differentiation rules and use the resulting gradient to find a tangent or normal.</p>
+<p class="booklet-cue">Booklet p. 32 · Key Ideas</p>
+
+::: notes
+Briefly revisit the success criterion and connect to the opening spring demonstration. Ask a student to name the first rule for one earlier example and another to describe how to obtain a normal gradient. No extra exercise is added. The spring's exponential and trigonometric factors are both changing, so the product rule produces two terms. About one minute.
+:::

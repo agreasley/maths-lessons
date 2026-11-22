@@ -1,0 +1,10 @@
+## What, why and prior learning {#dc4-purpose .dc-lesson }
+
+<div class="dc-intentions">
+<div class="dc-intention"><strong>What?</strong><p>We are learning to combine differentiation rules to find derivatives, tangents and normals.</p></div>
+<div class="dc-intention"><strong>Why?</strong><p>Model vibrations that gradually die away and find how fast the object is moving.</p></div>
+<div class="dc-intention dc-prior"><strong>Prior learning</strong><p>Exponential, logarithmic and trigonometric derivatives; product, quotient and chain rules; straight-line equations.</p></div></div>
+
+::: notes
+Success criterion, revisited near the end: I can select the required differentiation rules and use the resulting gradient to find a tangent or normal. Derivatives were covered in Lessons 1–3. Straight-line equations are prerequisite recall; tangent and normal equations receive an explicit recap later. Keep this opening brief.
+:::

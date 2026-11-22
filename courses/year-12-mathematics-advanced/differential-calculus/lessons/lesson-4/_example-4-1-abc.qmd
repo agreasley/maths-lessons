@@ -1,0 +1,7 @@
+## Example 4.1 {#dc4-example-4-1-abc .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="xe^x"></span></div><div><span class="part">b)</span><span data-math="x^3e^{-x}"></span></div><div><span class="part">c)</span><span data-math="\frac{x}{e^x}"></span></div></div><p class="booklet-cue">Booklet p. 27 · Example 4.1(a–c)</p>
+
+::: notes
+Work in OneNote; use selected parts as brief independent practice. (a) e^x(1+x). (b) e^-x(3x²-x³)=x²e^-x(3-x). (c) e^-x(1-x)=(1-x)/e^x. All real x. In (b) the minus sign comes from differentiating -x. In (c), rewriting x/e^x=xe^-x allows the product rule; quotient rule is equally valid. About four minutes.
+:::

@@ -1,0 +1,9 @@
+## Example 4.7 {#dc4-example-4-7 .dc-lesson }
+
+<p>The line <span data-math="y=mx"></span> is tangential to the curve <span data-math="y=e^{3x}"></span>. Find the exact value of <span data-math="m"></span>.</p>
+<div class="dc4-contact-layout"><svg data-dc-tangent-origin class="dc4-contact-svg" viewBox="0 0 620 440" role="img" aria-label="An exponential curve and a tangent through the origin, meeting at an unknown point P."></svg><div class="dc4-contact-prompt"><p class="takeaway">Same point.<br>Same gradient.</p></div></div>
+<p class="booklet-cue">Booklet p. 31 · Example 4.7</p>
+
+::: notes
+About four minutes. Let contact occur at x=a. Incidence gives e^(3a)=ma, and equal gradients give m=3e^(3a). Substituting gives e^(3a)=3ae^(3a). Since the exponential is positive, a=1/3. Therefore m=3e; the contact point is (1/3,e). Do not assume the origin lies on the exponential curve: the line passes through the origin. The diagram is illustrative and uses unequal x/y scales; no numerical contact coordinate or slope is revealed. The curve and line are mathematically exact in the plotted coordinates. Use OneNote for the solution.
+:::

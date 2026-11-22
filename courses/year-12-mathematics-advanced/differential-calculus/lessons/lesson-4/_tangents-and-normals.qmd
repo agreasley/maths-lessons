@@ -1,0 +1,15 @@
+## Tangents and normals {#dc4-tangents-and-normals .dc-lesson }
+
+<p class="dc4-intro">To find the equation at the point <span data-math="(x_1,y_1)"></span> on <span data-math="y=f(x)"></span>:</p>
+<div class="dc4-tangent-layout"><div>
+<svg data-dc-tangent-recap class="dc4-tangent-svg" viewBox="0 0 500 440" role="img" aria-label="A curve, a tangent and its perpendicular normal at the same point."></svg></div><div class="dc4-tangent-rules">
+<h3>Tangent gradient</h3><p><span data-math="m_T=f^{\prime}(x_1)"></span></p>
+<h3>Normal gradient</h3><p><span data-math="m_N=-\frac1{f^{\prime}(x_1)}"></span></p><p class="small-note">Provided <span data-math="f^{\prime}(x_1)\ne0"></span>.</p>
+<h3>Point-gradient form</h3><p><span data-math="y-y_1=m(x-x_1)"></span></p>
+</div></div>
+<p class="dc4-horizontal">If <span data-math="f^{\prime}(x_1)=0"></span>: tangent <span data-math="y=y_1"></span>; normal <span data-math="x=x_1"></span>.</p>
+<p class="booklet-cue">Booklet p. 30 · Equations of Tangents and Normals</p>
+
+::: notes
+About three minutes. Recall straight-line equations and distinguish f(x1), the point's y-coordinate, from f'(x1), the tangent gradient. The tangent and normal pass through the same point. Their gradients have product -1 when both gradients are finite. If f'(x1)=0 the tangent is horizontal and the normal vertical; do not divide by zero. The diagram uses equal axis units, with an illustrative curve y=x²/4 at (2,1), tangent y=x-1 and normal y=-x+3. The point is labelled generically P(x1,y1) to show the method, not set an additional exercise. The right-angle marker is exact. All coordinates and mathematical labels share the same SVG system.
+:::

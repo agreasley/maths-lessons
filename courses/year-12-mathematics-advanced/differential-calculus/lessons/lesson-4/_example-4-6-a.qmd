@@ -1,0 +1,8 @@
+## Example 4.6 {#dc4-example-4-6-a .dc-lesson }
+
+<p><strong>a)</strong> Find the equation of the normal to the curve <span data-math="y=e^{-x}"></span> at the point where it crosses the <span data-math="y"></span>-axis.</p>
+<p class="booklet-cue">Booklet p. 31 · Example 4.6(a)</p>
+
+::: notes
+The point is (0,1). y'=-e^-x gives tangent gradient -1, hence normal gradient +1. y-1=1(x-0), or y=x+1. The negative reciprocal of -1 is +1. About two minutes.
+:::

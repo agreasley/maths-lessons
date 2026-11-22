@@ -1,0 +1,9 @@
+## Homework 4 · Trigonometric functions {#dc4-homework-trigonometric .dc-lesson .dc-homework}
+
+<div class="eyebrow">Cambridge Year 12 Extension 1</div><div class="homework-level"><strong>Mild</strong><div><p><span class="dc-exercise">Exercise 7B:</span> Q6(a), Q7(b).</p><p><span class="dc-exercise">Exercise 7C:</span> Q3(a,d).</p></div></div>
+<div class="homework-level"><strong>Medium</strong><div><p><span class="dc-exercise">Exercise 7B:</span> Q6(c), Q7(c), Q12(a,e).</p><p><span class="dc-exercise">Exercise 7C:</span> Q3(f), Q5.</p></div></div>
+<div class="homework-level"><strong>Spicy</strong><div><p><span class="dc-exercise">Exercise 7B:</span> Q13(b,d), Q16(a), Q22.</p><p><span class="dc-exercise">Exercise 7C:</span> Q6.</p></div></div>
+
+::: notes
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 7B and 7C.
+:::

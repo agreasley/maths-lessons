@@ -1,0 +1,7 @@
+## Example 4.2 {#dc4-example-4-2-cd .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">c)</span><span data-math="y=\sec x\ln(\sin x)"></span></div><div><span class="part">d)</span><span data-math="y=\frac{\tan(1-x^2)}{\cos x}"></span></div></div><p class="booklet-cue">Booklet p. 28 · Example 4.2(c–d)</p>
+
+::: notes
+(c) sec x tan x ln(sin x)+sec x·cos x/sin x = sec x tan x ln(sin x)+cosec x. Original domain sin x>0 and cos x≠0; simplifying the derivative does not enlarge that domain. Identify product first, then ln(sin x) as a composition. (d) [-2x sec²(1-x²)cos x+tan(1-x²)sin x]/cos²x. Equivalent product form: -2x sec x sec²(1-x²)+sec x tan x tan(1-x²). Domain cos x≠0 and cos(1-x²)≠0. The quotient numerator has a plus in its second term because v'=-sin x. Around five minutes.
+:::

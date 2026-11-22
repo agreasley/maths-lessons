@@ -1,0 +1,9 @@
+## Homework 4 · Exponential functions {#dc4-homework-exponential .dc-lesson .dc-homework}
+
+<div class="eyebrow">Cambridge Year 12 Extension 1</div><div class="homework-level"><strong>Mild</strong><div><p><span class="dc-exercise">Exercise 5B:</span> Q9(b), Q10(b).</p><p><span class="dc-exercise">Exercise 5C:</span> Q1–2.</p></div></div>
+<div class="homework-level"><strong>Medium</strong><div><p><span class="dc-exercise">Exercise 5B:</span> Q16(c,e).</p><p><span class="dc-exercise">Exercise 5C:</span> Q6.</p></div></div>
+<div class="homework-level"><strong>Spicy</strong><div><p><span class="dc-exercise">Exercise 5B:</span> Q16(d,f).</p><p><span class="dc-exercise">Exercise 5C:</span> Q7, Q9(a,b).</p></div></div>
+
+::: notes
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 5B and 5C.
+:::

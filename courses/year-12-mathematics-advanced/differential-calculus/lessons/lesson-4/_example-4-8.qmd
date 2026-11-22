@@ -1,0 +1,9 @@
+## Example 4.8 {#dc4-example-4-8 .dc-lesson }
+
+<div class="eyebrow">2021 HSC Mathematics Advanced, Q13</div>
+<p>Find the exact gradient of the tangent to the curve <span data-math="y=x\tan x"></span> at the point where <span data-math="x=\frac\pi3"></span>.</p><p class="dc4-marks">(3 marks)</p>
+<p class="booklet-cue">Booklet p. 32 · Example 4.8</p>
+
+::: notes
+Preserve the booklet's examination attribution; the original examination paper has not been independently checked. y'=tan x+x sec²x, so at pi/3 the gradient is sqrt(3)+4pi/3. Angles in radians, exact values. Domain cos x≠0; pi/3 is valid. They are asked for the gradient only, not the equation. Allow a brief independent attempt then OneNote discussion, about three minutes.
+:::

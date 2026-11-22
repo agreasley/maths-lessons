@@ -1,0 +1,24 @@
+## When vibrations fade {#dc4-fading-vibrations .dc-lesson .dc4-hook}
+
+<p class="dc4-intro">A real spring gradually settles. Its motion combines oscillation and decay.</p>
+<div data-dc-damped class="dc4-damped">
+<div class="dc4-damped-layout"><div>
+<svg class="dc4-damped-svg" viewBox="0 0 690 440" role="img" aria-label="A spring and its displacement-time graph, with exponential bounds and a moving point."></svg>
+<div class="toolbar"><button class="dc4-play primary" aria-pressed="false">Play</button><button class="dc4-reset">Reset</button><output class="dc4-time">0.00 s</output></div>
+<label class="dc4-slider-label">Time<input class="dc4-time-slider" type="range" min="0" max="6" step="0.01" value="0" aria-label="Time in seconds"></label>
+</div><div class="dc4-damped-maths">
+<h3>Displacement</h3><p><span data-math="s(t)=5e^{-t/2}\cos(4t)"></span></p>
+<p class="small-note">Centimetres; time in seconds.</p>
+<p><span class="dc4-decay">Exponential decay</span><br><span class="dc4-oscillation">× cosine oscillation</span></p>
+<div class="fragment dc4-velocity" data-fragment-index="0"><h3>Velocity</h3>
+<p><span data-math="v(t)=\textcolor{#b55224}{-\frac52e^{-t/2}\cos(4t)}"></span><br><span data-math="\phantom{v(t)=}\textcolor{#3b66a8}{-20e^{-t/2}\sin(4t)}"></span></p>
+<p class="small-note">Both factors change, so the product rule produces two terms.</p></div>
+</div></div></div>
+
+::: notes
+Additional relevance demonstration, not a booklet exercise. Allow about two minutes. Illustrative parameters: s(t)=5e^(-t/2)cos(4t) cm, t in seconds. The graph shows the exact model and bounds ±5e^(-t/2); these are envelopes, not curves through every turning point. The displayed physical spring is schematic; the displacement graph has labelled units. Play runs from 0 to 6 seconds then pauses; time slider and Reset support touch. Animation pauses on leaving the slide, opening the slide map or hiding the tab. Reset returns to t=0 and preserves the teacher-controlled reveal state.
+
+Ask: “Which factor makes it oscillate, and which makes the oscillations shrink?” Students should connect cosine with back-and-forth motion and the exponential factor with the shrinking bounds. Do not assign a derivative calculation. Next reveals the complete velocity expression in one chunk, with orange marking the derivative of the exponential factor and blue marking the derivative of the cosine factor. v=e^(-t/2)[-(5/2)cos(4t)-20sin(4t)] cm/s. Previous hides the whole result.
+
+At t=0, s=5 and v=-2.5: the object is already moving; do not describe it as released from rest. At t=pi/8, s=0 and v=-20e^(-pi/16), approximately -16.4345 cm/s. For this damped model, zero displacement is not in general the instant of greatest speed. Do not repeat the undamped spring claim from Lesson 3. Source for the modelling form and context: OpenStax, University Physics Volume 1, §15.5 Damped Oscillations, https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations (checked 22 November 2026). The diagram and numbers are original illustrative content.
+:::

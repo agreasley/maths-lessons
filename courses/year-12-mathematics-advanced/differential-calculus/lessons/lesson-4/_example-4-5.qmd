@@ -1,0 +1,8 @@
+## Example 4.5 {#dc4-example-4-5 .dc-lesson }
+
+<p>Find the equation of the tangent to the curve <span data-math="y=3e^x"></span> at <span data-math="x=1"></span>.</p>
+<p class="booklet-cue">Booklet p. 30 · Example 4.5</p>
+
+::: notes
+At x=1, y=3e and y'=3e. Point-gradient form: y-3e=3e(x-1), so y=3ex. All values exact. The identical numerical values of y and y' here are a property of this function, not a general rule. Work in OneNote; about two minutes.
+:::

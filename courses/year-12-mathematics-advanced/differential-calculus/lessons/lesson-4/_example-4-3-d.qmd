@@ -1,0 +1,9 @@
+## Example 4.3 {#dc4-example-4-3-d .dc-lesson }
+
+<p><strong>d)</strong> Show that <span data-math="\cosh^2x-\sinh^2x=1"></span>:</p>
+<div class="dc4-identity"><p><span data-math="\begin{aligned}\cosh^2x-\sinh^2x&=\left(\frac{e^x+e^{-x}}2\right)^2-\left(\frac{e^x-e^{-x}}2\right)^2\\[1em]&=\frac{e^{2x}+\ldots+e^{-2x}}4-\frac{e^{2x}-\ldots+e^{-2x}}4\\[1em]&=\frac{\ldots}{4}=\ldots\end{aligned}"></span></p></div>
+<p class="booklet-cue">Booklet p. 29 · Example 4.3(d)</p>
+
+::: notes
+The blanks are 2, 2, 4, 1. e^x e^-x=1. The outside subtraction reverses every sign in the second numerator. Alternative after completing the supplied scaffold: (cosh x+sinh x)(cosh x-sinh x)=e^x e^-x=1. This part consolidates algebra and exponential laws, not a new differentiation rule. About two minutes.
+:::

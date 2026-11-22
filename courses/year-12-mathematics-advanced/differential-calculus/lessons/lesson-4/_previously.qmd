@@ -1,0 +1,9 @@
+## Previously {#dc4-previously .dc-lesson }
+
+<div class="dc4-recap">
+<div><h3>Differentiate the function</h3><p><span data-math="(e^x)^{\prime}=e^x\qquad (\ln x)^{\prime}=\frac1x"></span></p><p><span data-math="(\sin x)^{\prime}=\cos x"></span></p><p><span data-math="(\cos x)^{\prime}=-\sin x"></span></p><p><span data-math="(\tan x)^{\prime}=\sec^2x"></span></p></div>
+<div><h3>Read the structure</h3><p><span data-math="(uv)^{\prime}=u^{\prime}v+uv^{\prime}"></span></p><p><span data-math="\left(\frac uv\right)^{\prime}=\frac{vu^{\prime}-uv^{\prime}}{v^2}"></span></p><p><span data-math="\frac{d}{dx}f(g(x))=f^{\prime}(g(x))g^{\prime}(x)"></span></p></div></div>
+
+::: notes
+Around two minutes. This is a selected recap, not an exhaustive formula sheet. Exponential, logarithmic and trigonometric derivatives were covered in Lessons 1–3; power, product, quotient and chain rules are established prerequisites. Explain that the outer structure determines the first rule, and another rule may be needed inside a factor. ln x requires x>0; tangent requires cos x nonzero; the quotient denominator must be nonzero. Trigonometric arguments use radians.
+:::

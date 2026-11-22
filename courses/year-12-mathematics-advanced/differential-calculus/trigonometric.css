@@ -34,3 +34,27 @@
 .reveal .dc-lesson .dc-sheet-highlight-cos{top:36.9%;height:3.8%}
 .reveal .dc-lesson .dc-sheet-highlight-tan{top:41.8%;height:3.8%}
 .reveal .dc-trig-summary p{font-size:28px;margin:18px 0}
+
+/* Reference-sheet close-ups retain the complete original image beneath each viewport. */
+.reveal .dc-reference-detail{margin:0}
+.reveal .dc-reference-crop{position:relative;overflow:hidden;background:#fff;line-height:0}
+.reveal .dc-reference-crop img{position:absolute;max-width:none;max-height:none;margin:0;height:auto}
+.reveal .dc-reference-crop p{margin:0}
+.reveal .dc-sin-cos-rules{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.reveal .dc-sin-cos-rules p{font-size:40px;margin:18px 0}
+.reveal .dc-sin-cos-summary .takeaway{font-size:31px;margin:16px 0 26px;padding:10px 0 10px 22px}
+.reveal .dc-sin-cos-crop{width:900px;height:289.29px;margin:0 auto}
+.reveal .dc-sin-cos-crop img{width:2045.89px;left:-88.39px;top:-900px}
+.reveal .dc-crop-highlight{position:absolute;box-sizing:border-box;border:3px solid #e32620;left:14.46px;width:871.07px;height:109.29px;pointer-events:none}
+.reveal .dc-crop-highlight-sin{top:22.5px}
+.reveal .dc-crop-highlight-cos{top:167.14px}
+.reveal .dc-reference-detail figcaption{font-size:21px;line-height:1.4;margin:18px 0 0;text-align:center;color:var(--muted)}
+.reveal .dc-summary-footer{display:flex;justify-content:space-between;font-size:22px;margin-top:28px;padding-top:14px;border-top:1px solid var(--rule);color:var(--muted)}
+.reveal .dc-derivatives-overview h2{margin-bottom:12px;padding-bottom:12px}
+.reveal .dc-derivatives-overview>p{font-size:26px;margin:0 0 10px}
+.reveal .dc-derivatives-crops{display:grid;grid-template-columns:560px 560px;gap:70px}
+.reveal .dc-rules-crop{width:560px;height:490px}
+.reveal .dc-rules-crop img{width:1273px;left:-55px;top:-65px}
+.reveal .dc-functions-crop{width:560px;height:620px}
+.reveal .dc-functions-crop img{width:1273px;left:-55px;top:-565px}
+.reveal .dc-derivatives-overview>.dc-sheet-source{font-size:18px;margin:13px 0 0}

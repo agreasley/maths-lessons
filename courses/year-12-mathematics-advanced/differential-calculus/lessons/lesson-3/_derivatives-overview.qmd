@@ -1,0 +1,18 @@
+## Differentiation rules {#dc3-derivatives-overview .dc-lesson .dc-derivatives-overview}
+
+<p>We have now covered every differentiation rule on the sheet.</p>
+<div class="dc-derivatives-crops">
+<figure class="dc-reference-detail"><div class="dc-reference-crop dc-rules-crop">
+<img src="../media/reference-sheet-page-2.png" alt="Enlarged first part of the original Differential calculus section: the power, product, chain and quotient rules, with the Function and Derivative headings.">
+</div></figure>
+<figure class="dc-reference-detail"><div class="dc-reference-crop dc-functions-crop">
+<img src="../media/reference-sheet-page-2.png" alt="Enlarged continuation of the original Differential calculus section: all seven printed trigonometric, exponential and logarithmic derivative rows, from sine through logarithm to base a.">
+</div></figure>
+</div>
+<p class="dc-sheet-source">NESA · Mathematics Advanced reference sheet · Differential calculus section · <a href="https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf" target="_blank" rel="noopener">Open full reference sheet</a></p>
+
+::: notes
+Quick overview immediately before the hinge. The complete Differential calculus section from page 2 is enlarged and arranged in two columns: first the four general differentiation rules, then all seven function rows in their original order. These are viewports onto the original image, not recreated or altered formulas. All row contents are visible, including the last log_a x derivative. The integral-calculus and statistics sections are intentionally outside this zoom; the preceding slide still retains the complete, uncropped page.
+
+Read left column then right column. Connect the familiar power, product, chain and quotient rules to the exponential and logarithmic derivatives from Lessons 1–2 and the trigonometric derivatives just covered. “Every differentiation rule on the sheet” refers to these printed rows; secant, cosecant and cotangent derivatives were also derived but are not printed on this sheet. No need to reteach individual rules here. Transition straight to choosing and combining the appropriate rules in the hinge. About 30 seconds. No answer reveal or new activity is added.
+:::

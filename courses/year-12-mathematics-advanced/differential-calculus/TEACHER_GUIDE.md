@@ -273,7 +273,7 @@ Rendered the revised twenty-slide lesson and topic listing with Quarto 1.10.18. 
 
 
 ## Lesson 3 — Differentiating trigonometric functions
-Approved scope: Year 12 Mathematics Advanced, Section 3, Examples 3.1–3.11 (pp. 16–25), Key Ideas and Homework 3 (p. 26). Twenty-seven slides. The spring context shows the purpose of trig derivatives without referring to future study in another course. Approximately 60 minutes if selected routine subparts are completed independently; working every subpart together will take longer.
+Approved scope: Year 12 Mathematics Advanced, Section 3, Examples 3.1–3.11 (pp. 16–25), Key Ideas and Homework 3 (p. 26). Twenty-nine slides. The spring context shows the purpose of trig derivatives without referring to future study in another course. Approximately 60 minutes if selected routine subparts are completed independently; working every subpart together will take longer.
 Source fidelity: all supplied example numbers, subparts, expressions, values and homework selections are retained. Fill-in proof scaffolds are supported by complete, grouped Next reveals. The informal graphing application and spring demonstration are additional teaching aids. No new syllabus attribution is inferred from the booklet’s Extension 1 headings.
 
 ### Differentiating trigonometric functions
@@ -400,3 +400,24 @@ Exact Homework 3 allocation from booklet p. 26. The textbook title remains Cambr
 - The standalone export embeds all local assets and maths. Its return link points to the existing hosted topic. The local preview/export escapes literal closing body/html tags inside Quarto's notes script to prevent the preview relay injecting its reload script there; normal source and GitHub Pages rendering are unchanged.
 
 Publish after merging by running Actions → Publish Quarto lessons → main. A draft PR does not publish the lesson.
+
+
+### Lesson 3 reference-sheet summaries
+
+Added a short sine/cosine summary immediately after Example 3.1, and a complete enlarged Differential calculus section immediately before the hinge. The existing full-page reference slide remains unchanged. The lesson now contains 29 slides.
+
+#### Sine and cosine
+
+Quick summary immediately after both parts of Example 3.1, before Example 3.2. Allow 30–60 seconds. Say: “Sine becomes cosine; cosine becomes minus sine. Cosine changes the sign.” The explicit plus sign emphasises +cos x versus -sin x; it does not mean the numerical gradient is always positive or negative. If a student is unsure about the minus sign, recall that cos x has gradient -1 at x=pi/2, matching -sin(pi/2).
+
+The snapshot is a precise viewport onto the unchanged reference-sheet image, showing only the complete sine and cosine rows. Red outlines retain the established reference-sheet treatment. The sheet prints composite forms; briefly read f(x)=x and f'(x)=1, without developing the trigonometric chain rule yet. The composite results are developed later in Example 3.6. Everything on this summary is visible immediately; no extra reveal is needed.
+
+Optional memory aid for later repeated derivatives: sin x → cos x → -sin x → -cos x → sin x, with each arrow meaning differentiate. This four-function cycle is also used in the University of Waterloo CEMC lesson “Derivatives of Sine and Cosine Functions”: https://courseware.cemc.uwaterloo.ca/11/assignments/193/9. Keep it in notes rather than adding another task to this quick summary. “Cosine changes the sign” is an informal cue, not a proof. NESA source: https://curriculum.nsw.edu.au/file/65945a13-8dc4-4ebe-97bc-b274a8169734/mathematics-advanced-11-12-2024-reference-sheet.pdf, page 2.
+
+#### Differentiation rules
+
+Quick overview immediately before the hinge. The complete Differential calculus section from page 2 is enlarged and arranged in two columns: first the four general differentiation rules, then all seven function rows in their original order. These are viewports onto the original image, not recreated or altered formulas. All row contents are visible, including the last log_a x derivative. The integral-calculus and statistics sections are intentionally outside this zoom; the preceding slide still retains the complete, uncropped page.
+
+Read left column then right column. Connect the familiar power, product, chain and quotient rules to the exponential and logarithmic derivatives from Lessons 1–2 and the trigonometric derivatives just covered. “Every differentiation rule on the sheet” refers to these printed rows; secant, cosecant and cotangent derivatives were also derived but are not printed on this sheet. No need to reteach individual rules here. Transition straight to choosing and combining the appropriate rules in the hinge. About 30 seconds. No answer reveal or new activity is added.
+
+Rendered the revised lesson and topic listing with Quarto 1.10.18. Chromium at 1363 × 936: visually checked both new slides, their complete formula rows and red outlines, no measured overflow, and no maths-renderer errors. Confirmed the summary sits between Example 3.1 and Example 3.2; the full derivatives overview follows the existing whole-page reference slide and leads directly to the hinge with its answer hidden. Navigated the full revised sequence forwards and backwards and checked slide-map return. The new slides are static; existing animations and hinge code are unchanged. WebKit and physical-iPad checks remain unavailable.

@@ -1,0 +1,9 @@
+## Example 4.4 {#dc4-example-4-4 .dc-lesson }
+
+<div class="eyebrow">2020 HSC Mathematics Advanced, Q18(a)</div>
+<p>Differentiate <span data-math="e^{2x}(2x+1)"></span>.</p><p class="dc4-marks">(2 marks)</p>
+<p class="booklet-cue">Booklet p. 29 · Example 4.4</p>
+
+::: notes
+Preserve the booklet's examination attribution; the original examination paper has not been independently checked. Independent attempt, about two minutes. Derivative = 2e^(2x)(2x+1)+2e^(2x)=4e^(2x)(x+1), for all real x. Suggested checking, not an official marking scheme: correct product/chain substitution, then correct derivative. No on-slide answer reveal.
+:::

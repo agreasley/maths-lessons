@@ -421,3 +421,120 @@ Quick overview immediately before the hinge. The complete Differential calculus 
 Read left column then right column. Connect the familiar power, product, chain and quotient rules to the exponential and logarithmic derivatives from Lessons 1–2 and the trigonometric derivatives just covered. “Every differentiation rule on the sheet” refers to these printed rows; secant, cosecant and cotangent derivatives were also derived but are not printed on this sheet. No need to reteach individual rules here. Transition straight to choosing and combining the appropriate rules in the hinge. About 30 seconds. No answer reveal or new activity is added.
 
 Rendered the revised lesson and topic listing with Quarto 1.10.18. Chromium at 1363 × 936: visually checked both new slides, their complete formula rows and red outlines, no measured overflow, and no maths-renderer errors. Confirmed the summary sits between Example 3.1 and Example 3.2; the full derivatives overview follows the existing whole-page reference slide and leads directly to the hinge with its answer hidden. Navigated the full revised sequence forwards and backwards and checked slide-map return. The new slides are static; existing animations and hinge code are unchanged. WebKit and physical-iPad checks remain unavailable.
+
+
+## Lesson 4: Mixed differentiation, tangents and normals
+
+Approved coverage: booklet pp. 27–33, Examples 4.1–4.8 and all of Homework 4. 23 slides. Year 12 Mathematics Advanced. All student calculations remain in OneNote; routine solutions are in presenter notes. The fading-spring illustration, rule-selection activity, hinge and supporting diagrams are additional material. No new syllabus claims. Original examination labels are retained without independently verifying the original exam papers.
+
+### Mixed differentiation, tangents and normals
+
+Allow about 60 minutes with selected routine subparts as independent practice; fully working every part together will take longer. Preserve all examples and Homework 4. This is a consolidation lesson: choosing rules, simplifying first where helpful, and using derivatives for tangent and normal equations. The cover illustration is schematic. All source wording and subparts are retained; worked solutions are in these notes. The supplied booklet prints an Extension 1 syllabus heading, but the lesson is filed under Year 12 Mathematics Advanced as requested. Do not present that heading as a verified Advanced syllabus quotation.
+
+### What, why and prior learning
+
+Success criterion, revisited near the end: I can select the required differentiation rules and use the resulting gradient to find a tangent or normal. Derivatives were covered in Lessons 1–3. Straight-line equations are prerequisite recall; tangent and normal equations receive an explicit recap later. Keep this opening brief.
+
+### When vibrations fade
+
+Additional relevance demonstration, not a booklet exercise. Allow about two minutes. Illustrative parameters: s(t)=5e^(-t/2)cos(4t) cm, t in seconds. The graph shows the exact model and bounds ±5e^(-t/2); these are envelopes, not curves through every turning point. The displayed physical spring is schematic; the displacement graph has labelled units. Play runs from 0 to 6 seconds then pauses; time slider and Reset support touch. Animation pauses on leaving the slide, opening the slide map or hiding the tab. Reset returns to t=0 and preserves the teacher-controlled reveal state.
+
+Ask: “Which factor makes it oscillate, and which makes the oscillations shrink?” Students should connect cosine with back-and-forth motion and the exponential factor with the shrinking bounds. Do not assign a derivative calculation. Next reveals the complete velocity expression in one chunk, with orange marking the derivative of the exponential factor and blue marking the derivative of the cosine factor. v=e^(-t/2)[-(5/2)cos(4t)-20sin(4t)] cm/s. Previous hides the whole result.
+
+At t=0, s=5 and v=-2.5: the object is already moving; do not describe it as released from rest. At t=pi/8, s=0 and v=-20e^(-pi/16), approximately -16.4345 cm/s. For this damped model, zero displacement is not in general the instant of greatest speed. Do not repeat the undamped spring claim from Lesson 3. Source for the modelling form and context: OpenStax, University Physics Volume 1, §15.5 Damped Oscillations, https://openstax.org/books/university-physics-volume-1/pages/15-5-damped-oscillations (checked 22 November 2026). The diagram and numbers are original illustrative content.
+
+### Previously
+
+Around two minutes. This is a selected recap, not an exhaustive formula sheet. Exponential, logarithmic and trigonometric derivatives were covered in Lessons 1–3; power, product, quotient and chain rules are established prerequisites. Explain that the outer structure determines the first rule, and another rule may be needed inside a factor. ln x requires x>0; tangent requires cos x nonzero; the quotient denominator must be nonzero. Trigonometric arguments use radians.
+
+### Choose the rule
+
+Additional one-minute comparison activity. Students name a first rule and justify it to a partner; no derivatives need to be calculated. Intended understanding: multiplication differs from composition, and equivalent forms can offer a simpler route. Accept either quotient rule for x/e^x or product rule after rewriting as xe^-x. Next reveals all three classifications and the takeaway together; Previous hides the complete group. No named Project Zero routine is required.
+
+### Hinge question
+
+Additional diagnostic. Correct choice 3: differentiate the exponential factor and leave sine, then leave the exponential factor and differentiate sine: y'=2e^(2x)sin x+e^(2x)cos x. Choice 1 multiplies the derivatives, instead of using the product rule. Choice 2 omits the chain-rule factor 2. Choice 4 incorrectly differentiates sin x to -cos x. All choices are expressions for a derivative function, so equality at isolated x-values does not make another option correct.
+
+Use the shared 60-second timer, adjustable duration, Start/Pause/Resume and Reset; answer remains hidden at expiry. Fist on chest, think quietly, then show 1–4 fingers simultaneously on the teacher's cue. Ready: continue to Example 4.1. Divided: ask pairs to explain where both terms come from, then revote. Needs explanation: label u=e^(2x), v=sin x and identify u', v' separately; substitute in u'v+uv', then retry. About three minutes.
+
+### Example 4.1
+
+Work in OneNote; use selected parts as brief independent practice. (a) e^x(1+x). (b) e^-x(3x²-x³)=x²e^-x(3-x). (c) e^-x(1-x)=(1-x)/e^x. All real x. In (b) the minus sign comes from differentiating -x. In (c), rewriting x/e^x=xe^-x allows the product rule; quotient rule is equally valid. About four minutes.
+
+### Example 4.1
+
+Derivative e^(3x)(3 sin x+cos x), all real x. Compare the outer product rule with the chain rule inside the exponential factor. This is structurally like the fading-spring model. About two minutes.
+
+### Example 4.2
+
+(a) 2(cos²x-sin²x)=2cos(2x), all real x. Compare product rule with the double-angle identity y=sin(2x), then chain rule. Do not replace the original problem: write the equivalent form alongside it. (b) [x²cos x-2x sin x]/x⁴=(x cos x-2 sin x)/x³, x≠0. Alternative: differentiate x^-2 sin x by the product rule. About four minutes.
+
+### Example 4.2
+
+(c) sec x tan x ln(sin x)+sec x·cos x/sin x = sec x tan x ln(sin x)+cosec x. Original domain sin x>0 and cos x≠0; simplifying the derivative does not enlarge that domain. Identify product first, then ln(sin x) as a composition. (d) [-2x sec²(1-x²)cos x+tan(1-x²)sin x]/cos²x. Equivalent product form: -2x sec x sec²(1-x²)+sec x tan x tan(1-x²). Domain cos x≠0 and cos(1-x²)≠0. The quotient numerator has a plus in its second term because v'=-sin x. Around five minutes.
+
+### Example 4.3
+
+Keep the source definitions and fill-in structure. These are unfamiliar function names built from familiar exponentials; no extra derivative formula needs to be memorised. (a) [e^x+(-e^-x)]/2=sinh x. (b) [e^x-(-e^-x)]/2=cosh x. (c) derivative of sinh x = cosh x. All real x. Both swaps have a positive coefficient; unlike the trigonometric pair, no alternating minus sign appears in these two derivative rules. Work in OneNote rather than revealing all answers automatically. About four minutes.
+
+### Example 4.3
+
+The blanks are 2, 2, 4, 1. e^x e^-x=1. The outside subtraction reverses every sign in the second numerator. Alternative after completing the supplied scaffold: (cosh x+sinh x)(cosh x-sinh x)=e^x e^-x=1. This part consolidates algebra and exponential laws, not a new differentiation rule. About two minutes.
+
+### Example 4.4
+
+Preserve the booklet's examination attribution; the original examination paper has not been independently checked. Independent attempt, about two minutes. Derivative = 2e^(2x)(2x+1)+2e^(2x)=4e^(2x)(x+1), for all real x. Suggested checking, not an official marking scheme: correct product/chain substitution, then correct derivative. No on-slide answer reveal.
+
+### Tangents and normals
+
+About three minutes. Recall straight-line equations and distinguish f(x1), the point's y-coordinate, from f'(x1), the tangent gradient. The tangent and normal pass through the same point. Their gradients have product -1 when both gradients are finite. If f'(x1)=0 the tangent is horizontal and the normal vertical; do not divide by zero. The diagram uses equal axis units, with an illustrative curve y=x²/4 at (2,1), tangent y=x-1 and normal y=-x+3. The point is labelled generically P(x1,y1) to show the method, not set an additional exercise. The right-angle marker is exact. All coordinates and mathematical labels share the same SVG system.
+
+### Example 4.5
+
+At x=1, y=3e and y'=3e. Point-gradient form: y-3e=3e(x-1), so y=3ex. All values exact. The identical numerical values of y and y' here are a property of this function, not a general rule. Work in OneNote; about two minutes.
+
+### Example 4.6
+
+The point is (0,1). y'=-e^-x gives tangent gradient -1, hence normal gradient +1. y-1=1(x-0), or y=x+1. The negative reciprocal of -1 is +1. About two minutes.
+
+### Example 4.6
+
+Domain x>0. y=ln(e)=1. y'=3/(3x)=1/x; at e/3, tangent gradient 3/e. y-1=(3/e)(x-e/3), or y=3x/e. Keep the distinction between x-coordinate, y-coordinate and gradient. About two minutes.
+
+### Example 4.7
+
+About four minutes. Let contact occur at x=a. Incidence gives e^(3a)=ma, and equal gradients give m=3e^(3a). Substituting gives e^(3a)=3ae^(3a). Since the exponential is positive, a=1/3. Therefore m=3e; the contact point is (1/3,e). Do not assume the origin lies on the exponential curve: the line passes through the origin. The diagram is illustrative and uses unequal x/y scales; no numerical contact coordinate or slope is revealed. The curve and line are mathematically exact in the plotted coordinates. Use OneNote for the solution.
+
+### Example 4.8
+
+Preserve the booklet's examination attribution; the original examination paper has not been independently checked. y'=tan x+x sec²x, so at pi/3 the gradient is sqrt(3)+4pi/3. Angles in radians, exact values. Domain cos x≠0; pi/3 is valid. They are asked for the gradient only, not the equation. Allow a brief independent attempt then OneNote discussion, about three minutes.
+
+### Key ideas
+
+Briefly revisit the success criterion and connect to the opening spring demonstration. Ask a student to name the first rule for one earlier example and another to describe how to obtain a normal gradient. No extra exercise is added. The spring's exponential and trigonometric factors are both changing, so the product rule produces two terms. About one minute.
+
+### Homework 4 · Exponential functions
+
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 5B and 5C.
+
+### Homework 4 · Logarithmic functions
+
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 6B and 6C.
+
+### Homework 4 · Trigonometric functions
+
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 7B and 7C.
+
+### Lesson 4 validation
+
+- Rendered Lesson 4 and the topic listing with Quarto 1.10.18: 23 slides, no nested slide sections; all local scripts and images embedded in the standalone export.
+- Symbolically verified 17 first derivatives, the second derivative of cosh, the hyperbolic identity, the exact gradient in Example 4.8 and every tangent/normal condition. Verified the hinge has one correct derivative expression. Domain restrictions are recorded in notes.
+- Compared all 18 Mild/Medium/Spicy homework selections with the supplied booklet p. 33; no allocation changes.
+- Chromium at 1363 × 936: full forward/back navigation, grouped Next/Previous reveals, hidden hinge answer, duration selection, Start/Pause/Resume, timer expiry without answer reveal, deliberate answer reveal, incorrect-choice feedback, Reset and slide-map pause/return.
+- Checked spring Play/Pause, time slider, negative displacement, Reset and pause when opening the slide map. The moving point and mass are linked to the same exact model. Native SVG labels share the diagram coordinates; no foreignObject is used.
+- Visually reviewed the opening, spring before and after reveal, hyperbolic scaffold, tangent/normal recap, unknown-tangent diagram, hinge and homework. Moved the graph's time-unit label to avoid crowding the final tick. No mathematical renderer errors or measured overflow in the checked layouts.
+- Topic listing now includes all four lessons; verified the Lesson 4 entry and the return navigation. Existing lesson URLs are unchanged.
+- The available browser interface exposes Chromium only. WebKit, physical iPad, exact touch viewport emulation and portrait/landscape rotation were unavailable; do not describe this as iPad-tested.
+- Standalone export: Lesson-4-Mixed-Differentiation-Tangents-and-Normals.html. The topic-return link points to the existing GitHub Pages topic. Only preview/export HTML escapes literal closing body/html strings inside Quarto's notes script to avoid the preview relay's live-reload injection; normal Quarto source is unchanged.
+
+Publishing remains manual after merge: Actions → Publish Quarto lessons → main.

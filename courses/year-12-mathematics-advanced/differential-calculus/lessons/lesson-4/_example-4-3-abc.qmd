@@ -1,0 +1,16 @@
+## Example 4.3 {#dc4-example-4-3-abc .dc-lesson .dc4-hyperbolic}
+
+<p class="dc4-definitions">The hyperbolic functions are defined as <span data-math="\cosh x=\frac{e^x+e^{-x}}2"></span> and <span data-math="\sinh x=\frac{e^x-e^{-x}}2"></span>.</p>
+<div class="dc4-scaffolds">
+<p><strong>a)</strong> Show that <span data-math="\frac{d}{dx}(\cosh x)=\sinh x"></span>:</p>
+<p class="dc4-scaffold-line"><span data-math="\frac{d}{dx}\left(\frac{e^x+e^{-x}}2\right)=\frac{\ldots+\ldots}{2}=\ldots"></span></p>
+<p><strong>b)</strong> Show that <span data-math="\frac{d}{dx}(\sinh x)=\cosh x"></span>:</p>
+<p class="dc4-scaffold-line"><span data-math="\frac{d}{dx}\left(\frac{e^x-e^{-x}}2\right)=\frac{\ldots-\ldots}{2}=\ldots"></span></p>
+<p><strong>c)</strong> Find the second derivative of <span data-math="\cosh x"></span>:</p>
+<p class="dc4-scaffold-line"><span data-math="\frac{d^2}{dx^2}(\cosh x)=\frac{d}{dx}(\ldots)=\ldots"></span></p>
+</div>
+<p class="booklet-cue">Booklet p. 29 · Example 4.3(a–c)</p>
+
+::: notes
+Keep the source definitions and fill-in structure. These are unfamiliar function names built from familiar exponentials; no extra derivative formula needs to be memorised. (a) [e^x+(-e^-x)]/2=sinh x. (b) [e^x-(-e^-x)]/2=cosh x. (c) derivative of sinh x = cosh x. All real x. Both swaps have a positive coefficient; unlike the trigonometric pair, no alternating minus sign appears in these two derivative rules. Work in OneNote rather than revealing all answers automatically. About four minutes.
+:::

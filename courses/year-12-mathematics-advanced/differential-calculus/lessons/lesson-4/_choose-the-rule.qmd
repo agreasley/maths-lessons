@@ -1,0 +1,9 @@
+## Choose the rule {#dc4-choose-the-rule .dc-lesson }
+
+<p>Name the first rule you would use. Can you simplify first?</p>
+<div class="dc4-rule-grid"><div><p><span data-math="xe^x"></span></p><p class="fragment" data-fragment-index="0">Product</p></div><div><p><span data-math="e^{x^2}"></span></p><p class="fragment" data-fragment-index="0">Chain</p></div><div><p><span data-math="\frac{x}{e^x}"></span></p><div class="fragment" data-fragment-index="0"><p>Quotient, or rewrite</p><p><span data-math="xe^{-x}"></span> and use product.</p></div></div></div>
+<p class="fragment takeaway" data-fragment-index="0">Choose from the structure, not just the functions you recognise.</p>
+
+::: notes
+Additional one-minute comparison activity. Students name a first rule and justify it to a partner; no derivatives need to be calculated. Intended understanding: multiplication differs from composition, and equivalent forms can offer a simpler route. Accept either quotient rule for x/e^x or product rule after rewriting as xe^-x. Next reveals all three classifications and the takeaway together; Previous hides the complete group. No named Project Zero routine is required.
+:::

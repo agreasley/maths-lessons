@@ -1,0 +1,7 @@
+## Example 4.2 {#dc4-example-4-2-ab .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">a)</span><span data-math="y=2\sin x\cos x"></span></div><div><span class="part">b)</span><span data-math="y=\frac{\sin x}{x^2}"></span></div></div><p class="booklet-cue">Booklet p. 28 · Example 4.2(a–b)</p>
+
+::: notes
+(a) 2(cos²x-sin²x)=2cos(2x), all real x. Compare product rule with the double-angle identity y=sin(2x), then chain rule. Do not replace the original problem: write the equivalent form alongside it. (b) [x²cos x-2x sin x]/x⁴=(x cos x-2 sin x)/x³, x≠0. Alternative: differentiate x^-2 sin x by the product rule. About four minutes.
+:::

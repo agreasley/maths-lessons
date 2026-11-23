@@ -1,0 +1,9 @@
+## Homework 4 · Logarithmic functions {#dc4-homework-logarithmic .dc-lesson .dc-homework}
+
+<div class="eyebrow">Cambridge Year 12 Extension 1</div><div class="homework-level"><strong>Mild</strong><div><p><span class="dc-exercise">Exercise 6B:</span> Q9(c), Q10(c).</p><p><span class="dc-exercise">Exercise 6C:</span> Q4(a).</p></div></div>
+<div class="homework-level"><strong>Medium</strong><div><p><span class="dc-exercise">Exercise 6B:</span> Q9(c), Q10(c).</p><p><span class="dc-exercise">Exercise 6C:</span> Q5.</p></div></div>
+<div class="homework-level"><strong>Spicy</strong><div><p><span class="dc-exercise">Exercise 6B:</span> Q15.</p><p><span class="dc-exercise">Exercise 6C:</span> Q10.</p></div></div>
+
+::: notes
+Exact Homework 4 allocation from booklet p. 33. This is one of three consecutive Homework 4 slides; all six exercises across the slides are part of the same assignment. Preserve the Cambridge Year 12 Extension 1 textbook title and all Mild/Medium/Spicy selections. No additional questions or advice. Textbook question content has not been independently checked. This slide contains Exercises 6B and 6C.
+:::

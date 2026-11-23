@@ -1,0 +1,42 @@
+/* Lesson 4: retain shared paper, typography and touch controls. */
+.reveal .dc4-intro{font-size:27px;margin:12px 0 18px}
+.reveal .dc4-damped-layout{display:grid;grid-template-columns:690px 1fr;gap:35px}
+.reveal .dc4-damped-svg{display:block;width:690px;height:440px;max-width:none;max-height:none;margin:0}
+.reveal .dc4-damped .toolbar{margin:5px 0;gap:12px}
+.reveal .dc4-time{font-size:22px;font-variant-numeric:tabular-nums;margin-left:10px}
+.reveal .dc4-slider-label{display:flex;align-items:center;gap:20px;font-size:23px}
+.reveal .dc4-damped-maths h3{font-size:27px;margin:14px 0;color:var(--teal)}
+.reveal .dc4-damped-maths p{font-size:25px;margin:14px 0;line-height:1.6}
+.reveal .dc4-damped-maths .katex{font-size:1em}
+.reveal .dc4-damped-maths .small-note{font-size:21px;line-height:1.4}
+.reveal .dc4-decay{color:var(--orange)}
+.reveal .dc4-oscillation{color:var(--blue)}
+.reveal .dc4-velocity{margin-top:26px;padding-top:9px;border-top:1px solid var(--rule)}
+.reveal .dc4-recap{display:grid;grid-template-columns:1fr 1fr;gap:45px}
+.reveal .dc4-recap h3{color:var(--teal);font-size:29px}
+.reveal .dc4-recap p{font-size:30px;margin:30px 0}
+.reveal .dc4-recap .katex{font-size:1em}
+.reveal .dc4-rule-grid{display:grid;grid-template-columns:1fr 1fr 1.2fr;gap:30px;margin:40px 0 30px}
+.reveal .dc4-rule-grid>div{border-top:3px solid var(--teal);padding-top:16px}
+.reveal .dc4-rule-grid>div>p:first-child{font-size:40px;margin-bottom:45px}
+.reveal .dc4-rule-grid .fragment{font-size:25px;line-height:1.4}
+.reveal .dc4-rule-grid .fragment p{margin:14px 0}
+.reveal .dc4-definitions{font-size:25px;line-height:1.7;margin:14px 0 25px}
+.reveal .dc4-definitions .katex{font-size:1em}
+.reveal .dc4-scaffolds p{font-size:25px;line-height:1.6;margin:14px 0}
+.reveal .dc4-scaffolds .dc4-scaffold-line{font-size:28px;margin:8px 0 21px;padding-left:55px}
+.reveal .dc4-hyperbolic h2{margin-bottom:12px}
+.reveal .dc4-hyperbolic .booklet-cue{margin-top:12px}
+.reveal .dc4-identity{font-size:29px;margin:50px 0 40px}
+.reveal .dc4-marks{text-align:right;font-size:23px;font-style:italic}
+.reveal .dc4-tangent-layout{display:grid;grid-template-columns:500px 1fr;gap:50px}
+.reveal .dc4-tangent-svg{display:block;width:500px;height:440px;max-width:none;max-height:none;margin:0}
+.reveal .dc4-tangent-rules h3{font-size:24px;color:var(--teal);margin:16px 0 7px}
+.reveal .dc4-tangent-rules p{font-size:30px;margin:10px 0}
+.reveal .dc4-tangent-rules .small-note{font-size:21px}
+.reveal .dc4-horizontal{font-size:26px;margin:18px 0 10px}
+.reveal .dc4-contact-layout{display:grid;grid-template-columns:620px 1fr;gap:55px;align-items:center}
+.reveal .dc4-contact-svg{display:block;width:620px;height:440px;max-width:none;max-height:none;margin:0}
+.reveal .dc4-contact-prompt .takeaway{font-size:36px;line-height:1.65}
+.reveal .dc4-key-lines p{margin:22px 0;font-size:29px}
+.reveal .dc4-success{font-size:26px;color:var(--teal);margin:24px 0}

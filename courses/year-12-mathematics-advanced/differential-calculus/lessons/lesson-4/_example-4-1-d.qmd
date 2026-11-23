@@ -1,0 +1,7 @@
+## Example 4.1 {#dc4-example-4-1-d .dc-lesson }
+
+<p>Differentiate the following expressions with respect to $x$.</p><div class="dc-problem-list"><div><span class="part">d)</span><span data-math="e^{3x}\sin x"></span></div></div><p class="booklet-cue">Booklet p. 27 · Example 4.1(d)</p>
+
+::: notes
+Derivative e^(3x)(3 sin x+cos x), all real x. Compare the outer product rule with the chain rule inside the exponential factor. This is structurally like the fading-spring model. About two minutes.
+:::

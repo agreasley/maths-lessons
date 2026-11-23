@@ -1,0 +1,8 @@
+## Example 4.6 {#dc4-example-4-6-b .dc-lesson }
+
+<p><strong>b)</strong> Find the equation of the tangent to the curve <span data-math="y=\ln(3x)"></span> at the point where <span data-math="x=\frac e3"></span>.</p>
+<p class="booklet-cue">Booklet p. 31 · Example 4.6(b)</p>
+
+::: notes
+Domain x>0. y=ln(e)=1. y'=3/(3x)=1/x; at e/3, tangent gradient 3/e. y-1=(3/e)(x-e/3), or y=3x/e. Keep the distinction between x-coordinate, y-coordinate and gradient. About two minutes.
+:::

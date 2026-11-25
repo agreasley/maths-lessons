@@ -5,7 +5,7 @@
 <p class="gac-prompt"><strong>What makes you say that?</strong></p>
 
 <div data-module="reveal-panel" class="gac2-counterexample">
-<button class="toggle-panel" aria-pressed="false" aria-controls="gac2-counterexample-answer">Show a counterexample</button>
+<button class="toggle-panel" aria-pressed="false" aria-controls="gac2-counterexample-answer">Show</button>
 <div id="gac2-counterexample-answer" class="panel-answer" hidden>
 <p>Consider <span data-math="f(x)=e^x"></span>.</p>
 <p data-math="f'(x)=e^x,\qquad f''(x)=e^x,\qquad f^{(n)}(x)=e^x"></p>

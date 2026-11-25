@@ -6,7 +6,7 @@
 <div class="choices">
 <button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span data-math="5"></span></button>
 <button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span data-math="8"></span></button>
-<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span data-math="25"></span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span data-math="6"></span></button>
 <button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span data-math="0"></span></button>
 </div>
 <div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
@@ -17,7 +17,7 @@
 Additional diagnostic, 4 minutes including response. Correct choice 2: the supplied expression is already f'(x). Differentiate it once to obtain f''(x)=6x+2, then substitute x=1 to obtain 8.
 
 Choice 1 (5): evaluates f'(1), stopping before the requested differentiation.
-Choice 3 (25): squares f'(1), confusing derivative order with a power.
+Choice 3 (6): differentiates the supplied first derivative twice, obtaining 6x+2 then 6. This finds the third derivative rather than the requested second derivative.
 Choice 4 (0): substitutes x=1 first, then differentiates the resulting constant 5, losing the derivative function's dependence on x.
 
 Use the shared 60-second adjustable timer and collect simultaneous 1–4 finger responses on the teacher's "show" cue. Do not reveal on timer expiry. Answer reveal is a separate button; Reset restores the chosen duration, clears choices and hides the explanation.

@@ -10,12 +10,15 @@ $$f''(x)=\frac{d}{dx}\bigl[f'(x)\bigr]
 
 <div class="gac2-notation-table">
 
-| Derivative | Function notation | Prime notation | Leibniz notation |
-|---|---|---|---|
-| First | $f'(x)$ | $y'$ | $\dfrac{dy}{dx}$ |
-| Second | $f''(x)$ | $y''$ | $\dfrac{d^2y}{dx^2}$ |
-| Third | $f'''(x)$ | $y'''$ | $\dfrac{d^3y}{dx^3}$ |
-| $n$th | $f^{(n)}(x)$ | — | $\dfrac{d^ny}{dx^n}$ |
+<table>
+<thead><tr><th scope="col">Derivative</th><th scope="col">Function notation</th><th scope="col">Prime notation</th><th scope="col">Leibniz notation</th></tr></thead>
+<tbody>
+<tr class="fragment" data-fragment-index="0"><td>First</td><td><span data-math="f'(x)"></span></td><td><span data-math="y'"></span></td><td><span data-math="\dfrac{dy}{dx}"></span></td></tr>
+<tr class="fragment" data-fragment-index="1"><td>Second</td><td><span data-math="f''(x)"></span></td><td><span data-math="y''"></span></td><td><span data-math="\dfrac{d^2y}{dx^2}"></span></td></tr>
+<tr class="fragment" data-fragment-index="2"><td>Third</td><td><span data-math="f'''(x)"></span></td><td><span data-math="y'''"></span></td><td><span data-math="\dfrac{d^3y}{dx^3}"></span></td></tr>
+<tr class="fragment" data-fragment-index="3"><td><span data-math="n"></span>th</td><td><span data-math="f^{(n)}(x)"></span></td><td>—</td><td><span data-math="\dfrac{d^ny}{dx^n}"></span></td></tr>
+</tbody>
+</table>
 
 </div>
 
@@ -23,7 +26,9 @@ $$f''(x)=\frac{d}{dx}\bigl[f'(x)\bigr]
 <p class="booklet-cue">Section 1.2.1 · Booklet p. 8</p>
 
 ::: notes
-About 4 minutes. The first derivative is a gradient function; the second derivative is the derivative of that function. Follow the original PowerPoint's emphasis on using notation consistent with the question. The operators d^2/dx^2 and d^n/dx^n can also act directly on an expression.
+About 4 minutes. The table headings are visible on entry. Each Next click reveals one complete row in order: first, second, third, then n-th derivative; the following click advances to Example 1.5. Previous reverses the reveals.
+
+The first derivative is a gradient function; the second derivative is the derivative of that function. Follow the original PowerPoint's emphasis on using notation consistent with the question. The operators d^2/dx^2 and d^n/dx^n can also act directly on an expression.
 
 The superscript in f^{(n)}(x) indicates derivative order, not a power or a function input. Likewise d^2y/dx^2 is not (dy/dx)^2 or d(y^2)/dx. Prime notation becomes cumbersome for high orders. We can use y^{(n)} if needed, but the booklet's general-order notation is sufficient here.
 

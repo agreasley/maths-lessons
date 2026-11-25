@@ -186,7 +186,7 @@ After verifying Example 1.8 for the supplied quadratic, the product rule gives t
 
 Exact prompt: “Our cubic eventually differentiated to zero. Will this happen to every function? What makes you say that?”
 
-Give individual thought time, then a short paired discussion. A teacher-controlled Show/Hide counterexample reveals f(x)=e^x and its identical successive derivatives. This challenges overgeneralisation from polynomials; it does not suggest that a derivative vanishing at one point makes later derivatives zero. Keep the discussion to 2 minutes.
+Give individual thought time, then a short paired discussion. A teacher-controlled Show/Hide button reveals f(x)=e^x and its identical successive derivatives. The neutral initial label does not give away the answer. This challenges overgeneralisation from polynomials; it does not suggest that a derivative vanishing at one point makes later derivatives zero. Keep the discussion to 2 minutes.
 
 Project Zero, Harvard Graduate School of Education, What Makes You Say That? (adapted): https://www.pz.harvard.edu/resources/what-makes-you-say .
 
@@ -196,7 +196,7 @@ Given f'(x)=3x²+2x, what is f''(1)?
 
 1. 5 — evaluates the first derivative without differentiating again.
 2. **8 — correct:** f''(x)=6x+2, then f''(1)=8.
-3. 25 — squares the first-derivative value.
+3. 6 — differentiates the supplied first derivative twice, finding the third derivative instead of the second.
 4. 0 — substitutes first, then differentiates the resulting constant.
 
 The shared hinge has a default 60-second adjustable timer, Start/Pause/Resume and Reset, and a separate answer reveal. Timer expiry does not show the answer. Reset hides the explanation and clears selections. Opening the slide map or leaving the slide pauses the timer.

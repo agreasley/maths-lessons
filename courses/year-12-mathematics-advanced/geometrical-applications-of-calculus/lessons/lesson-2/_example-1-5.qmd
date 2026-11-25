@@ -1,0 +1,21 @@
+## Example 1.5 {#gac2-example-1-5 .gac-lesson}
+
+Find the first, second, third and fourth derivatives for
+
+$$y=7x^3+4x^2-2x+1$$
+
+<p class="booklet-cue">Example 1.5 · Booklet p. 9</p>
+
+::: notes
+6 minutes. Preserve the booklet question; complete the working in OneNote.
+
+First derivative: y'=21x^2+8x-2.
+
+Second derivative: y''=42x+8.
+
+Third derivative: y'''=42.
+
+Fourth derivative: y^{(4)}=0.
+
+Before calculating the fourth derivative, ask students to predict it and justify their prediction. Zero is a valid derivative, not an undefined derivative. Every later derivative is also zero. Emphasise differentiating the result of the previous step rather than repeatedly restarting with the original expression.
+:::

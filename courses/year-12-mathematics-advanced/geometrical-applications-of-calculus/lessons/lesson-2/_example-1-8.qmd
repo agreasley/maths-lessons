@@ -1,0 +1,22 @@
+## Example 1.8 {#gac2-example-1-8 .gac-lesson}
+
+If $y=3x^2+7x+5$, prove that
+
+$$\frac{d}{dx}\left(x\frac{dy}{dx}\right)
+=x\frac{d^2y}{dx^2}+\frac{dy}{dx}.$$
+
+<p class="booklet-cue">Example 1.8 · Booklet p. 12</p>
+
+::: notes
+8 minutes. Keep the supplied polynomial and statement. Give students a short independent attempt before comparing methods in OneNote.
+
+For this polynomial, dy/dx=6x+7 and d^2y/dx^2=6.
+
+LHS=d/dx[x(6x+7)]=d/dx(6x^2+7x)=12x+7.
+
+RHS=x(6)+(6x+7)=12x+7. Hence LHS=RHS.
+
+Then connect with the product rule: d/dx[x y']=1·y'+x·y''=y'+x y''. This proves the identity for any twice-differentiable y, wherever the derivatives exist, and explains why the statement is not special to this quadratic.
+
+Useful prompt: "What are the two factors inside the derivative?" They are x and dy/dx. A common error treats dy/dx as a constant and omits the x d^2y/dx^2 term, or differentiates both factors and multiplies the results.
+:::

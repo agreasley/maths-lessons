@@ -1,0 +1,15 @@
+## What, why and prior learning {#gac2-purpose .gac-lesson}
+
+<div class="gac-intentions">
+<div class="gac-intention"><strong>What?</strong><p>We are learning to use repeated differentiation to find second and higher derivatives and write them using correct notation.</p></div>
+<div class="gac-intention"><strong>Why?</strong><p>Differentiating position gives velocity; differentiating again gives acceleration, which describes how velocity changes.</p></div>
+<div class="gac-intention gac-prior"><strong>Prior learning</strong><p>The derivative as a gradient function; the power, product and chain rules; evaluating functions.</p></div>
+</div>
+
+::: notes
+Success criterion: I can calculate second and higher derivatives, evaluate them at a given value and use the correct notation.
+
+Briefly retrieve the previous lesson: differentiability requires a finite limiting tangent gradient, and implies continuity. Today we work where successive derivatives exist. The first derivative is itself a function, so we can ask whether that function can be differentiated.
+
+The listed differentiation rules are prerequisites, not a claim that they were all covered in Lesson 1. Do not reuse the old PowerPoint's recap of stationary-point classification or inflection: those occur later in the current program. Allow 2 minutes including the title.
+:::

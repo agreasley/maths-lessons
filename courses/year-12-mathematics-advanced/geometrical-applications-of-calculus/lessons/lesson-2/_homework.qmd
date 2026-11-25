@@ -1,0 +1,10 @@
+## Homework {#gac2-homework .gac-lesson}
+
+<p>Cambridge Year 12 Extension 1 · Exercise 3D</p>
+<div class="homework-level"><strong>Mild</strong><div>Q1(a,e,h,j), Q2(a,e), Q5(a,b), Q8, Q12(a)</div></div>
+<div class="homework-level"><strong>Medium</strong><div>Q3(b,e), Q5(b,d), Q6(c), Q7(a,e), Q8, Q10(a), Q12</div></div>
+<div class="homework-level"><strong>Spicy</strong><div>Q6(b,d), Q7(b,f), Q10(a), Q11, Q13, Q14(a)</div></div>
+
+::: notes
+2 minutes to identify the assigned tier and allow students to record it. Homework 2 is retained exactly from booklet p. 13 and its front summary on p. iii. The website course is Year 12 Mathematics Advanced; the supplied booklet assigns Cambridge Year 12 Extension 1, Exercise 3D. No textbook mapping has been guessed.
+:::

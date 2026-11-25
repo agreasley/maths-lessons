@@ -1,0 +1,24 @@
+## Do derivatives always reach zero? {#gac2-always-zero .gac-lesson}
+
+<p class="eyebrow">Additional question · Think, then discuss</p>
+<p class="gac-lead">Our cubic eventually differentiated to zero.<br>Will this happen to every function?</p>
+<p class="gac-prompt"><strong>What makes you say that?</strong></p>
+
+<div data-module="reveal-panel" class="gac2-counterexample">
+<button class="toggle-panel" aria-pressed="false" aria-controls="gac2-counterexample-answer">Show a counterexample</button>
+<div id="gac2-counterexample-answer" class="panel-answer" hidden>
+<p>Consider <span data-math="f(x)=e^x"></span>.</p>
+<p data-math="f'(x)=e^x,\qquad f''(x)=e^x,\qquad f^{(n)}(x)=e^x"></p>
+<p>Every derivative is the same non-zero function.</p>
+</div>
+</div>
+
+::: notes
+2 minutes. Exact student prompt: "Our cubic eventually differentiated to zero. Will this happen to every function? What makes you say that?" Give individual thinking time, then a brief paired explanation before collecting reasons.
+
+Purpose: distinguish a pattern for polynomials from a universal claim about functions. Use the familiar exponential derivative as a counterexample. Reveal it only after students have had a chance to supply one; the button can hide it again. The n-th derivative statement is for positive integers n. e^x is positive for every real x.
+
+A polynomial of degree m has constant m-th derivative and identically zero derivatives of every order greater than m. This does not mean that a single zero value of one derivative makes all higher derivatives zero. Students may offer sine or cosine as other counterexamples.
+
+Project Zero, Harvard Graduate School of Education, What Makes You Say That? (adapted): https://www.pz.harvard.edu/resources/what-makes-you-say . Ask for mathematical evidence rather than accepting a prediction alone.
+:::

@@ -1,0 +1,17 @@
+## Repeated differentiation {#gac2-key-ideas .gac-lesson}
+
+<div class="gac2-key-ideas">
+<p><strong>Differentiate again.</strong> The second derivative is the derivative of the first derivative.</p>
+<p data-math="f''(x)=y''=\frac{d^2y}{dx^2}"></p>
+<p><strong>Evaluate afterwards.</strong> Find the required derivative function, then substitute the given value.</p>
+<p><strong>Check the domain.</strong> Any proposed value must belong to the domain of the required derivative.</p>
+</div>
+
+<p class="gac-prompt">Can <span data-math="f'(1)=0"></span> while <span data-math="f''(1)\ne0"></span>?</p>
+<p class="gac-success"><strong>I can</strong> calculate second and higher derivatives, evaluate them at a given value and use the correct notation.</p>
+
+::: notes
+3 minutes. Yes: Example 1.6 gave f'(1)=0 and f''(1)=-6. A zero at one input does not mean the whole first derivative is the zero function. Ask students to explain why substituting first would have hidden this.
+
+Revisit the success criterion and note that f^{(n)} denotes the n-th derivative. Students can add the definition, equivalent notation and evaluation order to the booklet's Key Ideas box. Keep the homework slide limited to the assigned work.
+:::

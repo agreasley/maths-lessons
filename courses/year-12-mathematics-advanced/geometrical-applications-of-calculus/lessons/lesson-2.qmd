@@ -1,0 +1,32 @@
+---
+pagetitle: "Lesson 2 — Second and higher derivatives"
+lesson-title: "Second and higher derivatives"
+description: "Use repeated differentiation, interpret higher-order notation and evaluate derivative functions."
+lesson-order: 2
+booklet: "Section 1.2 · Examples 1.5–1.8 · pp. 8–13"
+homework: "Cambridge Year 12 Extension 1 – Exercise 3D"
+---
+
+{{< include lesson-2/_opening.qmd >}}
+
+{{< include lesson-2/_purpose.qmd >}}
+
+{{< include lesson-2/_motion.qmd >}}
+
+{{< include lesson-2/_notation.qmd >}}
+
+{{< include lesson-2/_example-1-5.qmd >}}
+
+{{< include lesson-2/_always-zero.qmd >}}
+
+{{< include lesson-2/_hinge.qmd >}}
+
+{{< include lesson-2/_example-1-6.qmd >}}
+
+{{< include lesson-2/_example-1-7.qmd >}}
+
+{{< include lesson-2/_example-1-8.qmd >}}
+
+{{< include lesson-2/_key-ideas.qmd >}}
+
+{{< include lesson-2/_homework.qmd >}}

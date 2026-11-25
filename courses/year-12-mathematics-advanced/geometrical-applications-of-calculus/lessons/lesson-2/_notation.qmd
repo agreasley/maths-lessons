@@ -1,0 +1,31 @@
+## Differentiate the derivative {#gac2-notation .gac-lesson}
+
+<div class="gac2-derivative-definition">
+
+$$f''(x)=\frac{d}{dx}\bigl[f'(x)\bigr]
+\qquad\text{or}\qquad
+\frac{d^2y}{dx^2}=\frac{d}{dx}\left(\frac{dy}{dx}\right)$$
+
+</div>
+
+<div class="gac2-notation-table">
+
+| Derivative | Function notation | Prime notation | Leibniz notation |
+|---|---|---|---|
+| First | $f'(x)$ | $y'$ | $\dfrac{dy}{dx}$ |
+| Second | $f''(x)$ | $y''$ | $\dfrac{d^2y}{dx^2}$ |
+| Third | $f'''(x)$ | $y'''$ | $\dfrac{d^3y}{dx^3}$ |
+| $n$th | $f^{(n)}(x)$ | — | $\dfrac{d^ny}{dx^n}$ |
+
+</div>
+
+<p class="gac2-notation-note">The order tells us how many times to differentiate.</p>
+<p class="booklet-cue">Section 1.2.1 · Booklet p. 8</p>
+
+::: notes
+About 4 minutes. The first derivative is a gradient function; the second derivative is the derivative of that function. Follow the original PowerPoint's emphasis on using notation consistent with the question. The operators d^2/dx^2 and d^n/dx^n can also act directly on an expression.
+
+The superscript in f^{(n)}(x) indicates derivative order, not a power or a function input. Likewise d^2y/dx^2 is not (dy/dx)^2 or d(y^2)/dx. Prime notation becomes cumbersome for high orders. We can use y^{(n)} if needed, but the booklet's general-order notation is sufficient here.
+
+Successive differentiation requires the relevant derivatives to exist. Do not imply that every differentiable function has a second derivative, or begin the concavity/second-derivative test here.
+:::

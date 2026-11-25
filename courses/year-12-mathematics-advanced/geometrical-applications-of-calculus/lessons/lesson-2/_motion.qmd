@@ -1,0 +1,21 @@
+## Why differentiate again? {#gac2-motion .gac-lesson}
+
+<p class="gac-lead">For motion along a straight line, position is a function of time.</p>
+
+<div class="gac2-rate-chain" role="group" aria-label="Differentiating position with respect to time gives velocity; differentiating velocity with respect to time gives acceleration">
+<div class="gac2-rate"><h3>Position</h3><div data-math="s(t)"></div><p>Where is it?</p><small>metres</small></div>
+<div class="gac2-rate-arrow" aria-hidden="true"><span data-math="\dfrac{d}{dt}"></span><span>→</span></div>
+<div class="gac2-rate"><h3>Velocity</h3><div data-math="v(t)=s'(t)"></div><p>How is position changing?</p><small>metres per second</small></div>
+<div class="gac2-rate-arrow" aria-hidden="true"><span data-math="\dfrac{d}{dt}"></span><span>→</span></div>
+<div class="gac2-rate"><h3>Acceleration</h3><div data-math="a(t)=s''(t)"></div><p>How is velocity changing?</p><small>metres per second squared</small></div>
+</div>
+
+<p class="takeaway"><span data-math="\displaystyle a(t)=\frac{dv}{dt}=\frac{d}{dt}\left(\frac{ds}{dt}\right)=\frac{d^2s}{dt^2}"></span></p>
+
+::: notes
+Additional context, about 2 minutes. This is an actual mathematical relationship used in mechanics, rather than an invented numerical story. Restrict the interpretation to one-dimensional motion; s is position relative to a fixed origin, not total distance travelled. Velocity may be negative. Acceleration describes change in velocity, not necessarily an increase in speed.
+
+Read both arrows as "differentiate with respect to time". The second derivative applies the same operation a second time. Units change from metres to metres per second to metres per second squared; the 2 in the derivative notation records the order of differentiation. Later in the lesson the independent variable returns to x.
+
+NASA Glenn Research Center, Aircraft Translations, explains position, velocity and acceleration and their use in describing aircraft motion: https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/aircraft-translations/ . No motion calculation or new motion formula needs to be memorised here.
+:::

@@ -70,3 +70,31 @@
 .reveal .gac-summary>div>span{font-size:27px}
 .reveal .gac-success{font-size:24px;color:var(--muted);border-top:1px solid var(--rule);padding-top:18px}
 .reveal .gac-lesson .homework-level{font-size:29px;padding:30px 0}
+
+/* Lesson 2: repeated differentiation. */
+.reveal .gac2-rate-chain{display:grid;grid-template-columns:1fr 70px 1fr 70px 1fr;gap:10px;align-items:start;margin:48px 0 38px}
+.reveal .gac2-rate{border-top:4px solid var(--teal);padding-top:18px;text-align:center}
+.reveal .gac2-rate:nth-child(3){border-color:var(--orange)}
+.reveal .gac2-rate h3{font-size:29px;margin:0 0 24px;color:var(--teal)}
+.reveal .gac2-rate:nth-child(3) h3{color:var(--orange)}
+.reveal .gac2-rate>div{font-size:30px;min-height:55px}
+.reveal .gac2-rate p{font-size:24px;line-height:1.35;min-height:65px;margin:18px 0 10px}
+.reveal .gac2-rate small{font-size:18px;line-height:1.35;color:var(--muted)}
+.reveal .gac2-rate-arrow{display:flex;flex-direction:column;align-items:center;padding-top:45px;font-size:28px;color:var(--muted)}
+.reveal .gac2-rate-arrow>span:last-child{font-size:40px;line-height:1.2}
+.reveal .gac2-derivative-definition{font-size:29px;margin:12px 0 22px}
+.reveal .gac2-notation-table table{width:100%;font-size:26px;margin:15px 0}
+.reveal .gac2-notation-table th{font-size:22px}
+.reveal .gac2-notation-table td,.reveal .gac2-notation-table th{padding:10px 15px;text-align:center}
+.reveal .gac2-notation-table td:first-child,.reveal .gac2-notation-table th:first-child{text-align:left}
+.reveal .gac2-notation-note{font-size:25px;margin:18px 0 0;color:var(--teal)}
+.reveal .gac2-counterexample{margin-top:28px}
+.reveal .gac2-counterexample .panel-answer{border-left:4px solid var(--teal);padding:4px 22px;margin-top:24px}
+.reveal .gac2-counterexample .panel-answer p{font-size:28px;margin:14px 0}
+.reveal .gac2-counterexample .panel-answer p:last-child{font-size:24px}
+.reveal .gac2-hinge .choices{grid-template-columns:repeat(2,1fr);gap:16px;margin:26px 0}
+.reveal .gac2-hinge .choice{font-size:36px;min-height:105px}
+.reveal .gac2-hinge .hinge-question{font-size:34px;margin:20px 0 26px}
+.reveal .gac2-key-ideas>p{font-size:28px;line-height:1.4;margin:25px 0}
+.reveal .gac2-key-ideas strong{color:var(--teal)}
+.reveal .gac2-key-ideas>p[data-math]{text-align:center;font-size:34px;margin:24px 0}

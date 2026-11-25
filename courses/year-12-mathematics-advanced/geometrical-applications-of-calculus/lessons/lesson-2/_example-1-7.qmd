@@ -1,0 +1,25 @@
+## Example 1.7 {#gac2-example-1-7 .gac-lesson}
+
+Find the values of $x$ for which $y''=0$ if
+
+$$y=x\sqrt{x+2}.$$
+
+<p class="booklet-cue">Example 1.7 · Booklet p. 11</p>
+
+::: notes
+10 minutes. The radical covers x+2; preserve the original function and question. This deliberately retained source question has no real solution. Its algebraic candidate lies outside the domain.
+
+The real domain of y is x≥-2. On x>-2,
+
+y'=(x+2)^(1/2)+(x/2)(x+2)^(-1/2)=(3x+4)/(2√(x+2)).
+
+One efficient route is to differentiate the unsimplified sum using the product rule again:
+
+y''=(1/2)(x+2)^(-1/2)+(1/2)(x+2)^(-1/2)-(x/4)(x+2)^(-3/2).
+
+Hence y''=(x+2)^(-1/2)-(x/4)(x+2)^(-3/2)=(3x+8)/(4(x+2)^(3/2)).
+
+Setting the numerator to zero produces x=-8/3. Reject it because -8/3<-2, outside the original real domain. At x=-2 the derivative is not finite, so y'' is not defined there. There is no real x for which y''=0.
+
+Prompt after the algebra: "Does our candidate belong to the domain?" As a check, for x>-2 both the denominator and 3x+8 are positive. No point-of-inflection interpretation is needed yet.
+:::

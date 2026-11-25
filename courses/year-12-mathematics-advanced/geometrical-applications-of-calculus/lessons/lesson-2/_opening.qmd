@@ -1,0 +1,11 @@
+## Second and higher derivatives {#gac2-opening .gac-lesson .cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Geometrical Applications of Calculus · Lesson 2</div>
+<div class="cover-title">Second and<br>higher derivatives</div>
+<div class="cover-subtitle">Differentiate. Then differentiate again.</div>
+<svg class="gac-cover-figure" viewBox="0 0 360 200" role="img" aria-label="Schematic cubic, quadratic and straight-line graphs representing successive derivatives"><g fill="none" stroke="#bcced3" stroke-width="1.5"><path d="M10 145H105M57 185V45M130 145H225M177 185V45M250 145H345M297 185V45"/></g><path d="M17 180C43.6667 110 70.3333 180 97 110" fill="none" stroke="#8cddd0" stroke-width="4"/><path d="M137 79Q177 211 217 79" fill="none" stroke="#d4a16b" stroke-width="4"/><path d="M257 193L337 97" fill="none" stroke="#8cddd0" stroke-width="4"/><g fill="#bcced3" font-size="15" font-family="sans-serif" text-anchor="middle"><text x="57" y="25">Function</text><text x="177" y="25">First derivative</text><text x="297" y="25">Second derivative</text></g></svg>
+<div class="cover-foot">Booklet pp. 8–13 · Examples 1.5–1.8 · Homework 2</div>
+
+::: notes
+Allow about 50 minutes. Follow the current program: second derivatives come before the first-derivative test and concavity. Use the current booklet numbering, Examples 1.5–1.8, rather than the old PowerPoint's 1.16–1.19. The cover is schematic, not a set of graphs to read numerically. Worked solutions are in notes for delivery in OneNote.
+:::

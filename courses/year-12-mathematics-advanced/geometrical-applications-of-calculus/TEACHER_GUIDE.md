@@ -132,3 +132,89 @@ The website course is Year 12 Mathematics Advanced. The supplied booklet neverth
 ## Remaining topic pacing
 
 The supplied program allocates 11 lessons but its detailed sequence is numbered 1–9, combining concavity and the second-derivative test. The booklet has 11 homework sets. This does not affect Lesson 1; reconcile later lesson boundaries during their planning stages.
+
+## Lesson 2: Second and higher derivatives
+
+Year 12 Mathematics Advanced. Follow Section 1.2, Examples 1.5–1.8, printed pp. 8–13 (PDF pages 17–22) of the supplied 12MAX - Geometrical App of Differentiation.pdf. The supplied program places second derivatives in Lesson 2, before stationary-point classification and concavity. The old The Second Derivative.pptx supplies the repeated-differentiation and notation explanations; its examples 1.16–1.19 correspond to the current booklet's 1.5–1.8. Retain the current booklet's wording and numbering.
+
+The supplied syllabus bullet is: “Use repeated differentiation to find second derivatives of a function y = f(x), denoting them by f''(x) or d²y/dx² or y''.” Higher derivatives support the booklet's first example and notation work.
+
+- What? We are learning to use repeated differentiation to find second and higher derivatives and write them using correct notation.
+- Why? Differentiating position gives velocity; differentiating again gives acceleration, which describes how velocity changes.
+- Prior learning: The derivative as a gradient function; the power, product and chain rules; evaluating functions.
+- Success criterion: I can calculate second and higher derivatives, evaluate them at a given value and use the correct notation.
+
+The previous lesson distinguished continuity and differentiability. Retrieve that briefly, then note that the first derivative is itself a function. Do not use the old PowerPoint's “previously” list of stationary-point tests and inflection: these are later in the current program.
+
+### Pacing
+
+| Slides | Focus | Time |
+| --- | --- | --- |
+| 1–4 | Opening, motion context, repeated differentiation and notation | 8 minutes |
+| 5 | Example 1.5 | 6 minutes |
+| 6 | Do derivatives always reach zero? | 2 minutes |
+| 7 | Hinge and response | 4 minutes |
+| 8 | Example 1.6 | 7 minutes |
+| 9 | Example 1.7 | 10 minutes |
+| 10 | Example 1.8 | 8 minutes |
+| 11–12 | Key ideas, success criterion and homework | 5 minutes |
+
+Allow 50 minutes. The four original examples occupy 31 minutes, with worked solutions in presenter notes for OneNote. No booklet solution is automatically revealed.
+
+### Motion context and notation
+
+For one-dimensional motion, s(t) denotes position relative to a fixed origin, v(t)=s'(t) is velocity and a(t)=v'(t)=s''(t) is acceleration. This is a direct use of repeated differentiation in mechanics. The three-column visual includes each quantity, its meaning and units, with both arrows labelled d/dt. No numerical motion question is added. Acceleration means change in velocity, which can include slowing down; position is not total distance travelled.
+
+Source: NASA Glenn Research Center, Aircraft Translations, https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/aircraft-translations/ .
+
+The notation table connects f'(x), f''(x), f'''(x) and f^{(n)}(x) with prime and Leibniz notation. The general-order superscript denotes repeated differentiation, not a power. Keep notation consistent with the question. Successive derivatives are considered where they exist.
+
+### Worked checks
+
+| Example | Result | Teaching point |
+| --- | --- | --- |
+| 1.5 | y'=21x²+8x−2; y''=42x+8; y'''=42; y^{(4)}=0. | Differentiate the previous result; zero is a valid derivative. |
+| 1.6 | f'(x)=2+2(x−2)^{-3}; f''(x)=−6(x−2)^{-4}; f'(1)=0 and f''(1)=−6. | Differentiate before substituting; a zero value at one input does not make the derivative function identically zero. |
+| 1.7 | y'=(3x+4)/(2√(x+2)); y''=(3x+8)/(4(x+2)^{3/2}), for x>−2. | Solving y''=0 gives candidate x=−8/3 outside the real domain x≥−2. There is no real solution. |
+| 1.8 | dy/dx=6x+7 and d²y/dx²=6. Each side equals 12x+7. | Recognise the product rule with factors x and dy/dx. |
+
+Example 1.7's no-real-solution result was flagged during planning and the original question is retained. The radical covers x+2. At x=−2 the first derivative is not finite, so there is no second derivative there. Do not infer an inflection point from the rejected algebraic candidate.
+
+After verifying Example 1.8 for the supplied quadratic, the product rule gives the general identity (x y')'=y'+x y'' wherever y is twice differentiable.
+
+### Short discussion
+
+Exact prompt: “Our cubic eventually differentiated to zero. Will this happen to every function? What makes you say that?”
+
+Give individual thought time, then a short paired discussion. A teacher-controlled Show/Hide counterexample reveals f(x)=e^x and its identical successive derivatives. This challenges overgeneralisation from polynomials; it does not suggest that a derivative vanishing at one point makes later derivatives zero. Keep the discussion to 2 minutes.
+
+Project Zero, Harvard Graduate School of Education, What Makes You Say That? (adapted): https://www.pz.harvard.edu/resources/what-makes-you-say .
+
+### Diagnostic hinge
+
+Given f'(x)=3x²+2x, what is f''(1)?
+
+1. 5 — evaluates the first derivative without differentiating again.
+2. **8 — correct:** f''(x)=6x+2, then f''(1)=8.
+3. 25 — squares the first-derivative value.
+4. 0 — substitutes first, then differentiates the resulting constant.
+
+The shared hinge has a default 60-second adjustable timer, Start/Pause/Resume and Reset, and a separate answer reveal. Timer expiry does not show the answer. Reset hides the explanation and clears selections. Opening the slide map or leaving the slide pauses the timer.
+
+Use “Fist on chest. Think quietly. On ‘show’, hold up 1–4 fingers.”
+
+- Ready: ask for the order of operations, then Example 1.6.
+- Divided: compare paired reasons for 30 seconds and revote before revealing.
+- Needs explanation: distinguish f'(x), a function, from f'(1), a number; revisit the notation and recheck.
+
+Craig Barton, Diagnostic questions: https://tipsforteachers.co.uk/diagnostic-questions/ .
+
+### Homework 2
+
+Retain **Cambridge Year 12 Extension 1 — Exercise 3D**, exactly as supplied on booklet p. 13 and front-summary p. iii:
+
+- Mild: Q1(a,e,h,j), Q2(a,e), Q5(a,b), Q8, Q12(a).
+- Medium: Q3(b,e), Q5(b,d), Q6(c), Q7(a,e), Q8, Q10(a), Q12.
+- Spicy: Q6(b,d), Q7(b,f), Q10(a), Q11, Q13, Q14(a).
+
+The website course remains Mathematics Advanced; the supplied textbook allocation remains Extension 1. The homework slide contains only the source and assigned questions.

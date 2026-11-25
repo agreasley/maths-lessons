@@ -17,7 +17,6 @@ $$w_n'(x)=-\frac{1}{2^n}\times 3^n\sin(3^n x)
 <p><strong>Derivative amplitudes grow:</strong> <span data-math="(3/2)^n\to\infty"></span>.</p>
 </div>
 <p class="gac-wave-rule">The waves shrink in height, but can contribute increasingly steep slopes.</p>
-<p class="gac-wave-caution">This gives intuition; it is not a proof that <span data-math="W"></span> is nowhere differentiable.</p>
 
 ::: notes
 Additional explanation, not a booklet example. Ask: “What extra factor appears when we differentiate cos(3^n x)?” The chain rule supplies 3^n, which outweighs the shrinking factor 2^(-n). Hence the maximum absolute slope of each wave grows by a factor of 3/2, even as its amplitude halves. If needed, begin with d/dx [(1/2)cos(3x)]=-(3/2)sin(3x), then generalise.

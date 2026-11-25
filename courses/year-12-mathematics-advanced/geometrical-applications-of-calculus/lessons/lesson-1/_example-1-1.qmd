@@ -1,0 +1,13 @@
+## Example 1.1 {#gac1-example-1-1 .gac-lesson }
+
+Evaluate $\displaystyle\lim_{x\to0}f(x)$ where
+
+$$f(x)=\begin{cases}x^2+2&x\geq0\\-3x+2&x<0.\end{cases}$$
+
+Sketch $y=f(x)$ and determine whether $f$ is continuous at $x=0$.
+
+<p class="booklet-cue">Example 1.1 · Booklet p. 2</p>
+
+::: notes
+Original wording, values and inequalities preserved. Both one-sided limits are 2; f(0)=2; hence the two-sided limit is 2 and f is continuous at 0. Sketch the line y=-3x+2 for x<0 and the right half of y=x^2+2 for x>=0. The filled join is (0,2). Complete the working in OneNote. The unequal gradients (-3 and 0) may be revisited after differentiability, but this example asks only about continuity. About 4 minutes.
+:::

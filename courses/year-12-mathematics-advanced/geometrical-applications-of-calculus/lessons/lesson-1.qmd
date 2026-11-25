@@ -1,0 +1,40 @@
+---
+pagetitle: "Lesson 1 — Continuity and differentiability"
+lesson-title: "Continuity and differentiability"
+description: "Distinguish an unbroken graph from a graph with a well-defined tangent gradient."
+lesson-order: 1
+booklet: "Section 1.1 · Examples 1.1–1.4 · pp. 1–7"
+homework: "Cambridge Year 12 Extension 1 – Exercise 3H"
+---
+
+{{< include lesson-1/_opening.qmd >}}
+
+{{< include lesson-1/_purpose.qmd >}}
+
+{{< include lesson-1/_weierstrass.qmd >}}
+
+{{< include lesson-1/_limits.qmd >}}
+
+{{< include lesson-1/_continuity.qmd >}}
+
+{{< include lesson-1/_example-1-1.qmd >}}
+
+{{< include lesson-1/_example-1-2-abc.qmd >}}
+
+{{< include lesson-1/_example-1-2-def.qmd >}}
+
+{{< include lesson-1/_differentiability.qmd >}}
+
+{{< include lesson-1/_example-1-3.qmd >}}
+
+{{< include lesson-1/_failures.qmd >}}
+
+{{< include lesson-1/_hinge.qmd >}}
+
+{{< include lesson-1/_example-1-4-a.qmd >}}
+
+{{< include lesson-1/_example-1-4-b.qmd >}}
+
+{{< include lesson-1/_key-ideas.qmd >}}
+
+{{< include lesson-1/_homework.qmd >}}

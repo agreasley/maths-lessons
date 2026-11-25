@@ -1,0 +1,13 @@
+## Example 1.4(b) {#gac1-example-1-4-b .gac-lesson }
+
+Determine whether each function is continuous and differentiable at $x=1$. Sketch each graph.
+
+b)
+
+$$g(x)=\begin{cases}1-x^2,&x<1,\\(x-1)(x-3),&x\geq1.\end{cases}$$
+
+<p class="booklet-cue">Example 1.4(b) · Booklet p. 6</p>
+
+::: notes
+Both one-sided limits are 0 and g(1)=0: continuous. Left derivative -2x gives -2 at 1; right derivative 2x-4 also gives -2: differentiable with g\'(1)=-2. Left branch is the portion of y=1-x^2 with x<1; right branch is y=(x-1)(x-3) for x>=1. They join at (1,0) with a common non-horizontal tangent. Their second derivatives differ, which is outside today\'s required classification. Original wording and subparts preserved across two slides. Model (a), then allow an independent attempt at (b). Ask what was the same and what was different in the two checks. Allow approximately 10 minutes across both parts.
+:::

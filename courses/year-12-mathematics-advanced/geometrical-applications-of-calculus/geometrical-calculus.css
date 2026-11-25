@@ -1,0 +1,55 @@
+/* Topic-specific layouts; shared navigation, maths and hinge components remain authoritative. */
+.reveal .slide-number{width:max-content;right:auto}
+.reveal .gac-lesson .gac-intentions{display:grid;gap:16px}
+.reveal .gac-lesson .gac-intention{display:grid;grid-template-columns:220px 1fr;gap:25px;padding:20px 0;border-bottom:1px solid var(--rule);font-size:29px;line-height:1.35}
+.reveal .gac-intention strong{color:var(--teal)}
+.reveal .gac-intention p{margin:0}
+.reveal .gac-intention.gac-prior{font-size:25px}
+.reveal .gac-lesson.cover .cover-title{font-size:74px;margin-top:50px}
+.reveal .gac-lesson.cover .cover-subtitle{max-width:770px}
+.reveal .gac-cover-figure{position:absolute;right:60px;bottom:115px;width:360px;height:200px}
+.reveal .gac-lesson .gac-lead{font-size:31px;line-height:1.4}
+.reveal .gac-lesson .gac-prompt{font-size:29px;line-height:1.35;margin:20px 0}
+.reveal .gac-lesson .gac-caption{font-size:20px;color:var(--muted);margin-left:14px}
+.reveal .gac-lesson .gac-history-graph{display:block;width:1100px;height:290px;max-width:none;max-height:none;margin:0}
+.reveal .gac-limit-rows{display:grid;gap:25px;margin:40px 0}
+.reveal .gac-limit-rows>div{display:grid;grid-template-columns:300px 1fr;align-items:center;font-size:32px}
+.reveal .gac-left{color:var(--blue)}.reveal .gac-right{color:var(--orange)}
+.reveal .gac-checks{margin:35px 0;display:grid;gap:25px}
+.reveal .gac-checks>div{display:grid;grid-template-columns:65px 1fr;gap:20px;align-items:start;font-size:32px}
+.reveal .gac-checks b{color:var(--teal);font-size:40px}.reveal .gac-checks p{margin:0;line-height:1.6}
+.reveal .gac-source-prompt{font-size:27px;line-height:1.4}
+.reveal .gac-source-graphs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 0 45px}
+.reveal .gac-source-graphs figure{margin:0;background:#f5f3ff;padding:12px 0}
+.reveal .gac-source-graphs img{width:100%;height:210px;max-height:none;max-width:none;object-fit:contain;margin:0;display:block}
+.reveal .gac-example-split{display:grid;grid-template-columns:1fr 560px;gap:40px}
+.reveal .gac-parts{font-size:26px;line-height:1.4;margin-top:28px}
+.reveal .gac-parts li{margin:22px 0}
+.reveal .gac-secant-graph{display:block;width:560px;height:350px;max-width:none;max-height:none;margin:0}
+.reveal [data-gac-secants] .toolbar{margin:8px 0;gap:9px}
+.reveal [data-gac-secants] .toolbar button{font-size:19px;padding:10px}
+.reveal .gac-slider-label{display:block;font-size:20px}
+.reveal .gac-slider-label output{float:right;font-variant-numeric:tabular-nums;color:var(--teal);font-weight:700}
+.reveal .gac-slider-label input{display:block;height:36px;margin:0}
+.reveal .gac-gradient-values{display:flex;justify-content:space-between;font-size:23px;min-height:34px;padding-top:6px}
+.reveal .gac-failure-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px 40px}
+.reveal .gac-failure-grid h3{font-size:27px;margin:0 0 6px;color:var(--teal)}
+.reveal .gac-failure-grid svg{width:520px;height:180px;display:block;margin:0;max-width:none;max-height:none}
+.reveal .gac-failure-grid p{font-size:22px;margin:4px 0}
+.reveal .gac-result{font-size:28px;margin-top:26px}
+.reveal .gac-hinge .hinge-question{font-size:29px;margin:0 0 7px}
+.reveal .gac-hinge .hinge-toolbar{padding:0 0 8px}
+.reveal .gac-hinge .time{font-size:38px}
+.reveal .gac-hinge-layout{display:grid;grid-template-columns:430px 1fr;gap:30px;align-items:center;margin:10px 0}
+.reveal .gac-hinge-layout svg{display:block;width:430px;height:320px;max-width:none;max-height:none;margin:0}
+.reveal .gac-hinge .choices{grid-template-columns:1fr;gap:9px;margin:0}
+.reveal .gac-hinge .choice{font-size:24px;min-height:73px;line-height:1.3;padding:8px 15px;gap:15px}
+.reveal .gac-hinge .finger-choice-label{min-width:80px}
+.reveal .gac-hinge .hinge-bottom{margin-top:13px}
+.reveal .gac-hinge .hinge-explanation{font-size:23px;margin-top:12px;padding:9px 15px}
+.reveal .gac-summary{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.reveal .gac-summary h3{font-size:29px;color:var(--teal);margin:8px 0 17px}
+.reveal .gac-summary p{font-size:27px;min-height:76px}
+.reveal .gac-summary>div>span{font-size:27px}
+.reveal .gac-success{font-size:24px;color:var(--muted);border-top:1px solid var(--rule);padding-top:18px}
+.reveal .gac-lesson .homework-level{font-size:29px;padding:30px 0}

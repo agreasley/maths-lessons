@@ -1,0 +1,13 @@
+## Differentiability at a point {#gac1-differentiability .gac-lesson }
+
+<p>A derivative exists when the limiting secant gradient is a <strong>finite real number</strong>.</p>
+
+$$f'(a)=\lim_{h\to0}\frac{f(a+h)-f(a)}{h}$$
+
+<p class="takeaway">The gradients must approach the same finite value from both sides.</p>
+<p>Geometrically, the curve has a non-vertical tangent at <span data-math="(a,f(a))"></span>.</p>
+<p class="booklet-cue">Section 1.1.1 · Booklet p. 4</p>
+
+::: notes
+Use the difference quotient, not merely the derivative formula of one branch. At a piecewise join first establish continuity; for the smooth pieces in this booklet, then compare limits of the branch derivatives. A zero gradient is finite and valid; a vertical tangent does not give a finite derivative. The supplied syllabus statement defines differentiability using this limit and states differentiability implies continuity. About 3 minutes.
+:::

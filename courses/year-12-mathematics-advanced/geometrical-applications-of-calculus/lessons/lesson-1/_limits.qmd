@@ -1,0 +1,9 @@
+## Limits and function values {#gac1-limits .gac-lesson }
+
+<p class="gac-lead">What value does the function approach?</p>
+<div class="gac-limit-rows"><div><strong class="gac-left">From the left</strong><span data-math="\lim_{x\to a^-}f(x)"></span></div><div><strong class="gac-right">From the right</strong><span data-math="\lim_{x\to a^+}f(x)"></span></div><div><strong>At the point</strong><span data-math="f(a)"></span></div></div>
+<p class="takeaway">A limit describes the approach.<br>The function value describes the point itself.</p>
+
+::: notes
+Prerequisite recap, about 2 minutes. Superscript minus/plus indicates the direction of approach, not whether f(x) is negative/positive. A two-sided finite limit exists when the finite one-sided limits agree. It need not equal f(a). Brief retrieval: what does f'(a)=0 mean? A horizontal tangent, provided the derivative exists. Do not infer a maximum or minimum from it.
+:::

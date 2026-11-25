@@ -1,0 +1,12 @@
+## When a derivative does not exist {#gac1-failures .gac-lesson }
+
+<div class="gac-failure-grid">
+<div><h3>Corner</h3><svg data-gac-failure="corner" viewBox="0 0 520 180" role="img" aria-label="Absolute value graph with a corner at the origin"></svg><p>Different finite one-sided gradients.</p></div>
+<div><h3>Cusp</h3><svg data-gac-failure="cusp" viewBox="0 0 520 180" role="img" aria-label="Cusp at the origin of y equals x to the power two thirds"></svg><p>No finite gradient at the cusp.</p></div>
+<div><h3>Vertical tangent</h3><svg data-gac-failure="vertical" viewBox="0 0 520 180" role="img" aria-label="Cube root graph with a vertical tangent at the origin"></svg><p>A vertical tangent has no finite gradient.</p></div>
+<div><h3>Discontinuity</h3><svg data-gac-failure="hole" viewBox="0 0 520 180" role="img" aria-label="Line with a missing point at the origin"></svg><p>A discontinuity prevents differentiability.</p></div></div>
+<p class="gac-result"><strong>Differentiable implies continuous.</strong> Continuity alone is insufficient.</p>
+
+::: notes
+Examples are additional illustrations of the booklet p. 4 summary. Curves: |x|, |x|^(2/3), cube root(x), and y=x for x!=0. Cusp slopes grow without bound with opposite signs; cube-root difference quotients are positive and unbounded from both sides. Neither has a finite derivative at 0. Distinguish a vertical tangent from a horizontal tangent, which has derivative 0. Not every nondifferentiable point is an ordinary corner, as the historical example also shows. About 3 minutes.
+:::

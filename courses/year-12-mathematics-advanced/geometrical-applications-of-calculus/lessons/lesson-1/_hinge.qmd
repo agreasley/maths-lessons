@@ -1,0 +1,24 @@
+## Hinge question {#gac1-hinge .gac-lesson }
+
+<div data-module="hinge" data-correct="3" class="hinge numeric-choices gac-hinge">
+<p class="hinge-question">Which statement is correct at <span data-math="x=2"></span>?</p>
+<div class="hinge-toolbar"><div class="time" role="timer" aria-label="Time remaining">1:00</div><div class="toolbar"><label>Seconds <select class="timer-duration" aria-label="Question duration"><option>30</option><option>45</option><option selected>60</option><option>90</option><option>120</option></select></label><button class="timer-start primary">Start</button><button class="reset-question">Reset</button></div></div>
+<div class="gac-hinge-layout"><svg data-gac-hinge-graph viewBox="0 0 430 320" role="img" aria-label="Graph of f with two straight branches meeting at a filled sharp peak at x equals 2, rising to the peak then falling"></svg>
+<div class="choices">
+<button class="choice" data-answer="1" aria-pressed="false"><b>1</b><span>The function is continuous and <span data-math="f'(2)=0"></span>.</span></button>
+<button class="choice" data-answer="2" aria-pressed="false"><b>2</b><span>The function is continuous and <span data-math="f'(2)<0"></span>.</span></button>
+<button class="choice" data-answer="3" aria-pressed="false"><b>3</b><span>The function is continuous, but <span data-math="f'(2)"></span> does not exist.</span></button>
+<button class="choice" data-answer="4" aria-pressed="false"><b>4</b><span>The function is neither continuous nor differentiable.</span></button>
+</div></div>
+<div class="hinge-bottom"><p>Fist on chest. Think quietly.<br>On “show”, hold up 1–4 fingers.</p><button class="reveal-answer primary">Reveal answer</button></div>
+<div class="hinge-explanation" hidden><strong>3.</strong> The graph joins without a break, but its two sides have different gradients at the corner.</div></div>
+
+::: notes
+Additional diagnostic, correct number 3. No equation or one-sided derivative values are shown. The exact graph used to draw the diagram is f(x)=3-|x-2|; at x=2 the one-sided gradients are +1 and -1. Continuity holds at the filled vertex, but no derivative exists there. The plotted axes use equal units.
+
+1 assumes a peak necessarily has gradient zero or averages the two slopes. 2 uses only the descending right-hand branch. 4 treats a corner as a break in the function. The prompt refers to continuity/differentiability at x=2.
+
+Use the shared adjustable 60-second timer, Start/Pause/Resume and Reset. Expiry does not reveal the answer. Fist on chest; independent thinking; on the teacher's show cue, all reveal 1–4 fingers together. Ready: ask why continuity is insufficient, then Example 1.4. Divided: invite paired explanations and revote before revealing. Needs explanation: return to |x|, compare function values and then the two secant gradients, and recheck. About 3–4 minutes.
+
+Craig Barton, diagnostic questions: silent thought, rehearsed reasons, simultaneous responses and responsive follow-up. https://tipsforteachers.co.uk/diagnostic-questions/ .
+:::

@@ -1,0 +1,10 @@
+## Homework {#gac1-homework .gac-lesson }
+
+<p>Cambridge Year 12 Extension 1 · Exercise 3H</p>
+<div class="homework-level"><strong>Mild</strong><div>Q1, Q2, Q3(a), Q4(a,c)</div></div>
+<div class="homework-level"><strong>Medium</strong><div>Q1, Q2, Q4(a,b,d), Q7(a,c,d)</div></div>
+<div class="homework-level"><strong>Spicy</strong><div>Q4(b,d), Q5(c,d), Q6(a), Q7(a,c), Q8</div></div>
+
+::: notes
+Exactly the Homework 1 allocation on booklet p. 7. The topic is listed under Mathematics Advanced as requested; the supplied homework references the Extension 1 textbook and has not been silently remapped. No extra commentary on this slide.
+:::

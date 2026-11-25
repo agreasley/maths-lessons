@@ -1,0 +1,22 @@
+## An unbroken graph with no derivative {#gac1-weierstrass .gac-lesson }
+
+<p class="gac-lead">In 1872, Weierstrass presented a function that was<br><strong>continuous everywhere, differentiable nowhere.</strong></p>
+<div data-gac-weierstrass>
+<svg class="gac-history-graph" viewBox="0 0 1100 290" role="img" aria-label="Finite cosine-sum approximation to the Weierstrass function"></svg>
+<div class="toolbar"><label>Waves <select class="gac-waves" aria-label="Number of cosine waves"><option>1</option><option>2</option><option>3</option><option selected>4</option><option>5</option><option>6</option></select></label><button class="gac-wave-reset">Reset</button><span class="gac-caption">A finite approximation; every displayed sum is smooth.</span></div>
+</div>
+<p class="gac-prompt">How could a graph have no breaks, but no gradient anywhere?</p>
+
+::: notes
+Keep to 2–3 minutes. Ask for predictions; do not expect a proof or a full explanation now. Add one wave at a time if useful. Each has half the amplitude and triple the frequency. The plotted function is W_N(x)=sum from n=0 to N-1 of 2^(-n) cos(3^n x), for -pi <= x <= pi. Labels and scale stay fixed as N changes.
+
+Weierstrass presented his famous construction to the Berlin Academy on 18 July 1872. The proof was published by du Bois-Reymond in 1875. Earlier examples existed, including Bolzano's unpublished work, so do not call this the first discovery. Many mathematicians expected a continuous function to be differentiable except at special points. This example showed a much stronger failure. Continuity/differentiability were not invented in response to this one example; it reinforced an existing movement towards rigorous foundations.
+
+Suggested delivery: Most curves we have differentiated are smooth. A corner can prevent a derivative at one point. Weierstrass asked a more surprising question: could an unbroken graph have no derivative anywhere? An infinite sum of progressively smaller, faster waves can do this. Today we will investigate the simpler distinction between joining function values and agreeing gradients.
+
+The infinite series is continuous because its tails are uniformly bounded by a convergent geometric series. Each term's derivative is -(3/2)^n sin(3^n x). Growing derivative amplitudes are intuition, not proof. One cannot infer nowhere differentiability just from a divergent formal derivative series. In fact all term derivatives are zero at x=0, yet W'(0) does not exist. Differentiating an infinite sum requires extra conditions; it is valid for a power series within its radius of convergence. No proof of the Weierstrass result is required here.
+
+Every graph displayed here is a finite smooth sum, not the exact infinite function or a proof. At sufficient magnification a finite approximation will look smooth. Avoid saying it has an ordinary corner at every point. Return to the question after Example 1.3.
+
+Sources: Allan Pinkus, Weierstrass and Approximation Theory, pp. 3–5, https://www.math.auckland.ac.nz/hat/fpapers/wap.pdf ; John K. Hunter, An Introduction to Real Analysis, Example 9.24 and pp. 180–181, https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf .
+:::

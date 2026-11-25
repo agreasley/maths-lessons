@@ -1,0 +1,11 @@
+## Continuity and differentiability {#gac1-opening .gac-lesson .cover}
+
+<div class="eyebrow">Year 12 Mathematics Advanced · Geometrical Applications of Calculus · Lesson 1</div>
+<div class="cover-title">Continuity and<br>differentiability</div>
+<div class="cover-subtitle">An unbroken graph. A gradient that may not exist.</div>
+<svg class="gac-cover-figure" viewBox="0 0 360 200" role="img" aria-label="A smooth curve and a graph with a sharp corner"><path d="M15 170H345M28 180V15" stroke="#bcced3" stroke-width="2" fill="none"/><path d="M40 110Q110 10 180 110T330 110" stroke="#8cddd0" stroke-width="5" fill="none"/><path d="M45 155L185 60L325 155" stroke="#d4a16b" stroke-width="4" fill="none"/></svg>
+<div class="cover-foot">Booklet pp. 1–7 · Examples 1.1–1.4 · Homework 1</div>
+
+::: notes
+Allow approximately 50 minutes. This is the first lesson in the supplied program. Preserve all examples and homework. Complete worked solutions in OneNote; solutions and diagnostic guidance are in the notes. Cover curves are schematic.
+:::

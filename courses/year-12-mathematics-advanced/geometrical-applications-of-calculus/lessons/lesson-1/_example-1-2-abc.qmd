@@ -1,0 +1,14 @@
+## Example 1.2 (a–c) {#gac1-example-1-2-abc .gac-lesson }
+
+<p class="gac-source-prompt">Identify the following functions as continuous or discontinuous over <span data-math="x\in\mathbb{R}"></span>. For each graph, state what type of discontinuity exists, if there exists a discontinuity.</p>
+<div class="gac-source-graphs"><figure><img src="../media/example-1-2-a.png" alt="Original booklet Example 1.2(a) graph" /></figure><figure><img src="../media/example-1-2-b.png" alt="Original booklet Example 1.2(b) graph" /></figure><figure><img src="../media/example-1-2-c.png" alt="Original booklet Example 1.2(c) graph" /></figure></div>
+<p class="gac-prompt">What do you see that makes you say that?</p>
+<p class="booklet-cue">Example 1.2 · Booklet p. 3</p>
+
+::: notes
+All six original graphs and their labels are preserved, split in source order a–c / d–f. Answers: (a) continuous; (b) removable discontinuity (hole); (c) vertical-asymptote/infinite discontinuity at 0; (d) removable discontinuity, because the limit exists but the filled value differs; (e) continuous; (f) jump discontinuity at 0. Do not classify (d) as a jump: the old Continuity PowerPoint grouped it under that heading incorrectly.
+
+Exact additional prompt: Is this function continuous at the marked point? What do you see that makes you say that? Give independent thinking time, then ask partners to explain a choice. For (d), ask which of the three continuity checks fails. For (f), ask whether moving the filled point could fix the unequal one-sided limits. Allow about 5 minutes across both slides, including a 1–2 minute discussion.
+
+Project Zero, Harvard Graduate School of Education: What Makes You Say That? (adapted). Purpose: connect classifications with visible evidence about limits and function values. https://www.pz.harvard.edu/resources/what-makes-you-say .
+:::

@@ -1,0 +1,13 @@
+## Example 1.4(a) {#gac1-example-1-4-a .gac-lesson }
+
+Determine whether each function is continuous and differentiable at $x=1$. Sketch each graph.
+
+a)
+
+$$f(x)=\begin{cases}2-x,&x<1,\\x^2,&x\geq1.\end{cases}$$
+
+<p class="booklet-cue">Example 1.4(a) · Booklet p. 6</p>
+
+::: notes
+Both one-sided limits are 1 and f(1)=1: continuous. The left derivative is -1 and the right derivative is 2: not differentiable. Sketch the line y=2-x for x<1 and parabola y=x^2 for x>=1, meeting at (1,1). Original wording and subparts preserved across two slides. Model (a), then allow an independent attempt at (b). Ask what was the same and what was different in the two checks. Allow approximately 10 minutes across both parts.
+:::

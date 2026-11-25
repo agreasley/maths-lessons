@@ -1,0 +1,9 @@
+## Continuity at a point {#gac1-continuity .gac-lesson }
+
+<p>The graph has no break at <span data-math="x=a"></span>.</p>
+<div class="gac-checks"><div><b>1</b><p><span data-math="f(a)"></span> is defined.</p></div><div><b>2</b><p><span data-math="\lim_{x\to a}f(x)"></span> exists as a finite value.</p></div><div><b>3</b><p>The limit equals the function value:<br><span data-math="\lim_{x\to a}f(x)=f(a)"></span>.</p></div></div>
+<p class="booklet-cue">Section 1.1 · Booklet p. 1</p>
+
+::: notes
+Use the no-break/pen intuition as an informal introduction. The precise test is at a point and is relative to the domain. At an endpoint use the approach from within the domain. A removable discontinuity is a hole or a function value different from the limit; a jump has different finite one-sided limits; a vertical asymptote involves unbounded behaviour. The old PowerPoint has lim f(a) in its continuity statement; use lim f(x) as in the booklet.
+:::

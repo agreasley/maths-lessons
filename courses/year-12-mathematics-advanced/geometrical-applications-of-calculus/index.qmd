@@ -1,0 +1,25 @@
+---
+title: "Geometrical Applications of Calculus"
+description: "Use derivatives to understand graphs and solve optimisation problems."
+metadata-files: [../../../_site-page.yml]
+topic-order: 3
+listing:
+  id: lessons
+  contents: "lessons/lesson-*.qmd"
+  sort: lesson-order
+  template: ../../../assets/templates/lessons.ejs.md
+  fields: [lesson-title, path, description, lesson-order, homework, booklet]
+---
+
+```{=html}
+<nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Advanced</a></li><li><span aria-current="page">Geometrical Applications of Calculus</span></li></ol></nav>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Advanced</p><h1>Geometrical Applications of Calculus</h1><p class="intro-copy">Connect derivatives to the shape and behaviour of a graph.</p><div class="topic-tags"><span>1 lesson available</span><span>Continuity and differentiability</span><span>Booklet Examples 1.1–1.4</span></div></header>
+<div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
+```
+
+::: {#lessons}
+:::
+
+```{=html}
+<div role="note" class="study-note" aria-label="Using this lesson"><div class="note-mark" aria-hidden="true">i</div><div><h2>Does the graph join? Does the gradient exist?</h2><p>Lesson 1 covers continuity and differentiability, including graphical classification and piecewise functions. Follow Section 1.1, Examples 1.1–1.4, on pages 1–6 of the Geometrical Applications of Calculus booklet, then complete Homework 1 on page 7.</p><p>The supplied homework uses Cambridge Year 12 Extension 1, Exercise 3H.</p></div></div>
+```

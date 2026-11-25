@@ -1,0 +1,10 @@
+## Continuity and differentiability {#gac1-key-ideas .gac-lesson }
+
+<div class="gac-summary"><div><h3>Continuity</h3><p>Do the approaches agree with the function value?</p><span data-math="\lim_{x\to a}f(x)=f(a)"></span></div><div><h3>Differentiability</h3><p>Do the secant gradients approach one finite value?</p><span data-math="\lim_{h\to0}\frac{f(a+h)-f(a)}{h}=f'(a)"></span></div></div>
+<p class="takeaway">Differentiability implies continuity.<br>Continuity alone does not imply differentiability.</p>
+<p class="gac-prompt">Explain how a function can be continuous at a point but not differentiable there.</p>
+<p class="gac-success"><strong>I can</strong> justify whether a function is continuous and differentiable at a given point.</p>
+
+::: notes
+Revisit the opening question using |x| as the student-explainable example. A suitable response identifies matching function values but unequal one-sided gradients. Revisit the success criterion before homework. Invite students to name which check distinguished Example 1.4(a) and (b). Weierstrass extends the idea to failure at every point; no proof is expected. About 2 minutes.
+:::

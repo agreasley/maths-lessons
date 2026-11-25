@@ -1,0 +1,21 @@
+## Example 1.3 {#gac1-example-1-3 .gac-lesson }
+
+<div class="gac-example-split"><div>
+<p>Let <span data-math="f(x)=|x|"></span>.</p>
+<ol type="a" class="gac-parts"><li>Sketch <span data-math="y=f(x)"></span> and write <span data-math="f"></span> as a piecewise function.</li><li>Use one-sided limits to show that <span data-math="f"></span> is continuous at <span data-math="x=0"></span>.</li><li>Use the one-sided gradients to determine whether <span data-math="f"></span> is differentiable at <span data-math="x=0"></span>.</li></ol>
+<p class="booklet-cue">Example 1.3 · Booklet p. 5</p>
+</div><div data-gac-secants>
+<div class="toolbar"><label>Graph <select class="gac-function" aria-label="Graph for secant comparison"><option value="abs">Example 1.3</option><option value="square">Additional comparison</option></select></label></div>
+<svg class="gac-secant-graph" viewBox="0 0 560 350" role="img" aria-label="One-sided secants approaching the origin"></svg>
+<label class="gac-slider-label">Distance from the origin <output class="gac-distance">1.00</output><input class="gac-distance-slider" type="range" min="0" max="100" step="1" value="0" aria-label="Move the secant points towards the origin" /></label>
+<div class="toolbar"><button class="gac-closer">Move closer</button><button class="gac-reveal primary" aria-expanded="false">Reveal gradients</button><button class="gac-secant-reset">Reset</button></div>
+<div class="gac-gradient-values" hidden aria-live="polite"></div>
+</div></div>
+
+::: notes
+Preserve parts (a)–(c). Work in OneNote. (a) |x|=-x for x<0 and x for x>=0. (b) both one-sided limits and f(0) are 0, so continuous at 0. (c) left difference quotient is -1, right is +1, so no derivative at 0. Ask students to predict before moving the points and before revealing values.
+
+The blue point is (-h,f(-h)); the orange point is (h,f(h)), with h>0. Secants pass through (0,0), so their gradients are [f(-h)-f(0)]/(-h) and [f(h)-f(0)]/h. The slider changes h logarithmically from 1 to 0.01 and never divides by zero. For |x| the secants lie on the graph branches; the dashed coloured extension emphasises their directions. No tangent is drawn at the origin.
+
+Switch to the explicitly additional comparison y=x^2. Its left secant gradient is -h and right is h, both tending to 0. The slopes are hidden on switching until deliberately revealed. The horizontal tangent is valid here. Exact follow-up: Both graphs are continuous at the origin. What additional condition allows a derivative to exist? Answer: the difference quotients approach the same finite value. Use about 7 minutes, including the comparison.
+:::

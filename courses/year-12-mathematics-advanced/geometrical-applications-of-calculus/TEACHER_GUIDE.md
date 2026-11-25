@@ -6,10 +6,10 @@ Year 12 Mathematics Advanced. The supplied program identifies this as Lesson 1. 
 
 Opening: cover, then the three rows What?, Why? and Prior learning. Success criterion is in presenter notes and revisited before homework. Prerequisites are limits, piecewise functions and the derivative as tangent gradient. A brief one-sided-limit recap follows the historical hook; do not describe these prerequisites as necessarily the immediately previous lesson.
 
-- What? We are learning to distinguish continuity from differentiability.
+- What? We are learning to identify where a function is continuous, where it is differentiable, and how differentiability differs from continuity.
 - Why? Mathematicians needed to establish when derivatives exist, because even a graph with no breaks can have no gradient anywhere.
 - Prior learning: Limits, piecewise functions and the derivative as the gradient of a tangent.
-- Success criterion: I can justify whether a function is continuous and differentiable at a given point.
+- Success criterion: I can identify and justify where a function is continuous and where it is differentiable, and explain why continuity does not guarantee differentiability.
 
 The supplied syllabus content focuses on the difference-quotient definition, a non-vertical tangent, differentiability implying continuity, and identifying continuous but nondifferentiable points. It is reproduced conceptually from the supplied booklet/program; no new syllabus wording has been invented.
 
@@ -17,16 +17,18 @@ The supplied syllabus content focuses on the difference-quotient definition, a n
 
 | Slides | Focus | Approximate time |
 | --- | --- | --- |
-| 1–5 | Opening, Weierstrass definition/amplitudes, prerequisite recall | 9 minutes |
-| 6–9 | Continuity and Examples 1.1–1.2 | 12 minutes |
-| 10–12 | Differentiability, Example 1.3 and failure cases | 12 minutes |
-| 13 | Graphical hinge and response | 4 minutes |
-| 14–15 | Example 1.4 | 10 minutes |
-| 16–17 | Key ideas, success criterion and homework | 3 minutes |
+| 1–6 | Opening, Weierstrass history/definition/amplitudes, prerequisite recall | 10 minutes |
+| 7–10 | Continuity and Examples 1.1–1.2 | 12 minutes |
+| 11–13 | Differentiability, Example 1.3 and failure cases | 11 minutes |
+| 14 | Graphical hinge and response | 4 minutes |
+| 15–16 | Example 1.4 | 10 minutes |
+| 17–18 | Key ideas, success criterion and homework | 3 minutes |
 
 ## Historical background for the teacher
 
 Many nineteenth-century mathematicians expected continuous functions to be differentiable apart from exceptional points. An isolated corner fits this intuition. Weierstrass's example demonstrated that continuity could coexist with failure of differentiability at every point.
+
+These three ideas now appear as student-facing bullet points on a dedicated history slide, before the definition or graph. Allow about one minute, then advance to “Building the Weierstrass function” and the derivative-amplitude comparison.
 
 Weierstrass presented his famous construction to the Berlin Academy on 18 July 1872. The proof was published by Paul du Bois-Reymond in 1875. Earlier examples existed, including Bolzano's unpublished construction. Say “Weierstrass presented his famous example in 1872”, not “he was the first to discover the possibility”. The definitions of continuity and differentiability preceded the example; it reinforced the need for rigorous foundations.
 

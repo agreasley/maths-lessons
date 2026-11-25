@@ -1,0 +1,17 @@
+## A nineteenth-century surprise {#gac1-weierstrass-history .gac-lesson }
+
+<ul class="gac-history-bullets">
+<li>Many nineteenth-century mathematicians expected continuous functions to be differentiable apart from <strong>exceptional points</strong>.</li>
+<li>An isolated corner seemed to fit that picture: a graph could remain continuous even when its derivative failed to exist at a particular point.</li>
+<li>In <strong>1872</strong>, Weierstrass presented a counterexample: a function that was <strong>continuous everywhere, but differentiable nowhere</strong>.</li>
+</ul>
+
+::: notes
+Allow about 1 minute, then show the function on the next slide. Emphasise that this challenged a widespread expectation, not a theorem or a belief held by every nineteenth-century mathematician. An isolated corner was familiar; failure of differentiability at every point was much more surprising.
+
+Weierstrass presented his famous construction to the Berlin Academy on 18 July 1872. The proof was published by Paul du Bois-Reymond in 1875. Earlier examples existed, including Bolzano's unpublished construction, so avoid claiming that Weierstrass was the first to discover the possibility. The definitions of continuity and differentiability already existed; the counterexample reinforced the importance of distinguishing them.
+
+Transition: “How can we build such a function? We add waves that become smaller in height, but oscillate more rapidly.”
+
+Sources: Allan Pinkus, Weierstrass and Approximation Theory, pp. 3–5, https://www.math.auckland.ac.nz/hat/fpapers/wap.pdf ; MacTutor, The function concept, https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/ .
+:::

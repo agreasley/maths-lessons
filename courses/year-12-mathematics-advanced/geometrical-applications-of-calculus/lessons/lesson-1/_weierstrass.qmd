@@ -1,6 +1,5 @@
-## An unbroken graph with no derivative {#gac1-weierstrass .gac-lesson .gac-history }
+## Building the Weierstrass function {#gac1-weierstrass .gac-lesson .gac-history }
 
-<p class="gac-lead">In 1872, Weierstrass presented a function that was<br><strong>continuous everywhere, differentiable nowhere.</strong></p>
 <div class="gac-wave-definition">
 
 $$W(x)=\sum_{n=0}^{\infty}\frac{1}{2^n}\cos(3^n x)

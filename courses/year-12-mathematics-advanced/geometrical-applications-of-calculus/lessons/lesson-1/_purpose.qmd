@@ -1,10 +1,10 @@
 ## What, why and prior learning {#gac1-purpose .gac-lesson }
 
 <div class="gac-intentions">
-<div class="gac-intention"><strong>What?</strong><p>We are learning to distinguish continuity from differentiability.</p></div>
+<div class="gac-intention"><strong>What?</strong><p>We are learning to identify where a function is continuous, where it is differentiable, and how differentiability differs from continuity.</p></div>
 <div class="gac-intention"><strong>Why?</strong><p>Mathematicians needed to establish when derivatives exist, because even a graph with no breaks can have no gradient anywhere.</p></div>
 <div class="gac-intention gac-prior"><strong>Prior learning</strong><p>Limits, piecewise functions and the derivative as the gradient of a tangent.</p></div></div>
 
 ::: notes
-Success criterion, revisited near the end: I can justify whether a function is continuous and differentiable at a given point. Prior learning lists prerequisite recall, not a claim about the immediately preceding lesson. A short one-sided-limit recap follows the historical hook. Keep this opening brief. The historical motivation is developed on the following slide; do not substitute an invented application.
+Success criterion, revisited near the end: I can identify and justify where a function is continuous and where it is differentiable, and explain why continuity does not guarantee differentiability. Prior learning lists prerequisite recall, not a claim about the immediately preceding lesson. A short one-sided-limit recap follows the historical hook. Keep this opening brief. The historical motivation is developed on the following slide; do not substitute an invented application.
 :::

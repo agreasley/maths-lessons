@@ -1,0 +1,32 @@
+## Smaller waves, larger derivative amplitudes {#gac1-weierstrass-gradients .gac-lesson .gac-wave-comparison }
+
+For one term, $w_n(x)=\dfrac{1}{2^n}\cos(3^n x)$:
+
+$$w_n'(x)=-\frac{1}{2^n}\times 3^n\sin(3^n x)
+=-\left(\frac32\right)^n\sin(3^n x).$$
+
+| $n$ | Wave amplitude $\left(\frac12\right)^n$ | Derivative amplitude $\left(\frac32\right)^n$ |
+| :---: | :---: | :---: |
+| $0$ | $1$ | $1$ |
+| $1$ | $\frac12$ | $\frac32$ |
+| $2$ | $\frac14$ | $\frac94$ |
+| $3$ | $\frac18$ | $\frac{27}{8}$ |
+
+<div class="gac-amplitude-takeaway">
+<p><strong>Wave amplitudes shrink:</strong> <span data-math="(1/2)^n\to0"></span>.</p>
+<p><strong>Derivative amplitudes grow:</strong> <span data-math="(3/2)^n\to\infty"></span>.</p>
+</div>
+<p class="gac-wave-rule">The waves shrink in height, but can contribute increasingly steep slopes.</p>
+<p class="gac-wave-caution">This gives intuition; it is not a proof that <span data-math="W"></span> is nowhere differentiable.</p>
+
+::: notes
+Additional explanation, not a booklet example. Ask: “What extra factor appears when we differentiate cos(3^n x)?” The chain rule supplies 3^n, which outweighs the shrinking factor 2^(-n). Hence the maximum absolute slope of each wave grows by a factor of 3/2, even as its amplitude halves. If needed, begin with d/dx [(1/2)cos(3x)]=-(3/2)sin(3x), then generalise.
+
+Be precise about “smaller” and “larger”. The wave amplitudes decrease to zero, and |w_n(x)|<=2^(-n) for every x, so the terms tend to zero. Their actual signed values need not decrease monotonically. The derivative amplitudes grow, not necessarily the derivative values at any fixed x: all w_n'(0)=0. The two amplitude sequences are geometric, linking to prior sequences and series work.
+
+We have differentiated each individual term, not the infinite sum W. Do not write W'(x) as the sum of these derivatives. Term-by-term differentiation of an infinite series requires further convergence conditions; infinity alone does not prohibit it. Growing derivative amplitudes or failure of the formal derivative series to converge are not by themselves a proof of nowhere differentiability. The continuity and nowhere-differentiability results for this W require separate arguments, outside this lesson.
+
+Suggested delivery: “Each new wave is lower, so its effect on the height becomes small. But it squeezes three times as many oscillations into the same space. When we differentiate, that factor of three outweighs the factor of one-half. Small changes in height can still involve steep changes over very short distances.”
+
+Source: John K. Hunter, An Introduction to Real Analysis, Example 9.24 and the discussion of differentiation of series, https://www.math.ucdavis.edu/~hunter/intro_analysis_pdf/intro_analysis.pdf .
+:::

@@ -17,12 +17,12 @@ The supplied syllabus content focuses on the difference-quotient definition, a n
 
 | Slides | Focus | Approximate time |
 | --- | --- | --- |
-| 1–4 | Opening, Weierstrass hook, prerequisite recall | 8 minutes |
-| 5–8 | Continuity and Examples 1.1–1.2 | 12 minutes |
-| 9–11 | Differentiability, Example 1.3 and failure cases | 13 minutes |
-| 12 | Graphical hinge and response | 4 minutes |
-| 13–14 | Example 1.4 | 10 minutes |
-| 15–16 | Key ideas, success criterion and homework | 3 minutes |
+| 1–5 | Opening, Weierstrass definition/amplitudes, prerequisite recall | 9 minutes |
+| 6–9 | Continuity and Examples 1.1–1.2 | 12 minutes |
+| 10–12 | Differentiability, Example 1.3 and failure cases | 12 minutes |
+| 13 | Graphical hinge and response | 4 minutes |
+| 14–15 | Example 1.4 | 10 minutes |
+| 16–17 | Key ideas, success criterion and homework | 3 minutes |
 
 ## Historical background for the teacher
 
@@ -33,6 +33,17 @@ Weierstrass presented his famous construction to the Berlin Academy on 18 July 1
 Suggested one-minute introduction:
 
 > Most curves we have differentiated are smooth. A corner can stop a derivative existing at one particular point. But mathematicians faced a more surprising question: could a graph have no breaks and yet have no derivative anywhere? In 1872, Weierstrass presented an example that did exactly that. He added infinitely many waves, each smaller but more tightly packed than the last. This showed why we need to distinguish two questions: do the function values join up, and do the gradients settle towards one value? Today we start with simpler graphs where we can investigate that distinction ourselves.
+
+The student slide now defines the infinite function explicitly:
+
+\[
+W(x)=\sum_{n=0}^{\infty}2^{-n}\cos(3^n x)
+=\cos x+\tfrac12\cos(3x)+\tfrac14\cos(9x)+\cdots.
+\]
+
+Each successive wave has half the amplitude and oscillates three times as quickly: over the same interval it completes three times as many cycles, so its period is one third as long.
+
+The next slide differentiates one term and compares the geometric amplitude sequences 1, 1/2, 1/4, 1/8, ... and 1, 3/2, 9/4, 27/8, ... . The chain-rule factor 3^n outweighs 2^(-n). The wave terms tend to zero because their absolute values are bounded by 2^(-n); their signed values need not decrease monotonically. Derivative amplitudes grow, rather than derivative values necessarily growing at every fixed x. Keep this explanation to about 4 minutes across the two slides.
 
 The displayed approximation is
 

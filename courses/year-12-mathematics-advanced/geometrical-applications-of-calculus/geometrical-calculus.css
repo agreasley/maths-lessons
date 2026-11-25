@@ -12,6 +12,22 @@
 .reveal .gac-lesson .gac-prompt{font-size:29px;line-height:1.35;margin:20px 0}
 .reveal .gac-lesson .gac-caption{font-size:20px;color:var(--muted);margin-left:14px}
 .reveal .gac-lesson .gac-history-graph{display:block;width:1100px;height:290px;max-width:none;max-height:none;margin:0}
+.reveal .gac-history .gac-lead{font-size:27px;line-height:1.3;margin:12px 0}
+.reveal .gac-wave-definition{font-size:28px;margin:14px 0}
+.reveal .gac-wave-definition .math.display{margin:0}
+.reveal .gac-lesson .gac-wave-rule{font-size:25px;line-height:1.35;margin:14px 0}
+.reveal .gac-history .gac-prompt{font-size:26px;margin:12px 0}
+.reveal .gac-wave-comparison>p{font-size:29px}
+.reveal .gac-wave-comparison table{width:100%;font-size:25px;margin:24px 0}
+.reveal .gac-wave-comparison table th,.reveal .gac-wave-comparison table td{padding:8px 14px;text-align:center}
+.reveal .gac-wave-comparison table th{font-weight:500}
+.reveal .gac-wave-comparison table th:nth-child(2),.reveal .gac-wave-comparison table td:nth-child(2){color:var(--teal)}
+.reveal .gac-wave-comparison table th:nth-child(3),.reveal .gac-wave-comparison table td:nth-child(3){color:var(--orange)}
+.reveal .gac-amplitude-takeaway{display:flex;justify-content:space-between;gap:30px}
+.reveal .gac-amplitude-takeaway p{font-size:25px;margin:10px 0}
+.reveal .gac-amplitude-takeaway p:first-child{color:var(--teal)}
+.reveal .gac-amplitude-takeaway p:last-child{color:var(--orange)}
+.reveal .gac-lesson .gac-wave-caution{font-size:21px;color:var(--muted);margin:16px 0}
 .reveal .gac-limit-rows{display:grid;gap:25px;margin:40px 0}
 .reveal .gac-limit-rows>div{display:grid;grid-template-columns:300px 1fr;align-items:center;font-size:32px}
 .reveal .gac-left{color:var(--blue)}.reveal .gac-right{color:var(--orange)}

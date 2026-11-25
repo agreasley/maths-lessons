@@ -2,6 +2,14 @@
 
 Follow the repository structure and publishing guidance in README.md. For a new lesson or a substantial redesign, propose the slide sequence before building and wait for approval. Once approved, complete implementation and checks; explicitly requested small edits can be made directly.
 
+## Git workflow
+
+- Make, commit and push approved changes directly to `main` by default.
+- Do not create a feature branch or pull request unless the user explicitly asks for one.
+- The lesson-planning approval above remains the decision to build. Once the plan is approved, or a specific edit is requested, complete the changes and required checks, then commit and push to `main` without another confirmation.
+- Synchronise with the latest `main` before editing and preserve unrelated changes. Do not force-push or overwrite others' work.
+- Follow README.md for publishing; committing to `main` does not itself update the live website.
+
 ## Consistent lesson appearance
 
 Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, topic-relevant illustration and booklet/homework footer. Vector lessons should use vector geometry, without the data-chart bar graphic. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; follow it with the **What, why and prior learning** slide described below, then any opening activity or contextual hook.

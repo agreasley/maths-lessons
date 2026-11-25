@@ -4,9 +4,27 @@ Follow the repository structure and publishing guidance in README.md. For a new 
 
 ## Consistent lesson appearance
 
-Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, topic-relevant illustration and booklet/homework footer. Vector lessons should use vector geometry, without the data-chart bar graphic. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; put the lesson objective and success criterion immediately after the cover, followed by the opening activity.
+Begin each lesson with the shared `.cover` title slide used in Lesson 1: lesson eyebrow, large title, short subtitle, topic-relevant illustration and booklet/homework footer. Vector lessons should use vector geometry, without the data-chart bar graphic. Keep this cover when revising opening activities unless the teacher explicitly asks to remove it; follow it with the **What, why and prior learning** slide described below, then any opening activity or contextual hook.
 
 Inside a layout div such as `.column-block`, use raw HTML `<h3>...</h3>` for a panel heading. A Markdown heading at the start of a div can make Pandoc emit a nested `<section>`, which Reveal mistakes for another slide and can break navigation. After rendering, check the slide count and navigate through the full sequence using Next and Previous.
+
+## What, why and prior learning
+
+Use this opening for new lessons across Years 7–12, adapting the language to the course. It replaces the separate opening objective/success-criteria slide and normally incorporates the "Previously" recap. Include an additional prerequisite recap only when students need to recall or practise something before proceeding.
+
+Keep the opening to three concise, clearly labelled rows:
+
+| Label | Content |
+| --- | --- |
+| **What?** | One short lesson objective, normally beginning **"We are learning to…"**, naming the mathematical skill or understanding. |
+| **Why?** | One short, specific reason to care: a meaningful real-world or interesting context, something the mathematics enables us to find or do, or a verified historical problem that motivated its development. |
+| **Prior learning** | The relevant knowledge and skills students will draw on. Use earlier lessons or supplied information; distinguish prerequisite recall from material known to have been taught. |
+
+- Make the **Why?** concrete and accessible. Avoid generic claims such as "useful in real life", "develop problem-solving skills" or "prepare for later mathematics". Choose one relevant reason rather than listing several applications. Keep it suitable for everyone in the stated course; for example, a Mathematics Advanced lesson can motivate trigonometric differentiation through oscillating motion without referring to Extension 2 study.
+- When a context benefits from a hook, introduce it near the start. A brief image, model or question can establish relevance without becoming a lengthy textbook exercise. Keep claims mathematically accurate; if returning to the context later, use a specific quantity, relationship or calculation that supports the point. Verify historical explanations before using them.
+- Retain **one short, observable success criterion**, normally beginning **"I can…"**. Include it in presenter notes and revisit it with students near the end, before homework. It does not need a separate opening slide or a fourth row.
+- Match the established lesson style: use clear labels, spacing and restrained row dividers rather than adding a collection of white cards. The Differential Calculus opening in `courses/year-12-mathematics-advanced/differential-calculus/lessons/lesson-4/_purpose.qmd` is a reference for the structure and level of detail.
+- In the proposed lesson overview, give the exact **What?**, **Why?**, **Prior learning** and success-criterion wording, together with any suggested hook, so these can be reviewed before building.
 
 ## Multiple-choice response routine
 

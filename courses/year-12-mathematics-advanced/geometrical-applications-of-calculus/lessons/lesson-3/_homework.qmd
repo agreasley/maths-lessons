@@ -1,0 +1,12 @@
+## Homework {#gac3-homework .gac-lesson .gac3-homework}
+
+```{=html}
+<p>Cambridge Year 12 Extension 1</p>
+<div class="homework-level"><strong>Mild</strong><div>Exercise 3A Q3, Q11;<br>Exercise 3B Q3(a,b), Q4(c,d), Q6</div></div>
+<div class="homework-level"><strong>Medium</strong><div>Exercise 3A Q13, Q16;<br>Exercise 3B Q4(d), Q7, Q8(c), Q13(a)</div></div>
+<div class="homework-level"><strong>Spicy</strong><div>Exercise 3A Q21;<br>Exercise 3B Q8(d), Q9, Q16; Exercise 3C Q2(c)</div></div>
+```
+
+::: notes
+1 minute. Retain the entire supplied Homework 3 allocation from booklet p. 26. This lesson is not split across two lessons; no exercise has been removed or reassigned. The site course is Year 12 Mathematics Advanced, and the supplied booklet specifies Cambridge Year 12 Extension 1. No unverified Advanced textbook mapping has been substituted.
+:::

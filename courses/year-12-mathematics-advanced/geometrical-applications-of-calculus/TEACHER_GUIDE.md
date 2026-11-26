@@ -218,3 +218,85 @@ Retain **Cambridge Year 12 Extension 1 — Exercise 3D**, exactly as supplied on
 - Spicy: Q6(b,d), Q7(b,f), Q10(a), Q11, Q13, Q14(a).
 
 The website course remains Mathematics Advanced; the supplied textbook allocation remains Extension 1. The homework slide contains only the source and assigned questions.
+
+## Lesson 3: The first derivative and stationary points
+
+**One 50-minute lesson**, retaining the program's combined first-derivative lesson. Cover Section 1.3, Examples 1.9–1.20, printed pp. 14–26 of the current Year 12 booklet. The teacher supplied the Year 11 Introduction to Differentiation booklet and confirmed that increasing, decreasing and stationary behaviour is prior learning. Its Section 3.3, printed pp. 30–36, supports a brief retrieval phase: Year 11 Example 3.9 matches current 1.10; 3.11 includes current 1.11; 3.10 is the expanded form of current 1.12; 3.12 matches current 1.14. Preserve the current booklet's wording, numerical values, notation and subparts. The old Interpreting the Derivative and Types of stationary points PowerPoints inform the graphical explanations and sign tables, but their example numbering is not used.
+
+Syllabus alignment, from the supplied program: analyse stationary points by testing values of the first derivative and classify them as local minima, local maxima or horizontal points of inflection. The second-derivative test and formal concavity remain for the next lesson.
+
+- **What?** We are learning to use the first derivative to identify increasing, decreasing and stationary behaviour and classify stationary points.
+- **Why?** AI training uses the sign of a derivative to decide whether increasing or decreasing a model parameter will reduce prediction error.
+- **Prior learning:** From Year 11: interpreting derivative signs, finding stationary points and determining increasing and decreasing intervals.
+- **Success criterion:** I can use a first-derivative sign table to justify where a function increases or decreases and classify its stationary points.
+
+### Sequence and pacing
+
+| Slides | Focus | Time |
+| --- | --- | --- |
+| 1–3 | Opening and one-parameter AI illustration | 5 minutes |
+| 4–7 | Retrieve Examples 1.9–1.14 | 8 minutes |
+| 8–11 | Stationary-point types, Example 1.16, hinge and sign-table summary | 11 minutes |
+| 12 | Example 1.17 | 6 minutes |
+| 13 | Example 1.18 | 7 minutes |
+| 14 | Example 1.19 | 7 minutes |
+| 15 | Example 1.20 | 4 minutes |
+| 16–17 | Return to AI, success criterion and full Homework 3 | 2 minutes |
+
+The retrieval examples remain visible in full but receive short answer checks rather than six full demonstrations. The teacher can respond to misconceptions using the worked notes. Worked examples 1.17–1.20 are completed in OneNote; their solutions are not automatically revealed.
+
+### AI context and visual
+
+The plotted illustration is f(x)=(x−2)^2+1, where x represents one adjustable model parameter and f(x) represents prediction error in arbitrary units. It is an illustrative slice, not measured data, and the horizontal axis is not time or training iterations. Real models generally have many parameters. The sign reasoning is the one-variable foundation of gradient descent.
+
+Use the slider or Left/Middle/Right point buttons to select x=1, 2 or 3. Predict whether the error function is increasing, decreasing or stationary, then use the neutral Show/Hide button. Each change hides the previous interpretation; Reset restores x=1 and hides it. At x=1, f'=-2; at x=2, f'=0; at x=3, f'=2. A sufficiently small move opposite the derivative's sign reduces error when the derivative is nonzero. A zero derivative alone does not establish a minimum. The bowl's neighbourhood does establish a minimum, but more complicated error functions can have other stationary points or local minima that are not global.
+
+Source: Google, Machine Learning Crash Course, Linear regression: Gradient descent, https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent .
+
+All new dynamic mathematical labels use the existing VectorDiagramMath native SVG renderer, with local MathJax assets; prose and controls use KaTeX. No SVG foreignObject or hover-dependent interaction is introduced. Original diagrams for Examples 1.9, 1.15 and 1.16 are vector crops from the supplied PDF with outlined glyphs.
+
+### Worked checks and cautions
+
+| Example | Checked result |
+| --- | --- |
+| 1.9 | A decreasing; B stationary; C increasing; D stationary; E decreasing; F stationary; G stationary; H increasing. |
+| 1.10 | y'=3(x−1)(x−3); at x=0 increasing, at x=1 stationary. |
+| 1.11 | y'=3x²−4; y'<0 for −2/√3<x<2/√3. |
+| 1.12 | f=(x−1)²−16; vertex (1,−16), roots −3 and 5; f'=2x−2. Decreasing for x<1, increasing for x>1, stationary at x=1. |
+| 1.13 | y'=−1/x²<0 on each separate domain interval, never zero. No stationary points. |
+| 1.14 | f'=3x²+1>0 gives at most one root. Continuity with f(0)=−1 and f(1)=1 gives existence, hence exactly one root. |
+| 1.15 | A,F local minima; C local maximum; E horizontal inflection; B,D non-horizontal inflections as drawn. |
+| 1.16 | In source order: +,0,−; −,0,+; +,0,+; −,0,−. |
+| 1.17 | y'=3(x+4)(x−2). Local maximum (−4,85); local minimum (2,−23); maximum/minimum values 85 and −23. |
+| 1.18 | y'=15x²(x−2)(x+2). Local maximum (−2,64), horizontal inflection (0,0), local minimum (2,−64). Roots 0 and ±√(20/3); odd symmetry. |
+| 1.19 | y'=(x−1)(x+2)²(5x+1). Horizontal inflection (−2,0), local maximum (−1/5,26244/3125), local minimum (1,0). y-intercept 8. |
+| 1.20 | y=x³−(9/2)x²+6x; use y(0)=0, y(2)=2 and y'(2)=0. |
+
+Do not call 1/x decreasing across its disconnected domain; justify each interval separately. Distinguish a stationary point from an interval on which the function is constant. For 1.18, the function is strictly decreasing on (−2,2), even though y'=0 at one interior point; the regions where y'<0 exclude that point. Values of local extrema are y-values. All test values in a first-derivative sign table must lie within the neighbouring intervals separated by all zeros/discontinuities of the derivative.
+
+For Example 1.15, briefly name the change in bending at a non-horizontal inflection without introducing the second-derivative test. The first-derivative classification patterns apply to the smooth curves under study; change of concavity remains the definition of inflection. Corners, endpoints and global extrema are considered later.
+
+### Thinking routine and hinge
+
+Example 1.16 includes individual thought and paired explanation followed by **What Makes You Say That?**, adapted from Project Zero, Harvard Graduate School of Education: https://www.pz.harvard.edu/resources/what-makes-you-say . Ask students for evidence in tangent gradients before showing the signs.
+
+The hinge shows the graph of f'(x)=−(x−1)² without its equation. It touches the x-axis at x=1 and is negative on both sides. Question: “The graph is y=f'(x). What occurs on y=f(x) at x=1?”
+
+1. A local maximum — confuses the shape of the derivative graph with the original graph.
+2. A local minimum — assumes zero derivative establishes minimum.
+3. **A horizontal point of inflection — correct:** decreasing, horizontal, decreasing.
+4. No stationary point, because the function continues decreasing — assumes stationary requires turning.
+
+The answer does not assert f(1)=0. An antiderivative is −(x−1)³/3+C. Use the shared 60-second adjustable timer, independent thinking and simultaneous 1–4 fingers on the teacher's show cue. Expiry does not reveal; Reset hides and clears. Ready: explain signs and proceed. Divided: compare reasons and revote. Needs explanation: negative/horizontal/negative tangent sketches, then recheck.
+
+Craig Barton, diagnostic questions: https://tipsforteachers.co.uk/diagnostic-questions/ .
+
+### Homework 3
+
+Keep the full original allocation together: **Cambridge Year 12 Extension 1**.
+
+- Mild: Exercise 3A Q3, Q11; Exercise 3B Q3(a,b), Q4(c,d), Q6.
+- Medium: Exercise 3A Q13, Q16; Exercise 3B Q4(d), Q7, Q8(c), Q13(a).
+- Spicy: Exercise 3A Q21; Exercise 3B Q8(d), Q9, Q16; Exercise 3C Q2(c).
+
+No split, removal or additional textbook questions. The student homework slide contains only this source and allocation.

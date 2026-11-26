@@ -1,0 +1,13 @@
+## Example 1.20 {#gac3-example-1-20 .gac-lesson }
+
+A monic cubic polynomial passes through the origin and has a stationary point at $A(2,2)$. What is the equation of the polynomial?
+
+```{=html}
+<p class="booklet-cue">Example 1.20 · Booklet p. 25</p>
+```
+
+::: notes
+4 minutes. Monic means leading coefficient 1. Write y=x^3+ax^2+bx+c. Passing through the origin gives c=0. Passing through (2,2) gives 8+4a+2b=2, or 2a+b=−3. Stationary at x=2 gives y'(2)=12+4a+b=0, or 4a+b=−12. Subtraction gives a=−9/2 and then b=6. Therefore y=x^3−(9/2)x^2+6x. Check y(2)=2 and y'(2)=0.
+
+Use both pieces of information about A: its coordinates and its horizontal tangent. Do not put x=2 into y' and equate it to 2. The question does not require classification or the other stationary point.
+:::

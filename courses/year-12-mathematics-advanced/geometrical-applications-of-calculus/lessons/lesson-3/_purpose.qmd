@@ -1,0 +1,15 @@
+## What, why and prior learning {#gac3-purpose .gac-lesson }
+
+```{=html}
+<div class="gac-intentions">
+<div class="gac-intention"><strong>What?</strong><p>We are learning to use the first derivative to identify increasing, decreasing and stationary behaviour and classify stationary points.</p></div>
+<div class="gac-intention"><strong>Why?</strong><p>AI training uses the sign of a derivative to decide whether increasing or decreasing a model parameter will reduce prediction error.</p></div>
+<div class="gac-intention gac-prior"><strong>Prior learning</strong><p>From Year 11: interpreting derivative signs, finding stationary points and determining increasing and decreasing intervals.</p></div>
+</div>
+```
+
+::: notes
+2 minutes including the cover. Success criterion: I can use a first-derivative sign table to justify where a function increases or decreases and classify its stationary points.
+
+The supplied Year 11 booklet, Section 3.3, pp. 30–36, establishes this prior learning. Its Examples 3.9–3.12 closely match current Examples 1.10–1.12 and 1.14. Last lesson calculated second and higher derivatives; today we use the first derivative geometrically.
+:::

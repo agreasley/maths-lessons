@@ -1,0 +1,17 @@
+## Examples 1.13–1.14 {#gac3-examples-1-13-1-14 .gac-lesson }
+
+```{=html}
+<div class="gac3-retrieval-columns">
+<div><h3>Example 1.13</h3><p>Prove that <span data-math="y=\dfrac1x"></span> is strictly decreasing on each of the intervals <span data-math="(-\infty,0)"></span> and <span data-math="(0,\infty)"></span>, and that it has no stationary points.</p></div>
+<div><h3>Example 1.14</h3><p>Show that <span data-math="f(x)=x^3+x-1"></span> has exactly one <span data-math="x"></span> intercept by considering its derivative.</p></div>
+</div>
+<p class="booklet-cue">Examples 1.13–1.14 · Booklet p. 18</p>
+```
+
+::: notes
+3 minutes. 1.13 reinforces the domain; 1.14 repeats Year 11 Example 3.12.
+
+1.13: y'=−1/x^2<0 for every x≠0. It is therefore strictly decreasing on each connected interval (−∞,0) and (0,∞). The derivative never equals zero, so there are no stationary points. x=0 is outside the domain. Do not claim the function is decreasing across its disconnected domain: f(−1)=−1<f(1)=1. A quick reciprocal sketch in OneNote makes the two branches explicit.
+
+1.14: f'(x)=3x^2+1>0 for every real x, so f is strictly increasing and has at most one root. As a polynomial it is continuous; f(0)=−1 and f(1)=1, so it has a root between 0 and 1. Combining existence and uniqueness gives exactly one x-intercept. Positive derivative alone establishes at most one, not existence.
+:::

@@ -1,0 +1,15 @@
+## Stationary does not always mean turning {#gac3-example-1-15 .gac-lesson }
+
+```{=html}
+<div class="gac3-types"><span>Local maximum</span><span>Local minimum</span><span>Horizontal point of inflection</span></div>
+<p class="gac3-example-label">Example 1.15</p>
+<p class="gac3-source">Classify the labelled points on the curve below.</p>
+<img class="gac3-source-graph gac3-classify-graph" src="../media/example-1-15.svg" alt="Original booklet curve with points A to F. A and F are troughs, C is a peak, and E has a horizontal tangent without turning.">
+<p class="booklet-cue">Example 1.15 · Booklet p. 20</p>
+```
+
+::: notes
+3 minutes. Introduce the three types of smooth stationary point, then classify the supplied graph. A and F: local minimum turning points. C: local maximum turning point. E: horizontal/stationary point of inflection. B and D: non-stationary points of inflection as drawn; their tangents are respectively positive and negative. Briefly explain that an inflection changes the way the curve bends, and need not have a horizontal tangent. Formal concavity and tests for inflection are next lesson.
+
+Local refers to nearby values, not the greatest or least value over the whole domain. Horizontal gradient alone does not distinguish a maximum, minimum or horizontal inflection. The classification here concerns the smooth stationary points in the supplied examples; extrema can also occur at corners/endpoints, considered later. Do not infer an exact formula from this schematic source graph.
+:::

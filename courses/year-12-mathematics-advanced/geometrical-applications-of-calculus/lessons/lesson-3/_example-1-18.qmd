@@ -1,0 +1,14 @@
+## Example 1.18 {#gac3-example-1-18 .gac-lesson }
+
+Consider the curve $y=3x^5-20x^3$.
+
+```{=html}
+<div class="gac3-parts"><p>a) Find the coordinates of any stationary points of the curve, and determine their nature.</p><p>b) Sketch the curve, showing all key features.</p><p>c) State the values of the local maxima and/or minima.</p></div>
+<p class="booklet-cue">Example 1.18 · Booklet p. 23</p>
+```
+
+::: notes
+7 minutes. y'=15x^4−60x^2=15x^2(x−2)(x+2). Stationary x-values −2, 0, 2. Sign table: +,0,−,0,−,0,+ across these values. y(−2)=64; y(0)=0; y(2)=−64. Thus (−2,64) is a local maximum, (0,0) a horizontal point of inflection, and (2,−64) a local minimum. The maximum/minimum VALUES requested in part (c) are 64 and −64.
+
+Sketch: odd symmetry, positive-leading quintic, roots x=0 and x=±sqrt(20/3). Decreasing on (−2,2) despite the isolated horizontal tangent at zero. For regions where y'<0 specifically, use (−2,0) union (0,2). The squared factor x^2 reaches zero without changing sign, explaining the stationary non-turning point. Do not classify every root of the derivative as a turning point.
+:::

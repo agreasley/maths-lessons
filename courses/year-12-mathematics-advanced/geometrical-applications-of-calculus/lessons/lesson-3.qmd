@@ -1,0 +1,42 @@
+---
+pagetitle: "Lesson 3 — The first derivative and stationary points"
+lesson-title: "The first derivative and stationary points"
+description: "Interpret increasing, decreasing and stationary behaviour, then classify stationary points using the first derivative."
+lesson-order: 3
+booklet: "Section 1.3 · Examples 1.9–1.20 · pp. 14–26"
+homework: "Cambridge Year 12 Extension 1 – Exercises 3A, 3B and 3C"
+---
+
+{{< include lesson-3/_opening.qmd >}}
+
+{{< include lesson-3/_purpose.qmd >}}
+
+{{< include lesson-3/_ai.qmd >}}
+
+{{< include lesson-3/_example-1-9.qmd >}}
+
+{{< include lesson-3/_examples-1-10-1-11.qmd >}}
+
+{{< include lesson-3/_example-1-12.qmd >}}
+
+{{< include lesson-3/_examples-1-13-1-14.qmd >}}
+
+{{< include lesson-3/_example-1-15.qmd >}}
+
+{{< include lesson-3/_example-1-16.qmd >}}
+
+{{< include lesson-3/_hinge.qmd >}}
+
+{{< include lesson-3/_first-derivative-test.qmd >}}
+
+{{< include lesson-3/_example-1-17.qmd >}}
+
+{{< include lesson-3/_example-1-18.qmd >}}
+
+{{< include lesson-3/_example-1-19.qmd >}}
+
+{{< include lesson-3/_example-1-20.qmd >}}
+
+{{< include lesson-3/_key-ideas.qmd >}}
+
+{{< include lesson-3/_homework.qmd >}}

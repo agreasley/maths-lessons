@@ -1,0 +1,16 @@
+## Example 1.19 {#gac3-example-1-19 .gac-lesson }
+
+Consider the curve $y=(x-1)^2(x+2)^3$.
+
+```{=html}
+<div class="gac3-parts"><p>a) Find the coordinates of any stationary points of the curve, and determine their nature.</p><p>b) Sketch the curve, showing all key features.</p><p>c) State the values of the local maxima and/or minima.</p></div>
+<p class="booklet-cue">Example 1.19 · Booklet p. 24</p>
+```
+
+::: notes
+7 minutes. Use product rule and retain factors:
+y'=2(x−1)(x+2)^3+3(x−1)^2(x+2)^2=(x−1)(x+2)^2(5x+1).
+Stationary x-values −2, −1/5, 1. Signs: +,0,+,0,−,0,+. Thus (−2,0) is a horizontal point of inflection; (−1/5,26244/3125) is a local maximum; (1,0) is a local minimum. Maximum value 26244/3125 ≈8.39808; minimum value 0.
+
+Sketch: positive-leading quintic, y-intercept 8, crosses the x-axis with horizontal tangent at −2 (odd multiplicity), touches at 1 (even multiplicity). The squared factor (x+2)^2 in y' does not change sign at −2. Distinguish the factor multiplicities in y from those in y'. The point's height must come from y, not y'.
+:::

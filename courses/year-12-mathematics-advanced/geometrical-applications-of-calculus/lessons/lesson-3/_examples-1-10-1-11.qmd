@@ -1,0 +1,17 @@
+## Examples 1.10–1.11 {#gac3-examples-1-10-1-11 .gac-lesson }
+
+```{=html}
+<div class="gac3-retrieval-columns">
+<div><h3>Example 1.10</h3><p>Consider the curve <span data-math="y=x^3-6x^2+9x"></span>.</p><p>a) Find the gradient function for this curve.</p><p>b) Hence state whether the curve is increasing, decreasing or stationary at:</p><p>i) <span data-math="x=0"></span>;<br>ii) <span data-math="x=1"></span>;</p></div>
+<div><h3>Example 1.11</h3><p>Find the values of <span data-math="x"></span> for which <span data-math="y=x^3-4x"></span> is decreasing.</p></div>
+</div>
+<p class="booklet-cue">Examples 1.10–1.11 · Booklet p. 16</p>
+```
+
+::: notes
+2 minutes: retrieve answers and reasoning, rather than rewrite full solutions. These are Year 11 Examples 3.9 and the decreasing part of 3.11. Original wording, values and subparts retained.
+
+1.10: y'=3x^2−12x+9=3(x−1)(x−3). At x=0, y'=9>0, increasing. At x=1, y'=0, stationary. The value of y is not the gradient.
+
+1.11: y'=3x^2−4<0 exactly when −2/sqrt(3)<x<2/sqrt(3). The derivative is zero at the boundary values; the interval where y'<0 is open. A derivative-sign conclusion over an interval requires the sign throughout that interval, not just one isolated test without checking boundaries.
+:::

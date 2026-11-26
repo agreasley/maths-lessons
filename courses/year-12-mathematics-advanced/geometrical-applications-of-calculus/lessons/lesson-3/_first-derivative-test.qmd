@@ -1,0 +1,19 @@
+## The first-derivative test {#gac3-first-derivative-test .gac-lesson }
+
+```{=html}
+<p class="gac3-intro">At a stationary point, <span data-math="f'(a)=0"></span>. Check the gradient on either side.</p>
+<table class="gac3-sign-table"><thead><tr><th>Left</th><th>At the point</th><th>Right</th><th>Nature</th></tr></thead><tbody>
+<tr class="fragment" data-fragment-index="0"><td><span data-math="+"></span></td><td><span data-math="0"></span></td><td><span data-math="-"></span></td><td>Local maximum</td></tr>
+<tr class="fragment" data-fragment-index="1"><td><span data-math="-"></span></td><td><span data-math="0"></span></td><td><span data-math="+"></span></td><td>Local minimum</td></tr>
+<tr class="fragment" data-fragment-index="2"><td><span data-math="+"></span></td><td><span data-math="0"></span></td><td><span data-math="+"></span></td><td>Horizontal point of inflection</td></tr>
+<tr class="fragment" data-fragment-index="3"><td><span data-math="-"></span></td><td><span data-math="0"></span></td><td><span data-math="-"></span></td><td>Horizontal point of inflection</td></tr>
+</tbody></table>
+<p class="gac3-reminder">Use <span data-math="f'(x)"></span> to classify; use <span data-math="f(x)"></span> to find the point’s height.</p>
+<p class="booklet-cue">Section 1.3.3 · Booklet p. 22</p>
+```
+
+::: notes
+1 minute: summarise the sign reasoning students have just produced. Each Next click reveals one complete row. State that these are the stationary-point patterns for the smooth curves studied here. The general definition of inflection remains change of concavity; do not use “no sign change” as a definition covering arbitrary pathological functions.
+
+Use a sign table across intervals separated by every zero or discontinuity of the derivative. Choose test values within the appropriate neighbouring intervals, not across another stationary point. A factorised derivative often proves the sign on an interval directly. Substitute stationary x-values into the original function for coordinates. For parts asking for values of local maxima/minima, report y-values, not x-values. No second derivative test here.
+:::

@@ -1,0 +1,13 @@
+## Example 1.9 {#gac3-example-1-9 .gac-lesson }
+
+```{=html}
+<p class="eyebrow">Year 11 retrieval</p>
+<p class="gac3-source">Identify whether the curve is increasing, decreasing or stationary at the marked points.</p>
+<img class="gac3-source-graph" src="../media/example-1-9.svg" alt="Original booklet curve with points A to H, including the horizontal point F on a descending section.">
+<div class="gac3-sign-recall"><span data-math="f'(x)>0"></span><span>increasing</span><span data-math="f'(x)<0"></span><span>decreasing</span><span data-math="f'(x)=0"></span><span>stationary</span></div>
+<p class="booklet-cue">Example 1.9 · Booklet p. 15</p>
+```
+
+::: notes
+2 minutes. Retrieve the signs first, then students classify the original labelled points: A decreasing; B stationary; C increasing; D stationary; E decreasing; F stationary; G stationary; H increasing. F has a horizontal tangent even though the graph continues downwards on either side. At a point, stationary describes zero tangent gradient, not a constant function on an interval. Reserve formal classification for Example 1.15.
+:::

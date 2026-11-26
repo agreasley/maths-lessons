@@ -1,0 +1,14 @@
+## Does stationary mean the best setting? {#gac3-key-ideas .gac-lesson }
+
+```{=html}
+<p class="gac3-intro">A zero derivative identifies a stationary point. The neighbouring behaviour tells us its nature.</p>
+<div class="gac3-summary"><p><strong>Increasing or decreasing?</strong><br>Read the sign of <span data-math="f'(x)"></span>.</p><p><strong>Maximum, minimum or horizontal inflection?</strong><br>Compare the signs on either side.</p></div>
+<p class="takeaway">For the error curve, decreasing then increasing identifies a local minimum.</p>
+<p class="gac-success"><strong>I can</strong> use a first-derivative sign table to justify where a function increases or decreases and classify its stationary points.</p>
+```
+
+::: notes
+About 1 minute, followed by homework. Return to the AI question: a zero derivative alone does not identify a minimum. For the illustrative bowl, the signs − then + establish a minimum; its full shape shows it is global. In more complicated error functions a local minimum need not be the best across all parameter values. This is a conceptual connection, not a claim that real AI training always reaches a global optimum.
+
+Quick check: “Which example had a stationary point that did not turn?” Accept 1.18 at x=0 or 1.19 at x=−2, with a sign explanation. Revisit the success criterion. Formal concavity and the second-derivative test follow next lesson.
+:::

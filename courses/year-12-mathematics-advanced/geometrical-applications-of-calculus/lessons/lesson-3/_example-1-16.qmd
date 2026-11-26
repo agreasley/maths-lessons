@@ -1,0 +1,24 @@
+## Example 1.16 {#gac3-example-1-16 .gac-lesson }
+
+```{=html}
+<p class="gac3-source">For each of the following points, label the sign of the gradient to either side of the stationary point. Explain how you could use this to determine the ‘nature’ of any given stationary point algebraically.</p>
+<div data-module="reveal-panel" class="gac3-neighbourhood">
+<div class="gac3-neighbourhood-grid">
+<div><img src="../media/example-1-16-a.svg" alt="Booklet sketch of a smooth local maximum."><div class="panel-answer" hidden><span data-math="+\quad 0\quad -"></span></div></div>
+<div><img src="../media/example-1-16-b.svg" alt="Booklet sketch of a smooth local minimum."><div class="panel-answer" hidden><span data-math="-\quad 0\quad +"></span></div></div>
+<div><img src="../media/example-1-16-c.svg" alt="Booklet sketch of an increasing horizontal point of inflection."><div class="panel-answer" hidden><span data-math="+\quad 0\quad +"></span></div></div>
+<div><img src="../media/example-1-16-d.svg" alt="Booklet sketch of a decreasing horizontal point of inflection."><div class="panel-answer" hidden><span data-math="-\quad 0\quad -"></span></div></div>
+</div>
+<button class="toggle-panel" aria-pressed="false">Show</button>
+</div>
+<p class="gac-prompt">What makes you say that?</p>
+<p class="booklet-cue">Example 1.16 · Booklet p. 21</p>
+```
+
+::: notes
+4 minutes. Give 45–60 seconds individual thought, then brief paired reasons. Use the original four diagrams, in the original left-to-right order. Students annotate their booklet before the teacher-controlled Show/Hide button reveals the sign patterns. Each middle zero is the gradient at the stationary point; compare signs in the neighbouring intervals.
+
+Left to right: +,0,− (maximum); −,0,+ (minimum); +,0,+ (horizontal inflection); −,0,− (horizontal inflection). Ask students to translate each sign into rising/falling tangent strokes and explain how this establishes the local behaviour. The last two distinguish being stationary from turning.
+
+Project Zero, Harvard Graduate School of Education, What Makes You Say That? (adapted): https://www.pz.harvard.edu/resources/what-makes-you-say . Exact follow-up: “What makes you say that?” Require evidence from the tangent gradients. This discussion is within the example's four minutes, not an extra activity.
+:::

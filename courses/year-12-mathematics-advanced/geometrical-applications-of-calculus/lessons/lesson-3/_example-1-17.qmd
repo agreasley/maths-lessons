@@ -1,0 +1,14 @@
+## Example 1.17 {#gac3-example-1-17 .gac-lesson }
+
+Consider the curve $y=x^3+3x^2-24x+5$.
+
+```{=html}
+<div class="gac3-parts"><p>a) Find the coordinates of any stationary points of the curve, and determine their nature.</p><p>b) Sketch the curve, showing all key features.</p><p>c) State the values of the local maxima and/or minima.</p></div>
+<p class="booklet-cue">Example 1.17 · Booklet p. 22</p>
+```
+
+::: notes
+6 minutes. y'=3x^2+6x−24=3(x+4)(x−2). Stationary x-values −4 and 2. y(−4)=85, y(2)=−23. Gradient signs + for x<−4, − for −4<x<2, + for x>2. Therefore (−4,85) is a local maximum and (2,−23) a local minimum. Local maximum value 85; local minimum value −23.
+
+Sketch: positive-leading cubic, y-intercept (0,5), increasing/decreasing intervals as above. There are three x-intercepts; approximate values −6.696, 0.214 and 3.481 can be supplied for the sketch if desired (exact cubic solving is not intended). The stationary features and y-intercept are exact. Work in OneNote; ask students to explain each sign before drawing the curve. Local extrema do not give global extrema on the real domain.
+:::

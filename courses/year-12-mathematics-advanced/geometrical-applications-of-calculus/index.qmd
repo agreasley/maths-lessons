@@ -13,7 +13,7 @@ listing:
 
 ```{=html}
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">All courses</a></li><li><a href="../index.html">Year 12 Mathematics Advanced</a></li><li><span aria-current="page">Geometrical Applications of Calculus</span></li></ol></nav>
-<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Advanced</p><h1>Geometrical Applications of Calculus</h1><p class="intro-copy">Connect derivatives to the shape and behaviour of a graph.</p><div class="topic-tags"><span>2 lessons available</span><span>Continuity and repeated differentiation</span><span>Booklet Examples 1.1–1.8</span></div></header>
+<header class="page-intro topic-intro"><p class="eyebrow">Year 12 Mathematics Advanced</p><h1>Geometrical Applications of Calculus</h1><p class="intro-copy">Connect derivatives to the shape and behaviour of a graph.</p><div class="topic-tags"><span>3 lessons available</span><span>Continuity, derivatives and stationary points</span><span>Booklet Examples 1.1–1.20</span></div></header>
 <div class="section-heading"><h2>Your lessons</h2><span>Keep your booklet alongside you</span></div>
 ```
 
@@ -21,5 +21,5 @@ listing:
 :::
 
 ```{=html}
-<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>From a derivative to its derivative</h2><p>Lesson 1 covers continuity and differentiability: Section 1.1, Examples 1.1–1.4, with Homework 1 on page 7. Lesson 2 covers second and higher derivatives: Section 1.2, Examples 1.5–1.8, with Homework 2 on page 13.</p><p>The supplied homework uses Cambridge Year 12 Extension 1: Exercise 3H for Lesson 1 and Exercise 3D for Lesson 2.</p></div></div>
+<div role="note" class="study-note" aria-label="Using these lessons"><div class="note-mark" aria-hidden="true">i</div><div><h2>From derivatives to graph behaviour</h2><p>Lesson 1 covers continuity and differentiability: Section 1.1, Examples 1.1–1.4, with Homework 1 on page 7. Lesson 2 covers second and higher derivatives: Section 1.2, Examples 1.5–1.8, with Homework 2 on page 13. Lesson 3 retrieves increasing, decreasing and stationary behaviour, then classifies stationary points: Section 1.3, Examples 1.9–1.20, with Homework 3 on page 26.</p><p>The supplied homework uses Cambridge Year 12 Extension 1: Exercise 3H for Lesson 1 and Exercise 3D for Lesson 2, and Exercises 3A, 3B and 3C for Lesson 3.</p></div></div>
 ```

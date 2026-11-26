@@ -1,0 +1,12 @@
+## Example 1.12 {#gac3-example-1-12 .gac-lesson }
+
+```{=html}
+<p class="eyebrow">Year 11 retrieval</p>
+<p>Consider the curve <span data-math="f(x)=(x+3)(x-5)"></span>.</p>
+<div class="gac3-parts"><p>a) Sketch the curve <span data-math="y=f(x)"></span>, making sure you label the vertex.</p><p>b) For what values of <span data-math="x"></span> is the curve</p><p class="gac3-indent">i) increasing;<br>ii) decreasing;<br>iii) stationary?</p><p>c) Confirm your answer by considering an algebraic approach.</p></div>
+<p class="booklet-cue">Example 1.12 · Booklet p. 17</p>
+```
+
+::: notes
+1 minute: confirm the recalled quadratic rather than reteach. Same function as Year 11 Example 3.10, now in factored form. f(x)=x^2−2x−15=(x−1)^2−16. Upward parabola: vertex (1,−16), roots −3 and 5, y-intercept −15. f'(x)=2x−2, so increasing for x>1, decreasing for x<1, stationary at x=1. The vertex is a local and global minimum here. In the inequality answers use the sign regions requested; the zero-gradient boundary is recorded separately.
+:::

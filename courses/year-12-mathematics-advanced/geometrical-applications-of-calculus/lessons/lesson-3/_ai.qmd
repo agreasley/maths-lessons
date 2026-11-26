@@ -1,0 +1,25 @@
+## How does a model know which way to adjust? {#gac3-ai .gac-lesson }
+
+```{=html}
+<p class="gac3-intro">Training adjusts a model’s parameters to reduce its prediction error.</p>
+<div data-gac3-loss>
+<div class="gac3-ai-layout">
+<svg class="gac3-loss-graph" viewBox="0 0 650 375" role="img" aria-label="Illustrative prediction error against one model parameter, with a movable point and its tangent"></svg>
+<div class="gac3-ai-controls">
+<p>As the parameter increases, is the error function <strong>increasing, decreasing or stationary</strong>?</p>
+<div class="toolbar"><button data-loss-x="1">Left point</button><button data-loss-x="2">Middle point</button><button data-loss-x="3">Right point</button></div>
+<label class="gac3-loss-label">Model parameter <span data-math="x"></span> <output>1.00</output><input aria-label="Model parameter x" type="range" min="0.25" max="3.75" step="0.05" value="1"></label>
+<div class="toolbar"><button class="gac3-loss-show" aria-expanded="false" aria-controls="gac3-loss-result">Show</button><button class="gac3-loss-reset">Reset</button></div>
+<div id="gac3-loss-result" class="gac3-loss-result" hidden aria-live="polite"></div>
+</div></div>
+<p class="gac3-ai-question">If the derivative is zero, have we necessarily found the best setting?</p>
+</div>
+```
+
+::: notes
+3 minutes. Additional application, not a booklet example. The plot is a one-parameter illustration f(x)=(x−2)^2+1; it is not measured training data. Horizontal axis: the model parameter, NOT time or training iteration. Vertical axis: prediction error (loss), in arbitrary units. Real models typically have many parameters; the one-variable sign reasoning is the foundation of gradient descent. No algorithm or learning-rate formula needs to be memorised.
+
+Select a point, ask for a prediction, then Show. Each parameter change hides the interpretation again. A positive derivative means increasing the parameter increases error locally, so a sufficiently small decrease reduces it. A negative derivative means a sufficiently small increase reduces error. A zero derivative means the error function is stationary; it does not, by itself, establish a minimum. This particular bowl has a minimum at x=2, which we can justify from its neighbouring behaviour. Do not imply every stationary point is optimal, or that an arbitrarily large step must reduce error. Reset restores x=1 and hides the result.
+
+Ask the final question and leave it to be resolved by the classification work. Source: Google, Machine Learning Crash Course, Linear regression: Gradient descent, https://developers.google.com/machine-learning/crash-course/linear-regression/gradient-descent .
+:::
